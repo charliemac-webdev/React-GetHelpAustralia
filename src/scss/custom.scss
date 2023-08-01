@@ -136,6 +136,10 @@ a {
     display: block;
     width: 100%;
   }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Styles for screens between 601px and 900px */
