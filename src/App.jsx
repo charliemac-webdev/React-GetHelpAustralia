@@ -5,8 +5,10 @@ import Header from "./components/Header";
 import Help from "./components/Help";
 import Menu from "./components/Menu";
 import Error from "./pages/Error";
+import GetTheFactsConsequences from "./pages/GetTheFactsConsequences";
 import GetTheFactsGrey from "./pages/GetTheFactsGrey";
 import GetTheFactsIntro from "./pages/GetTheFactsIntro";
+import GetTheFactsInvestigation from "./pages/GetTheFactsInvestigation";
 import GetTheFactsLaw from "./pages/GetTheFactsLaw";
 import Home from "./pages/Home";
 
@@ -22,6 +24,14 @@ function App() {
           <Route path="/GetTheFactsIntro" element={<GetTheFactsIntro />} />
           <Route path="/GetTheFactsLaw" element={<GetTheFactsLaw />} />
           <Route path="/GetTheFactsGrey" element={<GetTheFactsGrey />} />
+          <Route
+            path="/GetTheFactsConsequences"
+            element={<GetTheFactsConsequences />}
+          />
+          <Route
+            path="/GetTheFactsInvestigation"
+            element={<GetTheFactsInvestigation />}
+          />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

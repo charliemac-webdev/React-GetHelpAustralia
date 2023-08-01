@@ -1,19 +1,19 @@
 import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
-import GTFGrey from "../data/GTFGrey";
+import GTFInvestigation from "../data/GTFInvestigation";
 
-const GetTheFactsGrey = () => {
+const GetTheFactsInvestigation = () => {
   return (
     <div className="wrapper">
       <Heading>
-        <h2 className="secondary-color mb-3">No &#39;grey area&#39;</h2>
+        <h2 className="secondary-color mb-3">Get the facts</h2>
       </Heading>
       <div className="mainBlock">
         <MainContent>
-          <GTFGrey />
+          <GTFInvestigation />
         </MainContent>
       </div>
     </div>
   );
 };
-export default GetTheFactsGrey;
+export default GetTheFactsInvestigation;

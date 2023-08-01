@@ -30,8 +30,14 @@ const Menu = () => {
             <li>
               <Link to="/GetTheFactsGrey">No 'grey area'</Link>
             </li>
-            <li>Consequences</li>
-            <li>If you are being investigated for internet sexual offences</li>
+            <li>
+              <Link to="/GetTheFactsConsequences">Consequences</Link>
+            </li>
+            <li>
+              <Link to="/GetTheFactsInvestigation">
+                If you are being investigated for internet sexual offences
+              </Link>
+            </li>
           </ul>
         )}
       </MenuItem>
