@@ -17,7 +17,7 @@ const WCStrengths = () => {
         Your illegal internet use is only one part of you, it does not define
         you:
       </p>
-      <img src={image} alt="diagrams-you-offence" />
+      <img src={image} alt="diagrams-you-offence" width={394} height={388} />
       <p>
         You need to take one step at a time, do not rush through it. Our role is
         to ask the right questions not give you the answers; you need to engage

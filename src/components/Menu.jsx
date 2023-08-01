@@ -83,7 +83,9 @@ const Menu = () => {
           </ul>
         )}
       </MenuItem>
-      <h5 className="secondary-color">Useful resources</h5>
+      <h5 className="secondary-color">
+        <Link to="/UsefulResources">Useful resources</Link>
+      </h5>
     </div>
   );
 };
