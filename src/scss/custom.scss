@@ -131,14 +131,23 @@ a {
   .sidebarContainer {
     display: block;
     width: 100%;
+    position: relative;
   }
   .mainBlock {
     display: block;
     width: 100%;
+    position: unset;
+    padding: 10%;
   }
   .wrapper {
     display: flex;
     flex-direction: column;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

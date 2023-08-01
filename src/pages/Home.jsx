@@ -4,7 +4,7 @@ import Introduction from "../data/Introduction";
 
 const Home = () => {
   return (
-    <div className="wrapper">
+    <>
       <Heading>
         <h2 className="secondary-color mb-3">
           Concerned about your online behaviour
@@ -15,7 +15,7 @@ const Home = () => {
           <Introduction />
         </MainContent>
       </div>
-    </div>
+    </>
   );
 };
 export default Home;
