@@ -126,6 +126,22 @@ a {
   color: inherit;
 }
 
+.table-with-borders {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 2px;
+  border: 1px solid;
+  border-color: gray;
+  text-indent: initial;
+}
+
+th,
+td {
+  border: 1px solid;
+  border-color: gray;
+}
+
 /* Styles for screens smaller than 600px */
 @media (max-width: 600px) {
   .sidebarContainer {

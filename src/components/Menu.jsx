@@ -48,8 +48,12 @@ const Menu = () => {
         </div>
         {1102 === isOpen && (
           <ul>
-            <li>Introduction</li>
-            <li>Identifying strengths</li>
+            <li>
+              <Link to="/WhyChangeIntro">Introduction</Link>
+            </li>
+            <li>
+              <Link to="/WhyChangeStrengths">Identifying strengths</Link>
+            </li>
           </ul>
         )}
       </MenuItem>

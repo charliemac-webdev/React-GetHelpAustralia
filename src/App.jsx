@@ -11,6 +11,8 @@ import GetTheFactsIntro from "./pages/GetTheFactsIntro";
 import GetTheFactsInvestigation from "./pages/GetTheFactsInvestigation";
 import GetTheFactsLaw from "./pages/GetTheFactsLaw";
 import Home from "./pages/Home";
+import WhyChangeIntro from "./pages/WhyChangeIntro";
+import WhyChangeStrengths from "./pages/WhyChangeStrengths";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
             path="/GetTheFactsInvestigation"
             element={<GetTheFactsInvestigation />}
           />
+          <Route path="/WhyChangeIntro" element={<WhyChangeIntro />} />
+          <Route path="/WhyChangeStrengths" element={<WhyChangeStrengths />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

@@ -6,7 +6,9 @@ const GetTheFactsInvestigation = () => {
   return (
     <div className="wrapper">
       <Heading>
-        <h2 className="secondary-color mb-3">Get the facts</h2>
+        <h2 className="secondary-color mb-3">
+          If you are being investigated for internet sexual offences
+        </h2>
       </Heading>
       <div className="mainBlock">
         <MainContent>
