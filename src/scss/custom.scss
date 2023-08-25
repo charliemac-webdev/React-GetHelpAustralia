@@ -76,14 +76,17 @@ body {
 .sidebarContainer {
   width: 200px;
   position: absolute;
-  top: 57%;
+  top: 60%;
   left: 13%;
 }
 
 .mainBlock {
   width: calc(100vh - 50px);
+  top: 60%;
   left: 500px;
-  position: relative;
+  height: 70%;
+  position: absolute;
+  overflow-y: auto;
 }
 
 .heading-container {
