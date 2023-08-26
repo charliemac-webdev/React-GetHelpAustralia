@@ -10,11 +10,9 @@ const Home = () => {
           Concerned about your online behaviour
         </h2>
       </Heading>
-      <div className="mainBlock">
-        <MainContent>
-          <Introduction />
-        </MainContent>
-      </div>
+      <MainContent>
+        <Introduction />
+      </MainContent>
     </>
   );
 };

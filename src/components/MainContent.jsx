@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const MainContent = ({ children }) => {
   return (
     <>
-      <div>{children}</div>
+      <div className="main-section-content">{children}</div>
     </>
   );
 };

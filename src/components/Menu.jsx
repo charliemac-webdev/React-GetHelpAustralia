@@ -10,7 +10,7 @@ const Menu = () => {
   }
 
   return (
-    <div className="sidebarContainer">
+    <div className="main-section-menu">
       <h5 className="secondary-color">
         <Link to="/">Introduction</Link>
       </h5>

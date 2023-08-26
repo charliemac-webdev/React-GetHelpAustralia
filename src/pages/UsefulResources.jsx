@@ -4,16 +4,14 @@ import Resources from "../data/Resources";
 
 const UsefulResources = () => {
   return (
-    <div className="wrapper">
+    <>
       <Heading>
         <h2 className="secondary-color mb-3">Useful resources</h2>
       </Heading>
-      <div className="mainBlock">
-        <MainContent>
-          <Resources />
-        </MainContent>
-      </div>
-    </div>
+      <MainContent>
+        <Resources />
+      </MainContent>
+    </>
   );
 };
 export default UsefulResources;

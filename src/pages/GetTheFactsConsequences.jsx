@@ -4,16 +4,14 @@ import GTFConsequences from "../data/GTFConsequences";
 
 const GetTheFactsConsequences = () => {
   return (
-    <div className="wrapper">
+    <>
       <Heading>
         <h2 className="secondary-color mb-3">Consequences</h2>
       </Heading>
-      <div className="mainBlock">
-        <MainContent>
-          <GTFConsequences />
-        </MainContent>
-      </div>
-    </div>
+      <MainContent>
+        <GTFConsequences />
+      </MainContent>
+    </>
   );
 };
 export default GetTheFactsConsequences;

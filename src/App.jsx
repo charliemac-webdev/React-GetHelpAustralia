@@ -1,8 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+// Components
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Help from "./components/Help";
+
+// Pages
 import Menu from "./components/Menu";
 import Error from "./pages/Error";
 import GetTheFactsConsequences from "./pages/GetTheFactsConsequences";
@@ -21,25 +24,30 @@ function App() {
       <BrowserRouter>
         <Header />
         <Help />
-        <Menu />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/GetTheFactsIntro" element={<GetTheFactsIntro />} />
-          <Route path="/GetTheFactsLaw" element={<GetTheFactsLaw />} />
-          <Route path="/GetTheFactsGrey" element={<GetTheFactsGrey />} />
-          <Route
-            path="/GetTheFactsConsequences"
-            element={<GetTheFactsConsequences />}
-          />
-          <Route
-            path="/GetTheFactsInvestigation"
-            element={<GetTheFactsInvestigation />}
-          />
-          <Route path="/WhyChangeIntro" element={<WhyChangeIntro />} />
-          <Route path="/WhyChangeStrengths" element={<WhyChangeStrengths />} />
-          <Route path="/UsefulResources" element={<UsefulResources />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
+        <div className="main-section-grid">
+          <Menu />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/GetTheFactsIntro" element={<GetTheFactsIntro />} />
+            <Route path="/GetTheFactsLaw" element={<GetTheFactsLaw />} />
+            <Route path="/GetTheFactsGrey" element={<GetTheFactsGrey />} />
+            <Route
+              path="/GetTheFactsConsequences"
+              element={<GetTheFactsConsequences />}
+            />
+            <Route
+              path="/GetTheFactsInvestigation"
+              element={<GetTheFactsInvestigation />}
+            />
+            <Route path="/WhyChangeIntro" element={<WhyChangeIntro />} />
+            <Route
+              path="/WhyChangeStrengths"
+              element={<WhyChangeStrengths />}
+            />
+            <Route path="/UsefulResources" element={<UsefulResources />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
     </div>

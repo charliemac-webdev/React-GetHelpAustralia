@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 const Heading = ({ children }) => {
   return (
-    <div className="container-fluid">
-      <div className="heading-container">{children}</div>
-    </div>
+    <>
+      <div className="main-section-heading">{children}</div>
+    </>
   );
 };
 

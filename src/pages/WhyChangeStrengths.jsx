@@ -4,16 +4,14 @@ import WCStrengths from "../data/WCStrengths";
 
 const WhyChangeStrengths = () => {
   return (
-    <div className="wrapper">
+    <>
       <Heading>
         <h2 className="secondary-color mb-3">Identifying strengths</h2>
       </Heading>
-      <div className="mainBlock">
-        <MainContent>
-          <WCStrengths />
-        </MainContent>
-      </div>
-    </div>
+      <MainContent>
+        <WCStrengths />
+      </MainContent>
+    </>
   );
 };
 export default WhyChangeStrengths;
