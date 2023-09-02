@@ -121,6 +121,12 @@ ul {
   list-style-type: none;
 }
 
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-color: var(--clr-primary);
+}
+
 .MenuItem-title {
   display: flex;
   justify-content: space-between;
