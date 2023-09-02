@@ -1,4 +1,5 @@
 import logo from "../images/stopitnow.png";
+import Button from "./Button";
 
 const Navbar = () => {
   return (
@@ -12,13 +13,17 @@ const Navbar = () => {
             <a
               className="nav-link secondary-color"
               aria-current="page"
-              href="#"
+              href="/"
             >
               HOME
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link secondary-color" href="#">
+            <a
+              className="nav-link secondary-color"
+              target="_blank"
+              href="https://www.stopitnow.org.au/helpline"
+            >
               HELP AND SUPPORT
             </a>
           </li>
@@ -28,9 +33,9 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a id="help-button" className="nav-link">
+            <Button ident="help-button" classes="nav-link">
               HELPLINE
-            </a>
+            </Button>
           </li>
         </ul>
       </div>

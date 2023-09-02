@@ -14,6 +14,7 @@ import GetTheFactsIntro from "./pages/GetTheFactsIntro";
 import GetTheFactsInvestigation from "./pages/GetTheFactsInvestigation";
 import GetTheFactsLaw from "./pages/GetTheFactsLaw";
 import Home from "./pages/Home";
+import SelfAwarenessIntro from "./pages/SelfAwarenessIntro";
 import UsefulResources from "./pages/UsefulResources";
 import WhyChangeIntro from "./pages/WhyChangeIntro";
 import WhyChangeStrengths from "./pages/WhyChangeStrengths";
@@ -43,6 +44,10 @@ function App() {
             <Route
               path="/WhyChangeStrengths"
               element={<WhyChangeStrengths />}
+            />
+            <Route
+              path="/SelfAwarenessIntro"
+              element={<SelfAwarenessIntro />}
             />
             <Route path="/UsefulResources" element={<UsefulResources />} />
             <Route path="*" element={<Error />} />

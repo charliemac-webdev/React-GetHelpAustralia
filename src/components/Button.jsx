@@ -1,10 +1,10 @@
-const Button = () => {
+const Button = (props) => {
   return (
-    <div className="d-grid gap-2">
-      <button id="leave-button" className="btn fw-semibold p-2" type="button">
-        Click here to quickly leave
+    <>
+      <button className={props.classes} id={props.ident}>
+        {props.children}
       </button>
-    </div>
+    </>
   );
 };
 export default Button;

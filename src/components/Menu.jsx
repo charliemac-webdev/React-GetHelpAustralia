@@ -64,7 +64,9 @@ const Menu = () => {
         </div>
         {1103 === isOpen && (
           <ul>
-            <li>Introduction</li>
+            <li>
+              <Link to="/SelfAwarenessIntro">Introduction</Link>
+            </li>
             <li>Online cognition scale</li>
             <li>Internet and values</li>
           </ul>
