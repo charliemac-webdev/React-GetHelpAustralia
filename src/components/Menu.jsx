@@ -79,6 +79,9 @@ const Menu = () => {
         </div>
         {1104 === isOpen && (
           <ul>
+            <li>
+              <Link to="/SelfHelpIntro">Introduction</Link>
+            </li>
             <li>Your well-being and self-care</li>
             <li>Understanding the behaviour</li>
             <li>Moving Forward</li>
