@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Card from "../components/Card";
 import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
@@ -17,7 +18,9 @@ const SelfHelpIntro = () => {
               title="Your wellbeing and self-care"
               subtitle="Help with looking after yourself and understanding and dealing with emotions."
             >
-              Select Module
+              <Link to="/self-help-your-wellbeing-and-self-care">
+                Select Module
+              </Link>
             </Card>
           </div>
           <div className="col">

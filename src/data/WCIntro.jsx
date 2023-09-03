@@ -24,7 +24,7 @@ const WCIntro = () => {
         title="Interview with man arrested for downloading indecent images of children - Summary"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
       <p>
         Of course making changes in life is never easy. For example, smokers

@@ -33,9 +33,11 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <Button ident="help-button" classes="nav-link">
-              HELPLINE
-            </Button>
+            <a target="_blank" href="https://www.stopitnow.org.au/helpline">
+              <Button ident="help-button" classes="nav-link">
+                HELPLINE
+              </Button>
+            </a>
           </li>
         </ul>
       </div>
