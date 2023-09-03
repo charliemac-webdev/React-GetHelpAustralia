@@ -8,12 +8,12 @@ import Help from "./components/Help";
 // Pages
 import Menu from "./components/Menu";
 import Error from "./pages/Error";
-import GetTheFactsGrey from "./pages/GetTheFactsGrey";
-import GetTheFactsIntro from "./pages/GetTheFactsIntro";
-import GetTheFactsInvestigation from "./pages/GetTheFactsInvestigation";
-import GetTheFactsLaw from "./pages/GetTheFactsLaw";
 import Home from "./pages/Home";
 import GetTheFactsConsequences from "./pages/get-the-facts-consequences";
+import GetTheFactsInvestigation from "./pages/get-the-facts-if-being-investigated";
+import GetTheFactsIntro from "./pages/get-the-facts-introduction";
+import GetTheFactsLaw from "./pages/get-the-facts-law";
+import GetTheFactsGrey from "./pages/get-the-facts-no-grey-area";
 import SelfAwarenessIntro from "./pages/self-awareness-introduction";
 import SelfHelpIntro from "./pages/self-help-introduction";
 import SHForward from "./pages/self-help-moving-forward";
@@ -33,15 +33,21 @@ function App() {
           <Menu />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/GetTheFactsIntro" element={<GetTheFactsIntro />} />
-            <Route path="/GetTheFactsLaw" element={<GetTheFactsLaw />} />
-            <Route path="/GetTheFactsGrey" element={<GetTheFactsGrey />} />
+            <Route
+              path="/get-the-facts-introduction"
+              element={<GetTheFactsIntro />}
+            />
+            <Route path="/get-the-facts-law" element={<GetTheFactsLaw />} />
+            <Route
+              path="/get-the-facts-no-grey-area"
+              element={<GetTheFactsGrey />}
+            />
             <Route
               path="/get-the-facts-consequences"
               element={<GetTheFactsConsequences />}
             />
             <Route
-              path="/GetTheFactsInvestigation"
+              path="/get-the-facts-if-being-investigated"
               element={<GetTheFactsInvestigation />}
             />
             <Route

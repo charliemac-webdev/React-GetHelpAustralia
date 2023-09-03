@@ -16,7 +16,7 @@ const Menu = () => {
           Introduction
         </Link>
       </h5>
-      <Link to="/GetTheFactsIntro">
+      <Link to="/get-the-facts-introduction">
         <MenuItem key={1101}>
           <div className="MenuItem-title" onClick={() => handleToggle(1101)}>
             <h5 className="secondary-color">Get the facts</h5>
@@ -25,16 +25,16 @@ const Menu = () => {
           {1101 === isOpen && (
             <ul>
               <li>
-                <Link to="/GetTheFactsLaw">Law</Link>
+                <Link to="/get-the-facts-law">Law</Link>
               </li>
               <li>
-                <Link to="/GetTheFactsGrey">No 'grey area'</Link>
+                <Link to="/get-the-facts-no-grey-area">No 'grey area'</Link>
               </li>
               <li>
                 <Link to="/get-the-facts-consequences">Consequences</Link>
               </li>
               <li>
-                <Link to="/GetTheFactsInvestigation">
+                <Link to="/get-the-facts-if-being-investigated">
                   If you are being investigated for internet sexual offences
                 </Link>
               </li>
