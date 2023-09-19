@@ -14,6 +14,7 @@ import GetTheFactsInvestigation from "./pages/get-the-facts-if-being-investigate
 import GetTheFactsIntro from "./pages/get-the-facts-introduction";
 import GetTheFactsLaw from "./pages/get-the-facts-law";
 import GetTheFactsGrey from "./pages/get-the-facts-no-grey-area";
+import Modal from "./pages/modal-page";
 import SelfAwarenessIntro from "./pages/self-awareness-introduction";
 import SelfHelpIntro from "./pages/self-help-introduction";
 import SHForward from "./pages/self-help-moving-forward";
@@ -73,6 +74,7 @@ function App() {
             />
             <Route path="/self-help-moving-forward" element={<SHForward />} />
             <Route path="/useful-resources" element={<UsefulResources />} />
+            <Route path="/modal-page" element={<Modal />} />
             <Route path="*" element={<Error />} />
           </Routes>
         </div>
