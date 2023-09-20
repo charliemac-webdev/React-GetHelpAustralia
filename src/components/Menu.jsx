@@ -65,8 +65,12 @@ const Menu = () => {
           </div>
           {1103 === isOpen && (
             <ul>
-              <li>Online cognition scale</li>
-              <li>Internet and values</li>
+              <Link to="/online-cognition-scale">
+                <li>Online cognition scale</li>
+              </Link>
+              <Link to="/internet-and-values">
+                <li>Internet and values</li>
+              </Link>
             </ul>
           )}
         </MenuItem>

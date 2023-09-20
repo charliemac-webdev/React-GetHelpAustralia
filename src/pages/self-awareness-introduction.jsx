@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Card from "../components/Card";
 import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
@@ -13,10 +14,14 @@ const SelfAwarenessIntro = () => {
         <SAIntro />
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
-            <Card title="Online cognition scale">Start exploration</Card>
+            <Link to="/online-cognition-scale">
+              <Card title="Online cognition scale">Start exploration</Card>
+            </Link>
           </div>
           <div className="col">
-            <Card title="Internet and values">Start exploration</Card>
+            <Link to="/internet-and-values">
+              <Card title="Internet and values">Start exploration</Card>
+            </Link>
           </div>
         </div>
       </MainContent>
