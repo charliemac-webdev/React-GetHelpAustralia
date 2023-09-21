@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/Button";
 import Heading from "../../components/Heading";
 import MainContent from "../../components/MainContent";
@@ -11,9 +12,11 @@ const OnlineCognitionSurvey = () => {
       </Heading>
       <MainContent>
         <Survey />
-        <Button ident="submit-button" classes="btn">
-          Submit
-        </Button>
+        <Link to="/online-cognition-scale-1">
+          <Button ident="submit-button" classes="btn">
+            Submit
+          </Button>
+        </Link>
       </MainContent>
     </>
   );

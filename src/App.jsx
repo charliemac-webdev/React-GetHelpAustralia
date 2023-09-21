@@ -22,6 +22,8 @@ import SHUnderstandingBehaviour from "./pages/self-help-understanding-the-behavi
 import SelfHelpWellBeing from "./pages/self-help-your-wellbeing-and-self-care";
 import InternetAndValues from "./pages/selfAwareness/iv-survey";
 import OnlineCognitionSurvey from "./pages/selfAwareness/oc-survey";
+import OnlineCognitionSurveyOne from "./pages/selfAwareness/oc-survey-1";
+import OnlineCognitionSurveyTwo from "./pages/selfAwareness/oc-survey-2";
 import UsefulResources from "./pages/useful-resources";
 import WhyChangeIntro from "./pages/why-change-introduction";
 import WhyChangeStrengths from "./pages/why-change-strengths";
@@ -68,6 +70,14 @@ function App() {
             <Route
               path="/online-cognition-scale"
               element={<OnlineCognitionSurvey />}
+            />
+            <Route
+              path="/online-cognition-scale-1"
+              element={<OnlineCognitionSurveyOne />}
+            />
+            <Route
+              path="/online-cognition-scale-2"
+              element={<OnlineCognitionSurveyTwo />}
             />
             <Route
               path="/internet-and-values"

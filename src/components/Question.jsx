@@ -1,24 +1,24 @@
-import noUiSlider from "nouislider";
-import "nouislider/dist/nouislider.css";
+import { Slider } from "@mui/material";
 
+function valuetext(value) {
+  return value;
+}
 const Question = (props) => {
-  const slider = document.getElementById("slider");
-
-  noUiSlider.create(slider, {
-    start: [4],
-    tooltips: [true],
-    connect: true,
-    range: {
-      min: 1,
-      max: 7,
-    },
-  });
   return (
     <>
-      <h4 className="secondary-color">{props.title}</h4>
-      <p>{props.content}</p>
-      <div id="slider"></div>
-      <div className="d.flex justify-content-between">
+      <h5 className="secondary-color">Question {props.id} of 36</h5>
+      <p className="mb-5">{props.description}</p>
+      <Slider
+        aria-label="Always visible"
+        defaultValue={4}
+        step={1}
+        marks
+        min={1}
+        max={7}
+        getAriaValueText={valuetext}
+        valueLabelDisplay="on"
+      />
+      <div className="d-flex justify-content-between">
         <span>Strongly Disagree</span>
         <span>Strongly Agree</span>
       </div>

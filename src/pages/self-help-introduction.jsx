@@ -14,30 +14,34 @@ const SelfHelpIntro = () => {
         <SHIntro />
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
-            <Card
-              title="Your wellbeing and self-care"
-              subtitle="Help with looking after yourself and understanding and dealing with emotions."
-            >
-              <Link to="/self-help-your-wellbeing-and-self-care">
+            <Link to="/self-help-your-wellbeing-and-self-care">
+              <Card
+                title="Your wellbeing and self-care"
+                subtitle="Help with looking after yourself and understanding and dealing with emotions."
+              >
                 Select Module
-              </Link>
-            </Card>
+              </Card>
+            </Link>
           </div>
           <div className="col">
-            <Card
-              title="Understanding the behaviour"
-              subtitle="Understand your online sexual behaviours, motivations, trends and patterns - and how to stop."
-            >
-              Select Module
-            </Card>
+            <Link to="/self-help-understanding-the-behaviour">
+              <Card
+                title="Understanding the behaviour"
+                subtitle="Understand your online sexual behaviours, motivations, trends and patterns - and how to stop."
+              >
+                Select Module
+              </Card>
+            </Link>
           </div>
           <div className="col">
-            <Card
-              title="Moving forward"
-              subtitle="How to continue moving forward, disclose your offending and build a fulfilling life."
-            >
-              Select Module
-            </Card>
+            <Link to="/self-help-moving-forward">
+              <Card
+                title="Moving forward"
+                subtitle="How to continue moving forward, disclose your offending and build a fulfilling life."
+              >
+                Select Module
+              </Card>
+            </Link>
           </div>
         </div>
       </MainContent>

@@ -146,6 +146,25 @@ body {
   margin-left: -15px;
 }
 
+.number {
+  display: flex;
+  color: lightgray;
+  width: 35px;
+  height: 35px;
+  margin-top: 0;
+  margin-right: 15px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.number.active {
+  color: #004c97;
+  border: 1px solid #004c97;
+}
+
 // .menu {
 //   width: 200px;
 // }

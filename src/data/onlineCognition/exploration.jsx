@@ -1,8 +1,18 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/Button";
 
-const exploration = () => {
+const Exploration = () => {
   return (
     <>
+      <div className="d-flex mb-3">
+        <div className="number active">1</div>
+        <div className="number">2</div>
+        <div className="number">3</div>
+        <div className="number">4</div>
+        <div className="number">5</div>
+        <div className="number">6</div>
+        <div className="number">7</div>
+      </div>
       <h4 className="secondary-color">About this Exploration</h4>
       <p>
         This exploration is designed to allow you to understand your use of the
@@ -32,10 +42,12 @@ const exploration = () => {
       <h4 className="secondary-color">How do I start?</h4>
       <p>Use the "Begin" button below to begin the exploration.</p>
       <br />
-      <Button ident="explore-button" classes="btn">
-        Begin the Exploration
-      </Button>
+      <Link to="/online-cognition-scale-2">
+        <Button ident="explore-button" classes="btn">
+          Begin the Exploration
+        </Button>
+      </Link>
     </>
   );
 };
-export default exploration;
+export default Exploration;
