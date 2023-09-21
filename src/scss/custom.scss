@@ -66,6 +66,7 @@ body {
 #explore-button,
 #about-button,
 #submit-button,
+#continue-button,
 .outline-button {
   background-color: var(--clr-white);
   color: var(--clr-primary);
@@ -191,7 +192,7 @@ ul {
   list-style-type: none;
 }
 
-li:hover {
+.menu-link:hover {
   text-decoration: underline;
   cursor: pointer;
   text-decoration-color: var(--clr-primary);
@@ -199,6 +200,12 @@ li:hover {
 
 .nav-link:hover {
   text-decoration: none;
+}
+
+.nav-item:not(:last-child):hover {
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-color: var(--clr-primary);
 }
 
 .MenuItem-title {

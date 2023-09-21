@@ -24,16 +24,16 @@ const Menu = () => {
           </div>
           {1101 === isOpen && (
             <ul>
-              <li>
+              <li className="menu-link">
                 <Link to="/get-the-facts-law">Law</Link>
               </li>
-              <li>
+              <li className="menu-link">
                 <Link to="/get-the-facts-no-grey-area">No 'grey area'</Link>
               </li>
-              <li>
+              <li className="menu-link">
                 <Link to="/get-the-facts-consequences">Consequences</Link>
               </li>
-              <li>
+              <li className="menu-link">
                 <Link to="/get-the-facts-if-being-investigated">
                   If you are being investigated for internet sexual offences
                 </Link>
@@ -50,7 +50,7 @@ const Menu = () => {
           </div>
           {1102 === isOpen && (
             <ul>
-              <li>
+              <li className="menu-link">
                 <Link to="/why-change-strengths">Identifying strengths</Link>
               </li>
             </ul>
@@ -66,10 +66,10 @@ const Menu = () => {
           {1103 === isOpen && (
             <ul>
               <Link to="/online-cognition-scale">
-                <li>Online cognition scale</li>
+                <li className="menu-link">Online cognition scale</li>
               </Link>
               <Link to="/internet-and-values">
-                <li>Internet and values</li>
+                <li className="menu-link">Internet and values</li>
               </Link>
             </ul>
           )}
@@ -83,17 +83,17 @@ const Menu = () => {
           </div>
           {1104 === isOpen && (
             <ul>
-              <li>
+              <li className="menu-link">
                 <Link to="/self-help-your-wellbeing-and-self-care">
                   Your well-being and self-care
                 </Link>
               </li>
-              <li>
+              <li className="menu-link">
                 <Link to="/self-help-understanding-the-behaviour">
                   Understanding the behaviour
                 </Link>
               </li>
-              <li>
+              <li className="menu-link">
                 <Link to="/self-help-moving-forward">Moving Forward</Link>
               </li>
             </ul>

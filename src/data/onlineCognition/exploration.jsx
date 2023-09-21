@@ -13,6 +13,7 @@ const Exploration = () => {
         <div className="number">6</div>
         <div className="number">7</div>
       </div>
+      <hr />
       <h4 className="secondary-color">About this Exploration</h4>
       <p>
         This exploration is designed to allow you to understand your use of the

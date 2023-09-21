@@ -20,8 +20,12 @@ const OnlineCognitionSurveyTwo = () => {
           <div className="number">6</div>
           <div className="number">7</div>
         </div>
+        <hr />
         {selectedQuestions.map((question) => (
-          <Question id={question.id} description={question.description} />
+          <>
+            <Question id={question.id} description={question.description} />
+            <hr />
+          </>
         ))}
       </MainContent>
     </>
