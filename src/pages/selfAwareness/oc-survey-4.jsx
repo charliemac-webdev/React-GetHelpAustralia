@@ -5,8 +5,10 @@ import MainContent from "../../components/MainContent";
 import Question from "../../components/Question";
 import questions from "../../data/onlineCognition/questions";
 
-const selectedQuestions = questions.filter((question) => question.id < 7);
-const OnlineCognitionSurveyTwo = () => {
+const selectedQuestions = questions.filter(
+  (question) => question.id > 12 && question.id < 19
+);
+const OnlineCognitionSurveyFour = () => {
   return (
     <>
       <Heading>
@@ -16,8 +18,8 @@ const OnlineCognitionSurveyTwo = () => {
         <div className="d-flex mb-3">
           <div className="number active">1</div>
           <div className="number active">2</div>
-          <div className="number">3</div>
-          <div className="number">4</div>
+          <div className="number active">3</div>
+          <div className="number active">4</div>
           <div className="number">5</div>
           <div className="number">6</div>
           <div className="number">7</div>
@@ -29,7 +31,7 @@ const OnlineCognitionSurveyTwo = () => {
             <hr />
           </>
         ))}
-        <Link to="/online-cognition-scale-3">
+        <Link to="/online-cognition-scale-5">
           <Button ident="continue-button" classes="btn">
             Continue
           </Button>
@@ -38,4 +40,4 @@ const OnlineCognitionSurveyTwo = () => {
     </>
   );
 };
-export default OnlineCognitionSurveyTwo;
+export default OnlineCognitionSurveyFour;

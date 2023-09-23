@@ -1,17 +1,17 @@
 import Heading from "../../components/Heading";
 import MainContent from "../../components/MainContent";
-import Exploration from "../../data/onlineCognition/oc-exploration";
+import Results from "../../data/onlineCognition/oc-results-data";
 
-const OnlineCognitionSurveyOne = () => {
+const OnlineCognitionSurveyResults = () => {
   return (
     <>
       <Heading>
         <h2 className="secondary-color mb-3">Online cognition scale</h2>
       </Heading>
       <MainContent>
-        <Exploration />
+        <Results />
       </MainContent>
     </>
   );
 };
-export default OnlineCognitionSurveyOne;
+export default OnlineCognitionSurveyResults;

@@ -240,14 +240,153 @@ a {
   border: 1px solid;
   border-color: gray;
   text-indent: initial;
+
+  th,
+  td {
+    border: 1px solid;
+    border-color: gray;
+    border-spacing: 2px;
+    padding: 8px 12px;
+  }
 }
 
-th,
-td {
-  border: 1px solid;
-  border-color: gray;
-  border-spacing: 2px;
-  padding: 8px 12px;
+small {
+  font-size: 80%;
+}
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+.chart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("../img/exp-iv-graph-y-axis-labels.png");
+  background-repeat: no-repeat;
+  background-position: -3px top;
+  padding-left: 10px;
+}
+
+.chart .chart-group {
+  margin: 0 15px;
+  padding: 0;
+  height: 162px;
+  display: flex;
+  align-items: end;
+  position: relative;
+}
+
+.chart .chart-group:before {
+  display: none;
+}
+
+.chart .chart-group.highlighted:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+  width: calc(100% + 6px);
+  height: 100%;
+  background-color: #e0dcc7;
+  z-index: -1;
+}
+
+.chart .chart-group small {
+  position: absolute;
+  font-size: 8px;
+  line-height: 1.2;
+  left: 50%;
+  top: 175px;
+  transform: translateX(-50%);
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: none;
+  min-width: 66px;
+  word-break: break-word;
+}
+
+.chart .chart-group span {
+  width: 15px;
+  margin: 0 1px;
+  display: inline-block;
+}
+
+.chart .chart-group span:first-of-type {
+  background-color: #2164a1;
+}
+
+.chart .chart-group span:last-of-type {
+  background-color: #e10818;
+}
+
+.keys-legend {
+  margin-top: 100px;
+}
+
+.keys-legend ul {
+  margin: 0;
+  padding: 0;
+}
+
+.keys-legend ul li {
+  display: flex;
+  padding: 0;
+}
+
+.keys-legend ul li:before {
+  display: none;
+}
+
+.keys-legend ul li span {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.keys-legend ul li span.blue {
+  background-color: #2164a1;
+}
+
+.keys-legend ul li span.red {
+  background-color: #e10818;
+}
+
+.keys-legend ul li span.gold {
+  background-color: #e0dcc7;
+}
+
+.keys-legend ul li p {
+  margin: 0;
+}
+
+.average-results .chart {
+  justify-content: start;
+}
+
+table#results td {
+  border: none;
+  padding: 3px 0;
+}
+
+table#results thead span,
+table#results tfoot span {
+  font-size: 14px;
+}
+
+.page-template-page-template-online-cognition-scale-summary
+  #results
+  .chart-box
+  .chart-column {
+  display: inline-block;
+  height: 15px;
+  background-color: #e10818;
 }
 
 /* Styles for screens smaller than 600px */

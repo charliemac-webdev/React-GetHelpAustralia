@@ -24,6 +24,12 @@ import InternetAndValues from "./pages/selfAwareness/iv-survey";
 import OnlineCognitionSurvey from "./pages/selfAwareness/oc-survey";
 import OnlineCognitionSurveyOne from "./pages/selfAwareness/oc-survey-1";
 import OnlineCognitionSurveyTwo from "./pages/selfAwareness/oc-survey-2";
+import OnlineCognitionSurveyThree from "./pages/selfAwareness/oc-survey-3";
+import OnlineCognitionSurveyFour from "./pages/selfAwareness/oc-survey-4";
+import OnlineCognitionSurveyFive from "./pages/selfAwareness/oc-survey-5";
+import OnlineCognitionSurveySix from "./pages/selfAwareness/oc-survey-6";
+import OnlineCognitionSurveySeven from "./pages/selfAwareness/oc-survey-7";
+import OnlineCognitionSurveyResult from "./pages/selfAwareness/oc-survey-result";
 import UsefulResources from "./pages/useful-resources";
 import WhyChangeIntro from "./pages/why-change-introduction";
 import WhyChangeStrengths from "./pages/why-change-strengths";
@@ -78,6 +84,30 @@ function App() {
             <Route
               path="/online-cognition-scale-2"
               element={<OnlineCognitionSurveyTwo />}
+            />
+            <Route
+              path="/online-cognition-scale-3"
+              element={<OnlineCognitionSurveyThree />}
+            />
+            <Route
+              path="/online-cognition-scale-4"
+              element={<OnlineCognitionSurveyFour />}
+            />
+            <Route
+              path="/online-cognition-scale-5"
+              element={<OnlineCognitionSurveyFive />}
+            />
+            <Route
+              path="/online-cognition-scale-6"
+              element={<OnlineCognitionSurveySix />}
+            />
+            <Route
+              path="/online-cognition-scale-7"
+              element={<OnlineCognitionSurveySeven />}
+            />
+            <Route
+              path="/online-cognition-scale-result"
+              element={<OnlineCognitionSurveyResult />}
             />
             <Route
               path="/internet-and-values"
