@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/Button";
 import Heading from "../../components/Heading";
 import MainContent from "../../components/MainContent";
@@ -139,9 +140,11 @@ const InternetValuesTwo = () => {
           </div>
         </div>
         <hr />
-        <Button ident="continue-button" classes="btn">
-          Continue
-        </Button>
+        <Link to="/internet-and-values-3">
+          <Button ident="continue-button" classes="btn">
+            Continue
+          </Button>
+        </Link>
       </MainContent>
     </>
   );

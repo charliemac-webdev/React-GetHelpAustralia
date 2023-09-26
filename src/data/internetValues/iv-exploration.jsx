@@ -1,5 +1,3 @@
-import Button from "../../components/Button";
-
 const InternetValuesExploration = () => {
   return (
     <>
@@ -40,9 +38,6 @@ const InternetValuesExploration = () => {
       <h4 className="secondary-color">How do I start?</h4>
       <p>Use the "Begin" button below to begin the exploration.</p>
       <hr />
-      <Button ident="explore-button" classes="btn">
-        Begin the Exploration
-      </Button>
     </>
   );
 };

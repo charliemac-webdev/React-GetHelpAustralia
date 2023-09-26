@@ -20,7 +20,21 @@ import SelfHelpIntro from "./pages/self-help-introduction";
 import SHForward from "./pages/self-help-moving-forward";
 import SHUnderstandingBehaviour from "./pages/self-help-understanding-the-behaviour";
 import SelfHelpWellBeing from "./pages/self-help-your-wellbeing-and-self-care";
-import InternetAndValues from "./pages/selfAwareness/iv-survey";
+import InternetValuesSurvey from "./pages/selfAwareness/iv-survey";
+import InternetValuesOne from "./pages/selfAwareness/iv-survey-1";
+import InternetValuesTen from "./pages/selfAwareness/iv-survey-10";
+import InternetValuesEleven from "./pages/selfAwareness/iv-survey-11";
+import InternetValuesTwelve from "./pages/selfAwareness/iv-survey-12";
+import InternetValuesThirteen from "./pages/selfAwareness/iv-survey-13";
+import InternetValuesTwo from "./pages/selfAwareness/iv-survey-2";
+import InternetValuesThree from "./pages/selfAwareness/iv-survey-3";
+import InternetValuesFour from "./pages/selfAwareness/iv-survey-4";
+import InternetValuesFive from "./pages/selfAwareness/iv-survey-5";
+import InternetValuesSix from "./pages/selfAwareness/iv-survey-6";
+import InternetValuesSeven from "./pages/selfAwareness/iv-survey-7";
+import InternetValuesEight from "./pages/selfAwareness/iv-survey-8";
+import InternetValuesNine from "./pages/selfAwareness/iv-survey-9";
+import InternetValuesResult from "./pages/selfAwareness/iv-survey-result";
 import OnlineCognitionSurvey from "./pages/selfAwareness/oc-survey";
 import OnlineCognitionSurveyOne from "./pages/selfAwareness/oc-survey-1";
 import OnlineCognitionSurveyTwo from "./pages/selfAwareness/oc-survey-2";
@@ -111,7 +125,63 @@ function App() {
             />
             <Route
               path="/internet-and-values"
-              element={<InternetAndValues />}
+              element={<InternetValuesSurvey />}
+            />
+            <Route
+              path="/internet-and-values-1"
+              element={<InternetValuesOne />}
+            />
+            <Route
+              path="/internet-and-values-2"
+              element={<InternetValuesTwo />}
+            />
+            <Route
+              path="/internet-and-values-3"
+              element={<InternetValuesThree />}
+            />
+            <Route
+              path="/internet-and-values-4"
+              element={<InternetValuesFour />}
+            />
+            <Route
+              path="/internet-and-values-5"
+              element={<InternetValuesFive />}
+            />
+            <Route
+              path="/internet-and-values-6"
+              element={<InternetValuesSix />}
+            />
+            <Route
+              path="/internet-and-values-7"
+              element={<InternetValuesSeven />}
+            />
+            <Route
+              path="/internet-and-values-8"
+              element={<InternetValuesEight />}
+            />
+            <Route
+              path="/internet-and-values-9"
+              element={<InternetValuesNine />}
+            />
+            <Route
+              path="/internet-and-values-10"
+              element={<InternetValuesTen />}
+            />
+            <Route
+              path="/internet-and-values-11"
+              element={<InternetValuesEleven />}
+            />
+            <Route
+              path="/internet-and-values-12"
+              element={<InternetValuesTwelve />}
+            />
+            <Route
+              path="/internet-and-values-13"
+              element={<InternetValuesThirteen />}
+            />
+            <Route
+              path="/internet-and-values-results"
+              element={<InternetValuesResult />}
             />
             <Route path="/self-help-introduction" element={<SelfHelpIntro />} />
             <Route

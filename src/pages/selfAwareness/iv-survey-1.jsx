@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Button from "../../components/Button";
 import Heading from "../../components/Heading";
 import MainContent from "../../components/MainContent";
 import InternetValuesExploration from "../../data/internetValues/iv-exploration";
@@ -10,9 +12,11 @@ const InternetValuesOne = () => {
       </Heading>
       <MainContent>
         <InternetValuesExploration />
-        <Button ident="explore-button" classes="btn">
-          Begin the Exploration
-        </Button>
+        <Link to="/internet-and-values-2">
+          <Button ident="explore-button" classes="btn">
+            Begin the Exploration
+          </Button>
+        </Link>
       </MainContent>
     </>
   );

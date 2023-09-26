@@ -1,8 +1,12 @@
 import { Slider } from "@mui/material";
+import { Link } from "react-router-dom";
 import Button from "../../components/Button";
 import Heading from "../../components/Heading";
 import MainContent from "../../components/MainContent";
 
+function valuetext(value) {
+  return value;
+}
 const InternetValuesThirteen = () => {
   return (
     <>
@@ -72,9 +76,11 @@ const InternetValuesThirteen = () => {
           <span>Extreme Effort</span>
         </div>
         <hr />
-        <Button ident="submit-button" classes="btn">
-          Submit
-        </Button>
+        <Link to="/internet-and-values-results">
+          <Button ident="submit-button" classes="btn">
+            Submit
+          </Button>
+        </Link>
       </MainContent>
     </>
   );
