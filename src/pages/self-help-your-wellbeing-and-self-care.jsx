@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
 import MiniCard from "../components/MiniCard";
@@ -13,7 +14,9 @@ const SelfHelpWellBeing = () => {
         <SHWellBeing />
         <div className="row single-modules">
           <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
-            <MiniCard title="Self-care" />
+            <Link to="/self-help-self-care">
+              <MiniCard title="Self-care" />
+            </Link>
           </div>
           <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
             <MiniCard title="Guilt and shame" />

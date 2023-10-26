@@ -1,33 +1,36 @@
-const Module = () => {
+import { useState } from "react";
+import Button from "./Button";
+
+const Module = ({ modules }) => {
+  const [value, setValue] = useState(0);
+  const { id, title, description } = modules[value];
+
   return (
     <>
       <div className="container">
-        <div className="row align-items-start">
-          <div className="col">
-            <div className="btn-container"></div>
+        <div
+          className="row align-items-start"
+          style={{ border: "1px solid #004c97", height: "100vh" }}
+        >
+          <div className="col p-0 bg-primary-subtle h-100">
+            <div className="btn-container">
+              {modules.map((module) => {
+                return (
+                  <div className="bg-primary text-light p-4 border border-light">
+                    {module.title}
+                  </div>
+                );
+              })}
+            </div>
           </div>
-          <div className="col">
-            <article>
-              <h2 className="secondary-color">What is self-care?</h2>
-              <p>
-                Self-care means being mindful of our own needs to improve our
-                own physical, mental and emotional health. Self-care can take
-                many different forms, ranging from making sure we get enough
-                sleep to getting some fresh air for a few minutes. We’ll explain
-                some of the different types of self-care and how they can help
-                you.
-              </p>
-              <br />
-              <h2 className="secondary-color">Why is self-care important?</h2>
-              <p>
-                Self-care is particularly important when working through the
-                information on this website. This work can be difficult,
-                especially when feeling other strong emotions like anxiety or
-                fear about the future. Making sure we find time for self-care
-                can help us deal with the challenges we face in a positive way.
-              </p>
-            </article>
-            <Button />
+          <div className="col h-100 overflow-auto">
+            <article>{description}</article>
+            <div className="d-flex justify-content-end">
+              <Button ident="continue-button" classes="btn">
+                Continue
+              </Button>
+            </div>
+            <br />
           </div>
         </div>
       </div>

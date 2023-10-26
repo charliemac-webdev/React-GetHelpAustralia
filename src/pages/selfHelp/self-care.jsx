@@ -1,9 +1,14 @@
+import { useState } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import SelfCareModuleData from "../../data/modules/self-help/yourWellBeingAndSelfCare/selfCare";
 
 const SelfCareModule = () => {
+  const [value, setValue] = useState(0);
+
   return (
     <>
       <Heading>
@@ -19,8 +24,7 @@ const SelfCareModule = () => {
           <li>basic self-care strategies</li>
           <li>how to create a self-care plan.</li>
         </ul>
-        <Module />
-        <SelfCare />
+        <Module modules={SelfCareModuleData} />
       </MainContent>
     </>
   );

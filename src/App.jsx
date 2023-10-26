@@ -44,6 +44,7 @@ import OnlineCognitionSurveyFive from "./pages/selfAwareness/oc-survey-5";
 import OnlineCognitionSurveySix from "./pages/selfAwareness/oc-survey-6";
 import OnlineCognitionSurveySeven from "./pages/selfAwareness/oc-survey-7";
 import OnlineCognitionSurveyResult from "./pages/selfAwareness/oc-survey-result";
+import SelfCareModule from "./pages/selfHelp/self-care";
 import UsefulResources from "./pages/useful-resources";
 import WhyChangeIntro from "./pages/why-change-introduction";
 import WhyChangeStrengths from "./pages/why-change-strengths";
@@ -192,6 +193,7 @@ function App() {
               path="/self-help-understanding-the-behaviour"
               element={<SHUnderstandingBehaviour />}
             />
+            <Route path="/self-help-self-care" element={<SelfCareModule />} />
             <Route path="/self-help-moving-forward" element={<SHForward />} />
             <Route path="/useful-resources" element={<UsefulResources />} />
             <Route path="/modal-page" element={<Modal />} />
