@@ -3,7 +3,7 @@ import Button from "./Button";
 const Help = () => {
   return (
     <a target="_blank" href="https://www.stopitnow.org.au/helpline">
-      <div className="help-button-container d-grid gap-2 col-9 mx-auto mb-4">
+      <div className="help-button-container d-grid gap-2 col-10 mx-auto mb-4">
         <Button
           ident="help-button"
           classes="btn outline-button fw-semibold p-3 text-uppercase"

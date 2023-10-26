@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="navbar col-9 mx-auto">
+    <nav className="navbar col-10 mx-auto">
       <a className="navbar-brand" href="#">
         <img src={logo} alt="Stop It Now!" height="137" />
       </a>

@@ -86,8 +86,8 @@ body {
   box-sizing: border-box;
   padding-top: 2.2vw;
   padding-bottom: 2.2vw;
-  padding-left: 12vw;
-  padding-right: 12vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
 
   &-one {
     padding-top: 0;
@@ -101,7 +101,7 @@ body {
     "one one"
     "two three";
   grid-template-columns: 15rem 1fr;
-  padding: 0 12vw 0 12vw;
+  padding: 0 8vw 0 8vw;
 }
 
 .main-section-heading {
