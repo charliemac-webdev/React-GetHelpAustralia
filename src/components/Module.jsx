@@ -14,16 +14,21 @@ const Module = ({ modules }) => {
         >
           <div className="col p-0 bg-primary-subtle h-100">
             <div className="btn-container">
-              {modules.map((module) => {
+              {modules.map((module, index) => {
                 return (
-                  <div className="bg-primary text-light p-4 border border-light">
+                  <div
+                    key={module.id}
+                    onClick={() => setValue(index)}
+                    className="bg-primary text-light p-4 border border-light"
+                    role="button"
+                  >
                     {module.title}
                   </div>
                 );
               })}
             </div>
           </div>
-          <div className="col h-100 overflow-auto">
+          <div className="col h-100 overflow-auto pt-2">
             <article>{description}</article>
             <div className="d-flex justify-content-end">
               <Button ident="continue-button" classes="btn">

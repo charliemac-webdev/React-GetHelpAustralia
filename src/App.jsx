@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Components
@@ -6,6 +8,7 @@ import Header from "./components/Header";
 import Help from "./components/Help";
 
 // Pages
+
 import Menu from "./components/Menu";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
@@ -50,13 +53,30 @@ import WhyChangeIntro from "./pages/why-change-introduction";
 import WhyChangeStrengths from "./pages/why-change-strengths";
 
 function App() {
+  const [showMenu, setShowMenu] = useState(true);
+
   return (
     <div className="wrapper">
       <BrowserRouter>
         <Header />
         <Help />
-        <div className="main-section-grid">
-          <Menu />
+        <span
+          role="button"
+          className="menu-toggle-icons"
+          onClick={() => setShowMenu(!showMenu)}
+        >
+          {showMenu ? (
+            <BiLeftArrow className="menu-icon" />
+          ) : (
+            <BiRightArrow className="menu-icon" />
+          )}
+        </span>
+        <div
+          className={`${
+            showMenu ? "main-section-grid" : "main-section-grid-nomenu"
+          }`}
+        >
+          {showMenu && <Menu />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route

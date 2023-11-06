@@ -67,7 +67,6 @@ body {
 #explore-button,
 #about-button,
 #submit-button,
-#continue-button,
 .outline-button {
   background-color: var(--clr-white);
   color: var(--clr-primary);
@@ -78,6 +77,21 @@ body {
     color: var(--clr-white);
     cursor: pointer;
     text-decoration: none;
+  }
+}
+
+#continue-button,
+#next-button,
+#previous-button {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-primary);
+    border: solid 2px var(--clr-primary);
   }
 }
 
@@ -92,6 +106,16 @@ body {
   &-one {
     padding-top: 0;
   }
+}
+
+.main-section-grid-nomenu {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas:
+    "one one"
+    "three three";
+  grid-template-columns: 15rem 1fr;
+  padding: 0 8vw 0 8vw;
 }
 
 .main-section-grid {
@@ -222,6 +246,19 @@ ul {
   color: var(--clr-secondary);
   margin: 0;
   padding: 0;
+}
+
+.print-icon {
+  font-size: 1.6rem;
+}
+
+.menu-icon {
+  font-size: 0.8rem;
+  color: var(--clr-secondary);
+}
+
+.menu-toggle-icons {
+  margin-left: 8vw;
 }
 
 .content-list {

@@ -13,8 +13,12 @@ const SelfCareModule = () => {
     <>
       <Heading>
         <h2 className="secondary-color">Self care</h2>
-        <FcPrint />
-        <FaFilePdf />
+        <span className="print-button me-1" role="button">
+          <FcPrint className="print-icon" /> Print
+        </span>
+        <span className="pdf-button" role="button">
+          <FaFilePdf className="print-icon" /> PDF
+        </span>
       </Heading>
       <MainContent>
         <h4 className="secondary-color">Objectives</h4>

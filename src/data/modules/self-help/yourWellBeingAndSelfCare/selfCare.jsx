@@ -1,3 +1,5 @@
+import WellbeingAssessment from "../../../../components/WellbeingAssessment";
+
 const SelfCareModuleData = [
   {
     id: 1,
@@ -56,7 +58,7 @@ const SelfCareModuleData = [
           Please complete the following wellbeing assessment that will ask about
           your physical, social, mental, spiritual and emotional self-care.
         </p>
-        {/* <WellBeingAssessment /> Not added yet  */}
+        <WellbeingAssessment />
         <br />
         <h4 className="secondary-color">Understanding your self-care score</h4>
         <ul className="content-list">
@@ -112,10 +114,10 @@ const SelfCareModuleData = [
           don’t need to have goals in all sections, particularly if the section
           is already high-scoring.
         </p>
-        <table>
+        <table className="table">
           <tr>
-            <thead>Area of your life</thead>
-            <thead>Goal</thead>
+            <td>Area of your life</td>
+            <td>Goal</td>
           </tr>
           <tr>
             <td>Physical</td>

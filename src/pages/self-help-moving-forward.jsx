@@ -11,7 +11,7 @@ const SHForward = () => {
       </Heading>
       <MainContent>
         <SHMovingForward />
-        <div className="row single-modules">
+        <div className="row single-modules bg-primary-subtle p-4">
           <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
             <MiniCard title="Problem solving" />
           </div>
