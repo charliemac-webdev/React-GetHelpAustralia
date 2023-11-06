@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
 import Heading from "../../components/Heading";
@@ -6,8 +6,12 @@ import MainContent from "../../components/MainContent";
 import Module from "../../components/Module";
 import SelfCareModuleData from "../../data/modules/self-help/yourWellBeingAndSelfCare/selfCare";
 
-const SelfCareModule = () => {
+const SelfCareModule = ({ showMenu }) => {
   const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    showMenu(false);
+  }, []);
 
   return (
     <>

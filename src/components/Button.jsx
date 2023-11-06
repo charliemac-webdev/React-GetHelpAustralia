@@ -1,8 +1,8 @@
-const Button = (props) => {
+const Button = ({ classes, ident, children, ...rest }) => {
   return (
     <>
-      <button className={props.classes} id={props.ident}>
-        {props.children}
+      <button className={classes} id={ident} {...rest}>
+        {children}
       </button>
     </>
   );

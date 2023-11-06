@@ -4,6 +4,20 @@ import Button from "./Button";
 const Module = ({ modules }) => {
   const [value, setValue] = useState(0);
   const { id, title, description } = modules[value];
+  const handleClick = () => {
+    if (value < modules.length - 1) {
+      setValue(value + 1);
+    }
+  };
+  const newValue = () => {
+    if (value < modules.length - 1) {
+      return (
+        <Button onClick={handleClick} ident="continue-button" classes="btn">
+          Continue
+        </Button>
+      );
+    }
+  };
 
   return (
     <>
@@ -30,11 +44,7 @@ const Module = ({ modules }) => {
           </div>
           <div className="col h-100 overflow-auto pt-2">
             <article>{description}</article>
-            <div className="d-flex justify-content-end">
-              <Button ident="continue-button" classes="btn">
-                Continue
-              </Button>
-            </div>
+            <div className="d-flex justify-content-end">{newValue()}</div>
             <br />
           </div>
         </div>

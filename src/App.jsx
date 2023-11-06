@@ -55,6 +55,10 @@ import WhyChangeStrengths from "./pages/why-change-strengths";
 function App() {
   const [showMenu, setShowMenu] = useState(true);
 
+  const handleShowMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <div className="wrapper">
       <BrowserRouter>
@@ -213,7 +217,10 @@ function App() {
               path="/self-help-understanding-the-behaviour"
               element={<SHUnderstandingBehaviour />}
             />
-            <Route path="/self-help-self-care" element={<SelfCareModule />} />
+            <Route
+              path="/self-help-self-care"
+              element={<SelfCareModule showMenu={handleShowMenu} />}
+            />
             <Route path="/self-help-moving-forward" element={<SHForward />} />
             <Route path="/useful-resources" element={<UsefulResources />} />
             <Route path="/modal-page" element={<Modal />} />

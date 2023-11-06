@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
 import WellbeingAssessment from "../../../../components/WellbeingAssessment";
 
 const SelfCareModuleData = [
@@ -114,7 +116,7 @@ const SelfCareModuleData = [
           don’t need to have goals in all sections, particularly if the section
           is already high-scoring.
         </p>
-        <table className="table">
+        <table className="table table-bordered">
           <tr>
             <td>Area of your life</td>
             <td>Goal</td>
@@ -282,6 +284,14 @@ const SelfCareModuleData = [
           details. If you’re not ready to speak to anyone yet, you can also{" "}
           <b>use our live chat or send a secure email.</b>
         </p>
+        <br />
+        <Link>
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
