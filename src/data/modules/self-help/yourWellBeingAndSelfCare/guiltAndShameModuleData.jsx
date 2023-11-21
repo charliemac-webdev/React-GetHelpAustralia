@@ -1,4 +1,4 @@
-import picture from "../../images/shame-spiral.png";
+import picture from "../../../../images/shame-spiral.png";
 
 const GuiltAndShameModuleData = [
   {
@@ -86,12 +86,12 @@ const GuiltAndShameModuleData = [
           recognise if they are experiencing shame, and some might apply to you.
           Try to identify other signs and add them to the table.
         </p>
-        <table className="table">
+        <table className="table table-bordered">
           <tr>
-            <thead>Physical cues (how our body reacts)</thead>
-            <thead>Emotional cues (how we feel)</thead>
-            <thead>Cognitive cues (what we think)</thead>
-            <thead>Behavioural cues (how we behave)</thead>
+            <th>Physical cues (how our body reacts)</th>
+            <th>Emotional cues (how we feel)</th>
+            <th>Cognitive cues (what we think)</th>
+            <th>Behavioural cues (how we behave)</th>
           </tr>
           <tr>
             <td>Feeling sick</td>

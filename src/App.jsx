@@ -47,6 +47,7 @@ import OnlineCognitionSurveyFive from "./pages/selfAwareness/oc-survey-5";
 import OnlineCognitionSurveySix from "./pages/selfAwareness/oc-survey-6";
 import OnlineCognitionSurveySeven from "./pages/selfAwareness/oc-survey-7";
 import OnlineCognitionSurveyResult from "./pages/selfAwareness/oc-survey-result";
+import GuiltAndShameModule from "./pages/selfHelp/guilt-and-shame";
 import SelfCareModule from "./pages/selfHelp/self-care";
 import UsefulResources from "./pages/useful-resources";
 import WhyChangeIntro from "./pages/why-change-introduction";
@@ -220,6 +221,10 @@ function App() {
             <Route
               path="/self-help-self-care"
               element={<SelfCareModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-guilt-and-shame"
+              element={<GuiltAndShameModule showMenu={handleShowMenu} />}
             />
             <Route path="/self-help-moving-forward" element={<SHForward />} />
             <Route path="/useful-resources" element={<UsefulResources />} />

@@ -19,7 +19,9 @@ const SelfHelpWellBeing = () => {
             </Link>
           </div>
           <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
-            <MiniCard title="Guilt and shame" />
+            <Link to="/self-help-guilt-and-shame">
+              <MiniCard title="Guilt and shame" />
+            </Link>
           </div>
           <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
             <MiniCard title="Recognising and dealing with feelings" />

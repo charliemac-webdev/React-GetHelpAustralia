@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 const MainContent = ({ children }) => {
   return (
     <>
@@ -8,7 +6,4 @@ const MainContent = ({ children }) => {
   );
 };
 
-MainContent.propTypes = {
-  children: PropTypes.string.isRequired,
-};
 export default MainContent;

@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 const Heading = ({ children }) => {
   return (
     <>
@@ -8,7 +6,4 @@ const Heading = ({ children }) => {
   );
 };
 
-Heading.propTypes = {
-  children: PropTypes.string.isRequired,
-};
 export default Heading;
