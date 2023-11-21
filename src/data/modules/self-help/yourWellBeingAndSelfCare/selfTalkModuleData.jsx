@@ -1,11 +1,14 @@
-import pictureOne from "../../images/diagrams-selftalk-1.gif";
-import pictureTwo from "../../images/diagrams-selftalk-2.gif";
-import pictureThree from "../../images/diagrams-selftalk-3.gif";
-import pictureFour from "../../images/diagrams-selftalk-4.gif";
-import pictureFive from "../../images/diagrams-selftalk.gif";
-import pictureSix from "../../images/diagrams-yes-or-no.gif";
+import pictureOne from "../../../../images/diagrams-selftalk-1.gif";
+import pictureTwo from "../../../../images/diagrams-selftalk-2.gif";
+import pictureThree from "../../../../images/diagrams-selftalk-3.gif";
+import pictureFour from "../../../../images/diagrams-selftalk-4.gif";
+import pictureFive from "../../../../images/diagrams-selftalk.gif";
+import pictureSix from "../../../../images/diagrams-yes-or-no.gif";
 
-const selfTalk = [
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
+const selfTalkModuleData = [
   {
     id: 1,
     title: "Self-talk",
@@ -32,31 +35,33 @@ const selfTalk = [
           use of self-talk (1 = very little understanding; 2 = some
           understanding; 3 = secure understanding).
         </p>
-        <table className="table">
-          <tr>
-            <td>
-              I have a clear understanding of the self-talk messages I give
-              myself.
-            </td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>
-              I can see how my self-talk gives me permission to engage in
-              illegal online sexual behaviour.
-            </td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>I understand how to start changing my self-talk.</td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
+        <table className="table table-bordered">
+          <tbody>
+            <tr>
+              <td>
+                I have a clear understanding of the self-talk messages I give
+                myself.
+              </td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>
+                I can see how my self-talk gives me permission to engage in
+                illegal online sexual behaviour.
+              </td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>I understand how to start changing my self-talk.</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </tbody>
         </table>
         <br />
         <p>
@@ -75,13 +80,23 @@ const selfTalk = [
           Examples of self-talk that justify inappropriate or unhealthy
           behaviour:
         </p>
-        <img src={pictureOne} alt="self-talk 1" />
+        <img
+          src={pictureOne}
+          alt="self-talk 1"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
+        <br />
         <br />
         <p>
           Examples of self-talk statements that make you feel useless or small
           include:
         </p>
-        <img src={pictureTwo} alt="self-talk 2" />
+        <img
+          src={pictureTwo}
+          alt="self-talk 2"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
+        <br />
         <br />
         <p>Negative self-talk = </p>
         <ul className="content-list">
@@ -99,10 +114,18 @@ const selfTalk = [
         </p>
         <br />
         <p>Examples of self-talk that encourage healthy behaviour:</p>
-        <img src={pictureThree} alt="Self-talk 3" />
+        <img
+          src={pictureThree}
+          alt="Self-talk 3"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
         <br />
         <p>Examples of self-talk that enhances your self-esteem:</p>
-        <img src={pictureFour} alt="Self-talk 4" />
+        <img
+          src={pictureFour}
+          alt="Self-talk 4"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
         <br />
         <p>Positive self-talk =</p>
         <ul className="content-list">
@@ -221,7 +244,11 @@ const selfTalk = [
           employ before during and after the situation.
         </p>
         <p>For example going on a first date:</p>
-        <img src={pictureFive} alt="self-talk" />
+        <img
+          src={pictureFive}
+          alt="self-talk"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
         <p>
           This planning can be used in any situation. Think of something you are
           doing this week that you are worried or nervous about and think of
@@ -239,7 +266,11 @@ const selfTalk = [
           negative effects of offending for yourself and others, you increase
           your ability and motivation to avoid offending.
         </p>
-        <img src={pictureSix} alt="self-talk yes or no" />
+        <img
+          src={pictureSix}
+          alt="self-talk yes or no"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
         <br />
         <p>
           <b>Please consider the following questions:</b>
@@ -316,8 +347,16 @@ const selfTalk = [
           guide you then please call the Stop It Now! Helpline for confidential
           support from our trained staff.
         </p>
+        <br />
+        <Link to="/self-help-guilt-and-shame">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
 ];
-export default selfTalk;
+export default selfTalkModuleData;

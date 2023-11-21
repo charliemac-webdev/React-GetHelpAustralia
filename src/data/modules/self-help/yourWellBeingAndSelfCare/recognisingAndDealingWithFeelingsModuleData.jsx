@@ -1,6 +1,9 @@
-import pictureTwo from "../../images/diagrams-MAN.gif";
-import pictureThree from "../../images/diagrams-feelings.gif";
-import pictureOne from "../../images/diagrams-response.gif";
+import pictureTwo from "../../../../images/diagrams-MAN.gif";
+import pictureThree from "../../../../images/diagrams-feelings.gif";
+import pictureOne from "../../../../images/diagrams-response.gif";
+
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
 
 const RecognisingAndDealingWithFeelingsModuleData = [
   {
@@ -19,7 +22,13 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <p>(Hockenbury & Hockenbury, 2007)</p>
         <br />
         <p>The following diagram helps to explain this:</p>
-        <img src={pictureOne} alt="Feelings response diagram" />
+        <img
+          className="mx-auto d-block"
+          src={pictureOne}
+          alt="Feelings response diagram"
+          width={583}
+          height={298}
+        />
         <hr />
         <h5 className="secondary-color">Starting Point</h5>
         <p>Use this quiz to identify your current level of confidence.</p>
@@ -28,7 +37,13 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <hr />
         <h5 className="secondary-color">What happens in my body</h5>
         <p>Here are some of the physical reactions we have to situations:</p>
-        <img src={pictureTwo} alt="Man Diagram" />
+        <img
+          className="mx-auto d-block"
+          src={pictureTwo}
+          alt="Man Diagram"
+          width={539}
+          height={501}
+        />
         <br />
         <p>
           These reactions are generally preparing us for a ‘fight or flight’
@@ -46,23 +61,27 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           different situations you should be able to decide what emotion you
           experience.
         </p>
-        <table className="table">
-          <tr>
-            <thead>Ask others</thead>
-            <thead>Ask myself</thead>
-          </tr>
-          <tr>
-            <td>What expression does my face show?</td>
-            <td>What does my body feel like?</td>
-          </tr>
-          <tr>
-            <td>How do I say I feel?</td>
-            <td>What am I thinking about?</td>
-          </tr>
-          <tr>
-            <td>What do I do?</td>
-            <td>What do I feel like doing?</td>
-          </tr>
+        <table className="table table-bordered">
+          <thead>
+            <tr>
+              <th>Ask others</th>
+              <th>Ask myself</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>What expression does my face show?</td>
+              <td>What does my body feel like?</td>
+            </tr>
+            <tr>
+              <td>How do I say I feel?</td>
+              <td>What am I thinking about?</td>
+            </tr>
+            <tr>
+              <td>What do I do?</td>
+              <td>What do I feel like doing?</td>
+            </tr>
+          </tbody>
         </table>
         <p>
           <b>Download printable template</b>
@@ -104,7 +123,13 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           How you feel can influence your thinking and behavior.
         </h4>
         <p>Our thoughts, feelings and behavior are all linked:</p>
-        <img src={pictureThree} alt="Feelings Diagram" />
+        <img
+          className="mx-auto d-block"
+          src={pictureThree}
+          alt="Feelings Diagram"
+          width={494}
+          height={321}
+        />
         <br />
         <p>
           <e>
@@ -392,15 +417,19 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <p>
           <b>Excerise 3 - How to get back to feeling ok and in control</b>
         </p>
-        <table className="table">
-          <tr>
-            <thead>Things another person can help me with</thead>
-            <thead>Things I can do on my own</thead>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
+        <table className="table table-bordered">
+          <thead>
+            <tr>
+              <th>Things another person can help me with</th>
+              <th>Things I can do on my own</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
         </table>
         <p>
           <b>Download printable template</b>
@@ -473,6 +502,14 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           guide you then please call the Stop It Now!Helpline for confidential
           support from our trained staff.
         </p>
+        <br />
+        <Link to="/self-help-opening-up-to-others">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },

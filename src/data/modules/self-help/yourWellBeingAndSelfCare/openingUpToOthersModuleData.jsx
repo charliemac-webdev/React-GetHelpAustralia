@@ -1,10 +1,13 @@
-import pictureTwo from "../../images/bottle-exploding.png";
-import pictureOne from "../../images/bottle.png";
-import pictureFive from "../../images/diagrams-i-wanted-to-talk.gif";
-import pictureFour from "../../images/diagrams-they-are-my-friends.gif";
-import pictureThree from "../../images/filing-cabinet.png";
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
 
-const openingUpToOthers = [
+import pictureTwo from "../../../../images/bottle-exploding.png";
+import pictureOne from "../../../../images/bottle.png";
+import pictureFive from "../../../../images/diagrams-i-wanted-to-talk.gif";
+import pictureFour from "../../../../images/diagrams-they-are-my-friends.gif";
+import pictureThree from "../../../../images/filing-cabinet.png";
+
+const openingUpToOthersModuleData = [
   {
     id: 1,
     title: "Opening up to others",
@@ -32,11 +35,11 @@ const openingUpToOthers = [
           look at what happens if you don’t. Imagine you are carrying around a
           bottle.
         </p>
-        <img src={pictureOne} alt="Bottle" />
+        <img className="mx-auto d-block" src={pictureOne} alt="Bottle" />
         <p>In this bottle put your negative feelings.</p>
-        <img src={pictureOne} alt="Bottle" />
+        <img className="mx-auto d-block" src={pictureOne} alt="Bottle" />
         <p>Over years you fill it up until it becomes too full and explodes!</p>
-        <img src={pictureTwo} alt="Full Bottle" />
+        <img className="mx-auto d-block" src={pictureTwo} alt="Full Bottle" />
         <p>
           The negative feelings come out, often in an unhealthy way, either by
           strong emotions (commonly an angry outburst) or through harmful
@@ -53,7 +56,11 @@ const openingUpToOthers = [
         <br />
         <h5 className="secondary-color">So how does talking help?</h5>
         <p>Imagine instead of filling your bottle you have a filing cabinet.</p>
-        <img src={pictureThree} alt="filing cabinet" />
+        <img
+          className="mx-auto d-block"
+          src={pictureThree}
+          alt="filing cabinet"
+        />
         <p>
           Instead of pushing all your feelings inside, you have a system to look
           at your feelings, think about them, discuss them and file them away,
@@ -110,14 +117,22 @@ const openingUpToOthers = [
           build your confidence to talk about your feelings. If you are unsure
           what positive self-talk is then read the <b>self-talk section</b>.
         </p>
-        <img src={pictureFour} alt="diagram self talk" />
+        <img
+          src={pictureFour}
+          alt="diagram self talk"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
         <p>
           It can be really helpful to plan out what you want to say to someone
           and how you are going to say it. You don’t want to plan out the whole
           conversation (as you need to be able to respond to what the other
           person says) but it can be helpful to have an opening line.
         </p>
-        <img src={pictureFive} alt="Diagram I wanted to talk" />
+        <img
+          src={pictureFive}
+          alt="Diagram I wanted to talk"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
         <h5 className="secondary-color">
           What if they are causing the problem?
         </h5>
@@ -168,33 +183,35 @@ const openingUpToOthers = [
           the following skills (1 = I find it impossible; 2 = I find it hard; 3
           = I am really confident).
         </p>
-        <table className="table">
-          <tr>
-            <td>
-              I have a clear and detailed understanding of how to talk to people
-              about how I feel.
-            </td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>
-              I can share when I feel positive emotions e.g. happy, excited
-            </td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>
-              I can share when I feel negative emotions e.g. anger, sadness,
-              loneliness
-            </td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
+        <table className="table table-bordered">
+          <tbody>
+            <tr>
+              <td>
+                I have a clear and detailed understanding of how to talk to
+                people about how I feel.
+              </td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>
+                I can share when I feel positive emotions e.g. happy, excited
+              </td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>
+                I can share when I feel negative emotions e.g. anger, sadness,
+                loneliness
+              </td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </tbody>
         </table>
         <br />
         <p>Now, consider the following questions:</p>
@@ -227,8 +244,16 @@ const openingUpToOthers = [
           guide you then please call the Stop It Now! Helpline for confidential
           support from our trained staff.
         </p>
+        <br />
+        <Link to="/self-help-guilt-and-shame">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
 ];
-export default openingUpToOthers;
+export default openingUpToOthersModuleData;

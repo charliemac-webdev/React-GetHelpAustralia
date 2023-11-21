@@ -24,13 +24,19 @@ const SelfHelpWellBeing = () => {
             </Link>
           </div>
           <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
-            <MiniCard title="Recognising and dealing with feelings" />
+            <Link to="/self-help-recognising-and-dealing-with-feelings">
+              <MiniCard title="Recognising and dealing with feelings" />
+            </Link>
           </div>
           <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
-            <MiniCard title="Opening up to others" />
+            <Link to="/self-help-opening-up-to-others">
+              <MiniCard title="Opening up to others" />
+            </Link>
           </div>
           <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
-            <MiniCard title="Self-talk" />
+            <Link to="/self-help-self-talk">
+              <MiniCard title="Self-talk" />
+            </Link>
           </div>
         </div>
       </MainContent>

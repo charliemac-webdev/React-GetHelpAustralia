@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
 import picture from "../../../../images/shame-spiral.png";
 
 const GuiltAndShameModuleData = [
@@ -311,6 +313,13 @@ const GuiltAndShameModuleData = [
           <b>use our live chat or send a secure email</b>.
         </p>
         <br />
+        <Link to="/self-help-recognising-and-dealing-with-feelings">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },

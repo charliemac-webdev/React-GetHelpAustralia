@@ -48,7 +48,10 @@ import OnlineCognitionSurveySix from "./pages/selfAwareness/oc-survey-6";
 import OnlineCognitionSurveySeven from "./pages/selfAwareness/oc-survey-7";
 import OnlineCognitionSurveyResult from "./pages/selfAwareness/oc-survey-result";
 import GuiltAndShameModule from "./pages/selfHelp/guilt-and-shame";
+import OpeningUpToOthersModule from "./pages/selfHelp/opening-up-to-others";
+import RecognisingAndDealingWithFeelingsModule from "./pages/selfHelp/recognising-and-dealing-with-feelings";
 import SelfCareModule from "./pages/selfHelp/self-care";
+import SelfTalkModule from "./pages/selfHelp/self-talk";
 import UsefulResources from "./pages/useful-resources";
 import WhyChangeIntro from "./pages/why-change-introduction";
 import WhyChangeStrengths from "./pages/why-change-strengths";
@@ -223,8 +226,24 @@ function App() {
               element={<SelfCareModule showMenu={handleShowMenu} />}
             />
             <Route
+              path="/self-help-self-talk"
+              element={<SelfTalkModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-opening-up-to-others"
+              element={<OpeningUpToOthersModule showMenu={handleShowMenu} />}
+            />
+            <Route
               path="/self-help-guilt-and-shame"
               element={<GuiltAndShameModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-recognising-and-dealing-with-feelings"
+              element={
+                <RecognisingAndDealingWithFeelingsModule
+                  showMenu={handleShowMenu}
+                />
+              }
             />
             <Route path="/self-help-moving-forward" element={<SHForward />} />
             <Route path="/useful-resources" element={<UsefulResources />} />

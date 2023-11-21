@@ -285,10 +285,10 @@ const SelfCareModuleData = [
           <b>use our live chat or send a secure email.</b>
         </p>
         <br />
-        <Link>
+        <Link to="/self-help-guilt-and-shame">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
-              Next
+              Next Module
             </Button>
           </div>
         </Link>
