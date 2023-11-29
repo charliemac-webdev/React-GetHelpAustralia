@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
 import pictureOne from "../../../../images/diagrams-surely.gif";
 
 const FantasyModuleData = [
@@ -675,6 +677,14 @@ const FantasyModuleData = [
           </a>{" "}
           and let us know what you think.
         </p>
+        <br />
+        <Link to="/self-help-adult-pornography">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </div>
     ),
   },

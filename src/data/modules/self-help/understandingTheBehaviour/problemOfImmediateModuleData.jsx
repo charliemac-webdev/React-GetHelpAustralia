@@ -1,4 +1,7 @@
-const ProblemOfImmediate = [
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
+const ProblemOfImmediateModuleData = [
   {
     id: 1,
     title: "Problem of immediate gratification",
@@ -210,9 +213,17 @@ const ProblemOfImmediate = [
             practitioner to guide you.
           </p>
         </div>
+        <br />
+        <Link to="/self-help-images-are-children">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
 ];
 
-export default ProblemOfImmediate;
+export default ProblemOfImmediateModuleData;

@@ -1,4 +1,7 @@
-const takingResponsibility = [
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
+const takingResponsibilityModuleData = [
   {
     id: 1,
     title: "Triggers",
@@ -265,8 +268,16 @@ const takingResponsibility = [
           Now!&nbsp;Helpline&nbsp;for confidential support from our trained
           staff.
         </p>
+        <br />
+        <Link to="/self-help-online-world">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
 ];
-export default takingResponsibility;
+export default takingResponsibilityModuleData;

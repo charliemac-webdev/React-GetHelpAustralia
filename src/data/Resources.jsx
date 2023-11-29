@@ -17,7 +17,7 @@ const Resources = () => {
         our list.
       </p>{" "}
       <h4 className="secondary-color">Books</h4>
-      <table border="0" cellSpacing="0" cellPadding="0">
+      <table className="table table-bordered">
         <tbody>
           <tr>
             <td align="left" valign="top">
@@ -106,7 +106,7 @@ const Resources = () => {
       </table>
       <br />
       <h4 className="secondary-color">Websites</h4>
-      <table border="0" cellSpacing="0" cellPadding="0">
+      <table className="table table-bordered">
         <tbody>
           <tr>
             <td align="left" valign="top">
@@ -189,7 +189,7 @@ const Resources = () => {
       </table>
       <br />
       <h4 className="secondary-color">Organisations</h4>
-      <table border="0" cellSpacing="0" cellPadding="0">
+      <table className="table table-bordered">
         <tbody>
           <tr>
             <td align="left" valign="top">
@@ -375,7 +375,7 @@ const Resources = () => {
       </table>
       <br />
       <h4 className="secondary-color">Helplines</h4>
-      <table border="0" cellSpacing="0" cellPadding="0">
+      <table className="table table-bordered">
         <tbody>
           <tr>
             <td align="left" valign="top">

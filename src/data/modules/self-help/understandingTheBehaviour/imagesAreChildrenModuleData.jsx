@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
 const ImagesAreChildrenModuleData = [
   {
     id: 1,
@@ -808,6 +811,14 @@ const ImagesAreChildrenModuleData = [
           </strong>{" "}
           and let us know what you think.
         </p>
+        <br />
+        <Link to="/self-help-problematic-collecting">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </div>
     ),
   },

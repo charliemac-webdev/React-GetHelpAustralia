@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
 const SexualCommunicationWithChildrenModuleData = [
   {
     id: 1,
@@ -771,6 +774,14 @@ const SexualCommunicationWithChildrenModuleData = [
             &nbsp;and let us know what you think.
           </p>
         </div>
+        <br />
+        <Link to="/self-help-problem-of-immediate-gratification">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },

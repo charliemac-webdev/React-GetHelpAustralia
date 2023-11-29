@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
 import pictureSix from "../../../../images/diagrams-offlineme.gif";
 import pictureSeven from "../../../../images/diagrams-onlineme.gif";
 import pictureFive from "../../../../images/download-1-1.png";
@@ -6,7 +9,7 @@ import pictureFour from "../../../../images/download-2.png";
 import pictureTwo from "../../../../images/download.png";
 import pictureOne from "../../../../images/triple-a-engine.png";
 
-const onlineWorld = [
+const onlineWorldModuleData = [
   {
     id: 1,
     title: "Online world",
@@ -207,9 +210,17 @@ const onlineWorld = [
           are, we can pretend to be whoever we want to be. Online relationships
           in some ways make fewer demands.
         </p>
+        <br />
+        <Link to="/self-help-fantasy">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
 ];
 
-export default onlineWorld;
+export default onlineWorldModuleData;

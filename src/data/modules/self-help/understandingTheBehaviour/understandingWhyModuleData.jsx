@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
 import pictureOne from "../../../../images/understanding-why-excercise-1-example.png";
 import pictureTwo from "../../../../images/understanding-why-excercise-2a-example-v2.png";
 import pictureThree from "../../../../images/understanding-why-excercise-2b-example.png";
 
-const understandingWhy = [
+const understandingWhyModuleData = [
   {
     id: 1,
     title: "Understanding why",
@@ -95,7 +98,11 @@ const understandingWhy = [
         <p>
           <b>Example</b>
         </p>
-        <img src={pictureOne} alt="daily internet use record" />
+        <img
+          src={pictureOne}
+          alt="daily internet use record"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
         <br />
         <a href="#">Download and edit PDF template</a>
         <br />
@@ -168,7 +175,11 @@ const understandingWhy = [
         <p>
           <b>Example</b>
         </p>
-        <img src={pictureTwo} alt="some understanding why scale" />
+        <img
+          src={pictureTwo}
+          alt="some understanding why scale"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
         <br />
         <a href="#">Download and edit PDF template</a>
         <br />
@@ -209,7 +220,11 @@ const understandingWhy = [
         <p>
           <b>Example</b>
         </p>
-        <img src={pictureThree} alt="Understanding why" />
+        <img
+          src={pictureThree}
+          alt="Understanding why"
+          style={{ height: "auto", maxWidth: "100%" }}
+        />
         <br />
         <a href="#">Download and edit PDF template</a>
         <br />
@@ -359,40 +374,42 @@ const understandingWhy = [
           (1 = very little knowledge; 2 = some understanding; 3 = secure
           understanding).
         </p>
-        <table className="table">
-          <tr>
-            <td>
-              I have a clear and detailed understanding of my sexual behaviour
-              and the internet.
-            </td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>
-              I can identify key events in my life that influenced me to engage
-              in more risky sexual behaviour over time.
-            </td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>I understand how I came to first behave illegally online.</td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>
-              I am aware of my patterns of internet use and when I am most
-              likely to behave illegally.
-            </td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
+        <table className="table table-bordered">
+          <tbody>
+            <tr>
+              <td>
+                I have a clear and detailed understanding of my sexual behaviour
+                and the internet.
+              </td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>
+                I can identify key events in my life that influenced me to
+                engage in more risky sexual behaviour over time.
+              </td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>I understand how I came to first behave illegally online.</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>
+                I am aware of my patterns of internet use and when I am most
+                likely to behave illegally.
+              </td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+          </tbody>
         </table>
         <br />
         <p>Think about these questions:</p>
@@ -432,8 +449,16 @@ const understandingWhy = [
           website? <b>Please take this survey</b> and let us know what you
           think.
         </p>
+        <br />
+        <Link to="/self-help-triggers">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
 ];
-export default understandingWhy;
+export default understandingWhyModuleData;

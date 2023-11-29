@@ -1,4 +1,7 @@
-const triggers = [
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
+const triggersModuleData = [
   {
     id: 1,
     title: "Triggers",
@@ -53,7 +56,7 @@ const triggers = [
           It is likely that you will have several triggers. Sometimes these will
           work by themselves and sometimes they will work as a combination.
         </p>
-        <table class=" table-with-borders">
+        <table class="table table-bordered">
           <tbody>
             <tr>
               <th>Internal</th>
@@ -121,7 +124,7 @@ const triggers = [
           are and why they are risky. Then identify what you can do to manage
           them.
         </p>
-        <table class=" table-with-borders">
+        <table class="table table-bordered">
           <tbody>
             <tr>
               <th>Triggers – internal and external, including situations</th>
@@ -206,8 +209,16 @@ const triggers = [
           working through it, or want to go through the information with a
           practitioner to guide you.
         </p>
+        <br />
+        <Link to="/self-help-taking-responsibility">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
 ];
-export default triggers;
+export default triggersModuleData;

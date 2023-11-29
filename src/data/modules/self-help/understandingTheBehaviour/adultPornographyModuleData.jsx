@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
 const AdultPornographyModuleData = [
   {
     id: 1,
@@ -861,6 +864,14 @@ const AdultPornographyModuleData = [
             .
           </p>
         </div>
+        <br />
+        <Link to="/self-help-addiction">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },

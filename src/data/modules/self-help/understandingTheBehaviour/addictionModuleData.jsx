@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
 const AddictionModuleData = [
   {
     id: 1,
@@ -74,17 +77,17 @@ const AddictionModuleData = [
           </p>
           <ul className="content-list">
             <li>
-              <span style="color: #e10818;">
+              <span style={{ color: "#e10818" }}>
                 Meeting 2-3 of the criteria indicates a mild addiction
               </span>
             </li>
             <li>
-              <span style="color: #e10818;">
+              <span style={{ color: "#e10818" }}>
                 Meeting 4-5 of the criteria indicates a moderate addiction
               </span>
             </li>
             <li>
-              <span style="color: #e10818;">
+              <span style={{ color: "#e10818" }}>
                 Meeting 6-7 of the criteria indicates a severe addiction
               </span>
             </li>
@@ -341,6 +344,14 @@ const AddictionModuleData = [
             Helpline&nbsp;for confidential support from our trained staff.
           </p>
         </div>
+        <br />
+        <Link to="/self-help-sexual-communication-with-children-online">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },

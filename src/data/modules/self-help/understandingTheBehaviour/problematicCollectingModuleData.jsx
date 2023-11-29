@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import Button from "../../../../components/Button";
+
 const ProblematicCollectingModuleData = [
   {
     id: 1,
@@ -591,6 +594,14 @@ const ProblematicCollectingModuleData = [
           guide you then please call the Stop It Now! helpline for confidential
           support from our trained staff.
         </p>
+        <br />
+        <Link to="/self-help-moving-forward">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </div>
     ),
   },

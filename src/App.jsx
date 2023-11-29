@@ -47,15 +47,55 @@ import OnlineCognitionSurveyFive from "./pages/selfAwareness/oc-survey-5";
 import OnlineCognitionSurveySix from "./pages/selfAwareness/oc-survey-6";
 import OnlineCognitionSurveySeven from "./pages/selfAwareness/oc-survey-7";
 import OnlineCognitionSurveyResult from "./pages/selfAwareness/oc-survey-result";
-import GuiltAndShameModule from "./pages/selfHelp/guilt-and-shame";
-import OpeningUpToOthersModule from "./pages/selfHelp/opening-up-to-others";
-import RecognisingAndDealingWithFeelingsModule from "./pages/selfHelp/recognising-and-dealing-with-feelings";
-import SelfCareModule from "./pages/selfHelp/self-care";
-import SelfTalkModule from "./pages/selfHelp/self-talk";
+import AddictionModule from "./pages/selfHelp/understandingBehaviour/addiction";
+import AdultPornographyModule from "./pages/selfHelp/understandingBehaviour/adult-pornography";
+import FantasyModule from "./pages/selfHelp/understandingBehaviour/fantasy";
+import ImagesAreChildrenModule from "./pages/selfHelp/understandingBehaviour/images-are-children";
+import OnlineWorldModule from "./pages/selfHelp/understandingBehaviour/online-world";
+import ProblemOfImmediateModule from "./pages/selfHelp/understandingBehaviour/problem-with-immediate-gratification";
+import ProblematicCollectingModule from "./pages/selfHelp/understandingBehaviour/problematic-collecting";
+import SexualCommunicationWithChildrenModule from "./pages/selfHelp/understandingBehaviour/sexual-communication-with-children-online";
+import TakingResponsibilityModule from "./pages/selfHelp/understandingBehaviour/taking-responsibility";
+import TriggersModule from "./pages/selfHelp/understandingBehaviour/triggers";
+import UnderstandingWhyModule from "./pages/selfHelp/understandingBehaviour/understanding-why";
+import GuiltAndShameModule from "./pages/selfHelp/yourWellBeing/guilt-and-shame";
+import OpeningUpToOthersModule from "./pages/selfHelp/yourWellBeing/opening-up-to-others";
+import RecognisingAndDealingWithFeelingsModule from "./pages/selfHelp/yourWellBeing/recognising-and-dealing-with-feelings";
+import SelfCareModule from "./pages/selfHelp/yourWellBeing/self-care";
+import SelfTalkModule from "./pages/selfHelp/yourWellBeing/self-talk";
 import UsefulResources from "./pages/useful-resources";
 import WhyChangeIntro from "./pages/why-change-introduction";
 import WhyChangeStrengths from "./pages/why-change-strengths";
 
+const routes = [
+  {
+    path: "/",
+    component: Home,
+  },
+];
+
+const moduleRoutes = [
+  {
+    path: "/self-help/understanding-behaviour/online-world",
+    component: OnlineWorldModule,
+  },
+  {
+    path: "/self-help/understanding-behaviour/taking-responsibility",
+    component: TakingResponsibilityModule,
+  },
+  {
+    path: "/self-help/understanding-behaviour/triggers",
+    component: TriggersModule,
+  },
+  {
+    path: "/self-help/understanding-behaviour/understanding-why",
+    component: UnderstandingWhyModule,
+  },
+  {
+    path: "/self-help/your-well-being/guilt-and-shame",
+    component: GuiltAndShameModule,
+  },
+];
 function App() {
   const [showMenu, setShowMenu] = useState(true);
 
@@ -226,6 +266,38 @@ function App() {
               element={<SelfCareModule showMenu={handleShowMenu} />}
             />
             <Route
+              path="/self-help-addiction"
+              element={<AddictionModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-online-world"
+              element={<OnlineWorldModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-sexual-communication-with-children-online"
+              element={
+                <SexualCommunicationWithChildrenModule
+                  showMenu={handleShowMenu}
+                />
+              }
+            />
+            <Route
+              path="/self-help-problem-of-immediate-gratification"
+              element={<ProblemOfImmediateModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-understanding-why"
+              element={<UnderstandingWhyModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-adult-pornography"
+              element={<AdultPornographyModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-triggers"
+              element={<TriggersModule showMenu={handleShowMenu} />}
+            />
+            <Route
               path="/self-help-self-talk"
               element={<SelfTalkModule showMenu={handleShowMenu} />}
             />
@@ -238,11 +310,29 @@ function App() {
               element={<GuiltAndShameModule showMenu={handleShowMenu} />}
             />
             <Route
+              path="/self-help-taking-responsibility"
+              element={<TakingResponsibilityModule showMenu={handleShowMenu} />}
+            />
+            <Route
               path="/self-help-recognising-and-dealing-with-feelings"
               element={
                 <RecognisingAndDealingWithFeelingsModule
                   showMenu={handleShowMenu}
                 />
+              }
+            />
+            <Route
+              path="/self-help-fantasy"
+              element={<FantasyModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-images-are-children"
+              element={<ImagesAreChildrenModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-help-problematic-collecting"
+              element={
+                <ProblematicCollectingModule showMenu={handleShowMenu} />
               }
             />
             <Route path="/self-help-moving-forward" element={<SHForward />} />

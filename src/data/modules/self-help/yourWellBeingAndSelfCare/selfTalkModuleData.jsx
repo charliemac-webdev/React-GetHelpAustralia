@@ -120,12 +120,14 @@ const selfTalkModuleData = [
           style={{ height: "auto", maxWidth: "100%" }}
         />
         <br />
+        <br />
         <p>Examples of self-talk that enhances your self-esteem:</p>
         <img
           src={pictureFour}
           alt="Self-talk 4"
           style={{ height: "auto", maxWidth: "100%" }}
         />
+        <br />
         <br />
         <p>Positive self-talk =</p>
         <ul className="content-list">
@@ -348,7 +350,7 @@ const selfTalkModuleData = [
           support from our trained staff.
         </p>
         <br />
-        <Link to="/self-help-guilt-and-shame">
+        <Link to="/self-help-understanding-why">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module
