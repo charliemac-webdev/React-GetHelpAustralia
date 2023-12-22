@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Introduction = () => {
   return (
     <>
@@ -76,7 +78,7 @@ const Introduction = () => {
         do not provide any identifiable information to us.
       </p>
       <p>
-        You can read our privacy policy <a>here</a>.
+        You can read our privacy policy <Link to="/privacy">here</Link>.
       </p>
       <p>
         Your use of this website constitutes your agreement to the provisions of

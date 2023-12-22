@@ -12,6 +12,7 @@ import Help from "./components/Help";
 import Menu from "./components/Menu";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
+import Privacy from "./pages/privacy";
 import GetTheFactsConsequences from "./pages/get-the-facts-consequences";
 import GetTheFactsInvestigation from "./pages/get-the-facts-if-being-investigated";
 import GetTheFactsIntro from "./pages/get-the-facts-introduction";
@@ -72,6 +73,10 @@ const routes = [
     path: "/",
     component: Home,
   },
+  {
+    path: "/privacy",
+    component: Privacy,
+  },
 ];
 
 const moduleRoutes = [
@@ -127,6 +132,7 @@ function App() {
           {showMenu && <Menu />}
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/privacy" element={<Privacy />} />
             <Route
               path="/get-the-facts-introduction"
               element={<GetTheFactsIntro />}
