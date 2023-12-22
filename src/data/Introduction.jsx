@@ -78,7 +78,11 @@ const Introduction = () => {
         do not provide any identifiable information to us.
       </p>
       <p>
-        You can read our privacy policy <Link to="/privacy">here</Link>.
+        You can read our privacy policy{" "}
+        <Link to="/privacy">
+          <strong>here</strong>
+        </Link>
+        .
       </p>
       <p>
         Your use of this website constitutes your agreement to the provisions of
