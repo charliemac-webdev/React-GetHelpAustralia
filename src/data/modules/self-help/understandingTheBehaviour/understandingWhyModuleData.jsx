@@ -14,14 +14,13 @@ const understandingWhyModuleData = [
         <h4 className="secondary-color">
           Motivation for illegal online sexual behaviour
         </h4>
+        <p></p>
         <p>
           If you are concerned about your worrying or illegal online sexual
           behaviour and want to stop this behaviour, it is important for you to
           learn as much as possible about yourself and what you are doing.
         </p>
-        <br />
         <p>The first step is to understand why you have done what you have.</p>
-        <br />
         <p>
           Here are some common reasons we hear from people who have offended
           online:
@@ -44,6 +43,8 @@ const understandingWhyModuleData = [
         </ul>
         <hr />
         {/* starting point quiz */}
+        **Insert Starting point quiz**
+        <p></p>
         <br />
         <p>
           If you have very little knowledge or some understanding, this section
@@ -65,12 +66,10 @@ const understandingWhyModuleData = [
           difficult to understand our behaviour. We will show you two ways you
           can use to improve your understanding.
         </p>
-        <br />
         <p>
           The first is to think about when you go online and what mood you are
           in.
         </p>
-        <br />
         <p>
           Below is a diary for you to complete which will help you think about
           these and help you identify patterns of behaviour.
@@ -78,6 +77,7 @@ const understandingWhyModuleData = [
         <br />
         <h5 className="secondary-color">Daily internet use record</h5>
         <p>
+          <p></p>
           This exercise will help you record your behaviour and recognise
           patterns in it. This can help you work out where you need to fill your
           time more positively.
@@ -140,7 +140,6 @@ const understandingWhyModuleData = [
           This first step aims to give you a clear visual record of how you
           moved towards illegal online sexual behaviour.
         </p>
-        <br />
         <p>
           In each box, write a short description of an important event in your
           life. These events should show how your online behaviour changed,
@@ -201,10 +200,10 @@ const understandingWhyModuleData = [
         <hr />
         <h5 className="secondary-color">Part B: Digging deeper</h5>
         <p>
+          <p></p>
           To help you explore and reflect on your timeline, complete the
           following table in as much detail as possible.
         </p>
-        <br />
         <p>
           You can use the ‘feelings word bank’ below if needed. Remember to
           think about these five groups of activities:
@@ -226,9 +225,11 @@ const understandingWhyModuleData = [
           style={{ height: "auto", maxWidth: "100%" }}
         />
         <br />
+        <p></p>
         <a href="#">Download and edit PDF template</a>
         <br />
         <p>
+          <p></p>
           <b>Instructions</b>
         </p>
         <ol>
@@ -258,7 +259,7 @@ const understandingWhyModuleData = [
         <hr />
         <br />
         <h4 className="secondary-color">
-          Part C: Understannding your behaviour over time
+          Part C: Understanding your behaviour over time
         </h4>
         <a href="#">
           Download printable version of these questions with space to fill in
@@ -266,6 +267,7 @@ const understandingWhyModuleData = [
         </a>
         <br />
         <p>
+          <p></p>
           <b>
             Looking back over your diary and your timeline, think about these
             questions:
@@ -286,6 +288,7 @@ const understandingWhyModuleData = [
             fantasies developed?
           </li>
           <p>
+            <p></p>
             <b>
               Now think about when you started using the internet regularly:
             </b>
@@ -301,6 +304,7 @@ const understandingWhyModuleData = [
           </li>
           <li>How would you describe your life online?</li>
           <p>
+            <p></p>
             <b>
               Now think about the one event that led you behave illegally online
               for the first time:
@@ -349,12 +353,12 @@ const understandingWhyModuleData = [
             behaviour? If yes, how many times did you try and stop? Why do you
             think you were not successful?
           </li>
+          <br />
+          <p>
+            What are the important things that are motivating you to stop your
+            illegal behaviour now? How important are they to you?
+          </p>
         </ol>
-        <br />
-        <p>
-          What are the important things that are motivating you to stop your
-          illegal behaviour now? How important are they to you?
-        </p>
       </>
     ),
   },
@@ -434,21 +438,6 @@ const understandingWhyModuleData = [
           </li>
         </ul>
         <hr />
-        <h4 className="secondary-color">Talk to us if you need support</h4>
-        <p>
-          You can <b>use our helpline, live chat or secure message service</b>{" "}
-          for confidential support from our experienced advisors if you want to
-          discuss anything covered in this module, have struggled when working
-          through it, or want to go through the information with a practitioner
-          to guide you.
-        </p>
-        <hr />
-        <h4 className="secondary-color">Can you help us?</h4>
-        <p>
-          Do you have a few minutes to help us improve the effectiveness of this
-          website? <b>Please take this survey</b> and let us know what you
-          think.
-        </p>
         <br />
         <Link to="/self-help-triggers">
           <div className="d-flex justify-content-end">

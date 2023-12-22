@@ -2,8 +2,8 @@ const GTFLaw = () => {
   return (
     <>
       <p>
-        In the UK there are several offences regarding sexual images of children
-        and online sexual conversations with children.
+        In Australia there are several offences regarding sexual images of
+        children and online sexual conversations with children.
       </p>
       <h4 className="secondary-color">Sexual images of children</h4>
       <p>

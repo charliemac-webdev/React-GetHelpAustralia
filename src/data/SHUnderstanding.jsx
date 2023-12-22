@@ -2,8 +2,13 @@ const SHUnderstanding = () => {
   return (
     <>
       <p>
-        Understand your online sexual behaviours, motivations, trends and
-        patterns – and how to stop.
+        This section will help you understand how you behave online, why you do
+        it, and what might be a problem. It will help you see if you’re doing
+        things that could hurt you or others. When you finish the modules, it
+        will help you see how your online actions affect your life and
+        relationships. This can lead to using the internet in a healthier and
+        more responsible way, so you don’t harm anyone and prevent you from
+        offending.
       </p>
 
       <p className="pl-4">

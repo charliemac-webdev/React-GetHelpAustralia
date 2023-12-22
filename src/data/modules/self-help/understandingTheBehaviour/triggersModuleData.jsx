@@ -195,20 +195,6 @@ const triggersModuleData = [
           We now need to start looking at managing these triggers as this can
           help you minimise the risk of repeating your behaviour in the future.
         </p>
-        <hr></hr>
-        <h4 className="secondary-color">Talk to us if you need support</h4>
-        <p>
-          You can&nbsp;
-          <strong>
-            <a href="https://www.stopitnow.org.uk/helpline/">
-              use our helpline, live chat or secure message service
-            </a>
-          </strong>
-          &nbsp;for confidential support from our experienced advisors if you
-          want to discuss anything covered in this module, have struggled when
-          working through it, or want to go through the information with a
-          practitioner to guide you.
-        </p>
         <br />
         <Link to="/self-help-taking-responsibility">
           <div className="d-flex justify-content-end">
