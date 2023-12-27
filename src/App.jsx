@@ -13,7 +13,7 @@ import Menu from "./components/Menu";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 import MovingForward from "./pages/MovingForward";
-import Privacy from "./pages/Privacy";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Resources from "./pages/Resources";
 import UnderstandingYourOnlineBehaviour from "./pages/UnderstandingYourOnlineBehaviour";
 import UnderstandingYourThoughtsAndBehaviour from "./pages/UnderstandingYourThoughtsAndBehaviour";
@@ -70,7 +70,7 @@ function App() {
           {showMenu && <Menu />}
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route
               path="/wellbeing-and-self-care"
               element={<WellbeingAndSelfCare />}

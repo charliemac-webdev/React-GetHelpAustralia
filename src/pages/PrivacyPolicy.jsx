@@ -2,7 +2,7 @@ import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
 import PrivacyPolicyData from "../data/page-data/PrivacyPolicyData";
 
-const Privacy = () => {
+const PrivacyPolicy = () => {
   return (
     <>
       <Heading>
@@ -14,4 +14,4 @@ const Privacy = () => {
     </>
   );
 };
-export default Privacy;
+export default PrivacyPolicy;
