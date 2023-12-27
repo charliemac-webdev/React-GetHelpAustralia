@@ -7,7 +7,7 @@ const Menu = () => {
       <div className="main-section-menu">
         <div>
           {MenuTitles.map((menu) => (
-            <h5 key={menu.id} className="secondary-color">
+            <h5 key={menu.id} className="secondary-color" id="menu-titles">
               <Link to={menu.link}>{menu.title}</Link>
             </h5>
           ))}
