@@ -172,19 +172,29 @@ h6 {
   background-image: url(../images/folder-transparent.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 120px;
+  height: 110px;
   width: 100%;
+}
+
+.folder:hover {
+  cursor: pointer;
+  background-image: url(../images/folder-hover-blue.svg);
+}
+
+@media screen and (min-width: 768px) {
+  .folder {
+    height: 160px;
+  }
 }
 
 .folder h3 {
   position: absolute;
   top: 30px;
-  left: 10px;
+  left: 15px;
   font-size: 13px;
   line-height: 1.3;
   text-align: left;
-  padding: 1px;
-  width: 40%;
+  max-width: 60%;
 }
 
 .single-modules {
