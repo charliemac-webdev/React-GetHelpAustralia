@@ -138,6 +138,19 @@ h6 {
   padding: 0 8vw 0 8vw;
 }
 
+#module-nav {
+  font-size: x-small;
+  padding-left: 8vw;
+}
+
+#module-nav-link {
+  padding-right: 2rem;
+}
+
+.module-nav-nodisplay {
+  display: none;
+}
+
 .main-section-grid {
   display: grid;
   gap: 1.5rem;
@@ -146,6 +159,10 @@ h6 {
     "two three";
   grid-template-columns: 15rem 1fr;
   padding: 0 8vw 0 8vw;
+}
+
+.module-nav {
+  display: flex;
 }
 
 .main-section-heading {

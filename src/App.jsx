@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Components
@@ -7,6 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Help from "./components/Help";
 import Menu from "./components/Menu";
+import ModuleNav from "./components/ModuleNav";
 
 // Pages
 
@@ -42,9 +42,16 @@ import SelfTalkModule from "./pages/Wellbeing/self-talk";
 
 function App() {
   const [showMenu, setShowMenu] = useState(true);
+  const [showModuleNav, setShowModuleNav] = useState(false);
 
   const handleShowMenu = () => {
     setShowMenu(false);
+    setShowModuleNav(true);
+  };
+
+  const handleHideMenu = () => {
+    setShowMenu(true);
+    setShowModuleNav(false);
   };
 
   return (
@@ -52,7 +59,13 @@ function App() {
       <BrowserRouter>
         <Header />
         <Help />
-        <span
+        <div
+          onClick={handleHideMenu}
+          className={`${showModuleNav ? "module-nav" : "module-nav-nodisplay"}`}
+        >
+          {showModuleNav && <ModuleNav />}
+        </div>
+        {/* <span
           role="button"
           className="menu-toggle-icons"
           onClick={() => setShowMenu(!showMenu)}
@@ -62,7 +75,8 @@ function App() {
           ) : (
             <BiRightArrow className="menu-icon" />
           )}
-        </span>
+        </span> */}
+
         <div
           className={`${
             showMenu ? "main-section-grid" : "main-section-grid-nomenu"

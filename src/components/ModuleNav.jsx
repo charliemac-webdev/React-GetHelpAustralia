@@ -4,14 +4,19 @@ import MenuTitles from "../data/component-data/menuTitles";
 
 const ModuleNav = () => {
   return (
-    <div className="d-flex flex-row">
-      <div>
-        {MenuTitles.map((menu) => (
-          <Link key={menu.id} to={menu.link} className="nav-link">
+    <div className="d-flex flex-row" id="module-nav">
+      {MenuTitles.map((menu) => (
+        <div>
+          <Link
+            key={menu.id}
+            to={menu.link}
+            className="nav-link"
+            id="module-nav-link"
+          >
             {menu.title}
           </Link>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 };
