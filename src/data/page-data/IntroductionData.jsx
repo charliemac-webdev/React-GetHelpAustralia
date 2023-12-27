@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom";
 
-const Introduction = () => {
+const IntroductionData = () => {
   return (
     <>
       <h2 className="secondary-color">How we can help</h2>
       <p>
-        <p></p>
-        <p></p>
         We support people who are worried about their own online behaviour and
         who want to change. We want you to know that there is help and support
         available for you.
-        <p></p>
+      </p>
+      <p>
         To access our self-help online resources, click on the headings on the
         side of this page, and work through them at your own pace. These
         sections offer valuable information about understanding your behaviour,
@@ -18,7 +17,8 @@ const Introduction = () => {
         will help you address different issues that you may be experiencing.
         Like the Stop It Now! Australia helpline, the site is free and
         anonymous.
-        <p></p>
+      </p>
+      <p>
         We encourage you to look at all sections, even if you feel confident in
         them, as you may still find them helpful.
       </p>
@@ -29,9 +29,6 @@ const Introduction = () => {
         real name or any contact details. If you’re not ready to speak to anyone
         yet, you can also use our live chat or send a secure email.
       </p>
-      <p></p>
-      <p></p>
-      <p></p>
       <hr />
       <h2 className="secondary-color">Disclaimer</h2>
       <p>
@@ -74,9 +71,13 @@ const Introduction = () => {
         any attempts to identify you. However, even though you will remain
         anonymous, we may be legally obligated to report all information to
         relevant agencies if we believe that child abuse has occurred or is
-        likely to occur. In order to remain anonymous, it is important that you
-        do not provide any identifiable information to us.
+        likely to occur.
       </p>
+      <p>
+        In order to remain anonymous, it is important that you do not provide
+        any identifiable information to us.
+      </p>
+
       <p>
         You can read our privacy policy{" "}
         <Link to="/privacy">
@@ -91,4 +92,4 @@ const Introduction = () => {
     </>
   );
 };
-export default Introduction;
+export default IntroductionData;

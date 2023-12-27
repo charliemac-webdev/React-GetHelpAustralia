@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import MiniCard from "../components/MiniCard";
-import SHUnderstanding from "../data/SHUnderstanding";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import MiniCard from "../../components/MiniCard";
+import SHUnderstanding from "../../data/old-data-files/SHUnderstanding";
 
 const SHUnderstandingBehaviour = () => {
   return (

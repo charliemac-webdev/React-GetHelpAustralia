@@ -1,7 +1,7 @@
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import MiniCard from "../components/MiniCard";
-import SHMovingForward from "../data/SHMovingForward";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import MiniCard from "../../components/MiniCard";
+import SHMovingForward from "../../data/old-data-files/SHMovingForward";
 
 const SHForward = () => {
   return (

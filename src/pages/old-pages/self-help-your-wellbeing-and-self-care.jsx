@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import MiniCard from "../components/MiniCard";
-import SHWellBeing from "../data/SHWellBeing";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import MiniCard from "../../components/MiniCard";
+import SHWellBeing from "../../data/old-data-files/SHWellBeing";
 
 const SelfHelpWellBeing = () => {
   return (

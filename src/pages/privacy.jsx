@@ -1,6 +1,6 @@
 import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
-import PrivacyPolicy from "../data/PrivacyPolicy";
+import PrivacyPolicyData from "../data/page-data/PrivacyPolicyData";
 
 const Privacy = () => {
   return (
@@ -9,7 +9,7 @@ const Privacy = () => {
         <h2 className="secondary-color mb-3">Privacy policy</h2>
       </Heading>
       <MainContent>
-        <PrivacyPolicy />
+        <PrivacyPolicyData />
       </MainContent>
     </>
   );

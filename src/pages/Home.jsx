@@ -1,6 +1,6 @@
 import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
-import Introduction from "../data/Introduction";
+import IntroductionData from "../data/page-data/IntroductionData";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         </h2>
       </Heading>
       <MainContent>
-        <Introduction />
+        <IntroductionData />
       </MainContent>
     </>
   );

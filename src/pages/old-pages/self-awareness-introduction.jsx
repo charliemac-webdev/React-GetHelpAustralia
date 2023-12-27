@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import SAIntro from "../../data/old-data-files/SAIntro";
 import Card from "../components/Card";
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import SAIntro from "../data/SAIntro";
 
 const SelfAwarenessIntro = () => {
   return (

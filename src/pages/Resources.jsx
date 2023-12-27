@@ -1,17 +1,17 @@
 import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
-import GTFGrey from "../data/GTFGrey";
+import ResourcesData from "../data/page-data/ResourcesData";
 
-const GetTheFactsGrey = () => {
+const Resources = () => {
   return (
     <>
       <Heading>
-        <h2 className="secondary-color mb-3">No &#39;grey area&#39;</h2>
+        <h2 className="secondary-color mb-3">Useful resources</h2>
       </Heading>
       <MainContent>
-        <GTFGrey />
+        <ResourcesData />
       </MainContent>
     </>
   );
 };
-export default GetTheFactsGrey;
+export default Resources;

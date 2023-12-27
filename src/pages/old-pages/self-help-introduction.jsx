@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import SHIntro from "../../data/old-data-files/SHIntro";
 import Card from "../components/Card";
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import SHIntro from "../data/SHIntro";
 
 const SelfHelpIntro = () => {
   return (
