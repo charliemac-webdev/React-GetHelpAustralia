@@ -4,7 +4,7 @@ import { FcPrint } from "react-icons/fc";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 import Module from "../../../components/Module";
-import triggersModuleData from "../../../data/modules/self-help/understandingTheBehaviour/triggersModuleData";
+import triggersModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/triggersModuleData";
 
 const TriggersModule = ({ showMenu }) => {
   useEffect(() => {

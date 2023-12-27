@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Button from "../../../../components/Button";
+import Button from "../../../components/Button";
 
-import pictureOne from "../../../../images/understanding-why-excercise-1-example.png";
-import pictureTwo from "../../../../images/understanding-why-excercise-2a-example-v2.png";
-import pictureThree from "../../../../images/understanding-why-excercise-2b-example.png";
+import pictureOne from "../../../images/understanding-why-excercise-1-example.png";
+import pictureTwo from "../../../images/understanding-why-excercise-2a-example-v2.png";
+import pictureThree from "../../../images/understanding-why-excercise-2b-example.png";
 
 const understandingWhyModuleData = [
   {

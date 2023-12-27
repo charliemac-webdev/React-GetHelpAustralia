@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Button from "../../../../components/Button";
-import WellbeingAssessment from "../../../../components/WellbeingAssessment";
+import Button from "../../../components/Button";
+import WellbeingAssessment from "../../../components/WellbeingAssessment";
 
 const SelfCareModuleData = [
   {

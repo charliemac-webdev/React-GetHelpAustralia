@@ -17,7 +17,7 @@ const MovingForward = () => {
         <div className="row single-modules p-4 bg-primary-subtle">
           {movingForwardFolderTitles.map((folder) => (
             <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
-              <Link to={folder.path}>
+              <Link to={folder.link}>
                 <MiniCard title={folder.title} />
               </Link>
             </div>

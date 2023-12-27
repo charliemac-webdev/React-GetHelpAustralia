@@ -1,9 +1,9 @@
-import pictureTwo from "../../../../images/diagrams-MAN.gif";
-import pictureThree from "../../../../images/diagrams-feelings.gif";
-import pictureOne from "../../../../images/diagrams-response.gif";
+import pictureTwo from "../../../images/diagrams-MAN.gif";
+import pictureThree from "../../../images/diagrams-feelings.gif";
+import pictureOne from "../../../images/diagrams-response.gif";
 
 import { Link } from "react-router-dom";
-import Button from "../../../../components/Button";
+import Button from "../../../components/Button";
 
 const RecognisingAndDealingWithFeelingsModuleData = [
   {

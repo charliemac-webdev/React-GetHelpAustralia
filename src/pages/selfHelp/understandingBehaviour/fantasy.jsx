@@ -4,7 +4,7 @@ import { FcPrint } from "react-icons/fc";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 import Module from "../../../components/Module";
-import FantasyModuleData from "../../../data/modules/self-help/understandingTheBehaviour/fantasyModuleData";
+import FantasyModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/fantasyModuleData";
 
 const FantasyModule = ({ showMenu }) => {
   useEffect(() => {

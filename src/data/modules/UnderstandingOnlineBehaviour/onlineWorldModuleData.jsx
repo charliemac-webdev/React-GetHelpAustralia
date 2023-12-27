@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import Button from "../../../../components/Button";
+import Button from "../../../components/Button";
 
-import pictureSix from "../../../../images/diagrams-offlineme.gif";
-import pictureSeven from "../../../../images/diagrams-onlineme.gif";
-import pictureFive from "../../../../images/download-1-1.png";
-import pictureThree from "../../../../images/download-1.png";
-import pictureFour from "../../../../images/download-2.png";
-import pictureTwo from "../../../../images/download.png";
-import pictureOne from "../../../../images/triple-a-engine.png";
+import pictureSix from "../../../images/diagrams-offlineme.gif";
+import pictureSeven from "../../../images/diagrams-onlineme.gif";
+import pictureFive from "../../../images/download-1-1.png";
+import pictureThree from "../../../images/download-1.png";
+import pictureFour from "../../../images/download-2.png";
+import pictureTwo from "../../../images/download.png";
+import pictureOne from "../../../images/triple-a-engine.png";
 
 const onlineWorldModuleData = [
   {

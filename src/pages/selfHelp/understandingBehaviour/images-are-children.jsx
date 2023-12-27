@@ -4,7 +4,7 @@ import { FcPrint } from "react-icons/fc";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 import Module from "../../../components/Module";
-import ImagesAreChildrenModuleData from "../../../data/modules/self-help/understandingTheBehaviour/imagesAreChildrenModuleData";
+import ImagesAreChildrenModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/imagesAreChildrenModuleData";
 
 const ImagesAreChildrenModule = ({ showMenu }) => {
   useEffect(() => {

@@ -4,7 +4,7 @@ import { FcPrint } from "react-icons/fc";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 import Module from "../../../components/Module";
-import understandingWhyModuleData from "../../../data/modules/self-help/understandingTheBehaviour/understandingWhyModuleData";
+import understandingWhyModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
 
 const UnderstandingWhyModule = ({ showMenu }) => {
   useEffect(() => {

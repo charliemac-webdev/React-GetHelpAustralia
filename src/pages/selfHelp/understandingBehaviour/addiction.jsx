@@ -4,7 +4,7 @@ import { FcPrint } from "react-icons/fc";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 import Module from "../../../components/Module";
-import AddictionModuleData from "../../../data/modules/self-help/understandingTheBehaviour/addictionModuleData";
+import AddictionModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/addictionModuleData";
 
 const AddictionModule = ({ showMenu }) => {
   useEffect(() => {

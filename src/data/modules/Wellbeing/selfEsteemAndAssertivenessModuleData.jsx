@@ -345,3 +345,5 @@ const SelfEsteemAndAssertivenessModuleData = [
     ),
   },
 ];
+
+export default SelfEsteemAndAssertivenessModuleData;

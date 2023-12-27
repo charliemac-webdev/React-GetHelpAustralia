@@ -4,7 +4,7 @@ import { FcPrint } from "react-icons/fc";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 import Module from "../../../components/Module";
-import ProblematicCollectingModuleData from "../../../data/modules/self-help/understandingTheBehaviour/problematicCollectingModuleData";
+import ProblematicCollectingModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/problematicCollectingModuleData";
 
 const ProblematicCollectingModule = ({ showMenu }) => {
   useEffect(() => {

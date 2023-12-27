@@ -1,12 +1,12 @@
-import pictureOne from "../../../../images/diagrams-selftalk-1.gif";
-import pictureTwo from "../../../../images/diagrams-selftalk-2.gif";
-import pictureThree from "../../../../images/diagrams-selftalk-3.gif";
-import pictureFour from "../../../../images/diagrams-selftalk-4.gif";
-import pictureFive from "../../../../images/diagrams-selftalk.gif";
-import pictureSix from "../../../../images/diagrams-yes-or-no.gif";
+import pictureOne from "../../../images/diagrams-selftalk-1.gif";
+import pictureTwo from "../../../images/diagrams-selftalk-2.gif";
+import pictureThree from "../../../images/diagrams-selftalk-3.gif";
+import pictureFour from "../../../images/diagrams-selftalk-4.gif";
+import pictureFive from "../../../images/diagrams-selftalk.gif";
+import pictureSix from "../../../images/diagrams-yes-or-no.gif";
 
 import { Link } from "react-router-dom";
-import Button from "../../../../components/Button";
+import Button from "../../../components/Button";
 
 const selfTalkModuleData = [
   {
@@ -296,7 +296,7 @@ const selfTalkModuleData = [
           use illegal images (1 = very little understanding; 2 = some
           understanding; 3 = secure understanding).
         </p>
-        <table className="table">
+        <table className="table table-bordered">
           <tr>
             <td>
               I have a clear understanding of the self-talk messages I give

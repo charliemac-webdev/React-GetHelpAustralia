@@ -22,6 +22,12 @@ import Modal from "./pages/modal-page";
 
 // Modules
 
+import GuiltAndShameModule from "./pages/Wellbeing/guilt-and-shame";
+import MotivationForChangeModule from "./pages/Wellbeing/motivation-for-change";
+import RecognisingAndDealingWithFeelingsModule from "./pages/Wellbeing/recognising-and-dealing-with-feelings";
+import SelfCareModule from "./pages/Wellbeing/self-care";
+import SelfEsteemAndAssertivenessModule from "./pages/Wellbeing/self-esteem-and-assertiveness";
+import SelfTalkModule from "./pages/Wellbeing/self-talk";
 import AddictionModule from "./pages/selfHelp/understandingBehaviour/addiction";
 import AdultPornographyModule from "./pages/selfHelp/understandingBehaviour/adult-pornography";
 import FantasyModule from "./pages/selfHelp/understandingBehaviour/fantasy";
@@ -33,11 +39,7 @@ import SexualCommunicationWithChildrenModule from "./pages/selfHelp/understandin
 import TakingResponsibilityModule from "./pages/selfHelp/understandingBehaviour/taking-responsibility";
 import TriggersModule from "./pages/selfHelp/understandingBehaviour/triggers";
 import UnderstandingWhyModule from "./pages/selfHelp/understandingBehaviour/understanding-why";
-import GuiltAndShameModule from "./pages/selfHelp/yourWellBeing/guilt-and-shame";
 import OpeningUpToOthersModule from "./pages/selfHelp/yourWellBeing/opening-up-to-others";
-import RecognisingAndDealingWithFeelingsModule from "./pages/selfHelp/yourWellBeing/recognising-and-dealing-with-feelings";
-import SelfCareModule from "./pages/selfHelp/yourWellBeing/self-care";
-import SelfTalkModule from "./pages/selfHelp/yourWellBeing/self-talk";
 
 function App() {
   const [showMenu, setShowMenu] = useState(true);
@@ -87,19 +89,19 @@ function App() {
             <Route path="/resources" element={<Resources />} />
 
             <Route
-              path="/self-help-self-care"
+              path="/self-care"
               element={<SelfCareModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-addiction"
+              path="/addiction"
               element={<AddictionModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-online-world"
+              path="/online-world"
               element={<OnlineWorldModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-sexual-communication-with-children-online"
+              path="/sexual-communication-with-children-online"
               element={
                 <SexualCommunicationWithChildrenModule
                   showMenu={handleShowMenu}
@@ -107,39 +109,39 @@ function App() {
               }
             />
             <Route
-              path="/self-help-problem-of-immediate-gratification"
+              path="/problem-of-immediate-gratification"
               element={<ProblemOfImmediateModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-understanding-why"
+              path="/understanding-why"
               element={<UnderstandingWhyModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-adult-pornography"
+              path="/adult-pornography"
               element={<AdultPornographyModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-triggers"
+              path="/triggers"
               element={<TriggersModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-self-talk"
+              path="/self-talk"
               element={<SelfTalkModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-opening-up-to-others"
+              path="/opening-up-to-others"
               element={<OpeningUpToOthersModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-guilt-and-shame"
+              path="/guilt-and-shame"
               element={<GuiltAndShameModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-taking-responsibility"
+              path="/taking-responsibility"
               element={<TakingResponsibilityModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-recognising-and-dealing-with-feelings"
+              path="/recognising-and-dealing-with-feelings"
               element={
                 <RecognisingAndDealingWithFeelingsModule
                   showMenu={handleShowMenu}
@@ -147,17 +149,27 @@ function App() {
               }
             />
             <Route
-              path="/self-help-fantasy"
+              path="/fantasy"
               element={<FantasyModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-images-are-children"
+              path="/images-are-children"
               element={<ImagesAreChildrenModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/self-help-problematic-collecting"
+              path="/problematic-collecting"
               element={
                 <ProblematicCollectingModule showMenu={handleShowMenu} />
+              }
+            />
+            <Route
+              path="/motivation-for-change"
+              element={<MotivationForChangeModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/self-esteem-and-assertiveness"
+              element={
+                <SelfEsteemAndAssertivenessModule showMenu={handleShowMenu} />
               }
             />
             <Route path="/modal-page" element={<Modal />} />

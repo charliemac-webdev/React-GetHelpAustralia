@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Button from "../../../../components/Button";
-import pictureOne from "../../../../images/diagrams-surely.gif";
+import Button from "../../../components/Button";
+import pictureOne from "../../../images/diagrams-surely.gif";
 
 const FantasyModuleData = [
   {

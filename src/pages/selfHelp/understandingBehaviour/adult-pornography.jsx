@@ -4,7 +4,7 @@ import { FcPrint } from "react-icons/fc";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 import Module from "../../../components/Module";
-import AdultPornographyModuleData from "../../../data/modules/self-help/understandingTheBehaviour/adultPornographyModuleData";
+import AdultPornographyModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/adultPornographyModuleData";
 
 const AdultPornographyModule = ({ showMenu }) => {
   useEffect(() => {
