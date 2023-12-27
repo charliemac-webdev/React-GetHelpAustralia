@@ -1,21 +1,19 @@
 import React, { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import SexualCommunicationWithChildrenModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/sexualCommunicationWithChildrenModuleData";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import AdultPornographyModuleData from "../../data/modules/UnderstandingOnlineBehaviour/adultPornographyModuleData";
 
-const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
+const AdultPornographyModule = ({ showMenu }) => {
   useEffect(() => {
     showMenu(false);
   }, []);
   return (
     <>
       <Heading>
-        <h2 className="secondary-color">
-          Sexual communication with children online
-        </h2>
+        <h2 className="secondary-color">Adult Pornography</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -29,10 +27,10 @@ const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
         <ul className="content-list">
           <li></li>
         </ul>
-        <Module modules={SexualCommunicationWithChildrenModuleData} />
+        <Module modules={AdultPornographyModuleData} />
       </MainContent>
     </>
   );
 };
 
-export default SexualCommunicationWithChildrenModule;
+export default AdultPornographyModule;

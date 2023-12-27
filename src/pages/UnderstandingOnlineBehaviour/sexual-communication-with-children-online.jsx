@@ -1,19 +1,21 @@
 import React, { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import AddictionModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/addictionModuleData";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import SexualCommunicationWithChildrenModuleData from "../../data/modules/UnderstandingOnlineBehaviour/sexualCommunicationWithChildrenModuleData";
 
-const AddictionModule = ({ showMenu }) => {
+const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
   useEffect(() => {
     showMenu(false);
   }, []);
   return (
     <>
       <Heading>
-        <h2 className="secondary-color">Addiction</h2>
+        <h2 className="secondary-color">
+          Sexual communication with children online
+        </h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -27,10 +29,10 @@ const AddictionModule = ({ showMenu }) => {
         <ul className="content-list">
           <li></li>
         </ul>
-        <Module modules={AddictionModuleData} />
+        <Module modules={SexualCommunicationWithChildrenModuleData} />
       </MainContent>
     </>
   );
 };
 
-export default AddictionModule;
+export default SexualCommunicationWithChildrenModule;

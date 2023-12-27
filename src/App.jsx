@@ -22,24 +22,23 @@ import Modal from "./pages/modal-page";
 
 // Modules
 
+import AddictionModule from "./pages/UnderstandingOnlineBehaviour/addiction";
+import AdultPornographyModule from "./pages/UnderstandingOnlineBehaviour/adult-pornography";
+import FantasyModule from "./pages/UnderstandingOnlineBehaviour/fantasy";
+import ImagesAreChildrenModule from "./pages/UnderstandingOnlineBehaviour/images-are-children";
+import OnlineWorldModule from "./pages/UnderstandingOnlineBehaviour/online-world";
+import ProblemOfImmediateModule from "./pages/UnderstandingOnlineBehaviour/problem-with-immediate-gratification";
+import ProblematicCollectingModule from "./pages/UnderstandingOnlineBehaviour/problematic-collecting";
+import SexualCommunicationWithChildrenModule from "./pages/UnderstandingOnlineBehaviour/sexual-communication-with-children-online";
+import TakingResponsibilityModule from "./pages/UnderstandingOnlineBehaviour/taking-responsibility";
+import TriggersModule from "./pages/UnderstandingOnlineBehaviour/triggers";
+import UnderstandingWhyModule from "./pages/UnderstandingOnlineBehaviour/understanding-why";
 import GuiltAndShameModule from "./pages/Wellbeing/guilt-and-shame";
 import MotivationForChangeModule from "./pages/Wellbeing/motivation-for-change";
 import RecognisingAndDealingWithFeelingsModule from "./pages/Wellbeing/recognising-and-dealing-with-feelings";
 import SelfCareModule from "./pages/Wellbeing/self-care";
 import SelfEsteemAndAssertivenessModule from "./pages/Wellbeing/self-esteem-and-assertiveness";
 import SelfTalkModule from "./pages/Wellbeing/self-talk";
-import AddictionModule from "./pages/selfHelp/understandingBehaviour/addiction";
-import AdultPornographyModule from "./pages/selfHelp/understandingBehaviour/adult-pornography";
-import FantasyModule from "./pages/selfHelp/understandingBehaviour/fantasy";
-import ImagesAreChildrenModule from "./pages/selfHelp/understandingBehaviour/images-are-children";
-import OnlineWorldModule from "./pages/selfHelp/understandingBehaviour/online-world";
-import ProblemOfImmediateModule from "./pages/selfHelp/understandingBehaviour/problem-with-immediate-gratification";
-import ProblematicCollectingModule from "./pages/selfHelp/understandingBehaviour/problematic-collecting";
-import SexualCommunicationWithChildrenModule from "./pages/selfHelp/understandingBehaviour/sexual-communication-with-children-online";
-import TakingResponsibilityModule from "./pages/selfHelp/understandingBehaviour/taking-responsibility";
-import TriggersModule from "./pages/selfHelp/understandingBehaviour/triggers";
-import UnderstandingWhyModule from "./pages/selfHelp/understandingBehaviour/understanding-why";
-import OpeningUpToOthersModule from "./pages/selfHelp/yourWellBeing/opening-up-to-others";
 
 function App() {
   const [showMenu, setShowMenu] = useState(true);
@@ -129,15 +128,11 @@ function App() {
               element={<SelfTalkModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/opening-up-to-others"
-              element={<OpeningUpToOthersModule showMenu={handleShowMenu} />}
-            />
-            <Route
               path="/guilt-and-shame"
               element={<GuiltAndShameModule showMenu={handleShowMenu} />}
             />
             <Route
-              path="/taking-responsibility"
+              path="/taking-control-of-your-online-behaviour"
               element={<TakingResponsibilityModule showMenu={handleShowMenu} />}
             />
             <Route

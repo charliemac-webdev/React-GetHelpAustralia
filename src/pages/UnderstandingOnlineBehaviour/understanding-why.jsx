@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import triggersModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/triggersModuleData";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import understandingWhyModuleData from "../../data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
 
-const TriggersModule = ({ showMenu }) => {
+const UnderstandingWhyModule = ({ showMenu }) => {
   useEffect(() => {
     showMenu(false);
   }, []);
   return (
     <>
       <Heading>
-        <h2 className="secondary-color">Triggers</h2>
+        <h2 className="secondary-color">Understanding why</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -33,10 +33,10 @@ const TriggersModule = ({ showMenu }) => {
             reasons
           </li>
         </ul>
-        <Module modules={triggersModuleData} />
+        <Module modules={understandingWhyModuleData} />
       </MainContent>
     </>
   );
 };
 
-export default TriggersModule;
+export default UnderstandingWhyModule;

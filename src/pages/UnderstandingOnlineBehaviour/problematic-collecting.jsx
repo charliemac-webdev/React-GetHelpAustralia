@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import onlineWorldModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/onlineWorldModuleData";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import ProblematicCollectingModuleData from "../../data/modules/UnderstandingOnlineBehaviour/problematicCollectingModuleData";
 
-const OnlineWorldModule = ({ showMenu }) => {
+const ProblematicCollectingModule = ({ showMenu }) => {
   useEffect(() => {
     showMenu(false);
   }, []);
   return (
     <>
       <Heading>
-        <h2 className="secondary-color">Online World</h2>
+        <h2 className="secondary-color">Problematic collection</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -27,10 +27,10 @@ const OnlineWorldModule = ({ showMenu }) => {
         <ul className="content-list">
           <li></li>
         </ul>
-        <Module modules={onlineWorldModuleData} />
+        <Module modules={ProblematicCollectingModuleData} />
       </MainContent>
     </>
   );
 };
 
-export default OnlineWorldModule;
+export default ProblematicCollectingModule;

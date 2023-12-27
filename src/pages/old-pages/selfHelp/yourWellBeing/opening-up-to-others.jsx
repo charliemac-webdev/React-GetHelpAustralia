@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import openingUpToOthersModuleData from "../../../data/modules/self-help/yourWellBeingAndSelfCare/openingUpToOthersModuleData";
+import Heading from "../../../../components/Heading";
+import MainContent from "../../../../components/MainContent";
+import Module from "../../../../components/Module";
+import openingUpToOthersModuleData from "../../../../data/old-data-files/self-help/yourWellBeingAndSelfCare/openingUpToOthersModuleData";
 
 const OpeningUpToOthersModule = ({ showMenu }) => {
   useEffect(() => {

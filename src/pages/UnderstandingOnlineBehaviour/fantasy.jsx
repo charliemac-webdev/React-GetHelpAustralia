@@ -1,21 +1,19 @@
 import React, { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import ProblemOfImmediateModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/problemOfImmediateModuleData";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import FantasyModuleData from "../../data/modules/UnderstandingOnlineBehaviour/fantasyModuleData";
 
-const ProblemOfImmediateModule = ({ showMenu }) => {
+const FantasyModule = ({ showMenu }) => {
   useEffect(() => {
     showMenu(false);
   }, []);
   return (
     <>
       <Heading>
-        <h2 className="secondary-color">
-          Problem with immediate gratification
-        </h2>
+        <h2 className="secondary-color">Fantasy</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -29,10 +27,10 @@ const ProblemOfImmediateModule = ({ showMenu }) => {
         <ul className="content-list">
           <li></li>
         </ul>
-        <Module modules={ProblemOfImmediateModuleData} />
+        <Module modules={FantasyModuleData} />
       </MainContent>
     </>
   );
 };
 
-export default ProblemOfImmediateModule;
+export default FantasyModule;

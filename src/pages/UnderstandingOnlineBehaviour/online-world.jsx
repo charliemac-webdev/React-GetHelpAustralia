@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import ImagesAreChildrenModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/imagesAreChildrenModuleData";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import onlineWorldModuleData from "../../data/modules/UnderstandingOnlineBehaviour/onlineWorldModuleData";
 
-const ImagesAreChildrenModule = ({ showMenu }) => {
+const OnlineWorldModule = ({ showMenu }) => {
   useEffect(() => {
     showMenu(false);
   }, []);
   return (
     <>
       <Heading>
-        <h2 className="secondary-color">Images are children</h2>
+        <h2 className="secondary-color">Online World</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -27,10 +27,10 @@ const ImagesAreChildrenModule = ({ showMenu }) => {
         <ul className="content-list">
           <li></li>
         </ul>
-        <Module modules={ImagesAreChildrenModuleData} />
+        <Module modules={onlineWorldModuleData} />
       </MainContent>
     </>
   );
 };
 
-export default ImagesAreChildrenModule;
+export default OnlineWorldModule;

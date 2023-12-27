@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import takingResponsibilityModuleData from "../../../data/modules/self-help/understandingTheBehaviour/takingResponsibilityModuleData";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import takingResponsibilityModuleData from "../../data/modules/UnderstandingOnlineBehaviour/takingResponsibilityModuleData";
 
 const TakingResponsibilityModule = ({ showMenu }) => {
   useEffect(() => {
@@ -13,7 +13,9 @@ const TakingResponsibilityModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
-        <h2 className="secondary-color">Taking Responsibility</h2>
+        <h2 className="secondary-color">
+          Taking control of your online behaviour
+        </h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -23,7 +25,10 @@ const TakingResponsibilityModule = ({ showMenu }) => {
       </Heading>
       <MainContent>
         <h4 className="secondary-color">Objectives</h4>
-        <p>This module will help you explore and understand:</p>
+        <p>
+          This module aims to help you explore and gain understanding of the
+          following:
+        </p>
         <ul className="content-list">
           <li>
             Your level of control over your current online sexual behaviours

@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Module from "../../../components/Module";
-import FantasyModuleData from "../../../data/modules/UnderstandingOnlineBehaviour/fantasyModuleData";
+import Heading from "../../components/Heading";
+import MainContent from "../../components/MainContent";
+import Module from "../../components/Module";
+import AddictionModuleData from "../../data/modules/UnderstandingOnlineBehaviour/addictionModuleData";
 
-const FantasyModule = ({ showMenu }) => {
+const AddictionModule = ({ showMenu }) => {
   useEffect(() => {
     showMenu(false);
   }, []);
   return (
     <>
       <Heading>
-        <h2 className="secondary-color">Fantasy</h2>
+        <h2 className="secondary-color">Addiction</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -27,10 +27,10 @@ const FantasyModule = ({ showMenu }) => {
         <ul className="content-list">
           <li></li>
         </ul>
-        <Module modules={FantasyModuleData} />
+        <Module modules={AddictionModuleData} />
       </MainContent>
     </>
   );
 };
 
-export default FantasyModule;
+export default AddictionModule;
