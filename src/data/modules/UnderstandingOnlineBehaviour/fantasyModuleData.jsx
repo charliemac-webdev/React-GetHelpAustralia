@@ -8,6 +8,7 @@ const FantasyModuleData = [
     title: "Fantasy",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">What is a fantasy?</h4>
         <p>
           Do you ever think about winning the lottery? How would you spend the
@@ -17,7 +18,8 @@ const FantasyModuleData = [
           This is one example of a fantasy. A fantasy is something that is
           imagined.
         </p>
-        <h2>Why do people have fantasies?</h2>
+        <br></br>
+        <h4 className="secondary-color">Why do people have fantasies</h4>
         <p>
           Fantasies can be about a range of different things and everybody will
           have their own reasons for engaging in a fantasy.
@@ -53,15 +55,16 @@ const FantasyModuleData = [
             home on time, imaging that they have been in a car accident.
           </li>
         </ul>
+        <br></br>
         <p>Some fantasies are:</p>
-        <ul>
+        <ul className="content-list">
           <li>
             planned,&nbsp;rehearsed&nbsp;and&nbsp;used repeatedly by a person,
             for example scoring a world cup goal.
           </li>
           <li>
             triggered by an emotional response or something that happens, for
-            example replaying bad day at work.
+            example replaying a bad day at work.
           </li>
         </ul>
         <p>
@@ -69,6 +72,7 @@ const FantasyModuleData = [
           realise they are fantasising and not doing what they are supposed to
           be doing.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -77,6 +81,7 @@ const FantasyModuleData = [
     title: "Exercise 1",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">When fantasy becomes a problem</h4>
         <p>
           Fantasies are a healthy and normal part of everyday life and everybody
@@ -106,14 +111,18 @@ const FantasyModuleData = [
           may begin to affect the things you care about, such as your family,
           your friends, your job and your intimate and sexual relationships.
         </p>
-        <h2>My fantasies</h2>
+        <br></br>
+        <h4 className="secondary-color">My fantasies</h4>
         <p>
           A good starting point in considering if your fantasies are problematic
           is to look at your fantasies in more detail. Exercises 1a and 1b will
           help you start to do this and will help you to explore your triggers
           to your fantasies.
         </p>
-        <h2>Exercise 1A: Thinking about past fantasies</h2>
+        <br></br>
+        <h4 className="secondary-color">
+          Exercise 1A: Thinking about past fantasies
+        </h4>
         <p>
           Think of a fantasy that you have had, either regularly or a one-off
           fantasy. It can be a non-sexual or sexual fantasy. Now answer the
@@ -137,12 +146,17 @@ const FantasyModuleData = [
           Now think about other fantasies you have had and answer the same
           questions.
         </p>
+        <p>Do you see themes developing?</p>
         <p>
-          Do you see themes developing? Do you tend to have fantasies when you
-          are in a particular mood or at a certain time of day? You may find
-          that sexual fantasies follow slightly different themes to non-sexual
-          fantasies. Make a note of these differences.
+          Do you tend to have fantasies when you are in a particular mood or at
+          a certain time of day?
         </p>
+        <p>
+          You may find that sexual fantasies follow slightly different themes to
+          non-sexual fantasies.
+        </p>
+        <p>Make a note of these differences.</p>
+        <br></br>
         <h4 className="secondary-color">Exercise 1B: Fantasy diary</h4>
         <p>
           Over the next week use the fantasy diary below to keep a record of
@@ -196,6 +210,7 @@ const FantasyModuleData = [
           Hopefully you should now be getting a picture of when and why you use
           fantasy.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -204,6 +219,7 @@ const FantasyModuleData = [
     title: "Appropriate versus inappropriate fantasy",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">
           Appropriate versus inappropriate fantasy
         </h4>
@@ -231,11 +247,13 @@ const FantasyModuleData = [
           So what are appropriate and inappropriate fantasies? We split
           inappropriate fantasies into three sections:
         </p>
+        <br></br>
         <h4 className="secondary-color">Illegal fantasies</h4>
         <p>
           These are fantasies that would be illegal if they were carried out or
           acted on in real life, such as having sex with a child.
         </p>
+        <br></br>
         <h4 className="secondary-color">Abusive fantasies</h4>
         <p>
           So, imagine you are a 48 year old man and you are having a sexual
@@ -243,6 +261,7 @@ const FantasyModuleData = [
           appropriate? We think not, because there is likely to be a difference
           in power, whether that be related to age, money, or life experience.
         </p>
+        <br></br>
         <h4 className="secondary-color">Not OK for me</h4>
         <p>
           This could be a legal and healthy fantasy for some people, but not for
@@ -258,6 +277,7 @@ const FantasyModuleData = [
     title: "Exercise 2",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           Whether a particular fantasy is considered inappropriate can vary from
           person to person; for example it is more appropriate for a 20 year old
@@ -265,6 +285,7 @@ const FantasyModuleData = [
           old person.
         </p>
         <p>Now let’s see how much you understand fantasy.</p>
+        <br></br>
         <h4 className="secondary-color">Exercise 2: Fantasy knowledge</h4>
         <p>
           Read each example of a fantasy below and consider whether you think
@@ -272,10 +293,10 @@ const FantasyModuleData = [
           what the answer is.
         </p>
         <p>
-          <strong>
+          <h5 className="secondary-color">
             1. A fantasy about a past sexual partner that you loved and cared
             for.
-          </strong>
+          </h5>
         </p>
         <p>
           Answer: This would be an appropriate fantasy and it is ok to have this
@@ -286,20 +307,20 @@ const FantasyModuleData = [
           it will affect your new sexual relationship.
         </p>
         <p>
-          <strong>
+          <h5 className="secondary-color">
             2. A fantasy about your employer making you angry, so you slam their
             office door and force them to engage in sexual activity.
-          </strong>
+          </h5>
         </p>
         <p>
           Answer: This is an inappropriate fantasy. Forcing someone to do
           something sexual against their will is illegal.
         </p>
         <p>
-          <strong>
+          <h5 className="secondary-color">
             3. A fantasy about an adult engaging in sexual activity with another
             adult wearing school uniform.
-          </strong>
+          </h5>
         </p>
         <p>
           Answer: If the fantasy depicts two consenting adults who want to dress
@@ -309,10 +330,10 @@ const FantasyModuleData = [
           inappropriate thoughts about children.
         </p>
         <p>
-          <strong>
+          <h5 className="secondary-color">
             4. A fantasy about sexual activity with a 15 year old who said they
             want to have sex.
-          </strong>
+          </h5>
         </p>
         <p>
           Answer: This is an inappropriate fantasy. A child needs to be 16 years
@@ -321,10 +342,10 @@ const FantasyModuleData = [
           child is illegal.
         </p>
         <p>
-          <strong>
+          <h5 className="secondary-color">
             5. A fantasy about sexual activity with an attractive adult stranger
             you saw walking down the road that day.
-          </strong>
+          </h5>
         </p>
         <p>
           Answer: If you fantasise about meeting each other and consenting to
@@ -338,6 +359,7 @@ const FantasyModuleData = [
     title: "Exercise 3",
     description: (
       <div class="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Adult pornography</h4>
         <p>
           The internet has a vast range of adult pornographic material on offer
@@ -354,7 +376,8 @@ const FantasyModuleData = [
           increase your likeliness of wanting to ‘play out’ particular
           fantasies.
         </p>
-        <h2>Illegal online sexual behaviour</h2>
+        <br></br>
+        <h4 className="secondary-color">Illegal online sexual behaviour</h4>
         <p>
           Accessing indecent images of children, or sexually communicating about
           or with children, can also shape your sexual fantasies.
@@ -373,7 +396,10 @@ const FantasyModuleData = [
           in sexual communication with or about a child increases the
           possibility of becoming aroused at the sight or thought of a child.
         </p>
-        <h2>Will this make me commit a contact offence?</h2>
+        <br></br>
+        <h4 className="secondary-color">
+          Will this make me commit a contact offence?
+        </h4>
         <p>
           We are not saying that everyone who has accessed indecent images of
           children, or who has sexually communicated with or about a child, or
@@ -402,7 +428,8 @@ const FantasyModuleData = [
           Now, using Exercise 3, let’s take a look at one of your inappropriate
           fantasies.
         </p>
-        <h2>Exercise 3: Inappropriate fantasy</h2>
+        <br></br>
+        <h4 className="secondary-color">Exercise 3: Inappropriate fantasy</h4>
         <p>
           Have you recently had a fantasy about a child? If you have, then
           without thinking about it in too much detail, work through these
@@ -413,7 +440,7 @@ const FantasyModuleData = [
         <p>2. What are you doing there?</p>
         <p>3. Who else is there? What are they doing there?</p>
         <p>
-          <strong>What this fantasy says about you</strong>
+          <h5 className="secondary-color">What this fantasy says about you</h5>
         </p>
         <p>4. What role does this fantasy place you in?</p>
         <p>
@@ -425,13 +452,17 @@ const FantasyModuleData = [
         </p>
         <p>7. How does the fantasy of the content compare to real life?</p>
         <p>
-          <strong>What this fantasy says about how you view others</strong>
+          <h5 className="secondary-color">
+            What this fantasy says about how you view others
+          </h5>
         </p>
         <p>8. How do you treat the people in the fantasy?</p>
         <p>9. How do they treat you?</p>
         <p>10. What if the roles were switched?</p>
         <p>
-          <strong>What this fantasy says about your view of the world</strong>
+          <h5 className="secondary-color">
+            What this fantasy says about your view of the world
+          </h5>
         </p>
         <p>
           11. What sort of world would it be if you or other people were able to
@@ -459,6 +490,7 @@ const FantasyModuleData = [
             Download printable version of this exercise &gt;
           </a>
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -467,7 +499,8 @@ const FantasyModuleData = [
     title: "Exercise 4",
     description: (
       <div class="tab-main-content">
-        <h2>Fantasy management</h2>
+        <br></br>
+        <h4 className="secondary-color">Fantasy management</h4>
         <p>
           So you have identified which of your sexual fantasies are
           inappropriate. But how do you stop having them?
@@ -483,7 +516,10 @@ const FantasyModuleData = [
           Many individuals use fantasy management techniques to help stop having
           these harmful sexual fantasies.
         </p>
-        <h2>Exercise 4: Use a fantasy management technique</h2>
+        <br></br>
+        <h4 className="secondary-color">
+          Exercise 4: Use a fantasy management technique
+        </h4>
         <p>
           Have a read through the techniques below. Next time you have a harmful
           sexual fantasy, you need to try and use one of these to help you stop.
@@ -492,8 +528,7 @@ const FantasyModuleData = [
           combination of these to get it just right.
         </p>
         <p>
-          <strong>1. Challenging your thoughts</strong>
-          <br />
+          <h5 className="secondary-color">1. Challenging your thoughts</h5>
           ‘Why am I having this fantasy; what good is it actually going to do
           me?’ These are examples of questions you can ask and challenge
           yourself with. Be firm with yourself.
@@ -506,8 +541,7 @@ const FantasyModuleData = [
           was caught?’
         </p>
         <p>
-          <strong>2. Fantasy replacement</strong>
-          <br />
+          <h5 className="secondary-color">2. Fantasy replacement</h5>
           Change the ending or the subject of your fantasy. For example, if you
           are beginning to indulge in fantasy about a child you have seen in an
           indecent image or communicated with online, change the child to an
@@ -518,31 +552,27 @@ const FantasyModuleData = [
           new and exciting…. and legal!
         </p>
         <p>
-          <strong>3. Fantasy blocker</strong>
-          <br />
+          <h5 className="secondary-color">3. Fantasy blocker</h5>
           Imagine someone walking in to your fantasy and catching you. This
           person has to be someone who you would never want to find out, like a
           close friend or family member. Or maybe the police.
         </p>
         <p>
-          <strong>4. Escape route</strong>
-          <br />
+          <h5 className="secondary-color">4. Escape route</h5>
           Sometimes we need to remove ourselves from the situation in which we
           are fantasising. Get up, get out of that room, leave the house if you
           have to. Go anywhere that stops you from having that sexual fantasy.
           Put yourself around people so that you can’t masturbate.
         </p>
         <p>
-          <strong>5. Active distraction</strong>
-          <br />
+          <h5 className="secondary-color">5. Active distraction</h5>
           Do something that prevents you from thinking about a fantasy. This
           could be reading, watching TV, going for a walk. It could be ringing a
           friend or going for a drink. Anything that takes your thoughts away
           from that fantasy.
         </p>
         <p>
-          <strong>6. Urge surfing</strong>
-          <br />
+          <h5 className="secondary-color">6. Urge surfing</h5>
           Imagine your fantasy as being like a giant wave. It will build and
           build to a peak and then suddenly go the other way and decline in
           intensity. If you do not masturbate, eventually the urge to do so will
@@ -551,22 +581,23 @@ const FantasyModuleData = [
           away. Urges never stay.
         </p>
         <p>
-          <strong>7. Self-care</strong>
-          <br />
+          <h5 className="secondary-color">7. Self-care</h5>
           Eating well, exercising, sleeping and relaxation; all of these
           contribute to a happier, healthier you. If you ensure all these are in
           check, you will find managing sexual fantasies much easier.
         </p>
         <p>
-          <strong>8. Praise your success</strong>
-          <br />
+          <h5 className="secondary-color">8. Praise your success</h5>
           The most important thing is to praise yourself for your success. If
           you are able to stop a particular fantasy, congratulate yourself.
           Treat yourself to something nice to eat or do something you enjoy.
           Stopping fantasies can be difficult, especially if you are used to
           having them, so you need to give yourself credit for that.
         </p>
-        <h2>What do I do if my sexual preference is children?</h2>
+        <br></br>
+        <h4 className="secondary-color">
+          What do I do if my sexual preference is children?
+        </h4>
         <p>
           We understand that some people have no sexual interest in adults. They
           often report an exclusive and life-long sexual interest in
@@ -581,7 +612,7 @@ const FantasyModuleData = [
           the frequency of your sexual fantasies and their intensity. We hope
           the suggestions and advice below are helpful:
         </p>
-        <ul>
+        <ul className="content-list">
           <li>
             <strong>Try to&nbsp;avoid sexual fantasies about children</strong>
             &nbsp;when masturbating. Of course this can be difficult, especially
@@ -634,6 +665,7 @@ const FantasyModuleData = [
             despair and resignation.
           </li>
         </ul>
+        <br></br>
       </div>
     ),
   },
@@ -642,7 +674,8 @@ const FantasyModuleData = [
     title: "Reflection",
     description: (
       <div class="tab-main-content">
-        <h2>Reflection</h2>
+        <br></br>
+        <h4 className="secondary-color">Reflection</h4>
         <ul>
           <li>What fantasy management techniques have I already used?</li>
           <li>What have been most effective for me?</li>
@@ -651,33 +684,7 @@ const FantasyModuleData = [
             day to day life?
           </li>
         </ul>
-        <h2>Talk to us if you need support</h2>
-        <p>
-          You can{" "}
-          <strong>
-            <a href="https://www.stopitnow.org.uk/helpline/">
-              use our helpline, live chat or secure message service
-            </a>
-          </strong>{" "}
-          for confidential support from our experienced advisors if you want to
-          discuss anything covered in this module, have struggled when working
-          through it, or want to go through the information with a practitioner
-          to guide you.
-        </p>
-        <h2>Can you help us?</h2>
-        <p>
-          Do you have a few minutes to help us improve the effectiveness of this
-          website?{" "}
-          <a
-            href="https://interviewing.nfieldmr.com/Interviews/WRKqb/GhygnvzvcTyyp7X6H8CP?xmod=3"
-            target="_blank"
-            rel="noopener"
-          >
-            <strong>Please take this survey</strong>
-          </a>{" "}
-          and let us know what you think.
-        </p>
-        <br />
+        <br></br>
         <Link to="/self-help-adult-pornography">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
