@@ -28,7 +28,9 @@ const OnlineWorldModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li></li>
+          <li>The relationship between your online and offline social lives</li>
+          <li>How the internet can be used as a social outlet in your life</li>
+          <li>Problematic online relationships</li>
         </ul>
         <Module modules={onlineWorldModuleData} />
       </MainContent>

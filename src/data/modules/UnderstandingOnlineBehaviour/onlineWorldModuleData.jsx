@@ -15,17 +15,16 @@ const onlineWorldModuleData = [
     title: "Online world",
     description: (
       <>
+        <br></br>
         <p>
           Sexual offending happens in the offline and online world. But some
           people we work with often tell us they would not have offended without
           the internet, apps or smartphones.
         </p>
-        <br />
         <p>
           A huge majority of people have access to the internet but not everyone
           offends online.
         </p>
-        <br />
         <p>
           This means that the internet doesn’t cause offending; people who have
           offended online made a choice to do so. But it is important to
@@ -38,9 +37,12 @@ const onlineWorldModuleData = [
           sexual behaviour. But why is that? Some people think the ‘Triple A
           Engine’ helps answer this question.
         </p>
-        <h4 className="secondary-color">'Triple A Engine' (Cooper, 1998)</h4>
+        <br></br>
+        <h5 className="secondary-color">'Triple A Engine' (Cooper, 1998)</h5>
         <img src={pictureOne} alt="tripe-a-engine" />
-        <ul className="cotent-list">
+        <br></br>
+        <br></br>
+        <ul className="content-list">
           <li>
             Accessibility: pornography and sexual experiences are easily
             accessible online, anytime, day or night.
@@ -55,6 +57,7 @@ const onlineWorldModuleData = [
             a low cost or free.
           </li>
           <hr />
+          <br></br>
           <h4 className="secondary-color">Exercise 1: Sex and the internet</h4>
           <p>
             What other aspects of the internet might make it feel like an
@@ -96,6 +99,7 @@ const onlineWorldModuleData = [
     title: "Online behaviours",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Online behaviour</h4>
         <p>
           Some people we work with say they behaved in a way online that they
@@ -138,10 +142,12 @@ const onlineWorldModuleData = [
           politeness?
         </p>
         <hr></hr>
+        <br></br>
         <h4 className="secondary-color">
           Exercise 2: My online and offline behaviour
         </h4>
         <img src={pictureFive} alt="Offline and Online Behaviour" />
+        <br></br>
         <p>Think about:</p>
         <ul className="content-list">
           <li>Why did you behave differently online than you did offline?</li>
@@ -165,6 +171,7 @@ const onlineWorldModuleData = [
     title: "Online relationships",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Online relationships</h4>
         <p>
           We all have an idea of how we come across to other people. How we act
@@ -180,6 +187,7 @@ const onlineWorldModuleData = [
           how they are ‘in the real world’.
         </p>
         <hr></hr>
+        <br></br>
         <h4 className="secondary-color">Offline versus online</h4>
         <p>
           How would you describe yourself&nbsp;offline? Make a note of all the
@@ -202,6 +210,7 @@ const onlineWorldModuleData = [
           be a starting point for goals you set in planning for a good life.
         </p>
         <hr></hr>
+        <br></br>
         <h4 className="secondary-color">Why are we different online?</h4>
         <p>
           It is often easier to relate to others online. They might share our
