@@ -8,7 +8,6 @@ const MovingFowardData = () => {
         life requires courage and support. These sections will help you face the
         future, build a strong support system and engage in positive activities.
       </p>
-      <br />
       <p>
         Be kind to yourself, set realistic goals, and stay accountable. Embrace
         a healthy lifestyle and be patient with the process. Each step brings
