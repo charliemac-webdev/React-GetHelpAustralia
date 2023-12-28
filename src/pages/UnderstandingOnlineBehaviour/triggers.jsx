@@ -28,13 +28,8 @@ const TriggersModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li>Your online sexual behaviour</li>
-          <li>How your sexual behaviour moved into offending behaviour</li>
-          <li>Your motivations for this</li>
-          <li>
-            Patterns and trends with your current use of the internet for sexual
-            reasons
-          </li>
+          <li>the different types of triggers</li>
+          <li>your own triggers</li>
         </ul>
         <Module modules={triggersModuleData} />
       </MainContent>

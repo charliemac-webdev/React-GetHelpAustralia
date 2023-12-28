@@ -7,6 +7,7 @@ const triggersModuleData = [
     title: "Triggers",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">
           What can trigger the urge to offend?
         </h4>
@@ -17,7 +18,7 @@ const triggersModuleData = [
         </p>
         <p>There are different types of triggers:</p>
         <p>
-          <strong>Internal triggers</strong>
+          <h5 className="secondary-color">Internal triggers</h5>
         </p>
         <p>
           These are triggers that come from within you. This includes thoughts,
@@ -28,7 +29,7 @@ const triggersModuleData = [
           stressed and anxious.
         </p>
         <p>
-          <strong>External triggers</strong>
+          <h5 className="secondary-color">External triggers</h5>
         </p>
         <p>
           These are triggers that come from outside of you. They are like an
@@ -40,6 +41,7 @@ const triggersModuleData = [
           open the fridge, or going onto adult pornography websites might
           trigger sexual thoughts about accessing sexual images of children.
         </p>
+        <br></br>
         <h4 className="secondary-color">What are your triggers?</h4>
         <p>
           Triggers often appear at the beginning of the cycle of offending and
@@ -107,6 +109,7 @@ const triggersModuleData = [
     title: "Situational and environmental risks",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Managing triggers and risks</h4>
         <p>
           Some places and situations present specific risks and triggers for
@@ -174,6 +177,7 @@ const triggersModuleData = [
     title: "Reflection",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>Think about the triggers you have identified.</p>
         <ul className="content-list">
@@ -188,8 +192,8 @@ const triggersModuleData = [
           </li>
         </ul>
         <p>
-          Recognising triggers to your offending is an important part of being
-          able to change your behaviour.
+          Recognising triggers to your illegal online behaviour is an important
+          part of being able to change your behaviour.
         </p>
         <p>
           We now need to start looking at managing these triggers as this can
