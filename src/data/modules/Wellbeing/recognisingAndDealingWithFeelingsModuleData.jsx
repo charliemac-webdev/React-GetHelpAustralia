@@ -11,16 +11,17 @@ const RecognisingAndDealingWithFeelingsModuleData = [
     title: "Recognising and dealing with feelings",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">What are emotions?</h4>
+        <br></br>
         <p>
-          <e>
-            “An emotion is a complex psychological state that involves three
-            distinct components: a subjective experience, a physiological
-            response, and a behavioural or expressive response.”
-          </e>
+          Emotions are the sensations in the body as a result of something that
+          happens to us. Feelings are generated from our thoughts about those
+          emotions and we then choose a response. People often find it very hard
+          to recognise their emotions and feelings. The exercises in this module
+          aim to help you get more in tune with your body so that you notice how
+          it is responding in different situations.{" "}
         </p>
-        <p>(Hockenbury & Hockenbury, 2007)</p>
-        <br />
         <p>The following diagram helps to explain this:</p>
         <img
           className="mx-auto d-block"
@@ -32,6 +33,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <hr />
         <h5 className="secondary-color">Starting Point</h5>
         <p>Use this quiz to identify your current level of confidence.</p>
+        <p>INSERT QUIZ HERE</p>
         {/* <ConfidenceQuiz/> module not created yet */}
         <br />
         <hr />
@@ -53,7 +55,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <hr />
         <h5 className="secondary-color">
-          Exercise 1 - How in-tune with your feelings are you
+          Exercise 1 - How in-tune with your feelings are you?
         </h5>
         <p>
           Below is a worksheet which will help you to identify what happens to
@@ -88,7 +90,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <br />
         <h5 className="secondary-color">
-          How does understanding my feelings apply to viewing sexual images of
+          How does understanding my feelings link to viewing sexual images of
           children?
         </h5>
         <p>
@@ -96,19 +98,18 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           sexual images of children include dealing with negative emotions such
           as stress, loneliness, frustration, depression and anxiety.
         </p>
-        <br />
         <p>
-          They describe their on-line behaviour as a way of coping with negative
-          feelings and situations -a form of escapism and stress relief.
+          They often describe using sexual fantasy and masturbation or illegal
+          on-line behaviour as a way of coping with negative feelings and
+          situations as a form of self-soothing, escapism and stress relief.
         </p>
-        <br />
         <p>
-          They may be aware that viewing sexual images of children is not an
-          appropriate coping strategy but for a variety of reasons struggle to
-          identify other more positive ways of dealing with these feelings.
-          Improving your ability to regulate and manage your emotions and deal
-          positively with problems in your life is likely to reduce the
-          probability of engaging in problematic on-line activity.
+          They may be aware that these are not coping strategies but for a
+          variety of reasons struggle to identify other more positive ways of
+          dealing with these feelings. Improving your ability to regulate and
+          manage your emotions and deal positively with problems in your life is
+          likely to reduce the probability of engaging in problematic sexual
+          behaviour and harming children.
         </p>
         <br />
       </>
@@ -116,13 +117,15 @@ const RecognisingAndDealingWithFeelingsModuleData = [
   },
   {
     id: 2,
-    title: "Negative thinking",
+    title: "How thoughts affect feelings",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">
-          How you feel can influence your thinking and behavior.
+          How you feel can influence your thinking and behaviour.
         </h4>
-        <p>Our thoughts, feelings and behavior are all linked:</p>
+        <br></br>
+        <p>Our thoughts, feelings and behaviour are all linked:</p>
         <img
           className="mx-auto d-block"
           src={pictureThree}
@@ -133,16 +136,23 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <br />
         <p>
           <e>
-            An example: If you hear a loud bang in the middle of the night, what
-            do you think it would be? How would you react? If you have a dog you
-            might thing something has been knocked over, feel annoyed but turn
-            over and go back to sleep, if you live alone you might think it was
-            a burglar, feel scared and call the Police. It is your thoughts that
-            have affected how you feel and react in that situation.
+            For example, if you are starting a new job, you are likely to get
+            butterflies in your tummy, feel shaky and start sweating. If you
+            struggle with your self-esteem you might think this means that you
+            are feeling nervous because you are not going to do well, and you
+            will have to talk to new people which you find really hard. These
+            thoughts will then heighten those emotions and increase the nerves.
+            However, if you see these nerves as something positive you might
+            think this is due to your excitement at who you might meet and
+            getting to do something new.
           </e>
         </p>
         <p>
-          This includes how you feel about yourself-(your self-esteem); how you
+          We are now going to explore how positive and negative thinking can
+          help with managing emotions.
+        </p>
+        <p>
+          This includes how you feel about yourself (your self-esteem); how you
           feel about your situation and your feelings towards other people. For
           example an individual who feels powerless may lose motivation and
           believe that there is no point in trying, as he will not succeed. He
@@ -153,36 +163,46 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <hr />
         <h5 className="secondary-color">
-          What is positive and negative thinking?
+          The effect of positive and negative thinking on emotions.
         </h5>
         <p>
           If you are unsure of negative and positive thinking (otherwise known
           as self-talk) then please work through our <b>self-talk section</b>.
         </p>
-        <p>Positive thinking encourages healthy behaviour.</p>
         <p>
           Negative thinking comprises thoughts in which you see the worst in
           everything. It reduces your expectations by expecting the worst.
           Negative thinking tends to manifest itself in patterns of behaviour
           which are characterized by stress, worry, anxiety and frustration.
         </p>
+        <p>Positive thinking encourages healthy behaviour.</p>
         <hr />
         <h5 className="secondary-color">Exercise 2 - Your negative thoughts</h5>
+        <br></br>
         <p>Write down a list of your most common negative thoughts.</p>
-        <br />
         <p>With each of these, identify the associated feeling.</p>
-        <br />
         <p>Now list your behaviour that resulted from the thoughts.</p>
         <br />
         <p>Here is an example:</p>
-        <p>Thought- ‘what’s the point?’</p>
-        <p>Feeling – hopelessness</p>
-        <p>Behaviour – give up trying</p>
+        <p>Situation: Saying hello to a work colleague who doesn't respond.</p>
+        <p>Thought- ‘they hate me'</p>
+        <p>Feeling – rejection</p>
+        <p>Behaviour – stop talking to them</p>
         <br />
-        <br />
+        <p>Start thinking of other reasons:</p>
+        <p>1. They didn't hear me</p>
+        <p>2. They were busy and preoccupied</p>
+        <p>3. They were upset and didn't want to talk to anyone</p>
+        <br></br>
         <p>
-          Once you have done this, identify how negative thoughts and feelings
-          could contribute to the decision to view sexual images of children.
+          Start to see if you notice any difference in your feelings once you
+          think of other reasons. You may notice the feelings are more positive.
+        </p>
+        <br></br>
+        <p>
+          Now think about your illegal online behaviour? Can you identify any
+          feelings and negative thoughts that might contribute to the decision
+          to view sexual images of children.
         </p>
         <br />
         <p>An example of this might be:</p>
@@ -196,8 +216,8 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <ul className="content-list">
           <li>
-            <b>Catastrophising/Awfulising</b> – making things seem worse that
-            they really are, getting things out of proportion
+            <b>Catastrophising</b> – making things seem worse than they really
+            are, taking things out of proportion
           </li>
           <li>
             <b>Generalising</b> – taking one occurrence and thinking it will
@@ -206,8 +226,8 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           </li>
           <li>
             <b>Negative focus</b> – always focusing on the negative aspects of a
-            situation rather than looking at the positives e.g. rather than be
-            pleased about passing an exam, being upset that you did not get a
+            situation rather than looking at the positives e.g. instead of being
+            happy about passing an exam, being upset that you did not get a
             higher grade.
           </li>
         </ul>
@@ -226,15 +246,16 @@ const RecognisingAndDealingWithFeelingsModuleData = [
   },
   {
     id: 3,
-    title: "Managing feelings",
+    title: "Dealing with worry, anger and stress",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">How to Manage Negative Feelings</h4>
         <p>
           The following will help you deal with some common negative emotions
           but can also be applied to others.
         </p>
-        <br />
+        <br></br>
         <h5 className="secondary-color">Worry</h5>
         <p>
           Worry tends to involve lots of thoughts that come one after another,
@@ -266,26 +287,25 @@ const RecognisingAndDealingWithFeelingsModuleData = [
             start you just can’t stop?
           </li>
           <li>
-            Do you feel worrying has affected your health (for example given you
-            stomach aches, headaches, or diarrhoea)?
+            Do you feel worrying has affected your health (e.g., stomach aches,
+            headaches, or diarrhoea)?
           </li>
         </ul>
         <p>
           Worrying about things can make you anxious. Many people suffer from
-          anxiety without realizing what it is. When you are anxious you may
+          anxiety without realising what it is. When you are anxious you may
           notice things like:-
         </p>
         <ul className="content-list">
-          <li>Heart rate speeding up, sweaty skin or going pale</li>
-          <li>Feeling upset, irritable angry, or on edge</li>
+          <li>Faster heart rate, sweaty skin or looking pale</li>
+          <li>Feeling upset, irritable, or angry</li>
           <li>Feeling that something terrible is about to happen</li>
           <li>Dry throat or mouth</li>
-          <li>Muscular aches and pains and headaches</li>
+          <li>Muscular aches and headaches</li>
           <li>Feeling tired, lacking energy</li>
           <li>Poor digestion – stomach aches</li>
-          <li>Concentration problems, mind racing, sleep problems</li>
+          <li>Concentration problems or sleep problems</li>
         </ul>
-        <br />
         <p>
           The more anxious you get, the more you worry and the more you worry,
           the more anxious you become! It becomes a vicious circle, this is why
@@ -302,16 +322,15 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           signs of anxiety mentioned above, or you notice you are thinking
           thoughts like those outlined, take notice of them- don’t ignore them.
         </p>
-        <br />
         <p>
           <b>Step 2 - "Stop"!</b>
         </p>
         <p>
           When you notice you are worrying, say “STOP!” to yourself, and
           concentrate on a different thought and/or do something else to
-          actively distract yourself. Try to think/do something that is
-          positive, relaxing and/or enjoyable e.g. reading, watching TV,
-          cooking, calling a friend, doing a hobby, or playing a sport.
+          distract yourself. Try to think/do something that is positive,
+          relaxing and/or enjoyable e.g. reading, watching TV, cooking, calling
+          a friend, doing a hobby, or playing a sport.
         </p>
         <p>
           <b>Step 3 - Worry Time</b>
@@ -343,7 +362,6 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           statement down on a small card and carry it with you to remind
           yourself of it.
         </p>
-        <br />
         <p>
           <b>Step 5 Problem Solving</b>
         </p>
@@ -354,6 +372,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           with it. See the <b>module on problem solving</b> to learn how to
           improve this skill.
         </p>
+        <br></br>
         <hr />
         <h5 className="secondary-color">Anger</h5>
         <p>
@@ -402,6 +421,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           negative long term consequences for themselves and their relationships
           with other people.
         </p>
+        <br></br>
         <h5 className="secondary-color">
           Which category do you identify with?
         </h5>
@@ -410,10 +430,11 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           tune into your feelings. The worksheet in Exercise 3 will also help
           you to identify things that you can do, and things that other people
           can help you with, that will assist you to get back to feeling calm
-          and in control. Recognizing the warning signs that you are getting
+          and in control. Recognising the warning signs that you are getting
           angry early on can help you to avoid expressing your anger in negative
           and destructive ways.
         </p>
+        <br></br>
         <p>
           <b>Excerise 3 - How to get back to feeling ok and in control</b>
         </p>
@@ -434,6 +455,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <p>
           <b>Download printable template</b>
         </p>
+        <br></br>
         <hr />
         <h5 className="secondary-color">Stress</h5>
         <p>
@@ -471,16 +493,19 @@ const RecognisingAndDealingWithFeelingsModuleData = [
             listening to music or reading a book.
           </li>
           <li>
-            <b>
-              Be sociable, even if you feel like everything is getting too
-              stressful and too much for you, one of the best things you can do
-              is to meet up with your family and friends – for example, meeting
-              up for a coffee or going for a walk. Friends and family will be
-              able to provide you a distraction from your stress and they can
-              help you to see the situation from a different point of view.
-            </b>
+            <b>Be sociable,</b> even if you feel like everything is getting too
+            stressful and too much for you, one of the best things you can do is
+            to meet up with your family and friends – for example, meeting up
+            for a coffee or going for a walk. Friends and family will be able to
+            provide you a distraction from your stress and they can help you to
+            see the situation from a different point of view.
           </li>
         </ol>
+        <p>
+          You can find more about{" "}
+          <b>managing difficult thoughts, feelings, and behaviours</b> here.
+          (INSERT HYPERLINK TO MODULE)
+        </p>
       </>
     ),
   },
@@ -499,7 +524,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           If you want to discuss anything covered in this module, have struggled
           with working through the self-help material or just want the
           opportunity to work through the self-help site with a practitioner to
-          guide you then please call the Stop It Now!Helpline for confidential
+          guide you then please call the Stop It Now! Helpline for confidential
           support from our trained staff.
         </p>
         <br />

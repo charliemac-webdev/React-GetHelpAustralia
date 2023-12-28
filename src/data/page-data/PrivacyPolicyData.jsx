@@ -6,17 +6,17 @@ const PrivacyPolicyData = () => {
           Your privacy is protected by the <em>Privacy Act 1988 </em>(Cth){" "}
         </p>
         <p>
-          Stop It Now!, a program of Jesuit Social Services, strives to meet or
-          exceed the requirements of this Act.
+          Get Help! Australia, a program of the University of Sunshine Coast,
+          strives to meet or exceed the requirements of this Act.
         </p>
         <p>
-          We’ve written this Website Privacy Policy (WPP) to inform you about
-          what data we collect on this website and what we do with it.
+          We’ve adopted this Website Privacy Policy (WPP), from Stop It Now!
+          Australia, to inform you about what data we collect on this website
+          and what we do with it.
         </p>
         <p>
-          By continuing to use the Stop It Now! website (
-          <a href="https://www.stopitnow.org.au/">www.stopitnow.org.au</a>) you
-          agree to the terms of this WPP, as set out below.
+          By continuing to use the Get Help! Australia website you agree to the
+          terms of this WPP, as set out below.
         </p>
         <p>Overview:</p>
         <ul className="content-list">
@@ -78,21 +78,13 @@ const PrivacyPolicyData = () => {
           consent. In order to remain anonymous it is important for you to
           ensure that you do not disclose any identifiable information. &nbsp;
         </p>
-        <p>
-          If you are to disclose any personal information to{" "}
-          <a href="https://www.stopitnow.org.au/helpline">
-            <strong>&nbsp;our live chat</strong>&nbsp;or&nbsp;
-            <strong>secure messaging service</strong>
-          </a>{" "}
-          this will be stored securely.{" "}
-        </p>
         <h2 className="secondary-color">
           How we use your personal information
         </h2>
         <p>
-          Stop It Now! will only use your personal information submitted through
-          the website for the purpose for which it was submitted. That is, to
-          provide support offered by the program. &nbsp;&nbsp;
+          Get Help! Australia will only use your personal information submitted
+          through the website for the purpose for which it was submitted. That
+          is, to provide support offered by the program. &nbsp;&nbsp;
         </p>
         <p>
           De-identified information may be used for other purposes, such as
@@ -102,31 +94,32 @@ const PrivacyPolicyData = () => {
           Security of your personal information
         </h2>
         <p>
-          Stop It Now! strives to ensure the security, integrity and privacy of
-          personally identifiable information submitted via this website. Stop
-          It Now! periodically reviews and updates security measures in light of
-          current technologies.
+          Get Help! Australia strives to ensure the security, integrity and
+          privacy of personally identifiable information submitted via this
+          website. Get Help! Australia periodically reviews and updates security
+          measures in light of current technologies.
         </p>
         <p>
-          While you send information to us, please bear in mind that Stop It
-          Now! cannot ensure or warrant the security of any information in
+          While you send information to us, please bear in mind that Get Help!
+          Australia cannot ensure or warrant the security of any information in
           transit because no data transmission over the Internet can be
           guaranteed to be totally secure.
         </p>
         <p>
-          Once Stop It Now! receives your transmission, however, strict security
-          procedures are used to protect it on our systems.
+          Once Get Help! Australia receives your transmission, however, strict
+          security procedures are used to protect it on our systems.
         </p>
         <h2 className="secondary-color">
           Collection of website browsing information
         </h2>
         <p>
-          When visiting this website, Stop It Now! site server makes a record of
-          that visit and logs the information for statistical and administrative
-          purposes. No personal information will be collected. Information
-          collected is purely for the purposes of site administration and will
-          not be used for any other purpose. A third-party service called Google
-          Analytics (GA) is also used to enhance this record.
+          When visiting this website, Get Help! Australia site server makes a
+          record of that visit and logs the information for statistical and
+          administrative purposes. No personal information will be collected.
+          Information collected is purely for the purposes of site
+          administration and will not be used for any other purpose. A
+          third-party service called Google Analytics (GA) is also used to
+          enhance this record.
         </p>
         <p>
           The browsing data and personal information that is collected using
@@ -142,18 +135,16 @@ const PrivacyPolicyData = () => {
           </li>
           <li>
             <p>
-              Pages accessed– this indicates to Jesuit Social Services which
-              pages or documents are most important to users, and also aids
-              improvements in the site’s structure so that important information
-              is not missed.
+              Pages accessed– this indicates which pages or documents are most
+              important to users, and also aids improvements in the site’s
+              structure so that important information is not missed.
             </p>
           </li>
           <li>
             <p>
               Duration of the visit – this helps us establish how interesting
-              and informative Jesuit Social Services site is to its visitors and
-              allows us to differentiate genuine visits from other types of web
-              traffic.
+              and informative the site is to its visitors and allows us to
+              differentiate genuine visits from other types of web traffic.
             </p>
           </li>
           <li>
@@ -175,8 +166,8 @@ const PrivacyPolicyData = () => {
           (persistent cookies).
         </p>
         <p>
-          The Stop It Now! website may use both types of cookie, depending on
-          your use of the site.
+          The Get Help! Austalia website may use both types of cookie, depending
+          on your use of the site.
         </p>
         <p>
           If logged in, upon closing your browser, the session cookie set by
@@ -192,9 +183,9 @@ const PrivacyPolicyData = () => {
         </p>
         <h2 className="secondary-color">Changes to these terms</h2>
         <p>
-          Stop It Now! will review this WPP periodically and reserves the right,
-          at its discretion, to modify or remove portions of this policy at any
-          time.
+          Get Help! Australia will review this WPP periodically and reserves the
+          right, at its discretion, to modify or remove portions of this policy
+          at any time.
         </p>
         <p>
           This WPP is subject to regular review and you are advised to revisit
@@ -205,8 +196,8 @@ const PrivacyPolicyData = () => {
           If you do provide us with personal information you have a right to
           review any information held about you. If you want access this
           information, or if you have a complaint concerning your information,
-          or wish to have your information corrected you can also email
-          team@stopitnow.org.au
+          or wish to have your information corrected you can email INSERT EMAIL
+          ADDRESS HERE
         </p>
         <h2 className="secondary-color">
           Information about links on this web site
