@@ -210,7 +210,18 @@ const SelfCareModuleData = [
           the chair arms. The breath should flow as deep down into the belly as
           is comfortable, without forcing it.
         </p>
-        <p>INSERT LIST</p>
+        <ul className="content-list">
+          <li>Breathe in through your nose and out through your mouth.</li>
+          <li>
+            Breathe in gently and regularly. Some people find it helpful to
+            count steadily from 1 to 5. You may not be able to reach 5 at first.
+          </li>
+          <li>
+            Then, without pausing or holding your breath, let it flow out
+            gently, counting from 1 to 5 again if you find this helpful.
+          </li>
+          <li>Keep doing this for 3 to 5 minutes.</li>
+        </ul>
         <h5 className="secondary-color">
           Breathing technique 2: belly breathing
         </h5>
@@ -218,17 +229,67 @@ const SelfCareModuleData = [
           Belly breathing is easy to do and very relaxing. This basic exercise
           can be used at any time to relax or relieve stress.
         </p>
-        <p>INSERT LIST</p>
+        <ul className="content-list">
+          <li>Sit or lie flat in a comfortable position.</li>
+          <li>
+            Put one hand on your belly just below your ribs and the other hand
+            on your chest.
+          </li>
+          <li>
+            Take a deep breath in through your nose, and let your belly push
+            your hand out. Your chest should not move.
+          </li>
+          <li>
+            Breathe out through pursed lips as if you were whistling. Feel the
+            hand on your belly go in, and use it to push all the air out.
+          </li>
+          <li>
+            Do this breathing 3 to 10 times. Take your time with each breath.
+          </li>
+          <li>Notice how you feel at the end of the exercise.</li>
+        </ul>
         <h5 className="secondary-color">
           Breathing technique 3: roll breathing
         </h5>
         <p>
-          Roll breathing helps to develop the full use of the lungs and to focus
-          on the rhythm of breathing. This technique can be done in any
-          position. However, whilst learning, it is best to lie on your back
-          with your knees bent.
+          <a href="https://www.uofmhealth.org/health-library/zm6264#zm6264-sec">
+            Roll breathing
+          </a>{" "}
+          helps to develop the full use of the lungs and to focus on the rhythm
+          of breathing. This technique can be done in any position. However,
+          whilst learning, it is best to lie on your back with your knees bent.
         </p>
-        <p>INSERT LIST</p>
+        <ul className="content-list">
+          <li>
+            Put your left hand on your belly and your right hand on your chest.
+            Notice how your hands move as you breathe in and out.
+          </li>
+          <li>
+            Practice filling your lower lungs by breathing so that your "belly"
+            (left) hand goes up when you inhale and your "chest" (right) hand
+            remains still. Always breathe in through your nose and breathe out
+            through your mouth. Repeat 8 to 10 times.
+          </li>
+          <li>
+            When you have filled and emptied your lower lungs 8 to 10 times, add
+            this second step to your breathing: inhale first into your lower
+            lungs as before, and then continue inhaling into your upper chest.
+            Breathe slowly and regularly. As you do so, your right hand will
+            rise and your left hand will fall a little as your belly falls.
+          </li>
+          <li>
+            As you exhale slowly through your mouth, make a quiet, whooshing
+            sound as first your left hand and then your right-hand fall. As you
+            exhale, feel the tension leaving your body as you become more and
+            more relaxed.
+          </li>
+          <li>
+            Practice breathing in and out in this way for 3 to 5 minutes. Notice
+            that the movement of your belly and chest rises and falls like the
+            motion of rolling waves.
+          </li>
+          <li>Notice how you feel at the end of the exercise.</li>
+        </ul>
         <br />
         <h4 className="secondary-color">Grounding exercises</h4>
         <p>
@@ -309,7 +370,24 @@ const SelfCareModuleData = [
           wellbeing. Some people find it helpful for mindfulness exercises to be
           built into their everyday routine, even if only for a few minutes.
         </p>
-        <p>INSERT LIST</p>
+        <h5 className="secondary-color">How to practice mindfullness</h5>
+        <ul className="content-list">
+          <li>
+            Use a mindfulness app or video – search online for “mindfulness” or
+            “guided meditation”.
+          </li>
+          <li>
+            Breathing exercises focus your attention on your breathing, its
+            rhythm, and how each inhale and exhale of breath feels and makes
+            your body respond.
+          </li>
+          <li>
+            Meditation, sitting quietly and away from distractions, focusing on
+            your thoughts, sensations you are experiencing, the sounds around
+            you, and your environment. If your mind starts to move on to other
+            things, bring it back to the task at hand.
+          </li>
+        </ul>
       </>
     ),
   },
@@ -368,6 +446,85 @@ const SelfCareModuleData = [
   },
   {
     id: 6,
+    title: "The importance of sleep",
+    description: (
+      <>
+        <div>
+          <p>
+            Most people say that good quality sleep is important to their
+            general sense of well-being.
+          </p>
+          <p>
+            Many people who have problems related to fantasies about children,
+            sexual preoccupation and problematic pornography use say that these
+            difficulties can be especially tough at night, often disrupting
+            their sleep.
+          </p>
+          <p>
+            Problematic sexual fantasies may be more readily triggered in the
+            bedroom, last thing at night, if this has become your routine.
+          </p>
+          <h2 className="secondary-color">
+            <span>Tips to help you sleep</span>
+          </h2>
+          <p>
+            Following routines and practices can help good quality sleep. This
+            is sometimes called{" "}
+            <a href="https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better/">
+              ‘sleep hygiene’
+            </a>
+            . Here are some things to try.
+          </p>
+          <ul className="content-list">
+            <li>
+              Stick to a&nbsp;regular pattern by aiming to wake up and go to bed
+              at the same times every day of the week. Some people choose to
+              stay up and wake much later during the weekends, which tends to
+              disrupt the sleep pattern into the following week.
+            </li>
+            <li>
+              Avoid daytime napping.&nbsp;If you do nap, it is best to avoid
+              napping for longer than 30 minutes.
+            </li>
+            <li>
+              Avoid alcohol, cigarettes, caffeine and food consumption too close
+              to bedtime. Tea, coffee, colas drinks and chocolate with caffeine
+              can disrupt sleep if consumed in the evening.
+            </li>
+            <li>Regular exercise&nbsp;can help you sleep well.</li>
+            <li>
+              Daily exposure to natural light helps to maintain a healthy
+              sleep-wake cycle.
+            </li>
+            <li>
+              Use your bed for sleep, rather than as a place to read, watch TV,
+              listen to the radio, or use your phone, laptop or tablet. That
+              way, the bed becomes associated with sleep rather than with these
+              other activities.
+            </li>
+            <li>
+              Think about whether your bedroom might be making it harder for you
+              to sleep, for example, temperature, uncomfortable bed, inadequate
+              curtains or blinds.
+            </li>
+            <li>
+              Try to&nbsp;avoid mentally engaging in activities close to
+              bedtime.&nbsp;It can take some time for the mind to switch off and
+              if you are feeling alert you are less likely to fall asleep.
+            </li>
+          </ul>
+          <p>
+            It might take some time before the positive changes you make to your
+            sleep routines take effect. If you regularly find you are having
+            problems with your sleep-wake cycles or are feeling sleepy during
+            the daytime, you should take advice from your GP.
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 7,
     title: "Reflection",
     description: (
       <>
