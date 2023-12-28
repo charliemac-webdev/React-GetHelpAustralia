@@ -28,8 +28,16 @@ const ImagesAreChildrenModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li></li>
+          <li>
+            the false justifications offenders use to avoid responsibility for
+            their actions
+          </li>
+          <li>that these images are of real children being abused</li>
+          <li>
+            the effects of being photographed on the children in the image
+          </li>
         </ul>
+        <br></br>
         <Module modules={ImagesAreChildrenModuleData} />
       </MainContent>
     </>

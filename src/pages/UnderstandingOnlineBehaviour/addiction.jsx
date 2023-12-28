@@ -28,8 +28,19 @@ const AddictionModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li></li>
+          <li>The difference between addiction and compulsion</li>
+          <li>What role addiction played in your on-line behaviour</li>
+          <li>How you can start to address your addictions</li>
         </ul>
+        <br></br>
+        <p>
+          <i>
+            “This has helped me so much and really opened my eyes to the reasons
+            behind the offending and the understanding of addiction. I feel more
+            prepared to go forward”
+          </i>
+        </p>
+        <br></br>
         <Module modules={AddictionModuleData} />
       </MainContent>
     </>

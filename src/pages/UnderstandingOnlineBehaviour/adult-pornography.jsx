@@ -28,7 +28,12 @@ const AdultPornographyModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li></li>
+          <li>
+            your use of legal pornography, which we will call adult pornography
+          </li>
+          <li>why you look at adult pornography</li>
+          <li>whether your use of adult pornography is a problem</li>
+          <li>techniques to reduce or stop using adult pornography</li>
         </ul>
         <Module modules={AdultPornographyModuleData} />
       </MainContent>

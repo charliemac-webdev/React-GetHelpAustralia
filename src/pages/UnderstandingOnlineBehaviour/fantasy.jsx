@@ -28,7 +28,8 @@ const FantasyModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li></li>
+          <li>your current sexual and non-sexual fantasies</li>
+          <li>the link between your fantasies and your online behaviour</li>
         </ul>
         <Module modules={FantasyModuleData} />
       </MainContent>

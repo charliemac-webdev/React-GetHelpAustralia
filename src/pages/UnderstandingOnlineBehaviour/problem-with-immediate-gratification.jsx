@@ -15,9 +15,7 @@ const ProblemOfImmediateModule = ({ showMenu }) => {
       <Heading>
         <br></br>
         <br></br>
-        <h2 className="secondary-color">
-          Problem with immediate gratification
-        </h2>
+        <h2 className="secondary-color">Problem of immediate gratification</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -30,8 +28,10 @@ const ProblemOfImmediateModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li></li>
+          <li>Why immediate gratification is so powerful</li>
+          <li>Ways to work against the power of immediate gratification</li>
         </ul>
+        <br></br>
         <Module modules={ProblemOfImmediateModuleData} />
       </MainContent>
     </>

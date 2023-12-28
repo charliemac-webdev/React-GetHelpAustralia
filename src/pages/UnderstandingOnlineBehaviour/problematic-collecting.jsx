@@ -28,8 +28,14 @@ const ProblematicCollectingModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li></li>
+          <li>Why you collect</li>
+          <li>How it links to your offending</li>
+          <li>
+            The relationship between collecting and some of the unsatisfactory
+            aspects of your life
+          </li>
         </ul>
+        <br></br>
         <Module modules={ProblematicCollectingModuleData} />
       </MainContent>
     </>

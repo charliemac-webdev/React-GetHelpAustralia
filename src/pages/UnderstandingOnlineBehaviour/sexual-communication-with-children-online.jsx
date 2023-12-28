@@ -30,8 +30,11 @@ const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
-          <li></li>
+          <li>Your motivation for engaging sexually with children online</li>
+          <li>How your behaviour progressed into sexual communication</li>
+          <li>How you might have justified your behaviour</li>
         </ul>
+        <br></br>
         <Module modules={SexualCommunicationWithChildrenModuleData} />
       </MainContent>
     </>
