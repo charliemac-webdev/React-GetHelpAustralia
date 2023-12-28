@@ -16,21 +16,17 @@ const wellbeingAssessmentData = [
         </p>
         <p>Ask yourself these questions:</p>
         <ul className="content-list">
+          <li>are you getting enough sleep? (7+ hours a night)</li>
           <li>
-            are you getting enough sleep? (Seven or more hours a night is
-            recommended for adults)
+            are you eating healthily and giving your body what it needs? (5+
+            portions of fruit and vegetables per day)
           </li>
           <li>
-            are you eating healthily and giving your body what it needs? (Are
-            you eating five portions of fruit and vegetables a day)
+            are you exercising enough? (Any type of physical activity every day)
           </li>
           <li>
-            are you exercising enough? (The NHS recommends some type of physical
-            activity every day)
-          </li>
-          <li>
-            are you looking after your health? (For example, seeing a doctor if
-            you are unwell or taking prescribed medication as instructed)
+            are you looking after your health? (Seeing a GP when required, and
+            taking prescribed medication)
           </li>
         </ul>
         <div className="bg-primary-subtle border border-primary p-3">
