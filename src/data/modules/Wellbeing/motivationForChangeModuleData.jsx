@@ -10,14 +10,16 @@ const MotivationForChangeModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
+          <h4 className="secondary-color">The stages of change</h4>
           <p>
             ‘Change’ means different things for different people and each person
             will have different goals when using this guide.
           </p>
           <p>
             Some people will recognise they need to change harmful behaviours,
-            such as viewing sexual images of children or contact sexual abuse,
-            others will want to change their thinking patterns or fantasies.
+            such as viewing sexual images of children or others will want to
+            change their thinking patterns or fantasies.
           </p>
           <p>
             For some people, change will mean feeling better or spending less
@@ -77,7 +79,7 @@ const MotivationForChangeModuleData = [
             </li>
           </ul>
           <p>
-            <img src={picture} alt="" width="100%" height="auto" />
+            <img src={picture} alt="" width="70%" height="auto" />
           </p>
         </div>
       </>
@@ -89,28 +91,22 @@ const MotivationForChangeModuleData = [
     description: (
       <>
         <div>
+          <br></br>
+          <h4 className="secondary-color">Setting goals</h4>
           <p>
             By using this website, you have recognised that you have a behaviour
             you want to change and are at least in the preparation stage. Move
-            into action and start the{" "}
-            <u>
-              <a
-                href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/"
-                target="_blank"
-                rel="noopener"
-              >
-                self-help modules
-              </a>
-            </u>
-            &nbsp;today. Anyone who commits themselves to change is able to
-            change, even if they have tried in the past without success. With
-            the right tools, you can move forward.
+            into action and start these self-help modules today. Anyone who
+            commits themselves to change is able to change, even if they have
+            tried in the past without success. With the right tools, you can
+            move forward.
           </p>
           <p>
             You need to take one step at a time, do not rush through it. Our
             role is to ask the right questions not give you the answers; you
             need to engage in the work and reflect on your life.
           </p>
+          <br></br>
           <h5 className="secondary-color">My goals exercise</h5>
           <p>
             Spend some time thinking about some positive goals that will help
@@ -162,6 +158,10 @@ const MotivationForChangeModuleData = [
     description: (
       <>
         <div>
+          <br></br>
+          <h4 className="secondary-color">
+            Short-term changes to your thoughts and behaviour
+          </h4>
           <p>
             It can also be useful to make some changes specifically connected to
             problematic behaviour. Some examples might include:
@@ -196,16 +196,14 @@ const MotivationForChangeModuleData = [
           </ul>
           <p>
             These are a few examples but you are the expert on your life and in
-            knowing what changes you could put in place today. If your risky or
-            illegal behaviour happens online, there are lots of options to
-            consider such as only going online in public spaces or when other
-            people are nearby. If you are{" "}
-            <u>
-              <a href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/understanding-the-behaviour/adult-pornography/">
-                concerned about your pornography use
-              </a>
-            </u>
-            , there are several apps which could be helpful such as{" "}
+            knowing what changes you could put in place today.
+          </p>
+          <p>
+            If your risky or illegal behaviour happens online, there are lots of
+            options to consider such as only going online in public spaces or
+            when other people are nearby. If you are concerned about your
+            pornography use, there are several apps which could be helpful such
+            as{" "}
             <u>
               <a href="https://www.remojo.com/" target="_blank" rel="noopener">
                 Remojo
@@ -221,18 +219,10 @@ const MotivationForChangeModuleData = [
                 Accountable 2U
               </a>
             </u>
-            . Our experienced{" "}
-            <u>
-              <a
-                href="https://www.stopitnow.org.uk/helpline/"
-                target="_blank"
-                rel="noopener"
-              >
-                helpline
-              </a>
-            </u>
-            &nbsp;advisors can give further advice for help in these areas.
+            . Our experienced helpline advisors can give further advice for help
+            in these areas.
           </p>
+          <br></br>
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -313,6 +303,7 @@ const MotivationForChangeModuleData = [
           <p>
             <u>Download the table here.</u>
           </p>
+          <br></br>
           <p>
             If you have people you can talk to about the changes you want to
             make, it’s a good idea to include them in your plan. It’s helpful to
@@ -335,20 +326,21 @@ const MotivationForChangeModuleData = [
           </p>
           <p>
             If you have any concerns, questions, or would just like to talk
-            about what you are going through, our non-judgemental{" "}
+            about what you are going through, our non-judgemental Stop It Now!
+            Australia{" "}
             <u>
               <a
                 href="https://www.stopitnow.org.uk/helpline/"
                 target="_blank"
                 rel="noopener"
               >
-                helpline
+                helpline *UPDATE LINK TO AUS*
               </a>
             </u>
             &nbsp;advisors are here to support you. You can stay anonymous and
             don’t have to give your real name or any contact details. If you’re
-            not ready to speak to anyone yet, you can also use our live chat or
-            send a secure email.
+            not ready to speak to anyone yet, you can also use the Stop It Now!
+            Australia live chat or send a secure email.
           </p>
         </div>
         <br />

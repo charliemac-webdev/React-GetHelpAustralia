@@ -27,7 +27,7 @@ const GuiltAndShameModule = ({ showMenu }) => {
         <ul className="content-list">
           <li>what guilt and shame are and why we have these emotions</li>
           <li>why it is important to manage these emotions</li>
-          <li>how to deal with shame.</li>
+          <li>how to deal with shame</li>
         </ul>
         <Module modules={GuiltAndShameModuleData} />
       </MainContent>
