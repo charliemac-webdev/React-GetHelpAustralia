@@ -8,7 +8,8 @@ const ImagesAreChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
-          <h3>Introduction: the reality of sexual images</h3>
+          <br></br>
+          <h4 className="secondary-color">The reality of sexual images</h4>
           <p>
             It’s likely that you will have used self-justifications to persuade
             yourself that it is ok to allow yourself to view sexual images of
@@ -26,6 +27,7 @@ const ImagesAreChildrenModuleData = [
             justifications might fade over time the more they are used.
           </p>
           <hr />
+          <br></br>
           <h4 className="secondary-color">Starting point</h4>
           <p>
             Using the table below, write down your current level of knowledge
@@ -393,6 +395,7 @@ const ImagesAreChildrenModuleData = [
     title: "Exercise 2",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Empathy</h4>
         <p>
           ‘Empathy’ means trying to understand what another person is thinking
@@ -402,9 +405,8 @@ const ImagesAreChildrenModuleData = [
           It means having insight at an emotional level as to what it would feel
           like to be that person.
         </p>
-        <h4 className="secondary-color">
-          <strong>Why is empathy hard?</strong>
-        </h4>
+        <br></br>
+        <h4 className="secondary-color">Why is empathy hard?</h4>
         <p>
           We generally find it harder to empathise or identify with other people
           who are “not like us”. For many people looking at illegal images on
@@ -420,9 +422,8 @@ const ImagesAreChildrenModuleData = [
           designed to help you “get to know” the human being behind the
           photograph with his/her own thoughts, feelings, problems, and life.
         </p>
-        <h4 className="secondary-color">
-          <strong>Health and safety warning</strong>
-        </h4>
+        <br></br>
+        <h4 className="secondary-color">Health and safety warning</h4>
         <p>This exercise is challenging and emotionally demanding.</p>
         <p>
           It is important that you take a break during this exercise if you feel
@@ -441,8 +442,14 @@ const ImagesAreChildrenModuleData = [
             answers &gt;
           </a>
         </p>
+        <br></br>
         <p>
-          <strong>Part A: How have you got to where you are?</strong>
+          <h4 className="secondary-color">Exercise 2</h4>
+        </p>
+        <p>
+          <h5 className="secondary-color">
+            Part A: How have you got to where you are?
+          </h5>
         </p>
         <p>
           As part of this exercise you should think of a child in a photograph
@@ -459,7 +466,9 @@ const ImagesAreChildrenModuleData = [
         </ol>
         <p>&nbsp;</p>
         <p>
-          <strong>Part B: Who is directing the action and why?</strong>
+          <h5 className="secondary-color">
+            Part B: Who is directing the action and why?
+          </h5>
         </p>
         <p>
           Using the same image you have recalled for the previous part of this
@@ -480,7 +489,7 @@ const ImagesAreChildrenModuleData = [
         </ol>
         <p>&nbsp;</p>
         <p>
-          <strong>Part C: The child in the image</strong>
+          <h5 className="secondary-color">Part C: The child in the image</h5>
         </p>
         <p>
           One common justification people use to allow themselves to continue
@@ -526,9 +535,9 @@ const ImagesAreChildrenModuleData = [
           behind the photograph with his/her own thoughts, feelings, problems,
           and life.
         </p>
+        <br></br>
         <p>
-          <strong>Part D: e</strong>
-          <strong>ffects of victimisation</strong>
+          <h5 className="secondary-color">Part D: effects of victimisation</h5>
         </p>
         <p>
           Return once again to the original picture during the time at which the
@@ -675,12 +684,14 @@ const ImagesAreChildrenModuleData = [
     title: "Exercise 3",
     description: (
       <div class="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Effects on you</h4>
         <p>
-          <strong>
+          <br></br>
+          <h5 className="secondary-color">
             Part A: How would you feel about being there? Where do you draw the
             line?
-          </strong>
+          </h5>
         </p>
         <p>
           Now consider how you would feel about how close you could get to the
@@ -726,6 +737,7 @@ const ImagesAreChildrenModuleData = [
     title: "Reflection",
     description: (
       <div class="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
           As with the introduction to this module, using the table below, write
@@ -782,35 +794,7 @@ const ImagesAreChildrenModuleData = [
             seek out this information?
           </li>
         </ul>
-        <h4 className="secondary-color">Talk to us if you need support</h4>
-        <p>
-          You can{" "}
-          <strong>
-            <a href="https://www.stopitnow.org.uk/helpline/">
-              use our helpline, live chat or secure message service
-            </a>
-          </strong>{" "}
-          for confidential support from our experienced advisors if you want to
-          discuss anything covered in this module, have struggled when working
-          through it, or want to go through the information with a practitioner
-          to guide you.
-        </p>
-        <hr />
-        <h4 className="secondary-color">Can you help us?</h4>
-        <p>
-          Do you have a few minutes to help us improve the effectiveness of this
-          website?{" "}
-          <strong>
-            <a
-              href="https://interviewing.nfieldmr.com/Interviews/WRKqb/GhygnvzvcTyyp7X6H8CP?xmod=4"
-              target="_blank"
-              rel="noopener"
-            >
-              Please take this survey
-            </a>
-          </strong>{" "}
-          and let us know what you think.
-        </p>
+        <br></br>
         <br />
         <Link to="/self-help-problematic-collecting">
           <div className="d-flex justify-content-end">
