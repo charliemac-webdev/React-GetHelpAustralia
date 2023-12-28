@@ -4,6 +4,7 @@ const SelfEsteemAndAssertivenessModuleData = [
     title: "Self Esteem and Assertiveness",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Self-Esteem</h4>
         <p>
           Self-esteem is how we value ourselves; it is how we perceive our value
@@ -20,6 +21,7 @@ const SelfEsteemAndAssertivenessModuleData = [
           Positive thinking and behaviour can contribute to higher levels of
           self-esteem.
         </p>
+        <br></br>
         <h4 className="secondary-color">
           Exercise 1: What can I do to build my self-esteem?
         </h4>
@@ -105,22 +107,24 @@ const SelfEsteemAndAssertivenessModuleData = [
     title: "Feeling positive and healthy",
     description: (
       <div className="tab-main-content">
-        <h4 className="secondary-color">
+        <br></br>
+        <h4 className="secondary-color">Feeling positive and healthy</h4>
+        <p>
           It is also important to feel positive and healthy. The following will
           help you achieve this:
-        </h4>
+        </p>
         <p>
           <strong>Look after your physical health</strong>
           <br />
-          Looking after your physical health can help you feel happier and
-          healthier, and improve your self-image.
+          This can help you feel happier and healthier, and improve your
+          self-image.
         </p>
         <p>
           <strong>Physical activity</strong>
           <br />
-          Physical activity helps improve people’s sense of wellbeing and image
-          of themselves. Exercise releases endorphins – ‘feel-good’ hormones
-          that can help improve your mood, particularly if you do it outside.
+          This helps improve people’s sense of wellbeing and image of
+          themselves. Exercise releases endorphins – ‘feel-good’ hormones that
+          can help improve your mood, particularly if you do it outside.
         </p>
         <p>
           <strong>Sleep</strong>
@@ -138,16 +142,17 @@ const SelfEsteemAndAssertivenessModuleData = [
           drugs can also help improve your general wellbeing.
         </p>
         <hr />
-        <h3>
+        <br></br>
+        <p>
           As we have identified earlier how you think is very important in how
           you see yourself.
-        </h3>
+        </p>
         <p>
           <strong>Learn to identify and challenge negative beliefs</strong>
           <br />
           If you are going to improve your self-esteem, it will help to
           understand more about your negative beliefs about yourself and where
-          they came from. (See section on self-talk)
+          they came from (See section on self-talk).
         </p>
         <p>
           <strong>Focus on positive things</strong>
@@ -194,6 +199,7 @@ const SelfEsteemAndAssertivenessModuleData = [
           help people become more aware of their thoughts and feelings, so that
           instead of being overwhelmed by them, it is easier to manage them.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -202,6 +208,7 @@ const SelfEsteemAndAssertivenessModuleData = [
     title: "Learn to be assertive",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Self Esteem and Assertiveness</h4>
         <p>
           People with low self-esteem often struggle to be assertive; this can
@@ -210,6 +217,7 @@ const SelfEsteemAndAssertivenessModuleData = [
           others can help improve your self-esteem. Once you can see other
           people value your views then you can see it yourself.
         </p>
+        <br></br>
         <h4 className="secondary-color">Learn to be assertive</h4>
         <p>
           Being assertive means being able to stand up for your own or other
