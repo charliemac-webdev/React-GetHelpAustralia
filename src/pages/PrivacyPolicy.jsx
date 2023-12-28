@@ -6,6 +6,7 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Heading>
+        <br></br>
         <h2 className="secondary-color mb-3">Privacy policy</h2>
       </Heading>
       <MainContent>

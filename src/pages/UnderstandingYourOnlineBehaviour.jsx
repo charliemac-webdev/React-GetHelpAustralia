@@ -10,6 +10,8 @@ const UnderstandingYourOnlineBehaviour = () => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color mb-3">
           Understanding Your Online Behaviour
         </h2>

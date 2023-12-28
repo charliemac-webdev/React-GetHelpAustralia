@@ -13,6 +13,8 @@ const ProblemOfImmediateModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color">
           Problem with immediate gratification
         </h2>
@@ -24,6 +26,7 @@ const ProblemOfImmediateModule = ({ showMenu }) => {
         </span>
       </Heading>
       <MainContent>
+        <br></br>
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">

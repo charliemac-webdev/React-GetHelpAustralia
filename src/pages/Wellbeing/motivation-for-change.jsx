@@ -13,6 +13,8 @@ const MotivationForChangeModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color">
           Helping you motivate yourself and manage change
         </h2>
@@ -24,6 +26,7 @@ const MotivationForChangeModule = ({ showMenu }) => {
         </span>
       </Heading>
       <MainContent>
+        <br></br>
         <h4 className="secondary-color">Objectives</h4>
         <p>This module aims to help you:</p>
         <ul className="content-list">

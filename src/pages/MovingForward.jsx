@@ -10,6 +10,7 @@ const MovingForward = () => {
   return (
     <>
       <Heading>
+        <br></br>
         <h2 className="secondary-color mb-3">Moving Forward</h2>
       </Heading>
       <MainContent>

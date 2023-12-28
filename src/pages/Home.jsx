@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <>
       <Heading>
+        <br></br>
         <h2 className="secondary-color mb-3">
           Concerned about your online behaviour?
         </h2>

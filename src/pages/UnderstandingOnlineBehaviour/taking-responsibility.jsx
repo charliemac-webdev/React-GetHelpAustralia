@@ -13,6 +13,9 @@ const TakingResponsibilityModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
+        <br>
+          <br></br>
+        </br>
         <h2 className="secondary-color">
           Taking control of your online behaviour
         </h2>
@@ -24,6 +27,7 @@ const TakingResponsibilityModule = ({ showMenu }) => {
         </span>
       </Heading>
       <MainContent>
+        <br></br>
         <h4 className="secondary-color">Objectives</h4>
         <p>
           This module aims to help you explore and gain understanding of the

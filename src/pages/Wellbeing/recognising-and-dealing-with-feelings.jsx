@@ -13,6 +13,8 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color">
           Recognising and dealing with feelings
         </h2>
@@ -24,6 +26,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
         </span>
       </Heading>
       <MainContent>
+        <br></br>
         <h4 className="secondary-color">Objectives</h4>
         <p>
           This module aims to help you explore and gain an understanding of the

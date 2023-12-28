@@ -14,6 +14,8 @@ const SelfCareModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color">Self care</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
@@ -23,6 +25,7 @@ const SelfCareModule = ({ showMenu }) => {
         </span>
       </Heading>
       <MainContent>
+        <br></br>
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">

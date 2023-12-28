@@ -6,6 +6,7 @@ const Resources = () => {
   return (
     <>
       <Heading>
+        <br></br>
         <h2 className="secondary-color mb-3">Useful resources</h2>
       </Heading>
       <MainContent>

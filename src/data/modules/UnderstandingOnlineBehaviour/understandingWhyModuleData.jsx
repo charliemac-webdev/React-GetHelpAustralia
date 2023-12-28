@@ -57,9 +57,11 @@ const understandingWhyModuleData = [
   },
   {
     id: 2,
-    title: "Exercise 1",
+    title: "Exercise 1: Internet Use",
     description: (
       <>
+        <br></br>
+        <h4 className="secondary-color">Exercise 1: Internet Use</h4>
         <p>
           You might already have some understanding of why you have been or are
           tempted to behave illegally online. You might also have recognised
@@ -112,6 +114,7 @@ const understandingWhyModuleData = [
         </p>
         <ol>
           <li>
+            <br></br>
             Download and open the file in a PDF reader. If you need to, you can
             download this free Adobe PDF reader.
           </li>
@@ -127,10 +130,11 @@ const understandingWhyModuleData = [
   },
   {
     id: 3,
-    title: "Exercise 2",
+    title: "Exercise 2: Timeline",
     description: (
       <>
-        <h5 className="secondary-color">Progression timeline</h5>
+        <br></br>
+        <h4 className="secondary-color">Exercise : Progression Timeline</h4>
         <p>
           The second exercise is in three parts and looks back over your life to
           help you think about how you started behaving illegally online.
@@ -146,7 +150,6 @@ const understandingWhyModuleData = [
           life. These events should show how your online behaviour changed,
           eventually leading to your illegal online sexual behaviour.
         </p>
-        <br />
         <p>
           Look at the example below to help you get started. We recommend
           completing your timeline in the following order:
@@ -181,6 +184,7 @@ const understandingWhyModuleData = [
           style={{ height: "auto", maxWidth: "100%" }}
         />
         <br />
+        <br></br>
         <a href="#">Download and edit PDF template</a>
         <br />
         <p>
@@ -199,6 +203,7 @@ const understandingWhyModuleData = [
           <li>Click OK, name the PDF file, and save it.</li>
         </ol>
         <hr />
+        <br></br>
         <h5 className="secondary-color">Part B: Digging deeper</h5>
         <p>
           <p></p>
@@ -227,6 +232,7 @@ const understandingWhyModuleData = [
         />
         <br />
         <p></p>
+        <br></br>
         <a href="#">Download and edit PDF template</a>
         <br />
         <p>
@@ -245,7 +251,6 @@ const understandingWhyModuleData = [
           </li>
           <li>Click OK, name the PDF file, and save it.</li>
         </ol>
-        <br />
         <p>
           <b>Feeling word bank</b>
         </p>
@@ -256,12 +261,11 @@ const understandingWhyModuleData = [
           despair, Uneasy, Useless, Vulnerable, Afraid Nervous, Timid,
           Indifferent, Restless, Alienated, Nonchalant, Dull, Anxious, Confident
         </p>
-        <br />
         <hr />
         <br />
-        <h4 className="secondary-color">
+        <h5 className="secondary-color">
           Part C: Understanding your behaviour over time
-        </h4>
+        </h5>
         <a href="#">
           Download printable version of these questions with space to fill in
           answers.
@@ -368,13 +372,13 @@ const understandingWhyModuleData = [
     title: "Reflection",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
           As with the introduction to this module, using the table below, write
           down your current level of knowledge and understanding about your
           online behaviour.
         </p>
-        <br />
         <p>
           (1 = very little knowledge; 2 = some understanding; 3 = secure
           understanding).
@@ -416,7 +420,6 @@ const understandingWhyModuleData = [
             </tr>
           </tbody>
         </table>
-        <br />
         <p>Think about these questions:</p>
         <ul className="content-list">
           <li>
@@ -438,7 +441,6 @@ const understandingWhyModuleData = [
             information?
           </li>
         </ul>
-        <hr />
         <br />
         <Link to="/self-help-triggers">
           <div className="d-flex justify-content-end">

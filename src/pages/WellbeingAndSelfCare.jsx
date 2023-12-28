@@ -11,6 +11,8 @@ const WellbeingAndSelfCare = () => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color mb-3">Wellbeing and Self-care</h2>
       </Heading>
       <MainContent>

@@ -13,6 +13,8 @@ const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color">
           Sexual communication with children online
         </h2>
@@ -24,6 +26,7 @@ const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
         </span>
       </Heading>
       <MainContent>
+        <br></br>
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">

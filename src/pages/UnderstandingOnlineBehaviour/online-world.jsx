@@ -13,6 +13,8 @@ const OnlineWorldModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color">Online World</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
@@ -22,6 +24,7 @@ const OnlineWorldModule = ({ showMenu }) => {
         </span>
       </Heading>
       <MainContent>
+        <br></br>
         <h4 className="secondary-color">Objectives</h4>
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">

@@ -13,6 +13,8 @@ const SelfEsteemAndAssertivenessModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
+        <br></br>
+        <br></br>
         <h2 className="secondary-color">Self esteem and assertiveness</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
@@ -22,6 +24,7 @@ const SelfEsteemAndAssertivenessModule = ({ showMenu }) => {
         </span>
       </Heading>
       <MainContent>
+        <br></br>
         <h4 className="secondary-color">Objectives</h4>
         <p>
           This module aims to help you explore and gain an understanding of the
