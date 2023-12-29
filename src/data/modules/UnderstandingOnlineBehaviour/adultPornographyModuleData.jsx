@@ -7,6 +7,7 @@ const AdultPornographyModuleData = [
     title: "Adult pornography",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           If you are viewing legal adult pornography then this is your choice
           and we are not here to shame you for using it or to tell you to stop.
@@ -21,6 +22,7 @@ const AdultPornographyModuleData = [
           may become evident as you work through this module, particularly when
           you look at the section on drivers.
         </p>
+        <br></br>
         <h4 className="secondary-color">What is pornography?</h4>
         <p>
           Pornography is sexual content designed to sexually excite people. It
@@ -38,18 +40,11 @@ const AdultPornographyModuleData = [
           do not lead to abusive behaviours, for example, a person being
           physically harmed, their life threatened, or rape scenarios.
         </p>
-        <h3>Is it OK to view adult pornography?</h3>
+        <br></br>
+        <h4 className="secondary-color">Is it OK to view adult pornography?</h4>
         <p>
-          In the UK, if you are aged 18 or over you can legally view adult
+          In Australia, if you are aged 18 or over you can legally view adult
           pornographic material<em>.</em>
-        </p>
-        <p>
-          If you are an adult viewing adult pornography then this is your choice
-          and we are not here to shame you for using it or to tell you to stop.
-        </p>
-        <p>
-          But this self-help section will encourage you to think about whether
-          using adult pornography is helpful or harmful for you.
         </p>
         <p>
           Before the internet, people might have gone to a shop or a cinema to
@@ -62,6 +57,7 @@ const AdultPornographyModuleData = [
           amount of pornography they view has grown. Some people view hours of
           adult pornography before they notice how much time has passed.
         </p>
+        <br></br>
         <h4 className="secondary-color">Is adult pornography good or bad?</h4>
         <p>
           Lots of men who we work with talk about pornography being good or bad
@@ -90,6 +86,7 @@ const AdultPornographyModuleData = [
           . It is impossible to guarantee the people you are watching have given
           consent.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -98,6 +95,7 @@ const AdultPornographyModuleData = [
     title: "When viewing adult pornography becomes a problem",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">
           When does viewing adult pornography become a problem?
         </h4>
@@ -130,6 +128,7 @@ const AdultPornographyModuleData = [
             law by viewing extreme or abusive imagery.
           </li>
         </ul>
+        <br></br>
         <h4 className="secondary-color">
           Exercise 1: Is adult pornography a problem for you?
         </h4>
@@ -138,12 +137,13 @@ const AdultPornographyModuleData = [
           the quiz below to find out.
         </p>
         {/* Exercise 1 Quiz */}
-        <p>&nbsp;</p>
+        <p>INSERT QUIZ&nbsp;</p>
         <p>
           The more questions you agree with, the more problematic your
           pornography use appears to be. If you answered ‘yes’ to any of the
           questions, you might find this module helpful.
         </p>
+        <br></br>
         <h4 className="secondary-color">
           The impact of adult pornography on your life
         </h4>
@@ -181,6 +181,7 @@ const AdultPornographyModuleData = [
           </li>
           <li>lead to anxiety and depression</li>
         </ul>
+        <br></br>
         <h4 className="secondary-color">
           Exercise 2: Is adult pornography affecting your real world?
         </h4>
@@ -245,6 +246,7 @@ const AdultPornographyModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">
             Why do I look at adult pornography?
           </h4>
@@ -252,6 +254,7 @@ const AdultPornographyModuleData = [
             Pornography is made to sexually arouse people. But different people
             might look at it for very different reasons.
           </p>
+          <br></br>
           <h4 className="secondary-color">
             Exercise 3: Why do you view adult pornography?
           </h4>
@@ -294,6 +297,7 @@ const AdultPornographyModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">What is a trigger?</h4>
           <p>
             A trigger is something that affects how you are feeling, which then
@@ -311,6 +315,7 @@ const AdultPornographyModuleData = [
             <li>frustration</li>
             <li>anger.</li>
           </ul>
+          <br></br>
           <h4 className="secondary-color">
             What triggers these negative emotions in the first place?
           </h4>
@@ -358,6 +363,7 @@ const AdultPornographyModuleData = [
             </a>
             .
           </p>
+          <br></br>
           <h4 className="secondary-color">How to manage your triggers</h4>
           <p>
             If you want to view pornography then there are a range of techniques
@@ -368,10 +374,11 @@ const AdultPornographyModuleData = [
               target="_blank"
               rel="noopener"
             >
-              fantasy management
+              fantasy management (INSERT HYPERLINK)
             </a>
             .
           </p>
+          <br></br>
           <h4 className="secondary-color">Exercise 4: Keep a trigger diary</h4>
           <p>
             Over the next week, we encourage you to keep a diary, completing the
@@ -517,6 +524,7 @@ const AdultPornographyModuleData = [
               problems module.
             </a>
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -527,6 +535,7 @@ const AdultPornographyModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">Drivers</h4>
           <p>
             Many people have problems with limiting the amount of time they
@@ -544,7 +553,7 @@ const AdultPornographyModuleData = [
             feelings while you are viewing it.
           </p>
           <p>Here are a few examples of how your brain can be affected.</p>
-          <h3>Needing new and different things</h3>
+          <h5 className="secondary-color">Needing new and different things</h5>
           <p>
             Your brain loves new things. Over time your brain can get bored if
             you keep viewing the same type of adult pornography. It doesn’t have
@@ -567,7 +576,7 @@ const AdultPornographyModuleData = [
             linking pornography with its aim to reproduce – ejaculating as many
             times as possible to impregnate as many females as possible.
           </p>
-          <h4 className="secondary-color">The bikini effect</h4>
+          <h5 className="secondary-color">The bikini effect</h5>
           <p>
             Research shows that when men feel sexually aroused they make more
             impulsive decisions, behave recklessly and look for short-term
@@ -593,7 +602,7 @@ const AdultPornographyModuleData = [
             Advertisers know this, which is why they sometimes use suggestive or
             sexual pictures when selling things to men.
           </p>
-          <h4 className="secondary-color">The slot machine effect</h4>
+          <h5 className="secondary-color">The slot machine effect</h5>
           <p>
             Slot machines offer random rewards. A gambler will keep gambling
             even if they rarely or never win because the joy is in the
@@ -607,7 +616,7 @@ const AdultPornographyModuleData = [
             state of expectation, and keep searching because you think that
             there must be something better out there.
           </p>
-          <h4 className="secondary-color">Flow Theory</h4>
+          <h5 className="secondary-color">Flow Theory</h5>
           <p>
             When viewing and collecting pornography you might find that time
             flows more quickly and you don’t focus on your usual worries. You
@@ -623,6 +632,7 @@ const AdultPornographyModuleData = [
             task. This can help understand why the behaviour continues and you
             might be drawn to it in the future to escape from life’s stresses.
           </p>
+          <br></br>
           <h4 className="secondary-color">How do drivers affect you?</h4>
           <ul className="content-list">
             <li>
@@ -648,6 +658,7 @@ const AdultPornographyModuleData = [
             unusual acts because the makers need to find new things to keep
             their audience.
           </p>
+          <br></br>
           <h4 className="secondary-color">
             Exercise 5: Thinking about your own behaviour
           </h4>
@@ -671,6 +682,7 @@ const AdultPornographyModuleData = [
               behaviour and triggers?
             </li>
           </ul>
+          <br></br>
         </div>
       </>
     ),
@@ -681,9 +693,11 @@ const AdultPornographyModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">
             Managing your adult pornography use
           </h4>
+          <br></br>
           <h4 className="secondary-color">Practical changes</h4>
           <p>
             If you decide it would be helpful for you to reduce your use of
@@ -738,6 +752,7 @@ const AdultPornographyModuleData = [
               compulsive sexual behaviour.
             </li>
           </ul>
+          <br></br>
           <h4 className="secondary-color">Relaxation techniques</h4>
           <p>
             Using mindfulness, meditation and guided visualisation can help
@@ -748,10 +763,11 @@ const AdultPornographyModuleData = [
               target="_blank"
               rel="noopener"
             >
-              Find out more about relaxation techniques
+              Find out more about relaxation techniques <b>(INSERST LINK)</b>
             </a>
             .
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -762,6 +778,7 @@ const AdultPornographyModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">
             Self-care and tips to view less adult pornography
           </h4>
@@ -827,42 +844,7 @@ const AdultPornographyModuleData = [
               pornography.
             </li>
           </ul>
-          <p>
-            Take a look at our suggestions for{" "}
-            <a
-              href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/useful-resources/"
-              target="_blank"
-              rel="noopener"
-            >
-              places to get more help and information
-            </a>
-            .
-          </p>
-          <h4 className="secondary-color">Talk to us if you need support</h4>
-          <p>
-            The experienced advisors on our&nbsp;
-            <a
-              href="https://www.stopitnow.org.uk/helpline/"
-              target="_blank"
-              rel="noopener"
-            >
-              confidential helpline
-            </a>{" "}
-            can support you if you want to discuss anything covered in this
-            module, have struggled when working through it or want to go through
-            the information with a practitioner to guide you. You can stay
-            anonymous and don’t have to give your real name, location, or any
-            contact details. If you’re not ready to speak to anyone yet, you can
-            also{" "}
-            <a
-              href="https://www.stopitnow.org.uk/helpline/live-chat/"
-              target="_blank"
-              rel="noopener"
-            >
-              use our live chat or send a secure email
-            </a>
-            .
-          </p>
+          <br></br>
         </div>
         <br />
         <Link to="/self-help-addiction">
