@@ -8,13 +8,14 @@ const SexualCommunicationWithChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
-          <h3>What do we mean by ‘sexual communication’?</h3>
+          <br></br>
+          <h4 className="secondary-color">
+            What do we mean by ‘sexual communication’?
+          </h4>
           <p>
-            Following new legislation in April 2017 in England and Wales (and
-            existing legislation in Scotland and Northern Ireland), an adult is
-            committing a criminal offence if they intentionally communicate with
-            someone under the age of 16 for the purposes of sexual
-            gratification.
+            In Australia, an adult is committing a criminal offence if they
+            intentionally communicate with someone under the age of 16 years for
+            the purposes of sexual gratification.
           </p>
           <p>
             Sexual communication with a child is often referred to as online
@@ -50,10 +51,10 @@ const SexualCommunicationWithChildrenModuleData = [
             of the behaviour.
           </p>
           <p>
-            <strong>Asmir</strong>
+            <h5 className="secondary-color">Mick</h5>
           </p>
           <p>
-            Asmir is married, in his late 40s, and has three children aged 7-12.
+            Mick is married, in his late 40s, and has three children aged 7-12.
             Until recently he was working in a stressful job as a manager in the
             hospitality industry. He has viewed adult pornography, on and off,
             ever since he was a teenager. In recent years he has started to use
@@ -61,12 +62,12 @@ const SexualCommunicationWithChildrenModuleData = [
             engaged with teenage girls via webcam i.e. encouraged them to
             masturbate on camera and exposed himself to them. He has never
             attempted to meet up with any adults or children offline, and has
-            had no interest in doing so. For Asmir, his sexual interactions with
+            had no interest in doing so. For Mick, his sexual interactions with
             adults and teenage girls online were a way for him to use sex to
             de-stress in the evenings when the rest of his family were asleep.
           </p>
           <p>
-            <strong>Ben</strong>
+            <h5 className="secondary-color">Ben</h5>
           </p>
           <p>
             Ben is a gay man in his 30s.&nbsp;He has no children and works in
@@ -82,7 +83,7 @@ const SexualCommunicationWithChildrenModuleData = [
             challenge of getting the boys to talk about their sexual behaviour.
           </p>
           <p>
-            <strong>Rob</strong>
+            <h5 className="secondary-color">Rob</h5>
           </p>
           <p>
             Rob is in his mid-40s&nbsp;and works at his local supermarket. He
@@ -104,7 +105,7 @@ const SexualCommunicationWithChildrenModuleData = [
             away for a weekend, in secret.
           </p>
           <p>
-            <strong>John</strong>
+            <h5 className="secondary-color">John</h5>
           </p>
           <p>
             John is aged 28. He lives in a house-share and works as a software
@@ -124,6 +125,7 @@ const SexualCommunicationWithChildrenModuleData = [
             behaviours? Were you able to relate to any aspects of the person’s
             situation?
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -134,6 +136,7 @@ const SexualCommunicationWithChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">
             Motivations for engaging in sexual communication with children
           </h4>
@@ -150,13 +153,14 @@ const SexualCommunicationWithChildrenModuleData = [
             more responsibly in the future.
           </p>
           <p>
-            Many of the motivations noted in the&nbsp;Understanding Why
-            module&nbsp;will also be relevant for people who have communicated
-            sexually with children online. Take a look and see which might have
-            been significant for you. You might find it helpful to complete the
-            timeline exercise, if you haven’t done so already.
+            Many of the motivations noted in the&nbsp;Understanding Why (INSERT
+            LINK) module&nbsp;will also be relevant for people who have
+            communicated sexually with children online. Take a look and see
+            which might have been significant for you. You might find it helpful
+            to complete the timeline exercise, if you haven’t done so already.
           </p>
           <hr />
+          <br></br>
           <h4 className="secondary-color">Different groups</h4>
           <p>
             Research and practice concerning the online grooming of children is
@@ -190,6 +194,7 @@ const SexualCommunicationWithChildrenModuleData = [
             however, may differ.
           </p>
           <hr />
+          <br></br>
           <h4 className="secondary-color">
             Exercise 1: Different approaches to children
           </h4>
@@ -256,6 +261,7 @@ const SexualCommunicationWithChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">
             The different stages of sexual communication with children
           </h4>
@@ -297,6 +303,7 @@ const SexualCommunicationWithChildrenModuleData = [
             </li>
           </ul>
           <hr />
+          <br></br>
           <h4 className="secondary-color">Exercise 2: My different stages</h4>
           <p>
             To change behaviour, it’s important to recognise and understand the
@@ -386,6 +393,7 @@ const SexualCommunicationWithChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">The cycle of online grooming</h4>
           <p>
             Some people find it more helpful to think of their behaviour as
@@ -404,6 +412,7 @@ const SexualCommunicationWithChildrenModuleData = [
             everyone.
           </p>
           <hr />
+          <br></br>
           <h4 className="secondary-color">
             Exercise 3: Cycle of online grooming
           </h4>
@@ -450,8 +459,9 @@ const SexualCommunicationWithChildrenModuleData = [
               sizes="(max-width: 512px) 100vw, 512px"
             />
           </p>
+          <br></br>
           <p>
-            <strong>The online environment</strong>
+            <h5 className="secondary-color">The online environment</h5>
           </p>
           <p>
             As well as ideas like the Triple A model, this is about how people
@@ -464,17 +474,17 @@ const SexualCommunicationWithChildrenModuleData = [
           <p>
             To read more about the Triple A model, and consider these aspects of
             the internet, you might find it useful to look at the&nbsp;Online
-            World module.
+            World module. (INSERT LINK)
           </p>
           <p>
-            <strong>Contact with child or children</strong>
+            <h5 className="secondary-color">Contact with child or children</h5>
           </p>
           <p>
             This is about how people make their initial contact with children
             online.
           </p>
           <p>
-            <strong>Initial engagement</strong>
+            <h5 className="secondary-color">Initial engagement</h5>
           </p>
           <p>
             Although persuasion may occur throughout someone’s contact with
@@ -483,7 +493,9 @@ const SexualCommunicationWithChildrenModuleData = [
             the language of children or adolescents.
           </p>
           <p>
-            <strong>Finding out more about the child</strong>
+            <h5 className="secondary-color">
+              Finding out more about the child
+            </h5>
           </p>
           <p>
             Having started the initial conversation, some adults may take an
@@ -491,7 +503,7 @@ const SexualCommunicationWithChildrenModuleData = [
             strengthening their relationship with the child.
           </p>
           <p>
-            <strong>Strategies of persuasion</strong>
+            <h5 className="secondary-color">Strategies of persuasion</h5>
           </p>
           <p>
             This stage is about how someone might persuade a child to do what
@@ -499,7 +511,7 @@ const SexualCommunicationWithChildrenModuleData = [
             themselves.
           </p>
           <p>
-            <strong>Sexual outcomes</strong>
+            <h5 className="secondary-color">Sexual outcomes</h5>
           </p>
           <p>
             This is the sexual behaviour itself, for example, the exchange of
@@ -508,7 +520,7 @@ const SexualCommunicationWithChildrenModuleData = [
             etc.
           </p>
           <p>
-            <strong>Justifications</strong>
+            <h5 className="secondary-color">Justifications</h5>
           </p>
           <p>
             These are the things people say to themselves to justify their
@@ -630,6 +642,7 @@ const SexualCommunicationWithChildrenModuleData = [
               <u>Download printable version</u>
             </a>
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -640,6 +653,7 @@ const SexualCommunicationWithChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">
             Considering the child’s perspective
           </h4>
@@ -670,12 +684,17 @@ const SexualCommunicationWithChildrenModuleData = [
             people feel ashamed of their behaviour when they look at it from the
             child’s point of view. But, remember that this is a positive
             process, and considering the child’s point of view can help you stay
-            safe from inappropriate online behaviour going forward. Find a quiet
-            time to do the exercise below when you’re feeling safe and
-            supported.
+            safe from inappropriate online behaviour going forward.{" "}
+          </p>
+          <p>
+            Find a quiet time to do the exercise below when you’re feeling safe
+            and supported.
           </p>
           <hr />
-          <h3>Exercise 4: The child’s perspective</h3>
+          <br></br>
+          <h4 className="secondary-color">
+            Exercise 4: The child’s perspective
+          </h4>
           <p>
             Consider what you know about the child/ren you were interacting with
             and what you know about children generally. Think about the
@@ -707,6 +726,7 @@ const SexualCommunicationWithChildrenModuleData = [
               they held some responsibility for the chat?
             </li>
           </ul>
+          <br></br>
         </div>
       </>
     ),
@@ -743,36 +763,9 @@ const SexualCommunicationWithChildrenModuleData = [
             <a href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/moving-forward/building-a-good-life/">
               Building a Good Life
             </a>
-            &nbsp;modules.
+            &nbsp;modules. (LINK TO MODULES)
           </p>
-          <h4 className="secondary-color">Talk to us if you need support</h4>
-          <p>
-            You can&nbsp;
-            <strong>
-              <a href="https://www.stopitnow.org.uk/helpline/">
-                use our helpline, live chat or secure email service
-              </a>
-            </strong>
-            &nbsp;for confidential support from our experienced advisors if you
-            want to discuss anything covered in this module, have struggled when
-            working through it, or want to go through the information with a
-            practitioner to guide you.
-          </p>
-          <h4 className="secondary-color">Can you help us?</h4>
-          <p>
-            Do you have a few minutes to help us improve the effectiveness of
-            this website?&nbsp;
-            <strong>
-              <a
-                href="https://interviewing.nfieldmr.com/Interviews/WRKqb/GhygnvzvcTyyp7X6H8CP?xmod=6"
-                target="_blank"
-                rel="noopener"
-              >
-                Please take this survey
-              </a>
-            </strong>
-            &nbsp;and let us know what you think.
-          </p>
+          <br></br>
         </div>
         <br />
         <Link to="/self-help-problem-of-immediate-gratification">
