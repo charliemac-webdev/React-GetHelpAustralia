@@ -26,7 +26,6 @@ const GTFConsequences = () => {
         height="360"
         src="https://www.youtube.com/embed/7k93HKIeJKw"
         title="Interview with man arrested for downloading indecent images of children - Summary"
-        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>

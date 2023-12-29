@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 
+import pictureOne from "../../../images/diagrams-yes-or-no.gif";
+
 const ImagesAreChildrenModuleData = [
   {
     id: 1,
@@ -94,10 +96,10 @@ const ImagesAreChildrenModuleData = [
             they know they shouldn’t be doing.
           </p>
           <p>Here’s an example:</p>
-          <p>
+          <p className="text-center">
             <img
-              src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/diagrams-yes-or-no.gif"
-              alt=""
+              src={pictureOne}
+              alt="diagram yes or no"
               width="80%"
               height="auto"
             />
@@ -117,16 +119,14 @@ const ImagesAreChildrenModuleData = [
             This film includes some of the justifications that people use to
             allow themselves to continue offending online.
           </p>
-          <p>
+          <p className="text-center">
             <iframe
               title="Stop it Now 'No Justification'"
               width="640"
               height="360"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen=""
-              data-cookieblock-src="https://www.youtube.com/embed/Bq-rTc7x_a4?feature=oembed"
-              data-cookieconsent="marketing"
+              allowfullscreen
+              src="https://www.youtube.com/embed/Bq-rTc7x_a4?feature=oembed"
             ></iframe>
           </p>
           <p>
@@ -266,17 +266,14 @@ const ImagesAreChildrenModuleData = [
             with the harm that this behaviour can cause to the children in the
             images.
           </p>
-          <p>
+          <p className="text-center">
             <iframe
               title="Part 8 Interview with man arrested for downloading indecent images of children"
               width="640"
               height="360"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen=""
-              data-cookieblock-src="https://www.youtube.com/embed/9shQPIZ0qPk?feature=oembed"
-              data-cookieconsent="marketing"
-              className=" cookieconsent-optin-marketing"
+              allowfullscreen
+              src="https://www.youtube.com/embed/9shQPIZ0qPk?feature=oembed"
             ></iframe>
           </p>
           <br></br>
@@ -585,7 +582,7 @@ const ImagesAreChildrenModuleData = [
     id: 5,
     title: "The effects on the child",
     description: (
-      <div class="tab-main-content">
+      <div>
         <br></br>
         <h4 className="secondary-color">
           The effects on the child of being involved in the production of sexual
@@ -616,15 +613,13 @@ const ImagesAreChildrenModuleData = [
           clip of an individual explaining his realisation of the harm to
           children, as a result of his own online behaviour.
         </p>
-        <p>
+        <p className="text-center">
           <iframe
             title="YouTube video player"
             width="560"
             height="315"
-            frameborder="0"
-            allowfullscreen="allowfullscreen"
-            data-cookieblock-src="https://www.youtube-nocookie.com/embed/9shQPIZ0qPk"
-            data-cookieconsent="marketing"
+            allowfullscreen
+            src="https://www.youtube-nocookie.com/embed/9shQPIZ0qPk"
           ></iframe>
         </p>
         <p>
@@ -684,7 +679,7 @@ const ImagesAreChildrenModuleData = [
     id: 6,
     title: "Exercise 3",
     description: (
-      <div class="tab-main-content">
+      <div>
         <br></br>
         <h4 className="secondary-color">Effects on you</h4>
         <p>
@@ -737,7 +732,7 @@ const ImagesAreChildrenModuleData = [
     id: 7,
     title: "Reflection",
     description: (
-      <div class="tab-main-content">
+      <div>
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
@@ -746,7 +741,7 @@ const ImagesAreChildrenModuleData = [
           of the child abuse taking place in these images (1 = very little
           knowledge; 2 = some understanding; 3 = secure understanding).
         </p>
-        <table class="table table-bordered">
+        <table className="table table-bordered">
           <tbody>
             <tr>
               <td>I understand how illegal images victimise children.</td>

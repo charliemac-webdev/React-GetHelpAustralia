@@ -1,4 +1,4 @@
-import picture from "../../../images/thoughts-feelings-and-behaviour.jpg";
+import pictureOne from "../../../images/thoughts-feelings-and-behaviour.jpg";
 
 const UnderstandingThoughtsModuleData = [
   {
@@ -60,8 +60,8 @@ const UnderstandingThoughtsModuleData = [
             those thoughts, we hope these modules will help you to gain a
             greater understanding and put measures in place to manage them.
           </p>
-          <p>
-            <img src={picture} alt="" width="auto" height="100%" />
+          <p className="text-center">
+            <img src={pictureOne} alt="" width="auto" height="100%" />
           </p>
           <p>&nbsp;</p>
           <br></br>
