@@ -4,6 +4,7 @@ const BuildingAGoodLifeModuleData = [
     title: "Good Lives Model",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           The Good Lives Model tells us that everyone needs to feel satisfied in
           a few different areas of their life to feel good.
@@ -45,6 +46,7 @@ const BuildingAGoodLifeModuleData = [
           to help you work out what needs are important to you, how you meet
           them and set goals for living a healthy life.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -54,6 +56,7 @@ const BuildingAGoodLifeModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <p>
             Sometimes it can be really hard to meet your needs and there can be
             things that get in the way.
@@ -85,6 +88,7 @@ const BuildingAGoodLifeModuleData = [
             meet his need for socialising, plus he started doing more exercise
             so felt healthier.
           </p>
+          <br></br>
           <h4 className="secondary-color">How do I plan for obstacles?</h4>
           <p>
             Some obstacles are easier to overcome than others. To overcome them
@@ -96,7 +100,10 @@ const BuildingAGoodLifeModuleData = [
             Some obstacles can take a long time and will be hard work to
             overcome, for example, building self-confidence. But obstacles can
             be beaten and it is important to keep positive when tackling
-            obstacles. See our{" "}
+            obstacles.
+          </p>
+          <p>
+            See our{" "}
             <a
               href="https://www.stopitnow.org.uk/problem-solving/"
               target="_blank"
@@ -128,6 +135,7 @@ const BuildingAGoodLifeModuleData = [
             </a>
             .
           </p>
+          <br></br>
         </div>
       </>
     ),

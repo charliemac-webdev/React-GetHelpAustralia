@@ -1,7 +1,7 @@
 const RelapsePreventionModuleData = [
   {
     id: 1,
-    title: "What is relapse",
+    title: "What is relapse?",
     description: (
       <div className="tab-main-content">
         <br></br>
@@ -27,7 +27,7 @@ const RelapsePreventionModuleData = [
   },
   {
     id: 2,
-    title: "When is a relapse more likely",
+    title: "When is a relapse more likely?",
     description: (
       <div className="tab-main-content">
         <br></br>
