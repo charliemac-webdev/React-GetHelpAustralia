@@ -8,6 +8,7 @@ const ProblemOfImmediateModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">Immediate gratification</h4>
           <p>
             Is your online sexual behaviour risky or illegal? You might have
@@ -71,6 +72,7 @@ const ProblemOfImmediateModuleData = [
             for you.
           </p>
           <hr />
+          <br></br>
           <h4 className="secondary-color">What can you do?</h4>
           <p>
             One way to work against the power of instant gratification is to
@@ -181,6 +183,7 @@ const ProblemOfImmediateModuleData = [
             this shows how powerful the urge for sexual relief can be in the
             moment but also why they want to stop their negative behaviour.
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -191,6 +194,7 @@ const ProblemOfImmediateModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">Reflection</h4>
           <ul className="content-list">
             <li>Is instant gratification a problem for you?</li>
@@ -198,20 +202,7 @@ const ProblemOfImmediateModuleData = [
               What are going to be the best ways for you to manage these urges?
             </li>
           </ul>
-          <hr />
-          <h4 className="secondary-color">Talk to us if you need support</h4>
-          <p>
-            You can&nbsp;
-            <strong>
-              <a href="https://www.stopitnow.org.uk/helpline/">
-                use our helpline, live chat or secure message service
-              </a>
-            </strong>
-            &nbsp;for confidential support from our experienced advisors if you
-            want to discuss anything covered in this module, have struggled when
-            working through it, or want to go through the information with a
-            practitioner to guide you.
-          </p>
+          <br></br>
         </div>
         <br />
         <Link to="/self-help-images-are-children">
