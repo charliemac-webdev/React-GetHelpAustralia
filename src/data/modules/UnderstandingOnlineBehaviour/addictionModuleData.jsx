@@ -8,14 +8,16 @@ const AddictionModuleData = [
     description: (
       <>
         <div className="tab-main-content">
-          <p>What do we mean by a compulsion or addictive behaviour?</p>
+          <br></br>
+          <h4 className="secondary-color">Addiction</h4>
+          <p>What do we mean by a compulsive or addictive behaviour?</p>
           <p>
-            Compulsive: defined as performing an act persistently and
+            <b>Compulsive:</b> defined as performing an act persistently and
             repetitively without it necessarily leading to an actual reward or
             pleasure.
           </p>
           <p>
-            Addiction: is a state characterized by compulsive engagement
+            <b>Addiction:</b> is a state characterized by compulsive engagement
             in&nbsp;rewarding&nbsp;stimuli, despite adverse consequences.
           </p>
           <p>
@@ -27,6 +29,7 @@ const AddictionModuleData = [
             dependence.
           </p>
           <hr />
+          <br></br>
           <h4 className="secondary-color">Starting Point</h4>
           <p>
             Think about your use of adult pornography, online chats and sexual
@@ -101,6 +104,7 @@ const AddictionModuleData = [
     title: "It's not my fault",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">
           It’s an addiction, so it’s not my fault – right?
         </h4>
@@ -141,6 +145,7 @@ const AddictionModuleData = [
             worst? (it can help to look back to your life line from module 1)
           </li>
         </ol>
+        <br></br>
         <h4 className="secondary-color">HEALTH&nbsp;WARNING:</h4>
         <p>
           It is quite common that people replace one addiction with another. Be
@@ -148,31 +153,28 @@ const AddictionModuleData = [
           in the past or other current addictions you may need to get specific
           support to address these. There are a number of organisations that may
           be helpful for specific addictions, such as&nbsp;
-          <a href="http://saa-recovery.org.uk/" target="_blank" rel="noopener">
+          <a
+            href="https://www.saa-australia.org/"
+            target="_blank"
+            rel="noopener"
+          >
             Sex Addicts Anonymous (SAA)
           </a>
           ,&nbsp;
-          <a
-            href="http://www.alcoholics-anonymous.org.uk/"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://aa.org.au/" target="_blank" rel="noopener">
             Alcoholic Anonymous (AA)
           </a>
           ,&nbsp;
-          <a
-            href="http://www.gamblersanonymous.org.uk/"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://gaaustralia.org.au/" target="_blank" rel="noopener">
             Gamblers Anonymous (GA)
           </a>
           &nbsp;and&nbsp;
-          <a href="http://ukna.org/" target="_blank" rel="noopener">
+          <a href="https://www.na.org.au/multi/" target="_blank" rel="noopener">
             Narcotics Anonymous (NA)
           </a>
           .
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -182,7 +184,10 @@ const AddictionModuleData = [
     description: (
       <>
         <div className="tab-main-content">
-          <h3>How to deal with addiction and compulsion</h3>
+          <br></br>
+          <h4 className="secondary-color">
+            How to deal with addiction and compulsion
+          </h4>
           <p>
             It is really important to look at the motivation for your behaviour
             and the emotions you are avoiding. If you don’t you will only mask
@@ -307,6 +312,7 @@ const AddictionModuleData = [
             moods are linked to the urges. This awareness will help with your
             relapse prevention and risk management.
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -317,6 +323,7 @@ const AddictionModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">Reflection</h4>
           <p>Now, consider the following questions:</p>
           <ul className="content-list">
@@ -336,6 +343,8 @@ const AddictionModuleData = [
               this?
             </li>
           </ul>
+          <br></br>
+          <br></br>
           <p>
             If you want to discuss anything covered in this module, have
             struggled with working through the self-help material or just want
@@ -343,6 +352,7 @@ const AddictionModuleData = [
             practitioner to guide you then please&nbsp;call the Stop It Now!
             Helpline&nbsp;for confidential support from our trained staff.
           </p>
+          <br></br>
         </div>
         <br />
         <Link to="/self-help-sexual-communication-with-children-online">
