@@ -9,7 +9,7 @@ import pictureFour from "../../../images/download-2.png";
 import pictureTwo from "../../../images/download.png";
 import pictureOne from "../../../images/triple-a-engine.png";
 
-const onlineWorldModuleData = [
+const OnlineWorldModuleData = [
   {
     id: 1,
     title: "Online world",
@@ -39,7 +39,7 @@ const onlineWorldModuleData = [
         </p>
         <br></br>
         <h5 className="secondary-color">'Triple A Engine' (Cooper, 1998)</h5>
-        <img src={pictureOne} alt="tripe-a-engine" />
+        <img src={pictureOne} alt="tripe-a-engine" height="100%" width="auto" />
         <br></br>
         <br></br>
         <ul className="content-list">
@@ -219,6 +219,332 @@ const onlineWorldModuleData = [
           are, we can pretend to be whoever we want to be. Online relationships
           in some ways make fewer demands.
         </p>
+      </>
+    ),
+  },
+  {
+    id: 4,
+    title: "Exercise 3",
+    description: (
+      <>
+        <div>
+          <h4 className="secondary-color">
+            So what is the problem with online relationships?
+          </h4>
+          <p>
+            When we engage with people online and form friendships, it is
+            usually around something specific, for example the sexual images of
+            children. It means that a lot of time is then spent focusing on that
+            particular topic, or things related to it, for example other
+            software or security. While the friendships that we form online are
+            very real, they have aspects to them that are very different to
+            those offline.
+          </p>
+          <p>
+            For some people their online relationships act as a substitute for
+            real world social interaction. The ease, emotional safety and
+            superficial nature of some people’s online relationships, both
+            sexual and non-sexual, are often not as fulfilling as the more
+            rounded experience offered by people’s offline relationships. Their
+            online relationships are often shorter and less ‘real’.
+          </p>
+          <p>
+            This can be especially true of people’s online sexual relationships.
+            Here the focus can easily become just about sexual thing. For many
+            people this is manageable, but for others the desire for short-term
+            sexual pleasure means that they allow themselves to develop patterns
+            of online sexual behaviour that are damaging to both themselves and
+            others. Many of these activities are legal but others are not.&nbsp;
+            They might include:
+          </p>
+          <ul className="content-list">
+            <li>
+              chatting to adults about sex with children online such as sharing
+              fantasies
+            </li>
+            <li>chatting to children about sex online</li>
+            <li>
+              using smartphones, apps or webcams to encourage children to engage
+              in sexual behaviour
+            </li>
+            <li>
+              exposing children to sexual behaviour through smartphones, apps or
+              webcams
+            </li>
+            <li>
+              grooming children with the intention of meeting them offline and
+              sexually abusing them
+            </li>
+            <li>voyeurism (hidden cameras)</li>
+          </ul>
+          <hr />
+          <p>
+            Think about your online relationships and answer the following
+            questions:
+          </p>
+          <h4 className="secondary-color">
+            Exercise 3: Online and offline relationships
+          </h4>
+          <p>
+            <a
+              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/online-relationships-exercise-1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>Download and edit pdf template</strong>
+            </a>
+            .
+          </p>
+          <table className="table table-bordered">
+            <tbody>
+              <tr>
+                <th></th>
+                <th>Online relationships</th>
+                <th>Offline relationships</th>
+              </tr>
+              <tr>
+                <td>
+                  Write down how many significant people you have in your online
+                  and offline world.
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>What good things do I get out of these?</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>What gaps are they filling in my life?</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>What do these relationships mean to me?</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>What do I enjoy about chatting to these people?</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>What do you notice about the online and offline relationships?</p>
+          <p>
+            Are there some things that you would only discuss or do online? Why
+            is this?
+          </p>
+          <p>
+            How does this make you feel? Do you see your online relationships
+            differently now?
+          </p>
+          <h4 className="secondary-color">
+            Some of the dangers of online relationships
+          </h4>
+          <ul className="content-list">
+            <li>
+              You don’t get challenged – talking to like-minded people means
+              that you are unlikely to be challenged in what you say.
+            </li>
+            <li>
+              Talking to other people can help you to justify what you’re doing,
+              for example “they’re doing it, so why shouldn’t I?”<em>.</em>
+            </li>
+            <li>
+              It might give you the opportunity to do things that in the offline
+              world would make you feel very uncomfortable.
+            </li>
+          </ul>
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 5,
+    title: "Exercises 4 and 5",
+    description: (
+      <>
+        <div>
+          <h4 className="secondary-color">
+            Exercise 4: What do I look for in real-life relationships?
+          </h4>
+          <p>
+            Using the table below, write down the things you value about
+            real-life relationships and then what you could do to achieve these.
+          </p>
+          <table className="table table-bordered">
+            <tbody>
+              <tr>
+                <th>Value</th>
+                <th>Action</th>
+              </tr>
+              <tr>
+                <td>
+                  <em>Intimacy</em>
+                </td>
+                <td>
+                  <em>Express how I feel more</em>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <em>Time together</em>
+                </td>
+                <td>
+                  <em>Join a weekly salsa class together</em>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            <a
+              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/online-relationships-exercise-2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>Download and edit pdf template</strong>
+            </a>
+            .
+          </p>
+          <hr />
+          <p>
+            Some people don’t have as many offline relationships as they would
+            like. If this applies to you then this will be covered in more
+            detail in the{" "}
+            <strong>
+              <a href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/moving-forward/building-a-good-life/">
+                planning for a good life module
+              </a>
+            </strong>
+            .
+          </p>
+          <p>
+            If you feel lonely then the following exercise can be helpful to
+            start thinking about how you have been coping with those feelings
+            and how you can cope more positively in the future.
+          </p>
+          <hr />
+          <h4 className="secondary-color">
+            Exercise 5: How do I cope with isolation or loneliness?
+          </h4>
+          <table className="table table-bordered">
+            <tbody>
+              <tr>
+                <th>Situation or event</th>
+                <th>
+                  Negative<p></p>
+                  <p>Strategy or behaviour</p>
+                  <p>Including thoughts and feelings</p>
+                </th>
+                <th>
+                  Positive<p></p>
+                  <p>Strategy or behaviour</p>
+                  <p>Including thoughts and feelings</p>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <em>Living alone. Feeling isolated.</em>
+                </td>
+                <td>
+                  <em>
+                    Going online into chat rooms, engaging in sexual chat. Felt
+                    excited at first but afterwards guilty and ashamed.
+                  </em>
+                </td>
+                <td>
+                  <em>
+                    Take Spanish lessons. Feel scared at first session but
+                    afterwards happy.
+                  </em>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            <strong>
+              <a
+                href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/online-relationships-exercise-3.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download and edit pdf template
+              </a>
+            </strong>
+            .
+          </p>
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 6,
+    title: "Reflection",
+    description: (
+      <>
+        <div>
+          <h4 className="secondary-color">Reflection</h4>
+          <p>Think about these questions:</p>
+          <ul className="content-list">
+            <li>
+              Which part of the module has had the greatest impact on your
+              understanding? Why?
+            </li>
+            <li>
+              Has anything from this module prompted or encouraged you to take
+              action around your behaviour? If so, what?
+            </li>
+            <li>
+              Has this module raised any further questions for you or made you
+              want to explore any ideas further? What steps do you plan to take
+              to seek out this information?
+            </li>
+          </ul>
+          <hr />
+          <h4 className="secondary-color">Talk to us if you need support</h4>
+          <p>
+            You can&nbsp;
+            <strong>
+              <a href="https://www.stopitnow.org.uk/helpline/">
+                use our helpline, live chat or secure message service
+              </a>
+            </strong>
+            &nbsp;for confidential support from our experienced advisors if you
+            want to discuss anything covered in this module, have struggled when
+            working through it, or want to go through the information with a
+            practitioner to guide you.
+          </p>
+        </div>
         <br />
         <Link to="/self-help-fantasy">
           <div className="d-flex justify-content-end">
@@ -232,4 +558,4 @@ const onlineWorldModuleData = [
   },
 ];
 
-export default onlineWorldModuleData;
+export default OnlineWorldModuleData;

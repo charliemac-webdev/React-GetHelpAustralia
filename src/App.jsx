@@ -22,6 +22,10 @@ import Modal from "./pages/modal-page";
 
 // Modules
 
+import BuildingAGoodLifeModule from "./pages/MovingForward/BuildingAGoodLife";
+import ConsequencesMediaDisclosureModule from "./pages/MovingForward/ConsequencesMediaDisclosure";
+import ProblemSolvingModule from "./pages/MovingForward/ProblemSolving";
+import RelapsePreventionModule from "./pages/MovingForward/RelapsePrevention";
 import AddictionModule from "./pages/UnderstandingOnlineBehaviour/addiction";
 import AdultPornographyModule from "./pages/UnderstandingOnlineBehaviour/adult-pornography";
 import FantasyModule from "./pages/UnderstandingOnlineBehaviour/fantasy";
@@ -174,6 +178,24 @@ function App() {
             <Route
               path="/motivation-for-change"
               element={<MotivationForChangeModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="relapse-prevention"
+              element={<RelapsePreventionModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/building-a-good-life"
+              element={<BuildingAGoodLifeModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/problem-solving"
+              element={<ProblemSolvingModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/consequences-media-impact-and-disclosure"
+              element={
+                <ConsequencesMediaDisclosureModule showMenu={handleShowMenu} />
+              }
             />
             <Route
               path="/self-esteem-and-assertiveness"

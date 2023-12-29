@@ -1,4 +1,4 @@
-const relapsePreventionModuleData = [
+const RelapsePreventionModuleData = [
   {
     id: 1,
     title: "What is relapse",
@@ -49,7 +49,7 @@ const relapsePreventionModuleData = [
           <a
             href="https://www.stopitnow.org.uk/recognising-and-dealing-with-feelings/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>Recognising and dealing with feelings</u>
           </a>{" "}
@@ -294,7 +294,7 @@ const relapsePreventionModuleData = [
           <a
             href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/help-with-inappropriate-thoughts-or-behaviour/self-help/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>your thoughts or behaviour towards children</u>
           </a>{" "}
@@ -302,7 +302,7 @@ const relapsePreventionModuleData = [
           <a
             href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>your online behaviour</u>
           </a>
@@ -325,12 +325,16 @@ const relapsePreventionModuleData = [
           <a
             href="https://www.stopitnow.org.uk/helpline/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>helpline</u>
           </a>{" "}
           or the{" "}
-          <a href="https://www.samaritans.org/" target="_blank" rel="noopener">
+          <a
+            href="https://www.samaritans.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>Samaritans</u>
           </a>
           . They will always be there and always willing to listen. And they’re
@@ -360,7 +364,7 @@ const relapsePreventionModuleData = [
           <a
             href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/my-personal-risk-factors.pdf"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>downloadable worksheet</u>
           </a>
@@ -372,7 +376,7 @@ const relapsePreventionModuleData = [
           <a
             href="https://www.stopitnow.org.uk/helpline/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>helpline</u>
           </a>{" "}
@@ -385,3 +389,5 @@ const relapsePreventionModuleData = [
     ),
   },
 ];
+
+export default RelapsePreventionModuleData;

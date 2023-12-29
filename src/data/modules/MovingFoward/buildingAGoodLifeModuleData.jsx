@@ -23,14 +23,10 @@ const BuildingAGoodLifeModuleData = [
         </p>
         <p>
           <img
-            fetchpriority="high"
-            decoding="async"
-            class="alignnone wp-image-8854 size-full"
             src="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/good-lives.png"
             alt=""
             width="1013"
             height="944"
-            srcset="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/good-lives.png 1013w, https://www.stopitnow.org.uk/wp-content/uploads/2023/11/good-lives-300x280.png 300w, https://www.stopitnow.org.uk/wp-content/uploads/2023/11/good-lives-768x716.png 768w"
             sizes="(max-width: 1013px) 100vw, 1013px"
           />
         </p>
@@ -42,7 +38,7 @@ const BuildingAGoodLifeModuleData = [
           <a
             href="https://shorespace.org.uk/wp-content/uploads/2023/05/Good-Lives-Plan.pdf"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>Good Lives Plan</u>
           </a>{" "}
@@ -104,7 +100,7 @@ const BuildingAGoodLifeModuleData = [
             <a
               href="https://www.stopitnow.org.uk/problem-solving/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <u>problem-solving section</u>
             </a>{" "}
@@ -116,7 +112,7 @@ const BuildingAGoodLifeModuleData = [
             <a
               href="https://www.stopitnow.org.uk/helpline/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <u>helpline</u>
             </a>{" "}
@@ -126,7 +122,7 @@ const BuildingAGoodLifeModuleData = [
             <a
               href="https://contactus.stopitnow.org.uk/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               send a secure email
             </a>
@@ -137,3 +133,5 @@ const BuildingAGoodLifeModuleData = [
     ),
   },
 ];
+
+export default BuildingAGoodLifeModuleData;

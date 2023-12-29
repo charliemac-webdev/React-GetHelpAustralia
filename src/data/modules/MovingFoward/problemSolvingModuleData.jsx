@@ -258,7 +258,7 @@ const ProblemSolvingModuleData = [
           <a
             href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problem-solving-exercise-1.pdf"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Download printable template &gt;
           </a>
@@ -294,9 +294,6 @@ const ProblemSolvingModuleData = [
         </p>
         <p>
           <img
-            fetchpriority="high"
-            decoding="async"
-            className="alignnone size-full wp-image-832"
             src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/diagrams-toothpaste.gif"
             alt=""
             width="1199"
@@ -332,7 +329,7 @@ const ProblemSolvingModuleData = [
           </strong>
         </p>
         <hr />
-        <h4 class="secondary-color">Ways to avoid acting on impulse</h4>
+        <h4 className="secondary-color">Ways to avoid acting on impulse</h4>
         <p>
           Good problem solving involves the ability to stop and think and
           consider consequences. &nbsp;Here is a list of approaches that can
@@ -437,3 +434,5 @@ const ProblemSolvingModuleData = [
     ),
   },
 ];
+
+export default ProblemSolvingModuleData;

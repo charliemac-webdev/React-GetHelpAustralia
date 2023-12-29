@@ -51,14 +51,10 @@ const DisclosureModuleData = [
         </p>
         <p>
           <img
-            fetchpriority="high"
-            decoding="async"
-            class="alignnone wp-image-8849 size-full"
             src="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/consequences.png"
             alt=""
             width="1007"
             height="622"
-            srcset="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/consequences.png 1007w, https://www.stopitnow.org.uk/wp-content/uploads/2023/11/consequences-300x185.png 300w, https://www.stopitnow.org.uk/wp-content/uploads/2023/11/consequences-768x474.png 768w"
             sizes="(max-width: 1007px) 100vw, 1007px"
           />
         </p>
@@ -99,7 +95,7 @@ const DisclosureModuleData = [
           <a
             href="https://www.sentencingcouncil.org.uk/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>Sentencing Council website</u>
           </a>
@@ -120,7 +116,11 @@ const DisclosureModuleData = [
         </p>
         <p>
           You can find{" "}
-          <a href="https://unlock.org.uk/" target="_blank" rel="noopener">
+          <a
+            href="https://unlock.org.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <u>more information about the sex offenders register here.</u>
           </a>
         </p>
@@ -137,7 +137,7 @@ const DisclosureModuleData = [
           <a
             href="https://www.sentencingcouncil.org.uk/explanatory-material/magistrates-court/item/ancillary-orders/22-sexual-harm-prevention-orders/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>information and examples of SHPO here</u>
           </a>
@@ -198,7 +198,7 @@ const DisclosureModuleData = [
           <a
             href="https://www.gov.uk/government/organisations/disclosure-and-barring-service"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>Disclosure and Barring Service (DBS)</u>
           </a>{" "}
@@ -211,7 +211,7 @@ const DisclosureModuleData = [
     id: 3,
     title: "Dealing with media",
     description: (
-      <div class="tab-main-content">
+      <div className="tab-main-content">
         <p>
           The media don’t publish information about every online child sexual
           abuse offence but it’s people often tell us they’re worried about it
@@ -257,7 +257,7 @@ const DisclosureModuleData = [
           <a
             href="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/Media-case-study.m4a"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>Find a story here</u>
           </a>{" "}
@@ -402,7 +402,7 @@ const DisclosureModuleData = [
           <a
             href="https://www.stopitnow.org.uk/supporting-children-in-the-family/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>supporting children in the family</u>.
           </a>
@@ -489,7 +489,7 @@ const DisclosureModuleData = [
           <a
             href="https://www.stopitnow.org.uk/helpline/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             <u>helpline</u>
           </a>{" "}
@@ -499,7 +499,7 @@ const DisclosureModuleData = [
           <a
             href="https://contactus.stopitnow.org.uk/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             send a secure email
           </a>
@@ -509,3 +509,5 @@ const DisclosureModuleData = [
     ),
   },
 ];
+
+export default DisclosureModuleData;
