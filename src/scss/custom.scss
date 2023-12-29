@@ -141,9 +141,10 @@ h6 {
 #module-nav {
   font-size: small;
   padding-left: 8vw;
+  padding-right: 8vw;
 }
 
-#module-nav-link {
+#module-nav-link:not(:last-child) {
   padding-right: 2rem;
 }
 
