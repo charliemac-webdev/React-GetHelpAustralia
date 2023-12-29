@@ -15,7 +15,7 @@ const ProblematicCollectingModule = ({ showMenu }) => {
       <Heading>
         <br></br>
         <br></br>
-        <h2 className="secondary-color">Problematic collection</h2>
+        <h2 className="secondary-color">Problematic collecting</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>

@@ -7,6 +7,8 @@ const ProblematicCollectingModuleData = [
     title: "Problematic collecting",
     description: (
       <div className="tab-main-content">
+        <br></br>
+        <h4 className="secondary-color">Problematic collecting</h4>
         <p>
           For some people, collecting – and cataloguing, organising and all the
           other stuff that goes with it – can seem a big part of their
@@ -17,6 +19,7 @@ const ProblematicCollectingModuleData = [
             If this is true for you, then keep reading this module!
           </strong>
         </p>
+        <br></br>
         <h4 className="secondary-color">Why do people collect?</h4>
         <p>There are lots of reasons why people collect things:</p>
         <ul className="content-list">
@@ -53,6 +56,7 @@ const ProblematicCollectingModuleData = [
         </p>
         <p>Use exercise 1 to help work out why you collect.</p>
         <hr />
+        <br></br>
         <h4 className="secondary-color">Exercise 1: My collecting</h4>
         <p>
           <a
@@ -92,6 +96,7 @@ const ProblematicCollectingModuleData = [
           reasons.
         </p>
         <p>In what way are they more important to you than the others?</p>
+        <br></br>
       </div>
     ),
   },
@@ -100,6 +105,7 @@ const ProblematicCollectingModuleData = [
     title: "Exercise 2",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">When collecting is a problem</h4>
         <p>
           If you are collecting sexual images of children, then this is always a
@@ -131,12 +137,12 @@ const ProblematicCollectingModuleData = [
             or worried about it
           </li>
         </ul>
-        <p>&nbsp;</p>
         <p>
           Let’s take a look at what effect collecting is having on your life,
           using Exercise 2.
         </p>
         <hr />
+        <br></br>
         <h4 className="secondary-color">
           Exercise 2: The impact of collecting on my life
         </h4>
@@ -150,9 +156,7 @@ const ProblematicCollectingModuleData = [
           </a>
         </p>
         <p>Answer the following questions.</p>
-        <p>
-          <strong>When do I do most of my collecting?</strong>
-        </p>
+        <h5 className="secondary-color">When do I do most of my collecting?</h5>
         <p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What time of the day?</p>
         <p>
           2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Is it when other people are around or
@@ -172,7 +176,7 @@ const ProblematicCollectingModuleData = [
           material? How much time do I spend organising my collection?
         </p>
         <p>
-          <strong>Am I missing out on anything?</strong>
+          <h5 className="secondary-color">Am I missing out on anything?</h5>
         </p>
         <p>
           6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Do I ever turn people down or say no
@@ -198,7 +202,9 @@ const ProblematicCollectingModuleData = [
           me?
         </p>
         <p>
-          <strong>Am I impacting on my life financially?</strong>
+          <h5 className="secondary-color">
+            Am I impacting on my life financially?
+          </h5>
         </p>
         <p>
           12.&nbsp; Am I finding it difficult to commit to my job or other
@@ -210,6 +216,7 @@ const ProblematicCollectingModuleData = [
         </p>
         <p>14.&nbsp; Do I have debts due to money spent on my collection?</p>
         <hr />
+        <br></br>
         <p>
           Not everybody seen as a ‘problematic collector’ will find that their
           behaviour negatively affects all areas of their life. It might just be
@@ -217,14 +224,16 @@ const ProblematicCollectingModuleData = [
           impacts on your life, you will recognise if it is something that you
           need to address.
         </p>
+        <br></br>
       </div>
     ),
   },
   {
     id: 3,
-    title: "Exerice 3",
+    title: "Exercise 3",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">
           Why collect sexual Images of Children
         </h4>
@@ -261,9 +270,9 @@ const ProblematicCollectingModuleData = [
           Every choice you make serves a function. So what function does
           collecting sexual images of children serve for you?
         </p>
-        <p>&nbsp;</p>
         <p>Use Exercises 3a and 3b to help you explore this.</p>
         <hr />
+        <br></br>
         <h4 className="secondary-color">Exercise 3 – Part A</h4>
         <p>
           <strong>
@@ -358,6 +367,7 @@ const ProblematicCollectingModuleData = [
           </em>
         </p>
         <hr />
+        <br></br>
         <h4 className="secondary-color">Exercise 3 – Part B</h4>
         <p>
           <strong>
@@ -451,6 +461,7 @@ const ProblematicCollectingModuleData = [
           , so ensure you make a note of these needs so you can refer to them
           later.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -459,6 +470,7 @@ const ProblematicCollectingModuleData = [
     title: "Exercise 4",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Justifications</h4>
         <p>
           A lot of people will have known that their collecting was wrong, but
@@ -474,6 +486,7 @@ const ProblematicCollectingModuleData = [
           </em>
         </p>
         <hr />
+        <br></br>
         <h4 className="secondary-color">Exercise 4 – Challenge yourself</h4>
         <p>
           Use the first column in the table below to list your justifications.
@@ -547,6 +560,7 @@ const ProblematicCollectingModuleData = [
     title: "Reflection",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>What have you learnt about yourself? What are you going to do?</p>
         <ol>
@@ -587,13 +601,6 @@ const ProblematicCollectingModuleData = [
           </strong>
         </p>
         <p>&nbsp;</p>
-        <p>
-          If you want to discuss anything covered in this module, have struggled
-          with working through the self-help material or just want the
-          opportunity to work through the self-help site with a practitioner to
-          guide you then please call the Stop It Now! helpline for confidential
-          support from our trained staff.
-        </p>
         <br />
         <Link to="/self-help-moving-forward">
           <div className="d-flex justify-content-end">

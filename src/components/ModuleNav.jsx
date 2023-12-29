@@ -6,13 +6,8 @@ const ModuleNav = () => {
   return (
     <div className="d-flex flex-row" id="module-nav">
       {MenuTitles.map((menu) => (
-        <div>
-          <Link
-            key={menu.id}
-            to={menu.link}
-            className="nav-link"
-            id="module-nav-link"
-          >
+        <div key={menu.id}>
+          <Link to={menu.link} className="nav-link" id="module-nav-link">
             {menu.title}
           </Link>
         </div>

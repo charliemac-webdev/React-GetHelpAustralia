@@ -61,8 +61,8 @@ const UnderstandingYourOnlineBehaviourFolderTitles = [
   },
   {
     id: 13,
-    title: "Problematic collection",
-    link: "/problematic-collection",
+    title: "Problematic collecting",
+    link: "/problematic-collecting",
   },
 ];
 
