@@ -128,6 +128,7 @@ const takingResponsibilityModuleData = [
     title: "Changes",
     description: (
       <>
+        <br></br>
         <p>
           Here are some suggestions which can help increase your feelings of
           control:
@@ -203,6 +204,7 @@ const takingResponsibilityModuleData = [
     title: "Reflection",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
           As with the Introduction to this module, using the table below, write
@@ -263,14 +265,6 @@ const takingResponsibilityModuleData = [
             seek out this information?
           </li>
         </ul>
-        <p>
-          If you want to discuss anything covered in this module, have struggled
-          with working through the self-help material or just want the
-          opportunity to work through the self-help site with a practitioner to
-          guide you then please&nbsp;call the Stop It
-          Now!&nbsp;Helpline&nbsp;for confidential support from our trained
-          staff.
-        </p>
         <br />
         <Link to="/self-help-online-world">
           <div className="d-flex justify-content-end">
