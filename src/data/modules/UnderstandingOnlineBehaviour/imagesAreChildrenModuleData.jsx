@@ -79,6 +79,7 @@ const ImagesAreChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">
             Exercise 1: understanding and responding to justifications
           </h4>
@@ -95,15 +96,13 @@ const ImagesAreChildrenModuleData = [
           <p>Here’s an example:</p>
           <p>
             <img
-              fetchpriority="high"
-              decoding="async"
-              className="alignnone size-full wp-image-815"
               src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/diagrams-yes-or-no.gif"
               alt=""
-              width="823"
-              height="511"
+              width="80%"
+              height="auto"
             />
           </p>
+          <br></br>
           <p>
             People will be persuaded by the self-talk process if their ‘yes’
             justifications in favour of doing the behaviour are stronger than
@@ -128,8 +127,6 @@ const ImagesAreChildrenModuleData = [
               allowfullscreen=""
               data-cookieblock-src="https://www.youtube.com/embed/Bq-rTc7x_a4?feature=oembed"
               data-cookieconsent="marketing"
-              class=" cookieconsent-optin-marketing"
-              style="display: none;"
             ></iframe>
           </p>
           <p>
@@ -245,6 +242,7 @@ const ImagesAreChildrenModuleData = [
             </strong>
             .
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -255,6 +253,7 @@ const ImagesAreChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">Consent</h4>
           <p>
             ‘Consent’ means to give permission for something to happen. It is
@@ -278,13 +277,11 @@ const ImagesAreChildrenModuleData = [
               data-cookieblock-src="https://www.youtube.com/embed/9shQPIZ0qPk?feature=oembed"
               data-cookieconsent="marketing"
               className=" cookieconsent-optin-marketing"
-              style="display: none;"
             ></iframe>
           </p>
+          <br></br>
           <h4 className="secondary-color">
-            <strong>
-              Why children are not able to consent to sexual activity
-            </strong>
+            Why children are not able to consent to sexual activity
           </h4>
           <p>
             Children are not able to give consent because they can not fully
@@ -298,7 +295,7 @@ const ImagesAreChildrenModuleData = [
           </p>
           <p>
             Some people disagree about the age that children are mature enough
-            to be able to give this permission. In the UK the age of consent for
+            to be able to give this permission. Australia the age of consent for
             sexual activity is 16 years old. But any sexual picture of a child
             under 18 years old is illegal.
           </p>
@@ -310,8 +307,9 @@ const ImagesAreChildrenModuleData = [
             experience further abuse with the knowledge that their picture is
             out there, being shared, and viewed, beyond their control.
           </p>
+          <br></br>
           <h4 className="secondary-color">
-            <strong>Sexual images of under 18s are illegal</strong>
+            Sexual images of under 18s are illegal
           </h4>
           <p>
             The idea of justifications can also be extended to the type, or
@@ -360,9 +358,8 @@ const ImagesAreChildrenModuleData = [
             reality of this becomes known it can be very distressing and have a
             significant emotional impact on them.
           </p>
-          <h4 className="secondary-color">
-            <strong>Child sexual exploitation</strong>
-          </h4>
+          <br></br>
+          <h4 className="secondary-color">Child sexual exploitation</h4>
           <p>
             Consent is further removed from children if there is a power
             difference between them and the person who is inciting sexual
@@ -386,6 +383,7 @@ const ImagesAreChildrenModuleData = [
             camera.&nbsp;This is what we will be asking you to consider in the
             following exercise.
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -579,6 +577,7 @@ const ImagesAreChildrenModuleData = [
           Having completed this exercise, read the next section to find out what
           is actually known about the effects of being photographed.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -587,6 +586,7 @@ const ImagesAreChildrenModuleData = [
     title: "The effects on the child",
     description: (
       <div class="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">
           The effects on the child of being involved in the production of sexual
           images
@@ -597,7 +597,7 @@ const ImagesAreChildrenModuleData = [
           (e.g. fantasy and/or masturbation etc.).
         </p>
         <p>
-          <strong>During the abuse</strong>
+          <h5 className="secondary-color">During the abuse</h5>
         </p>
         <p>
           While it is convenient to think about photography as being separate
@@ -625,8 +625,6 @@ const ImagesAreChildrenModuleData = [
             allowfullscreen="allowfullscreen"
             data-cookieblock-src="https://www.youtube-nocookie.com/embed/9shQPIZ0qPk"
             data-cookieconsent="marketing"
-            class=" cookieconsent-optin-marketing"
-            style="display: none;"
           ></iframe>
         </p>
         <p>
@@ -639,7 +637,9 @@ const ImagesAreChildrenModuleData = [
           with other children and adult relationships when they are older.
         </p>
         <p>
-          <strong>During disclosure of what has happened</strong>
+          <h5 className="secondary-color">
+            During disclosure of what has happened
+          </h5>
         </p>
         <p>
           As with all forms of sexual abuse, children are reluctant to talk
@@ -676,6 +676,7 @@ const ImagesAreChildrenModuleData = [
             children.
           </li>
         </ul>
+        <br></br>
       </div>
     ),
   },

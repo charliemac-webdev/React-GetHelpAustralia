@@ -7,6 +7,7 @@ const takingResponsibilityModuleData = [
     title: "Triggers",
     description: (
       <>
+        <br></br>
         <p>
           <strong>
             Anxiety is often a response to feeling out of control.
@@ -20,6 +21,7 @@ const takingResponsibilityModuleData = [
           behaviours then start to feel they are out of our control.
         </p>
         <hr />
+        <br></br>
         <h4 className="secondary-color">Starting point</h4>
         <p>
           Using the table below, write down how far in control you have felt of
@@ -30,8 +32,8 @@ const takingResponsibilityModuleData = [
           Using the quiz below, select how in control you have felt of your
           behaviours.
         </p>
+        <p>INSERT QUIZ</p>
         {/* <Quiz /> */}
-        <br />
         <p>
           What do you notice about how your control has changed from when you
           first started looking at sexual images of children or engaging in
@@ -47,6 +49,7 @@ const takingResponsibilityModuleData = [
     title: "Denial",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Denial</h4>
         <p>
           Denial is probably best explained in the book&nbsp;Cybersex Unhooked.
