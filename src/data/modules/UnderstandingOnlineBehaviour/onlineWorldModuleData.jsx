@@ -228,6 +228,7 @@ const OnlineWorldModuleData = [
     description: (
       <>
         <div>
+          <br></br>
           <h4 className="secondary-color">
             So what is the problem with online relationships?
           </h4>
@@ -278,6 +279,7 @@ const OnlineWorldModuleData = [
             <li>voyeurism (hidden cameras)</li>
           </ul>
           <hr />
+          <br></br>
           <p>
             Think about your online relationships and answer the following
             questions:
@@ -341,6 +343,7 @@ const OnlineWorldModuleData = [
             How does this make you feel? Do you see your online relationships
             differently now?
           </p>
+          <br></br>
           <h4 className="secondary-color">
             Some of the dangers of online relationships
           </h4>
@@ -358,6 +361,7 @@ const OnlineWorldModuleData = [
               world would make you feel very uncomfortable.
             </li>
           </ul>
+          <br></br>
         </div>
       </>
     ),
@@ -368,6 +372,7 @@ const OnlineWorldModuleData = [
     description: (
       <>
         <div>
+          <br></br>
           <h4 className="secondary-color">
             Exercise 4: What do I look for in real-life relationships?
           </h4>
@@ -375,6 +380,7 @@ const OnlineWorldModuleData = [
             Using the table below, write down the things you value about
             real-life relationships and then what you could do to achieve these.
           </p>
+          <br></br>
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -422,6 +428,7 @@ const OnlineWorldModuleData = [
             .
           </p>
           <hr />
+          <br></br>
           <p>
             Some people don’t have as many offline relationships as they would
             like. If this applies to you then this will be covered in more
@@ -439,6 +446,7 @@ const OnlineWorldModuleData = [
             and how you can cope more positively in the future.
           </p>
           <hr />
+          <br></br>
           <h4 className="secondary-color">
             Exercise 5: How do I cope with isolation or loneliness?
           </h4>
@@ -503,6 +511,7 @@ const OnlineWorldModuleData = [
             </strong>
             .
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -513,6 +522,7 @@ const OnlineWorldModuleData = [
     description: (
       <>
         <div>
+          <br></br>
           <h4 className="secondary-color">Reflection</h4>
           <p>Think about these questions:</p>
           <ul className="content-list">
@@ -530,20 +540,8 @@ const OnlineWorldModuleData = [
               to seek out this information?
             </li>
           </ul>
-          <hr />
-          <h4 className="secondary-color">Talk to us if you need support</h4>
-          <p>
-            You can&nbsp;
-            <strong>
-              <a href="https://www.stopitnow.org.uk/helpline/">
-                use our helpline, live chat or secure message service
-              </a>
-            </strong>
-            &nbsp;for confidential support from our experienced advisors if you
-            want to discuss anything covered in this module, have struggled when
-            working through it, or want to go through the information with a
-            practitioner to guide you.
-          </p>
+
+          <br></br>
         </div>
         <br />
         <Link to="/self-help-fantasy">
