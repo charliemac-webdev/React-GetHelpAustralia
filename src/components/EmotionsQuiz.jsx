@@ -1,29 +1,14 @@
+/* eslint-disable react/prop-types */
+import { Slider } from "@mui/material";
 import { useState } from "react";
-import wellbeingAssessmentData from "../data/modules/assessments/wellbeingAssessmentData";
 import Button from "./Button";
 
-const WellbeingAssessment = () => {
+function valuetext(value) {
+  return value;
+}
+
+const EmotionsQuiz = () => {
   const [active, setActive] = useState(0);
-  const [values, setValues] = useState([]);
-  const { description } = wellbeingAssessmentData[active];
-
-  const handleClick = () => {
-    const value = Number(
-      document.querySelector(".MuiSlider-valueLabelLabel").textContent
-    );
-
-    setValues((prevValues) => {
-      const newValues = [...prevValues, value];
-      console.log(newValues);
-      return newValues;
-    });
-
-    if (active <= wellbeingAssessmentData.length - 1) {
-      setActive(active + 1);
-    }
-  };
-
-  const total = values.reduce((a, b) => a + b, 0);
 
   return (
     <>
@@ -35,13 +20,25 @@ const WellbeingAssessment = () => {
         <div className={`number ${active >= 4 ? "active" : ""}`}>5</div>
       </div>
       <hr />
-      <div>{description}</div>
+      <div className="bg-primary-subtle border border-primary p-3">
+        <p>Q1: I can recognise changes in my body and identify how I feel</p>
+      </div>
       <br />
-
-      {active === wellbeingAssessmentData.length - 1 && (
-        <div>The total is: {total}</div>
-      )}
-
+      <br />
+      <Slider
+        aria-label="Always visible"
+        defaultValue={2}
+        step={1}
+        marks
+        min={1}
+        max={3}
+        getAriaValueText={valuetext}
+        valueLabelDisplay="on"
+      />
+      <div className="d-flex justify-content-between">
+        <span className="w-50">No confidence</span>
+        <span className="w-50">Very confident</span>
+      </div>
       <div className="d-flex justify-content-between">
         {active <= 3 ? (
           <Button ident="next-button" classes="btn" onClick={handleClick}>
@@ -56,4 +53,4 @@ const WellbeingAssessment = () => {
     </>
   );
 };
-export default WellbeingAssessment;
+export default EmotionsQuiz;

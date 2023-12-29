@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Heading from "../components/Heading";
 import MainContent from "../components/MainContent";
@@ -20,7 +19,7 @@ const UnderstandingYourOnlineBehaviour = () => {
         <UnderstandingYourOnlineBehaviourData />
         <div className="row single-modules p-4 bg-primary-subtle">
           {understandingOnlineBehaviourFolderTitles.map((folder) => (
-            <div className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
+            <div key={folder.id} className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
               <Link to={folder.link}>
                 <MiniCard title={folder.title} />
               </Link>
