@@ -43,6 +43,7 @@ import RecognisingAndDealingWithFeelingsModule from "./pages/Wellbeing/recognisi
 import SelfCareModule from "./pages/Wellbeing/self-care";
 import SelfEsteemAndAssertivenessModule from "./pages/Wellbeing/self-esteem-and-assertiveness";
 import SelfTalkModule from "./pages/Wellbeing/self-talk";
+import UnderstandingThoughtsModule from "./pages/Wellbeing/understanding-thoughts";
 
 function App() {
   const [showMenu, setShowMenu] = useState(true);
@@ -190,6 +191,12 @@ function App() {
             <Route
               path="/problem-solving"
               element={<ProblemSolvingModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/understanding-thoughts-feelings-and-behaviours"
+              element={
+                <UnderstandingThoughtsModule showMenu={handleShowMenu} />
+              }
             />
             <Route
               path="/consequences-media-impact-and-disclosure"
