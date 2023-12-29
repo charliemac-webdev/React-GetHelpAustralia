@@ -7,6 +7,7 @@ const UnderstandingThoughtsModuleData = [
     description: (
       <>
         <div>
+          <br></br>
           <p>
             Although sexual behaviour can be influenced by numerous factors, it
             is not outside of your control. Sexual offending is not something
@@ -14,6 +15,7 @@ const UnderstandingThoughtsModuleData = [
             or pattern that can become automatic and can occur repeatedly,
             becoming somewhat part of a routine.
           </p>
+          <br></br>
           <h4 className="secondary-color">Understanding thoughts</h4>
           <p>
             Thoughts include all mental activity; ideas, opinions, beliefs,
@@ -27,6 +29,7 @@ const UnderstandingThoughtsModuleData = [
             sense and put ideas together. Your mind is seldom empty of thoughts;
             even when you are asleep your mind is active.
           </p>
+          <br></br>
           <h4 className="secondary-color">Understanding feelings</h4>
           <p>
             Feelings are emotions and moods that often occur after thoughts and
@@ -34,6 +37,7 @@ const UnderstandingThoughtsModuleData = [
             Thoughts and feelings are closely linked; either one may happen
             first, closely followed by the other.
           </p>
+          <br></br>
           <h4 className="secondary-color">Understanding behaviour</h4>
           <p>
             Behaviour is what you do; your actions as a result of what you think
@@ -60,6 +64,7 @@ const UnderstandingThoughtsModuleData = [
             those thoughts, we hope these modules will help you to gain a
             greater understanding and put measures in place to manage them.
           </p>
+          <br></br>
           <p className="text-center">
             <img src={pictureOne} alt="" width="auto" height="100%" />
           </p>
@@ -71,10 +76,12 @@ const UnderstandingThoughtsModuleData = [
   },
   {
     id: 2,
-    title: "Exercise",
+    title: "Exercise 1",
     description: (
       <>
         <div>
+          <br></br>
+          <h4 className="secondary-color">Exercise 1</h4>
           <ul className="content-list">
             <li>
               Think of an example of a situation that does not relate to sexual
@@ -107,16 +114,19 @@ const UnderstandingThoughtsModuleData = [
             You need to change the problematic thoughts and feelings which
             influence your behaviour.
           </p>
+          <br></br>
         </div>
       </>
     ),
   },
   {
     id: 3,
-    title: "Exercise",
+    title: "Exercise 2",
     description: (
       <>
         <div>
+          <br></br>
+          <h4 className="secondary-color">Exercise 2</h4>
           <p>
             Think about your unhelpful sexual thoughts by answering these
             questions:
@@ -150,6 +160,7 @@ const UnderstandingThoughtsModuleData = [
             by themselves. It is possible to manage the sexual thoughts that
             concern you.
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -160,6 +171,7 @@ const UnderstandingThoughtsModuleData = [
     description: (
       <>
         <div>
+          <br></br>
           <p>
             In this section, when we are talking about ‘sexual fantasy’, we are
             referring to something that is imagined which you find sexually
@@ -186,6 +198,7 @@ const UnderstandingThoughtsModuleData = [
             thinking about things, people or situations that would not
             necessarily be obviously sexual to other people.
           </p>
+          <br></br>
           <h4 className="secondary-color">Why do people have fantasies?</h4>
           <p>
             Fantasies can be about a variety of different things and everybody
@@ -230,6 +243,7 @@ const UnderstandingThoughtsModuleData = [
             they are fantasising and not doing what they are supposed to be
             doing.
           </p>
+          <br></br>
           <h4 className="secondary-color">Fantasy and sexual arousal</h4>
           <p>
             A sexual fantasy can lead to a physical response in our body and/or
@@ -267,6 +281,7 @@ const UnderstandingThoughtsModuleData = [
             process typically reduces the further along the continuum you allow
             yourself to progress.
           </p>
+          <br></br>
           <h4 className="secondary-color">
             Recognising if a sexual fantasy is unhealthy
           </h4>
@@ -286,6 +301,7 @@ const UnderstandingThoughtsModuleData = [
             children. This can be amplified if the fantasy is acted out with the
             partner.
           </p>
+          <br></br>
           <h4 className="secondary-color">My fantasies</h4>
           <p>
             A good starting point in considering if your fantasies are
@@ -293,16 +309,19 @@ const UnderstandingThoughtsModuleData = [
             exercises below will help you to start to doing this by exploring
             your triggers to your fantasies.
           </p>
+          <br></br>
         </div>
       </>
     ),
   },
   {
     id: 5,
-    title: "Exercise - Fantasy diary",
+    title: "Exercise 3 - Fantasy diary",
     description: (
       <>
         <div>
+          <br></br>
+          <h4 className="secondary-color">Exercise 3 - Fantasy Diary</h4>
           <p>
             Over the next week create a fantasy diary to keep a record of your
             fantasies. Do not write down the content of the fantasy but consider
