@@ -13,9 +13,8 @@ const TakingResponsibilityModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
-        <br>
-          <br></br>
-        </br>
+        <br />
+        <br />
         <h2 className="secondary-color">
           Taking control of your online behaviour
         </h2>
