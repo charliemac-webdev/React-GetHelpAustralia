@@ -31,9 +31,90 @@ const BuildingAGoodLifeModuleData = [
             sizes="(max-width: 1013px) 100vw, 1013px"
           />
         </p>
-        <p>Find out more about each section</p>
+        <p>Find out more about each section below:</p>
         {/* Good Life Accordion */}
-        <p>&nbsp;</p>
+
+        <h5 className="secondary-color">Creativity</h5>
+        <p>
+          It is important that we have activities in our lives that we feel good
+          at. In order to feel good about ourselves, we need to have a sense of
+          achievement. This can also help with our self-esteem. This doesn’t
+          mean actually being ‘the best’ in comparison to others, but feeling
+          that we are doing the best we can in whatever we do.
+        </p>
+        <h5 className="secondary-color">Excellence in work</h5>
+        <p>
+          This can also involve feeling like we have mastered activities and
+          skills-training that are important to us in the workplace. It can
+          include creativity, like being able to create or make new things, come
+          up with new ideas, or be artistic or practical in some way.
+        </p>
+        <h5 className="secondary-color">Excellence in play</h5>
+        <p>
+          This is about how people spend their time and the range of activities
+          in which they are involved. It is important for people to see that all
+          activities are worthwhile and for people to have activities which
+          offer elements of fun, excitement, challenge and achievement. This
+          might involve hobbies, work, and exercise. This is also about
+          achieving a balance of activities, for example, work/life balance.
+        </p>
+        <h5 className="secondary-color">Spirituality</h5>
+        <p>
+          Whoever we are, it’s important for us to feel like we understand our
+          purpose in life. This could stem from religion but it doesn’t have to.
+          This could be something like ‘being a good friend’, ‘being a good
+          brother/sister’ or contributing to your community in some way.
+        </p>
+        <h5 className="secondary-color">Inner peace</h5>
+        <p>
+          This is about feeling peaceful and comfortable. It means that we
+          should feel free from difficult feelings, and that we should know how
+          to deal with these feelings if we have them. This also means feeling
+          safe; physically and emotionally.
+        </p>
+        <h5 className="secondary-color">Life</h5>
+        <p>
+          This is about how we live our lives in terms of our physical health
+          (exercise, diet, feeling comfortable with our appearance) and
+          emotional health (looking after ourselves inside).
+        </p>
+        <h5 className="secondary-color">Relatedness</h5>
+        <p>
+          This is about having intimate, romantic and familial relationships.
+        </p>
+        <h5 className="secondary-color">Excellence in agency</h5>
+        <p>
+          This is about feeling like we can manage and control our lives. The
+          ability to make decisions and feel as though we have a say in our
+          lives is very important. This is also about being able to manage the
+          way we behave and the way we feel, for example, knowing what to do if
+          we have had a bad day. This is also about being able to make decisions
+          and solve everyday problems in life.
+        </p>
+        <h5 className="secondary-color">Knowledge</h5>
+        <p>
+          This is about having knowledge and understanding so we feel informed
+          about our world, so that we feel we understand what is going on around
+          us. Knowledge can come from life experience, what we learn at school,
+          from books or from the media. It does not mean ‘being clever’, but
+          feeling as though we know what we need to in order to feel alright in
+          the world.
+        </p>
+        <h5 className="secondary-color">Community</h5>
+        <p>
+          This is about having a sense of belonging and responsibility to the
+          social group we live in. This also includes a sense of fitting in. It
+          is important that we have a group of people where we feel we fit.
+          Belonging might stem from friends, family, colleagues, a religious
+          group or another group of people.
+        </p>
+        <h5 className="secondary-color">Pleasure</h5>
+        <p>
+          Feeling good in the here and now. This is the ability to anchor
+          ourselves in the moment and have gratitude for what we have, rather
+          than worrying about the past or the future.
+        </p>
+        <br></br>
         <p>
           We have developed the following{" "}
           <a

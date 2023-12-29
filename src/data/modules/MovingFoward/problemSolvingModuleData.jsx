@@ -4,6 +4,7 @@ const ProblemSolvingModuleData = [
     title: "Problem solving",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Problem Solving</h4>
         <p>
           Problem solving – the process of working through the details of a
@@ -16,6 +17,7 @@ const ProblemSolvingModuleData = [
           with problems promotes self-esteem and self-confidence.
         </p>
         <hr />
+        <br></br>
         <h4 className="secondary-color">Starting Point</h4>
         <p>
           Identify your current level of confidence (1 = no&nbsp;confidence; 2 =
@@ -55,11 +57,12 @@ const ProblemSolvingModuleData = [
           useful. Complete Exercise 1 before moving on to the next module.
         </p>
         <hr />
+        <br></br>
         <p>
           Here are three ways in which individuals tend to deal with problems:
         </p>
         <p>
-          <strong>The Avoidant Approach</strong>
+          <h5 className="secondary-color">The Avoidant Approach</h5>
         </p>
         <p>
           This is similar to the ‘Head in the Sand ‘way of experiencing anger
@@ -71,7 +74,7 @@ const ProblemSolvingModuleData = [
           problem tends to remain unresolved.
         </p>
         <p>
-          <strong>The Emotional Approach</strong>
+          <h5 className="secondary-color">The Emotional Approach</h5>
         </p>
         <p>
           Individuals who adopt this approach tend to act impulsively or
@@ -80,7 +83,7 @@ const ProblemSolvingModuleData = [
           decisions which may compound the problem.
         </p>
         <p>
-          <strong>The Problem Solving Approach</strong>
+          <h5 className="secondary-color">The Problem Solving Approach</h5>
         </p>
         <p>
           This involves a more systematic approach to problems, which includes
@@ -89,7 +92,9 @@ const ProblemSolvingModuleData = [
           list of things to consider when using this approach to problems.
         </p>
         <p>
-          <strong>Step 1 – Define the problem (what exactly is it)</strong>
+          <strong className="secondary-color">
+            Step 1 – Define the problem (what exactly is it)
+          </strong>
         </p>
         <p>
           Be specific, for example if you are not happy at work, think about
@@ -97,24 +102,28 @@ const ProblemSolvingModuleData = [
           type of work.
         </p>
         <p>
-          <strong>
+          <strong className="secondary-color">
             Step 2 – Stop and think- don’t act without thinking things through
           </strong>
         </p>
         <p>Take time to go through all the steps before you make a decision.</p>
         <p>
-          <strong>Step 3 – Seek information from reliable sources</strong>
+          <strong className="secondary-color">
+            Step 3 – Seek information from reliable sources
+          </strong>
         </p>
         <p>Don’t guess at the outcome or rely on the opinion of others.</p>
         <p>
-          <strong>Step 4 – Generate a number of solutions</strong>
+          <strong className="secondary-color">
+            Step 4 – Generate a number of solutions
+          </strong>
         </p>
         <p>
           The more solutions you come up with the more options you have! Even if
           they seem unrealistic it’s wrth considering all the options.
         </p>
         <p>
-          <strong>
+          <strong className="secondary-color">
             Step 5 – Think of the pros and cons of each solution (costs and
             gains)
           </strong>
@@ -135,7 +144,9 @@ const ProblemSolvingModuleData = [
           &nbsp;section if you need to understand why you might do this.
         </p>
         <p>
-          <strong>Step 6 – Choose the best solution</strong>
+          <strong className="secondary-color">
+            Step 6 – Choose the best solution
+          </strong>
         </p>
         <p>
           Hopefully this is clear having completed the costs and gains above, if
@@ -146,18 +157,24 @@ const ProblemSolvingModuleData = [
           ‘fix’ to feel better when it doesn’t address the problem!
         </p>
         <p>
-          <strong>Step 7 – Plan how you will apply the solution</strong>
+          <strong className="secondary-color">
+            Step 7 – Plan how you will apply the solution
+          </strong>
         </p>
         <p>
           Benjamin Franklin said that “By failing to prepare, you are preparing
           to fail.”
         </p>
         <p>
-          <strong>Step 8 – Carry out the solution</strong>
+          <strong className="secondary-color">
+            Step 8 – Carry out the solution
+          </strong>
         </p>
         <p>Put your plan into action!</p>
         <p>
-          <strong>Step 9 – Evaluate how well it worked</strong>
+          <strong className="secondary-color">
+            Step 9 – Evaluate how well it worked
+          </strong>
         </p>
         <p>
           If we don’t evaluate what we did and how well it worked we can end up
@@ -168,11 +185,14 @@ const ProblemSolvingModuleData = [
           is still the same so while you have different colleagues you actually
           realise it is the type of work you do that needs to change.
         </p>
+        <br></br>
         <p>
-          <strong>Exercise&nbsp;1 – What approach do I use?</strong>
+          <h4 className="secondary-color">
+            Exercise 1: What approach do I use?
+          </h4>
         </p>
         <p>
-          <strong>Problem Diary</strong>
+          <strong className="secondary-color">Problem Diary</strong>
         </p>
         <p>
           Complete the problem diary over the next 7 days.&nbsp;Reflect on your
@@ -272,10 +292,12 @@ const ProblemSolvingModuleData = [
           <li>Which was most effective?</li>
         </ul>
         <hr />
+        <br></br>
         <p>
           Sometimes things can get in the way of solving problems. We can think
           of these as obstacles that we need to overcome.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -284,7 +306,8 @@ const ProblemSolvingModuleData = [
     title: "Overcoming obstacles",
     description: (
       <div className="tab-main-content">
-        <h3>Overcoming obstacles</h3>
+        <br></br>
+        <h4 className="secondary-color">Overcoming obstacles</h4>
         <p>
           Sometimes overcoming obstacles involves thinking outside the
           box&nbsp;(or from a new perspective!). An easy way of practising this
@@ -300,6 +323,7 @@ const ProblemSolvingModuleData = [
             height="671"
           />
         </p>
+        <br></br>
         <p>
           Then you can look back and review those that might work and those that
           aren’t very good – some of the ideas above may not be very practical
@@ -316,19 +340,21 @@ const ProblemSolvingModuleData = [
             height="834"
           />
         </p>
+        <br></br>
         <p>
           Again review and pick the best option for you, you may have to try a
           few before you find one that works but that’s why it’s great to have
           thought of so many ideas.
         </p>
         <p>
-          <strong>
+          <strong className="secondary-color">
             Now, try a brainstorm with one of your own obstacles and see how you
             get on – see if the approach helps you come up with new and
             different ways of dealing with your problem.
           </strong>
         </p>
         <hr />
+        <br></br>
         <h4 className="secondary-color">Ways to avoid acting on impulse</h4>
         <p>
           Good problem solving involves the ability to stop and think and
@@ -368,6 +394,7 @@ const ProblemSolvingModuleData = [
             week or next year
           </li>
         </ul>
+        <br></br>
       </div>
     ),
   },
@@ -376,6 +403,7 @@ const ProblemSolvingModuleData = [
     title: "Reflection",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
           Having completed this module, identify your current level of
@@ -430,6 +458,7 @@ const ProblemSolvingModuleData = [
           Now!&nbsp;Helpline&nbsp;for confidential support from our trained
           staff.
         </p>
+        <br></br>
       </div>
     ),
   },
