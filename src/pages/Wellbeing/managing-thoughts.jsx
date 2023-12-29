@@ -1,14 +1,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
+
 import { useEffect } from "react";
 import { FaFilePdf } from "react-icons/fa";
 import { FcPrint } from "react-icons/fc";
 import Heading from "../../components/Heading";
 import MainContent from "../../components/MainContent";
 import Module from "../../components/Module";
-import selfTalkModuleData from "../../data/modules/Wellbeing/selfTalkModuleData";
+import ManagingThoughtsModuleData from "../../data/modules/Wellbeing/managingThoughtsModuleData";
 
-const SelfTalkModule = ({ showMenu }) => {
+const ManagingThoughtsModule = ({ showMenu }) => {
   useEffect(() => {
     showMenu(false);
   }, []);
@@ -17,7 +18,9 @@ const SelfTalkModule = ({ showMenu }) => {
       <Heading>
         <br></br>
         <br></br>
-        <h2 className="secondary-color">Self-talk</h2>
+        <h2 className="secondary-color">
+          Managing thoughts, feelings and behaviours
+        </h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print
         </span>
@@ -28,16 +31,18 @@ const SelfTalkModule = ({ showMenu }) => {
       <MainContent>
         <br></br>
         <h4 className="secondary-color">Objectives</h4>
-        <p>This module will help you explore and understand:</p>
+        <p>This module aims to help you to:</p>
         <ul className="content-list">
-          <li>Self-talk</li>
-          <li>Positive and negative self-talk</li>
-          <li>How to change negative Self-talk in to positive Self-talk’</li>
+          <li>
+            Develop strategies to manage unhealthy sexual thoughts and
+            behaviours
+          </li>
+          <li>Understand how common thinking errors can affect progress</li>
         </ul>
-        <Module modules={selfTalkModuleData} />
+        <Module modules={ManagingThoughtsModuleData} />
       </MainContent>
     </>
   );
 };
 
-export default SelfTalkModule;
+export default ManagingThoughtsModule;

@@ -38,6 +38,7 @@ import TakingResponsibilityModule from "./pages/UnderstandingOnlineBehaviour/tak
 import TriggersModule from "./pages/UnderstandingOnlineBehaviour/triggers";
 import UnderstandingWhyModule from "./pages/UnderstandingOnlineBehaviour/understanding-why";
 import GuiltAndShameModule from "./pages/Wellbeing/guilt-and-shame";
+import ManagingThoughtsModule from "./pages/Wellbeing/managing-thoughts";
 import MotivationForChangeModule from "./pages/Wellbeing/motivation-for-change";
 import RecognisingAndDealingWithFeelingsModule from "./pages/Wellbeing/recognising-and-dealing-with-feelings";
 import SelfCareModule from "./pages/Wellbeing/self-care";
@@ -191,6 +192,10 @@ function App() {
             <Route
               path="/problem-solving"
               element={<ProblemSolvingModule showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/managing-thoughts-feelings-and-behaviours"
+              element={<ManagingThoughtsModule showMenu={handleShowMenu} />}
             />
             <Route
               path="/understanding-thoughts-feelings-and-behaviours"
