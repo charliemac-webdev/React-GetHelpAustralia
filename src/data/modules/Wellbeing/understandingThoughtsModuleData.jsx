@@ -64,6 +64,7 @@ const UnderstandingThoughtsModuleData = [
             <img src={picture} alt="" width="auto" height="100%" />
           </p>
           <p>&nbsp;</p>
+          <br></br>
         </div>
       </>
     ),

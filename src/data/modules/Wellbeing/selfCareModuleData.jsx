@@ -450,6 +450,8 @@ const SelfCareModuleData = [
     description: (
       <>
         <div>
+          <br></br>
+          <h4 className="secondary-color">The importance of sleep</h4>
           <p>
             Most people say that good quality sleep is important to their
             general sense of well-being.
@@ -464,17 +466,17 @@ const SelfCareModuleData = [
             Problematic sexual fantasies may be more readily triggered in the
             bedroom, last thing at night, if this has become your routine.
           </p>
-          <h2 className="secondary-color">
-            <span>Tips to help you sleep</span>
-          </h2>
+          <br></br>
+          <h4 className="secondary-color">Tips to help you sleep</h4>
           <p>
             Following routines and practices can help good quality sleep. This
             is sometimes called{" "}
             <a href="https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better/">
               ‘sleep hygiene’
             </a>
-            . Here are some things to try.
+            .
           </p>
+          <p>Here are some things to try:</p>
           <ul className="content-list">
             <li>
               Stick to a&nbsp;regular pattern by aiming to wake up and go to bed
@@ -519,6 +521,7 @@ const SelfCareModuleData = [
             problems with your sleep-wake cycles or are feeling sleepy during
             the daytime, you should take advice from your GP.
           </p>
+          <br></br>
         </div>
       </>
     ),
