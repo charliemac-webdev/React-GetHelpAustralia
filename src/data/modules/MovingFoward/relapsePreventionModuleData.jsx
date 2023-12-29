@@ -4,6 +4,7 @@ const RelapsePreventionModuleData = [
     title: "What is relapse",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           A relapse is anything you do that is illegal, but it might not only be
           that – a relapse might be anything you know is wrong or anything you
@@ -20,6 +21,7 @@ const RelapsePreventionModuleData = [
           Relapse prevention is about recognising that difficult times can
           happen so it is important to be prepared for them.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -28,6 +30,7 @@ const RelapsePreventionModuleData = [
     title: "When is a relapse more likely",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           Relapses often happen when you’re experiencing negative thoughts and
           feelings, for example, bored, anxious, depressed or lonely. And that
@@ -79,6 +82,7 @@ const RelapsePreventionModuleData = [
           you can use some of the <u>self-talk section</u> to help you manage
           this wonky thinking also known as cognitive distortions.
         </p>
+        <br></br>
         <h4 className="secondary-color">How might a relapse happen?</h4>
         <p>
           A relapse usually happens in a number of stages, sometimes in quick
@@ -93,7 +97,7 @@ const RelapsePreventionModuleData = [
           and what could happen is your best defence against offending again.
         </p>
         <p>
-          <strong>Abstinence</strong>
+          <h5 className="secondary-color">Abstinence</h5>
         </p>
         <p>
           At this stage, you’re not doing anything illegal or having
@@ -103,7 +107,7 @@ const RelapsePreventionModuleData = [
           doing the right thing.
         </p>
         <p>
-          <strong>Small decisions</strong>
+          <h5 className="secondary-color">Small decisions</h5>
         </p>
         <p>
           Maybe your previous behaviour happened when you were going online late
@@ -112,7 +116,7 @@ const RelapsePreventionModuleData = [
           might be taking you towards a risky situation.
         </p>
         <p>
-          <strong>Danger</strong>
+          <h5 className="secondary-color">Danger</h5>
         </p>
         <p>Now let’s look at the situation and your state of mind.</p>
         <ul className="content-list">
@@ -129,7 +133,7 @@ const RelapsePreventionModuleData = [
           </li>
         </ul>
         <p>
-          <strong>Giving up</strong>
+          <h5 className="secondary-color">Giving up</h5>
         </p>
         <p>
           The danger by this stage is that you believe you’ve failed
@@ -143,7 +147,7 @@ const RelapsePreventionModuleData = [
           others.
         </p>
         <p>
-          <strong>Lapse</strong>
+          <h5 className="secondary-color">Lapse</h5>
         </p>
         <p>
           You will know what a lapse involves for you – it is crossing
@@ -156,6 +160,7 @@ const RelapsePreventionModuleData = [
           from what went wrong. Continue to develop a relapse prevention plan
           and reduce the risk of returning to old ways.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -164,6 +169,7 @@ const RelapsePreventionModuleData = [
     title: "Warning signs of relapse",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           Warning signs are the things that alert us and other people that
           something is wrong or that there this a potential danger or hazard.
@@ -245,6 +251,7 @@ const RelapsePreventionModuleData = [
           consider those ‘clues’ so that they can help you manage your thoughts
           and/or behaviour when needed.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -253,6 +260,7 @@ const RelapsePreventionModuleData = [
     title: "Exercise",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           Write a list of your physical, behavioural and emotional warning signs
           and answer the following questions.
@@ -270,6 +278,7 @@ const RelapsePreventionModuleData = [
             about your problematic behaviour?
           </li>
         </ul>
+        <br></br>
       </div>
     ),
   },
@@ -278,6 +287,7 @@ const RelapsePreventionModuleData = [
     title: "No going back",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           The last section might have seemed a bit negative but it’s important
           to be realistic – those risks and temptations do exist. But you still
@@ -285,7 +295,9 @@ const RelapsePreventionModuleData = [
           behaviours.
         </p>
         <p>
-          <strong>Practical steps and relapse prevention plan</strong>
+          <h5 className="secondary-color">
+            Practical steps and relapse prevention plan
+          </h5>
         </p>
         <p>
           Make sure you have made all the practical changes to reduce the risk
@@ -314,7 +326,7 @@ const RelapsePreventionModuleData = [
           feelings, behaviours, people and places.
         </p>
         <p>
-          <strong>Talk to people</strong>
+          <h5 className="secondary-color">Talk to people</h5>
         </p>
         <p>
           Is there anyone you feel close to who you might confide in? Sometimes
@@ -341,7 +353,7 @@ const RelapsePreventionModuleData = [
           completely anonymous.
         </p>
         <p>
-          <strong>Build a good life</strong>
+          <h5 className="secondary-color">Build a good life</h5>
         </p>
         <p>
           It’s really important to understand that stopping offending isn’t only
@@ -349,6 +361,7 @@ const RelapsePreventionModuleData = [
           want to feel better and live better. The last section will give you
           some ideas on how to do that.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -357,10 +370,13 @@ const RelapsePreventionModuleData = [
     title: "Reflection - My relapse prevention plan",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           Spend some time identifying your own risk factors so you are aware of
-          what they are and how to manage them. The following questions
-          (available in the{" "}
+          what they are and how to manage them.
+        </p>
+        <p>
+          The following questions (available in the{" "}
           <a
             href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/my-personal-risk-factors.pdf"
             target="_blank"
@@ -370,6 +386,12 @@ const RelapsePreventionModuleData = [
           </a>
           ) could be helpful to do this.
         </p>
+        <br></br>
+        <h5 className="secondary-color">Risk Factors</h5>
+        <p>Why are these risky for me?</p>
+        <p>How have I coped in the past?</p>
+        <p>Did this work and why?</p>
+        <br></br>
         <p>
           If you have any concerns, questions, or would just like to talk about
           what you are going through, our non-judgemental{" "}
