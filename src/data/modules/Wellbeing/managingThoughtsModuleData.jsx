@@ -5,6 +5,8 @@ const ManagingThoughtsModuleData = [
     description: (
       <>
         <div>
+          <br></br>
+          <h4 className="secondary-color">Management strategies</h4>
           <p>
             So you have identified which of your sexual thoughts or behaviours
             are inappropriate. We are now going to focus on strategies to manage
@@ -22,35 +24,29 @@ const ManagingThoughtsModuleData = [
             that you need to practice them or use a combination of these to find
             the best way for you.
           </p>
-          <h4 className="secondary-color">
-            <strong>Escape route</strong>
-          </h4>
+          <h5 className="secondary-color">Escape route</h5>
           <p>
             Sometimes we need to remove ourselves from the situation in which we
             are fantasising. Get up, get out of that room, leave the house if
             you have to. Go anywhere that stops you from having that sexual
             fantasy. Put yourself around people so that you can’t masturbate.
           </p>
-          <h4 className="secondary-color">
-            <strong>Active distraction</strong>
-          </h4>
+          <h5 className="secondary-color">Active distraction</h5>
+
           <p>
             Do something that prevents you from thinking about a fantasy. This
             could be reading, watching TV, going for a walk or ringing a friend.
             Anything that takes your thoughts away from that fantasy and engages
             your brain.
           </p>
-          <h4 className="secondary-color">
-            <strong>Relaxation</strong>
-          </h4>
+          <h5 className="secondary-color">Relaxation</h5>
+
           <p>
             Engage in a relaxation technique that works for you. This should be
             planned and rehearsed in advance. Techniques include, for example,
             guided visualisation, breathing exercises, mindfulness or yoga.
           </p>
-          <h4 className="secondary-color">
-            <strong>Challenging your thoughts</strong>
-          </h4>
+          <h5 className="secondary-color">Challenging your thoughts</h5>
           <p>
             You can ask yourself questions to remind yourself of the
             consequences of engaging in the thought/fantasy or behaviour. Be
@@ -63,9 +59,7 @@ const ManagingThoughtsModuleData = [
             about?’ ‘I know if I keep having this thought, I am more likely to
             act on this fantasy; what are the consequences if I was caught?’.
           </p>
-          <h4 className="secondary-color">
-            <strong>Fantasy replacement</strong>
-          </h4>
+          <h5 className="secondary-color">Fantasy replacement</h5>
           <p>
             Change the ending or the subject of your fantasy. For example, if
             you are beginning to indulge in fantasy about a child you have seen,
@@ -76,9 +70,7 @@ const ManagingThoughtsModuleData = [
             different fantasy all together which is new and exciting…. and
             healthy!
           </p>
-          <h4 className="secondary-color">
-            <strong>Fantasy blockers</strong>
-          </h4>
+          <h5 className="secondary-color">Fantasy blockers</h5>
           <p>
             Imagine someone walking in to your fantasy and catching you. This
             person has to be someone who you would never want to find out, like
@@ -86,9 +78,7 @@ const ManagingThoughtsModuleData = [
             technique should not be used if you are aroused by the idea of
             someone finding out.
           </p>
-          <h4 className="secondary-color">
-            <strong>Urge surfing</strong>
-          </h4>
+          <h5 className="secondary-color">Urge surfing</h5>
           <p>
             Imagine your fantasy as being like a giant wave. It will build and
             build to a peak and then suddenly go the other way and decline in
@@ -99,9 +89,7 @@ const ManagingThoughtsModuleData = [
             20 minutes. Reminding yourself that it will pass can be a helpful
             way to stop yourself from acting on it.
           </p>
-          <h4 className="secondary-color">
-            <strong>Self-care</strong>
-          </h4>
+          <h5 className="secondary-color">Self-care</h5>
           <p>
             As a long term strategy then eating well, exercising, sleeping and
             relaxation; all of these contribute to a happier, healthier you. If
@@ -109,9 +97,7 @@ const ManagingThoughtsModuleData = [
             fantasies much easier. You can look back to the self-care module for
             more information.
           </p>
-          <h4 className="secondary-color">
-            <strong>Praise your success</strong>
-          </h4>
+          <h5 className="secondary-color">Praise your success</h5>
           <p>
             The most important thing is to praise yourself for your success. If
             you are able to stop a particular fantasy, congratulate yourself.
@@ -119,6 +105,7 @@ const ManagingThoughtsModuleData = [
             Stopping fantasies can be difficult, especially if you are used to
             having them, so you need to give yourself credit for that.
           </p>
+          <br></br>
         </div>
       </>
     ),
@@ -129,6 +116,8 @@ const ManagingThoughtsModuleData = [
     description: (
       <>
         <div>
+          <br></br>
+          <h4 className="secondary-color">Common thinking errors</h4>
           <p>
             Sometimes how you think about a situation can impact on your ability
             to successfully address thinking patterns or behaviour. These are
@@ -142,28 +131,29 @@ const ManagingThoughtsModuleData = [
             </li>
             <li>
               Over-generalising – over generalising from one specific
-              experience/situation to expectations of future experiences eg I
+              experience/situation to expectations of future experiences e.g. I
               couldn’t stop my fantasy so I won’t try again.
             </li>
             <li>
               Shoulds/musts – rigid expectations of what you or others should
               do, or of what should happen in life. This can include the things
-              that you believe ‘must’ happen in order for you to be happy eg I
+              that you believe ‘must’ happen in order for you to be happy e.g. I
               have to have a sexual relationship to be happy.
             </li>
             <li>
               Selective filtering – only paying attention to certain types of
-              information (typically discounting positive information) eg a
+              information (typically discounting positive information) e.g. a
               particular person rejected me
             </li>
             <li>
-              Jumping to conclusions – eg thinking this is just the way I am.
+              Jumping to conclusions – e.g. thinking this is just the way I am.
             </li>
             <li>
               Catastrophizing – over-reacting to perceived negative events or
-              setbacks, g. a lapse results in giving up.
+              setbacks, e.g. a lapse results in giving up.
             </li>
           </ul>
+          <br></br>
           <p>
             Read through the common thinking errors below and see if any apply
             to you.&nbsp; When you notice yourself thinking in this way,
@@ -173,6 +163,7 @@ const ManagingThoughtsModuleData = [
             about how you can replace the thinking error with more realistic
             thoughts.
           </p>
+          <br></br>
         </div>
       </>
     ),
