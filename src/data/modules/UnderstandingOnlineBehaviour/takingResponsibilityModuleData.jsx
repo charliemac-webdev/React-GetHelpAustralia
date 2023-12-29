@@ -8,20 +8,6 @@ const takingResponsibilityModuleData = [
     description: (
       <>
         <br></br>
-        <p>
-          <strong>
-            Anxiety is often a response to feeling out of control.
-          </strong>
-          &nbsp;When we feel we have lost control, we often attempt to regain
-          it. When we fail, we feel a deep loss and our anxiety starts to build.
-          This feeling can be overwhelming. It causes us to feel uneasy,
-          discontented, and lost because we are always looking for something
-          else to make us feel better. We often turn to short term fixes such as
-          alcohol, drugs, gambling or sex to feel better. Sometimes these
-          behaviours then start to feel they are out of our control.
-        </p>
-        <hr />
-        <br></br>
         <h4 className="secondary-color">Starting point</h4>
         <p>
           Using the table below, write down how far in control you have felt of
@@ -120,6 +106,7 @@ const takingResponsibilityModuleData = [
           You can take some simple steps to reduce your potential for engaging
           in risky behaviour.
         </p>
+        <br></br>
       </>
     ),
   },
@@ -207,64 +194,10 @@ const takingResponsibilityModuleData = [
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
-          As with the Introduction to this module, using the table below, write
-          down your current level of knowledge and understanding about your
-          online behaviour. (1 = very little control; 2 = some control; 3 =
-          strong control).
+          Has this module raised any further questions for you or made you want
+          to explore any ideas further?{" "}
         </p>
-        <table className="table-with-borders">
-          <tbody>
-            <tr>
-              <td>My time spent online now</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-            </tr>
-            <tr>
-              <td>My time spent using adult pornography now</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-            </tr>
-            <tr>
-              <td>My time spent on accessing indecent images now</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-            </tr>
-            <tr>
-              <td>
-                My time spent online sexually communicating with others
-                (including children) now
-              </td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-            </tr>
-            <tr>
-              <td>
-                My time spent online sexually communicating with others
-                (including children) now?
-              </td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>Now, consider the following questions:</p>
-        <ul className="content-list">
-          <li>
-            Have any of your responses changed from 1 to 2 or 2 to 3 since the
-            start of this module?
-          </li>
-          <li>What have been the most positive changes you have made? Why?</li>
-          <li>
-            Has this module raised any further questions for you or made you
-            want to explore any ideas further? What steps do you plan to take to
-            seek out this information?
-          </li>
-        </ul>
+        <p> What steps do you plan to take to seek out this information?</p>
         <br />
         <Link to="/self-help-online-world">
           <div className="d-flex justify-content-end">
