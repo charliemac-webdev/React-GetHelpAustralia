@@ -11,7 +11,7 @@ const UnderstandingYourOnlineBehaviourFolderTitles = [
   },
   {
     id: 3,
-    title: "Understaning why",
+    title: "Understanding why",
     link: "/understanding-why",
   },
   {
