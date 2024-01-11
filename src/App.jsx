@@ -16,7 +16,6 @@ import MovingForward from "./pages/MovingForward";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Resources from "./pages/Resources";
 import UnderstandingYourOnlineBehaviour from "./pages/UnderstandingYourOnlineBehaviour";
-import UnderstandingYourThoughtsAndBehaviour from "./pages/UnderstandingYourThoughtsAndBehaviour";
 import WellbeingAndSelfCare from "./pages/WellbeingAndSelfCare";
 import Modal from "./pages/modal-page";
 
@@ -99,10 +98,6 @@ function App() {
             <Route
               path="/understanding-your-online-behaviour"
               element={<UnderstandingYourOnlineBehaviour />}
-            />
-            <Route
-              path="/understanding-your-thoughts-and-behaviour"
-              element={<UnderstandingYourThoughtsAndBehaviour />}
             />
             <Route path="/moving-forward" element={<MovingForward />} />
             <Route path="/resources" element={<Resources />} />

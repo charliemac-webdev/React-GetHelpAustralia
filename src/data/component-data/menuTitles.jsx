@@ -16,16 +16,11 @@ const MenuTitles = [
   },
   {
     id: 4,
-    title: "Understanding your thoughts and behaviour (Get Support)",
-    link: "/understanding-your-thoughts-and-behaviour",
-  },
-  {
-    id: 5,
     title: "Moving Forward",
     link: "/moving-forward",
   },
   {
-    id: 6,
+    id: 5,
     title: "Resources",
     link: "/resources",
   },
