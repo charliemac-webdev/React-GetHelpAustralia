@@ -4,50 +4,37 @@ const DisclosureModuleData = [
     title: "Legal consequences of a conviction",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
-          Being conviction of a sexual offence has lots of significant
+          Being convicted of a sexual offence has lots of significant
           consequences. One of the main outcomes is being involved with the
-          police and the criminal justice system.
+          police and the criminal justice system. When the police become
+          involved, they will investigate the offence. Based on the evidence
+          they will proceed in one of three ways...
         </p>
-        <p>
-          When the police become involved, they will investigate the offence.
-          Based on the evidence they will proceed in one of three ways.
-        </p>
-        <h4 className="secondary-color">No further action</h4>
+        <h5 className="secondary-color">No further action</h5>
         <p>
           If the police do not find substantial evidence or believe that there
           is insufficient proof to press charges, no further legal action will
           be taken.
         </p>
-        <h4 className="secondary-color">Formal police</h4>
-        <p>
-          At the decision of both the police and the Crown Prosecution Service,
-          a formal caution may be offered. This caution can be provided and
-          accepted at a police station without the need for a court hearing.
-          Although not establishing a criminal conviction, a caution will be
-          recorded on an individual’s criminal record and will be visible in
-          standard and enhanced disclosure checks. Furthermore, accepting a
-          caution for a sexual offence entails inclusion in the sex offenders
-          register for a period of two years.
-        </p>
-        <h4 className="secondary-color">Charged</h4>
+        <h5 className="secondary-color">Charged</h5>
         <p>
           In cases where you are charged with offences, a court date will be
           assigned for your appearance. This initial hearing typically takes
           place in a Magistrates Court, but depending on the nature of the
-          offences, your case might be transferred to a Crown Court.
+          offences, your case might be transferred to a District Court.
         </p>
         <p>
           During the court appearance, you will have the opportunity to enter a
           plea of guilty or not guilty. If you plead not guilty, a trial date
           will be set. If you enter a guilty plea, a sentencing date will be
-          scheduled. The court might also request a pre-sentence report from the
-          National Probation Service to help determine an appropriate sentence.
+          scheduled.
         </p>
         <p>
           The various sentencing options are detailed below. However, predicting
           the specific outcome of sentencing can be challenging, and is
-          therefore important to get a lawyer in all cases.
+          therefore important to seek legal advice in all cases.
         </p>
         <p>
           <img
@@ -58,21 +45,24 @@ const DisclosureModuleData = [
             sizes="(max-width: 1007px) 100vw, 1007px"
           />
         </p>
+        <br></br>
+        <br></br>
         <h4 className="secondary-color">Sentencing options</h4>
         <p>
-          If you are convicted, there are, several sentencing options are
-          available.
+          If you plead or are found guilty, there are several penalties the
+          court can issue. Where an offence is of a sexual nature, committed in
+          relation to a child, the court must order a term imprisonment.
         </p>
-        <h4 className="secondary-color">Community sentence</h4>
+        <h5 className="secondary-color">Community sentence</h5>
         <p>
           This involves serving the sentence within the community under the
           supervision of the Probation Service. It often comes with a
           requirement to engage in rehabilitation, which could encompass
           offense-related work or community service activities. Community orders
           typically span at least two years to allow completion of all order
-          requirements, but this period can extend to up to three years.
+          requirements, but can also extend longer.
         </p>
-        <h4 className="secondary-color">Suspended sentence</h4>
+        <h5 className="secondary-color">Suspended sentence</h5>
         <p>
           A suspended sentence is a custodial sentence wherein the individual is
           not required to go to prison as long as they refrain from committing
@@ -83,7 +73,7 @@ const DisclosureModuleData = [
           sentence can include specific conditions, such as offense-related
           work.
         </p>
-        <h4 className="secondary-color">Custodial sentence</h4>
+        <h5 className="secondary-color">Custodial sentence</h5>
         <p>
           Upon receiving a custodial sentence, the offender will be taken
           directly from the court to the designated prison where the sentence
@@ -101,11 +91,16 @@ const DisclosureModuleData = [
           </a>
           .
         </p>
+        <br></br>
         <h4 className="secondary-color">Other outcomes</h4>
-        <h4 className="secondary-color">Sex offender notification</h4>
+        <h5 className="secondary-color">Sex offender notification</h5>
         <p>
-          Anyone cautioned or convicted for a sexual offence is put on the sex
-          offenders register (SOR).
+          Anyone convicted of a prescribed sexual offence is put on the National
+          Child Offender System (NCOS).This national scheme requires child sex
+          offenders, and other defined categories of serious offenders against
+          children, to keep police informed of their whereabouts and other
+          personal details for a period of time after they are released into the
+          community.
         </p>
         <p>
           All those on the sex offenders register must register with the police
@@ -117,14 +112,14 @@ const DisclosureModuleData = [
         <p>
           You can find{" "}
           <a
-            href="https://unlock.org.uk/"
+            href="https://www.acic.gov.au/protection-services"
             target="_blank"
             rel="noopener noreferrer"
           >
             <u>more information about the sex offenders register here.</u>
           </a>
         </p>
-        <h4 className="secondary-color">Sexual harm prevention order</h4>
+        <h5 className="secondary-color">Sexual harm prevention order</h5>
         <p>
           A sexual harm prevention order (SHPO) is a court order put in place to
           prevent a person from engaging in a particular activity. It is very
