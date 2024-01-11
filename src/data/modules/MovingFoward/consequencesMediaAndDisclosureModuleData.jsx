@@ -10,7 +10,7 @@ const DisclosureModuleData = [
           consequences. One of the main outcomes is being involved with the
           police and the criminal justice system. When the police become
           involved, they will investigate the offence. Based on the evidence
-          they will proceed in one of three ways...
+          they will proceed in two ways.
         </p>
         <h5 className="secondary-color">No further action</h5>
         <p>
@@ -51,27 +51,24 @@ const DisclosureModuleData = [
         <p>
           If you plead or are found guilty, there are several penalties the
           court can issue. Where an offence is of a sexual nature, committed in
-          relation to a child, the court must order a term imprisonment.
+          relation to a child, the court must order a term of imprisonment.
         </p>
         <h5 className="secondary-color">Community sentence</h5>
         <p>
           This involves serving the sentence within the community under the
-          supervision of the Probation Service. It often comes with a
-          requirement to engage in rehabilitation, which could encompass
-          offense-related work or community service activities. Community orders
-          typically span at least two years to allow completion of all order
-          requirements, but can also extend longer.
+          supervision of Probation services. It may come with a requirement to
+          engage in rehabilitation, which could encompass offence-related work
+          or community service activities.
         </p>
         <h5 className="secondary-color">Suspended sentence</h5>
         <p>
           A suspended sentence is a custodial sentence wherein the individual is
           not required to go to prison as long as they refrain from committing
-          further offenses and comply with imposed requirements. Failure to
-          comply or committing additional offenses can lead to the activation of
+          further offences and comply with imposed requirements. Failure to
+          comply or committing additional offences can lead to the activation of
           the suspended sentence, requiring the individual to serve the
-          suspended period in custody. Similar to a community order, a suspended
-          sentence can include specific conditions, such as offense-related
-          work.
+          suspended period in custody. A suspended sentence can include specific
+          conditions, such as offence-related work.
         </p>
         <h5 className="secondary-color">Custodial sentence</h5>
         <p>
@@ -80,20 +77,15 @@ const DisclosureModuleData = [
           will be served.
         </p>
         <p>
-          You can find information on possible sentencing outcomes for different
-          offences on the{" "}
-          <a
-            href="https://www.sentencingcouncil.org.uk/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>Sentencing Council website</u>
-          </a>
-          .
+          The court decides how long an offender will be sentenced to prison.
+          This is determined by considering different factors such as victim
+          impact, reports or references, maximum penalty for each offence,
+          and/or early plea of guilty.
         </p>
         <br></br>
         <h4 className="secondary-color">Other outcomes</h4>
-        <h5 className="secondary-color">Sex offender notification</h5>
+        <br></br>
+        <h5 className="secondary-color">Sex Offender Register</h5>
         <p>
           Anyone convicted of a prescribed sexual offence is put on the National
           Child Offender System (NCOS).This national scheme requires child sex
@@ -101,13 +93,6 @@ const DisclosureModuleData = [
           children, to keep police informed of their whereabouts and other
           personal details for a period of time after they are released into the
           community.
-        </p>
-        <p>
-          All those on the sex offenders register must register with the police
-          within three days of their conviction or release from prison. If you
-          are convicted, you will be required to go to your local police station
-          and sign the register. If you do not register, you will be charged
-          with another criminal offence.
         </p>
         <p>
           You can find{" "}
@@ -119,25 +104,6 @@ const DisclosureModuleData = [
             <u>more information about the sex offenders register here.</u>
           </a>
         </p>
-        <h5 className="secondary-color">Sexual harm prevention order</h5>
-        <p>
-          A sexual harm prevention order (SHPO) is a court order put in place to
-          prevent a person from engaging in a particular activity. It is very
-          common for a person who is convicted of online sexual offences
-          relating to children, to be subject to a SHPO and is often given at
-          the time of sentencing.
-        </p>
-        <p>
-          You can find more{" "}
-          <a
-            href="https://www.sentencingcouncil.org.uk/explanatory-material/magistrates-court/item/ancillary-orders/22-sexual-harm-prevention-orders/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>information and examples of SHPO here</u>
-          </a>
-          .
-        </p>
       </div>
     ),
   },
@@ -146,59 +112,41 @@ const DisclosureModuleData = [
     title: "Other consquences",
     description: (
       <div className="tab-main-content">
-        <h4 className="secondary-color">Children’s Services involvement</h4>
+        <br></br>
+        <h4 className="secondary-color">Department of Child Safety</h4>
         <p>
-          Children’s Services may become involved if you have interactions with
-          children and the police tell them about an arrest. The level of
-          involvement can change during an investigation, and sometimes
-          restrictions may be re-evaluated, especially during the sentencing
-          phase.
+          The Department of Child Safety may become involved if you have
+          interactions with children, as the police will inform them of an
+          arrest. The level of involvement can change during an investigation,
+          and sometimes restrictions may be re-evaluated, especially during the
+          sentencing phase.
         </p>
         <p>
-          In some cases, a ‘Section 47 enquiry’ might be conducted to determine
-          if further engagement with your family is necessary. This assessment
-          helps decide the appropriate actions to safeguard and enhance the
-          well-being of the relevant child or children.
-        </p>
-        <p>
-          To gain a better understanding of this process, you can look at our{" "}
-          <u>provided resources</u>. We strongly encourage open and honest
-          communication with Children’s Services to ensure the welfare of your
-          child or children. If you encounter confusion or need to discuss your
-          coping strategies, our advisors are available to offer confidential
-          support and guidance.
+          We strongly encourage open and honest communication with Children’s
+          Services to ensure the welfare of your child or children.
         </p>
         <h4 className="secondary-color">Insurance</h4>
         <p>
           Criminal convictions can affect your insurance policies. Individuals
           with such convictions statistically face a higher risk of becoming
           victims of crime, leading insurers to view them as higher-risk
-          clients. For detailed information, please look at our resources and
-          see the specific policies to determine whether disclosure is required.
+          clients.
         </p>
         <h4 className="secondary-color">Employment</h4>
         <p>
           During an investigation for a sexual offence, you may be at risk of
           losing your employment. It’s important to review your employment
-          contract to understand whether you need to disclose a caution or
+          contract to understand whether you need to disclose any criminal
           conviction.
         </p>
         <p>
           When looking for a new job, certain roles may not be suitable for you,
           particularly those involving children or vulnerable adults. When
           applying for specific jobs, you’ll likely be asked to declare any
-          spent or unspent convictions. Failing to disclose spent convictions
-          could lead to prosecution, and such convictions might be revealed if
-          your employer conducts a{" "}
-          <a
-            href="https://www.gov.uk/government/organisations/disclosure-and-barring-service"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>Disclosure and Barring Service (DBS)</u>
-          </a>{" "}
-          check.
+          convictions. Such convictions might be revealed if your employer
+          conducts their own police check.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -207,10 +155,11 @@ const DisclosureModuleData = [
     title: "Dealing with media",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           The media don’t publish information about every online child sexual
-          abuse offence but it’s people often tell us they’re worried about it
-          when a loved one is arrested.
+          abuse offence but it’s people often worry about this being a
+          possiblity.
         </p>
         <p>
           Court reporters attend criminal courts and may choose to cover any
@@ -222,7 +171,7 @@ const DisclosureModuleData = [
         <p>
           There are steps you can take to mitigate the impact of media coverage.
         </p>
-        <h3>What to do</h3>
+        <h5 className="secondary-color">What to do</h5>
         <ul>
           <li>
             You might want to think about whether to tell close family or
@@ -241,7 +190,7 @@ const DisclosureModuleData = [
             assess the possibility of implementing added security measures.
           </li>
         </ul>
-        <h3>What not to do</h3>
+        <h5 className="secondary-color">What not to do</h5>
         <ul>
           <li>
             Don’t look for similar cases covered by the media. It can be
@@ -256,9 +205,11 @@ const DisclosureModuleData = [
           >
             <u>Find a story here</u>
           </a>{" "}
-          explaining the experience of someone we supported who faced media
-          coverage and how they managed the situation and how they coped.
+          explaining the experience of someone in the U.K that Stop It Now!
+          supported who faced media coverage and how they managed the situation
+          and how they coped.
         </p>
+        <br></br>
       </div>
     ),
   },
@@ -267,6 +218,7 @@ const DisclosureModuleData = [
     title: "How to tell people about your sexual offences",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <p>
           It can be very difficult to talk about sex, particularly sexual
           offences. It’s hard to know how to approach these conversations and
@@ -339,6 +291,7 @@ const DisclosureModuleData = [
     title: "Talking to different people about sexual offences",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Talking to your partner</h4>
         <p>
           When discussing the situation with your partner, remember that all the
@@ -478,28 +431,7 @@ const DisclosureModuleData = [
             acknowledging their choice to stay in touch or not.
           </li>
         </ul>
-        <p>
-          If you have any concerns, questions, or would just like to talk about
-          what you are going through, our non-judgemental{" "}
-          <a
-            href="https://www.stopitnow.org.uk/helpline/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>helpline</u>
-          </a>{" "}
-          advisors are here to support you. You can stay anonymous and don’t
-          have to give your real name or any contact details. If you’re not
-          ready to speak to anyone yet, you can also use our live chat or{" "}
-          <a
-            href="https://contactus.stopitnow.org.uk/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            send a secure email
-          </a>
-          .
-        </p>
+        <br></br>
       </div>
     ),
   },
