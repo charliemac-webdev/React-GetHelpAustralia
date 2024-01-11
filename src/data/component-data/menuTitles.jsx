@@ -11,7 +11,7 @@ const MenuTitles = [
   },
   {
     id: 3,
-    title: "Understanding your online behaviour (Get Help!)",
+    title: "Understanding your online behaviour",
     link: "/understanding-your-online-behaviour",
   },
   {
