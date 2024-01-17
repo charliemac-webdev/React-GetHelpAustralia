@@ -533,19 +533,18 @@ const SelfCareModuleData = [
       <>
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
-        <br></br>
-        <p>Think about:</p>
-        <ul className="content-list">
-          <li>
-            how has your understanding of self-care improved since you began
-            this module?
-          </li>
-          <li>
-            has this module motivated you to find out more about self-care
-            strategies?
-          </li>
-          <li>how committed are you to your self-care plan?</li>
-        </ul>
+        <p>
+          Has your understanding of self-care improved since you began this
+          module?{" "}
+        </p>
+        <p>INSERT SLIDING SCALE</p>
+        <p>
+          Has this module motivated you to find out more about self-care
+          strategies?
+        </p>
+        <p>(INSERT SLIDING SCALE)</p>
+        <p>How committed are you to your self-care plan?</p>
+        <p>INSERT SLIDING SCALE</p>
         <br />
         <p>
           Self-care is an important element in your journey to understanding

@@ -162,8 +162,7 @@ const GuiltAndShameModuleData = [
           hopeless, which can prevent you from moving to an offence free life.
         </p>
         <p>
-          Here are some techniques you can use to manaage your feelings of
-          shame.
+          Here are some techniques you can use to manage your feelings of shame.
         </p>
         <br />
         <h5 className="secondary-color">
@@ -242,12 +241,16 @@ const GuiltAndShameModuleData = [
     title: "Exercise 2: moving forward",
     description: (
       <>
-        <h4 className="secondary-color">Exercise 2: moving forward</h4>
+        <br></br>
+        <h4 className="secondary-color">
+          Exercise 2: moving forward - REMOVE THIS PAGE
+        </h4>
         <p>
           Holding on to shame can affect your ability to move forward
           positively. Please write down three examples of positive self-talk
           that help you to see that you and your offending are not the same.
         </p>
+        <p>INSERT LINES TO SAVE ANSWERS</p>
         <br />
       </>
     ),
@@ -264,6 +267,7 @@ const GuiltAndShameModuleData = [
           positively. Please write down three examples of positive self-talk
           that help you to see that you and your offending are not the same.
         </p>
+        <p>INSERT LINES TO SAVE ANSWERS</p>
         <br />
         <Link to="/self-help-recognising-and-dealing-with-feelings">
           <div className="d-flex justify-content-end">

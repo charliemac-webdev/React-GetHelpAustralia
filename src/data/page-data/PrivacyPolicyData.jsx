@@ -3,20 +3,13 @@ const PrivacyPolicyData = () => {
     <>
       <div>
         <p>
-          Your privacy is protected by the <em>Privacy Act 1988 </em>(Cth){" "}
-        </p>
-        <p>
-          Get Help! Australia, a program of the University of Sunshine Coast,
-          strives to meet or exceed the requirements of this Act.
-        </p>
-        <p>
-          We’ve adopted this Website Privacy Policy (WPP), from Stop It Now!
-          Australia, to inform you about what data we collect on this website
-          and what we do with it.
-        </p>
-        <p>
-          By continuing to use the Get Help! Australia website you agree to the
-          terms of this WPP, as set out below.
+          Your privacy is protected by the <em>Privacy Act 1988 </em>(Cth) Get
+          Help! Australia, a program of the University of Sunshine Coast,
+          strives to meet or exceed the requirements of this Act. We’ve adopted
+          this Website Privacy Policy (WPP), from Stop It Now! Australia, to
+          inform you about what data we collect on this website and what we do
+          with it. By continuing to use the Get Help! Australia website you
+          agree to the terms of this WPP, as set out below.
         </p>
         <p>Overview:</p>
         <ul className="content-list">
@@ -30,13 +23,13 @@ const PrivacyPolicyData = () => {
           <li>
             <p>
               You are not required to provide personal information to use this
-              service
+              service.
             </p>
           </li>
           <li>
             <p>
               If you do provide us with personal information it is stored
-              securely
+              securely.
             </p>
           </li>
           <li>
@@ -48,13 +41,13 @@ const PrivacyPolicyData = () => {
           <li>
             <p>
               De-identified information may also be used for program development
-              and research purposes
+              and research purposes.
             </p>
           </li>
           <li>
             <p>
               We collect some browsing data (including using cookies) to help us
-              to improve the user experience
+              to improve the user experience.
             </p>
           </li>
           <li>
@@ -67,16 +60,12 @@ const PrivacyPolicyData = () => {
         <h2 className="secondary-color">Your personal information</h2>
         <p>
           We recognise the importance of protecting the privacy of all
-          personally identifiable information{" "}
-        </p>
-        <p>
-          Under this WPP, “personal information” has the same meaning as under
-          the <em>Privacy Act 1988</em> (Cth).
-        </p>
-        <p>
-          No personally identifiable information will be collected without your
-          consent. In order to remain anonymous it is important for you to
-          ensure that you do not disclose any identifiable information. &nbsp;
+          personally identifiable information Under this WPP, “personal
+          information” has the same meaning as under the{" "}
+          <em>Privacy Act 1988</em> (Cth). No personally identifiable
+          information will be collected without your consent. In order to remain
+          anonymous it is important for you to ensure that you do not disclose
+          any identifiable information. &nbsp;
         </p>
         <h2 className="secondary-color">
           How we use your personal information
@@ -85,10 +74,8 @@ const PrivacyPolicyData = () => {
           Get Help! Australia will only use your personal information submitted
           through the website for the purpose for which it was submitted. That
           is, to provide support offered by the program. &nbsp;&nbsp;
-        </p>
-        <p>
           De-identified information may be used for other purposes, such as
-          program improvement purposes and research &nbsp;
+          program improvement purposes and research. &nbsp;
         </p>
         <h2 className="secondary-color">
           Security of your personal information
@@ -185,11 +172,9 @@ const PrivacyPolicyData = () => {
         <p>
           Get Help! Australia will review this WPP periodically and reserves the
           right, at its discretion, to modify or remove portions of this policy
-          at any time.
-        </p>
-        <p>
-          This WPP is subject to regular review and you are advised to revisit
-          this policy page periodically to be informed of changes to the policy.
+          at any time. This WPP is subject to regular review and you are advised
+          to revisit this policy page periodically to be informed of changes to
+          the policy.
         </p>
         <h2 className="secondary-color">Further information</h2>
         <p>

@@ -22,13 +22,6 @@ const IntroductionData = () => {
         We encourage you to look at all sections, even if you feel confident in
         them, as you may still find them helpful.
       </p>
-      <p>
-        If you have any concerns, questions, or would just like to talk about
-        what you are going through, our non-judgemental helpline advisors are
-        here to support you. You can stay anonymous and don’t have to give your
-        real name or any contact details. If you’re not ready to speak to anyone
-        yet, you can also use our live chat or send a secure email.
-      </p>
       <hr />
       <h2 className="secondary-color">Disclaimer</h2>
       <p>

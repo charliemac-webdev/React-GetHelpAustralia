@@ -179,9 +179,11 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <hr />
         <h5 className="secondary-color">Exercise 2 - Your negative thoughts</h5>
         <br></br>
-        <p>Write down a list of your most common negative thoughts.</p>
-        <p>With each of these, identify the associated feeling.</p>
-        <p>Now list your behaviour that resulted from the thoughts.</p>
+        <p>
+          Write down a list of your most common negative thoughts. With each of
+          these, identify the associated feeling. Now list your behaviour that
+          resulted from the thoughts.
+        </p>
         <br />
         <p>Here is an example:</p>
         <p>Situation: Saying hello to a work colleague who doesn't respond.</p>
@@ -198,7 +200,6 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           Start to see if you notice any difference in your feelings once you
           think of other reasons. You may notice the feelings are more positive.
         </p>
-        <br></br>
         <p>
           Now think about your illegal online behaviour? Can you identify any
           feelings and negative thoughts that might contribute to the decision
@@ -255,20 +256,14 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           The following will help you deal with some common negative emotions
           but can also be applied to others.
         </p>
-        <br></br>
         <h5 className="secondary-color">Worry</h5>
         <p>
           Worry tends to involve lots of thoughts that come one after another,
-          which involve events in the future or in the past.
-        </p>
-        <p>
-          Frequently, worry thoughts begin with things like “what if… if only I
-          had”… or “I must remember to…”
-        </p>
-        <p>
-          Sometimes worrying can help make us do helpful things such as checking
-          that we have turned off the oven but it can become a significant
-          problem.
+          which involve events in the future or in the past. Frequently, worry
+          thoughts begin with things like “what if… if only I had”… or “I must
+          remember to…”. Sometimes worrying can help make us do helpful things
+          such as checking that we have turned off the oven but it can become a
+          significant problem.
         </p>
         <p>
           If you answer “yes” to the following questions, then worrying might be
@@ -516,17 +511,19 @@ const RecognisingAndDealingWithFeelingsModuleData = [
       <>
         <h4 className="secondary-color">Reflection</h4>
         <ul className="content-list">
-          <li>Reminders - What shows me that something is wrong?</li>
+          <li>What shows me that something is wrong?</li>
           <li>What can I do to manage negative feelings?</li>
         </ul>
         <br />
         <p>
-          If you want to discuss anything covered in this module, have struggled
-          with working through the self-help material or just want the
-          opportunity to work through the self-help site with a practitioner to
-          guide you then please call the Stop It Now! Helpline for confidential
-          support from our trained staff.
+          This module helped me understand how my emotions influence my thinking
+          and behaviour?
         </p>
+        <p>(INSERT SCALE) </p>
+        <p>
+          This module helped me understand how I cope with difficult emotions?
+        </p>
+        <p>(INSERT SCALE) </p>
         <br />
         <Link to="/self-help-opening-up-to-others">
           <div className="d-flex justify-content-end">
