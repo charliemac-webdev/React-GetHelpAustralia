@@ -12,7 +12,7 @@ const UnderstandingYourThoughtsAndBehaviour = () => {
         <br></br>
         <br></br>
         <h2 className="secondary-color mb-3">
-          Understanding Your Thoughts and Behaviour
+          Get Help! Australia - Understanding Your Thoughts and Behaviour
         </h2>
       </Heading>
       <MainContent>

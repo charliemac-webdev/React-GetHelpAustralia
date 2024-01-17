@@ -7,7 +7,9 @@ const Resources = () => {
     <>
       <Heading>
         <br></br>
-        <h2 className="secondary-color mb-3">Useful resources</h2>
+        <h2 className="secondary-color mb-3">
+          Get Help! Australia - Useful resources
+        </h2>
       </Heading>
       <MainContent>
         <ResourcesData />

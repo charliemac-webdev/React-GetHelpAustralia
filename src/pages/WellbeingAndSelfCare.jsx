@@ -12,7 +12,9 @@ const WellbeingAndSelfCare = () => {
       <Heading>
         <br></br>
         <br></br>
-        <h2 className="secondary-color mb-3">Wellbeing and Self-care</h2>
+        <h2 className="secondary-color mb-3">
+          Get Help! Australia - Wellbeing and Self-care
+        </h2>
       </Heading>
       <MainContent>
         <WellbeingAndSelfCareData />
