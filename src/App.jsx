@@ -12,7 +12,6 @@ import Header from "./components/Header";
 import Help from "./components/Help";
 import Menu from "./components/Menu";
 import ModuleNav from "./components/ModuleNav";
-import RouteChangeTracker from "./components/RouteChangeTracker";
 
 // Pages
 
@@ -67,7 +66,6 @@ function App() {
 
   return (
     <div className="wrapper">
-      <RouteChangeTracker />
       <BrowserRouter>
         <Header />
         <Help />
