@@ -330,11 +330,11 @@ const MotivationForChangeModuleData = [
             Australia{" "}
             <u>
               <a
-                href="https://www.stopitnow.org.uk/helpline/"
+                href="https://www.stopitnow.org.au/helpline"
                 target="_blank"
                 rel="noopener"
               >
-                helpline *UPDATE LINK TO AUS*
+                helpline
               </a>
             </u>
             &nbsp;advisors are here to support you. You can stay anonymous and
