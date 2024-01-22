@@ -4,6 +4,7 @@ import pictureOne from "../../../images/diagrams-response.gif";
 
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import EmotionsQuiz from "../../../components/EmotionsQuiz";
 
 const RecognisingAndDealingWithFeelingsModuleData = [
   {
@@ -33,8 +34,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <hr />
         <h5 className="secondary-color">Starting Point</h5>
         <p>Use this quiz to identify your current level of confidence.</p>
-        <p>INSERT QUIZ HERE</p>
-        {/* <ConfidenceQuiz/> module not created yet */}
+        <EmotionsQuiz />
         <br />
         <hr />
         <h5 className="secondary-color">What happens in my body</h5>
@@ -86,7 +86,13 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           </tbody>
         </table>
         <p>
-          <b>Download printable template</b>
+          <a
+            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/dealing-with-feelings-exercise-1.pdf"
+            target="_blank"
+            rel="nonreferrer noreferrer"
+          >
+            Download printable template &gt;
+          </a>
         </p>
         <br />
         <h5 className="secondary-color">

@@ -1,14 +1,27 @@
-/* eslint-disable react/prop-types */
-import { Slider } from "@mui/material";
+import { BarChart } from "@mui/x-charts/BarChart";
 import { useState } from "react";
+import emotionsQuizData from "../data/modules/assessments/emotionsQuizData";
 import Button from "./Button";
-
-function valuetext(value) {
-  return value;
-}
 
 const EmotionsQuiz = () => {
   const [active, setActive] = useState(0);
+  const [values, setValues] = useState({ 1: 0, 2: 0, 3: 0 });
+  const { description } = emotionsQuizData[active];
+
+  const handleClick = () => {
+    const selectedValue = Number(
+      document.querySelector(".MuiSlider-valueLabelLabel").textContent
+    );
+
+    setValues((prevValues) => ({
+      ...prevValues,
+      [selectedValue]: prevValues[selectedValue] + 1,
+    }));
+
+    if (active <= emotionsQuizData.length - 1) {
+      setActive(active + 1);
+    }
+  };
 
   return (
     <>
@@ -20,25 +33,38 @@ const EmotionsQuiz = () => {
         <div className={`number ${active >= 4 ? "active" : ""}`}>5</div>
       </div>
       <hr />
-      <div className="bg-primary-subtle border border-primary p-3">
-        <p>Q1: I can recognise changes in my body and identify how I feel</p>
-      </div>
+      <div>{description}</div>
       <br />
-      <br />
-      <Slider
-        aria-label="Always visible"
-        defaultValue={2}
-        step={1}
-        marks
-        min={1}
-        max={3}
-        getAriaValueText={valuetext}
-        valueLabelDisplay="on"
-      />
-      <div className="d-flex justify-content-between">
-        <span className="w-50">No confidence</span>
-        <span className="w-50">Very confident</span>
-      </div>
+
+      {active === emotionsQuizData.length - 1 && (
+        <>
+          <div className="d-flex justify-content-center">
+            <BarChart
+              axisHighlight={{
+                x: "none",
+                y: "none",
+              }}
+              xAxis={[
+                {
+                  id: "barCategories",
+                  data: ["No confidence", "Some confidence", "Very confident"],
+                  scaleType: "band",
+                },
+              ]}
+              series={[
+                {
+                  data: [values[1], values[2], values[3]],
+                  color: "#004c97",
+                },
+              ]}
+              leftAxis={null}
+              width={500}
+              height={300}
+            />
+          </div>
+        </>
+      )}
+
       <div className="d-flex justify-content-between">
         {active <= 3 ? (
           <Button ident="next-button" classes="btn" onClick={handleClick}>

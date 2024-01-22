@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+// Google Analytics
+import ReactGA from "react-ga";
+const TRACKING_ID = "";
+ReactGA.initialize(TRACKING_ID);
+
 // Components
 import Footer from "./components/Footer";
 import Header from "./components/Header";
