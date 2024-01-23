@@ -554,7 +554,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <p>(INSERT SCALE) </p>
         <br />
-        <Link to="/self-help-opening-up-to-others">
+        <Link to="/self-care">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module
