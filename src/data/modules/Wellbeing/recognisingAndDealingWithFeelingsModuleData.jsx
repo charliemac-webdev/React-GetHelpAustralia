@@ -6,6 +6,12 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import EmotionsQuiz from "../../../components/EmotionsQuiz";
 
+import { Slider } from "@mui/material";
+
+function valuetext(value) {
+  return value;
+}
+
 const RecognisingAndDealingWithFeelingsModuleData = [
   {
     id: 1,
@@ -544,15 +550,61 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           <li>What can I do to manage negative feelings?</li>
         </ul>
         <br />
-        <p>
-          This module helped me understand how my emotions influence my thinking
-          and behaviour?
-        </p>
-        <p>(INSERT SCALE) </p>
-        <p>
-          This module helped me understand how I cope with difficult emotions?
-        </p>
-        <p>(INSERT SCALE) </p>
+        <>
+          <div className="bg-primary-subtle border border-primary p-3">
+            <p>
+              This module helped me understand how my emotions influence my
+              thinking and behaviour?
+            </p>
+          </div>
+          <br />
+          <br />
+          <Slider
+            aria-label="Always visible"
+            defaultValue={3}
+            step={1}
+            marks
+            min={1}
+            max={5}
+            getAriaValueText={valuetext}
+            valueLabelDisplay="on"
+          />
+          <div className="d-flex justify-content-between w-100">
+            <span className="w-20">Not at all</span>
+            <span className="w-20">Some no</span>
+            <span className="w-20 text-center">Unsure</span>
+            <span className="w-20 text-end">Some yes</span>
+            <span className="w-20 text-end">Yes</span>
+          </div>
+        </>
+        <br />
+        <>
+          <div className="bg-primary-subtle border border-primary p-3">
+            <p>
+              This module helped me understand how I cope with difficult
+              emotions?
+            </p>
+          </div>
+          <br />
+          <br />
+          <Slider
+            aria-label="Always visible"
+            defaultValue={3}
+            step={1}
+            marks
+            min={1}
+            max={5}
+            getAriaValueText={valuetext}
+            valueLabelDisplay="on"
+          />
+          <div className="d-flex justify-content-between w-100">
+            <span className="w-20">Not at all</span>
+            <span className="w-20">Some no</span>
+            <span className="w-20 text-center">Unsure</span>
+            <span className="w-20 text-end">Some yes</span>
+            <span className="w-20 text-end">Yes</span>
+          </div>
+        </>
         <br />
         <Link to="/self-care">
           <div className="d-flex justify-content-end">
