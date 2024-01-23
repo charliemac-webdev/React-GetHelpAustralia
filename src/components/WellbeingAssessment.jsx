@@ -1,29 +1,27 @@
+import { BarChart } from "@mui/x-charts/BarChart";
 import { useState } from "react";
 import wellbeingAssessmentData from "../data/modules/assessments/wellbeingAssessmentData";
 import Button from "./Button";
 
 const WellbeingAssessment = () => {
   const [active, setActive] = useState(0);
-  const [values, setValues] = useState([]);
+  const [values, setValues] = useState({ 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 });
   const { description } = wellbeingAssessmentData[active];
 
   const handleClick = () => {
-    const value = Number(
+    const selectedValue = Number(
       document.querySelector(".MuiSlider-valueLabelLabel").textContent
     );
 
-    setValues((prevValues) => {
-      const newValues = [...prevValues, value];
-      console.log(newValues);
-      return newValues;
-    });
+    setValues((prevValues) => ({
+      ...prevValues,
+      [selectedValue]: prevValues[selectedValue] + 1,
+    }));
 
     if (active <= wellbeingAssessmentData.length - 1) {
       setActive(active + 1);
     }
   };
-
-  const total = values.reduce((a, b) => a + b, 0);
 
   return (
     <>
@@ -39,7 +37,36 @@ const WellbeingAssessment = () => {
       <br />
 
       {active === wellbeingAssessmentData.length - 1 && (
-        <div>The total is: {total}</div>
+        <div className="d-flex justify-content-center">
+          <BarChart
+            axisHighlight={{
+              x: "none",
+              y: "none",
+            }}
+            xAxis={[
+              {
+                id: "barCategories",
+                data: [
+                  "Physical",
+                  "Social",
+                  "Mental",
+                  "Spiritual",
+                  "Emotional",
+                ],
+                scaleType: "band",
+              },
+            ]}
+            series={[
+              {
+                data: [values[1], values[2], values[3], values[4], values[5]],
+                color: "#004c97",
+              },
+            ]}
+            leftAxis={null}
+            width={500}
+            height={300}
+          />
+        </div>
       )}
 
       <div className="d-flex justify-content-between">

@@ -243,54 +243,10 @@ const wellbeingAssessmentData = [
     id: 6,
     description: (
       <>
-        <h4 className="secondary-color">Wellbeing assessment complete</h4>
-        <p>
-          <b>Your results</b>
-        </p>
-        <div className="results-quiz-main-wrapper">
+        <div className="results-quiz-main-wrapper form-17-results">
           <div className="row">
-            <div className="col"></div>
-          </div>
-          <div className="row results-quiz-3-wrapper">
             <div className="col">
-              <ul className="m-0 p-0 list-unstyled d-flex flex-column">
-                <li style={{ width: 10 }}>
-                  <span>physical</span>
-                </li>
-                <li style={{ width: 20 }}>
-                  <span>social</span>
-                </li>
-                <li style={{ width: 30 }}>
-                  <span>mental</span>
-                </li>
-                <li style={{ width: 40 }}>
-                  <span>spiritual</span>
-                </li>
-                <li style={{ width: 60 }}>
-                  <span>emotional</span>
-                </li>
-              </ul>
-            </div>
-            <div className="col">
-              <div className="results-quiz-3-graph mb-5">
-                <ul className="m-0 p-0 list-unstyled d-flex flex-column">
-                  <li style={{ width: 10 }}>
-                    <span>1</span>
-                  </li>
-                  <li style={{ width: 20 }}>
-                    <span>2</span>
-                  </li>
-                  <li style={{ width: 30 }}>
-                    <span>3</span>
-                  </li>
-                  <li style={{ width: 40 }}>
-                    <span>4</span>
-                  </li>
-                  <li style={{ width: 60 }}>
-                    <span>6</span>
-                  </li>
-                </ul>
-              </div>
+              <h2>Your results</h2>
             </div>
           </div>
         </div>

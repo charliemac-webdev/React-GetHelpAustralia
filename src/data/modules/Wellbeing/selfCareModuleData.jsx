@@ -26,17 +26,20 @@ const SelfCareModuleData = [
           future. Making sure we find time for self-care can help us deal with
           the challenges we face in a positive way.
         </p>
+        <br />
         <p>
           We also suggest doing this work in a way that feels emotionally and
           psychologically safe. This might mean involving a trusted family
           member, friend, or professional, so you don’t feel isolated and have
           someone to discuss the information with.
         </p>
+        <br />
         <p>
           Regularly using strategies like breathing techniques, grounding,
           mindfulness, and self-compassion can help us to cope with difficult
           emotions, thoughts, and situations.
         </p>
+        <br />
         <p>
           Self-care is important in helping you move away from risky and illegal
           behaviour. When people feel happy and content, they are far less
@@ -60,6 +63,7 @@ const SelfCareModuleData = [
           Please complete the following wellbeing assessment that will ask about
           your physical, social, mental, spiritual and emotional self-care.
         </p>
+        <br />
         <WellbeingAssessment />
         <br />
         <h4 className="secondary-color">Understanding your self-care score</h4>
