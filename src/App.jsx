@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Google Analytics
 import ReactGA from "react-ga";
-const TRACKING_ID = "";
+const TRACKING_ID = "G-H68HHF0TK8";
 ReactGA.initialize(TRACKING_ID);
 
 // Components
