@@ -23,6 +23,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           aim to help you get more in tune with your body so that you notice how
           it is responding in different situations.{" "}
         </p>
+        <br />
         <p>The following diagram helps to explain this:</p>
         <img
           className="mx-auto d-block"
@@ -104,11 +105,13 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           sexual images of children include dealing with negative emotions such
           as stress, loneliness, frustration, depression and anxiety.
         </p>
+        <br />
         <p>
           They often describe using sexual fantasy and masturbation or illegal
           on-line behaviour as a way of coping with negative feelings and
           situations as a form of self-soothing, escapism and stress relief.
         </p>
+        <br />
         <p>
           They may be aware that these are not coping strategies but for a
           variety of reasons struggle to identify other more positive ways of
@@ -153,10 +156,12 @@ const RecognisingAndDealingWithFeelingsModuleData = [
             getting to do something new.
           </e>
         </p>
+        <br />
         <p>
           We are now going to explore how positive and negative thinking can
           help with managing emotions.
         </p>
+        <br />
         <p>
           This includes how you feel about yourself (your self-esteem); how you
           feel about your situation and your feelings towards other people. For
@@ -173,14 +178,20 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </h5>
         <p>
           If you are unsure of negative and positive thinking (otherwise known
-          as self-talk) then please work through our <b>self-talk section</b>.
+          as self-talk) then please work through our{" "}
+          <Link to="/self-talk">
+            <b>self-talk section</b>
+          </Link>
+          .
         </p>
+        <br />
         <p>
           Negative thinking comprises thoughts in which you see the worst in
           everything. It reduces your expectations by expecting the worst.
           Negative thinking tends to manifest itself in patterns of behaviour
           which are characterized by stress, worry, anxiety and frustration.
         </p>
+        <br />
         <p>Positive thinking encourages healthy behaviour.</p>
         <hr />
         <h5 className="secondary-color">Exercise 2 - Your negative thoughts</h5>
@@ -248,6 +259,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           which has been created by Psychology Tools (
           <a href="https://www.psychologytools.com">psychologytools.com</a>).
         </p>
+        <br />
       </>
     ),
   },
@@ -262,6 +274,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           The following will help you deal with some common negative emotions
           but can also be applied to others.
         </p>
+        <br />
         <h5 className="secondary-color">Worry</h5>
         <p>
           Worry tends to involve lots of thoughts that come one after another,
@@ -271,6 +284,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           such as checking that we have turned off the oven but it can become a
           significant problem.
         </p>
+        <br />
         <p>
           If you answer “yes” to the following questions, then worrying might be
           a problem for you.
@@ -454,7 +468,13 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           </tbody>
         </table>
         <p>
-          <b>Download printable template</b>
+          <a
+            href="https://get-help.stopitnow.org.uk/downloads/self-help/dealing-with-feelings/dealing-with-feelings-exercise-3.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            Download printable template &gt;
+          </a>
         </p>
         <br></br>
         <hr />
@@ -504,9 +524,12 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </ol>
         <p>
           You can find more about{" "}
-          <b>managing difficult thoughts, feelings, and behaviours</b> here.
-          (INSERT HYPERLINK TO MODULE)
+          <Link to="/managing-thoughts-feelings-and-behaviours">
+            <b>managing difficult thoughts, feelings, and behaviours</b>
+          </Link>{" "}
+          here.
         </p>
+        <br />
       </>
     ),
   },

@@ -8,7 +8,26 @@ Variables
 
 :root {
   --clr-primary: #ff8200;
+  --clr-primary-100: #ff8f1a;
+  --clr-primary-200: #ff9b33;
+  --clr-primary-300: #ffa84d;
+  --clr-primary-400: #ffb466;
+  --clr-primary-500: #ffc180;
+  --clr-primary-600: #ffcd99;
+  --clr-primary-700: #ffdab3;
+  --clr-primary-800: #ffe6cc;
+  --clr-primary-900: #fff3e6;
+
   --clr-secondary: #004c97;
+  --clr-secondary-100: #1a5ea1;
+  --clr-secondary-200: #3370ac;
+  --clr-secondary-300: #4d82b6;
+  --clr-secondary-400: #6694c1;
+  --clr-secondary-500: #80a6cb;
+  --clr-secondary-600: #99b7d5;
+  --clr-secondary-700: #b3c9e0;
+  --clr-secondary-800: #ccdbea;
+  --clr-secondary-900: #e6edf5;
 
   --clr-white: #fff;
   --ff-primary: "Lato", sans-serif;
@@ -42,6 +61,11 @@ h6 {
   font-weight: 500;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 #menu-titles {
   margin-bottom: 2rem;
 }
@@ -69,6 +93,10 @@ h6 {
 
 .blue-background {
   background-color: var(--clr-secondary) !important;
+
+  &:hover {
+    background-color: var(--clr-secondary-500) !important;
+  }
 }
 
 #leave-button {
