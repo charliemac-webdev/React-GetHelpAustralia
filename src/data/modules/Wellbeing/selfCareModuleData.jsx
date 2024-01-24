@@ -1,6 +1,11 @@
+import { Slider } from "@mui/material";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import WellbeingAssessment from "../../../components/WellbeingAssessment";
+
+function valuetext(value) {
+  return value;
+}
 
 const SelfCareModuleData = [
   {
@@ -537,19 +542,17 @@ const SelfCareModuleData = [
       <>
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
-        <p>
-          Has your understanding of self-care improved since you began this
-          module?{" "}
-        </p>
-        <p>INSERT SLIDING SCALE</p>
-        <p>
-          Has this module motivated you to find out more about self-care
-          strategies?
-        </p>
-        <p>(INSERT SLIDING SCALE)</p>
-        <p>How committed are you to your self-care plan?</p>
-        <p>INSERT SLIDING SCALE</p>
-        <br />
+        <ul className="content-list">
+          <li>
+            how has your understanding of self-care improved since you began
+            this module?
+          </li>
+          <li>
+            has this module motivated you to find out more about self-care
+            strategies?
+          </li>
+          <li>how committed are you to your self-care plan?</li>
+        </ul>
         <p>
           Self-care is an important element in your journey to understanding
           your risky online behaviour and moving away from it, towards a better
@@ -558,8 +561,56 @@ const SelfCareModuleData = [
           you to factor in self-care after each session of working through these
           self-help modules.
         </p>
+        <div className="bg-primary-subtle border border-primary p-3">
+          <p>
+            This module has helped me explore and understand the importance and
+            self-care.
+          </p>
+        </div>
         <br />
-        <Link to="/self-help-guilt-and-shame">
+        <br />
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          marks
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+        <div className="d-flex justify-content-between w-100">
+          <span className="text-wrap w-6 me-3">Strongly disagree</span>
+          <span className="w-20">Disagree</span>
+          <span className="w-20 text-center">Neither</span>
+          <span className="w-20 text-end">Agree</span>
+          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
+        </div>
+        <br />
+        <div className="bg-primary-subtle border border-primary p-3">
+          <p>I am committed to my own self-care plan and goals.</p>
+        </div>
+        <br />
+        <br />
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          marks
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+        <div className="d-flex justify-content-between w-100">
+          <span className="text-wrap w-6 me-3">Strongly disagree</span>
+          <span className="w-20">Disagree</span>
+          <span className="w-20 text-center">Neither</span>
+          <span className="w-20 text-end">Agree</span>
+          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
+        </div>
+        <br />
+        <Link to="/guilt-and-shame">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

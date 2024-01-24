@@ -5,7 +5,8 @@ import Button from "./Button";
 
 const EmotionsQuiz = () => {
   const [active, setActive] = useState(0);
-  const [values, setValues] = useState({ 1: 0, 2: 0, 3: 0 });
+  const [values, setValues] = useState([]);
+  const [sum, setSum] = useState(0);
   const { description } = emotionsQuizData[active];
 
   const handleClick = () => {
@@ -13,10 +14,13 @@ const EmotionsQuiz = () => {
       document.querySelector(".MuiSlider-valueLabelLabel").textContent
     );
 
-    setValues((prevValues) => ({
-      ...prevValues,
-      [selectedValue]: prevValues[selectedValue] + 1,
-    }));
+    setValues([...values, selectedValue]); // Update the values state using setValues
+
+    const newSum = values.reduce(
+      (accumulator, currentValue) => accumulator + currentValue,
+      0
+    );
+    setSum(newSum);
 
     if (active <= emotionsQuizData.length - 1) {
       setActive(active + 1);

@@ -570,11 +570,11 @@ const RecognisingAndDealingWithFeelingsModuleData = [
             valueLabelDisplay="on"
           />
           <div className="d-flex justify-content-between w-100">
-            <span className="w-20">Not at all</span>
-            <span className="w-20">Some no</span>
-            <span className="w-20 text-center">Unsure</span>
-            <span className="w-20 text-end">Some yes</span>
-            <span className="w-20 text-end">Yes</span>
+            <span className="w-20">Strongly disagree</span>
+            <span className="w-20">Disagree</span>
+            <span className="w-20 text-center">Neither</span>
+            <span className="w-20 text-end">Agree</span>
+            <span className="w-20 text-end">Strongly agree</span>
           </div>
         </>
         <br />
