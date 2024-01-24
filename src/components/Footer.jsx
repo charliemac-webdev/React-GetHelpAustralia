@@ -48,10 +48,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col p-4">
             <div className="d-flex flex-column justify-content-center text-center">
               <div className="p-2">
-                <img src={logo} alt="UniSC" height="145" />
+                <img src={logo} alt="UniSC" height="150" />
               </div>
               <div>
                 <p>University of Sunshine Coast</p>
