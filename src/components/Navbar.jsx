@@ -43,7 +43,7 @@ const Navbar = () => {
         </ul>
       </div>
       <a className="navbar-brand" href="#">
-        <img src={logo2} alt="UniSc" height="137" />
+        <img src={logo2} alt="UniSc" height="145" />
       </a>
     </nav>
   );

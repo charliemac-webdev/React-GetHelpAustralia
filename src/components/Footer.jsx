@@ -43,10 +43,8 @@ const Footer = () => {
               </div>
 
               <div className="p-2">
-                <p className="copyright">
-                  Website design by
-                  <span id="date"></span> Charlie Mac Web Developments
-                </p>
+                <p className="m-0">Website design by</p>
+                <p>Charlie Mac Web Developments</p>
               </div>
             </div>
           </div>
