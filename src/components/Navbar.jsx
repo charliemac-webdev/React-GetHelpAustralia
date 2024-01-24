@@ -1,4 +1,5 @@
 import logo from "../images/stopitnow.png";
+import logo2 from "../images/UniSC_Abr-Logo_Stack_RGB (1).png";
 import Button from "./Button";
 
 const Navbar = () => {
@@ -41,6 +42,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <a className="navbar-brand" href="#">
+        <img src={logo2} alt="UniSc" height="137" />
+      </a>
     </nav>
   );
 };
