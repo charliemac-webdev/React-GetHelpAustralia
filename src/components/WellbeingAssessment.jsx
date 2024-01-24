@@ -3,9 +3,15 @@ import { useState } from "react";
 import wellbeingAssessmentData from "../data/modules/assessments/wellbeingAssessmentData";
 import Button from "./Button";
 
+const values = [];
+const sum = values.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  0
+);
+
 const WellbeingAssessment = () => {
   const [active, setActive] = useState(0);
-  const [values, setValues] = useState({ 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 });
+  // const [values, setValues] = useState({ 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 });
   const { description } = wellbeingAssessmentData[active];
 
   const handleClick = () => {
@@ -13,10 +19,13 @@ const WellbeingAssessment = () => {
       document.querySelector(".MuiSlider-valueLabelLabel").textContent
     );
 
-    setValues((prevValues) => ({
-      ...prevValues,
-      [selectedValue]: prevValues[selectedValue] + 1,
-    }));
+    // setValues((prevValues) => ({
+    //   ...prevValues,
+    //   [selectedValue]: prevValues[selectedValue] + 1,
+    // }));
+
+    values.push(selectedValue);
+    console.log(values);
 
     if (active <= wellbeingAssessmentData.length - 1) {
       setActive(active + 1);
@@ -58,7 +67,7 @@ const WellbeingAssessment = () => {
             ]}
             series={[
               {
-                data: [values[1], values[2], values[3], values[4], values[5]],
+                data: [values[0], values[1], values[2], values[3], values[4]],
                 color: "#004c97",
               },
             ]}
