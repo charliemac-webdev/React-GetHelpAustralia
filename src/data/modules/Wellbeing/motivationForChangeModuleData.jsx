@@ -308,7 +308,6 @@ const MotivationForChangeModuleData = [
           <p>
             <u>Download the table here.</u>
           </p>
-          <br></br>
           <p>
             If you have people you can talk to about the changes you want to
             make, it’s a good idea to include them in your plan. It’s helpful to
@@ -349,6 +348,14 @@ const MotivationForChangeModuleData = [
           </p>
         </div>
         <br />
+      </>
+    ),
+  },
+  {
+    id: 4,
+    title: "Reflection",
+    description: (
+      <>
         <div className="bg-primary-subtle border border-primary p-3">
           <p>
             This module has helped me understand change happens in stages and
@@ -427,7 +434,7 @@ const MotivationForChangeModuleData = [
           <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
         </div>
         <br />
-        <Link to="/self-help-recognising-and-dealing-with-feelings">
+        <Link to="/self-esteem-and-assertiveness">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module
