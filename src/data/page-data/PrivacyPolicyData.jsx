@@ -8,8 +8,11 @@ const PrivacyPolicyData = () => {
           strives to meet or exceed the requirements of this Act. We’ve adopted
           this Website Privacy Policy (WPP), from Stop It Now! Australia, to
           inform you about what data we collect on this website and what we do
-          with it. By continuing to use the Get Help! Australia website you
-          agree to the terms of this WPP, as set out below.
+          with it.
+        </p>
+        <p>
+          By continuing to use the Get Help! Australia website you agree to the
+          terms of this WPP, as set out below.
         </p>
         <p>Overview:</p>
         <ul className="content-list">
@@ -28,8 +31,8 @@ const PrivacyPolicyData = () => {
           </li>
           <li>
             <p>
-              If you do provide us with de-identifible information it is stored
-              securely.
+              The website has been designed so no identifiable information can
+              be inputted by you.
             </p>
           </li>
           <li>
@@ -40,21 +43,28 @@ const PrivacyPolicyData = () => {
           </li>
           <li>
             <p>
-              De-identified information may also be used for program development
-              and research purposes currently undertaken by the University of
-              Sunshine Coast.
-            </p>
-          </li>
-          <li>
-            <p>
               We collect some browsing data (including using cookies) to help us
               to improve the user experience.
             </p>
           </li>
           <li>
             <p>
+              Unidentifiable information may also be used for program
+              development and extended research purposes currently undertaken by
+              the University of Sunshine Coast.
+            </p>
+          </li>
+          <li>
+            <p>
+              Any data collected as part of this website and extended research
+              is stored securely as per the WPP policy and research data
+              management procedures.
+            </p>
+          </li>
+          <li>
+            <p>
               You can contact us if you have any questions about this policy, or
-              any information that you have provided that we may hold.
+              any concerns about information that we may hold.
             </p>
           </li>
         </ul>
@@ -62,12 +72,12 @@ const PrivacyPolicyData = () => {
         <p>
           We recognise the importance of protecting the privacy of all
           personally identifiable information. Under this WPP, “personal
-          information” has the same meaning as under the{" "}
-          <em>Privacy Act 1988</em> (Cth). No personally identifiable
-          information will be collected without your consent. The website has
-          been designed so no identifiable information can be inputted by you.
-          Additionally, in order to remain anonymous it is important for you to
-          ensure that you do not disclose any identifiable information. &nbsp;
+          information” has the same meaning as under the Privacy Act 1988 (Cth).
+          The website has been designed so no identifiable information can be
+          inputted by you, therefore no identifiable information will be
+          collected without further consent. Additionally, in order to remain
+          anonymous, it is important for you to ensure that you do not disclose
+          any identifiable information. &nbsp;
         </p>
         <h2 className="secondary-color">
           How we use your personal information
@@ -75,9 +85,9 @@ const PrivacyPolicyData = () => {
         <p>
           Get Help! Australia will only use your personal information submitted
           through the website for the purpose for which it was submitted. That
-          is, to provide support offered by the program. &nbsp;&nbsp;
-          De-identified information may be used for other purposes, such as
-          program improvement and research purposes. &nbsp;
+          is, to provide support offered by the program. Unidentified
+          information will also be used for other purposes, such as program
+          improvement and extended research purposes. &nbsp;
         </p>
         <h2 className="secondary-color">
           Security of your personal information
@@ -96,7 +106,10 @@ const PrivacyPolicyData = () => {
         </p>
         <p>
           Once Get Help! Australia receives your transmission, however, strict
-          security procedures are used to protect it on our systems.
+          security procedures are used to protect it on our systems. If you have
+          been referred to this program by another organisation, please be
+          assured their only involvement is to provide you with the link to the
+          website and will not be part of the research process beyond that.
         </p>
         <h2 className="secondary-color">
           Collection of website browsing information
@@ -168,7 +181,7 @@ const PrivacyPolicyData = () => {
         <p>
           If logged in, upon closing your browser, the session cookie set by
           this web site is destroyed, you are automatically logged out, and no
-          Personal Information is maintained which might identify you should you
+          personal information is maintained which might identify you should you
           visit our web site at a later date.
         </p>
         <p>
@@ -187,11 +200,12 @@ const PrivacyPolicyData = () => {
         </p>
         <h2 className="secondary-color">Further information</h2>
         <p>
-          If you do provide us with personal information you have a right to
-          review any information held about you. If you want access this
-          information, or if you have a complaint concerning your information,
-          or wish to have your information corrected you can email
-          GetHelpAust@gmail.com.
+          If you have any concerns or complaints about this website, its
+          content, or extended research associated with it, please direct
+          questions to GetHelpAust@gmail.com. If you prefer an independent
+          person, you may contact the Chair of the UniSC Human Research Ethics
+          Committee on humanethics@usc.edu.au. By continuing to use the Get
+          Help! Australia website you agree to the terms of this WPP.
         </p>
         <h2 className="secondary-color">
           Information about links on this web site
