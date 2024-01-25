@@ -3,12 +3,11 @@ const PrivacyPolicyData = () => {
     <>
       <div>
         <p>
-          Your privacy is protected by the <em>Privacy Act 1988 </em>(Cth). Get
-          Help! Australia, a program of the University of Sunshine Coast,
-          strives to meet or exceed the requirements of this Act. We’ve adopted
-          this Website Privacy Policy (WPP), from Stop It Now! Australia, to
-          inform you about what data we collect on this website and what we do
-          with it.
+          Your privacy is protected by the Privacy Act 1988 (Cth). Get Help!
+          Australia, a program of the University of Sunshine Coast, strives to
+          meet or exceed the requirements of this Act. We’ve adopted this
+          Website Privacy Policy (WPP), from Stop It Now! Australia, to inform
+          you about what data we collect on this website and what we do with it.
         </p>
         <p>
           By continuing to use the Get Help! Australia website you agree to the
@@ -49,9 +48,8 @@ const PrivacyPolicyData = () => {
           </li>
           <li>
             <p>
-              Unidentifiable information may also be used for program
-              development and extended research purposes currently undertaken by
-              the University of Sunshine Coast.
+              We also collect unidentifiable information that may be used for
+              program development and extended research purposes.
             </p>
           </li>
           <li>
@@ -68,48 +66,29 @@ const PrivacyPolicyData = () => {
             </p>
           </li>
         </ul>
-        <h2 className="secondary-color">Your personal information</h2>
+        <h2 className="secondary-color">Your information</h2>
         <p>
           We recognise the importance of protecting the privacy of all
           personally identifiable information. Under this WPP, “personal
           information” has the same meaning as under the Privacy Act 1988 (Cth).
-          The website has been designed so no identifiable information can be
-          inputted by you, therefore no identifiable information will be
-          collected without further consent. Additionally, in order to remain
-          anonymous, it is important for you to ensure that you do not disclose
-          any identifiable information. &nbsp;
+          The personal information that will be collected are your scores to
+          questions located at the end of each module. The website has been
+          designed so no identifiable personal information can be inputted by
+          you, ensuring you remain anonymous &nbsp;
         </p>
-        <h2 className="secondary-color">
-          How we use your personal information
-        </h2>
-        <p>
-          Get Help! Australia will only use your personal information submitted
-          through the website for the purpose for which it was submitted. That
-          is, to provide support offered by the program. Unidentified
-          information will also be used for other purposes, such as program
-          improvement and extended research purposes. &nbsp;
-        </p>
-        <h2 className="secondary-color">
-          Security of your personal information
-        </h2>
+        <h2 className="secondary-color">Security of your information</h2>
         <p>
           Get Help! Australia strives to ensure the security, integrity and
-          privacy of personally identifiable information submitted via this
-          website. Get Help! Australia periodically reviews and updates security
-          measures in light of current technologies.
-        </p>
-        <p>
-          While you send information to us, please bear in mind that Get Help!
-          Australia cannot ensure or warrant the security of any information in
-          transit because no data transmission over the Internet can be
-          guaranteed to be totally secure.
-        </p>
-        <p>
-          Once Get Help! Australia receives your transmission, however, strict
-          security procedures are used to protect it on our systems. If you have
-          been referred to this program by another organisation, please be
-          assured their only involvement is to provide you with the link to the
-          website and will not be part of the research process beyond that.
+          privacy of information submitted via this website. Get Help! Australia
+          periodically reviews and updates security measures in light of current
+          technologies. Get Help! Australia cannot ensure or warrant the
+          security of any information in transit because no data transmission
+          over the Internet can be guaranteed to be totally secure. Once Get
+          Help! Australia receives your transmission; however, strict security
+          procedures are used to protect it on our systems. If you have been
+          referred to this program by another organisation, please be assured
+          their only involvement is to provide you with the link to the website
+          and will not be part of the research process beyond that.
         </p>
         <h2 className="secondary-color">
           Collection of website browsing information
@@ -117,11 +96,10 @@ const PrivacyPolicyData = () => {
         <p>
           When visiting this website, Get Help! Australia site server makes a
           record of that visit and logs the information for statistical and
-          administrative purposes. No personal information will be collected.
-          Information collected is purely for the purposes of site
-          administration and will not be used for any other purpose. A
-          third-party service called Google Analytics (GA) is also used to
-          enhance this record.
+          administrative purposes. No identifiable information will be
+          collected. Information collected is for the purposes of site
+          administration and extended research purposes. A third-party service
+          called Google Analytics (GA) is also used to enhance this record.
         </p>
         <p>
           The browsing data and personal information that is collected using
@@ -190,6 +168,23 @@ const PrivacyPolicyData = () => {
           block such cookies, using your browser preferences, without it
           affecting the way the website functions.
         </p>
+        <h2 className="secondary-color">How we use your information</h2>
+        <p>
+          Get Help! Australia has been adapted by the University of Sunshine
+          Coast (Ethics Approval Number:….. ) for Australian use. Your browsing
+          data and unidentifiable information will be used as part of a research
+          project to learn more about how we can best help individuals who are
+          concerned about their online behaviour. This research will influence
+          decision-making about the program’s suitability as a preventative tool
+          for future use in Australia. It is not anticipated that this research
+          project will directly benefit you, but it will contribute towards the
+          effort of improving preventative self-help tools for use in Australia.
+          &nbsp;
+        </p>
+        <p>
+          By continuing to use the Get Help! Australia website you agree to the
+          terms of this WPP.
+        </p>
         <h2 className="secondary-color">Changes to these terms</h2>
         <p>
           Get Help! Australia will review this WPP periodically and reserves the
@@ -204,8 +199,7 @@ const PrivacyPolicyData = () => {
           content, or extended research associated with it, please direct
           questions to GetHelpAust@gmail.com. If you prefer an independent
           person, you may contact the Chair of the UniSC Human Research Ethics
-          Committee on humanethics@usc.edu.au. By continuing to use the Get
-          Help! Australia website you agree to the terms of this WPP.
+          Committee on humanethics@usc.edu.au.
         </p>
         <h2 className="secondary-color">
           Information about links on this web site
