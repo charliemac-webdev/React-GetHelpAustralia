@@ -44,7 +44,7 @@ const Footer = () => {
 
               <div className="p-2">
                 <p className="m-0">Website design by</p>
-                <p>Charlie Mac Web Developments</p>
+                <p>Charlie Mac Web Development</p>
               </div>
             </div>
           </div>

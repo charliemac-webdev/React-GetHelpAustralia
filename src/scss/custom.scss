@@ -107,6 +107,13 @@ h6 {
   }
 }
 
+.semi-blue-background {
+  background-color: var(--clr-secondary-300) !important;
+  &:hover {
+    background-color: var(--clr-secondary-500) !important;
+  }
+}
+
 #leave-button {
   background-color: var(--clr-primary);
   color: var(--clr-white);
