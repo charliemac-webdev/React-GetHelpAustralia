@@ -3,7 +3,7 @@ const PrivacyPolicyData = () => {
     <>
       <div>
         <p>
-          Your privacy is protected by the <em>Privacy Act 1988 </em>(Cth) Get
+          Your privacy is protected by the <em>Privacy Act 1988 </em>(Cth). Get
           Help! Australia, a program of the University of Sunshine Coast,
           strives to meet or exceed the requirements of this Act. We’ve adopted
           this Website Privacy Policy (WPP), from Stop It Now! Australia, to
@@ -28,7 +28,7 @@ const PrivacyPolicyData = () => {
           </li>
           <li>
             <p>
-              If you do provide us with personal information it is stored
+              If you do provide us with de-identifible information it is stored
               securely.
             </p>
           </li>
@@ -41,7 +41,8 @@ const PrivacyPolicyData = () => {
           <li>
             <p>
               De-identified information may also be used for program development
-              and research purposes.
+              and research purposes currently undertaken by the University of
+              Sunshine Coast.
             </p>
           </li>
           <li>
@@ -60,12 +61,13 @@ const PrivacyPolicyData = () => {
         <h2 className="secondary-color">Your personal information</h2>
         <p>
           We recognise the importance of protecting the privacy of all
-          personally identifiable information Under this WPP, “personal
+          personally identifiable information. Under this WPP, “personal
           information” has the same meaning as under the{" "}
           <em>Privacy Act 1988</em> (Cth). No personally identifiable
-          information will be collected without your consent. In order to remain
-          anonymous it is important for you to ensure that you do not disclose
-          any identifiable information. &nbsp;
+          information will be collected without your consent. The website has
+          been designed so no identifiable information can be inputted by you.
+          Additionally, in order to remain anonymous it is important for you to
+          ensure that you do not disclose any identifiable information. &nbsp;
         </p>
         <h2 className="secondary-color">
           How we use your personal information
@@ -75,7 +77,7 @@ const PrivacyPolicyData = () => {
           through the website for the purpose for which it was submitted. That
           is, to provide support offered by the program. &nbsp;&nbsp;
           De-identified information may be used for other purposes, such as
-          program improvement purposes and research. &nbsp;
+          program improvement and research purposes. &nbsp;
         </p>
         <h2 className="secondary-color">
           Security of your personal information
@@ -136,6 +138,13 @@ const PrivacyPolicyData = () => {
           </li>
           <li>
             <p>
+              Reflection feedback – this helps us to assess the usefulness of
+              the website content and measure user engagement for the purpose of
+              research analysis and content improvement.
+            </p>
+          </li>
+          <li>
+            <p>
               The type of browser, operating system, and screen size used – this
               informs us about the range of systems and devices that visitors
               use to visit the site and helps ensure that the site is built to
@@ -181,8 +190,8 @@ const PrivacyPolicyData = () => {
           If you do provide us with personal information you have a right to
           review any information held about you. If you want access this
           information, or if you have a complaint concerning your information,
-          or wish to have your information corrected you can email INSERT EMAIL
-          ADDRESS HERE
+          or wish to have your information corrected you can email
+          GetHelpAust@gmail.com.
         </p>
         <h2 className="secondary-color">
           Information about links on this web site
