@@ -1,3 +1,9 @@
+import { Slider } from "@mui/material";
+
+function valuetext(value) {
+  return value;
+}
+
 const SelfEsteemAndAssertivenessModuleData = [
   {
     id: 1,
@@ -349,6 +355,82 @@ const SelfEsteemAndAssertivenessModuleData = [
           <strong>STATE THE OUTCOME</strong> – “that way we can have quality
           time together”
         </p>
+        <br />
+        <div className="bg-primary-subtle border border-primary p-3">
+          <p>
+            This module has helped me explore and understand self-esteem and how
+            to increase it.
+          </p>
+        </div>
+        <br />
+        <br />
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          marks
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+        <div className="d-flex justify-content-between w-100">
+          <span className="text-wrap w-6 me-3">Strongly disagree</span>
+          <span className="w-20">Disagree</span>
+          <span className="w-20 text-center">Neither</span>
+          <span className="w-20 text-end">Agree</span>
+          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
+        </div>
+        <br />
+        <div className="bg-primary-subtle border border-primary p-3">
+          <p>
+            This module has helped me explore and understand the importance of
+            being healthy and positive.
+          </p>
+        </div>
+        <br />
+        <br />
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          marks
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+        <div className="d-flex justify-content-between w-100">
+          <span className="text-wrap w-6 me-3">Strongly disagree</span>
+          <span className="w-20">Disagree</span>
+          <span className="w-20 text-center">Neither</span>
+          <span className="w-20 text-end">Agree</span>
+          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
+        </div>
+        <br />
+        <div className="bg-primary-subtle border border-primary p-3">
+          <p>This module has provided helpful tips to being more assertive.</p>
+        </div>
+        <br />
+        <br />
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          marks
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+        <div className="d-flex justify-content-between w-100">
+          <span className="text-wrap w-6 me-3">Strongly disagree</span>
+          <span className="w-20">Disagree</span>
+          <span className="w-20 text-center">Neither</span>
+          <span className="w-20 text-end">Agree</span>
+          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
+        </div>
+        <br />
       </div>
     ),
   },

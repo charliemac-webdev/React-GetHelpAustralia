@@ -1,4 +1,8 @@
 import { Slider } from "@mui/material";
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import { MdExpandMore } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import WellbeingAssessment from "../../../components/WellbeingAssessment";
@@ -198,205 +202,259 @@ const SelfCareModuleData = [
           for each person, and it is about finding out which works for you.
         </p>
         <br />
-        <p>Click the below to find out more (INSERT DROP DOWN FEATURE)</p>
-        {/* <SelfCareStrategiesAccordion/> not created yet */}
+        <p>Click the below to find out more</p>
         <br />
-        <h4 className="secondary-color">Breathing techniques</h4>
-        <p>
-          Regulating our breathing helps us to re-centre ourselves in the moment
-          and to regain control of our bodies when we feel that we are
-          overwhelmed. It can help to bring our heart rate back to a normal rate
-          and reduce physiological signs and symptoms of anxiety. Breathing
-          exercises can bring the most benefit when they are repeated often,
-          such as daily. ETC ETC
-        </p>
-        <h5 className="secondary-color">
-          Breathing technique 1: Slowing your breathing
-        </h5>
-        <p>
-          We can do this exercise sitting or standing with both feet flat on the
-          ground, roughly hip-width apart. If sitting, arms should be placed on
-          the chair arms. The breath should flow as deep down into the belly as
-          is comfortable, without forcing it.
-        </p>
-        <ul className="content-list">
-          <li>Breathe in through your nose and out through your mouth.</li>
-          <li>
-            Breathe in gently and regularly. Some people find it helpful to
-            count steadily from 1 to 5. You may not be able to reach 5 at first.
-          </li>
-          <li>
-            Then, without pausing or holding your breath, let it flow out
-            gently, counting from 1 to 5 again if you find this helpful.
-          </li>
-          <li>Keep doing this for 3 to 5 minutes.</li>
-        </ul>
-        <h5 className="secondary-color">
-          Breathing technique 2: belly breathing
-        </h5>
-        <p>
-          Belly breathing is easy to do and very relaxing. This basic exercise
-          can be used at any time to relax or relieve stress.
-        </p>
-        <ul className="content-list">
-          <li>Sit or lie flat in a comfortable position.</li>
-          <li>
-            Put one hand on your belly just below your ribs and the other hand
-            on your chest.
-          </li>
-          <li>
-            Take a deep breath in through your nose, and let your belly push
-            your hand out. Your chest should not move.
-          </li>
-          <li>
-            Breathe out through pursed lips as if you were whistling. Feel the
-            hand on your belly go in, and use it to push all the air out.
-          </li>
-          <li>
-            Do this breathing 3 to 10 times. Take your time with each breath.
-          </li>
-          <li>Notice how you feel at the end of the exercise.</li>
-        </ul>
-        <h5 className="secondary-color">
-          Breathing technique 3: roll breathing
-        </h5>
-        <p>
-          <a href="https://www.uofmhealth.org/health-library/zm6264#zm6264-sec">
-            Roll breathing
-          </a>{" "}
-          helps to develop the full use of the lungs and to focus on the rhythm
-          of breathing. This technique can be done in any position. However,
-          whilst learning, it is best to lie on your back with your knees bent.
-        </p>
-        <ul className="content-list">
-          <li>
-            Put your left hand on your belly and your right hand on your chest.
-            Notice how your hands move as you breathe in and out.
-          </li>
-          <li>
-            Practice filling your lower lungs by breathing so that your "belly"
-            (left) hand goes up when you inhale and your "chest" (right) hand
-            remains still. Always breathe in through your nose and breathe out
-            through your mouth. Repeat 8 to 10 times.
-          </li>
-          <li>
-            When you have filled and emptied your lower lungs 8 to 10 times, add
-            this second step to your breathing: inhale first into your lower
-            lungs as before, and then continue inhaling into your upper chest.
-            Breathe slowly and regularly. As you do so, your right hand will
-            rise and your left hand will fall a little as your belly falls.
-          </li>
-          <li>
-            As you exhale slowly through your mouth, make a quiet, whooshing
-            sound as first your left hand and then your right-hand fall. As you
-            exhale, feel the tension leaving your body as you become more and
-            more relaxed.
-          </li>
-          <li>
-            Practice breathing in and out in this way for 3 to 5 minutes. Notice
-            that the movement of your belly and chest rises and falls like the
-            motion of rolling waves.
-          </li>
-          <li>Notice how you feel at the end of the exercise.</li>
-        </ul>
+        <div>
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<MdExpandMore />}
+              aria-controls="panel1-content"
+              id="panel1-header"
+            >
+              <p>Breathing Techniques</p>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div>
+                <h4 className="secondary-color">Breathing techniques</h4>
+                <p>
+                  Regulating our breathing helps us to re-centre ourselves in
+                  the moment and to regain control of our bodies when we feel
+                  that we are overwhelmed. It can help to bring our heart rate
+                  back to a normal rate and reduce physiological signs and
+                  symptoms of anxiety. Breathing exercises can bring the most
+                  benefit when they are repeated often, such as daily. ETC ETC
+                </p>
+                <h5 className="secondary-color">
+                  Breathing technique 1: Slowing your breathing
+                </h5>
+                <p>
+                  We can do this exercise sitting or standing with both feet
+                  flat on the ground, roughly hip-width apart. If sitting, arms
+                  should be placed on the chair arms. The breath should flow as
+                  deep down into the belly as is comfortable, without forcing
+                  it.
+                </p>
+                <ul className="content-list">
+                  <li>
+                    Breathe in through your nose and out through your mouth.
+                  </li>
+                  <li>
+                    Breathe in gently and regularly. Some people find it helpful
+                    to count steadily from 1 to 5. You may not be able to reach
+                    5 at first.
+                  </li>
+                  <li>
+                    Then, without pausing or holding your breath, let it flow
+                    out gently, counting from 1 to 5 again if you find this
+                    helpful.
+                  </li>
+                  <li>Keep doing this for 3 to 5 minutes.</li>
+                </ul>
+                <h5 className="secondary-color">
+                  Breathing technique 2: belly breathing
+                </h5>
+                <p>
+                  Belly breathing is easy to do and very relaxing. This basic
+                  exercise can be used at any time to relax or relieve stress.
+                </p>
+                <ul className="content-list">
+                  <li>Sit or lie flat in a comfortable position.</li>
+                  <li>
+                    Put one hand on your belly just below your ribs and the
+                    other hand on your chest.
+                  </li>
+                  <li>
+                    Take a deep breath in through your nose, and let your belly
+                    push your hand out. Your chest should not move.
+                  </li>
+                  <li>
+                    Breathe out through pursed lips as if you were whistling.
+                    Feel the hand on your belly go in, and use it to push all
+                    the air out.
+                  </li>
+                  <li>
+                    Do this breathing 3 to 10 times. Take your time with each
+                    breath.
+                  </li>
+                  <li>Notice how you feel at the end of the exercise.</li>
+                </ul>
+                <h5 className="secondary-color">
+                  Breathing technique 3: roll breathing
+                </h5>
+                <p>
+                  <a href="https://www.uofmhealth.org/health-library/zm6264#zm6264-sec">
+                    Roll breathing
+                  </a>{" "}
+                  helps to develop the full use of the lungs and to focus on the
+                  rhythm of breathing. This technique can be done in any
+                  position. However, whilst learning, it is best to lie on your
+                  back with your knees bent.
+                </p>
+                <ul className="content-list">
+                  <li>
+                    Put your left hand on your belly and your right hand on your
+                    chest. Notice how your hands move as you breathe in and out.
+                  </li>
+                  <li>
+                    Practice filling your lower lungs by breathing so that your
+                    "belly" (left) hand goes up when you inhale and your "chest"
+                    (right) hand remains still. Always breathe in through your
+                    nose and breathe out through your mouth. Repeat 8 to 10
+                    times.
+                  </li>
+                  <li>
+                    When you have filled and emptied your lower lungs 8 to 10
+                    times, add this second step to your breathing: inhale first
+                    into your lower lungs as before, and then continue inhaling
+                    into your upper chest. Breathe slowly and regularly. As you
+                    do so, your right hand will rise and your left hand will
+                    fall a little as your belly falls.
+                  </li>
+                  <li>
+                    As you exhale slowly through your mouth, make a quiet,
+                    whooshing sound as first your left hand and then your
+                    right-hand fall. As you exhale, feel the tension leaving
+                    your body as you become more and more relaxed.
+                  </li>
+                  <li>
+                    Practice breathing in and out in this way for 3 to 5
+                    minutes. Notice that the movement of your belly and chest
+                    rises and falls like the motion of rolling waves.
+                  </li>
+                  <li>Notice how you feel at the end of the exercise.</li>
+                </ul>
+              </div>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<MdExpandMore />}
+              aria-controls="panel2-content"
+              id="panel2-header"
+            >
+              <p>Grounding Exercises</p>
+            </AccordionSummary>
+            <AccordionDetails>
+              <h4 className="secondary-color">Grounding exercises</h4>
+              <p>
+                Grounding exercises are techniques to bring ourselves back to
+                the present moment, balancing ourselves emotionally. These
+                techniques can be particularly helpful when feeling worried and
+                anxious about the past or what could happen in the future. They
+                can help to redirect our thoughts away from traumatic memories,
+                flashbacks, and distressing feelings and bring us back to the
+                here and now. There are many different types of grounding
+                techniques. They aren’t always easy and it can take practice
+                before they begin to work well for you, so don’t give up if they
+                don’t seem to help immediately. It is important to use the
+                techniques as early as you can when you begin to experience
+                distress – although they are a useful technique to practice
+                generally, whether feeling distressed or not. ETC ETC
+              </p>
+              <h5 className="secondary-color">
+                Grounding exercise 1: 5-4-3-2-1 method
+              </h5>
+              <p>
+                Acknowledge five things you can see around you; four things you
+                can touch around you; three things you can hear around you; two
+                things you can smell and one thing you can taste.
+              </p>
+              <p>
+                The aim of this technique is to focus on the world around you so
+                that you are less focused on what is making you feel anxious,
+                worried, or distressed.
+              </p>
+              <h5 className="secondary-color">
+                Grounding exercise 2: categories
+              </h5>
+              <p>
+                Choose one or two broad categories such as cities, dog breeds,
+                or ice cream flavours, and list as many as you can within that
+                category. Alternatively, try reciting the alphabet backwards or
+                practicing times tables.
+              </p>
+              <p>
+                Again, the purpose of these exercises is to focus your attention
+                on something other than whatever is making you feel ungrounded.
+              </p>
+              <h5 className="secondary-color">
+                Grounding exercise 3: body scanning
+              </h5>
+              <p>
+                In a sitting or standing position, focus on each part of your
+                body and how it feels. Try not to assign judgement to this
+                process – for example, if you notice that your chest feels
+                tight, do not begin to reflect on why that might be. Instead,
+                identify how each body part feels and then move on to the next.
+                Close your eyes if that helps you to focus on the exercise.
+              </p>
+              <p>
+                Begin by taking some deep breaths and then bring your awareness
+                to where your body makes contact with the floor or chair. Begin
+                by scanning your left foot for any sensations, moving up your
+                calf and thigh. Then move to the right leg and follow the same
+                order. It is ok if you don’t feel anything, just observe that
+                and move on. Then focus on your stomach, feeling it rise and
+                fall with your breath. Next focus on your left hand and arm.
+                Bring curiosity to your scanning, continuing to notice any
+                sensations. Continue with your right hand and work up the arm.
+                Move to your chest, scanning upwards to your neck, face, jaw,
+                and throat. Pay attention to any sensations in your head, ears,
+                and the back of your neck. Finally, think of your body as a
+                whole, noticing how they all connect. Stay alert to any
+                sensations that you experience and notice them without
+                judgement.
+              </p>
+              <p>
+                It is likely that your mind will wander during this exercise.
+                This is expected. Simply remind yourself to refocus and return
+                to concentrating on the breath and the body scan.
+              </p>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion>
+            <AccordionSummary
+              expandIcon={<MdExpandMore />}
+              aria-controls="panel3-content"
+              id="panel3-header"
+            >
+              <p>Mindfulness</p>
+            </AccordionSummary>
+            <AccordionDetails>
+              <h4 className="secondary-color">Mindfulness</h4>
+              <p>
+                Mindfulness can be a fantastic way of making sure that we are
+                aware of where we are, what we’re doing, and how to be present
+                in the moment. It can be useful in situations where we feel
+                overwhelmed and disoriented by things like work or personal
+                lives, but also when we need to give ourselves some self-care to
+                maintain our emotional wellbeing. Some people find it helpful
+                for mindfulness exercises to be built into their everyday
+                routine, even if only for a few minutes.
+              </p>
+              <h5 className="secondary-color">How to practice mindfullness</h5>
+              <ul className="content-list">
+                <li>
+                  Use a mindfulness app or video – search online for
+                  “mindfulness” or “guided meditation”.
+                </li>
+                <li>
+                  Breathing exercises focus your attention on your breathing,
+                  its rhythm, and how each inhale and exhale of breath feels and
+                  makes your body respond.
+                </li>
+                <li>
+                  Meditation, sitting quietly and away from distractions,
+                  focusing on your thoughts, sensations you are experiencing,
+                  the sounds around you, and your environment. If your mind
+                  starts to move on to other things, bring it back to the task
+                  at hand.
+                </li>
+              </ul>
+            </AccordionDetails>
+          </Accordion>
+        </div>
         <br />
-        <h4 className="secondary-color">Grounding exercises</h4>
-        <p>
-          Grounding exercises are techniques to bring ourselves back to the
-          present moment, balancing ourselves emotionally. These techniques can
-          be particularly helpful when feeling worried and anxious about the
-          past or what could happen in the future. They can help to redirect our
-          thoughts away from traumatic memories, flashbacks, and distressing
-          feelings and bring us back to the here and now. There are many
-          different types of grounding techniques. They aren’t always easy and
-          it can take practice before they begin to work well for you, so don’t
-          give up if they don’t seem to help immediately. It is important to use
-          the techniques as early as you can when you begin to experience
-          distress – although they are a useful technique to practice generally,
-          whether feeling distressed or not. ETC ETC
-        </p>
-        <h5 className="secondary-color">
-          Grounding exercise 1: 5-4-3-2-1 method
-        </h5>
-        <p>
-          Acknowledge five things you can see around you; four things you can
-          touch around you; three things you can hear around you; two things you
-          can smell and one thing you can taste.
-        </p>
-        <p>
-          The aim of this technique is to focus on the world around you so that
-          you are less focused on what is making you feel anxious, worried, or
-          distressed.
-        </p>
-        <h5 className="secondary-color">Grounding exercise 2: categories</h5>
-        <p>
-          Choose one or two broad categories such as cities, dog breeds, or ice
-          cream flavours, and list as many as you can within that category.
-          Alternatively, try reciting the alphabet backwards or practicing times
-          tables.
-        </p>
-        <p>
-          Again, the purpose of these exercises is to focus your attention on
-          something other than whatever is making you feel ungrounded.
-        </p>
-        <h5 className="secondary-color">Grounding exercise 3: body scanning</h5>
-        <p>
-          In a sitting or standing position, focus on each part of your body and
-          how it feels. Try not to assign judgement to this process – for
-          example, if you notice that your chest feels tight, do not begin to
-          reflect on why that might be. Instead, identify how each body part
-          feels and then move on to the next. Close your eyes if that helps you
-          to focus on the exercise.
-        </p>
-        <p>
-          Begin by taking some deep breaths and then bring your awareness to
-          where your body makes contact with the floor or chair. Begin by
-          scanning your left foot for any sensations, moving up your calf and
-          thigh. Then move to the right leg and follow the same order. It is ok
-          if you don’t feel anything, just observe that and move on. Then focus
-          on your stomach, feeling it rise and fall with your breath. Next focus
-          on your left hand and arm. Bring curiosity to your scanning,
-          continuing to notice any sensations. Continue with your right hand and
-          work up the arm. Move to your chest, scanning upwards to your neck,
-          face, jaw, and throat. Pay attention to any sensations in your head,
-          ears, and the back of your neck. Finally, think of your body as a
-          whole, noticing how they all connect. Stay alert to any sensations
-          that you experience and notice them without judgement.
-        </p>
-        <p>
-          It is likely that your mind will wander during this exercise. This is
-          expected. Simply remind yourself to refocus and return to
-          concentrating on the breath and the body scan.
-        </p>
-        <br />
-        <h4 className="secondary-color">Mindfulness</h4>
-        <p>
-          Mindfulness can be a fantastic way of making sure that we are aware of
-          where we are, what we’re doing, and how to be present in the moment.
-          It can be useful in situations where we feel overwhelmed and
-          disoriented by things like work or personal lives, but also when we
-          need to give ourselves some self-care to maintain our emotional
-          wellbeing. Some people find it helpful for mindfulness exercises to be
-          built into their everyday routine, even if only for a few minutes.
-        </p>
-        <h5 className="secondary-color">How to practice mindfullness</h5>
-        <ul className="content-list">
-          <li>
-            Use a mindfulness app or video – search online for “mindfulness” or
-            “guided meditation”.
-          </li>
-          <li>
-            Breathing exercises focus your attention on your breathing, its
-            rhythm, and how each inhale and exhale of breath feels and makes
-            your body respond.
-          </li>
-          <li>
-            Meditation, sitting quietly and away from distractions, focusing on
-            your thoughts, sensations you are experiencing, the sounds around
-            you, and your environment. If your mind starts to move on to other
-            things, bring it back to the task at hand.
-          </li>
-        </ul>
       </>
     ),
   },
@@ -415,40 +473,41 @@ const SelfCareModuleData = [
           plan.
         </p>
         <br></br>
-        <p>INSERT TABLE</p>
-        <table>
-          <tr>
-            <thead>Area of your life</thead>
-            <thead>Goal</thead>
-          </tr>
-          <tr>
-            <td>Physical</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Social</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Mental</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Spiritual</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Emotional</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Self-care techniques that work for me</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Useful resources</td>
-            <td></td>
-          </tr>
+        <table className="table table-bordered">
+          <tbody>
+            <tr>
+              <th>Area of your life</th>
+              <th>Goal</th>
+            </tr>
+            <tr>
+              <td>Physical</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Social</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Mental</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Spiritual</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Emotional</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Self-care techniques that work for me</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Useful resources</td>
+              <td></td>
+            </tr>
+          </tbody>
         </table>
       </>
     ),

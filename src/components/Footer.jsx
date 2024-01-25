@@ -1,14 +1,14 @@
 import imageOne from "../images/indigenous.png";
 import imageTwo from "../images/torres-strait.png";
-import logo from "../images/UniSC_Abr-Logo_Stack_RGB (1).png";
+import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
 
 const Footer = () => {
   return (
-    <footer className="footer fs-6">
+    <footer className="footer footer-text">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col p-4">
-            <div className="d-flex justify-content-center text-center">
+          <div class="col pt-4">
+            <div className="d-flex justify-content-start text-start">
               <div className="p-2">
                 <img src={imageOne} alt="indigenous flag" height="63" />
               </div>
@@ -16,7 +16,7 @@ const Footer = () => {
                 <img src={imageTwo} alt="torres-straight flag" height="63" />
               </div>
             </div>
-            <div className="d-flex flex-column justify-content-center text-center">
+            <div className="d-flex flex-column justify-content-start">
               <div className="-p-2">
                 <p>
                   <span>
@@ -31,8 +31,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="col">
-            <div className="d-flex flex-column justify-content-center text-center">
+          <div class="col pt-4">
+            <div className="d-flex flex-column text-center">
               <div className="p-2">
                 <p className="copyright m-0">
                   copyright &copy; Get Help! Australia
@@ -48,13 +48,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="col p-4">
-            <div className="d-flex flex-column justify-content-center text-center">
+          <div class="col">
+            <div className="d-block text-end">
               <div className="p-2">
-                <img src={logo} alt="UniSC" height="150" />
-              </div>
-              <div>
-                <p>University of Sunshine Coast</p>
+                <img src={logo} alt="UniSC" height="115" />
               </div>
             </div>
           </div>

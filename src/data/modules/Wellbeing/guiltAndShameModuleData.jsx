@@ -1,6 +1,11 @@
+import { Slider } from "@mui/material";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import picture from "../../../images/shame-spiral.png";
+
+function valuetext(value) {
+  return value;
+}
 
 const GuiltAndShameModuleData = [
   {
@@ -35,8 +40,14 @@ const GuiltAndShameModuleData = [
           to cope with and can lead to feeling overwhelmed and hopeless. This is
           sometimes referred to as the shame spiral.
         </p>
-        <img src={picture} alt="Shame Spiral" height="auto" width="50%" />
-        <p>
+        <img
+          className="mx-auto d-block"
+          src={picture}
+          alt="Shame Spiral"
+          height="auto"
+          width="50%"
+        />
+        <p className="text-center">
           <i>Adapted from Self Love and Rainbows</i>
         </p>
         <br />
@@ -83,52 +94,56 @@ const GuiltAndShameModuleData = [
         <p>
           There are some examples in the table below of how some people
           recognise if they are experiencing shame, and some might apply to you.
-          Try to identify other signs and add them to the table. **FIX TABLE**
+          Try to identify other signs and add them to the table.
         </p>
         <br></br>
         <table className="table table-bordered">
-          <tr>
-            <th>Physical cues (how our body reacts)</th>
-            <th>Emotional cues (how we feel)</th>
-            <th>Cognitive cues (what we think)</th>
-            <th>Behavioural cues (how we behave)</th>
-          </tr>
-          <tr>
-            <td>Feeling sick</td>
-            <td>Feeling worthless</td>
-            <td>I am a terrible person</td>
-            <td>Drinking more</td>
-          </tr>
-          <tr>
-            <td>Sweating</td>
-            <td>Feeling rejected</td>
-            <td>I don't deserve support</td>
-            <td>Avoiding people</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
+          <tbody>
+            <tr>
+              <th>Physical cues (how our body reacts)</th>
+              <th>Emotional cues (how we feel)</th>
+              <th>Cognitive cues (what we think)</th>
+              <th>Behavioural cues (how we behave)</th>
+            </tr>
+            <tr>
+              <td>Feeling sick</td>
+              <td>Feeling worthless</td>
+              <td>I am a terrible person</td>
+              <td>Drinking more</td>
+            </tr>
+            <tr>
+              <td>Sweating</td>
+              <td>Feeling rejected</td>
+              <td>I don't deserve support</td>
+              <td>Avoiding people</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
         </table>
         <p>
           If you struggle to identify your feelings then please see the module
-          <b> recognising and dealing with feelings</b>. **INSERT HYPERLINK**
+          <Link to="/recognising-and-dealing-with-feelings">
+            <b> recognising and dealing with feelings</b>
+          </Link>
+          .
         </p>
-        <br />
         <p>
           Reflecting on what we have covered so far, ask yourself: which do you
           think you are experiencing – guilt or shame?
@@ -164,7 +179,6 @@ const GuiltAndShameModuleData = [
         <p>
           Here are some techniques you can use to manage your feelings of shame.
         </p>
-        <br />
         <h5 className="secondary-color">
           Accept responsibility for you mistake
         </h5>
@@ -238,25 +252,6 @@ const GuiltAndShameModuleData = [
   },
   {
     id: 4,
-    title: "Exercise 2: moving forward",
-    description: (
-      <>
-        <br></br>
-        <h4 className="secondary-color">
-          Exercise 2: moving forward - REMOVE THIS PAGE
-        </h4>
-        <p>
-          Holding on to shame can affect your ability to move forward
-          positively. Please write down three examples of positive self-talk
-          that help you to see that you and your offending are not the same.
-        </p>
-        <p>INSERT LINES TO SAVE ANSWERS</p>
-        <br />
-      </>
-    ),
-  },
-  {
-    id: 5,
     title: "Reflection",
     description: (
       <>
@@ -267,9 +262,94 @@ const GuiltAndShameModuleData = [
           positively. Please write down three examples of positive self-talk
           that help you to see that you and your offending are not the same.
         </p>
-        <p>INSERT LINES TO SAVE ANSWERS</p>
+        <div class="form-floating">
+          <textarea
+            class="form-control"
+            placeholder="Leave a comment here"
+            id="floatingTextarea"
+          ></textarea>
+          <label for="floatingTextarea">Comments</label>
+        </div>
         <br />
-        <Link to="/self-help-recognising-and-dealing-with-feelings">
+        <div className="bg-primary-subtle border border-primary p-3">
+          <p>
+            This module has helped me explore and understand my own feelings of
+            guilt and/or shame
+          </p>
+        </div>
+        <br />
+        <br />
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          marks
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+        <div className="d-flex justify-content-between w-100">
+          <span className="text-wrap w-6 me-3">Strongly disagree</span>
+          <span className="w-20">Disagree</span>
+          <span className="w-20 text-center">Neither</span>
+          <span className="w-20 text-end">Agree</span>
+          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
+        </div>
+        <br />
+        <div className="bg-primary-subtle border border-primary p-3">
+          <p>
+            This module has helped me to identify ways to overcome feelings of
+            guilt/shame.
+          </p>
+        </div>
+        <br />
+        <br />
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          marks
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+        <div className="d-flex justify-content-between w-100">
+          <span className="text-wrap w-6 me-3">Strongly disagree</span>
+          <span className="w-20">Disagree</span>
+          <span className="w-20 text-center">Neither</span>
+          <span className="w-20 text-end">Agree</span>
+          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
+        </div>
+        <br />
+        <div className="bg-primary-subtle border border-primary p-3">
+          <p>
+            This module has helped me explore and understand how to deal with
+            shame.
+          </p>
+        </div>
+        <br />
+        <br />
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          marks
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+        <div className="d-flex justify-content-between w-100">
+          <span className="text-wrap w-6 me-3">Strongly disagree</span>
+          <span className="w-20">Disagree</span>
+          <span className="w-20 text-center">Neither</span>
+          <span className="w-20 text-end">Agree</span>
+          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
+        </div>
+        <br />
+        <Link to="/motivation-for-change">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module
