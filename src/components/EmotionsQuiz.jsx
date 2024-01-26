@@ -6,7 +6,7 @@ import Button from "./Button";
 const EmotionsQuiz = () => {
   const [active, setActive] = useState(0);
   const [values, setValues] = useState([]);
-  const [sum, setSum] = useState(0);
+  const [tally, setTally] = useState({});
   const { description } = emotionsQuizData[active];
 
   const handleClick = () => {
@@ -16,11 +16,9 @@ const EmotionsQuiz = () => {
 
     setValues([...values, selectedValue]); // Update the values state using setValues
 
-    const newSum = values.reduce(
-      (accumulator, currentValue) => accumulator + currentValue,
-      0
-    );
-    setSum(newSum);
+    const newTally = { ...tally }; // Make a copy of the current tally object
+    newTally[selectedValue] = (newTally[selectedValue] || 0) + 1; // Increment the count for the selected value
+    setTally(newTally);
 
     if (active <= emotionsQuizData.length - 1) {
       setActive(active + 1);
@@ -57,7 +55,7 @@ const EmotionsQuiz = () => {
               ]}
               series={[
                 {
-                  data: [values[1], values[2], values[3]],
+                  data: [tally[1], tally[2], tally[3]],
                   color: "#004c97",
                 },
               ]}

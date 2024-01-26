@@ -1,4 +1,5 @@
 import { Slider } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function valuetext(value) {
   return value;
@@ -431,6 +432,13 @@ const SelfEsteemAndAssertivenessModuleData = [
           <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
         </div>
         <br />
+        <Link to="/self-talk">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </div>
     ),
   },

@@ -1,4 +1,3 @@
-import pictureOne from "../../../images/diagrams-selftalk-1.gif";
 import pictureTwo from "../../../images/diagrams-selftalk-2.gif";
 import pictureThree from "../../../images/diagrams-selftalk-3.gif";
 import pictureFour from "../../../images/diagrams-selftalk-4.gif";
@@ -275,7 +274,7 @@ const selfTalkModuleData = [
           support from our trained staff.
         </p>
         <br />
-        <Link to="/self-help-understanding-why">
+        <Link to="/understanding-thoughts-feelings-and-behaviours">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

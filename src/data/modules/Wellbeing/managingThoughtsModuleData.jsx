@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { Button } from "../../../components/Button.jsx";
+
 const ManagingThoughtsModuleData = [
   {
     id: 1,
@@ -165,6 +168,13 @@ const ManagingThoughtsModuleData = [
           </p>
           <br></br>
         </div>
+        <Link to="/online-cognition">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },

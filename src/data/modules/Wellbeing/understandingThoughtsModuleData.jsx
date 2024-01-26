@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Button from "../../../components/Button";
 import pictureOne from "../../../images/thoughts-feelings-and-behaviour.jpg";
 
 const UnderstandingThoughtsModuleData = [
@@ -339,6 +341,14 @@ const UnderstandingThoughtsModuleData = [
             it arousing to keep a fantasy diary. If this happens please stop.
           </p>
         </div>
+        <br />
+        <Link to="/managing-thoughts-feelings-and-behaviours">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },
