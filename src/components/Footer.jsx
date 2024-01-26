@@ -9,7 +9,7 @@ const Footer = () => {
         <div class="row align-items-center">
           <div class="col pt-4">
             <div className="d-flex justify-content-start text-start">
-              <div className="p-2">
+              <div className="pt-2">
                 <img src={imageOne} alt="indigenous flag" height="63" />
               </div>
               <div className="p-2">
@@ -19,9 +19,10 @@ const Footer = () => {
             <div className="d-flex flex-column justify-content-start">
               <div className="-p-2">
                 <p>
+                  <span>Get Help! Australia acknowledges the</span>
+                  <br />
                   <span>
-                    Get Help! Australia acknowledges the Traditional Owners of
-                    the land where we work and live.
+                    Traditional Owners of the land where we work and live.
                   </span>
                   <br />
                   <span>
