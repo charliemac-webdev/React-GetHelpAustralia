@@ -100,17 +100,17 @@ h6 {
 }
 
 .blue-background {
-  background-color: var(--clr-secondary) !important;
+  background-color: var(--clr-secondary-400) !important;
 
   &:hover {
-    background-color: var(--clr-secondary-500) !important;
+    background-color: var(--clr-secondary-200) !important;
   }
 }
 
 .semi-blue-background {
-  background-color: var(--clr-secondary-300) !important;
+  background-color: var(--clr-secondary) !important;
   &:hover {
-    background-color: var(--clr-secondary-500) !important;
+    background-color: var(--clr-secondary-200) !important;
   }
 }
 

@@ -33,8 +33,8 @@ const Module = ({ modules }) => {
                       onClick={() => setValue(index)}
                       className={`${
                         index === value
-                          ? "semi-blue-background fs-5 text-dark p-4 border border-light"
-                          : "blue-background fs-5 text-light p-4 border border-light"
+                          ? "semi-blue-background fs-5 text-light p-4 border border-light"
+                          : "blue-background fs-5 text-dark p-4 border border-light"
                       }`}
                       role="button"
                     >
