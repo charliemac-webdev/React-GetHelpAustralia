@@ -210,8 +210,13 @@ const SelfCareModuleData = [
               expandIcon={<MdExpandMore />}
               aria-controls="panel1-content"
               id="panel1-header"
+              sx={{
+                backgroundColor: "#e6edf5",
+              }}
             >
-              <p>Breathing Techniques</p>
+              <p>
+                <h6 className="secondary-color">Breathing Techniques</h6>
+              </p>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -331,8 +336,13 @@ const SelfCareModuleData = [
               expandIcon={<MdExpandMore />}
               aria-controls="panel2-content"
               id="panel2-header"
+              sx={{
+                backgroundColor: "#e6edf5",
+              }}
             >
-              <p>Grounding Exercises</p>
+              <p>
+                <h6 className="secondary-color">Grounding Exercises</h6>
+              </p>
             </AccordionSummary>
             <AccordionDetails>
               <h4 className="secondary-color">Grounding exercises</h4>
@@ -417,8 +427,13 @@ const SelfCareModuleData = [
               expandIcon={<MdExpandMore />}
               aria-controls="panel3-content"
               id="panel3-header"
+              sx={{
+                backgroundColor: "#e6edf5",
+              }}
             >
-              <p>Mindfulness</p>
+              <p>
+                <h6 className="secondary-color">Mindfulness</h6>
+              </p>
             </AccordionSummary>
             <AccordionDetails>
               <h4 className="secondary-color">Mindfulness</h4>
