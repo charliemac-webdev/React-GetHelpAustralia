@@ -208,7 +208,7 @@ const triggersModuleData = [
         <ReflectionQuestion>
           This module has helped me to explore and understand my own triggers
         </ReflectionQuestion>
-        <Link to="/self-help-taking-responsibility">
+        <Link to="/taking-control-of-your-online-behaviour">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

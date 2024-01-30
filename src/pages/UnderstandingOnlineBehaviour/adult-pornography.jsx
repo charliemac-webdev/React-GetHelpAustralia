@@ -13,8 +13,6 @@ const AdultPornographyModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
-        <br></br>
-        <br></br>
         <h2 className="secondary-color">Adult Pornography</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print

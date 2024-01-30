@@ -134,6 +134,7 @@ h6 {
   background-color: var(--clr-white);
   color: var(--clr-primary);
   border: solid 2px var(--clr-primary);
+  text-decoration: none;
 
   &:hover {
     background-color: var(--clr-primary);
@@ -149,13 +150,17 @@ h6 {
   background-color: var(--clr-primary);
   color: var(--clr-white);
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
 
   &:hover {
     background-color: var(--clr-white);
     color: var(--clr-primary);
     border: solid 2px var(--clr-primary);
   }
+}
+
+.default-link {
+  text-decoration: none !important;
 }
 
 .main-container {
@@ -216,6 +221,11 @@ h6 {
 .main-section-menu {
   grid-area: two;
   padding-right: 1rem;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .main-section-content {
@@ -313,6 +323,10 @@ ul {
   list-style-type: none;
 }
 
+#help-button-link {
+  text-decoration: none;
+}
+
 .menu-link:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -366,10 +380,10 @@ ul {
   list-style-type: square;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
+// a {
+//   text-decoration: none;
+//   color: inherit;
+// }
 
 .table-with-borders {
   display: table;

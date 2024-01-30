@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import pictureOne from "../../../images/diagrams-surely.gif";
 
 const FantasyModuleData = [
@@ -684,8 +685,16 @@ const FantasyModuleData = [
             day to day life?
           </li>
         </ul>
-        <br></br>
-        <Link to="/self-help-adult-pornography">
+        <br />
+        <ReflectionQuestion>
+          This module has helped me explore and understand my current sexual and
+          non-sexual fantasies.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me explore and understand the link between my
+          fantasies and my online behaviour.
+        </ReflectionQuestion>
+        <Link className="default-link" to="/adult-pornography">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

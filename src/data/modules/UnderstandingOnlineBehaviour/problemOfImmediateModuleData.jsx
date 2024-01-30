@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const ProblemOfImmediateModuleData = [
   {
@@ -205,7 +206,15 @@ const ProblemOfImmediateModuleData = [
           <br></br>
         </div>
         <br />
-        <Link to="/self-help-images-are-children">
+        <ReflectionQuestion>
+          This module has helped me to explore and understand why immediate
+          gratification is so powerful.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand ways to work
+          against the power of immediate gratification.
+        </ReflectionQuestion>
+        <Link className="default-link" to="/images-are-children">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

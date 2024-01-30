@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const AddictionModuleData = [
   {
@@ -157,19 +158,35 @@ const AddictionModuleData = [
             href="https://www.saa-australia.org/"
             target="_blank"
             rel="noopener"
+            className="secondary-color"
           >
             Sex Addicts Anonymous (SAA)
           </a>
           ,&nbsp;
-          <a href="https://aa.org.au/" target="_blank" rel="noopener">
+          <a
+            href="https://aa.org.au/"
+            target="_blank"
+            rel="noopener"
+            className="secondary-color"
+          >
             Alcoholic Anonymous (AA)
           </a>
           ,&nbsp;
-          <a href="https://gaaustralia.org.au/" target="_blank" rel="noopener">
+          <a
+            href="https://gaaustralia.org.au/"
+            target="_blank"
+            rel="noopener"
+            className="secondary-color"
+          >
             Gamblers Anonymous (GA)
           </a>
           &nbsp;and&nbsp;
-          <a href="https://www.na.org.au/multi/" target="_blank" rel="noopener">
+          <a
+            href="https://www.na.org.au/multi/"
+            target="_blank"
+            rel="noopener"
+            className="secondary-color"
+          >
             Narcotics Anonymous (NA)
           </a>
           .
@@ -302,6 +319,7 @@ const AddictionModuleData = [
               href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/managing-addiction-editable.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              className="secondary-color"
             >
               Download printable template &gt;
             </a>
@@ -343,8 +361,7 @@ const AddictionModuleData = [
               this?
             </li>
           </ul>
-          <br></br>
-          <br></br>
+          <br />
           <p>
             If you want to discuss anything covered in this module, have
             struggled with working through the self-help material or just want
@@ -355,7 +372,22 @@ const AddictionModuleData = [
           <br></br>
         </div>
         <br />
-        <Link to="/self-help-sexual-communication-with-children-online">
+        <ReflectionQuestion>
+          This module has helped me to explore and understand the difference
+          between addiction and compulsion.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand what role
+          addiction plays in my online behaviour.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand how I can start to
+          address addiction in my life.
+        </ReflectionQuestion>
+        <Link
+          className="default-link"
+          to="/sexual-communication-with-children-online"
+        >
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

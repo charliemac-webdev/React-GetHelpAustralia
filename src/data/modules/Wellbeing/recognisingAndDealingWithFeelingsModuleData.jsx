@@ -5,12 +5,7 @@ import pictureOne from "../../../images/diagrams-response.gif";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import EmotionsQuiz from "../../../components/EmotionsQuiz";
-
-import { Slider } from "@mui/material";
-
-function valuetext(value) {
-  return value;
-}
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const RecognisingAndDealingWithFeelingsModuleData = [
   {
@@ -550,63 +545,14 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           <li>What can I do to manage negative feelings?</li>
         </ul>
         <br />
-        <>
-          <div className="bg-primary-subtle border border-primary p-3">
-            <p>
-              This module helped me understand how my emotions influence my
-              thinking and behaviour?
-            </p>
-          </div>
-          <br />
-          <br />
-          <Slider
-            aria-label="Always visible"
-            defaultValue={3}
-            step={1}
-            marks
-            min={1}
-            max={5}
-            getAriaValueText={valuetext}
-            valueLabelDisplay="on"
-          />
-          <div className="d-flex justify-content-between w-100">
-            <span className="w-20">Strongly disagree</span>
-            <span className="w-20">Disagree</span>
-            <span className="w-20 text-center">Neither</span>
-            <span className="w-20 text-end">Agree</span>
-            <span className="w-20 text-end">Strongly agree</span>
-          </div>
-        </>
-        <br />
-        <>
-          <div className="bg-primary-subtle border border-primary p-3">
-            <p>
-              This module helped me understand how I cope with difficult
-              emotions?
-            </p>
-          </div>
-          <br />
-          <br />
-          <Slider
-            aria-label="Always visible"
-            defaultValue={3}
-            step={1}
-            marks
-            min={1}
-            max={5}
-            getAriaValueText={valuetext}
-            valueLabelDisplay="on"
-          />
-          <div className="d-flex justify-content-between w-100">
-            <span className="w-20">Strongly disagree</span>
-            <span className="w-20">Disagree</span>
-            <span className="w-20 text-center">Neither</span>
-            <span className="w-20 text-end">Agree</span>
-            <span className="w-20 text-end">Strongly agree</span>
-          </div>
-        </>
-        <br />
-        <Link to="/self-care">
+        <ReflectionQuestion>
+          This module helped me understand how my emotions influence my thinking
+          and behaviour?
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module helped me understand how I cope with difficult emotions?
+        </ReflectionQuestion>
+        <Link className="text-decoration-none" to="/self-care">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

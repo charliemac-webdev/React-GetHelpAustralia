@@ -13,8 +13,6 @@ const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
-        <br></br>
-        <br></br>
         <h2 className="secondary-color">
           Sexual communication with children online
         </h2>

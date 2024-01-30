@@ -1,12 +1,8 @@
-import { Slider } from "@mui/material";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import picture from "../../../images/The-stages-of-change-scaled.jpg";
-
-function valuetext(value) {
-  return value;
-}
 
 const MotivationForChangeModuleData = [
   {
@@ -362,85 +358,23 @@ const MotivationForChangeModuleData = [
     title: "Reflection",
     description: (
       <>
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me understand change happens in stages and
-            can take time.
-          </p>
-        </div>
-        <br />
-        <br />
-        <Slider
-          aria-label="Always visible"
-          defaultValue={3}
-          step={1}
-          marks
-          min={1}
-          max={5}
-          getAriaValueText={valuetext}
-          valueLabelDisplay="on"
-        />
-        <div className="d-flex justify-content-between w-100">
-          <span className="text-wrap w-6 me-3">Strongly disagree</span>
-          <span className="w-20">Disagree</span>
-          <span className="w-20 text-center">Neither</span>
-          <span className="w-20 text-end">Agree</span>
-          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
-        </div>
-        <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me to identify what stage of change I am
-            currently at.
-          </p>
-        </div>
-        <br />
-        <br />
-        <Slider
-          aria-label="Always visible"
-          defaultValue={3}
-          step={1}
-          marks
-          min={1}
-          max={5}
-          getAriaValueText={valuetext}
-          valueLabelDisplay="on"
-        />
-        <div className="d-flex justify-content-between w-100">
-          <span className="text-wrap w-6 me-3">Strongly disagree</span>
-          <span className="w-20">Disagree</span>
-          <span className="w-20 text-center">Neither</span>
-          <span className="w-20 text-end">Agree</span>
-          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
-        </div>
-        <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me identify what short term changes I want to
-            make to reduce risk of offending.
-          </p>
-        </div>
-        <br />
-        <br />
-        <Slider
-          aria-label="Always visible"
-          defaultValue={3}
-          step={1}
-          marks
-          min={1}
-          max={5}
-          getAriaValueText={valuetext}
-          valueLabelDisplay="on"
-        />
-        <div className="d-flex justify-content-between w-100">
-          <span className="text-wrap w-6 me-3">Strongly disagree</span>
-          <span className="w-20">Disagree</span>
-          <span className="w-20 text-center">Neither</span>
-          <span className="w-20 text-end">Agree</span>
-          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
-        </div>
-        <br />
-        <Link to="/self-esteem-and-assertiveness">
+        <h4 className="secondary-color">Reflection</h4>
+        <ReflectionQuestion>
+          This module has helped me understand change happens in stages and can
+          take time.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to identify what stage of change I am
+          currently at.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me identify what short term changes I want to
+          make to reduce risk of offending.
+        </ReflectionQuestion>
+        <Link
+          className="text-decoration-none"
+          to="/self-esteem-and-assertiveness"
+        >
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

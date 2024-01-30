@@ -1,15 +1,11 @@
-import { Slider } from "@mui/material";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import { MdExpandMore } from "react-icons/md";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import WellbeingAssessment from "../../../components/WellbeingAssessment";
-
-function valuetext(value) {
-  return value;
-}
 
 const SelfCareModuleData = [
   {
@@ -17,7 +13,6 @@ const SelfCareModuleData = [
     title: "What is self-care?",
     description: (
       <>
-        <br></br>
         <h4 className="secondary-color">What is self-care?</h4>
         <p>
           Self-care means being mindful of our own needs to improve our own
@@ -26,7 +21,6 @@ const SelfCareModuleData = [
           getting some fresh air for a few minutes. We’ll explain some of the
           different types of self-care and how they can help you.
         </p>
-        <br></br>
         <h4 className="secondary-color">Why is self-care important?</h4>
         <p>
           Self-care is particularly important when working through the
@@ -35,20 +29,17 @@ const SelfCareModuleData = [
           future. Making sure we find time for self-care can help us deal with
           the challenges we face in a positive way.
         </p>
-        <br />
         <p>
           We also suggest doing this work in a way that feels emotionally and
           psychologically safe. This might mean involving a trusted family
           member, friend, or professional, so you don’t feel isolated and have
           someone to discuss the information with.
         </p>
-        <br />
         <p>
           Regularly using strategies like breathing techniques, grounding,
           mindfulness, and self-compassion can help us to cope with difficult
           emotions, thoughts, and situations.
         </p>
-        <br />
         <p>
           Self-care is important in helping you move away from risky and illegal
           behaviour. When people feel happy and content, they are far less
@@ -58,7 +49,6 @@ const SelfCareModuleData = [
           positive light and this can help to improve our relationships with
           others.
         </p>
-        <br />
       </>
     ),
   },
@@ -67,7 +57,6 @@ const SelfCareModuleData = [
     title: "Wellbeing assessment",
     description: (
       <>
-        <br></br>
         <p>
           Please complete the following wellbeing assessment that will ask about
           your physical, social, mental, spiritual and emotional self-care.
@@ -109,7 +98,6 @@ const SelfCareModuleData = [
     title: "Exercise 1: setting self-care goals",
     description: (
       <>
-        <br></br>
         <h4 className="secondary-color">Self-care goals</h4>
         <p>
           Some self-care strategies are straightforward and easy to use on a
@@ -193,7 +181,6 @@ const SelfCareModuleData = [
     title: "Self-care strategies",
     description: (
       <>
-        <br></br>
         <h4 className="secondary-color">Self-care strategies</h4>
         <p>
           There are many strategies that can be helpful when feeling anxious,
@@ -478,7 +465,6 @@ const SelfCareModuleData = [
     title: "Exercise 2: using self-care strategies",
     description: (
       <>
-        <br></br>
         <h4 className="secondary-color">Using self-care strategies</h4>
         <p>
           Having thought about, and hopefully practiced, some of the self-care
@@ -635,56 +621,15 @@ const SelfCareModuleData = [
           you to factor in self-care after each session of working through these
           self-help modules.
         </p>
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me explore and understand the importance and
-            self-care.
-          </p>
-        </div>
         <br />
-        <br />
-        <Slider
-          aria-label="Always visible"
-          defaultValue={3}
-          step={1}
-          marks
-          min={1}
-          max={5}
-          getAriaValueText={valuetext}
-          valueLabelDisplay="on"
-        />
-        <div className="d-flex justify-content-between w-100">
-          <span className="text-wrap w-6 me-3">Strongly disagree</span>
-          <span className="w-20">Disagree</span>
-          <span className="w-20 text-center">Neither</span>
-          <span className="w-20 text-end">Agree</span>
-          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
-        </div>
-        <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>I am committed to my own self-care plan and goals.</p>
-        </div>
-        <br />
-        <br />
-        <Slider
-          aria-label="Always visible"
-          defaultValue={3}
-          step={1}
-          marks
-          min={1}
-          max={5}
-          getAriaValueText={valuetext}
-          valueLabelDisplay="on"
-        />
-        <div className="d-flex justify-content-between w-100">
-          <span className="text-wrap w-6 me-3">Strongly disagree</span>
-          <span className="w-20">Disagree</span>
-          <span className="w-20 text-center">Neither</span>
-          <span className="w-20 text-end">Agree</span>
-          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
-        </div>
-        <br />
-        <Link to="/guilt-and-shame">
+        <ReflectionQuestion>
+          This module has helped me explore and understand the importance and
+          self-care.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          I am committed to my own self-care plan and goals.
+        </ReflectionQuestion>
+        <Link className="text-decoration-none" to="/guilt-and-shame">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

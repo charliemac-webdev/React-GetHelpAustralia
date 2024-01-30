@@ -73,7 +73,7 @@ const IntroductionData = () => {
 
       <p>
         You can read our privacy policy{" "}
-        <Link to="/privacy">
+        <Link className="secondary-color" to="/privacy">
           <strong>here</strong>
         </Link>
         .

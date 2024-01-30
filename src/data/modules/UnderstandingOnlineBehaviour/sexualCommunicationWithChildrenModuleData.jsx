@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const SexualCommunicationWithChildrenModuleData = [
   {
@@ -755,20 +756,36 @@ const SexualCommunicationWithChildrenModuleData = [
             consider what changes you need to make to stop the behaviour and
             move forward positively. You can use the information from the other
             modules to help you consider what to put in place and how to move
-            forward. You might find it particularly useful to consider the&nbsp;
-            <a href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/moving-forward/relapse-prevention/">
-              Relapse Prevention
-            </a>
-            &nbsp;and&nbsp;
-            <a href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/moving-forward/building-a-good-life/">
-              Building a Good Life
-            </a>
-            &nbsp;modules. (LINK TO MODULES)
+            forward. You might find it particularly useful to consider the
+            following modules:&nbsp;
           </p>
-          <br></br>
+          <ul className="content-list">
+            <li>
+              <Link className="secondary-color" to="/relapse-prevention">
+                Relapse Prevention
+              </Link>
+            </li>
+            <li>
+              <Link className="secondary-color" to="/building-a-good-life">
+                Building a Good Life
+              </Link>
+            </li>
+          </ul>
         </div>
         <br />
-        <Link to="/self-help-problem-of-immediate-gratification">
+        <ReflectionQuestion>
+          This module has helped me to explore and understand my motivation for
+          engaging sexually with children online.{" "}
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand how my behaviour
+          progressed into sexual communication.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand how I might have
+          justified my behaviour.
+        </ReflectionQuestion>
+        <Link className="default-link" to="/problem-of-immediate-gratification">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

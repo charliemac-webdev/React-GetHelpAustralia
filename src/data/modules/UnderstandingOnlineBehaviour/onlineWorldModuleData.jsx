@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 import pictureSix from "../../../images/diagrams-offlineme.gif";
 import pictureSeven from "../../../images/diagrams-onlineme.gif";
@@ -39,7 +40,13 @@ const OnlineWorldModuleData = [
         </p>
         <br></br>
         <h5 className="secondary-color">'Triple A Engine' (Cooper, 1998)</h5>
-        <img src={pictureOne} alt="tripe-a-engine" height="100%" width="auto" />
+        <img
+          className="d-block mx-auto"
+          src={pictureOne}
+          alt="tripe-a-engine"
+          height="100%"
+          width="auto"
+        />
         <br></br>
         <br></br>
         <ul className="content-list">
@@ -68,7 +75,13 @@ const OnlineWorldModuleData = [
           <br />
           <p>Think about the examples below:</p>
         </ul>
-        <img src={pictureTwo} alt="Computer" />
+        <img
+          className="d-block mx-auto"
+          src={pictureTwo}
+          alt="Computer"
+          height="100%"
+          width="90%"
+        />
         <p>
           Now that you have identified why you used the internet as a place for
           sexual behaviour, it is important to think about why that might be a
@@ -79,7 +92,13 @@ const OnlineWorldModuleData = [
           Think about the ideas you had above, but now think about what the
           difficulties with these ideas might be. For example:
         </p>
-        <img src={pictureThree} alt="computer-1" />
+        <img
+          src={pictureThree}
+          alt="computer-1"
+          height="100%"
+          width="90%"
+          className="d-block mx-auto"
+        />
         <p>
           <a
             href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/exercise1sexandtheinternet.pdf"
@@ -111,7 +130,7 @@ const OnlineWorldModuleData = [
           The panopticon is a design of building meaning that one person can see
           all those in the building.
         </p>
-        <img src={pictureFour} alt="panopticon" />
+        <img src={pictureFour} alt="panopticon" className="d-block mx-auto" />
         <p>
           It is important to think about how we behave when we feel we might be
           being observed, compared to how we behave when we think no one is
@@ -146,7 +165,11 @@ const OnlineWorldModuleData = [
         <h4 className="secondary-color">
           Exercise 2: My online and offline behaviour
         </h4>
-        <img src={pictureFive} alt="Offline and Online Behaviour" />
+        <img
+          src={pictureFive}
+          alt="Offline and Online Behaviour"
+          className="d-block mx-auto"
+        />
         <br></br>
         <p>Think about:</p>
         <ul className="content-list">
@@ -194,14 +217,26 @@ const OnlineWorldModuleData = [
           words below and any others that describe you.
         </p>
         <p>
-          <img src={pictureSix} alt="Offline me" />
+          <img
+            src={pictureSix}
+            alt="Offline me"
+            width="90%"
+            height="auto"
+            className="d-block mx-auto"
+          />
         </p>
         <p>
           How would you describe yourself&nbsp;online? Make a note of all the
           words below and any others that describe you.
         </p>
         <p>
-          <img src={pictureSeven} alt="online me" />
+          <img
+            src={pictureSeven}
+            alt="online me"
+            width="90%"
+            height="auto"
+            className="d-block mx-auto"
+          />
         </p>
         <p>
           What differences are there between your online and offline selves? Are
@@ -287,16 +322,6 @@ const OnlineWorldModuleData = [
           <h4 className="secondary-color">
             Exercise 3: Online and offline relationships
           </h4>
-          <p>
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/online-relationships-exercise-1.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Download and edit pdf template</strong>
-            </a>
-            .
-          </p>
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -334,6 +359,16 @@ const OnlineWorldModuleData = [
               </tr>
             </tbody>
           </table>
+          <p>
+            <a
+              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/online-relationships-exercise-1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>Download and edit pdf template</strong>
+            </a>
+            .
+          </p>
           <p>What do you notice about the online and offline relationships?</p>
           <p>
             Are there some things that you would only discuss or do online? Why
@@ -540,11 +575,21 @@ const OnlineWorldModuleData = [
               to seek out this information?
             </li>
           </ul>
-
-          <br></br>
         </div>
         <br />
-        <Link to="/self-help-fantasy">
+        <ReflectionQuestion>
+          This module has helped me to understand the relationship between my
+          online and offline social life.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to understand how the internet can be used
+          as a social outlet in my life.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand problematic online
+          relationships.
+        </ReflectionQuestion>
+        <Link className="default-link" to="/fantasy">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

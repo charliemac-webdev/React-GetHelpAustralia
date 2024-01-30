@@ -10,8 +10,6 @@ const WellbeingAndSelfCare = () => {
   return (
     <>
       <Heading>
-        <br></br>
-        <br></br>
         <h2 className="secondary-color mb-3">
           Get Help! Australia - Wellbeing and Self-care
         </h2>

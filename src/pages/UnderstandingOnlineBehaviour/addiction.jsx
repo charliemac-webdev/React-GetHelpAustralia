@@ -13,8 +13,6 @@ const AddictionModule = ({ showMenu }) => {
   return (
     <>
       <Heading>
-        <br />
-        <br />
         <h2 className="secondary-color">Addiction</h2>
         <span className="print-button me-1" role="button">
           <FcPrint className="print-icon" /> Print

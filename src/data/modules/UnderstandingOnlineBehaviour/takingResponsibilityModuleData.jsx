@@ -212,7 +212,7 @@ const takingResponsibilityModuleData = [
           This module has helped me to explore how to make immediate changes to
           start the change process.
         </ReflectionQuestion>
-        <Link to="/self-help-online-world">
+        <Link to="/online-world">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

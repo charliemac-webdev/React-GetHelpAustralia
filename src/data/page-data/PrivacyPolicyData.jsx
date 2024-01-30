@@ -2,6 +2,7 @@ const PrivacyPolicyData = () => {
   return (
     <>
       <div>
+        <h2 className="secondary-color">Privacy Policy</h2>
         <p>
           Your privacy is protected by the Privacy Act 1988 (Cth). Get Help!
           Australia, a program of the University of Sunshine Coast, strives to
@@ -197,9 +198,22 @@ const PrivacyPolicyData = () => {
         <p>
           If you have any concerns or complaints about this website, its
           content, or extended research associated with it, please direct
-          questions to GetHelpAust@gmail.com. If you prefer an independent
-          person, you may contact the Chair of the UniSC Human Research Ethics
-          Committee on humanethics@usc.edu.au.
+          questions to{" "}
+          <a
+            className="secondary-color link-offset-2"
+            href="mailto:GetHelpAust@gmail.com"
+          >
+            GetHelpAust@gmail.com
+          </a>
+          . If you prefer an independent person, you may contact the Chair of
+          the UniSC Human Research Ethics Committee on{" "}
+          <a
+            className="secondary-color link-offset-2"
+            href="mailto:humanethics@usc.edu.au"
+          >
+            humanethics@usc.edu.au
+          </a>
+          .
         </p>
         <h2 className="secondary-color">
           Information about links on this web site

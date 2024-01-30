@@ -9,7 +9,6 @@ const MovingForward = () => {
   return (
     <>
       <Heading>
-        <br></br>
         <h2 className="secondary-color mb-3">
           Get Help! Australia - Moving Forward
         </h2>

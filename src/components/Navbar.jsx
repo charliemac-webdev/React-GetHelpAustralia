@@ -33,7 +33,11 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a target="_blank" href="https://www.stopitnow.org.au/helpline">
+            <a
+              id="help-button-link"
+              target="_blank"
+              href="https://www.stopitnow.org.au/helpline"
+            >
               <Button ident="help-button" classes="nav-link">
                 HELPLINE
               </Button>

@@ -1,11 +1,7 @@
-import { Slider } from "@mui/material";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import pictureOne from "../../../images/thoughts-feelings-and-behaviour.jpg";
-
-function valuetext(value) {
-  return value;
-}
 
 const UnderstandingThoughtsModuleData = [
   {
@@ -355,152 +351,23 @@ const UnderstandingThoughtsModuleData = [
     title: "Reflection",
     description: (
       <>
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me explore and understand the difference
-            between thoughts, feelings, and behaviours and how they influence
-            each other.{" "}
-          </p>
-        </div>
-        <br />
-        <br />
-        <div className="d-flex flex-column align-items-center">
-          <div className="w-100">
-            <Slider
-              aria-label="Always visible"
-              defaultValue={3}
-              step={1}
-              marks
-              min={1}
-              max={5}
-              getAriaValueText={valuetext}
-              valueLabelDisplay="on"
-            />
-          </div>
-          <div className="d-block position-relative w-100 mb-5">
-            <span
-              className="position-absolute text-wrap w-6"
-              style={{ left: "0" }}
-            >
-              Strongly disagree
-            </span>
-            <span className="position-absolute" style={{ left: "20%" }}>
-              Disagree
-            </span>
-            <span className="position-absolute" style={{ left: "46%" }}>
-              Neither
-            </span>
-            <span
-              className="position-absolute text-center"
-              style={{ left: "72%" }}
-            >
-              Agree
-            </span>
-            <span
-              className="text-wrap w-6 position-absolute text-end"
-              style={{ left: "84%" }}
-            >
-              Strongly agree
-            </span>
-          </div>
-        </div>
-        <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>This module has helped me explore common thinking errors. </p>
-        </div>
-        <br />
-        <br />
-        <div className="d-flex flex-column align-items-center">
-          <div className="w-100">
-            <Slider
-              aria-label="Always visible"
-              defaultValue={3}
-              step={1}
-              marks
-              min={1}
-              max={5}
-              getAriaValueText={valuetext}
-              valueLabelDisplay="on"
-            />
-          </div>
-          <div className="d-block position-relative w-100 mb-5">
-            <span
-              className="position-absolute text-wrap w-6"
-              style={{ left: "0" }}
-            >
-              Strongly disagree
-            </span>
-            <span className="position-absolute" style={{ left: "20%" }}>
-              Disagree
-            </span>
-            <span className="position-absolute" style={{ left: "46%" }}>
-              Neither
-            </span>
-            <span
-              className="position-absolute text-center"
-              style={{ left: "72%" }}
-            >
-              Agree
-            </span>
-            <span
-              className="text-wrap w-6 position-absolute text-end"
-              style={{ left: "84%" }}
-            >
-              Strongly agree
-            </span>
-          </div>
-        </div>
-        <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me explore and better understand the link
-            between sexual fantasies and arousal.{" "}
-          </p>
-        </div>
-        <br />
-        <br />
-        <div className="d-flex flex-column align-items-center">
-          <div className="w-100">
-            <Slider
-              aria-label="Always visible"
-              defaultValue={3}
-              step={1}
-              marks
-              min={1}
-              max={5}
-              getAriaValueText={valuetext}
-              valueLabelDisplay="on"
-            />
-          </div>
-          <div className="d-block position-relative w-100 mb-5">
-            <span
-              className="position-absolute text-wrap w-6"
-              style={{ left: "0" }}
-            >
-              Strongly disagree
-            </span>
-            <span className="position-absolute" style={{ left: "20%" }}>
-              Disagree
-            </span>
-            <span className="position-absolute" style={{ left: "46%" }}>
-              Neither
-            </span>
-            <span
-              className="position-absolute text-center"
-              style={{ left: "72%" }}
-            >
-              Agree
-            </span>
-            <span
-              className="text-wrap w-6 position-absolute text-end"
-              style={{ left: "84%" }}
-            >
-              Strongly agree
-            </span>
-          </div>
-        </div>
-        <br />
-        <Link to="/managing-thoughts-feelings-and-behaviours">
+        <h4 className="secondary-color">Reflection</h4>
+        <ReflectionQuestion>
+          This module has helped me explore and understand the difference
+          between thoughts, feelings, and behaviours and how they influence each
+          other.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me explore common thinking errors.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me explore and better understand the link
+          between sexual fantasies and arousal.
+        </ReflectionQuestion>
+        <Link
+          className="text-decoration-none"
+          to="/managing-thoughts-feelings-and-behaviours"
+        >
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

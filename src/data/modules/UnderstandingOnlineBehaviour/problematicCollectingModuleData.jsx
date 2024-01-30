@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const ProblematicCollectingModuleData = [
   {
@@ -594,15 +595,25 @@ const ProblematicCollectingModuleData = [
         <p>
           Remember to keep the list of these needs for&nbsp;
           <strong>
-            <a href="https://www.stopitnow.org.uk/concerned-about-use-of-the-internet/self-help/moving-forward/building-a-good-life/">
+            <Link className="secondary-color" to="/building-a-good-life">
               building a good life
-            </a>
+            </Link>
             .
           </strong>
         </p>
-        <p>&nbsp;</p>
         <br />
-        <Link to="/self-help-moving-forward">
+        <ReflectionQuestion>
+          This module has helped me to explore and understand why I collect.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand how it links to my
+          offending.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand the relationship
+          between collecting and some of the unsatisfactory aspects of my life.
+        </ReflectionQuestion>
+        <Link className="default-link" to="/moving-forward">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import pictureOne from "../../../images/diagrams-yes-or-no.gif";
 
 const ImagesAreChildrenModuleData = [
@@ -790,9 +791,21 @@ const ImagesAreChildrenModuleData = [
             seek out this information?
           </li>
         </ul>
-        <br></br>
         <br />
-        <Link to="/self-help-problematic-collecting">
+        <ReflectionQuestion>
+          This module has helped me to explore and understand the false
+          justifications offenders use to avoid responsibility for their
+          actions.{" "}
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand that these images
+          are of real children being abused.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand the effects of
+          being photographed on the children in the image.
+        </ReflectionQuestion>
+        <Link className="default-link" to="/problematic-collecting">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

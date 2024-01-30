@@ -6,8 +6,9 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Heading>
-        <br></br>
-        <h2 className="secondary-color mb-3">Privacy policy</h2>
+        <h2 className="secondary-color mb-3">
+          Get Help! Australia - Concerned about your online behaviour?
+        </h2>
       </Heading>
       <MainContent>
         <PrivacyPolicyData />

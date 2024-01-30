@@ -4,13 +4,9 @@ import pictureFour from "../../../images/diagrams-selftalk-4.gif";
 import pictureFive from "../../../images/diagrams-selftalk.gif";
 import pictureSix from "../../../images/diagrams-yes-or-no.gif";
 
-import { Slider } from "@mui/material";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
-
-function valuetext(value) {
-  return value;
-}
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const selfTalkModuleData = [
   {
@@ -260,7 +256,7 @@ const selfTalkModuleData = [
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Relfection</h4>
+        <h4 className="secondary-color">Reflection</h4>
         <p>
           Keep a diary for a week of any negative things you say to yourself.
         </p>
@@ -282,106 +278,18 @@ const selfTalkModuleData = [
           support from our trained staff.
         </p>
         <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me explore and understand positive and
-            negative self-talk.
-          </p>
-        </div>
-        <br />
-        <br />
-        <div className="d-flex flex-column align-items-center">
-          <div className="w-100">
-            <Slider
-              aria-label="Always visible"
-              defaultValue={3}
-              step={1}
-              marks
-              min={1}
-              max={5}
-              getAriaValueText={valuetext}
-              valueLabelDisplay="on"
-            />
-          </div>
-          <div className="d-block position-relative w-100 mb-5">
-            <span
-              className="position-absolute text-wrap w-6"
-              style={{ left: "0" }}
-            >
-              Strongly disagree
-            </span>
-            <span className="position-absolute" style={{ left: "20%" }}>
-              Disagree
-            </span>
-            <span className="position-absolute" style={{ left: "46%" }}>
-              Neither
-            </span>
-            <span
-              className="position-absolute text-center"
-              style={{ left: "72%" }}
-            >
-              Agree
-            </span>
-            <span
-              className="text-wrap w-6 position-absolute text-end"
-              style={{ left: "84%" }}
-            >
-              Strongly agree
-            </span>
-          </div>
-        </div>
-        <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me to explore methods of changing negative
-            self-talk to positive self-talk.{" "}
-          </p>
-        </div>
-        <br />
-        <br />
-        <div className="d-flex flex-column align-items-center">
-          <div className="w-100">
-            <Slider
-              aria-label="Always visible"
-              defaultValue={3}
-              step={1}
-              marks
-              min={1}
-              max={5}
-              getAriaValueText={valuetext}
-              valueLabelDisplay="on"
-            />
-          </div>
-          <div className="d-block position-relative w-100 mb-5">
-            <span
-              className="position-absolute text-wrap w-6"
-              style={{ left: "0" }}
-            >
-              Strongly disagree
-            </span>
-            <span className="position-absolute" style={{ left: "20%" }}>
-              Disagree
-            </span>
-            <span className="position-absolute" style={{ left: "46%" }}>
-              Neither
-            </span>
-            <span
-              className="position-absolute text-center"
-              style={{ left: "72%" }}
-            >
-              Agree
-            </span>
-            <span
-              className="text-wrap w-6 position-absolute text-end"
-              style={{ left: "84%" }}
-            >
-              Strongly agree
-            </span>
-          </div>
-        </div>
-        <br />
-
-        <Link to="/understanding-thoughts-feelings-and-behaviours">
+        <ReflectionQuestion>
+          This module has helped me explore and understand positive and negative
+          self-talk.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore methods of changing negative
+          self-talk to positive self-talk.
+        </ReflectionQuestion>
+        <Link
+          className="text-decoration-none"
+          to="/understanding-thoughts-feelings-and-behaviours"
+        >
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

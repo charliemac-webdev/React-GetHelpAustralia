@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const AdultPornographyModuleData = [
   {
@@ -80,6 +81,7 @@ const AdultPornographyModuleData = [
             href="https://www.gov.uk/government/publications/revenge-porn"
             target="_blank"
             rel="noopener"
+            className="secondary-color"
           >
             revenge porn
           </a>
@@ -224,6 +226,7 @@ const AdultPornographyModuleData = [
             href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.docx"
             target="_blank"
             rel="noopener"
+            className="secondary-color"
           >
             Word document
           </a>{" "}
@@ -232,6 +235,7 @@ const AdultPornographyModuleData = [
             href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.pdf"
             target="_blank"
             rel="noopener"
+            className="secondary-color"
           >
             PDF
           </a>
@@ -274,6 +278,7 @@ const AdultPornographyModuleData = [
               href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.docx"
               target="_blank"
               rel="noopener"
+              className="secondary-color"
             >
               Word document
             </a>{" "}
@@ -282,6 +287,7 @@ const AdultPornographyModuleData = [
               href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.pdf"
               target="_blank"
               rel="noopener"
+              className="secondary-color"
             >
               PDF
             </a>
@@ -354,13 +360,12 @@ const AdultPornographyModuleData = [
             something has triggered you to have a strong emotional reaction, you
             still have a choice of how to make yourself feel better. You have a
             choice whether to go online and view pornography, or whether you{" "}
-            <a
-              href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/your-well-being-and-self-care/recognising-and-dealing-with-feelings/"
-              target="_blank"
-              rel="noopener"
+            <Link
+              className="secondary-color"
+              to="/recognising-and-dealing-with-feelings"
             >
               manage your feelings in a different way
-            </a>
+            </Link>
             .
           </p>
           <br></br>
@@ -369,13 +374,9 @@ const AdultPornographyModuleData = [
             If you want to view pornography then there are a range of techniques
             that you could use to help stop yourself. Check out our information
             on{" "}
-            <a
-              href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/understanding-the-behaviour/fantasy/"
-              target="_blank"
-              rel="noopener"
-            >
-              fantasy management (INSERT HYPERLINK)
-            </a>
+            <Link to="/fantasy" className="secondary-color">
+              fantasy management
+            </Link>
             .
           </p>
           <br></br>
@@ -485,6 +486,7 @@ const AdultPornographyModuleData = [
               href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.docx"
               target="_blank"
               rel="noopener"
+              className="secondary-color"
             >
               Word document
             </a>{" "}
@@ -493,6 +495,7 @@ const AdultPornographyModuleData = [
               href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.pdf"
               target="_blank"
               rel="noopener"
+              className="secondary-color"
             >
               PDF
             </a>
@@ -514,15 +517,11 @@ const AdultPornographyModuleData = [
             <li>What have you learned from completing this exercise?</li>
           </ul>
           <p>
-            <a
-              href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/your-well-being-and-self-care/problem-solving/"
-              target="_blank"
-              rel="noopener"
-            >
+            <Link to="/problem-solving" className="secondary-color">
               If you want to understand more about why you use pornography to
               solve problems, you may find it helpful to visit our understanding
               problems module.
-            </a>
+            </Link>
           </p>
           <br></br>
         </div>
@@ -723,6 +722,7 @@ const AdultPornographyModuleData = [
                 href="https://www.saferinternet.org.uk/advice-centre/parents-and-carers/parental-controls-offered-your-home-internet-provider"
                 target="_blank"
                 rel="noopener"
+                className="secondary-color"
               >
                 Find out how to set restrictions
               </a>
@@ -737,6 +737,7 @@ const AdultPornographyModuleData = [
                 href="http://www.covenanteyes.com"
                 target="_blank"
                 rel="noopener"
+                className="secondary-color"
               >
                 Covenant Eyes
               </a>
@@ -744,7 +745,12 @@ const AdultPornographyModuleData = [
             </li>
             <li>
               If you don’t have someone to support you,{" "}
-              <a href="http://www.nofap.com" target="_blank" rel="noopener">
+              <a
+                href="http://www.nofap.com"
+                target="_blank"
+                rel="noopener"
+                className="secondary-color"
+              >
                 NoFap
               </a>{" "}
               might help – it’s a website and support group designed to help
@@ -762,12 +768,13 @@ const AdultPornographyModuleData = [
               href="https://www.innerhealthstudio.com/visualization-scripts.html"
               target="_blank"
               rel="noopener"
+              className="secondary-color"
             >
-              Find out more about relaxation techniques <b>(INSERST LINK)</b>
+              Find out more about relaxation techniques
             </a>
             .
           </p>
-          <br></br>
+          <br />
         </div>
       </>
     ),
@@ -814,13 +821,12 @@ const AdultPornographyModuleData = [
             </li>
             <li>
               Learn new ways to{" "}
-              <a
-                href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/your-well-being-and-self-care/recognising-and-dealing-with-feelings/"
-                target="_blank"
-                rel="noopener"
+              <Link
+                to="/recognising-and-dealing-with-feelings"
+                className="secondary-color"
               >
                 manage negative feelings
-              </a>
+              </Link>
               . When you are feeling stressed or low, you are more likely to
               give in to urges.
             </li>
@@ -847,7 +853,31 @@ const AdultPornographyModuleData = [
           <br></br>
         </div>
         <br />
-        <Link to="/self-help-addiction">
+      </>
+    ),
+  },
+  {
+    id: 8,
+    title: "Reflection",
+    description: (
+      <>
+        <ReflectionQuestion>
+          This module has helped me explore and understand my use of legal
+          (adult) pornography.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand why I look at
+          adult pornography.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand my use of adult
+          pornography is problematic.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand techniques to
+          reduce or stop using adult pornography.
+        </ReflectionQuestion>
+        <Link className="default-link" to="/addiction">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

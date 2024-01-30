@@ -1,11 +1,7 @@
-import { Slider } from "@mui/material";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import picture from "../../../images/shame-spiral.png";
-
-function valuetext(value) {
-  return value;
-}
 
 const GuiltAndShameModuleData = [
   {
@@ -273,85 +269,19 @@ const GuiltAndShameModuleData = [
           <label for="floatingTextarea">Comments</label>
         </div>
         <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me explore and understand my own feelings of
-            guilt and/or shame
-          </p>
-        </div>
-        <br />
-        <br />
-        <Slider
-          aria-label="Always visible"
-          defaultValue={3}
-          step={1}
-          marks
-          min={1}
-          max={5}
-          getAriaValueText={valuetext}
-          valueLabelDisplay="on"
-        />
-        <div className="d-flex justify-content-between w-100">
-          <span className="text-wrap w-6 me-3">Strongly disagree</span>
-          <span className="w-20">Disagree</span>
-          <span className="w-20 text-center">Neither</span>
-          <span className="w-20 text-end">Agree</span>
-          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
-        </div>
-        <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me to identify ways to overcome feelings of
-            guilt/shame.
-          </p>
-        </div>
-        <br />
-        <br />
-        <Slider
-          aria-label="Always visible"
-          defaultValue={3}
-          step={1}
-          marks
-          min={1}
-          max={5}
-          getAriaValueText={valuetext}
-          valueLabelDisplay="on"
-        />
-        <div className="d-flex justify-content-between w-100">
-          <span className="text-wrap w-6 me-3">Strongly disagree</span>
-          <span className="w-20">Disagree</span>
-          <span className="w-20 text-center">Neither</span>
-          <span className="w-20 text-end">Agree</span>
-          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
-        </div>
-        <br />
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>
-            This module has helped me explore and understand how to deal with
-            shame.
-          </p>
-        </div>
-        <br />
-        <br />
-        <Slider
-          aria-label="Always visible"
-          defaultValue={3}
-          step={1}
-          marks
-          min={1}
-          max={5}
-          getAriaValueText={valuetext}
-          valueLabelDisplay="on"
-        />
-        <div className="d-flex justify-content-between w-100">
-          <span className="text-wrap w-6 me-3">Strongly disagree</span>
-          <span className="w-20">Disagree</span>
-          <span className="w-20 text-center">Neither</span>
-          <span className="w-20 text-end">Agree</span>
-          <span className="text-wrap w-6 ms-4 text-end">Strongly agree</span>
-        </div>
-        <br />
-        <Link to="/motivation-for-change">
+        <ReflectionQuestion>
+          This module has helped me explore and understand my own feelings of
+          guilt and/or shame.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to identify ways to overcome feelings of
+          guilt/shame.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me explore and understand how to deal with
+          shame.
+        </ReflectionQuestion>
+        <Link className="text-decoration-none" to="/motivation-for-change">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module
