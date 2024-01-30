@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const takingResponsibilityModuleData = [
   {
@@ -199,6 +200,18 @@ const takingResponsibilityModuleData = [
         </p>
         <p> What steps do you plan to take to seek out this information?</p>
         <br />
+        <ReflectionQuestion>
+          This module has helped me to understand my level of control over my
+          current online sexual beahviours.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to understand how I have used denial to
+          allow my problematic behaviour to continue.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore how to make immediate changes to
+          start the change process.
+        </ReflectionQuestion>
         <Link to="/self-help-online-world">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">

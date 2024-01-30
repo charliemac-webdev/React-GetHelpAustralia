@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 import pictureOne from "../../../images/understanding-why-excercise-1-example.png";
 import pictureTwo from "../../../images/understanding-why-excercise-2a-example-v2.png";
@@ -114,7 +115,6 @@ const understandingWhyModuleData = [
         </p>
         <ol>
           <li>
-            <br></br>
             Download and open the file in a PDF reader. If you need to, you can
             download this free Adobe PDF reader.
           </li>
@@ -352,7 +352,6 @@ const understandingWhyModuleData = [
             Can you identify how your offending changed over time and involved
             different behaviours?
           </p>
-          <br />
           <li>
             Have you at any time tried to stop your illegal online sexual
             behaviour? If yes, how many times did you try and stop? Why do you
@@ -442,7 +441,24 @@ const understandingWhyModuleData = [
           </li>
         </ul>
         <br />
-        <Link to="/self-help-triggers">
+        <ReflectionQuestion>
+          I have a clear and detailed understanding of my sexual behaviour and
+          the internet.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          {" "}
+          I can identify key events in my like that influenced me to engage in
+          more risky sexual behaviour over time
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          I understand how I came to first behave illegally online
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          I am aware of my patterns of internet use and when I am most likely to
+          behaviour illegally.
+        </ReflectionQuestion>
+
+        <Link to="/triggers">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

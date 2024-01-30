@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 const triggersModuleData = [
   {
@@ -200,6 +201,13 @@ const triggersModuleData = [
           help you minimise the risk of repeating your behaviour in the future.
         </p>
         <br />
+        <ReflectionQuestion>
+          This module has helped me explore and understand the different types
+          of triggers{" "}
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to explore and understand my own triggers
+        </ReflectionQuestion>
         <Link to="/self-help-taking-responsibility">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">

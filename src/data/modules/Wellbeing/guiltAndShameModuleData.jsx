@@ -199,8 +199,10 @@ const GuiltAndShameModuleData = [
           that you do well. They will see the whole person and not just the
           behaviour. By sharing how you feel, the emotions can become easier to
           manage. If you need help with talking about your thoughts and
-          feelings, visit our <b>opening up to others</b> module (ADD
-          HYPERLINK).
+          feelings, visit our{" "}
+          <Link to="/recognising-and-dealing-with-feelings">
+            <b>opening up to others</b>
+          </Link>
         </p>
         <h5 className="secondary-color">Find an emotional outlet</h5>
         <p>

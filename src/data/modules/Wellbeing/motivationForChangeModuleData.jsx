@@ -84,7 +84,13 @@ const MotivationForChangeModuleData = [
             </li>
           </ul>
           <p>
-            <img src={picture} alt="" width="70%" height="auto" />
+            <img
+              className="d-block mx-auto"
+              src={picture}
+              alt=""
+              width="70%"
+              height="auto"
+            />
           </p>
         </div>
       </>
