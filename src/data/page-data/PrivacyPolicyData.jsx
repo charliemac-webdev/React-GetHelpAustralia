@@ -154,8 +154,8 @@ const PrivacyPolicyData = () => {
           (persistent cookies).
         </p>
         <p>
-          The Get Help! Austalia website may use both types of cookie, depending
-          on your use of the site.
+          The Get Help! Australia website may use both types of cookie,
+          depending on your use of the site.
         </p>
         <p>
           If logged in, upon closing your browser, the session cookie set by
