@@ -37,6 +37,7 @@ import ImagesAreChildrenModule from "./pages/UnderstandingOnlineBehaviour/images
 import OnlineWorldModule from "./pages/UnderstandingOnlineBehaviour/online-world";
 import ProblemOfImmediateModule from "./pages/UnderstandingOnlineBehaviour/problem-with-immediate-gratification";
 import ProblematicCollectingModule from "./pages/UnderstandingOnlineBehaviour/problematic-collecting";
+import SelfAwarenessOnlineCognition from "./pages/UnderstandingOnlineBehaviour/self-awareness-online-cognition";
 import SexualCommunicationWithChildrenModule from "./pages/UnderstandingOnlineBehaviour/sexual-communication-with-children-online";
 import TakingResponsibilityModule from "./pages/UnderstandingOnlineBehaviour/taking-responsibility";
 import TriggersModule from "./pages/UnderstandingOnlineBehaviour/triggers";
@@ -46,7 +47,6 @@ import ManagingThoughtsModule from "./pages/Wellbeing/managing-thoughts";
 import MotivationForChangeModule from "./pages/Wellbeing/motivation-for-change";
 import RecognisingAndDealingWithFeelingsModule from "./pages/Wellbeing/recognising-and-dealing-with-feelings";
 import SelfAwarenessDistress from "./pages/Wellbeing/self-awareness-distress";
-import SelfAwarenessOnlineCognition from "./pages/Wellbeing/self-awareness-online-cognition";
 import SelfCareModule from "./pages/Wellbeing/self-care";
 import SelfEsteemAndAssertivenessModule from "./pages/Wellbeing/self-esteem-and-assertiveness";
 import SelfTalkModule from "./pages/Wellbeing/self-talk";

@@ -112,13 +112,13 @@ const onlineCognitionData = [
         </div>
         <br />
         <p>
-          <span className="secondary-color fw-bold">1-50:</span> Your score
+          <span className="secondary-color fw-bold">1 - 50:</span> Your score
           indicates you are less likely to be engaging in internet use that is
           problematic to your thoughts and/or behaviour.
         </p>
 
         <p>
-          <span className="secondary-color fw-bold">51-120:</span> This score
+          <span className="secondary-color fw-bold">51 - 120:</span> This score
           indicates you are likely engaging in internet use that is having a
           negative impact on your thoughts and/or behaviour. Examples of this
           include:- Losing track of time online Having trouble completing other
