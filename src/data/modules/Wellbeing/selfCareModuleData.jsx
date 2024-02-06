@@ -602,17 +602,6 @@ const SelfCareModuleData = [
       <>
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
-        <ul className="content-list">
-          <li>
-            how has your understanding of self-care improved since you began
-            this module?
-          </li>
-          <li>
-            has this module motivated you to find out more about self-care
-            strategies?
-          </li>
-          <li>how committed are you to your self-care plan?</li>
-        </ul>
         <p>
           Self-care is an important element in your journey to understanding
           your risky online behaviour and moving away from it, towards a better
@@ -621,13 +610,18 @@ const SelfCareModuleData = [
           you to factor in self-care after each session of working through these
           self-help modules.
         </p>
-        <br />
+        <br></br>
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.
+        </p>
         <ReflectionQuestion>
-          This module has helped me explore and understand the importance and
-          self-care.
+          I now have a better understanding of what self-care is and why it is
+          important to me.
         </ReflectionQuestion>
+
         <ReflectionQuestion>
-          I am committed to my own self-care plan and goals.
+          I am committed to completing my own self-care plan and setting goals.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/guilt-and-shame">
           <div className="d-flex justify-content-end">

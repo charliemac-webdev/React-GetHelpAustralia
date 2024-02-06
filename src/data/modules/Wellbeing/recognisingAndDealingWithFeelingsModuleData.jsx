@@ -106,13 +106,11 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           sexual images of children include dealing with negative emotions such
           as stress, loneliness, frustration, depression and anxiety.
         </p>
-        <br />
         <p>
           They often describe using sexual fantasy and masturbation or illegal
           on-line behaviour as a way of coping with negative feelings and
           situations as a form of self-soothing, escapism and stress relief.
         </p>
-        <br />
         <p>
           They may be aware that these are not coping strategies but for a
           variety of reasons struggle to identify other more positive ways of
@@ -121,7 +119,6 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           likely to reduce the probability of engaging in problematic sexual
           behaviour and harming children.
         </p>
-        <br />
       </>
     ),
   },
@@ -157,12 +154,10 @@ const RecognisingAndDealingWithFeelingsModuleData = [
             getting to do something new.
           </e>
         </p>
-        <br />
         <p>
           We are now going to explore how positive and negative thinking can
           help with managing emotions.
         </p>
-        <br />
         <p>
           This includes how you feel about yourself (your self-esteem); how you
           feel about your situation and your feelings towards other people. For
@@ -185,14 +180,12 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           </Link>
           .
         </p>
-        <br />
         <p>
           Negative thinking comprises thoughts in which you see the worst in
           everything. It reduces your expectations by expecting the worst.
           Negative thinking tends to manifest itself in patterns of behaviour
           which are characterized by stress, worry, anxiety and frustration.
         </p>
-        <br />
         <p>Positive thinking encourages healthy behaviour.</p>
         <hr />
         <h5 className="secondary-color">Exercise 2 - Your negative thoughts</h5>
@@ -539,18 +532,25 @@ const RecognisingAndDealingWithFeelingsModuleData = [
     title: "Reflection",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
+        <p>Think about your responses to these reflection questions...</p>
         <ul className="content-list">
           <li>What shows me that something is wrong?</li>
           <li>What can I do to manage negative feelings?</li>
         </ul>
-        <br />
+        <br></br>
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.
+        </p>
         <ReflectionQuestion>
-          This module helped me understand how my emotions influence my thinking
-          and behaviour?
+          I now have a better understanding of how my emotions influence my
+          thinking and behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module helped me understand how I cope with difficult emotions?
+          I now have a better understanding of ways to cope with difficult
+          emotions.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/self-care">
           <div className="d-flex justify-content-end">
