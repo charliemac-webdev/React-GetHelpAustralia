@@ -5,9 +5,9 @@ import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
 const Footer = () => {
   return (
     <footer className="footer footer-text">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col pt-4">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col pt-4">
             <div className="d-flex justify-content-start text-start">
               <div className="pt-2">
                 <img src={imageOne} alt="indigenous flag" height="63" />
@@ -32,7 +32,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="col pt-4">
+          <div className="col pt-4">
             <div className="d-flex flex-column text-center">
               <div className="p-2">
                 <p className="copyright m-0">
@@ -49,7 +49,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div className="col">
             <div className="d-block text-end">
               <div className="p-2">
                 <img src={logo} alt="UniSC" height="115" />

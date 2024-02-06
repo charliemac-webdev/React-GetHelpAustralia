@@ -1,10 +1,5 @@
 const UnderstandingYourOnlineBehaviourFolderTitles = [
   {
-    id: 1,
-    title: "Self-awareness: online cognition",
-    link: "/self-awareness-online-cognition",
-  },
-  {
     id: 2,
     title: "Self-awareness: internet and values",
     link: "/self-awareness-internet-and-values",

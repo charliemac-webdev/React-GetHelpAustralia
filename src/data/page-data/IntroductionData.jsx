@@ -39,9 +39,9 @@ const IntroductionData = () => {
             backgroundColor: "#e6edf5",
           }}
         >
-          <p>
+          <div>
             <h6 className="secondary-color">Disclaimer</h6>
-          </p>
+          </div>
         </AccordionSummary>
         <AccordionDetails>
           <div>
@@ -98,9 +98,9 @@ const IntroductionData = () => {
             backgroundColor: "#e6edf5",
           }}
         >
-          <p>
+          <div>
             <h6 className="secondary-color">Privacy Policy</h6>
-          </p>
+          </div>
         </AccordionSummary>
         <AccordionDetails>
           <div>
@@ -253,9 +253,7 @@ const IntroductionData = () => {
                 </p>
               </li>
             </ul>
-            <h2>
-              <h2 className="secondary-color">Web cookies</h2>
-            </h2>
+            <h2 className="secondary-color">Web cookies</h2>
             <p>
               A cookie is a piece of information that an Internet web site sends
               to your browser when you access information at that site. Cookies
