@@ -257,8 +257,8 @@ const GuiltAndShameModuleData = [
         <h4 className="secondary-color">Reflection</h4>
         <p>
           Holding on to shame can affect your ability to move forward
-          positively. Please write down three examples of positive self-talk
-          that help you to see that you and your offending are not the same.
+          positively. Think about three examples of positive self-talk that help
+          you to see that you and your offending are not the same.
         </p>
         <div class="form-floating">
           <textarea
@@ -268,10 +268,14 @@ const GuiltAndShameModuleData = [
           ></textarea>
           <label for="floatingTextarea">Comments</label>
         </div>
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.
+        </p>
         <br />
         <ReflectionQuestion>
-          This module has helped me explore and understand my own feelings of
-          guilt and/or shame.
+          I now have a better understanding of my own feelings of guilt and/or
+          shame.
         </ReflectionQuestion>
         <ReflectionQuestion>
           This module has helped me to identify ways to overcome feelings of

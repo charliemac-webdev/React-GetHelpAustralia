@@ -534,11 +534,10 @@ const RecognisingAndDealingWithFeelingsModuleData = [
       <>
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
-        <p>Think about your responses to these reflection questions...</p>
-        <ul className="content-list">
-          <li>What shows me that something is wrong?</li>
-          <li>What can I do to manage negative feelings?</li>
-        </ul>
+        <p>
+          Think about... what shows me something is wrong, and what can I do to
+          manage negative feelings.
+        </p>
         <br></br>
         <p>
           Reflecting on your progress after completing this module, rate your
