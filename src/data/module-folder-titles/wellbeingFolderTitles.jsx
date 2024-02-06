@@ -1,46 +1,46 @@
 const wellbeingFolderTitles = [
   {
-    id: 0,
-    title: "Self-awareness: Problematic internet use",
-    link: "/self-awareness-online-cognition",
+    id: 1,
+    title: "Self-awareness: Psychological Distress",
+    link: "/self-awareness-psychological-distress",
   },
   {
-    id: 1,
+    id: 2,
     title: "Recognising and dealing with feelings",
     link: "/recognising-and-dealing-with-feelings",
   },
   {
-    id: 2,
+    id: 3,
     title: "Self-care",
     link: "/self-care",
   },
   {
-    id: 3,
+    id: 4,
     title: "Guilt and shame",
     link: "/guilt-and-shame",
   },
   {
-    id: 4,
+    id: 5,
     title: "Motivation for change",
     link: "/motivation-for-change",
   },
   {
-    id: 5,
+    id: 6,
     title: "Self-esteem and assertiveness",
     link: "/self-esteem-and-assertiveness",
   },
   {
-    id: 6,
+    id: 7,
     title: "Self-talk",
     link: "/self-talk",
   },
   {
-    id: 7,
+    id: 8,
     title: "Understanding thoughts, feelings and behaviours",
     link: "/understanding-thoughts-feelings-and-behaviours",
   },
   {
-    id: 8,
+    id: 9,
     title: "Managing thoughts, feelings and behaviours",
     link: "/managing-thoughts-feelings-and-behaviours",
   },

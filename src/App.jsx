@@ -45,6 +45,7 @@ import GuiltAndShameModule from "./pages/Wellbeing/guilt-and-shame";
 import ManagingThoughtsModule from "./pages/Wellbeing/managing-thoughts";
 import MotivationForChangeModule from "./pages/Wellbeing/motivation-for-change";
 import RecognisingAndDealingWithFeelingsModule from "./pages/Wellbeing/recognising-and-dealing-with-feelings";
+import SelfAwarenessDistress from "./pages/Wellbeing/self-awareness-distress";
 import SelfAwarenessOnlineCognition from "./pages/Wellbeing/self-awareness-online-cognition";
 import SelfCareModule from "./pages/Wellbeing/self-care";
 import SelfEsteemAndAssertivenessModule from "./pages/Wellbeing/self-esteem-and-assertiveness";
@@ -217,10 +218,14 @@ function App() {
               }
             />
             <Route
-              path="/self-awareness-online-cognition"
+              path="/self-awareness-problematic-internet-use"
               element={
                 <SelfAwarenessOnlineCognition showMenu={handleShowMenu} />
               }
+            />
+            <Route
+              path="/self-awareness-psychological-distress"
+              element={<SelfAwarenessDistress showMenu={handleShowMenu} />}
             />
             <Route path="/modal-page" element={<Modal />} />
             <Route path="*" element={<Error />} />
