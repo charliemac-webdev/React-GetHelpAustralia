@@ -1,7 +1,6 @@
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
-import React from "react";
 import { MdExpandMore } from "react-icons/md";
 
 const UnderstandingYourOnlineBehaviourData = () => {

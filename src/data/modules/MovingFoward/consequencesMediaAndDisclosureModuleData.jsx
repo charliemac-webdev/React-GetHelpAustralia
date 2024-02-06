@@ -1,3 +1,8 @@
+import { Link } from "react-router-dom";
+
+import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
+
 const DisclosureModuleData = [
   {
     id: 1,
@@ -38,10 +43,11 @@ const DisclosureModuleData = [
         </p>
         <p>
           <img
+            className="d-block mx-auto"
             src="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/consequences.png"
             alt=""
-            width="1007"
-            height="622"
+            width="90%"
+            height="auto"
             sizes="(max-width: 1007px) 100vw, 1007px"
           />
         </p>
@@ -97,6 +103,7 @@ const DisclosureModuleData = [
         <p>
           You can find{" "}
           <a
+            className="secondary-color"
             href="https://www.acic.gov.au/protection-services"
             target="_blank"
             rel="noopener noreferrer"
@@ -199,6 +206,7 @@ const DisclosureModuleData = [
         </ul>
         <p>
           <a
+            className="secondary-color"
             href="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/Media-case-study.m4a"
             target="_blank"
             rel="noopener noreferrer"
@@ -348,6 +356,7 @@ const DisclosureModuleData = [
         <p>
           Understand more on{" "}
           <a
+            className="secondary-color"
             href="https://www.stopitnow.org.uk/supporting-children-in-the-family/"
             target="_blank"
             rel="noopener noreferrer"
@@ -433,6 +442,35 @@ const DisclosureModuleData = [
         </ul>
         <br></br>
       </div>
+    ),
+  },
+  {
+    id: 6,
+    title: "Reflection",
+    description: (
+      <>
+        <h4 className="secondary-color">Reflection</h4>
+        <ReflectionQuestion>
+          This module has helped me better understand the criminal justice
+          consequences of my illegal behaviour.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me better understand other consequences (e.g.,
+          Employment, Child Safety) of illegal online behaviour?
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has provided helpful advice about how to speak with my
+          friends and family about my situation.
+        </ReflectionQuestion>
+
+        <Link className="text-decoration-none" to="/problem-solving">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
+      </>
     ),
   },
 ];

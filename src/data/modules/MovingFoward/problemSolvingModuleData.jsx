@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
+
 const ProblemSolvingModuleData = [
   {
     id: 1,
@@ -20,8 +24,10 @@ const ProblemSolvingModuleData = [
         <br></br>
         <h4 className="secondary-color">Starting Point</h4>
         <p>
-          Identify your current level of confidence (1 = no&nbsp;confidence; 2 =
-          some confidence; 3 = very confident).
+          Identify your current level of confidence
+          <p>
+            ( 1 = no&nbsp;confidence; 2 = some confidence; 3 = very confident )
+          </p>
         </p>
         <table className="table table-bordered">
           <tbody>
@@ -130,17 +136,23 @@ const ProblemSolvingModuleData = [
         </p>
         <p>
           In the&nbsp;
-          <a href="https://www.stopitnow.org.uk/concerned-about-use-of-the-internet/self-help/understanding-the-behaviour/problem-of-immediate-gratification/">
+          <Link
+            className="secondary-color"
+            to="/problem-of-immediate-gratification"
+          >
             Problem of Immediate Gratification section
-          </a>
+          </Link>
           &nbsp;we introduced you to a table of costs and gains. This can be
           used when evaluating any decision. If the costs outweigh the gains
           then it can be really obvious that it is not a good decision. You also
           need to ask yourself if you are choosing a short term ‘fix’ (for
           example alcohol, drugs, sex), again re-visit the&nbsp;
-          <a href="https://www.stopitnow.org.uk/concerned-about-use-of-the-internet/self-help/understanding-the-behaviour/problem-of-immediate-gratification/">
-            Problem of Immediate Gratification
-          </a>
+          <Link
+            className="secondary-color"
+            to="/problem-of-immediate-gratification"
+          >
+            Problem of Immediate Gratification section
+          </Link>
           &nbsp;section if you need to understand why you might do this.
         </p>
         <p>
@@ -276,6 +288,7 @@ const ProblemSolvingModuleData = [
         </table>
         <p>
           <a
+            className="secondary-color"
             href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problem-solving-exercise-1.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -317,10 +330,11 @@ const ProblemSolvingModuleData = [
         </p>
         <p>
           <img
+            className="d-block mx-auto"
             src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/diagrams-toothpaste.gif"
             alt=""
-            width="1199"
-            height="671"
+            width="90%"
+            height="auto"
           />
         </p>
         <br></br>
@@ -333,11 +347,11 @@ const ProblemSolvingModuleData = [
         <p>
           <img
             decoding="async"
-            className="alignnone size-full wp-image-833"
+            className="d-block mx-auto"
             src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/diagrams-improvingmyself.gif"
             alt=""
-            width="1199"
-            height="834"
+            width="90%"
+            height="auto"
           />
         </p>
         <br></br>
@@ -458,7 +472,23 @@ const ProblemSolvingModuleData = [
           Now!&nbsp;Helpline&nbsp;for confidential support from our trained
           staff.
         </p>
-        <br></br>
+        <br />
+        <ReflectionQuestion>
+          This module helped me better understand the benefits of problem
+          solving and how it can be applied to a range of different types of
+          problems.
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module has helped me to think about ways to avoid acting on
+          impulse.
+        </ReflectionQuestion>
+        <Link className="text-decoration-none" to="/building-a-good-life">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </div>
     ),
   },

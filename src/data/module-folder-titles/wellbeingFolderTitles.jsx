@@ -1,5 +1,10 @@
 const wellbeingFolderTitles = [
   {
+    id: 13,
+    title: "Self-awareness: online cognition",
+    link: "/self-awareness-online-cognition",
+  },
+  {
     id: 1,
     title: "Recognising and dealing with feelings",
     link: "/recognising-and-dealing-with-feelings",

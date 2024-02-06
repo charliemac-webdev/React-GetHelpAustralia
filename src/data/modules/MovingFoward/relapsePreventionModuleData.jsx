@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+import Button from "../../../components/Button";
+import ReflectionQuestion from "../../../components/ReflectionQuestion";
+
 const RelapsePreventionModuleData = [
   {
     id: 1,
@@ -49,13 +53,12 @@ const RelapsePreventionModuleData = [
         <p>
           But you understand yourself better than anyone else. Think back to
           what you learned in{" "}
-          <a
-            href="https://www.stopitnow.org.uk/recognising-and-dealing-with-feelings/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            className="secondary-color"
+            to="/recognising-and-dealing-with-feelings"
           >
             <u>Recognising and dealing with feelings</u>
-          </a>{" "}
+          </Link>{" "}
           or read it again if you need to. Just be aware of how things work for
           you and how they might have worked in the past when you’ve offended.
         </p>
@@ -79,8 +82,12 @@ const RelapsePreventionModuleData = [
           important that you separate yourself from them; this is easier to do
           if they are online as you can block them. However, if they are work
           colleagues or family members this can be harder. In those situations,
-          you can use some of the <u>self-talk section</u> to help you manage
-          this wonky thinking also known as cognitive distortions.
+          you can use some of the{" "}
+          <Link className="secondary-color" to="/self-talk">
+            <u>self-talk section</u>
+          </Link>{" "}
+          to help you manage this wonky thinking also known as cognitive
+          distortions.
         </p>
         <br></br>
         <h4 className="secondary-color">How might a relapse happen?</h4>
@@ -303,21 +310,16 @@ const RelapsePreventionModuleData = [
           Make sure you have made all the practical changes to reduce the risk
           of temptation. You can revisit these from previous sections: make
           changes to{" "}
-          <a
-            href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/help-with-inappropriate-thoughts-or-behaviour/self-help/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link className="secondary-color" to="/understanding-why">
             <u>your thoughts or behaviour towards children</u>
-          </a>{" "}
+          </Link>{" "}
           or{" "}
-          <a
-            href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            className="secondary-color"
+            to="/understanding-your-online-behaviour"
           >
             <u>your online behaviour</u>
-          </a>
+          </Link>
           .
         </p>
         <p>
@@ -335,7 +337,8 @@ const RelapsePreventionModuleData = [
           seem difficult. If you don’t feel there’s anyone you can talk to,
           remember you can talk to our{" "}
           <a
-            href="https://www.stopitnow.org.uk/helpline/"
+            className="secondary-color"
+            href="https://www.stopitnow.org.au/helpline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -343,6 +346,7 @@ const RelapsePreventionModuleData = [
           </a>{" "}
           or the{" "}
           <a
+            className="secondary-color"
             href="https://www.samaritans.org/"
             target="_blank"
             rel="noopener noreferrer"
@@ -378,6 +382,7 @@ const RelapsePreventionModuleData = [
         <p>
           The following questions (available in the{" "}
           <a
+            className="secondary-color"
             href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/my-personal-risk-factors.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -396,7 +401,8 @@ const RelapsePreventionModuleData = [
           If you have any concerns, questions, or would just like to talk about
           what you are going through, our non-judgemental{" "}
           <a
-            href="https://www.stopitnow.org.uk/helpline/"
+            className="secondary-color"
+            href="https://www.stopitnow.org.au/helpline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -407,6 +413,24 @@ const RelapsePreventionModuleData = [
           ready to speak to anyone yet, you can also use our live chat or send a
           secure email.
         </p>
+        <ReflectionQuestion>
+          This module helped me to better understand why someone may relapse?
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          This module helped me better identify relapse risk factors and/or
+          warning signs?
+        </ReflectionQuestion>
+        <ReflectionQuestion>
+          I completed the exercise and identified ways I am going to cope with
+          risky thoughts, feelings, behaviours, people, and places?
+        </ReflectionQuestion>
+        <Link className="text-decoration-none" to="/building-a-good-life">
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </div>
     ),
   },
