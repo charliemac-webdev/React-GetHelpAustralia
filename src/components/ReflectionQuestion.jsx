@@ -38,7 +38,7 @@ const ReflectionQuestion = (props) => {
             Disagree
           </span>
           <span className="position-absolute" style={{ left: "46%" }}>
-            Neither
+            Neutral
           </span>
           <span
             className="position-absolute text-center"

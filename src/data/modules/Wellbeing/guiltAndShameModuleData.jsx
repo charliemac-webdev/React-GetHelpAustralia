@@ -260,14 +260,6 @@ const GuiltAndShameModuleData = [
           positively. Think about three examples of positive self-talk that help
           you to see that you and your offending are not the same.
         </p>
-        <div class="form-floating">
-          <textarea
-            class="form-control"
-            placeholder="Leave a comment here"
-            id="floatingTextarea"
-          ></textarea>
-          <label for="floatingTextarea">Comments</label>
-        </div>
         <p>
           Reflecting on your progress after completing this module, rate your
           thoughts on the following statements.
