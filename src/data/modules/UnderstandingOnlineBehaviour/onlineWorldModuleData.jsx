@@ -559,35 +559,22 @@ const OnlineWorldModuleData = [
         <div>
           <br></br>
           <h4 className="secondary-color">Reflection</h4>
-          <p>Think about these questions:</p>
-          <ul className="content-list">
-            <li>
-              Which part of the module has had the greatest impact on your
-              understanding? Why?
-            </li>
-            <li>
-              Has anything from this module prompted or encouraged you to take
-              action around your behaviour? If so, what?
-            </li>
-            <li>
-              Has this module raised any further questions for you or made you
-              want to explore any ideas further? What steps do you plan to take
-              to seek out this information?
-            </li>
-          </ul>
+          <br></br>
+          <p>
+            Reflecting on your progress after completing this module, rate your
+            thoughts on the following statements.{" "}
+          </p>
         </div>
-        <br />
         <ReflectionQuestion>
-          This module has helped me to understand the relationship between my
+          I now have a better understanding of the relationship between my
           online and offline social life.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to understand how the internet can be used
-          as a social outlet in my life.
+          I now have a better understanding of how the internet can be used as a
+          social outlet in my life.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand problematic online
-          relationships.
+          I now have a better understanding of problematic online relationships.
         </ReflectionQuestion>
         <Link className="default-link" to="/fantasy">
           <div className="d-flex justify-content-end">

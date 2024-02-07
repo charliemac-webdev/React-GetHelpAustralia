@@ -259,17 +259,15 @@ const selfTalkModuleData = [
         <h4 className="secondary-color">Reflection</h4>
         <p>
           Keep a diary for a week of any negative things you say to yourself.
-        </p>
-        <p>
           After a week look back and see what sort of messages you give
           yourself.
         </p>
+
         <p>
           Would you say these things to a friend? We are often harder on
           ourselves that others. It’s time to be your new best friend and be
-          kind to yourself.
+          kind to yourself. You need to start changing negative statements.
         </p>
-        <p>You need to start changing negative statements.</p>
         <p>
           If you want to discuss anything covered in this module, have struggled
           with working through the self-help material or just want the
@@ -278,12 +276,15 @@ const selfTalkModuleData = [
           support from our trained staff.
         </p>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me explore and understand positive and negative
-          self-talk.
+          I now have a better understanding of positive and negative self-talk.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore methods of changing negative
+          I now have a better understanding of methods to change negative
           self-talk to positive self-talk.
         </ReflectionQuestion>
         <Link

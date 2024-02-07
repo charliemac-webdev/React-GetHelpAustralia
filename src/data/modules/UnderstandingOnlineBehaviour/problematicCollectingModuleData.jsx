@@ -602,16 +602,19 @@ const ProblematicCollectingModuleData = [
           </strong>
         </p>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me to explore and understand why I collect.
+          I now have a better understanding of why I collect.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand how it links to my
-          offending.
+          I now have a better understanding of how it links to my offending.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand the relationship
-          between collecting and some of the unsatisfactory aspects of my life.
+          I now have a better understanding of the relationship between
+          collecting and some of the unsatisfactory aspects of my life.
         </ReflectionQuestion>
         <Link className="default-link" to="/moving-forward">
           <div className="d-flex justify-content-end">

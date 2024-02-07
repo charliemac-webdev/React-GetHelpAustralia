@@ -361,7 +361,6 @@ const AddictionModuleData = [
               this?
             </li>
           </ul>
-          <br />
           <p>
             If you want to discuss anything covered in this module, have
             struggled with working through the self-help material or just want
@@ -371,18 +370,21 @@ const AddictionModuleData = [
           </p>
           <br></br>
         </div>
-        <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me to explore and understand the difference
-          between addiction and compulsion.
+          I now have a better understanding of the difference between addiction
+          and compulsion.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand what role
-          addiction plays in my online behaviour.
+          I now have a better understanding of what role addiction plays in my
+          online behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand how I can start to
-          address addiction in my life.
+          I now have a better understanding of how I can start to address
+          addiction in my life.
         </ReflectionQuestion>
         <Link
           className="default-link"

@@ -374,8 +374,8 @@ const understandingWhyModuleData = [
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
-          As with the introduction to this module, using the table below, write
-          down your current level of knowledge and understanding about your
+          As with the introduction to this module, using the table below, think
+          about your current level of knowledge and understanding about your
           online behaviour.
         </p>
         <p>
@@ -441,21 +441,26 @@ const understandingWhyModuleData = [
           </li>
         </ul>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          I have a clear and detailed understanding of my sexual behaviour and
-          the internet.
+          I have a better understanding of my sexual behaviour and the internet.
         </ReflectionQuestion>
         <ReflectionQuestion>
           {" "}
-          I can identify key events in my like that influenced me to engage in
-          more risky sexual behaviour over time
+          I now have a better understanding of how to identify key events in my
+          like that influenced me to engage in more risky sexual behaviour over
+          time.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I understand how I came to first behave illegally online
+          I now have a better understanding of how I came to first behave
+          illegally online.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I am aware of my patterns of internet use and when I am most likely to
-          behaviour illegally.
+          I now have a better understanding of my patterns of internet use and
+          when I am most likely to behaviour illegally.
         </ReflectionQuestion>
 
         <Link to="/triggers">

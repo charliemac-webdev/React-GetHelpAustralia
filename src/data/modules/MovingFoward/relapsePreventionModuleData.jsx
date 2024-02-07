@@ -371,10 +371,11 @@ const RelapsePreventionModuleData = [
   },
   {
     id: 6,
-    title: "Reflection - My relapse prevention plan",
+    title: "Reflection",
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">Reflection</h4>
         <p>
           Spend some time identifying your own risk factors so you are aware of
           what they are and how to manage them.
@@ -391,38 +392,25 @@ const RelapsePreventionModuleData = [
           </a>
           ) could be helpful to do this.
         </p>
-        <br></br>
         <h5 className="secondary-color">Risk Factors</h5>
         <p>Why are these risky for me?</p>
         <p>How have I coped in the past?</p>
         <p>Did this work and why?</p>
         <br></br>
         <p>
-          If you have any concerns, questions, or would just like to talk about
-          what you are going through, our non-judgemental{" "}
-          <a
-            className="secondary-color"
-            href="https://www.stopitnow.org.au/helpline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>helpline</u>
-          </a>{" "}
-          advisors are here to support you. You can stay anonymous and don’t
-          have to give your real name or any contact details. If you’re not
-          ready to speak to anyone yet, you can also use our live chat or send a
-          secure email.
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.
         </p>
         <ReflectionQuestion>
-          This module helped me to better understand why someone may relapse?
+          I now have a better understanding of why someone may relapse.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module helped me better identify relapse risk factors and/or
-          warning signs?
+          I now have a better understanding of how to identify relapse risk
+          factors and/or warning signs.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I completed the exercise and identified ways I am going to cope with
-          risky thoughts, feelings, behaviours, people, and places?
+          I now have a better understanding of ways I am going to cope with
+          risky thoughts, feelings, behaviours, people, and places.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/building-a-good-life">
           <div className="d-flex justify-content-end">

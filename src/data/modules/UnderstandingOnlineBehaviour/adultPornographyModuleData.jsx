@@ -861,21 +861,26 @@ const AdultPornographyModuleData = [
     title: "Reflection",
     description: (
       <>
+        <h4 className="secondary-color">Reflection</h4>
+        <br></br>
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me explore and understand my use of legal
-          (adult) pornography.
+          I now have a better understanding of my use of legal (adult)
+          pornography.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand why I look at
-          adult pornography.
+          I now have a better understanding of why I look at adult pornography.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand my use of adult
-          pornography is problematic.
+          I now have a better understanding of how my use of adult pornography
+          is problematic.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand techniques to
-          reduce or stop using adult pornography.
+          I now have a better understanding of techniques to reduce or stop
+          using adult pornography.
         </ReflectionQuestion>
         <Link className="default-link" to="/addiction">
           <div className="d-flex justify-content-end">

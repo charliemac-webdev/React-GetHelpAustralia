@@ -686,13 +686,17 @@ const FantasyModuleData = [
           </li>
         </ul>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me explore and understand my current sexual and
-          non-sexual fantasies.
+          I now have a better understanding of my current sexual and non-sexual
+          fantasies.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me explore and understand the link between my
-          fantasies and my online behaviour.
+          I now have a better understanding of the link between my fantasies and
+          my online behaviour.
         </ReflectionQuestion>
         <Link className="default-link" to="/adult-pornography">
           <div className="d-flex justify-content-end">

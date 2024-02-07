@@ -737,8 +737,8 @@ const ImagesAreChildrenModuleData = [
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
-          As with the introduction to this module, using the table below, write
-          down your level of knowledge and understanding around your awareness
+          As with the introduction to this module, using the table below, think
+          about your level of knowledge and understanding around your awareness
           of the child abuse taking place in these images (1 = very little
           knowledge; 2 = some understanding; 3 = secure understanding).
         </p>
@@ -792,18 +792,21 @@ const ImagesAreChildrenModuleData = [
           </li>
         </ul>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me to explore and understand the false
-          justifications offenders use to avoid responsibility for their
-          actions.{" "}
+          I now have a better understanding of the false justifications
+          offenders use to avoid responsibility for their actions.{" "}
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand that these images
-          are of real children being abused.
+          I now have a better understanding that these images are of real
+          children being abused.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand the effects of
-          being photographed on the children in the image.
+          I now have a better understanding of the effects of being photographed
+          is on the children in the image.
         </ReflectionQuestion>
         <Link className="default-link" to="/problematic-collecting">
           <div className="d-flex justify-content-end">

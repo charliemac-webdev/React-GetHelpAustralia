@@ -205,14 +205,17 @@ const ProblemOfImmediateModuleData = [
           </ul>
           <br></br>
         </div>
-        <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me to explore and understand why immediate
-          gratification is so powerful.
+          I now have a better understanding of why immediate gratification is so
+          powerful.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand ways to work
-          against the power of immediate gratification.
+          I now have a better understanding of ways to work against the power of
+          immediate gratification.
         </ReflectionQuestion>
         <Link className="default-link" to="/images-are-children">
           <div className="d-flex justify-content-end">

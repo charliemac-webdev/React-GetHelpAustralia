@@ -194,19 +194,20 @@ const triggersModuleData = [
         </ul>
         <p>
           Recognising triggers to your illegal online behaviour is an important
-          part of being able to change your behaviour.
-        </p>
-        <p>
-          We now need to start looking at managing these triggers as this can
-          help you minimise the risk of repeating your behaviour in the future.
+          part of being able to change your behaviour. We now need to start
+          looking at managing these triggers as this can help you minimise the
+          risk of repeating your behaviour in the future.
         </p>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me explore and understand the different types
-          of triggers{" "}
+          I now have a better understanding of the different types of triggers.{" "}
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand my own triggers
+          I now have a better understanding of my own triggers.
         </ReflectionQuestion>
         <Link to="/taking-control-of-your-online-behaviour">
           <div className="d-flex justify-content-end">

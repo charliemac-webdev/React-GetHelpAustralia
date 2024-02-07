@@ -439,17 +439,17 @@ const BuildingAGoodLifeModuleData = [
       <>
         <h4 className="secondary-color">Reflection</h4>
         <p>
-          After successfully completing this module on building a good life
-          please take some time to reflect and answer the following questions.
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.
         </p>
         <br />
         <ReflectionQuestion>
-          This module has helped me identify that I am meeting my needs in a
-          harmful way?
+          I now have a better understanding of how I am meeting my needs in a
+          harmful way.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module helped me better understand how I can meet my needs in a
-          new and healthy way?
+          I now have a better understanding of how I can meet my needs in a new
+          and healthy way.
         </ReflectionQuestion>
         <Link
           className="text-decoration-none"

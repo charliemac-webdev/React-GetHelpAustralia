@@ -178,12 +178,17 @@ const ManagingThoughtsModuleData = [
     description: (
       <>
         <h4 className="secondary-color">Reflection</h4>
+        <br></br>
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me to develop strategies to manage unhealthy
-          sexual thoughts and behaviours.
+          I now have a better understanding of how to develop strategies to
+          manage unhealthy sexual thoughts and behaviours.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to understand how common thinking errors can
+          I now have a better understanding of how common thinking errors can
           affect progress.
         </ReflectionQuestion>
 

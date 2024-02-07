@@ -99,12 +99,6 @@ const UnderstandingYourOnlineBehaviourData = () => {
         </Accordion>
       </div>
       <br />
-      <p>
-        <b>
-          Find out more about Australian law relating to offline and online
-          offences (INSERT HYPERLINK).
-        </b>
-      </p>
       <br />
       <h4 className="secondary-color">Understanding Behaviour</h4>
       <p>

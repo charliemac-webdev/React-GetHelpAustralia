@@ -354,16 +354,20 @@ const SelfEsteemAndAssertivenessModuleData = [
           time together”
         </p>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me explore and understand self-esteem and how
-          to increase it.
+          I now have a better understanding of self-esteem and how to increase
+          it.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me explore and understand the importance of
-          being healthy and positive.
+          I now have a better understanding of the importance of being healthy
+          and positive.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has provided helpful tips to being more assertive.
+          I now know some helpful tips to being more assertive.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/self-talk">
           <div className="d-flex justify-content-end">

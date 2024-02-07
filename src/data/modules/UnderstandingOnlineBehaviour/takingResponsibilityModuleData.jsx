@@ -196,20 +196,24 @@ const takingResponsibilityModuleData = [
         <h4 className="secondary-color">Reflection</h4>
         <p>
           Has this module raised any further questions for you or made you want
-          to explore any ideas further?{" "}
+          to explore any ideas further? Think about what steps do you plan to
+          take to seek out this information?{" "}
         </p>
-        <p> What steps do you plan to take to seek out this information?</p>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me to understand my level of control over my
-          current online sexual beahviours.
+          I now have a better understanding of my level of control over my
+          current online sexual behaviours.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to understand how I have used denial to
-          allow my problematic behaviour to continue.
+          I now have a better understanding of how I have used denial to allow
+          my problematic behaviour to continue.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore how to make immediate changes to
+          I now have a better understanding of how to make immediate changes to
           start the change process.
         </ReflectionQuestion>
         <Link to="/online-world">

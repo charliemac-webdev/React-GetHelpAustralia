@@ -260,22 +260,21 @@ const GuiltAndShameModuleData = [
           positively. Think about three examples of positive self-talk that help
           you to see that you and your offending are not the same.
         </p>
+        <br></br>
         <p>
           Reflecting on your progress after completing this module, rate your
           thoughts on the following statements.
         </p>
-        <br />
         <ReflectionQuestion>
           I now have a better understanding of my own feelings of guilt and/or
           shame.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to identify ways to overcome feelings of
+          I now have a better understanding of ways to overcome feelings of
           guilt/shame.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me explore and understand how to deal with
-          shame.
+          I now have a better understanding of how to deal with shame.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/motivation-for-change">
           <div className="d-flex justify-content-end">

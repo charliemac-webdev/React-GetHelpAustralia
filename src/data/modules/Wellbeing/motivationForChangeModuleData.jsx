@@ -359,17 +359,21 @@ const MotivationForChangeModuleData = [
     description: (
       <>
         <h4 className="secondary-color">Reflection</h4>
+        <br></br>
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me understand change happens in stages and can
-          take time.
+          I now have a better understanding that change happens in stages and
+          can take time.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to identify what stage of change I am
-          currently at.
+          I am able to identify what stage of change I am currently at.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me identify what short term changes I want to
-          make to reduce risk of offending.
+          I now have a better understanding of how to identify what short-term
+          changes I want to make to reduce my risk of offending.
         </ReflectionQuestion>
         <Link
           className="text-decoration-none"

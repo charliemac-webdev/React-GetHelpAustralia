@@ -450,17 +450,22 @@ const DisclosureModuleData = [
     description: (
       <>
         <h4 className="secondary-color">Reflection</h4>
+        <br></br>
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me better understand the criminal justice
-          consequences of my illegal behaviour.
+          I now have a better understanding of the criminal justice consequences
+          of my illegal behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me better understand other consequences (e.g.,
-          Employment, Child Safety) of illegal online behaviour?
+          I now have a better understanding of other consequences (e.g.,
+          Employment, Child Safety) of illegal online behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has provided helpful advice about how to speak with my
-          friends and family about my situation.
+          I now have a better understanding about how to speak with my friends
+          and family about my situation.
         </ReflectionQuestion>
 
         <Link className="text-decoration-none" to="/problem-solving">

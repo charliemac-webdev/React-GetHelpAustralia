@@ -352,17 +352,21 @@ const UnderstandingThoughtsModuleData = [
     description: (
       <>
         <h4 className="secondary-color">Reflection</h4>
+        <br></br>
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me explore and understand the difference
-          between thoughts, feelings, and behaviours and how they influence each
-          other.
+          I have a better understanding of the difference between thoughts,
+          feelings, and behaviours and how they influence each other.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me explore common thinking errors.
+          I now have a better understanding of common thinking errors.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me explore and better understand the link
-          between sexual fantasies and arousal.
+          I now have a better understanding of the link between sexual fantasies
+          and arousal.
         </ReflectionQuestion>
         <Link
           className="text-decoration-none"

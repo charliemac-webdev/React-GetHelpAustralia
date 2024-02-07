@@ -773,17 +773,21 @@ const SexualCommunicationWithChildrenModuleData = [
           </ul>
         </div>
         <br />
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.{" "}
+        </p>
         <ReflectionQuestion>
-          This module has helped me to explore and understand my motivation for
-          engaging sexually with children online.{" "}
+          I now have a better understanding of my motivation for engaging
+          sexually with children online.{" "}
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand how my behaviour
-          progressed into sexual communication.
+          I now have a better understanding of how my behaviour progressed into
+          sexual communication.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to explore and understand how I might have
-          justified my behaviour.
+          I now have a better understanding of how I might have justified my
+          behaviour.
         </ReflectionQuestion>
         <Link className="default-link" to="/problem-of-immediate-gratification">
           <div className="d-flex justify-content-end">

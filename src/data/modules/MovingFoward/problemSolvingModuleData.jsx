@@ -464,23 +464,17 @@ const ProblemSolvingModuleData = [
             problems and the potential for offending behaviour?
           </li>
         </ul>
+        <br></br>
         <p>
-          If you want to discuss anything covered in this module, have struggled
-          with working through the self-help material or just want the
-          opportunity to work through the self-help site with a practitioner to
-          guide you then please&nbsp;call the Stop It
-          Now!&nbsp;Helpline&nbsp;for confidential support from our trained
-          staff.
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.
         </p>
-        <br />
         <ReflectionQuestion>
-          This module helped me better understand the benefits of problem
-          solving and how it can be applied to a range of different types of
-          problems.
+          I now have a better understanding of the benefits of problem solving
+          and how it can be applied to a range of different types of problems.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          This module has helped me to think about ways to avoid acting on
-          impulse.
+          I now have a better understanding of ways to avoid acting on impulse.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/building-a-good-life">
           <div className="d-flex justify-content-end">
