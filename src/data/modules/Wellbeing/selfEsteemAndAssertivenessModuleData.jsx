@@ -367,7 +367,7 @@ const SelfEsteemAndAssertivenessModuleData = [
           and positive.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now know some helpful tips to being more assertive.
+          I now know some helpful ways to be more assertive.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/self-talk">
           <div className="d-flex justify-content-end">

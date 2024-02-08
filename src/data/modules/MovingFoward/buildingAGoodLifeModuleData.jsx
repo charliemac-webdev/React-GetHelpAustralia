@@ -448,8 +448,8 @@ const BuildingAGoodLifeModuleData = [
           harmful way.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how I can meet my needs in a new
-          and healthy way.
+          I now know some helpful ways to meet my needs in a new and healthy
+          way.
         </ReflectionQuestion>
         <Link
           className="text-decoration-none"

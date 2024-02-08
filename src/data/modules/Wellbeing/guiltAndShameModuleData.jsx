@@ -266,15 +266,14 @@ const GuiltAndShameModuleData = [
           thoughts on the following statements.
         </p>
         <ReflectionQuestion>
-          I now have a better understanding of my own feelings of guilt and/or
-          shame.
+          I am better able to recognise guilt and shame.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of ways to overcome feelings of
           guilt/shame.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how to deal with shame.
+          I now have strategies to deal with feelings of shame.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/motivation-for-change">
           <div className="d-flex justify-content-end">

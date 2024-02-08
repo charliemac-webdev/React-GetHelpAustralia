@@ -872,15 +872,15 @@ const AdultPornographyModuleData = [
           pornography.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of why I look at adult pornography.
+          I can now identify why I look at adult pornography.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of how my use of adult pornography
           is problematic.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of techniques to reduce or stop
-          using adult pornography.
+          I can now identify techniques to reduce or stop using adult
+          pornography.
         </ReflectionQuestion>
         <Link className="default-link" to="/addiction">
           <div className="d-flex justify-content-end">

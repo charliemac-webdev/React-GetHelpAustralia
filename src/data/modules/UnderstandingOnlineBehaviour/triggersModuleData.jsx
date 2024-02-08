@@ -207,7 +207,7 @@ const triggersModuleData = [
           I now have a better understanding of the different types of triggers.{" "}
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of my own triggers.
+          I can now identify my own triggers.
         </ReflectionQuestion>
         <Link to="/taking-control-of-your-online-behaviour">
           <div className="d-flex justify-content-end">

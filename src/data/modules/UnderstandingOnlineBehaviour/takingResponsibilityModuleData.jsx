@@ -209,8 +209,8 @@ const takingResponsibilityModuleData = [
           current online sexual behaviours.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how I have used denial to allow
-          my problematic behaviour to continue.
+          I can now recognise that I have used denial to allow my problematic
+          behaviour to continue.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of how to make immediate changes to

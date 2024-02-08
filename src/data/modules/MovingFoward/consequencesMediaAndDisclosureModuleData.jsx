@@ -464,8 +464,8 @@ const DisclosureModuleData = [
           Employment, Child Safety) of illegal online behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding about how to speak with my friends
-          and family about my situation.
+          I now know some helpful ways to speak with my friends and family about
+          my situation.
         </ReflectionQuestion>
 
         <Link className="text-decoration-none" to="/problem-solving">

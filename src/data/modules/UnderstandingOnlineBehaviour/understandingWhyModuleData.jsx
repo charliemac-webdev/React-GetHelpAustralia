@@ -455,8 +455,7 @@ const understandingWhyModuleData = [
           time.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how I came to first behave
-          illegally online.
+          I can now identify how I first came to behave illegally online.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of my patterns of internet use and

@@ -610,7 +610,7 @@ const ProblematicCollectingModuleData = [
           I now have a better understanding of why I collect.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how it links to my offending.
+          I can now identify how collecting links to my offending.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of the relationship between

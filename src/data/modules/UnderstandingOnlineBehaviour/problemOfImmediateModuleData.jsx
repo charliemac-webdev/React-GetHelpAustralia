@@ -214,8 +214,8 @@ const ProblemOfImmediateModuleData = [
           powerful.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of ways to work against the power of
-          immediate gratification.
+          I now know some helpful ways to work against the power of immediate
+          gratification.
         </ReflectionQuestion>
         <Link className="default-link" to="/images-are-children">
           <div className="d-flex justify-content-end">

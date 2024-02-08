@@ -548,8 +548,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           thinking and behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of ways to cope with difficult
-          emotions.
+          I now have strategies to cope with difficult emotions.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/self-care">
           <div className="d-flex justify-content-end">

@@ -801,8 +801,8 @@ const ImagesAreChildrenModuleData = [
           offenders use to avoid responsibility for their actions.{" "}
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding that these images are of real
-          children being abused.
+          I now know some helpful ways to work against the power of immediate
+          gratification.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of the effects of being photographed

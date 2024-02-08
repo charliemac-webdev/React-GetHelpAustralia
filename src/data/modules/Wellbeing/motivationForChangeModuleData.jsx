@@ -372,8 +372,8 @@ const MotivationForChangeModuleData = [
           I am able to identify what stage of change I am currently at.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how to identify what short-term
-          changes I want to make to reduce my risk of offending.
+          I now have strategies to identify what short-term changes I want to
+          make to reduce my risk of offending.
         </ReflectionQuestion>
         <Link
           className="text-decoration-none"

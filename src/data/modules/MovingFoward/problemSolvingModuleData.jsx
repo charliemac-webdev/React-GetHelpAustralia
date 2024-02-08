@@ -474,7 +474,7 @@ const ProblemSolvingModuleData = [
           and how it can be applied to a range of different types of problems.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of ways to avoid acting on impulse.
+          I can now identify ways to avoid acting on impulse.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/building-a-good-life">
           <div className="d-flex justify-content-end">

@@ -409,8 +409,8 @@ const RelapsePreventionModuleData = [
           factors and/or warning signs.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of ways I am going to cope with
-          risky thoughts, feelings, behaviours, people, and places.
+          I now know some helpful ways to cope with risky thoughts, feelings,
+          behaviours, people, and places.
         </ReflectionQuestion>
         <Link className="text-decoration-none" to="/building-a-good-life">
           <div className="d-flex justify-content-end">
