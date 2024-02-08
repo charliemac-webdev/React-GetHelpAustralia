@@ -383,8 +383,7 @@ const AddictionModuleData = [
           online behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how I can start to address
-          addiction in my life.
+          I can now start to address addiction in my life.
         </ReflectionQuestion>
         <Link
           className="default-link"

@@ -266,7 +266,7 @@ const GuiltAndShameModuleData = [
           thoughts on the following statements.
         </p>
         <ReflectionQuestion>
-          I am better able to recognise guilt and shame.
+          I can now recognise my guilt and shame.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of ways to overcome feelings of

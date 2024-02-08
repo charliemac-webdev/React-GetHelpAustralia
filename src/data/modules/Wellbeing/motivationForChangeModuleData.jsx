@@ -369,7 +369,7 @@ const MotivationForChangeModuleData = [
           can take time.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I am able to identify what stage of change I am currently at.
+          I can now identify what stage of change I am currently at.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have strategies to identify what short-term changes I want to
