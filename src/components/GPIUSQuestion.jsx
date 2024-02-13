@@ -1,12 +1,27 @@
 import { Slider } from "@mui/material";
+import React, { useState } from "react";
 
 function valuetext(value) {
   return value;
 }
 
-import React from "react";
-
 const GPIUSQuestion = (props) => {
+  const [values, setValues] = useState([]);
+  const [sum, setSum] = useState(0);
+  const handleClick = () => {
+    const selectedValue = Number(
+      document.querySelector(".MuiSlider-valueLabelLabel").textContent
+    );
+
+    setValues([...values, selectedValue]); // Update the values state using setValues
+
+    const newSum = values.reduce(
+      (accumulator, currentValue) => accumulator + currentValue,
+      0
+    );
+    setSum(newSum);
+  };
+
   return (
     <>
       <div className="bg-primary-subtle border border-primary p-3">
@@ -48,25 +63,25 @@ const GPIUSQuestion = (props) => {
           </span>
           <span
             className="position-absolute text-wrap w-4"
-            style={{ left: "37.5%" }}
+            style={{ left: "40%" }}
           >
             Slightly Disagree
           </span>
           <span
             className="position-absolute text-center text-wrap w-4"
-            style={{ left: "50%" }}
+            style={{ left: "52%" }}
           >
             Slightly Agree
           </span>
           <span
             className="position-absolute text-wrap w-4"
-            style={{ left: "62.5%" }}
+            style={{ left: "67%" }}
           >
             Somewhat Agree
           </span>
           <span
             className="position-absolute text-wrap w-4"
-            style={{ left: "75%" }}
+            style={{ left: "83%" }}
           >
             Mostly Agree
           </span>

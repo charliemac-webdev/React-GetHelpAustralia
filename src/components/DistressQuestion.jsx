@@ -14,51 +14,24 @@ const DistressQuestion = (props) => {
       </div>
       <br />
       <br />
-      <div className="d-flex flex-column align-items-center">
-        <div className="w-100">
-          <Slider
-            aria-label="Always visible"
-            defaultValue={3}
-            step={1}
-            marks
-            min={1}
-            max={5}
-            getAriaValueText={valuetext}
-            valueLabelDisplay="on"
-          />
-        </div>
-        <div className="d-block position-relative w-100 mb-5 fs-7">
-          <span
-            className="position-absolute text-wrap w-4"
-            style={{ left: "0" }}
-          >
-            None of the time
-          </span>
-          <span
-            className="position-absolute text-wrap w-4"
-            style={{ left: "12.5%" }}
-          >
-            A little of the time
-          </span>
-          <span
-            className="position-absolute text-wrap w-4"
-            style={{ left: "25%" }}
-          >
-            Some of the time
-          </span>
-          <span
-            className="position-absolute text-wrap w-4"
-            style={{ left: "37.5%" }}
-          >
-            Most of the time
-          </span>
-          <span
-            className="position-absolute text-center text-wrap w-4"
-            style={{ left: "50%" }}
-          >
-            All of the time
-          </span>
-        </div>
+
+      <div className="w-100">
+        <Slider
+          aria-label="Always visible"
+          defaultValue={3}
+          step={1}
+          min={1}
+          max={5}
+          getAriaValueText={valuetext}
+          valueLabelDisplay="on"
+        />
+      </div>
+      <div className="d-flex justify-content-between fs-6">
+        <div className="pe-1 text-start">None of the time</div>
+        <div className="px-2">A little of the time</div>
+        <div className="px-5">Some of the time</div>
+        <div className="px-2">Most of the time</div>
+        <div className="ps-1 text-end">All of the time</div>
       </div>
       <br />
     </>
