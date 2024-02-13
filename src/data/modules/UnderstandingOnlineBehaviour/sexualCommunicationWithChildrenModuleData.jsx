@@ -154,11 +154,11 @@ const SexualCommunicationWithChildrenModuleData = [
             more responsibly in the future.
           </p>
           <p>
-            Many of the motivations noted in the&nbsp;Understanding Why (INSERT
-            LINK) module&nbsp;will also be relevant for people who have
-            communicated sexually with children online. Take a look and see
-            which might have been significant for you. You might find it helpful
-            to complete the timeline exercise, if you haven’t done so already.
+            Many of the motivations noted in the&nbsp;'Understanding Why'
+            module&nbsp;will also be relevant for people who have communicated
+            sexually with children online. Take a look and see which might have
+            been significant for you. You might find it helpful to complete the
+            timeline exercise, if you haven’t done so already.
           </p>
           <hr />
           <br></br>
@@ -778,16 +778,12 @@ const SexualCommunicationWithChildrenModuleData = [
           thoughts on the following statements.{" "}
         </p>
         <ReflectionQuestion>
-          I now have a better understanding of my motivation for engaging
-          sexually with children online.{" "}
+          I now have a better understanding of what might motivate someone to
+          engage sexually with children online.{" "}
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how my behaviour progressed into
-          sexual communication.
-        </ReflectionQuestion>
-        <ReflectionQuestion>
-          I now have a better understanding of how I might have justified my
-          behaviour.
+          I now have a better understanding of how communicating with children
+          sexually online can be harmful to a child.
         </ReflectionQuestion>
         <Link className="default-link" to="/problem-of-immediate-gratification">
           <div className="d-flex justify-content-end">

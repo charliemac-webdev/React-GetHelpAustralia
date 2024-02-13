@@ -457,7 +457,7 @@ const DisclosureModuleData = [
         </p>
         <ReflectionQuestion>
           I now have a better understanding of the criminal justice consequences
-          of my illegal behaviour.
+          of illegal behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of other consequences (e.g.,

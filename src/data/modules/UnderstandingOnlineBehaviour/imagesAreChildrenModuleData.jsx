@@ -797,8 +797,8 @@ const ImagesAreChildrenModuleData = [
           thoughts on the following statements.{" "}
         </p>
         <ReflectionQuestion>
-          I now have a better understanding of the false justifications
-          offenders use to avoid responsibility for their actions.{" "}
+          I now have a better understanding of the false justifications someone
+          may use to avoid responsibility for their actions.{" "}
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now know some helpful ways to work against the power of immediate

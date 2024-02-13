@@ -284,8 +284,8 @@ const selfTalkModuleData = [
           I now have a better understanding of positive and negative self-talk.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of methods to change negative
-          self-talk to positive self-talk.
+          I now have strategies to change my negative self-talk to positive
+          self-talk.
         </ReflectionQuestion>
         <Link
           className="text-decoration-none"

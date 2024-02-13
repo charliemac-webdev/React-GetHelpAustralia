@@ -875,8 +875,8 @@ const AdultPornographyModuleData = [
           I can now identify why I look at adult pornography.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of how my use of adult pornography
-          is problematic.
+          I now have a better understanding of how the use of adult pornography
+          can be problematic.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I can now identify techniques to reduce or stop using adult
