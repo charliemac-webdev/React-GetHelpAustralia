@@ -362,7 +362,7 @@ const UnderstandingThoughtsModuleData = [
           feelings, and behaviours and how they influence each other.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of common thinking errors.
+          I can now identify common thinking errors.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of the link between sexual fantasies

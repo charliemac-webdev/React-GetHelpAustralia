@@ -446,20 +446,15 @@ const understandingWhyModuleData = [
           thoughts on the following statements.{" "}
         </p>
         <ReflectionQuestion>
-          I have a better understanding of my sexual behaviour and the internet.
+          I have a better understanding of sexual behaviour and the internet.
         </ReflectionQuestion>
         <ReflectionQuestion>
           {" "}
-          I now have a better understanding of how to identify key events in my
-          like that influenced me to engage in more risky sexual behaviour over
-          time.
+          I now have a better understanding of key events that might influence
+          someone to engage in more risky sexual behaviour over time
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I can now identify how I first came to behave illegally online.
-        </ReflectionQuestion>
-        <ReflectionQuestion>
-          I now have a better understanding of my patterns of internet use and
-          when I am most likely to behaviour illegally.
+          I now have a better understanding of patterns of internet use.
         </ReflectionQuestion>
 
         <Link to="/triggers">

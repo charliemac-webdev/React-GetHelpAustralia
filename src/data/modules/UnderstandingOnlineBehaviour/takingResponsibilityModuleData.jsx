@@ -205,12 +205,12 @@ const takingResponsibilityModuleData = [
           thoughts on the following statements.{" "}
         </p>
         <ReflectionQuestion>
-          I now have a better understanding of my level of control over my
+          I now have a better understanding of one’s level of control over their
           current online sexual behaviours.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I can now recognise that I have used denial to allow my problematic
-          behaviour to continue.
+          I can now recognise how denial is used to allow problematic behaviour
+          to continue.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of how to make immediate changes to

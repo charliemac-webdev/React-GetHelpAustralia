@@ -444,8 +444,8 @@ const BuildingAGoodLifeModuleData = [
         </p>
         <br />
         <ReflectionQuestion>
-          I now have a better understanding of how I am meeting my needs in a
-          harmful way.
+          I now have a better understanding of how someone could meet their
+          needs in a harmful way.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now know some helpful strategies to meet my needs in a new and

@@ -607,14 +607,14 @@ const ProblematicCollectingModuleData = [
           thoughts on the following statements.{" "}
         </p>
         <ReflectionQuestion>
-          I now have a better understanding of why I collect.
+          I now have a better understanding of why someone might collect.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I can now identify how collecting links to my offending.
+          I can now identify how collecting might link to offending.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of the relationship between
-          collecting and some of the unsatisfactory aspects of my life.
+          collecting and some of the unsatisfactory aspects of one’s life.
         </ReflectionQuestion>
         <Link className="default-link" to="/moving-forward">
           <div className="d-flex justify-content-end">

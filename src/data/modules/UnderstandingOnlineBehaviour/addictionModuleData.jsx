@@ -379,8 +379,8 @@ const AddictionModuleData = [
           and compulsion.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of what role addiction plays in my
-          online behaviour.
+          I now have a better understanding of what role addiction plays in
+          one's online behaviour.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I can now start to address addiction in my life.
