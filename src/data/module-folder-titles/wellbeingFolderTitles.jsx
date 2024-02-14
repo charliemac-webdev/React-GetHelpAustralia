@@ -2,7 +2,7 @@ const wellbeingFolderTitles = [
   {
     id: 1,
     title: "Self-awareness: Psychological Distress",
-    link: "/self-awareness-psychological-distress",
+    link: "/self-awareness-psychological-distress-survey",
   },
   {
     id: 2,

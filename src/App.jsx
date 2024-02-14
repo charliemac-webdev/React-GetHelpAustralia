@@ -24,6 +24,11 @@ import UnderstandingYourOnlineBehaviour from "./pages/UnderstandingYourOnlineBeh
 import WellbeingAndSelfCare from "./pages/WellbeingAndSelfCare";
 import Modal from "./pages/modal-page";
 
+import DistressQuizTwo from "./pages/Wellbeing/DistressQuiz/disress-quiz-2";
+import DistressQuizOne from "./pages/Wellbeing/DistressQuiz/distress-quiz-1";
+import DistressQuizResults from "./pages/Wellbeing/DistressQuiz/distress-quiz-results";
+import DistressQuizSurvey from "./pages/Wellbeing/DistressQuiz/distress-quiz-survey";
+
 // Modules
 
 import BuildingAGoodLifeModule from "./pages/MovingForward/BuildingAGoodLife";
@@ -108,7 +113,13 @@ function App() {
             />
             <Route path="/moving-forward" element={<MovingForward />} />
             <Route path="/resources" element={<Resources />} />
-
+            <Route
+              path="/self-awareness-psychological-distress-survey"
+              element={<DistressQuizSurvey />}
+            />
+            <Route path="/distress-quiz-1" element={<DistressQuizOne />} />
+            <Route path="/distress-quiz-2" element={<DistressQuizTwo />} />
+            <Route path="/distress-results" element={<DistressQuizResults />} />
             <Route
               path="/self-care"
               element={<SelfCareModule showMenu={handleShowMenu} />}
