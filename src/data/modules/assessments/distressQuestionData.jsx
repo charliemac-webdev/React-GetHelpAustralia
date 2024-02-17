@@ -4,7 +4,7 @@ import Survey from "../../../components/Survey";
 const onlineCognitionData = [
   {
     id: 1,
-    title: "K-10",
+    title: "Self-Awareness Quiz",
     description: (
       <>
         <Survey />
@@ -76,11 +76,11 @@ const onlineCognitionData = [
     title: "Results",
     description: (
       <>
-        <h4 className="secondary-color">Overall Score - Sum of answers</h4>
+        {/* <h4 className="secondary-color">Overall Score - Sum of answers</h4>
         <div className="bg-primary-subtle border border-primary p-3">
-          <p>Your K-10 score is: </p>
+          <p>Your score is: {values}</p>
         </div>
-        <br />
+        <br /> */}
         <p>
           <span className="secondary-color fw-bold">10-19:</span> This score
           indicates you are well and likely experiencing low or no psychological

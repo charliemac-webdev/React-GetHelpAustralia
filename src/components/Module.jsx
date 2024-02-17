@@ -1,27 +1,45 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Button from "./Button";
 
+// Define a functional component called Module that takes modules as a prop
 const Module = ({ modules }) => {
-  const [value, setValue] = useState(0);
-  const [values, setValues] = useState([]);
-  const { description } = modules[value];
+  // Define state variables using the useState hook
+  const [value, setValue] = useState(0); // value is the index of the currently selected module
+  const [values, setValues] = useState([]); // values is an array to store the sum of numbers from slider labels
+  const { description } = modules[value]; // destructure the description from the module at the current value index
+  let sum = values.reduce((acc, curr) => acc + curr, 0);
+  // This useEffect hook will be called whenever the 'values' dependency changes
+  useEffect(() => {
+    // Log the current value of 'values' to the console
+    console.log(values);
+  }, [values]);
+
+  // Define a function to handle the button click event
   const handleClick = () => {
+    // Get all elements with class MuiSlider-valueLabelLabel
     const elements = document.querySelectorAll(".MuiSlider-valueLabelLabel");
-    console.log(elements);
+    // console.log(elements);
+
+    // Convert the contents of the elements to numbers and store in an array
     const numbers = Array.from(elements).map((element) =>
       Number(element.textContent)
     );
-    console.log(numbers);
+    // console.log(numbers);
 
+    // Calculate the sum of the numbers
     const sum = numbers.reduce((acc, curr) => acc + curr, 0);
 
+    // If the current value is less than the length of modules array - 1, increment the value
     if (value < modules.length - 1) {
       setValue(value + 1);
     }
-    console.log(sum);
-    setValues((prevValues) => [...prevValues, ...values, sum]);
-    console.log(values);
+    // console.log(sum);
+
+    // Update the values array with the new sum
+    setValues((prevValues) => [...prevValues, sum]);
   };
+
+  // Define a new value based on the current value
   const newValue =
     value < modules.length - 1 ? (
       <Button onClick={handleClick} ident="continue-button" classes="btn">
@@ -29,6 +47,7 @@ const Module = ({ modules }) => {
       </Button>
     ) : null;
 
+  // Return the JSX for the Module component
   return (
     <>
       <div className="container-fluid">
@@ -58,6 +77,17 @@ const Module = ({ modules }) => {
               </div>
             </div>
             <div className="col-8 p-2">
+              {sum > 0 && value === modules.length - 1 ? (
+                <>
+                  <h4 className="secondary-color">
+                    Overall Score - Sum of answers
+                  </h4>
+                  <div className="bg-primary-subtle border border-primary p-3">
+                    <p>Your score is: {sum}</p>
+                  </div>
+                  <br />
+                </>
+              ) : null}
               <article>{description}</article>
               <div className="d-flex justify-content-end">{newValue}</div>
               <br />
@@ -68,4 +98,6 @@ const Module = ({ modules }) => {
     </>
   );
 };
+
+// Export the Module component as the default export
 export default Module;

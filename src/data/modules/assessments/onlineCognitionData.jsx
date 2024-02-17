@@ -4,7 +4,7 @@ import Survey from "../../../components/Survey";
 const onlineCognitionData = [
   {
     id: 1,
-    title: "GPIUS",
+    title: "Self-Awareness Quiz",
     description: (
       <>
         <Survey />
@@ -106,11 +106,11 @@ const onlineCognitionData = [
     title: "Results",
     description: (
       <>
-        <h4 className="secondary-color">Overall Score - Sum of answers</h4>
+        {/* <h4 className="secondary-color">Overall Score - Sum of answers</h4>
         <div className="bg-primary-subtle border border-primary p-3">
           <p>Your GPIUS score is: </p>
         </div>
-        <br />
+        <br /> */}
         <p>
           <span className="secondary-color fw-bold">1 - 50:</span> Your score
           indicates you are less likely to be engaging in internet use that is
