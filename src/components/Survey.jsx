@@ -45,8 +45,15 @@ const Survey = () => {
         </div>
         <div className="col">
           <h5 className="secondary-color fw-semibold">Age *</h5>
-          <select name="age" id="select-age" className="form-select">
-            <option selected>Please select your age range</option>
+          <select
+            name="age"
+            id="select-age"
+            className="form-select"
+            defaultValue=""
+          >
+            <option value="" disabled>
+              Please select your age range
+            </option>
             <option value="Under 15">Under 15</option>
             <option value="15-19">15-19</option>
             <option value="20-24">20-24</option>

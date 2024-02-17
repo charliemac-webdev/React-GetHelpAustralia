@@ -1,26 +1,9 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 
 const DistressQuizResults = () => {
-  const [values, setValues] = useState([]);
-  const [sum, setSum] = useState(0);
-  const handleClick = () => {
-    const selectedValue = Number(
-      document.querySelector(".MuiSlider-valueLabelLabel").textContent
-    );
-
-    setValues([...values, selectedValue]); // Update the values state using setValues
-
-    const newSum = values.reduce(
-      (accumulator, currentValue) => accumulator + currentValue,
-      0
-    );
-    setSum(newSum);
-  };
-
   return (
     <>
       <Heading>

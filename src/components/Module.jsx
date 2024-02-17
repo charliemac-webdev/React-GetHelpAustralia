@@ -3,11 +3,24 @@ import Button from "./Button";
 
 const Module = ({ modules }) => {
   const [value, setValue] = useState(0);
+  const [values, setValues] = useState([]);
   const { description } = modules[value];
   const handleClick = () => {
+    const elements = document.querySelectorAll(".MuiSlider-valueLabelLabel");
+    console.log(elements);
+    const numbers = Array.from(elements).map((element) =>
+      Number(element.textContent)
+    );
+    console.log(numbers);
+
+    const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+
     if (value < modules.length - 1) {
       setValue(value + 1);
     }
+    console.log(sum);
+    setValues((prevValues) => [...prevValues, ...values, sum]);
+    console.log(values);
   };
   const newValue =
     value < modules.length - 1 ? (

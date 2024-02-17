@@ -6,11 +6,11 @@ function valuetext(value) {
 
 import React from "react";
 
-const DistressQuestion = (props) => {
+const DistressQuestion = ({ children }) => {
   return (
     <>
       <div className="bg-primary-subtle border border-primary p-3">
-        <p>{props.children}</p>
+        <p>{children}</p>
       </div>
       <br />
       <br />
