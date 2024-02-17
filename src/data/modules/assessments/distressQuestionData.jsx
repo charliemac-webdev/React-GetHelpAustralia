@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import Button from "../../../components/Button";
 import DistressQuestion from "../../../components/DistressQuestion";
 import Survey from "../../../components/Survey";
 
@@ -104,6 +106,17 @@ const onlineCognitionData = [
           more about recognising and dealing with feelings, by going through our
           self-help module.
         </p>
+        <br />
+        <Link
+          className="text-decoration-none"
+          to="/recognising-and-dealing-with-feelings"
+        >
+          <div className="d-flex justify-content-end">
+            <Button ident="next-button" classes="btn">
+              Next Module
+            </Button>
+          </div>
+        </Link>
       </>
     ),
   },

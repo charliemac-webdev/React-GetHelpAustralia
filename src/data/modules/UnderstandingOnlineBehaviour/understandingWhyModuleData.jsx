@@ -457,7 +457,7 @@ const understandingWhyModuleData = [
           I now have a better understanding of patterns of internet use.
         </ReflectionQuestion>
 
-        <Link to="/triggers">
+        <Link to="/triggers" className="default-link">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module
