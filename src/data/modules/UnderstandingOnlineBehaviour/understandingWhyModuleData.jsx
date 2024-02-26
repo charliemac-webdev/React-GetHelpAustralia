@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
+import StartingPointQuiz from "../../../components/StartingPointQuiz";
 import pictureOne from "../../../images/understanding-why-excercise-1-example.png";
 import pictureTwo from "../../../images/understanding-why-excercise-2a-example-v2.png";
 import pictureThree from "../../../images/understanding-why-excercise-2b-example.png";
@@ -44,9 +45,7 @@ const understandingWhyModuleData = [
           <li>sex addiction</li>
         </ul>
         <hr />
-        {/* starting point quiz */}
-        **Insert Starting point quiz**
-        <p></p>
+        <StartingPointQuiz />
         <br />
         <p>
           If you have very little knowledge or some understanding, this section
