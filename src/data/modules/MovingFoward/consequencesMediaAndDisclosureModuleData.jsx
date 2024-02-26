@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import imageOne from "../../../images/legal-consequences.png";
 
 const DisclosureModuleData = [
   {
@@ -41,17 +41,16 @@ const DisclosureModuleData = [
           the specific outcome of sentencing can be challenging, and is
           therefore important to seek legal advice in all cases.
         </p>
+        <br />
         <p>
           <img
             className="d-block mx-auto"
-            src="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/consequences.png"
-            alt=""
+            src={imageOne}
+            alt="legal consequences"
             width="90%"
             height="auto"
-            sizes="(max-width: 1007px) 100vw, 1007px"
           />
         </p>
-        <br></br>
         <br></br>
         <h4 className="secondary-color">Sentencing options</h4>
         <p>
