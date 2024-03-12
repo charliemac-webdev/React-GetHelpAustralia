@@ -76,7 +76,7 @@ const Module = ({ modules }) => {
                 })}
               </div>
             </div>
-            <div className="col-8 p-2">
+            <div className="col-lg-8 p-2">
               {sum > 0 && value === modules.length - 1 ? (
                 <>
                   <h4 className="secondary-color">

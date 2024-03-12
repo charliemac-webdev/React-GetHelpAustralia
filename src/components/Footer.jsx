@@ -5,19 +5,19 @@ import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
 const Footer = () => {
   return (
     <footer className="footer footer-text">
-      <div className="container">
-        <div className="row align-items-center">
+      <div className="container-fluid">
+        <div className="row row-cols-md-3 row-cols-1 align-items-sm-start align-items-md-center">
           <div className="col pt-4">
-            <div className="d-flex justify-content-start text-start">
+            <div className="d-md-flex justify-content-start text-start">
               <div className="pt-2">
                 <img src={imageOne} alt="indigenous flag" height="63" />
               </div>
-              <div className="p-2">
+              <div className="p-md-2 pt-sm-2">
                 <img src={imageTwo} alt="torres-straight flag" height="63" />
               </div>
             </div>
-            <div className="d-flex flex-column justify-content-start">
-              <div className="-p-2">
+            <div className="d-md-flex flex-md-column justify-content-start">
+              <div className="p-md-2 pt-sm-2">
                 <p>
                   <span>Get Help! Australia acknowledges the</span>
                   <br />
@@ -33,8 +33,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="col pt-4">
-            <div className="d-flex flex-column text-center">
-              <div className="p-2">
+            <div className="d-md-flex flex-md-column text-md-center">
+              <div className="p-md-2">
                 <p className="copyright m-0">
                   copyright &copy; Get Help! Australia
                 </p>
@@ -43,15 +43,15 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="p-2">
+              <div className="p-md-2">
                 <p className="m-0">Website by</p>
                 <p>Charlie Mac Web Development</p>
               </div>
             </div>
           </div>
           <div className="col">
-            <div className="d-block text-end">
-              <div className="p-2">
+            <div className="d-block text-md-end">
+              <div className="p-md-2">
                 <img src={logo} alt="UniSC" height="115" />
               </div>
             </div>
