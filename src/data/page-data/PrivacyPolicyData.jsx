@@ -172,15 +172,15 @@ const PrivacyPolicyData = () => {
         <h2 className="secondary-color">How we use your information</h2>
         <p>
           Get Help! Australia has been adapted by the University of Sunshine
-          Coast (Ethics Approval Number:….. ) for Australian use. Your browsing
-          data and unidentifiable information will be used as part of a research
-          project to learn more about how we can best help individuals who are
-          concerned about their online behaviour. This research will influence
-          decision-making about the program’s suitability as a preventative tool
-          for future use in Australia. It is not anticipated that this research
-          project will directly benefit you, but it will contribute towards the
-          effort of improving preventative self-help tools for use in Australia.
-          &nbsp;
+          Coast (Ethics Approval Number: S231878) for Australian use. Your
+          browsing data and unidentifiable information will be used as part of a
+          research project to learn more about how we can best help individuals
+          who are concerned about their online behaviour. This research will
+          influence decision-making about the program’s suitability as a
+          preventative tool for future use in Australia. It is not anticipated
+          that this research project will directly benefit you, but it will
+          contribute towards the effort of improving preventative self-help
+          tools for use in Australia. &nbsp;
         </p>
         <p>
           By continuing to use the Get Help! Australia website you agree to the
