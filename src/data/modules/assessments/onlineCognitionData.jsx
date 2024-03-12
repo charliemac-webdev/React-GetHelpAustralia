@@ -118,22 +118,21 @@ const onlineCognitionData = [
           indicates you are less likely to be engaging in internet use that is
           problematic to your thoughts and/or behaviour.
         </p>
-
         <p>
           <span className="secondary-color fw-bold">51 - 120:</span> This score
           indicates you are likely engaging in internet use that is having a
           negative impact on your thoughts and/or behaviour.
           <br />
-          Examples of this include:-
-          <ul className="content-list">
-            <li>Losing track of time online</li>
-            <li>Having trouble completing other tasks</li>
-            <li>Isolating from family or friends</li>
-            <li>Only feeling good/happy when online</li>
-            <li>Replacing real people with online friends</li>
-            <li>Withdrawing from daily activities</li>
-          </ul>
         </p>
+        Examples of this include:-
+        <ul className="content-list">
+          <li>Losing track of time online</li>
+          <li>Having trouble completing other tasks</li>
+          <li>Isolating from family or friends</li>
+          <li>Only feeling good/happy when online</li>
+          <li>Replacing real people with online friends</li>
+          <li>Withdrawing from daily activities</li>
+        </ul>
         <br />
         <Link className="text-decoration-none" to="/understanding-why">
           <div className="d-flex justify-content-end">
