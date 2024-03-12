@@ -12,6 +12,7 @@ import Header from "./components/Header";
 import Help from "./components/Help";
 import Menu from "./components/Menu";
 import ModuleNav from "./components/ModuleNav";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Pages
 
@@ -74,6 +75,7 @@ function App() {
   return (
     <div className="wrapper">
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <Help />
         <div

@@ -13,6 +13,9 @@ const Module = ({ modules }) => {
     // Log the current value of 'values' to the console
     console.log(values);
   }, [values]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); // Empty dependency array ensures this runs once on mount
 
   // Define a function to handle the button click event
   const handleClick = () => {
@@ -37,6 +40,7 @@ const Module = ({ modules }) => {
 
     // Update the values array with the new sum
     setValues((prevValues) => [...prevValues, sum]);
+    window.scrollTo(0, 0);
   };
 
   // Define a new value based on the current value
