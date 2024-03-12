@@ -21,9 +21,7 @@ const UnderstandingYourOnlineBehaviourData = () => {
               backgroundColor: "#e6edf5",
             }}
           >
-            <p>
-              <h6 className="secondary-color">Viewing Sexual Images</h6>
-            </p>
+            <h6 className="secondary-color">Viewing Sexual Images</h6>
           </AccordionSummary>
           <AccordionDetails>
             <div>
@@ -49,9 +47,7 @@ const UnderstandingYourOnlineBehaviourData = () => {
               backgroundColor: "#e6edf5",
             }}
           >
-            <p>
-              <h6 className="secondary-color">Sexual Drawings</h6>
-            </p>
+            <h6 className="secondary-color">Sexual Drawings</h6>
           </AccordionSummary>
           <AccordionDetails>
             <div>
@@ -75,9 +71,7 @@ const UnderstandingYourOnlineBehaviourData = () => {
               backgroundColor: "#e6edf5",
             }}
           >
-            <p>
-              <h6 className="secondary-color">Sexual Communication</h6>
-            </p>
+            <h6 className="secondary-color">Sexual Communication</h6>
           </AccordionSummary>
           <AccordionDetails>
             <div>

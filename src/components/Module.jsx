@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Button from "./Button";
 
 // Define a functional component called Module that takes modules as a prop
@@ -17,8 +17,16 @@ const Module = ({ modules }) => {
     window.scrollTo(0, 0);
   }, []); // Empty dependency array ensures this runs once on mount
 
+  const someElement = useRef();
+  const setScrollPosition = (element) => {
+    window.scrollTo({
+      top: element.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   // Define a function to handle the button click event
-  const handleClick = () => {
+  const handleClick = (scrollElement) => {
     // Get all elements with class MuiSlider-valueLabelLabel
     const elements = document.querySelectorAll(".MuiSlider-valueLabelLabel");
     // console.log(elements);
@@ -40,13 +48,17 @@ const Module = ({ modules }) => {
 
     // Update the values array with the new sum
     setValues((prevValues) => [...prevValues, sum]);
-    window.scrollTo(0, 0);
+    setScrollPosition(scrollElement);
   };
 
   // Define a new value based on the current value
   const newValue =
     value < modules.length - 1 ? (
-      <Button onClick={handleClick} ident="continue-button" classes="btn">
+      <Button
+        onClick={() => handleClick(someElement)}
+        ident="continue-button"
+        classes="btn"
+      >
         Continue
       </Button>
     ) : null;
@@ -54,7 +66,7 @@ const Module = ({ modules }) => {
   // Return the JSX for the Module component
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid" ref={someElement}>
         <div
           className="row align-items-start"
           style={{ border: "1px solid #004c97" }}
