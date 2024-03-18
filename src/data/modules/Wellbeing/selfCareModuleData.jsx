@@ -201,9 +201,7 @@ const SelfCareModuleData = [
                 backgroundColor: "#e6edf5",
               }}
             >
-              <p>
-                <h6 className="secondary-color">Breathing Techniques</h6>
-              </p>
+              <h6 className="secondary-color">Breathing Techniques</h6>
             </AccordionSummary>
             <AccordionDetails>
               <div>
@@ -327,9 +325,7 @@ const SelfCareModuleData = [
                 backgroundColor: "#e6edf5",
               }}
             >
-              <p>
-                <h6 className="secondary-color">Grounding Exercises</h6>
-              </p>
+              <h6 className="secondary-color">Grounding Exercises</h6>
             </AccordionSummary>
             <AccordionDetails>
               <h4 className="secondary-color">Grounding exercises</h4>
@@ -418,9 +414,7 @@ const SelfCareModuleData = [
                 backgroundColor: "#e6edf5",
               }}
             >
-              <p>
-                <h6 className="secondary-color">Mindfulness</h6>
-              </p>
+              <h6 className="secondary-color">Mindfulness</h6>
             </AccordionSummary>
             <AccordionDetails>
               <h4 className="secondary-color">Mindfulness</h4>
