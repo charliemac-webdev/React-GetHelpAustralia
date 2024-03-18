@@ -279,7 +279,7 @@ const IntroductionData = () => {
             <h2 className="secondary-color">How we use your information</h2>
             <p>
               Get Help! Australia has been adapted by the University of Sunshine
-              Coast (Ethics Approval Number:….. ) for Australian use. Your
+              Coast (Ethics Approval Number: S231878) for Australian use. Your
               browsing data and unidentifiable information will be used as part
               of a research project to learn more about how we can best help
               individuals who are concerned about their online behaviour. This
