@@ -26,7 +26,7 @@ const Module = ({ modules }) => {
   };
 
   // Define a function to handle the button click event
-  const handleClick = (scrollElement) => {
+  const handleClick = (someElement) => {
     // Get all elements with class MuiSlider-valueLabelLabel
     const elements = document.querySelectorAll(".MuiSlider-valueLabelLabel");
     // console.log(elements);
@@ -48,17 +48,13 @@ const Module = ({ modules }) => {
 
     // Update the values array with the new sum
     setValues((prevValues) => [...prevValues, sum]);
-    setScrollPosition(scrollElement);
+    setScrollPosition(someElement);
   };
 
   // Define a new value based on the current value
   const newValue =
     value < modules.length - 1 ? (
-      <Button
-        onClick={() => handleClick(someElement)}
-        ident="continue-button"
-        classes="btn"
-      >
+      <Button onClick={handleClick} ident="continue-button" classes="btn">
         Continue
       </Button>
     ) : null;

@@ -34,6 +34,18 @@ const Survey = () => {
                 className="form-check-input"
                 type="radio"
                 name="gender"
+                id="gender-non-binary"
+                value="non-binary"
+              />
+              <label className="form-check-label" htmlFor="gender-non-binary">
+                Non-Binary
+              </label>
+            </div>
+            <div className="form-check form-check-inline">
+              <input
+                className="form-check-input"
+                type="radio"
+                name="gender"
                 id="gender-other"
                 value="other"
               />
