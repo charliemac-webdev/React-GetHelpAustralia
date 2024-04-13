@@ -48,8 +48,8 @@ const wellbeingAssessmentData = [
           valueLabelDisplay="on"
         />
         <div className="d-flex justify-content-between">
-          <span className="w-50">I don't engage in any physical self-care</span>
-          <span className="w-50">I engage in excellent physical self-care</span>
+          <span className="w-25">I don't engage in any physical self-care</span>
+          <span className="w-25">I engage in excellent physical self-care</span>
         </div>
       </>
     ),
@@ -88,8 +88,8 @@ const wellbeingAssessmentData = [
           valueLabelDisplay="on"
         />
         <div className="d-flex justify-content-between">
-          <span className="w-50">I don't engage in any social self-care</span>
-          <span className="w-50">I engage in excellent social self-care</span>
+          <span className="w-25">I don't engage in any social self-care</span>
+          <span className="w-25">I engage in excellent social self-care</span>
         </div>
       </>
     ),
@@ -132,8 +132,8 @@ const wellbeingAssessmentData = [
           valueLabelDisplay="on"
         />
         <div className="d-flex justify-content-between">
-          <span className="w-50">I don't engage in any mental self-care</span>
-          <span className="w-50">I engage in excellent mental self-care</span>
+          <span className="w-25">I don't engage in any mental self-care</span>
+          <span className="w-25">I engage in excellent mental self-care</span>
         </div>
       </>
     ),
@@ -178,10 +178,10 @@ const wellbeingAssessmentData = [
           valueLabelDisplay="on"
         />
         <div className="d-flex justify-content-between">
-          <span className="w-50">
+          <span className="w-25">
             I don't engage in any spiritual self-care
           </span>
-          <span className="w-50">
+          <span className="w-25">
             I engage in excellent spiritual self-care
           </span>
         </div>
@@ -229,10 +229,10 @@ const wellbeingAssessmentData = [
           valueLabelDisplay="on"
         />
         <div className="d-flex justify-content-between">
-          <span className="w-50">
+          <span className="w-25">
             I don't engage in any emotional self-care
           </span>
-          <span className="w-50">
+          <span className="w-25">
             I engage in excellent emotional self-care
           </span>
         </div>

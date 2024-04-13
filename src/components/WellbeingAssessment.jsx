@@ -67,12 +67,12 @@ const WellbeingAssessment = () => {
                   color: "#004c97",
                 },
               ]}
-              leftAxis={null}
+              // leftAxis={null}
               width={500}
               height={300}
             />
           </div>
-
+          <div>Your total score: {sum}</div>
           {sum >= 0 && sum <= 10 && (
             <div className="bg-primary-subtle border border-primary p-3">
               Your score suggests self-care hasn’t been important to you. A good
