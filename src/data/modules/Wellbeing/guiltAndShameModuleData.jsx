@@ -245,6 +245,14 @@ const GuiltAndShameModuleData = [
           carry the list around with you and look at it when you feel shame.
           Keep adding to the list and keep reminding yourself of the positives.
         </p>
+        <p>
+          If you are unsure of negative and positive thinking (otherwise known
+          as self-talk) then please work through our{" "}
+          <Link to="/self-talk">
+            <b>self-talk section</b>
+          </Link>
+          .
+        </p>
       </>
     ),
   },
