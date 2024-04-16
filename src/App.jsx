@@ -1,11 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-// Google Analytics
-import ReactGA from "react-ga";
-const TRACKING_ID = "G-H68HHF0TK8";
-ReactGA.initialize(TRACKING_ID);
-
 // Components
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -13,17 +8,18 @@ import Help from "./components/Help";
 import Menu from "./components/Menu";
 import ModuleNav from "./components/ModuleNav";
 import ScrollToTop from "./components/ScrollToTop";
+import PostHogPageViewTracker from "./PostHogPageViewTracker";
 
 // Pages
 
 import Error from "./pages/Error";
 import Home from "./pages/Home";
+import Modal from "./pages/modal-page";
 import MovingForward from "./pages/MovingForward";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Resources from "./pages/Resources";
 import UnderstandingYourOnlineBehaviour from "./pages/UnderstandingYourOnlineBehaviour";
 import WellbeingAndSelfCare from "./pages/WellbeingAndSelfCare";
-import Modal from "./pages/modal-page";
 
 import DistressQuizTwo from "./pages/Wellbeing/DistressQuiz/disress-quiz-2";
 import DistressQuizOne from "./pages/Wellbeing/DistressQuiz/distress-quiz-1";
@@ -75,6 +71,7 @@ function App() {
   return (
     <div className="wrapper">
       <BrowserRouter>
+        <PostHogPageViewTracker />
         <ScrollToTop />
         <Header />
         <Help />

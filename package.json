@@ -16,6 +16,7 @@
     "@mui/x-charts": "^6.18.7",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.0",
+    "posthog-js": "^1.122.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
