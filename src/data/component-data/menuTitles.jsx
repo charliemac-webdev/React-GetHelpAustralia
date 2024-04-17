@@ -19,11 +19,11 @@ const MenuTitles = [
     title: "Moving Forward",
     link: "/moving-forward",
   },
-  {
-    id: 5,
-    title: "Resources",
-    link: "/resources",
-  },
+  // {
+  //   id: 5,
+  //   title: "Resources",
+  //   link: "/resources",
+  // },
 ];
 
 export default MenuTitles;

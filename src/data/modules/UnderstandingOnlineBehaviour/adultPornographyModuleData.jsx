@@ -504,10 +504,10 @@ const AdultPornographyModuleData = [
             <li>What have you learned from completing this exercise?</li>
           </ul>
           <p>
+            If you want to understand more about why you use pornography to
+            solve problems, you may find it helpful to visit our{" "}
             <Link to="/problem-solving" className="secondary-color">
-              If you want to understand more about why you use pornography to
-              solve problems, you may find it helpful to visit our understanding
-              problems module.
+              understanding problems module.
             </Link>
           </p>
           <br></br>
