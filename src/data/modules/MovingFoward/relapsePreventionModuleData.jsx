@@ -343,15 +343,6 @@ const RelapsePreventionModuleData = [
             rel="noopener noreferrer"
           >
             <u>helpline</u>
-          </a>{" "}
-          or the{" "}
-          <a
-            className="secondary-color"
-            href="https://www.samaritans.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>Samaritans</u>
           </a>
           . They will always be there and always willing to listen. And they’re
           completely anonymous.
