@@ -193,8 +193,8 @@ const ProblemSolvingModuleData = [
           repeating the same mistakes or thinking we have solved a problem when
           we haven’t. It might be that you haven’t identified the right problem
           in the first place; for example if you didn’t like your work
-          colleagues you might have change where you work but the type of work
-          is still the same so while you have different colleagues you actually
+          colleagues you might change where you work but the type of work is
+          still the same. So while you have different colleagues you actually
           realise it is the type of work you do that needs to change.
         </p>
         <br></br>

@@ -12,21 +12,23 @@ const ManagingThoughtsModuleData = [
           <br></br>
           <h4 className="secondary-color">Management strategies</h4>
           <p>
-            So you have identified which of your sexual thoughts or behaviours
-            are inappropriate. We are now going to focus on strategies to manage
-            them. For some people this will be easy, but for others it will take
-            time, hard work, a lot of willpower and heaps of self-control. You
-            are not alone if you feel it is too hard to control these thoughts,
-            fantasies and behaviours but <strong>YOU ARE IN CONTROL</strong>
+            So you have identified how your thoughts, feelings, and behaviours
+            are connected. You may have identified some thoughts or behaviours
+            you want to manage including inappropriate sexual thoughts. We are
+            now going to focus on strategies to manage them. For some people
+            this will be easy, but for others it will take time, and hard work.
+            You are not alone if you feel it is too hard to control these
+            thoughts, fantasies and behaviours but{" "}
+            <strong>YOU ARE IN CONTROL</strong>
             &nbsp;and&nbsp;<strong>you can make a choice</strong>&nbsp;as to how
             much attention you choose to give to them.
           </p>
           <p>
-            Next time you have an unhealthy sexual thought or urge, you can try
-            to use one of these to help you stop. The more you use these, the
-            more you will learn what works more effectively for you. It may be
-            that you need to practice them or use a combination of these to find
-            the best way for you.
+            Next time you have an unhealthy thoughts, urge, or behaviour, you
+            can try to use one of these to help you stop. The more you use
+            these, the more you will learn what works more effectively for you.
+            It may be that you need to practice them or use a combination of
+            these to find the best way for you.
           </p>
           <h5 className="secondary-color">Escape route</h5>
           <p>
@@ -52,27 +54,26 @@ const ManagingThoughtsModuleData = [
           </p>
           <h5 className="secondary-color">Challenging your thoughts</h5>
           <p>
-            You can ask yourself questions to remind yourself of the
-            consequences of engaging in the thought/fantasy or behaviour. Be
-            firm with yourself. ‘Why am I having this thought, fantasy or urge;
-            what good is it actually going to do me?’
+            You can ask yourself questions to help challenge this thought e.g.,
+            it is true; what evidence do you have which proves this thought
+            isn't true. It may be helpful to remind yourself of the consequences
+            of engaging in the thought/fantasy or behaviour. Be firm with
+            yourself. ‘Why am I having this thought, fantasy or urge; what are
+            the negative outcomes of engaging in this?'
           </p>
           <p>
-            You could also ask about the consequences to implant fear. ‘What
-            would happen if someone walked in and could see what I was thinking
-            about?’ ‘I know if I keep having this thought, I am more likely to
-            act on this fantasy; what are the consequences if I was caught?’.
+            ‘I know if I keep having this thought, I am more likely to act on
+            this fantasy; what are the consequences if I was caught?’. Remind
+            yourself of why you are motivated to manage these thoughts, urges,
+            and/or behaviours. It may be helpful to have some challenges written
+            down somewhere to remind you of them.
           </p>
           <h5 className="secondary-color">Fantasy replacement</h5>
           <p>
             Change the ending or the subject of your fantasy. For example, if
             you are beginning to indulge in fantasy about a child you have seen,
-            change the child to an adult. In order to gain the same
-            satisfaction, this will probably not be an immediate solution, but
-            you could start by changing small features like hairstyle or body
-            form and over time change the whole situation. In contrast, try a
-            different fantasy all together which is new and exciting…. and
-            healthy!
+            change the child to an adult. In contrast, try a different fantasy
+            all together which is new and exciting…. and healthy!
           </p>
           <h5 className="secondary-color">Fantasy blockers</h5>
           <p>
@@ -159,7 +160,7 @@ const ManagingThoughtsModuleData = [
           </ul>
           <br></br>
           <p>
-            Read through the common thinking errors below and see if any apply
+            Read through the common thinking errors above and see if any apply
             to you.&nbsp; When you notice yourself thinking in this way,
             challenge the thought by asking yourself how true it is, what
             evidence you have to support it and whether you have any

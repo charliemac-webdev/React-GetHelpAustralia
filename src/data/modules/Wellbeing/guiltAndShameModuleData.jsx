@@ -30,10 +30,10 @@ const GuiltAndShameModuleData = [
           </li>
         </ul>
         <p>
-          We’ve worked with thousands of people who have committed offences
-          online and have experienced guilt and shame. Feeling guilt and shame
-          are normal reactions. But these emotions can be incredibly difficult
-          to cope with and can lead to feeling overwhelmed and hopeless. This is
+          We’ve worked with a lot of people who have committed offences online
+          and have experienced guilt and shame. Feeling guilt and shame are
+          normal reactions. But these emotions can be incredibly difficult to
+          cope with and can lead to feeling overwhelmed and hopeless. This is
           sometimes referred to as the shame spiral.
         </p>
         <img

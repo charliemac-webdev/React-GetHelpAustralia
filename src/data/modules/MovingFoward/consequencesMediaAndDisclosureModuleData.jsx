@@ -56,7 +56,7 @@ const DisclosureModuleData = [
         <p>
           If you plead or are found guilty, there are several penalties the
           court can issue. Where an offence is of a sexual nature, committed in
-          relation to a child, the court must order a term of imprisonment.
+          relation to a child, are more likely to order a term of imprisonment.
         </p>
         <h5 className="secondary-color">Community sentence</h5>
         <p>
@@ -164,8 +164,7 @@ const DisclosureModuleData = [
         <br></br>
         <p>
           The media don’t publish information about every online child sexual
-          abuse offence but it’s people often worry about this being a
-          possiblity.
+          abuse offence but people often worry about this being a possiblity.
         </p>
         <p>
           Court reporters attend criminal courts and may choose to cover any
@@ -236,12 +235,12 @@ const DisclosureModuleData = [
         <h4 className="secondary-color">Understanding reactions</h4>
         <p>
           Understanding how other people might feel can help you anticipate how
-          they might reaction. Sexual thoughts or behaviours involving children
-          are unexpected and naturally raise numerous questions. For instance,
-          your partner might wonder about your motivations, the consequences for
-          you, how it impacts them, the well-being of any children you have, and
-          the implications for the future. Think about your own emotions of fear
-          and distress. Other people are likely to share these emotions and will
+          they might react. Sexual thoughts or behaviours involving children are
+          unexpected and naturally raise numerous questions. For instance, your
+          partner might wonder about your motivations, the consequences for you,
+          how it impacts them, the well-being of any children you have, and the
+          implications for the future. Think about your own emotions of fear and
+          distress. Other people are likely to share these emotions and will
           also be shocked by finding out about behaviour through you or the
           police.
         </p>
@@ -277,7 +276,7 @@ const DisclosureModuleData = [
             engagement.
           </li>
           <li>
-            Verbal responses: offering pertinent comments, sounds, and relevant
+            Verbal responses: offering relatable comments, sounds, and relevant
             questions displays active involvement.
           </li>
           <li>
@@ -301,7 +300,7 @@ const DisclosureModuleData = [
         <br></br>
         <h4 className="secondary-color">Talking to your partner</h4>
         <p>
-          When discussing the situation with your partner, remember that all the
+          When discussing the situation with your partner, remember all the
           skills we’ve discussed. Your partner can be deeply affected by your
           actions, and they might have questions. It’s crucial to be honest
           without sharing graphic details. This helps them understand and decide
@@ -383,8 +382,8 @@ const DisclosureModuleData = [
           <li>
             Honesty in interviews: you don’t always need to disclose details on
             application forms. Instead, confirm you have a conviction and are
-            happy to discuss at interview where you can explain them and the
-            changes you have made in your life.
+            happy to discuss at interview where you can explain in more detail
+            and the changes you have made in your life.
           </li>
           <li>
             Present progress: explain the offence simply, discuss positive
@@ -431,8 +430,8 @@ const DisclosureModuleData = [
             your knowledge of them.
           </li>
           <li>
-            Take responsibility: emphasise that you recognise your offense’s
-            wrongness and take full responsibility.
+            Take responsibility: emphasise that you recognise the wrongness of
+            your offending and take full responsibility.
           </li>
           <li>
             Ending respectfully: end by thanking them for listening and

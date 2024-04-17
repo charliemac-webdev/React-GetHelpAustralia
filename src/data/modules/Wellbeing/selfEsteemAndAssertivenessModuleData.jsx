@@ -309,9 +309,7 @@ const SelfEsteemAndAssertivenessModuleData = [
           <li>
             Try to do regular exercise, eat healthily and get enough sleep.
           </li>
-          <li>
-            Be assertive – don’t let people treat you with a lack of respect.
-          </li>
+          <li>Be assertive – you have the right to be treated with respect.</li>
           <li>
             Use self-help books and websites to develop helpful skills, like
             assertiveness or mindfulness.
