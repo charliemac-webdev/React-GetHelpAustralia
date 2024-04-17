@@ -70,13 +70,13 @@ const ProblematicCollectingModuleData = [
         </p>
         <p>
           <em>
-            Do you collect other things, as well as indecent images of children,
-            for example stamps, coins or model cars? If you do, then it might be
-            better to complete this exercise using one of those non-offending
-            examples first. Then complete it a second time concentrating on the
-            sexual images of children. It might be that you can compare the two
+            Do you collect other things, as well as child sexual abuse material
+            (CSAM), for example stamps, coins or model cars? If you do, then it
+            might be better to complete this exercise using one of those
+            non-offending examples first. Then complete it a second time
+            concentrating on the CSAM. It might be that you can compare the two
             and identify themes between them. This will help you later on when
-            you are looking at what purpose collecting is serving for you.&nbsp;
+            you are looking at what the purpose collecting is for.&nbsp;
           </em>
         </p>
         <p>
@@ -109,8 +109,9 @@ const ProblematicCollectingModuleData = [
         <br></br>
         <h4 className="secondary-color">When collecting is a problem</h4>
         <p>
-          If you are collecting sexual images of children, then this is always a
-          problem because it is&nbsp;<strong>harmful</strong>&nbsp;to both&nbsp;
+          If you are collecting images of child sexual abuse, then this is
+          always a problem because it is&nbsp;<strong>harmful</strong>&nbsp;to
+          both&nbsp;
           <strong>you</strong>&nbsp;and the&nbsp;<strong>children</strong>
           &nbsp;in the images.
         </p>
@@ -239,8 +240,8 @@ const ProblematicCollectingModuleData = [
           Why collect sexual Images of Children
         </h4>
         <p>
-          Of all the things you could collect, why collect sexual images of
-          children?
+          Of all the things you could collect, why collect child sexual abuse
+          material (CSAM)?
         </p>
         <p>
           Some people who collect sexual images of children say that it’s the
@@ -383,17 +384,14 @@ const ProblematicCollectingModuleData = [
         </p>
         <ol>
           <li>
-            How important is it for me to be collecting sexual images of
-            children? Why?
+            How important is it for me to be collecting child sexual abuse
+            material? Why?
           </li>
           <li>
             Why do I keep certain material? Why would I not put certain material
             in my collection?
           </li>
-          <li>
-            How many hours are spent trying to add to my collection? Is it too
-            many?
-          </li>
+          <li>How many hours are spent trying to add to my collection?</li>
           <li>
             What needs are being met by having these sexual images in my
             collection? Make a note of&nbsp;the options below that apply to you.
@@ -548,8 +546,8 @@ const ProblematicCollectingModuleData = [
           </strong>
         </p>
         <p>
-          Next time you consider collecting sexual images of children, look back
-          over this table and use the responses to challenge your
+          Next time you consider collecting child sexual abuse material (CSAM),
+          look back over this table and use the responses to challenge your
           behaviour.&nbsp;This can be a useful and effective short term
           deterrent.
         </p>
@@ -584,13 +582,13 @@ const ProblematicCollectingModuleData = [
         </ol>
         <p>
           If you have identified that collecting in general meets certain needs
-          for you, then you can replace collecting sexual images of children
-          with something else that is healthy and appropriate.
+          for you, then you can replace collecting child sexual abuse material
+          (CSAM) with something else that is healthy and appropriate.
         </p>
         <p>
-          If collecting sexual images of children is the only form of collecting
-          that meets specific needs, then you will need to look at other ways to
-          meet those needs.
+          If collecting child sexual abuse material (CSAM) is the only form of
+          collecting that meets specific needs, then you will need to look at
+          other ways to meet those needs.
         </p>
         <p>
           Remember to keep the list of these needs for&nbsp;

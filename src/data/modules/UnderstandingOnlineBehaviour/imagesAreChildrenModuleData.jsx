@@ -84,7 +84,7 @@ const ImagesAreChildrenModuleData = [
         <div className="tab-main-content">
           <br></br>
           <h4 className="secondary-color">
-            Exercise 1: understanding and responding to justifications
+            Exercise 1: Understanding and challenging justifications
           </h4>
           <p>
             For people to allow themselves to view sexual images of children,
@@ -116,6 +116,7 @@ const ImagesAreChildrenModuleData = [
             negative effects of offending for yourself and others, you will
             increase your ability and motivation to avoid further offending.
           </p>
+          <br></br>
           <p>
             This film includes some of the justifications that people use to
             allow themselves to continue offending online.
@@ -130,26 +131,28 @@ const ImagesAreChildrenModuleData = [
               src="https://www.youtube.com/embed/Bq-rTc7x_a4?feature=oembed"
             ></iframe>
           </p>
+          <br></br>
+          <br></br>
           <p>
             In the box below, the left hand side column contains some self-talk
             justifications you might have used to justify your use of sexual
             images of children. In the right hand side column list self-talk
-            statements which you could use in response to the matching
+            statements which you could use to challenge the matching
             justification to dissuade yourself from engaging in the behaviour.
           </p>
           <p>
             Please add at the bottom of the table any additional self-talk
-            justifications that you use, along with a matching response. You
-            should repeat all the phrases you write in the responses column in
-            your head, so that this sort of thinking becomes automatic if you
-            start to use the justifications.
+            justifications that you use, along with a matching challenging
+            response. You should repeat all the phrases you write in the
+            challenge column in your head, so that this sort of thinking becomes
+            automatic if you start to use the justifications.
           </p>
           <p>There is an example provided.</p>
           <table className="table table-bordered">
             <tbody>
               <tr>
                 <th>Justifications</th>
-                <th>Responses</th>
+                <th>Challenges</th>
               </tr>
               <tr>
                 <td>
@@ -157,8 +160,8 @@ const ImagesAreChildrenModuleData = [
                 </td>
                 <td>
                   <em>
-                    “The children in the images are real children who are being
-                    sexually abused.”
+                    The children in the images are real children who are being
+                    sexually abused.
                   </em>
                 </td>
               </tr>
@@ -172,48 +175,12 @@ const ImagesAreChildrenModuleData = [
                 <td>
                   <em>“I did not directly abuse the child in the image.”</em>
                 </td>
-                <td></td>
-              </tr>
-              <tr>
                 <td>
                   <em>
-                    “The child in the image is smiling, so they must be enjoying
-                    it.”
+                    The children in the images are real children who are being
+                    sexually abused.
                   </em>
                 </td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>
-                  <em>
-                    “I didn’t produce the pictures, and they were already
-                    there.”
-                  </em>
-                </td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>
-                  <em>“I’ve had no direct contact with the child.”</em>
-                </td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>
-                  <em>
-                    “The children are clothed, so these images cannot be
-                    illegal.”
-                  </em>
-                </td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>
-                  <em>
-                    “This isn’t abuse because no adults are in the images.”
-                  </em>
-                </td>
-                <td></td>
               </tr>
               <tr>
                 <td>
@@ -227,23 +194,39 @@ const ImagesAreChildrenModuleData = [
               </tr>
               <tr>
                 <td></td>
+              </tr>
+              <tr>
+                <td></td>
                 <td></td>
               </tr>
+              <tr></tr>
+              <tr>
+                <td></td>
+              </tr>
+              <tr></tr>
+              <tr></tr>
             </tbody>
           </table>
-          <p>
-            <strong>
-              <a
-                href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/images-are-children-exercise-1editable.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Download printable version
-              </a>
-            </strong>
-            .
-          </p>
+
           <br></br>
+          <p>
+            It can be difficult to explore this exercise independently and so we
+            encourage you to contact the{" "}
+            <u>
+              <a
+                href="https://www.stopitnow.org.au/helpline"
+                target="_blank"
+                rel="noopener"
+              >
+                helpline
+              </a>
+            </u>
+            &nbsp;advisors who are here to support you and help you further
+            explore your learnings. You can stay anonymous and don’t have to
+            give your real name or any contact details. If you’re not ready to
+            speak to anyone yet, you can also use the Stop It Now! Australia
+            live chat.
+          </p>
         </div>
       </>
     ),
@@ -292,10 +275,9 @@ const ImagesAreChildrenModuleData = [
             influence of alcohol or drugs or have some kind of vulnerability.
           </p>
           <p>
-            Some people disagree about the age that children are mature enough
-            to be able to give this permission. Australia the age of consent for
-            sexual activity is 16 years old. But any sexual picture of a child
-            under 18 years old is illegal.
+            In Australia the age of consent for sexual activity is 16 or 17
+            years old (depending on individual state/territory laws). But any
+            sexual picture of a child under 18 years old is illegal.
           </p>
           <p>
             Children are not able to give consent to engage in sexual activity,
@@ -323,14 +305,12 @@ const ImagesAreChildrenModuleData = [
             <li>cartoon/manga images</li>
             <li>self-taken sexual images</li>
           </ul>
+          <p>Any sexual image of a child is illegal.</p>
           <p>
-            Any sexual image of a child, used for a sexual purpose, is illegal.
-          </p>
-          <p>
-            Abuse includes the victimisation when the photograph was taken.
-            Abuse also includes the continuing victimisation the child will
-            experience knowing that images of them are online that they can’t
-            control, and that used for sexual reasons.
+            Abuse includes victimisation when the photograph was taken. Abuse
+            also includes the continuing victimisation the child will experience
+            knowing that images of them are online, which they have no control
+            over.
           </p>
           <p>
             The reality of viewing naturist, modelling or cartoon images is that
@@ -387,199 +367,6 @@ const ImagesAreChildrenModuleData = [
     ),
   },
   {
-    id: 4,
-    title: "Exercise 2",
-    description: (
-      <div className="tab-main-content">
-        <br></br>
-        <h4 className="secondary-color">Empathy</h4>
-        <p>
-          ‘Empathy’ means trying to understand what another person is thinking
-          and feeling, or “putting yourself into their shoes”.
-        </p>
-        <p>
-          It means having insight at an emotional level as to what it would feel
-          like to be that person.
-        </p>
-        <br></br>
-        <h4 className="secondary-color">Why is empathy hard?</h4>
-        <p>
-          We generally find it harder to empathise or identify with other people
-          who are “not like us”. For many people looking at illegal images on
-          the internet, the ability to empathise is difficult because you cannot
-          identify with any one child. A child in an image can be seen as being
-          “far removed” from the person looking at images of this child online.
-          This may be because of the physical distance created by the computer
-          screen, or because the child is unlike the individual looking at the
-          image.&nbsp; The child may be underprivileged, isolated or without a
-          voice, they may be an orphan, or in care, or being controlled by an
-          abusive family. This means it is harder for the person looking at the
-          image to feel empathy for the victim in the image. This exercise is
-          designed to help you “get to know” the human being behind the
-          photograph with his/her own thoughts, feelings, problems, and life.
-        </p>
-        <br></br>
-        <h4 className="secondary-color">Health and safety warning</h4>
-        <p>This exercise is challenging and emotionally demanding.</p>
-        <p>
-          It is important that you take a break during this exercise if you feel
-          you need to.&nbsp; Consider self-care, such as having someone you can
-          talk to if you are feeling emotional afterwards or making sure that
-          you have something nice planned to do. Remember negative mood states
-          often put you at risk of further offending.
-        </p>
-        <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/images-are-children-exercise-2editable.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download printable version of Exercise 2, with space to fill in
-            answers &gt;
-          </a>
-        </p>
-        <br></br>
-        <p>
-          <h4 className="secondary-color">Exercise 2</h4>
-        </p>
-        <p>
-          <h5 className="secondary-color">
-            Part A: How have you got to where you are?
-          </h5>
-        </p>
-        <p>
-          As part of this exercise you should think of a child in a photograph
-          that you have seen. Answer the following questions as realistically as
-          you can:
-        </p>
-        <ol>
-          <li>Why are you looking at this image?</li>
-          <li>How did you come across this photo?</li>
-          <li>What do you gain from looking at this image?</li>
-          <li>
-            What brought you to the point of looking at these types of images?
-          </li>
-        </ol>
-        <p>&nbsp;</p>
-        <p>
-          <h5 className="secondary-color">
-            Part B: Who is directing the action and why?
-          </h5>
-        </p>
-        <p>
-          Using the same image you have recalled for the previous part of this
-          exercise, extend the image to include the room where it is happening,
-          the person taking the photograph and the instructions being given.
-          Answer the following questions:
-        </p>
-        <ol>
-          <li>Who is taking the photograph and why they are taking it?</li>
-          <li>What cues are they ignoring in the child’s behaviour?</li>
-          <li>
-            What are they telling themselves in order to justify taking the
-            photograph?
-          </li>
-          <li>
-            What do they plan to do with the photograph after it has been taken?
-          </li>
-        </ol>
-        <p>&nbsp;</p>
-        <p>
-          <h5 className="secondary-color">Part C: The child in the image</h5>
-        </p>
-        <p>
-          One common justification people use to allow themselves to continue
-          accessing Sexual Images of Children is that the children in the images
-          are “not real children” – that what is being looked at online is only
-          a picture on a screen. This next exercise asks you to try and get to
-          know the subject of an image you have seen and help you understand
-          that this child in this image is a real child – who has thoughts,
-          feelings, hopes and dreams – who is being sexually abused. Still
-          recalling the same image, create a character sketch about them by
-          responding to the following questions. Although the image in your head
-          could be of a boy, girl, or both, the prompts given will reflect a
-          female.
-        </p>
-        <ul className="content-list">
-          <li>Who is the girl in this photo?</li>
-          <li>Where was she born? Where does she call home?</li>
-          <li>What makes her laugh out loud?</li>
-          <li>What is her most treasured possession?</li>
-          <li>What does she do in her free time?</li>
-          <li>Who does she admire? Who is her hero? Why?</li>
-          <li>
-            What is her biggest fear? Who has she told this to? Who would she
-            never tell this to? Why?
-          </li>
-          <li>What does she hope to be when she grows up?</li>
-          <li>Who does she go to when she is scared?</li>
-          <li>
-            Who are the girl’s family? Who are her parents? Does she have
-            siblings?
-          </li>
-          <li>Who are her friends?</li>
-          <li>How did the girl get to be in front of the camera?</li>
-          <li>What does she think is happening?</li>
-          <li>
-            If she has been told to keep what has happened a secret, how would
-            that make her feel?
-          </li>
-          <li>What will she think about before she goes to sleep at night?</li>
-        </ul>
-        <p>
-          Hopefully this exercise has helped you “get to know” the human being
-          behind the photograph with his/her own thoughts, feelings, problems,
-          and life.
-        </p>
-        <br></br>
-        <p>
-          <h5 className="secondary-color">Part D: effects of victimisation</h5>
-        </p>
-        <p>
-          Return once again to the original picture during the time at which the
-          photographs are being taken. Consider the child’s perspective of what
-          is happening while this photographic shoot is taking place, and the
-          effects that having this photograph taken might be on the child, by
-          responding to the following.
-        </p>
-        <ol>
-          <li>What might he/she think and feel while being abused?</li>
-          <li>
-            For what other reason might he/she be smiling in the photograph?
-            Focus on the reality that may lie behind that smile.
-          </li>
-          <li>
-            Try to imagine how he/she might behave, think and feel after being
-            abused.
-          </li>
-          <li>
-            What impact might the continuing presence of photographs on the
-            Internet have on the child?
-          </li>
-          <li>
-            How might the child behave, think and feel if they try and talk
-            about the abuse to another adult?
-            <ol>
-              <li>How might this affect their relationship with the adult?</li>
-              <li>How did this disclosure come about?</li>
-            </ol>
-          </li>
-          <li>
-            Try and describe what the long-term consequences of the abuse may be
-            for the child. Pay attention to the particular role that being
-            photographed may have played.
-          </li>
-        </ol>
-        <p>&nbsp;</p>
-        <p>
-          Having completed this exercise, read the next section to find out what
-          is actually known about the effects of being photographed.
-        </p>
-        <br></br>
-      </div>
-    ),
-  },
-  {
     id: 5,
     title: "The effects on the child",
     description: (
@@ -633,25 +420,7 @@ const ImagesAreChildrenModuleData = [
           with other children and adult relationships when they are older.
         </p>
         <p>
-          <h5 className="secondary-color">
-            During disclosure of what has happened
-          </h5>
-        </p>
-        <p>
-          As with all forms of sexual abuse, children are reluctant to talk
-          about what has happened. This may be very convenient for the adults
-          involved, but increases the chance that the child will have problems
-          in the future, such as depression or inability to form trusting or
-          loving relationships with other adults. When the abuse is
-          photographed, this seems to increase the child’s fear of talking about
-          what has happened. Disclosures, when eventually made, are often
-          limited, with the child only telling as much as they feel the person
-          questioning them already knows. Feelings of shame, humiliation and
-          helplessness are often accompanied by feelings of anxiety, with the
-          child worried that the photograph may be viewed as evidence of
-          co-operation on their part. The child may also feel that the fact that
-          they were smiling may be seen as evidence that he or she was enjoying
-          the experience when they were being coerced or forced to smile.
+          <h5 className="secondary-color">After the abuse</h5>
         </p>
         <p>
           The long-term consequences of having been photographed can include:
@@ -673,59 +442,6 @@ const ImagesAreChildrenModuleData = [
           </li>
         </ul>
         <br></br>
-      </div>
-    ),
-  },
-  {
-    id: 6,
-    title: "Exercise 3",
-    description: (
-      <div>
-        <br></br>
-        <h4 className="secondary-color">Effects on you</h4>
-        <p>
-          <br></br>
-          <h5 className="secondary-color">
-            Part A: How would you feel about being there? Where do you draw the
-            line?
-          </h5>
-        </p>
-        <p>
-          Now consider how you would feel about how close you could get to the
-          child abuse taking place.&nbsp; At what point does it become
-          unacceptable for you? Draw a line between where you would and would
-          not be able to voluntarily go forward with the action.
-        </p>
-        <p>Explain why you have placed your line where you did.</p>
-        <ul className="content-list">
-          <li>
-            Finding images or downloading links and not reporting them to the
-            police
-          </li>
-          <li>
-            Watching/looking and trading the videos and images on your computer
-          </li>
-          <li>Listening to the abuse through a wall from a different room</li>
-          <li>Seeing the abuse through a window</li>
-          <li>Standing in the room and watching the abuse take place</li>
-          <li>
-            Being the person taking the video/photographs or directing the
-            action
-          </li>
-          <li>Actively participating in the abuse</li>
-        </ul>
-        <p>
-          What might this tell you about downloading sexual images of children?
-        </p>
-        <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/images-are-children-exercise-3-2editable.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download printable version of Exercise 3 &gt;
-          </a>
-        </p>
       </div>
     ),
   },
