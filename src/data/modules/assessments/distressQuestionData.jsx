@@ -78,11 +78,6 @@ const onlineCognitionData = [
     title: "Results",
     description: (
       <>
-        {/* <h4 className="secondary-color">Overall Score - Sum of answers</h4>
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>Your score is: {values}</p>
-        </div>
-        <br /> */}
         <p>
           <span className="secondary-color fw-bold">10-19:</span> This score
           indicates you are well and likely experiencing low or no psychological

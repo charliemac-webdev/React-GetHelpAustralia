@@ -108,7 +108,7 @@ const onlineCognitionData = [
     title: "Results",
     description: (
       <>
-        {/* <h4 className="secondary-color">Overall Score - Sum of answers</h4>
+        {/* <h4 className="secondary-color">Overall Score</h4>
         <div className="bg-primary-subtle border border-primary p-3">
           <p>Your GPIUS score is: </p>
         </div>

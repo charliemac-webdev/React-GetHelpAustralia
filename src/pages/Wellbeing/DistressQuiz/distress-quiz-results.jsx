@@ -24,7 +24,7 @@ const DistressQuizResults = () => {
         <h4 className="secondary-color">How do I start?</h4>
         <p>Use the "Continue" button below to proceed with the questions.</p>
         <br />
-        <h4 className="secondary-color">Overall Score - Sum of answers</h4>
+        <h4 className="secondary-color">Overall Score</h4>
         <div className="bg-primary-subtle border border-primary p-3">
           <p>Your K-10 score is: </p>
         </div>
