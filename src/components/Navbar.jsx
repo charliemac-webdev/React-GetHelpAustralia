@@ -28,11 +28,11 @@ const Navbar = () => {
                 HELP AND SUPPORT
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link secondary-color" href="#">
                 ABOUT
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 id="help-button-link"

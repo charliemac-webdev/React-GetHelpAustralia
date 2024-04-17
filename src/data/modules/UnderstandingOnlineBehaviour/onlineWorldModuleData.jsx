@@ -469,9 +469,9 @@ const OnlineWorldModuleData = [
             like. If this applies to you then this will be covered in more
             detail in the{" "}
             <strong>
-              <a href="https://www.stopitnow.org.uk/concerned-about-your-own-thoughts-or-behaviour/concerned-about-use-of-the-internet/self-help/moving-forward/building-a-good-life/">
+              <Link to="/building-a-good-life">
                 planning for a good life module
-              </a>
+              </Link>
             </strong>
             .
           </p>
