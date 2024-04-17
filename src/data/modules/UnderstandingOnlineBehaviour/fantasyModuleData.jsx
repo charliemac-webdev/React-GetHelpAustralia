@@ -3,6 +3,12 @@ import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import pictureOne from "../../../images/diagrams-surely.gif";
 
+// Accordion
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import { MdExpandMore } from "react-icons/md";
+
 const FantasyModuleData = [
   {
     id: "1",
@@ -294,65 +300,148 @@ const FantasyModuleData = [
           each one is an appropriate or inappropriate fantasy. Then click to see
           what the answer is.
         </p>
-        <p>
-          <h5 className="secondary-color">
-            1. A fantasy about a past sexual partner that you loved and cared
-            for.
-          </h5>
-        </p>
-        <p>
-          Answer: This would be an appropriate fantasy and it is ok to have this
-          fantasy as it is depicting a scenario which is non-abusive. However,
-          if this fantasy is about a sexual relationship you had when you were
-          under 16, this would be inappropriate. Also, if you now have a new
-          partner you need to consider how healthy this is for you and whether
-          it will affect your new sexual relationship.
-        </p>
-        <p>
-          <h5 className="secondary-color">
-            2. A fantasy about your employer making you angry, so you slam their
-            office door and force them to engage in sexual activity.
-          </h5>
-        </p>
-        <p>
-          Answer: This is an inappropriate fantasy. Forcing someone to do
-          something sexual against their will is illegal.
-        </p>
-        <p>
-          <h5 className="secondary-color">
-            3. A fantasy about an adult engaging in sexual activity with another
-            adult wearing school uniform.
-          </h5>
-        </p>
-        <p>
-          Answer: If the fantasy depicts two consenting adults who want to dress
-          up in school uniform then this could be an appropriate fantasy.
-          However, if you have been accessing child sexual abuse material
-          (CSAM), it would be inappropriate because you could be reinforcing
-          your inappropriate thoughts about children.
-        </p>
-        <p>
-          <h5 className="secondary-color">
-            4. A fantasy about sexual activity with a 15 year old who said they
-            want to have sex.
-          </h5>
-        </p>
-        <p>
-          Answer: This is an inappropriate fantasy. A child needs to be 16 or 17
-          years old (depending on your state/territory) to consent to sexual
-          activity and 18 to consent to images of them to be shared. Regardless
-          of how old you are, sexual activity with a child is illegal.
-        </p>
-        <p>
-          <h5 className="secondary-color">
-            5. A fantasy about sexual activity with an attractive adult stranger
-            you saw walking down the road that day.
-          </h5>
-        </p>
-        <p>
-          Answer: If you fantasise about meeting each other and consenting to
-          this activity, then it would be appropriate.
-        </p>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<MdExpandMore />}
+            aria-controls="panel1-content"
+            id="panel1-header"
+            sx={{
+              backgroundColor: "#e6edf5",
+            }}
+          >
+            <div>
+              <h5 className="secondary-color">
+                1. A fantasy about a past sexual partner that you loved and
+                cared for.
+              </h5>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails>
+            <div>
+              <h4 className="secondary-color">Answer:</h4>
+              <p>
+                This would be an appropriate fantasy and it is ok to have this
+                fantasy as it is depicting a scenario which is non-abusive.
+                However, if this fantasy is about a sexual relationship you had
+                when you were under 16, this would be inappropriate. Also, if
+                you now have a new partner you need to consider how healthy this
+                is for you and whether it will affect your new sexual
+                relationship.
+              </p>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<MdExpandMore />}
+            aria-controls="panel1-content"
+            id="panel1-header"
+            sx={{
+              backgroundColor: "#e6edf5",
+            }}
+          >
+            <div>
+              <h5 className="secondary-color">
+                2. A fantasy about your employer making you angry, so you slam
+                their office door and force them to engage in sexual activity.
+              </h5>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails>
+            <div>
+              <h4 className="secondary-color">Answer:</h4>
+              <p>
+                This is an inappropriate fantasy. Forcing someone to do
+                something sexual against their will is illegal.
+              </p>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<MdExpandMore />}
+            aria-controls="panel1-content"
+            id="panel1-header"
+            sx={{
+              backgroundColor: "#e6edf5",
+            }}
+          >
+            <div>
+              <h5 className="secondary-color">
+                3. A fantasy about an adult engaging in sexual activity with
+                another adult wearing school uniform.
+              </h5>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails>
+            <div>
+              <h4 className="secondary-color">Answer:</h4>
+              <p>
+                If the fantasy depicts two consenting adults who want to dress
+                up in school uniform then this could be an appropriate fantasy.
+                However, if you have been accessing child sexual abuse material
+                (CSAM), it would be inappropriate because you could be
+                reinforcing your inappropriate thoughts about children.
+              </p>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<MdExpandMore />}
+            aria-controls="panel1-content"
+            id="panel1-header"
+            sx={{
+              backgroundColor: "#e6edf5",
+            }}
+          >
+            <div>
+              <h5 className="secondary-color">
+                4. A fantasy about sexual activity with a 15 year old who said
+                they want to have sex.
+              </h5>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails>
+            <div>
+              <h4 className="secondary-color">Answer:</h4>
+              <p>
+                This is an inappropriate fantasy. A child needs to be 16 or 17
+                years old (depending on your state/territory) to consent to
+                sexual activity and 18 to consent to images of them to be
+                shared. Regardless of how old you are, sexual activity with a
+                child is illegal.
+              </p>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<MdExpandMore />}
+            aria-controls="panel1-content"
+            id="panel1-header"
+            sx={{
+              backgroundColor: "#e6edf5",
+            }}
+          >
+            <div>
+              <h5 className="secondary-color">
+                5. A fantasy about sexual activity with an attractive adult
+                stranger you saw walking down the road that day.
+              </h5>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails>
+            <div>
+              <h4 className="secondary-color">Answer:</h4>
+              <p>
+                If you fantasise about meeting each other and consenting to this
+                activity, then it would be appropriate.
+              </p>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <br />
       </div>
     ),
   },
