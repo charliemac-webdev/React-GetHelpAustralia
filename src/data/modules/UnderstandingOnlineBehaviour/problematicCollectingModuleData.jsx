@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
+import imageOne from "../../../images/problematic-collecting-excercise-3a-scale.png";
+
 const ProblematicCollectingModuleData = [
   {
     id: 1,
@@ -294,15 +296,9 @@ const ProblematicCollectingModuleData = [
         </p>
         <p>
           <img
-            fetchpriority="high"
-            decoding="async"
-            className="alignnone size-full wp-image-738"
-            src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-scale.png"
-            alt=""
-            width="906"
-            height="145"
-            srcset="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-scale.png 906w, https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-scale-300x48.png 300w, https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-scale-768x123.png 768w"
-            sizes="(max-width: 906px) 100vw, 906px"
+            src={imageOne}
+            alt="scale"
+            style={{ height: "auto", maxWidth: "100%" }}
           />
         </p>
         <ol>
@@ -328,14 +324,10 @@ const ProblematicCollectingModuleData = [
         </p>
         <p>
           <img
-            decoding="async"
             className="alignnone size-full wp-image-737"
             src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-graph.png"
-            alt=""
-            width="772"
-            height="420"
-            srcset="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-graph.png 772w, https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-graph-300x163.png 300w, https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-graph-768x418.png 768w"
-            sizes="(max-width: 772px) 100vw, 772px"
+            alt="graph"
+            style={{ height: "auto", maxWidth: "100%" }}
           />
         </p>
         <p>
@@ -360,9 +352,9 @@ const ProblematicCollectingModuleData = [
             But why are they feeling low? Only they will know the answer to this
             but the module{" "}
             <strong>
-              <a href="https://www.stopitnow.org.uk/concerned-about-use-of-the-internet/self-help/your-well-being-and-self-care/recognising-and-dealing-with-feelings/">
+              <Link to="/recognising-and-dealing-with-feelings">
                 Recognising and dealing with feelings
-              </a>
+              </Link>
               &nbsp;
             </strong>
             may help explore this.
@@ -453,9 +445,7 @@ const ProblematicCollectingModuleData = [
           a healthier, safer and legal way. We will help you to do just that in
           the&nbsp;
           <strong>
-            <a href="https://www.stopitnow.org.uk/concerned-about-use-of-the-internet/self-help/moving-forward/building-a-good-life/">
-              building a good life section
-            </a>
+            <Link to="/building-a-good-life">building a good life section</Link>
           </strong>
           , so ensure you make a note of these needs so you can refer to them
           later.
