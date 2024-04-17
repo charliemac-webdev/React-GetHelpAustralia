@@ -165,12 +165,12 @@ const GuiltAndShameModuleData = [
         <br></br>
         <h4 className="secondary-color">How to deal with shame</h4>
         <p>
-          We’ve worked with thousands of people who have committed sexual
-          offences and have experienced guilt and shame. These feelings are
-          normal and feeling guilty can help make sure you don’t engage in
-          harmful behaviour in the future. However, shame can be incredibly
-          difficult to cope with and can lead to feeling overwhelmed and
-          hopeless, which can prevent you from moving to an offence free life.
+          We’ve worked with a lot of people who have committed sexual offences
+          and have experienced guilt and shame. These feelings are normal and
+          feeling guilty can help make sure you don’t engage in harmful
+          behaviour in the future. However, shame can be incredibly difficult to
+          cope with and can lead to feeling overwhelmed and hopeless, which can
+          prevent you from moving to an offence free life.
         </p>
         <p>
           Here are some techniques you can use to manage your feelings of shame.
