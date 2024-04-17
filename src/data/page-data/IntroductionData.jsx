@@ -23,7 +23,22 @@ const IntroductionData = () => {
       </p>
       <p>
         We encourage you to look at all sections, even if you feel confident in
-        them, as you may still find them helpful.
+        them, as you may still find them helpful. If you have any concerns,
+        questions, or would just like to talk about what you are going through,
+        our non-judgemental Stop It Now! Australia{" "}
+        <u>
+          <a
+            href="https://www.stopitnow.org.au/helpline"
+            target="_blank"
+            rel="noopener"
+          >
+            helpline
+          </a>
+        </u>
+        &nbsp;advisors are here to support you. You can stay anonymous and don’t
+        have to give your real name or any contact details. If you’re not ready
+        to speak to anyone yet, you can also use the Stop It Now! Australia live
+        chat.
       </p>
       <p>
         Before you progress further through this website, please read our
@@ -49,11 +64,11 @@ const IntroductionData = () => {
             <p>
               The information provided throughout this website is intended for
               information, self-exploration, and self-help only. It is designed
-              to increase awareness in people who may feel that they have a
-              problem with sexual thoughts about children, or have thought about
-              acting on these thoughts but have not already done so, or those
-              who have offended and are seeking to avoid repeating this
-              behaviour.
+              to increase awareness in people who may feel they have concerns
+              about their online behaviour including concerning legal
+              pornography use, accessing child sexual abuse material,
+              communication with children, and other illegal online behaviours,
+              and are seeking to avoid repeating this behaviour.
             </p>
             <p>
               The information contained in this website is not, and should not
@@ -241,15 +256,6 @@ const IntroductionData = () => {
                   Reflection feedback – this helps us to assess the usefulness
                   of the website content and measure user engagement for the
                   purpose of research analysis and content improvement.
-                </p>
-              </li>
-              <li>
-                <p>
-                  The type of browser, operating system, and screen size used –
-                  this informs us about the range of systems and devices that
-                  visitors use to visit the site and helps ensure that the site
-                  is built to be as functional, readable and visually engaging
-                  as possible.
                 </p>
               </li>
             </ul>
