@@ -5,10 +5,10 @@ import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
 const Footer = () => {
   return (
     <footer className="footer footer-text">
-      <div className="container-fluid">
+      <div className="container-fluid pw-8vw">
         <div className="row row-cols-md-3 row-cols-1 align-items-sm-start align-items-md-center">
           <div className="col pt-4">
-            <div className="d-md-flex justify-content-start text-start">
+            <div className="d-md-flex justify-content-center">
               <div className="pt-2">
                 <img src={imageOne} alt="indigenous flag" height="63" />
               </div>
@@ -16,17 +16,21 @@ const Footer = () => {
                 <img src={imageTwo} alt="torres-straight flag" height="63" />
               </div>
             </div>
-            <div className="d-md-flex flex-md-column justify-content-start">
+            <div className="d-md-flex flex-md-column text-center">
               <div className="p-md-2 pt-sm-2">
                 <p>
-                  <span>Get Help! Australia acknowledges the</span>
-                  <br />
                   <span>
-                    Traditional Owners of the land where we work and live.
+                    Get Help! Australia acknowledges the Traditional Owners of
+                    the land
                   </span>
                   <br />
+                  {/* <span>
+                    Traditional Owners of the land where we work and live.
+                  </span>
+                  <br /> */}
                   <span>
-                    We pay our respects to Elders past, present and emerging.
+                    where we work and live. We pay our respects to Elders past,
+                    present and emerging.
                   </span>
                 </p>
               </div>
