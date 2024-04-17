@@ -5,7 +5,7 @@ import ReflectionQuestion from "../../../components/ReflectionQuestion";
 const takingResponsibilityModuleData = [
   {
     id: 1,
-    title: "Triggers",
+    title: "Taking Control",
     description: (
       <>
         <br></br>
@@ -24,7 +24,7 @@ const takingResponsibilityModuleData = [
         <p>
           What do you notice about how your control has changed from when you
           first started looking at sexual images of children or engaging in
-          sexual chat until now?
+          sexual communication with children until now?
         </p>
         <p>How does feeling out of control affect your mood?</p>
         <p>How in control would you like to be in a year’s time?</p>
@@ -33,79 +33,47 @@ const takingResponsibilityModuleData = [
   },
   {
     id: 2,
-    title: "Denial",
+    title: "Justification / Denial",
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Denial</h4>
+        <h4 className="secondary-color">Justification / Denial</h4>
         <p>
-          Denial is probably best explained in the book&nbsp;Cybersex Unhooked.
+          Justification, which is sometimes called denial, is probably best
+          explained in the book&nbsp;Cybersex Unhooked (2001).
         </p>
         <p>
-          Denial is the confused kind of thinking and reasoning used to avoid
-          the reality of behaviour or the consequences of behaviour.
+          Justification/denial is the confused kind of thinking and reasoning
+          used to avoid the reality of behaviour or the consequences of
+          behaviour. People can use justifications/denial to make themselves
+          feel better about harmful behaviour they are engaging in.
         </p>
-        <p>
-          Denial is a way to manage and explain the chaos in your life and an
-          effort to protect the online behaviour you believe you can’t live
-          without.
-        </p>
+        <p>Justifications can be a barrier to making positive changes.</p>
         <p>
           It is a way to deflect attention and responsibility. Here&nbsp;are
-          some examples of excuses that represent denial. As you read through
-          the list, make a note of&nbsp;any that sound familiar to you.
-          (Delmonico, D.L., Griffin, E., 2001)
+          some examples of statements that represent justification/denial of
+          behaviours. Have a think about what justifications you have have used.
         </p>
         <ul className="content-list">
           <li>“It was only once in a while.”</li>
           <li>“I needed to get my needs met somewhere.”</li>
-          <li>“We are all adults.”</li>
-          <li>
-            “I am just being a man and I have a high sex drive and men are more
-            sexual than women.”
-          </li>
           <li>“At least I’m not as bad as so-and-so.”</li>
-          <li>“My situation is different from everybody else’s.”</li>
-          <li>“Just this one last time and then stop.”</li>
-          <li>“Just this second time more and then stop.”</li>
-          <li>“Well, I’ve already started so what the hell.”</li>
           <li>“I’m just looking and not saving anything to my hard drive.”</li>
-          <li>“I’m pretty sure it’s all legal so it’s ok.”</li>
-          <li>
-            “A reward for lasting a certain period without accessing porn, so
-            this time is ok.”
-          </li>
-          <li>“I need to wean myself off rather than quit cold turkey.”</li>
           <li>“I’m dealing with a lot of stress and need to unwind.”</li>
-          <li>“What she doesn’t know won’t hurt her.”</li>
-          <li>
-            “My wife (husband or partner) isn’t responsive to my sexual needs.”
-          </li>
-          <li>“I deserve this.”</li>
-          <li>“It doesn’t hurt anyone because…”</li>
-          <li>“It’s just my way of relaxing.”</li>
-          <li>“It isn’t real because it is on the computer.”</li>
-          <li>“I only do this in private so it isn’t affecting anybody.”</li>
-          <li>“I can stop any time I want.”</li>
         </ul>
         <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/denial-checklisteditable.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download printable checklist &gt;
-          </a>
+          If you identify with the statements in the list&nbsp;then
+          justification/denial could be helping you to keep doing a behaviour
+          that you know is harmful. This, combined with feelings of a loss of
+          control, can be risky for you.
         </p>
         <p>
-          If you identify with the statements in the list&nbsp;then denial could
-          be helping you to keep doing a behaviour that you know is harmful.
-          This, combined with feelings of a loss of control, can be risky for
-          you.
-        </p>
-        <p>
-          You can take some simple steps to reduce your potential for engaging
-          in risky behaviour.
+          Once you have identified what justifications you are using, it is
+          important to think about how you can challenge these. For example, if
+          you are justifying the behaviour by saying "it was only once in a
+          while", a potential challenge could be "even if its once in a while,
+          it is still illegal and harmful". Once you begin to challenge these
+          justifications that have less power.
         </p>
         <br></br>
       </>

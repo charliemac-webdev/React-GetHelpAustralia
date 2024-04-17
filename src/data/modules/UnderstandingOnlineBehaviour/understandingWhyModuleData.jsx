@@ -21,12 +21,14 @@ const understandingWhyModuleData = [
         <p>
           If you are concerned about your worrying or illegal online sexual
           behaviour and want to stop this behaviour, it is important for you to
-          learn as much as possible about yourself and what you are doing.
+          understand more about yourself. This will help you understand why you
+          engage with this behaviour and to ensure that you do not engage with
+          it again.
         </p>
-        <p>The first step is to understand why you have done what you have.</p>
         <p>
-          Here are some common reasons we hear from people who have offended
-          online:
+          The first step is to understand why you have engaged in this
+          behaviour. There may be a variety of motivations, here are some
+          factors that we hear from people:{" "}
         </p>
         <ul className="content-list">
           <li>boredom</li>
@@ -65,9 +67,9 @@ const understandingWhyModuleData = [
         <p>
           You might already have some understanding of why you have been or are
           tempted to behave illegally online. You might also have recognised
-          some of the motivations listed above. But sometimes it can be
-          difficult to understand our behaviour. We will show you two ways you
-          can use to improve your understanding.
+          some of the motivations listed on the previous tab. But sometimes it
+          can be difficult to understand our behaviour. We will show you two
+          ways you can use to improve your understanding.
         </p>
         <p>
           The first is to think about when you go online and what mood you are
@@ -222,16 +224,10 @@ const understandingWhyModuleData = [
           following table in as much detail as possible.
         </p>
         <p>
-          You can use the ‘feelings word bank’ below if needed. Remember to
-          think about these five groups of activities:
+          You can use the ‘feelings word bank’ below if needed. Remeber to think
+          about the pathway to any inappropriate and/or illegal behaviour you
+          have engaged in.
         </p>
-        <ul className="content-list">
-          <li>downloading illegal images of children</li>
-          <li>trading these images with other people</li>
-          <li>producing illegal images of children</li>
-          <li>contacting children online for sexual reasons</li>
-          <li>offline sexual activity with children</li>
-        </ul>
         <br />
         <p>
           <b>Example</b>
@@ -274,7 +270,7 @@ const understandingWhyModuleData = [
         <p>
           Happy, Sad, Angry, Hurt, Depressed, Frustrated, Impulsive, Stressed,
           Relaxed Excited, Bored, Curious, Rejected, Doubtful, Interested,
-          Lonely, Irritated, Ashamed Upset, Annoyed, Miserable, Guilty, In
+          Lonely, Irritated, Ashamed, Upset, Annoyed, Miserable, Guilty, In
           despair, Uneasy, Useless, Vulnerable, Afraid Nervous, Timid,
           Indifferent, Restless, Alienated, Nonchalant, Dull, Anxious, Confident
         </p>
@@ -325,8 +321,7 @@ const understandingWhyModuleData = [
             way?
           </li>
           <li>
-            Over time, what effect did the internet have on your life offline
-            (in the real world)?
+            Over time, what effect did the internet have on your life offline?
           </li>
           <li>How would you describe your life online?</li>
           <p>

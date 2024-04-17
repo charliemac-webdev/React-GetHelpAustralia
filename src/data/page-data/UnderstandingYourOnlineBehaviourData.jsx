@@ -7,9 +7,19 @@ const UnderstandingYourOnlineBehaviourData = () => {
   return (
     <div>
       <p>
-        Many people who have engaged in online sexual behaviour involving
+        It is positive that you are motivated to understand your online
+        behaviour. This work is not always easy, but it is important. As you
+        work through these modules, remember it can be helpful to take breaks,
+        and remind yourself of your motivations to continue this positive work.
+        The Get Help! Australia modules can help you reflect on your learning
+        and explore how you apply this learning to prevent illegal online
+        behaviours.
+      </p>
+      <p>
+        Some people who have engaged in online sexual behaviour involving
         children believe that there is a ‘grey area’ between what is legal and
-        illegal. There is not.
+        illegal. There is not - it is important to recognise that this behaviour
+        is illegal and harmful.
       </p>
       <div>
         <Accordion>
@@ -27,13 +37,16 @@ const UnderstandingYourOnlineBehaviourData = () => {
             <div>
               <h4 className="secondary-color">Viewing Sexual Images</h4>
               <p>
-                If you are viewing any image or video of a child under 18 years
-                of age for sexual gratification, regardless of whether the child
-                is nude, semi-nude or clothed, then this is illegal. The police
-                may investigate the possession of multiple images of clothed
-                children. If you are unsure about the age of someone in an image
-                then you should not view it. Not knowing the age is not an
-                excuse.
+                Child sexual abuse material (CSAM) is any content that
+                sexualises and takes unfair advantage of a child, as well as
+                child sexual abuse material that shows their sexual assault.
+                Viewing child sexual abuse material (CSAM) is illegal. If the
+                sexual abuse of a child is recorded, that recording is illegal
+                online content. Content that encourages or instructs people to
+                sexually or phsyically abuse a child or exploit or groom them is
+                also child sexual abuse material (CSAM). If you are unsure about
+                the age of someone in an image then you should not view it. Not
+                knowing the age is not an excuse.
               </p>
             </div>
           </AccordionDetails>
@@ -55,7 +68,7 @@ const UnderstandingYourOnlineBehaviourData = () => {
               <p>
                 Sexual drawings of children or computer-generated sexual images
                 of children are also illegal in Australia. Any sexual drawings
-                of children, including Manga that shows sexual abuse or
+                of children (including Manga) that shows sexual abuse or
                 sexualised children is also illegal to view or possess in
                 Australia.
               </p>
@@ -78,15 +91,15 @@ const UnderstandingYourOnlineBehaviourData = () => {
               <h4 className="secondary-color">Sexual Communication</h4>
               <p>
                 If you are talking sexually to people online, you should always
-                ask their age. If anyone says they are under 16 years of age you
+                ask their age. If anyone says they are under 18 years of age you
                 should stop the conversation immediately. It doesn’t matter if
                 you think they are older or that it is part of a fantasy. This
                 is illegal and the Police will always prosecute if you continue
-                to talk sexually to someone who states they are under 16 years
+                to talk sexually to someone who states they are under 18 years
                 of age. If you are in a ‘position of trust’ (such as a teacher,
                 youth worker, police officer, social worker, doctor, sport or
                 religious coach/instructor) it is illegal to sexually
-                communicate with that child if they are under 18 years of age.
+                communicate with that child.
               </p>
             </div>
           </AccordionDetails>
