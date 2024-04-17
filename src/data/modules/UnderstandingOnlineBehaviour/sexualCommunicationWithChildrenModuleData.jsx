@@ -13,10 +13,11 @@ const SexualCommunicationWithChildrenModuleData = [
           <h4 className="secondary-color">
             What do we mean by ‘sexual communication’?
           </h4>
+          <br></br>
           <p>
             In Australia, an adult is committing a criminal offence if they
-            intentionally communicate with someone under the age of 16 years for
-            the purposes of sexual gratification.
+            intentionally communicate with a child for the purposes of sexual
+            gratification.
           </p>
           <p>
             Sexual communication with a child is often referred to as online
@@ -30,9 +31,11 @@ const SexualCommunicationWithChildrenModuleData = [
             to persuade children to send them sexual images or videos of
             themselves. Some people communicate sexually with children online
             because they want to meet the child offline in order to sexually
-            interact with them. These behaviours can overlap, so that it’s not
-            always clear at the outset what someone really wants from their
-            sexual communication.
+            interact with them. And some people say they communicate with
+            children online to get a sense of connection. These behaviours can
+            overlap, so that it’s not always clear at the outset what someone
+            really wants from their sexual communication, but we do know all of
+            these behaviours are illegal and harmful.
           </p>
           <p>
             People’s behaviour varies too. For example, many people engaging in
@@ -46,212 +49,7 @@ const SexualCommunicationWithChildrenModuleData = [
             rapport and establishing trust with a child before the issue of sex
             is raised.
           </p>
-          <p>
-            Below are some examples of people who have engaged in sexual
-            communication with children online, which show the different aspect
-            of the behaviour.
-          </p>
-          <p>
-            <h5 className="secondary-color">Mick</h5>
-          </p>
-          <p>
-            Mick is married, in his late 40s, and has three children aged 7-12.
-            Until recently he was working in a stressful job as a manager in the
-            hospitality industry. He has viewed adult pornography, on and off,
-            ever since he was a teenager. In recent years he has started to use
-            adult chat rooms as a sexual outlet, and, on occasions, he has
-            engaged with teenage girls via webcam i.e. encouraged them to
-            masturbate on camera and exposed himself to them. He has never
-            attempted to meet up with any adults or children offline, and has
-            had no interest in doing so. For Mick, his sexual interactions with
-            adults and teenage girls online were a way for him to use sex to
-            de-stress in the evenings when the rest of his family were asleep.
-          </p>
-          <p>
-            <h5 className="secondary-color">Ben</h5>
-          </p>
-          <p>
-            Ben is a gay man in his 30s.&nbsp;He has no children and works in
-            financial services. He has a limited history of adult relationships
-            and has not been in a relationship for some years, about which he
-            has felt frustrated and anxious. In recent months, using various
-            social media platforms, he set up a fake profile of a teenage girl.
-            Using this profile, he then contacted teenage boys online and, over
-            time, would start to talk to the boys about their sexual behaviour,
-            fantasies and so on. Ben made no attempt to meet the boys offline –
-            after all, he was pretending to be a teenage girl. Ben found these
-            sexual conversations with boys arousing and he also enjoyed the
-            challenge of getting the boys to talk about their sexual behaviour.
-          </p>
-          <p>
-            <h5 className="secondary-color">Rob</h5>
-          </p>
-          <p>
-            Rob is in his mid-40s&nbsp;and works at his local supermarket. He
-            lives alone and has only had one relationship in his life, which
-            ended many years ago when his partner was unfaithful to him with one
-            of his friends. Rob has been wary of meeting anyone new ever since.
-            However, over the last 3 years, through social media, he started to
-            chat to others online. Rob wasn’t looking to get into a relationship
-            and enjoyed talking to a wide range of people. He especially liked
-            to give support to young people who were struggling with their
-            mental health, as he felt like he had relevant experiences he could
-            share. Over time, he became close to a 15-year-old girl called
-            Claire, who was experiencing bullying at school. Rob and Claire
-            spent a lot of time talking via a messaging platform, especially in
-            the evenings. After some months, Rob felt that he had fallen in love
-            with Claire. He shared his feelings with her, and said that he felt
-            they were meant to be together as a couple. To his delight, and
-            relief, Claire said that she felt the same, and they agreed to go
-            away for a weekend, in secret.
-          </p>
-          <p>
-            <h5 className="secondary-color">John</h5>
-          </p>
-          <p>
-            John is aged 28. He lives in a house-share and works as a software
-            developer. He has always viewed adult pornography and has had a lot
-            of sexual partners in recent years. John enjoys partying, and uses
-            recreational drugs most weekends. He feels like he’s too young to
-            settle down, and sex is an important part of his lifestyle. John has
-            various profiles on numerous dating Apps and social media platforms,
-            which he uses to find new sexual partners and/or to engage in
-            cybersex. John is most attracted to women aged 18-24 but knows that
-            some of the girls he has chatted to online have been as young as 14.
-            Some weeks ago, he also met up with a girl, who he now thinks was
-            under-age, and had sex with her in a hotel.
-          </p>
-          <p>
-            Considering these examples, did you recognise any of your own
-            behaviours? Were you able to relate to any aspects of the person’s
-            situation?
-          </p>
           <br></br>
-        </div>
-      </>
-    ),
-  },
-  {
-    id: 2,
-    title: "The different groups",
-    description: (
-      <>
-        <div className="tab-main-content">
-          <br></br>
-          <h4 className="secondary-color">
-            Motivations for engaging in sexual communication with children
-          </h4>
-          <p>
-            Some people tell us that their interaction with children was not
-            only motivated by sex. Instead some people talk about wanting to
-            feel understood, or enjoying the connection with the child they are
-            speaking to.
-          </p>
-          <p>
-            Our experience is that people’s motivations are often about more
-            things than simply sexual pleasure. As such, it is important to
-            consider your motives, so that you are able to manage your behaviour
-            more responsibly in the future.
-          </p>
-          <p>
-            Many of the motivations noted in the&nbsp;'Understanding Why'
-            module&nbsp;will also be relevant for people who have communicated
-            sexually with children online. Take a look and see which might have
-            been significant for you. You might find it helpful to complete the
-            timeline exercise, if you haven’t done so already.
-          </p>
-          <hr />
-          <br></br>
-          <h4 className="secondary-color">Different groups</h4>
-          <p>
-            Research and practice concerning the online grooming of children is
-            relatively new. We are therefore still learning about this
-            behaviour, and the people who engage in it. Some researchers have
-            suggested that people who sexually abuse children in this way fall
-            into different groups, depending on their motives and behaviour.
-          </p>
-          <p>
-            The European Online Grooming Project (Webster et al., 2012) proposes
-            three broad groups:
-          </p>
-          <ul className="content-list">
-            <li>
-              People who want to feel close to a child – ‘intimacy seeking’
-            </li>
-            <li>
-              People who adapt and change their online behaviour and profiles
-              depending on the response of the child they are chatting to –
-              ‘adaptable’
-            </li>
-            <li>
-              People who act in a very sexual way from the outset –
-              ‘hypersexual’
-            </li>
-          </ul>
-          <p>
-            The difference between these groups, in terms of their online
-            behaviour, is mainly about the intensity and duration of the online
-            communication between the adult and the child. The motivations,
-            however, may differ.
-          </p>
-          <hr />
-          <br></br>
-          <h4 className="secondary-color">
-            Exercise 1: Different approaches to children
-          </h4>
-          <p>
-            With the above ideas about different groupings in mind, think about
-            the following questions. Also consider if your behaviour changed
-            over time, and why that might have been:
-          </p>
-          <ul className="content-list">
-            <li>
-              Did you think about your contact with a child or children as being
-              consenting and intimate?
-            </li>
-            <li>
-              Were your conversations prolonged and frequent with sexual content
-              introduced slowly?
-            </li>
-            <li>
-              Did your online conversations often lead to planning or arranging
-              offline meetings to develop the relationship?
-            </li>
-            <li>
-              Did your online conversations lead to the sending and/or receiving
-              of sexual images?
-            </li>
-            <li>
-              Did you see the children you spoke to as mature and sexually
-              knowledgeable?
-            </li>
-            <li>
-              Did you change your style of communication depending on the child
-              you spoke to, and how they responded?
-            </li>
-            <li>
-              Did you introduce sexual content very quickly i.e. within seconds
-              or the first few minutes?
-            </li>
-            <li>Did you use a false identity?</li>
-            <li>
-              Did you try to develop a relationship with a particular child or
-              children?
-            </li>
-            <li>Did you use sexual chat for your immediate sexual pleasure?</li>
-          </ul>
-          <p>
-            What do your answers to the above questions, tell you about your
-            motivations?
-          </p>
-          <p>
-            What do they say about how you viewed the child or children you
-            chatted to?
-          </p>
-          <p>
-            And what was the likelihood of you meeting up with a child you had
-            chatted to online? What stopped you?
-          </p>
         </div>
       </>
     ),
@@ -266,6 +64,7 @@ const SexualCommunicationWithChildrenModuleData = [
           <h4 className="secondary-color">
             The different stages of sexual communication with children
           </h4>
+          <br></br>
           <p>
             In order to understand more about how to avoid situations which may
             lead to you communicating sexually with a child in the future, it
@@ -396,14 +195,15 @@ const SexualCommunicationWithChildrenModuleData = [
         <div className="tab-main-content">
           <br></br>
           <h4 className="secondary-color">The cycle of online grooming</h4>
+          <br></br>
           <p>
             Some people find it more helpful to think of their behaviour as
             following a repeated pattern rather than, for example, the stages
-            set out above. As with the stages above, considering your behaviour
-            patterns can help you to understand the form your behaviour took,
-            and the factors involved in your decision making. This will put you
-            in a position where you can recognise this and change your behaviour
-            so it is not repeated in the future.
+            set out previously. As with the stages mentioned previously,
+            considering your behaviour patterns can help you to understand the
+            form your behaviour took, and the factors involved in your decision
+            making. This will put you in a position where you can recognise this
+            and change your behaviour so it is not repeated in the future.
           </p>
           <p>
             The cycle below is based on the work of de Santisteban et al (2018).
@@ -431,8 +231,8 @@ const SexualCommunicationWithChildrenModuleData = [
             do you think of your old justifications now?
           </p>
           <p>
-            Click on the stages of the cycle below for a full description of
-            each stage.
+            A full description of each of the stages of the cycle are outlined
+            below.
           </p>
           <p>
             You can download the exercise sheet&nbsp;
@@ -471,11 +271,6 @@ const SexualCommunicationWithChildrenModuleData = [
             confident talking to adults and/or children about sex online than
             offline. Or they might feel that they can portray themselves with
             more confidence or as being more attractive etc.
-          </p>
-          <p>
-            To read more about the Triple A model, and consider these aspects of
-            the internet, you might find it useful to look at the&nbsp;Online
-            World module. (INSERT LINK)
           </p>
           <p>
             <h5 className="secondary-color">Contact with child or children</h5>
@@ -660,32 +455,20 @@ const SexualCommunicationWithChildrenModuleData = [
           </h4>
           <p>
             Many people do not believe they are harming children when they
-            communicate with them sexually on the internet. For example, do any
-            of the following sound familiar?
+            communicate with them sexually on the internet, and can incorrectly
+            blame the child. However, we know this is not true. Speaking to a
+            child about sexually explicit content before they are emotionally
+            developed has long-term, harmful consequences on the cognitive and
+            sexual development of these children.{" "}
           </p>
-          <ul className="content-list">
-            <li>
-              “The girl/boy I was talking to really could have stopped it at any
-              time. I never threatened her/him.”
-            </li>
-            <li>
-              “S/He was usually the one to start chatting with me. I never
-              pursued her/him.”
-            </li>
-            <li>
-              “I know I wasn’t the first older man s/he’d had contact with. If
-              she didn’t like it the first time, s/he wouldn’t have started
-              chatting to me.”
-            </li>
-          </ul>
           <p>
-            If you recognise using any of the above statements, it is important
-            to think about the dynamics of your interaction or relationship with
-            the children concerned. This can be really hard to do, as sometimes
+            If you recognise using any justifications, it is important to think
+            about the dynamics of your interaction or relationship with the
+            children concerned. This can be really hard to do, as sometimes
             people feel ashamed of their behaviour when they look at it from the
             child’s point of view. But, remember that this is a positive
-            process, and considering the child’s point of view can help you stay
-            safe from inappropriate online behaviour going forward.{" "}
+            process, and considering the child’s point of view may help you
+            prevent inappropriate online behaviour going forward.{" "}
           </p>
           <p>
             Find a quiet time to do the exercise below when you’re feeling safe

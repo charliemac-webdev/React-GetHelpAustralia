@@ -252,7 +252,8 @@ const FantasyModuleData = [
         <h4 className="secondary-color">Illegal fantasies</h4>
         <p>
           These are fantasies that would be illegal if they were carried out or
-          acted on in real life, such as having sex with a child.
+          acted on in real life, such as having any sexual activity with a
+          child.
         </p>
         <br></br>
         <h4 className="secondary-color">Abusive fantasies</h4>
@@ -326,9 +327,9 @@ const FantasyModuleData = [
         <p>
           Answer: If the fantasy depicts two consenting adults who want to dress
           up in school uniform then this could be an appropriate fantasy.
-          However, if you have been accessing indecent images of children, it
-          would be inappropriate because you could be reinforcing your
-          inappropriate thoughts about children.
+          However, if you have been accessing child sexual abuse material
+          (CSAM), it would be inappropriate because you could be reinforcing
+          your inappropriate thoughts about children.
         </p>
         <p>
           <h5 className="secondary-color">
@@ -337,10 +338,10 @@ const FantasyModuleData = [
           </h5>
         </p>
         <p>
-          Answer: This is an inappropriate fantasy. A child needs to be 16 years
-          old to consent to sexual activity and 18 to consent to images of them
-          to be shared. Regardless of how old you are, sexual activity with a
-          child is illegal.
+          Answer: This is an inappropriate fantasy. A child needs to be 16 or 17
+          years old (depending on your state/territory) to consent to sexual
+          activity and 18 to consent to images of them to be shared. Regardless
+          of how old you are, sexual activity with a child is illegal.
         </p>
         <p>
           <h5 className="secondary-color">
@@ -380,8 +381,9 @@ const FantasyModuleData = [
         <br></br>
         <h4 className="secondary-color">Illegal online sexual behaviour</h4>
         <p>
-          Accessing indecent images of children, or sexually communicating about
-          or with children, can also shape your sexual fantasies.
+          Accessing child sexual abuse material (CSAM), or sexually
+          communicating about or with children, can also shape your sexual
+          fantasies.
         </p>
         <p>
           And if you masturbate to these fantasies to the point of ejaculation,
@@ -402,10 +404,10 @@ const FantasyModuleData = [
           Will this make me commit a contact offence?
         </h4>
         <p>
-          We are not saying that everyone who has accessed indecent images of
-          children, or who has sexually communicated with or about a child, or
-          has masturbated to the thought of a child will go on to commit a
-          contact offence.
+          We are not saying that everyone who has accessed child sexual abuse
+          material (CSAM), or who has sexually communicated with or about a
+          child, or has masturbated to the thought of a child will go on to
+          commit a contact offence.
         </p>
         <p>
           But, if you are masturbating to a fantasy or an image of a child, then
@@ -421,9 +423,9 @@ const FantasyModuleData = [
           People also rehearse things they want to do and build confidence
           through their fantasies. You might not be thinking about enacting your
           fantasies now, but over time, your confidence and urge to act on them
-          will increase, especially if you find that you are not getting the
-          same level of pleasure from the fantasy; you may find you want to do
-          something to increase the buzz.
+          may increase, especially if you find that you are not getting the same
+          level of pleasure from the fantasy; you may find you want to do
+          something to increase the "buzz".
         </p>
         <p>
           Now, using Exercise 3, let’s take a look at one of your inappropriate
@@ -508,10 +510,10 @@ const FantasyModuleData = [
         </p>
         <p>
           For some people this will be easy, but for others it will take time,
-          hard work, a lot of willpower and heaps of self-control. You are not
-          alone if you feel it is too hard to control these fantasies, but you
-          are in control of your thoughts and feelings and you can make a choice
-          as to how much attention you choose to give to them.
+          hard work, willpower and self-control. You are not alone if you feel
+          it is too hard to control these fantasies, but you are in control of
+          your thoughts and feelings and you can make a choice as to how much
+          attention you choose to give to them.
         </p>
         <p>
           Many individuals use fantasy management techniques to help stop having
@@ -535,22 +537,19 @@ const FantasyModuleData = [
           yourself with. Be firm with yourself.
         </p>
         <p>
-          You could also ask about the consequences to implant fear. ‘Why would
+          You could also ask about the consequences to implant fear. ‘What would
           happen if someone walked in and could see what I was fantasising
           about?’ ‘I know if I keep having this fantasy, I am more likely to
-          look at indecent images of children; what are the consequences if I
-          was caught?’
+          look at child sexual abuse material (CSAM); what are the consequences
+          if I was caught?’
         </p>
         <p>
           <h5 className="secondary-color">2. Fantasy replacement</h5>
           Change the ending or the subject of your fantasy. For example, if you
           are beginning to indulge in fantasy about a child you have seen in an
-          indecent image or communicated with online, change the child to an
-          adult. In order to gain the same satisfaction, this will probably not
-          be an immediate solution, but you could start by changing small
-          features like hairstyle or body form and over time change the whole
-          situation. In contrast, try a different fantasy all together which is
-          new and exciting…. and legal!
+          illegal image or communicated with online, change the child to an
+          adult. In contrast, try a different fantasy all together which is new
+          and exciting…. and legal!
         </p>
         <p>
           <h5 className="secondary-color">3. Fantasy blocker</h5>
@@ -569,8 +568,8 @@ const FantasyModuleData = [
           <h5 className="secondary-color">5. Active distraction</h5>
           Do something that prevents you from thinking about a fantasy. This
           could be reading, watching TV, going for a walk. It could be ringing a
-          friend or going for a drink. Anything that takes your thoughts away
-          from that fantasy.
+          friend and going out for coffee, or doing a fun activity. Anything
+          that takes your thoughts away from that fantasy.
         </p>
         <p>
           <h5 className="secondary-color">6. Urge surfing</h5>
@@ -660,10 +659,9 @@ const FantasyModuleData = [
           <li>
             <strong>Don’t beat yourself up</strong>. For many people, it simply
             does not feel realistic to never have sexual fantasies about
-            children or to never masturbate. That’s just how it is. Mindfulness
-            can help people come to terms with their feelings about this.
-            Compassion and self-acceptance is a better mindset than one of
-            despair and resignation.
+            children or to never masturbate. Mindfulness can help people come to
+            terms with their feelings about this. Compassion and self-acceptance
+            is a better mindset than one of despair and resignation.
           </li>
         </ul>
         <br></br>

@@ -36,11 +36,6 @@ const AdultPornographyModuleData = [
           consent to these sexual behaviours, to being filmed or photographed,
           and to the videos or pictures being distributed.
         </p>
-        <p>
-          Bondage and fetishes can be shown as long as they are consensual and
-          do not lead to abusive behaviours, for example, a person being
-          physically harmed, their life threatened, or rape scenarios.
-        </p>
         <br></br>
         <h4 className="secondary-color">Is it OK to view adult pornography?</h4>
         <p>
@@ -76,16 +71,8 @@ const AdultPornographyModuleData = [
           unwilling, forced, threatened, or even been through sex trafficking.
           With amateur footage, you might be viewing people who give consent to
           show themselves sexually online, but you could also be watching
-          something that wasn’t supposed to be shared, such as{" "}
-          <a
-            href="https://www.gov.uk/government/publications/revenge-porn"
-            target="_blank"
-            rel="noopener"
-            className="secondary-color"
-          >
-            revenge porn
-          </a>
-          . It is impossible to guarantee the people you are watching have given
+          something that wasn’t supposed to be shared, such as revenge porn. It
+          is impossible to guarantee the people you are watching have given
           consent.
         </p>
         <br></br>
@@ -717,45 +704,13 @@ const AdultPornographyModuleData = [
             <li>
               Set restrictions or activate parental controls on your internet
               connection. This can stop you from being able to connect to
-              websites with adult pornography.{" "}
-              <a
-                href="https://www.saferinternet.org.uk/advice-centre/parents-and-carers/parental-controls-offered-your-home-internet-provider"
-                target="_blank"
-                rel="noopener"
-                className="secondary-color"
-              >
-                Find out how to set restrictions
-              </a>
-              .
+              websites with adult pornography.
             </li>
             <li>
               If someone knows you are trying to reduce your adult pornography
               use, ask them to help. Some apps allow a trusted friend or family
               member to see your internet history, which can motivate you to
-              avoid adult pornography. Check out{" "}
-              <a
-                href="http://www.covenanteyes.com"
-                target="_blank"
-                rel="noopener"
-                className="secondary-color"
-              >
-                Covenant Eyes
-              </a>
-              .
-            </li>
-            <li>
-              If you don’t have someone to support you,{" "}
-              <a
-                href="http://www.nofap.com"
-                target="_blank"
-                rel="noopener"
-                className="secondary-color"
-              >
-                NoFap
-              </a>{" "}
-              might help – it’s a website and support group designed to help
-              users overcome porn addiction<strong>,</strong> porn overuse, and
-              compulsive sexual behaviour.
+              avoid adult pornography.
             </li>
           </ul>
           <br></br>

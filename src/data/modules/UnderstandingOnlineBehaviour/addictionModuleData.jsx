@@ -109,14 +109,21 @@ const AddictionModuleData = [
         <h4 className="secondary-color">
           It’s an addiction, so it’s not my fault – right?
         </h4>
+        <br></br>
         <p>
-          Wrong – the first time you engaged in illegal online sexual behaviour,
-          you knew it was wrong, you weren’t addicted then but you went back and
-          did it again. This is because you prioritised the pleasure you got
-          over the harm it caused others and each time you went back you could
-          still have chosen a different path. Yes, it will have got harder to
-          stop over time but you still had a choice. What’s important is that
-          you now see this and are doing something about it.
+          Wrong – it is important to remember that addiction is not an excuse
+          for harmful behaviours. Illegal online sexual behaviour is harmful,
+          and the first time you engage in this behaviour you made decision to
+          do so. It may have felt like it was harder to stop over time but each
+          time you engaged in the behaviour you still had a choice. What’s
+          important is that you now see this and are doing something about it.
+        </p>{" "}
+        <p>
+          Addiction may be an element that helps you understand your pathway to
+          offending, and what is important to put in place to ensure you do not
+          offend again, but it does not excuse the behaviour. The more you
+          understand about your own behaviour, the more you can put things in
+          place to move forward to living a happy and offence-free life.
         </p>
         <p>
           So if you have recognised an addictive element to your offending, you

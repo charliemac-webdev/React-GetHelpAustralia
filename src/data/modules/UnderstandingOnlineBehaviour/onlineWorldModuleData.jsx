@@ -179,7 +179,12 @@ const OnlineWorldModuleData = [
             How?
           </li>
           <li>
-            Would you like your behaviour online to also happen offline? Why?
+            What would be the negative impacts if your behaviour online was to
+            also happen offline?
+          </li>
+          <li>
+            What parts of your online behaviour would you like to change so they
+            are more align with your offline behaviour? Why?
           </li>
           <li>
             How does considering this help you manage your future online
@@ -207,7 +212,7 @@ const OnlineWorldModuleData = [
         </p>
         <p>
           Some people feel that they can be very different online compared to
-          how they are ‘in the real world’.
+          how they are offline.
         </p>
         <hr></hr>
         <br></br>
@@ -286,33 +291,13 @@ const OnlineWorldModuleData = [
           </p>
           <p>
             This can be especially true of people’s online sexual relationships.
-            Here the focus can easily become just about sexual thing. For many
-            people this is manageable, but for others the desire for short-term
-            sexual pleasure means that they allow themselves to develop patterns
-            of online sexual behaviour that are damaging to both themselves and
-            others. Many of these activities are legal but others are not.&nbsp;
-            They might include:
+            Here the focus can easily become just about sexual thing. For some
+            people the desire for short-term sexual pleasure means that they
+            allow themselves to develop patterns of online sexual behaviour that
+            are damaging to both themselves and others. Many of these activities
+            are legal but others are not.&nbsp;
           </p>
-          <ul className="content-list">
-            <li>
-              chatting to adults about sex with children online such as sharing
-              fantasies
-            </li>
-            <li>chatting to children about sex online</li>
-            <li>
-              using smartphones, apps or webcams to encourage children to engage
-              in sexual behaviour
-            </li>
-            <li>
-              exposing children to sexual behaviour through smartphones, apps or
-              webcams
-            </li>
-            <li>
-              grooming children with the intention of meeting them offline and
-              sexually abusing them
-            </li>
-            <li>voyeurism (hidden cameras)</li>
-          </ul>
+          <br></br>
           <hr />
           <br></br>
           <p>
