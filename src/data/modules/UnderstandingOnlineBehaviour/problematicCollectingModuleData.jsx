@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
+import imageTwo from "../../../images/problematic-collecting-excercise-3a-graph.png";
 import imageOne from "../../../images/problematic-collecting-excercise-3a-scale.png";
 
 const ProblematicCollectingModuleData = [
@@ -324,8 +325,7 @@ const ProblematicCollectingModuleData = [
         </p>
         <p>
           <img
-            className="alignnone size-full wp-image-737"
-            src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-graph.png"
+            src={imageTwo}
             alt="graph"
             style={{ height: "auto", maxWidth: "100%" }}
           />
