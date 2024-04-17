@@ -109,7 +109,13 @@ const understandingWhyModuleData = [
           style={{ height: "auto", maxWidth: "100%" }}
         />
         <br />
-        <a href="#">Download and edit PDF template</a>
+        <a
+          href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/understanding-why-exercise-1-editable.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download and edit PDF template
+        </a>
         <br />
         <p>
           <b>Instructions</b>
@@ -186,7 +192,13 @@ const understandingWhyModuleData = [
         />
         <br />
         <br></br>
-        <a href="#">Download and edit PDF template</a>
+        <a
+          href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/understanding-why-exercise-2a-editable.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download and edit PDF template
+        </a>
         <br />
         <p>
           <b>Instructions</b>
@@ -228,7 +240,13 @@ const understandingWhyModuleData = [
         <br />
         <p></p>
         <br></br>
-        <a href="#">Download and edit PDF template</a>
+        <a
+          href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/part-b-editable.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download and edit PDF template
+        </a>
         <br />
         <p>
           <p></p>
@@ -261,7 +279,11 @@ const understandingWhyModuleData = [
         <h5 className="secondary-color">
           Part C: Understanding your behaviour over time
         </h5>
-        <a href="#">
+        <a
+          href="https://get-help.stopitnow.org.uk/downloads/understanding-why-exercise-2c.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Download printable version of these questions with space to fill in
           answers.
         </a>
