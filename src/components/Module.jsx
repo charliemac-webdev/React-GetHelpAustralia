@@ -86,7 +86,7 @@ const Module = ({ modules }) => {
                   return (
                     <div
                       key={module.id}
-                      onClick={handleClick.bind(null, () => setValue(index))}
+                      onClick={() => setValue(index)}
                       className={`${
                         index === value
                           ? "semi-blue-background fs-5 text-light p-4 border border-light"

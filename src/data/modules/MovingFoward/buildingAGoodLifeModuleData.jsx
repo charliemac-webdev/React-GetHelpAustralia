@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
+import imageOne from "../../../images/good-lives.png";
+
 const BuildingAGoodLifeModuleData = [
   {
     id: 1,
@@ -34,11 +36,10 @@ const BuildingAGoodLifeModuleData = [
         <p>
           <img
             className="d-block mx-auto"
-            src="https://www.stopitnow.org.uk/wp-content/uploads/2023/11/good-lives.png"
-            alt=""
+            src={imageOne}
+            alt="good lives"
             width="90%"
             height="auto"
-            sizes="(max-width: 1013px) 100vw, 1013px"
           />
         </p>
         <p>Find out more about each section below:</p>
