@@ -71,8 +71,8 @@ const AddictionModuleData = [
               </tr>
             </tbody>
           </table>
-          <p>If you are still not sure here is a quiz that might help:</p>
-          {/* Addiction Quiz */}
+          {/* <p>If you are still not sure here is a quiz that might help:</p>
+          Addiction Quiz
           <p>&nbsp;</p>
           <p>
             The more questions you agree with, the more likely that you feel
@@ -95,7 +95,7 @@ const AddictionModuleData = [
                 Meeting 6-7 of the criteria indicates a severe addiction
               </span>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </>
     ),
