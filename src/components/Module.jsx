@@ -16,17 +16,9 @@ const Module = ({ modules }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []); // Empty dependency array ensures this runs once on mount
-
-  const someElement = useRef();
-  const setScrollPosition = (element) => {
-    window.scrollTo({
-      top: element.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
-
+  const modRef = useRef(null);
   // Define a function to handle the button click event
-  const handleClick = (someElement) => {
+  const handleClick = () => {
     // Get all elements with class MuiSlider-valueLabelLabel
     const elements = document.querySelectorAll(".MuiSlider-valueLabelLabel");
     // console.log(elements);
@@ -48,13 +40,33 @@ const Module = ({ modules }) => {
 
     // Update the values array with the new sum
     setValues((prevValues) => [...prevValues, sum]);
-    setScrollPosition(someElement);
+  };
+
+  const [modRefReady, setModRefReady] = useState(false);
+
+  // useEffect to update modRefReady when modRef.current is set
+  useEffect(() => {
+    if (modRef.current) {
+      setModRefReady(true);
+    }
+  }, [modRef.current]);
+
+  // Handle click event
+  const handleClickAndScroll = () => {
+    handleClick();
+    if (modRefReady) {
+      modRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   // Define a new value based on the current value
   const newValue =
     value < modules.length - 1 ? (
-      <Button onClick={handleClick} ident="continue-button" classes="btn">
+      <Button
+        onClick={handleClickAndScroll}
+        ident="continue-button"
+        classes="btn"
+      >
         Continue
       </Button>
     ) : null;
@@ -62,7 +74,7 @@ const Module = ({ modules }) => {
   // Return the JSX for the Module component
   return (
     <>
-      <div className="container-fluid" ref={someElement}>
+      <div className="container-fluid" ref={modRef}>
         <div
           className="row align-items-start"
           style={{ border: "1px solid #004c97" }}

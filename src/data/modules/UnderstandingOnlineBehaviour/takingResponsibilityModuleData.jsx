@@ -10,7 +10,8 @@ const takingResponsibilityModuleData = [
       <>
         <br></br>
         <h4 className="secondary-color">Starting point</h4>
-        <p>
+        {/* There is no table in the UK version and their title is triggers not taking control */}
+        {/* <p>
           Using the table below, write down how far in control you have felt of
           your behaviours. (1 = very little control; 2 = some control; 3 =
           strong control).
@@ -20,7 +21,7 @@ const takingResponsibilityModuleData = [
           behaviours.
         </p>
         <p>INSERT QUIZ</p>
-        {/* <Quiz /> */}
+        <Quiz /> */}
         <p>
           What do you notice about how your control has changed from when you
           first started looking at sexual images of children or engaging in
