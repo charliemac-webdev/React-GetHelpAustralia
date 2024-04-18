@@ -3,7 +3,7 @@ import Button from "../../../components/Button";
 import DistressQuestion from "../../../components/DistressQuestion";
 import Survey from "../../../components/Survey";
 
-const onlineCognitionData = [
+const distressQuestionData = [
   {
     id: 1,
     title: "Self-Awareness Quiz",
@@ -116,4 +116,4 @@ const onlineCognitionData = [
     ),
   },
 ];
-export default onlineCognitionData;
+export default distressQuestionData;

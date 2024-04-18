@@ -74,7 +74,7 @@ const Module = ({ modules }) => {
                   return (
                     <div
                       key={module.id}
-                      onClick={() => setValue(index)}
+                      onClick={handleClick.bind(null, () => setValue(index))}
                       className={`${
                         index === value
                           ? "semi-blue-background fs-5 text-light p-4 border border-light"
@@ -91,9 +91,7 @@ const Module = ({ modules }) => {
             <div className="col-md-8 p-2">
               {sum > 0 && value === modules.length - 1 ? (
                 <>
-                  <h4 className="secondary-color">
-                    Overall Score - Sum of answers
-                  </h4>
+                  <h4 className="secondary-color">Overall Score</h4>
                   <div className="bg-primary-subtle border border-primary p-3">
                     <p>Your score is: {sum}</p>
                   </div>
