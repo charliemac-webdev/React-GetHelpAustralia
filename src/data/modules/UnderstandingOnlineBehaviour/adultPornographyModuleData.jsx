@@ -118,21 +118,21 @@ const AdultPornographyModuleData = [
           </li>
         </ul>
         <br></br>
-        <h4 className="secondary-color">
+        {/* <h4 className="secondary-color">
           Exercise 1: Is adult pornography a problem for you?
         </h4>
         <p>
           How can you tell if your use of adult pornography is a problem? Use
           the quiz below to find out.
         </p>
-        {/* Exercise 1 Quiz */}
+
         <p>INSERT QUIZ&nbsp;</p>
         <p>
           The more questions you agree with, the more problematic your
           pornography use appears to be. If you answered ‘yes’ to any of the
           questions, you might find this module helpful.
         </p>
-        <br></br>
+        <br/> */}
         <h4 className="secondary-color">
           The impact of adult pornography on your life
         </h4>
