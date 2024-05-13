@@ -10,7 +10,7 @@ const GuiltAndShameModuleData = [
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">What are guilt and shame?</h4>
+        <h4 className="secondary-color">What is guilt and shame?</h4>
         <p>
           Guilt and shame are often talked about as the same emotions but there
           are some key differences.
@@ -19,14 +19,14 @@ const GuiltAndShameModuleData = [
           <li>
             Guilt is the acknowledgement that we have done something wrong, but
             that behaviour does not define who we are as a person. Someone
-            experiencing guilt is able to recognise their positive qualities and
+            experiencing guilt is able to recognise their pleasant qualities and
             still see themselves in a good light.
           </li>
           <br></br>
           <li>
             Shame is the belief that we have done something wrong and that makes
             us a bad person. Someone experiencing shame may not be able to
-            identify their positive qualities or see themselves in a good light.
+            identify their pleasant qualities or see themselves in a good light.
           </li>
         </ul>
         <p>
@@ -49,7 +49,7 @@ const GuiltAndShameModuleData = [
         <br />
         <p>
           This module aims to help you recognise if you’re feeling shame and
-          ways you can overcome it so that you can build a positive and offence
+          ways you can overcome it so that you can build a healthier and offence
           free life.
         </p>
         <h5 className="secondary-color">
@@ -76,11 +76,11 @@ const GuiltAndShameModuleData = [
   },
   {
     id: 2,
-    title: "Exercise 1: recognising shame",
+    title: "Exercise 1: Recognising shame",
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Exercise 1: recognising shame</h4>
+        <h4 className="secondary-color">Exercise 1: Recognising shame</h4>
         <p>
           We can experience and recognise shame in different ways, including
           physical, emotional and behavioural signs. Being able to recognise
@@ -176,7 +176,7 @@ const GuiltAndShameModuleData = [
           Here are some techniques you can use to manage your feelings of shame.
         </p>
         <h5 className="secondary-color">
-          Accept responsibility for you mistake
+          Accept responsibility for your mistake
         </h5>
         <p>
           Facing what you have done is the first step toward forgiving yourself.
@@ -197,20 +197,21 @@ const GuiltAndShameModuleData = [
           manage. If you need help with talking about your thoughts and
           feelings, visit our{" "}
           <Link to="/recognising-and-dealing-with-feelings">
-            <b>opening up to others</b>
-          </Link>
+            <b>recognising and dealing with feelings</b>
+          </Link>{" "}
+          module.
         </p>
         <h5 className="secondary-color">Find an emotional outlet</h5>
         <p>
-          Making changes in your life can cut down on negative emotions, but it
-          won’t eliminate them. As you make changes in your life to reduce
-          <b> negative</b> emotions such as shame, you will also need to find
+          Making changes in your life can cut down on unpleasant emotions, but
+          it won’t eliminate them. As you make changes in your life to reduce
+          <b> unpleasant</b> emotions such as shame, you will also need to find
           healthy outlets for dealing with these emotions, for example:
         </p>
         <ul className="content-list">
           <li>
             regular <b>exercise</b> provides an emotional lift and an outlet for
-            negative emotions
+            unpleasant emotions
           </li>
           <li>
             <b>meditation</b> can help stop you from feeling overwhelmed
@@ -223,7 +224,7 @@ const GuiltAndShameModuleData = [
         </ul>
         <p>
           Find a few of these outlets, and you’ll feel less overwhelmed when
-          having negative emotions.
+          having unpleasant emotions.
         </p>
         <h5 className="secondary-color">Work on your self-talk</h5>
         <p>
@@ -233,20 +234,21 @@ const GuiltAndShameModuleData = [
         <p>
           When we feel shame, it can be difficult to see the good things about
           ourselves and our lives. The shame spiral can make us only focus on
-          the negatives. We might, for example, expect others to only think
+          the unpleasantries. We might, for example, expect others to only think
           badly about us. It is important to get yourself out of the spiral.
         </p>
         <p>
-          One way of doing this is to recognise your negative thoughts and
+          One way of doing this is to recognise your unpleasant thoughts and
           balance them with a more realistic view. To do this, remind yourself
-          of the positives about yourself and your life. Make a list of things
-          you like about yourself, things you are good at, things you have
-          achieved, and things other people like about you. It can be useful to
-          carry the list around with you and look at it when you feel shame.
-          Keep adding to the list and keep reminding yourself of the positives.
+          of the pleasant things about yourself and your life. Make a list of
+          things you like about yourself, things you are good at, things you
+          have achieved, and things other people like about you. It can be
+          useful to carry the list around with you and look at it when you feel
+          shame. Keep adding to the list and keep reminding yourself of the
+          pleasantries.
         </p>
         <p>
-          If you are unsure of negative and positive thinking (otherwise known
+          If you are unsure of pleasant and unpleasant thinking (otherwise known
           as self-talk) then please work through our{" "}
           <Link to="/self-talk">
             <b>self-talk section</b>
@@ -264,9 +266,9 @@ const GuiltAndShameModuleData = [
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
-          Holding on to shame can affect your ability to move forward
-          positively. Think about three examples of positive self-talk that help
-          you to see that you and your offending are not the same.
+          Holding on to shame can affect your ability to move forward. Think
+          about three examples of pleasant self-talk that help you to see that
+          you and your offending are not the same.
         </p>
         <br></br>
         <p>

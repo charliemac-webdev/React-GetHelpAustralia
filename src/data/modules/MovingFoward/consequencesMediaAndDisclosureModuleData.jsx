@@ -10,6 +10,7 @@ const DisclosureModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">Legal consequences of a conviction</h4>
         <p>
           Being convicted of a sexual offence has lots of significant
           consequences. One of the main outcomes is being involved with the
@@ -162,6 +163,7 @@ const DisclosureModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">Dealing with the media</h4>
         <p>
           The media don’t publish information about every online child sexual
           abuse offence but people often worry about this being a possiblity.
@@ -225,6 +227,9 @@ const DisclosureModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">
+          How to tell pople about your sexual offences
+        </h4>
         <p>
           It can be very difficult to talk about sex, particularly sexual
           offences. It’s hard to know how to approach these conversations and
@@ -351,17 +356,6 @@ const DisclosureModuleData = [
             and offer another trustworthy adult for them to confide in.
           </li>
         </ul>
-        <p>
-          Understand more on{" "}
-          <a
-            className="secondary-color"
-            href="https://www.stopitnow.org.uk/supporting-children-in-the-family/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>supporting children in the family</u>.
-          </a>
-        </p>
         <h4 className="secondary-color">Talking to employers</h4>
         <p>
           When disclosing convictions to employers, these suggestions might
@@ -447,6 +441,7 @@ const DisclosureModuleData = [
     title: "Reflection",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <br></br>
         <p>

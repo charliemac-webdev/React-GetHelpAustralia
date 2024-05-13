@@ -38,15 +38,20 @@ const UnderstandingYourOnlineBehaviourData = () => {
               <h4 className="secondary-color">Viewing Sexual Images</h4>
               <p>
                 Child sexual abuse material (CSAM) is any content that
-                sexualises and takes unfair advantage of a child, as well as
-                child sexual abuse material that shows their sexual assault.
-                Viewing child sexual abuse material (CSAM) is illegal. If the
-                sexual abuse of a child is recorded, that recording is illegal
-                online content. Content that encourages or instructs people to
-                sexually or phsyically abuse a child or exploit or groom them is
-                also child sexual abuse material (CSAM). If you are unsure about
-                the age of someone in an image then you should not view it. Not
-                knowing the age is not an excuse.
+                sexualises a child, as well as child sexual abuse material that
+                shows their sexual assault. Viewing child sexual abuse material
+                (CSAM) is illegal. If the sexual abuse of a child is recorded,
+                that recording is illegal online content. Content that
+                encourages or instructs people to sexually or physically abuse a
+                child, or exploit or groom them, is also child sexual abuse
+                material (CSAM).
+              </p>
+              <p>
+                IMPORTANT: The age that defines a child varies between each
+                Australian State/Territory. It can range from 16 years old to 18
+                years old. If you are unsure about the age of someone in an
+                image then you should not view it. Not knowing the age is not an
+                excuse.
               </p>
             </div>
           </AccordionDetails>
@@ -91,15 +96,23 @@ const UnderstandingYourOnlineBehaviourData = () => {
               <h4 className="secondary-color">Sexual Communication</h4>
               <p>
                 If you are talking sexually to people online, you should always
-                ask their age. If anyone says they are under 18 years of age you
-                should stop the conversation immediately. It doesn’t matter if
-                you think they are older or that it is part of a fantasy. This
-                is illegal and the Police will always prosecute if you continue
-                to talk sexually to someone who states they are under 18 years
-                of age. If you are in a ‘position of trust’ (such as a teacher,
-                youth worker, police officer, social worker, doctor, sport or
-                religious coach/instructor) it is illegal to sexually
-                communicate with that child.
+                ask their age. If anyone says they are a child you should stop
+                the conversation immediately. It doesn’t matter if you think
+                they are older or that it is part of a fantasy. This is illegal
+                and the Police will always prosecute if you continue to talk
+                sexually to someone who states they are a child.
+              </p>
+              <p>
+                Even if you are in a ‘position of trust’ (such as a teacher,
+                youth worker, social worker, sport or religious
+                coach/instructor) it is still illegal to sexually communicate
+                with that child.
+              </p>
+              <p>
+                IMPORTANT: The age that defines a child varies between each
+                Australian State/Territory. It can range from 16 years old to 18
+                years old. If you are unsure about the age of someone you are
+                communicating with then you should stop all communication.
               </p>
             </div>
           </AccordionDetails>

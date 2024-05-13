@@ -79,7 +79,6 @@ const understandingWhyModuleData = [
           Below is a diary for you to complete which will help you think about
           these and help you identify patterns of behaviour.
         </p>
-        <br />
         <h5 className="secondary-color">Daily internet use record</h5>
         <p>
           <p></p>
@@ -99,7 +98,6 @@ const understandingWhyModuleData = [
           </li>
           <li>You can also include a record of your mood.</li>
         </ul>
-        <br />
         <p>
           <b>Example</b>
         </p>
@@ -116,22 +114,6 @@ const understandingWhyModuleData = [
         >
           Download and edit PDF template
         </a>
-        <br />
-        <p>
-          <b>Instructions</b>
-        </p>
-        <ol>
-          <li>
-            Download and open the file in a PDF reader. If you need to, you can
-            download this free Adobe PDF reader.
-          </li>
-          <li>Edit the worksheets by filling in the editable sections.</li>
-          <li>To save your changes, go to File Print</li>
-          <li>
-            Choose Adobe PDF as the printer in the Print box and click Print.
-          </li>
-          <li>Click OK, name the PDF file, and save it.</li>
-        </ol>
       </>
     ),
   },
@@ -197,24 +179,9 @@ const understandingWhyModuleData = [
           target="_blank"
           rel="noopener noreferrer"
         >
-          Download and edit PDF template
+          Download PDF template
         </a>
         <br />
-        <p>
-          <b>Instructions</b>
-        </p>
-        <ol>
-          <li>
-            Download and open the file in a PDF reader. If you need to, you can
-            download this free Adobe PDF reader.
-          </li>
-          <li>Edit the worksheets by filling in the editable sections.</li>
-          <li>To save your changes, go to File Print</li>
-          <li>
-            Choose Adobe PDF as the printer in the Print box and click Print.
-          </li>
-          <li>Click OK, name the PDF file, and save it.</li>
-        </ol>
         <hr />
         <br></br>
         <h5 className="secondary-color">Part B: Digging deeper</h5>
@@ -245,25 +212,10 @@ const understandingWhyModuleData = [
           target="_blank"
           rel="noopener noreferrer"
         >
-          Download and edit PDF template
+          Download PDF template
         </a>
         <br />
-        <p>
-          <p></p>
-          <b>Instructions</b>
-        </p>
-        <ol>
-          <li>
-            Download and open the file in a PDF reader. If you need to, you can
-            download this free Adobe PDF reader.
-          </li>
-          <li>Edit the worksheets by filling in the editable sections.</li>
-          <li>To save your changes, go to File Print</li>
-          <li>
-            Choose Adobe PDF as the printer in the Print box and click Print.
-          </li>
-          <li>Click OK, name the PDF file, and save it.</li>
-        </ol>
+        <br></br>
         <p>
           <b>Feeling word bank</b>
         </p>
@@ -279,15 +231,6 @@ const understandingWhyModuleData = [
         <h5 className="secondary-color">
           Part C: Understanding your behaviour over time
         </h5>
-        <a
-          href="https://get-help.stopitnow.org.uk/downloads/understanding-why-exercise-2c.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Download printable version of these questions with space to fill in
-          answers.
-        </a>
-        <br />
         <p>
           <p></p>
           <b>

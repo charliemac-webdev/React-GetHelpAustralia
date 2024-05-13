@@ -207,27 +207,6 @@ const AdultPornographyModuleData = [
             important to you?
           </li>
         </ul>
-        <p>
-          Download and edit our template as a{" "}
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.docx"
-            target="_blank"
-            rel="noopener"
-            className="secondary-color"
-          >
-            Word document
-          </a>{" "}
-          or{" "}
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.pdf"
-            target="_blank"
-            rel="noopener"
-            className="secondary-color"
-          >
-            PDF
-          </a>
-          .
-        </p>
       </div>
     ),
   },
@@ -259,27 +238,6 @@ const AdultPornographyModuleData = [
             <li>To stop feeling bored</li>
             <li>To feel better</li>
           </ul>
-          <p>
-            Download and edit our template as a{" "}
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.docx"
-              target="_blank"
-              rel="noopener"
-              className="secondary-color"
-            >
-              Word document
-            </a>{" "}
-            or{" "}
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.pdf"
-              target="_blank"
-              rel="noopener"
-              className="secondary-color"
-            >
-              PDF
-            </a>
-            .
-          </p>
         </div>
       </>
     ),
@@ -467,27 +425,6 @@ const AdultPornographyModuleData = [
               </tbody>
             </table>
           </div>
-          <p>
-            Download and edit our template as a{" "}
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.docx"
-              target="_blank"
-              rel="noopener"
-              className="secondary-color"
-            >
-              Word document
-            </a>{" "}
-            or{" "}
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2021/11/Stop_It_Now_Get_Help_self_help_adult_pornography_section_exercises_Final.pdf"
-              target="_blank"
-              rel="noopener"
-              className="secondary-color"
-            >
-              PDF
-            </a>
-            .
-          </p>
           <ul className="content-list">
             <li>
               Are there any patterns between how you were feeling before,
@@ -643,6 +580,16 @@ const AdultPornographyModuleData = [
             This is why pornography sometimes contains violence, coercion and
             unusual acts because the makers need to find new things to keep
             their audience.
+          </p>
+          <p>
+            <strong>
+              {" "}
+              But, remember, you do have control over your behaviour -
+              recognising your drivers is important in helping you understand
+              what makes controlling some behaviours more challenging.
+              Identifying your drivers and effective strategies to manage these
+              will make controlling your behaviour easier.
+            </strong>
           </p>
           <br></br>
           <h4 className="secondary-color">
@@ -816,8 +763,8 @@ const AdultPornographyModuleData = [
     title: "Reflection",
     description: (
       <>
-        <h4 className="secondary-color">Reflection</h4>
         <br></br>
+        <h4 className="secondary-color">Reflection</h4>
         <p>
           Reflecting on your progress after completing this module, rate your
           thoughts on the following statements.{" "}

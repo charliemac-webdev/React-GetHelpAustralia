@@ -9,6 +9,7 @@ const RelapsePreventionModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">What is relapse?</h4>
         <p>
           A relapse is anything you do that is illegal, but it might not only be
           that – a relapse might be anything you know is wrong or anything you
@@ -35,6 +36,7 @@ const RelapsePreventionModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">When is relapse more likely?</h4>
         <p>
           Relapses often happen when you’re experiencing negative thoughts and
           feelings, for example, bored, anxious, depressed or lonely. And that
@@ -177,6 +179,7 @@ const RelapsePreventionModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">Warning signs of relapse</h4>
         <p>
           Warning signs are the things that alert us and other people that
           something is wrong or that there this a potential danger or hazard.
@@ -264,10 +267,11 @@ const RelapsePreventionModuleData = [
   },
   {
     id: 4,
-    title: "Exercise",
+    title: "Exercise: Warning signs",
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">Exercise: Warning signs</h4>
         <p>
           Write a list of your physical, behavioural and emotional warning signs
           and answer the following questions.
@@ -295,6 +299,7 @@ const RelapsePreventionModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">No going back</h4>
         <p>
           The last section might have seemed a bit negative but it’s important
           to be realistic – those risks and temptations do exist. But you still
@@ -369,24 +374,10 @@ const RelapsePreventionModuleData = [
         <h4 className="secondary-color">Reflection</h4>
         <p>
           Spend some time identifying your own risk factors so you are aware of
-          what they are and how to manage them.
+          what they are and how to manage them. The following questions could be
+          helpful to do this. Why are these risky for me? How have I coped in
+          the past? Did this work and why?
         </p>
-        <p>
-          The following questions (available in the{" "}
-          <a
-            className="secondary-color"
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/my-personal-risk-factors.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <u>downloadable worksheet</u>
-          </a>
-          ) could be helpful to do this.
-        </p>
-        <h5 className="secondary-color">Risk Factors</h5>
-        <p>Why are these risky for me?</p>
-        <p>How have I coped in the past?</p>
-        <p>Did this work and why?</p>
         <br></br>
         <p>
           Reflecting on your progress after completing this module, rate your

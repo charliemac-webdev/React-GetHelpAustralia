@@ -17,6 +17,7 @@ const OnlineWorldModuleData = [
     description: (
       <>
         <br></br>
+        <h4 className="secondary-color">Online world</h4>
         <p>
           Sexual offending happens in the offline and online world. But some
           people we work with often tell us they would not have offended without

@@ -78,7 +78,7 @@ const ImagesAreChildrenModuleData = [
   },
   {
     id: 2,
-    title: "Exercise 1",
+    title: "Exercise 1: Understanding and challenging justifications",
     description: (
       <>
         <div className="tab-main-content">

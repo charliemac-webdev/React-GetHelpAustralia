@@ -16,22 +16,16 @@ const BuildingAGoodLifeModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
+        <h4 className="secondary-color">Good Lives Model</h4>
         <p>
           The Good Lives Model tells us that everyone needs to feel satisfied in
-          a few different areas of their life to feel good.
-        </p>
-        <p>
-          Sometimes, if we don’t find good, healthy ways to feel satisfied, we
-          might use unhelpful or harmful ways instead.
-        </p>
-        <p>
-          These might help us feel better in the moment but, over time, these
-          strategies can hurt other people and ourselves.
-        </p>
-        <p>
-          The model breaks down the states of mind, personal characteristics,
-          activities or experiences that are sought by people and, if achieved,
-          they are likely to increase well-being.
+          a few different areas of their life to feel good. Sometimes, if we
+          don’t find good, healthy ways to feel satisfied, we might use
+          unhelpful or harmful ways instead. These might help us feel better in
+          the moment but, over time, these strategies can hurt other people and
+          ourselves. The model breaks down the states of mind, personal
+          characteristics, activities or experiences that are sought by people
+          and, if achieved, they are likely to increase well-being.
         </p>
         <p>
           <img
@@ -352,6 +346,7 @@ const BuildingAGoodLifeModuleData = [
       <>
         <div className="tab-main-content">
           <br></br>
+          <h4 className="secondary-color">Beware of obstacles</h4>
           <p>
             Sometimes it can be really hard to meet your needs and there can be
             things that get in the way.
@@ -428,6 +423,7 @@ const BuildingAGoodLifeModuleData = [
     title: "Reflection",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
           Reflecting on your progress after completing this module, rate your

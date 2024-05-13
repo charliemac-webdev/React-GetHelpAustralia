@@ -11,6 +11,9 @@ const UnderstandingThoughtsModuleData = [
       <>
         <div>
           <br></br>
+          <h4 className="secondary-color">
+            The link between thoughts, feelings and behaviour
+          </h4>
           <p>
             Although sexual behaviour can be influenced by numerous factors, it
             is not outside of your control. Sexual offending is not something
@@ -79,12 +82,12 @@ const UnderstandingThoughtsModuleData = [
   },
   {
     id: 2,
-    title: "Exercise 1",
+    title: "Exercise 1: Unpleasant thoughts",
     description: (
       <>
         <div>
           <br></br>
-          <h4 className="secondary-color">Exercise 1</h4>
+          <h4 className="secondary-color">Exercise 1: Unpleasant thoughts</h4>
           <ul className="content-list">
             <li>
               Think of an example of a situation that does not relate to sexual
@@ -92,7 +95,7 @@ const UnderstandingThoughtsModuleData = [
               job interview.
             </li>
             <li>
-              Identify some&nbsp;<strong>negative thoughts </strong>about the
+              Identify some&nbsp;<strong>unpleasant thoughts </strong>about the
               situation, e.g. ‘ I won’t know anyone there’ and ‘What’s the
               point? I am not going to get the job anyway’.
             </li>
@@ -105,7 +108,7 @@ const UnderstandingThoughtsModuleData = [
             </li>
             <li>
               Using the same example, apply&nbsp;
-              <strong>positive thoughts </strong>and observe the differences in
+              <strong>pleasant thoughts </strong>and observe the differences in
               your feelings and behaviour. For example thinking ‘I love parties
               and meeting new people’, feeling excited and approaching people to
               talk to them or thinking ‘I would be great at this job’, feeling
@@ -124,32 +127,38 @@ const UnderstandingThoughtsModuleData = [
   },
   {
     id: 3,
-    title: "Exercise 2",
+    title: "Exercise 2: Unhelpful sexual thoughts",
     description: (
       <>
         <div>
           <br></br>
-          <h4 className="secondary-color">Exercise 2</h4>
+          <h4 className="secondary-color">
+            Exercise 2: Unhelpful sexual thoughts
+          </h4>
           <p>
             Think about your unhelpful sexual thoughts by answering these
             questions:
           </p>
           <ol>
-            <li>How often do you have sexual thoughts about children?</li>
             <li>
-              Does anything in particular trigger your sexual thoughts about
-              children? For example a sight, sound, an image, a person, mood or
-              situation, use of pornography.
+              How often do you have the urge to view sexual images involving
+              children, or have sexual thoughts about children?
+            </li>
+            <li>
+              Does anything in particular trigger your urge to view sexual
+              images involving children, or have sexual thoughts about children?
+              For example a sight, sound, an image, a person, mood or situation,
+              use of pornography.
             </li>
             <li>At what time of day do they happen?</li>
             <li>What feelings do you experience?</li>
             <li>
-              What do you say to yourself when you have sexual thoughts about
-              children?
+              What do you say to yourself when you have the urge to view sexual
+              images involving children, or sexual thoughts about children?
             </li>
             <li>
-              What do you feel like doing when you have sexual thoughts about
-              children?
+              What do you feel like doing when you have the urge to view sexual
+              images involving children, or sexual thoughts about children?
             </li>
             <li>
               How often do you masturbate to sexual fantasies about children?
@@ -175,11 +184,13 @@ const UnderstandingThoughtsModuleData = [
       <>
         <div>
           <br></br>
+          <h4 className="secondary-color">Sexual fantasy</h4>
           <p>
             In this section, when we are talking about ‘sexual fantasy’, we are
             referring to something that is imagined which you find sexually
             arousing.
           </p>
+          <br></br>
           <h4 className="secondary-color">What is a sexual fantasy?</h4>
           <p>
             A fantasy is something we imagine. It is more than just a fleeting
@@ -224,11 +235,11 @@ const UnderstandingThoughtsModuleData = [
             </li>
             <li>
               Some people use sexual fantasies to&nbsp;
-              <strong>cope with negative emotions</strong>, like loneliness or
+              <strong>cope with unpleasant emotions</strong>, like loneliness or
               rejection.
             </li>
             <li>
-              Negative fantasies can be a way people try&nbsp;
+              Innapropriate fantasies can be a way people try&nbsp;
               <strong>to cope&nbsp;</strong>and&nbsp;
               <strong>prepare themselves</strong>&nbsp;for something they fear
               will happen, or a way of&nbsp;<strong>punishing</strong>
@@ -351,6 +362,7 @@ const UnderstandingThoughtsModuleData = [
     title: "Reflection",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <br></br>
         <p>

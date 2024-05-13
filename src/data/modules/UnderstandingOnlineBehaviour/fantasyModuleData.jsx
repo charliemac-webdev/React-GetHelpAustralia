@@ -85,7 +85,7 @@ const FantasyModuleData = [
   },
   {
     id: "2",
-    title: "Exercise 1",
+    title: "Exercise 1: When fantasy becomes a problem",
     description: (
       <div className="tab-main-content">
         <br></br>
@@ -282,7 +282,7 @@ const FantasyModuleData = [
   },
   {
     id: 4,
-    title: "Exercise 2",
+    title: "Exercise 2: Fantasy knowledge",
     description: (
       <div className="tab-main-content">
         <br></br>
@@ -447,7 +447,7 @@ const FantasyModuleData = [
   },
   {
     id: 5,
-    title: "Exercise 3",
+    title: "Exercise 3: Innapropriate fantasy",
     description: (
       <div class="tab-main-content">
         <br></br>
@@ -573,22 +573,13 @@ const FantasyModuleData = [
           15. How would you feel if your son or your daughter acted out this
           fantasy with another adult?
         </p>
-        <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/fantasy-exercise-3editable.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download printable version of this exercise &gt;
-          </a>
-        </p>
         <br></br>
       </div>
     ),
   },
   {
     id: 6,
-    title: "Exercise 4",
+    title: "Exercise 4: Fantasy management",
     description: (
       <div class="tab-main-content">
         <br></br>
@@ -670,13 +661,25 @@ const FantasyModuleData = [
           away. Urges never stay.
         </p>
         <p>
-          <h5 className="secondary-color">7. Self-care</h5>
+          <h5 className="secondary-color">7. Sensory Blocker</h5>
+          This is where you use a strong smell or bad taste when you’re
+          struggling with a sexual fantasy or the urge to masturbate. After
+          exposing yourself to the unpleasant smell or tastes, it’s likely your
+          arousal will drop and the sexual urge will stop or become more
+          manageable. Do not to eat anything that isn’t intended for human
+          consumption or is harmful, instead use particular tastes that you
+          dislike or find unpleasant (i.e. liquorice, durian candies, eucalyptus
+          etc.). We recommend you talk this through with one of our Helpline
+          practitioners, or another qualified professional.
+        </p>
+        <p>
+          <h5 className="secondary-color">8. Self-care</h5>
           Eating well, exercising, sleeping and relaxation; all of these
           contribute to a happier, healthier you. If you ensure all these are in
           check, you will find managing sexual fantasies much easier.
         </p>
         <p>
-          <h5 className="secondary-color">8. Praise your success</h5>
+          <h5 className="secondary-color">9. Praise your success</h5>
           The most important thing is to praise yourself for your success. If
           you are able to stop a particular fantasy, congratulate yourself.
           Treat yourself to something nice to eat or do something you enjoy.

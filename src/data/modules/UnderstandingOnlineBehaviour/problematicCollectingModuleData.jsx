@@ -106,7 +106,7 @@ const ProblematicCollectingModuleData = [
   },
   {
     id: 2,
-    title: "Exercise 2",
+    title: "Exercise 2: When collecting is a problem",
     description: (
       <div className="tab-main-content">
         <br></br>
@@ -151,15 +151,7 @@ const ProblematicCollectingModuleData = [
         <h4 className="secondary-color">
           Exercise 2: The impact of collecting on my life
         </h4>
-        <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-2.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Download printable version of this exercise &gt;
-          </a>
-        </p>
+        <p></p>
         <p>Answer the following questions.</p>
         <h5 className="secondary-color">When do I do most of my collecting?</h5>
         <p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What time of the day?</p>
@@ -235,12 +227,12 @@ const ProblematicCollectingModuleData = [
   },
   {
     id: 3,
-    title: "Exercise 3",
+    title: "Exercise 3: Why collect sexual images of children",
     description: (
       <div className="tab-main-content">
         <br></br>
         <h4 className="secondary-color">
-          Why collect sexual Images of Children
+          Why collect sexual Images of Children?
         </h4>
         <p>
           Of all the things you could collect, why collect child sexual abuse
@@ -280,15 +272,7 @@ const ProblematicCollectingModuleData = [
         <br></br>
         <h4 className="secondary-color">Exercise 3 – Part A</h4>
         <p>
-          <strong>
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3a-editable.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download printable version of this exercise
-            </a>
-          </strong>
+          <strong></strong>
         </p>
         <p>
           Answer questions 1-4 by rating how positive or negative you feel on a
@@ -364,15 +348,7 @@ const ProblematicCollectingModuleData = [
         <br></br>
         <h4 className="secondary-color">Exercise 3 – Part B</h4>
         <p>
-          <strong>
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-3b-editable.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download printable version of this exercise
-            </a>
-          </strong>
+          <strong></strong>
         </p>
         <ol>
           <li>
@@ -456,7 +432,7 @@ const ProblematicCollectingModuleData = [
   },
   {
     id: 4,
-    title: "Exercise 4",
+    title: "Exercise 4: Justifications",
     description: (
       <div className="tab-main-content">
         <br></br>

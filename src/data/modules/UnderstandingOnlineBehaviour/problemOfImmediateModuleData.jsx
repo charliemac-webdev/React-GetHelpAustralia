@@ -43,29 +43,17 @@ const ProblemOfImmediateModuleData = [
               <br />
               – collective action, for example “other people are doing it”
               <br />
-              Moral disengagement allows people to enjoy a behaviour that is
-              unacceptable when you know that children are being sexually
-              harmed.
-            </li>
-            <li>
-              <strong>
-                <a
-                  href="http://www.livescience.com/2586-bikini-effect-men-impulsive.html"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  The bikini effect
-                </a>
-              </strong>
-              , which suggests that men are more impulsive after being exposed
-              to ‘sexy’ stimulus, and so more likely to make reckless decisions.
+              <li>
+                Moral disengagement allows people to enjoy a behaviour that is
+                unacceptable when you know that children are being sexually
+                harmed.
+              </li>
             </li>
           </ul>
           <p>
-            This still might not help you understand why you chose to behave
-            illegally online does not excuse the behaviour. But it can help you
-            understand why you prioritised your short-term needs despite the
-            consequences.
+            This may start to help you understand why you chose to behave
+            illegally online, and prioritise your short-term needs despite the
+            consequences, but it does not excuse the behaviour.
           </p>
           <p>
             It is important that you start to think about how you can reduce the

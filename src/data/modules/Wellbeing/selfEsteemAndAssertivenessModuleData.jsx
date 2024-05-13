@@ -17,12 +17,12 @@ const SelfEsteemAndAssertivenessModuleData = [
         <p>
           Self-esteem affects our trust in others, our relationships, our work –
           nearly every part of our lives. If you have low self-esteem, your
-          beliefs about yourself will often be negative. You are likely to focus
-          on your weaknesses and on mistakes that you have made, and may find it
-          hard to recognise the positive parts of your personality.
+          beliefs about yourself will often be unpleasant. You are likely to
+          focus on your weaknesses and on mistakes that you have made, and may
+          find it hard to recognise the pleasant parts of your personality.
         </p>
         <p>
-          Positive thinking and behaviour can contribute to higher levels of
+          Pleasant thinking and behaviour can contribute to higher levels of
           self-esteem.
         </p>
         <br></br>
@@ -50,25 +50,25 @@ const SelfEsteemAndAssertivenessModuleData = [
           <em>Now think of three things you would like to do.</em>
         </p>
         <p>
-          <strong>2. Build positive relationships</strong>
+          <strong>2. Build pleasant relationships</strong>
           <br />
           Try to associate with people who will not put you down and whom you
           feel able to talk to about your feelings. If you spend time around
-          positive and supportive people, you are more likely to have a better
+          pleasant and supportive people, you are more likely to have a better
           self-image and feel more confident.
         </p>
         <p>
-          <em>Name three positive people in your life.&nbsp;</em>
+          <em>Name three pleasant people in your life.&nbsp;</em>
         </p>
         <p>
           If you have low self-esteem, there might be people close to you who
-          encourage the negative beliefs and opinions that you have about
+          encourage the unpleasant beliefs and opinions that you have about
           yourself. It is important to identify these people and take action to
           stop them from doing this, perhaps by becoming more assertive (see
           above) or by limiting how much time you spend with them.
         </p>
         <p>
-          <em>Identify anyone who may be negative in your life.</em>
+          <em>Identify anyone who may be unpleasant in your life.</em>
         </p>
         <p>
           <em>
@@ -80,7 +80,7 @@ const SelfEsteemAndAssertivenessModuleData = [
           <br />
           If you set yourself goals and work towards achieving them, you will
           feel satisfied and proud of yourself when you achieve your goal, and
-          feel more positive about yourself as a consequence.
+          feel more pleasant about yourself as a consequence.
         </p>
         <p>
           However, it is important to make sure the challenge you set yourself
@@ -112,9 +112,9 @@ const SelfEsteemAndAssertivenessModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
-        <h4 className="secondary-color">Feeling positive and healthy</h4>
+        <h4 className="secondary-color">Feeling pleasant and healthy</h4>
         <p>
-          It is also important to feel positive and healthy. The following will
+          It is also important to feel pleasant and healthy. The following will
           help you achieve this:
         </p>
         <p>
@@ -133,9 +133,9 @@ const SelfEsteemAndAssertivenessModuleData = [
         <p>
           <strong>Sleep</strong>
           <br />
-          Lack of sleep can cause negative feelings to be exaggerated and means
-          you can feel less confident, so it’s important to make sure you get
-          enough sleep.
+          Lack of sleep can cause unpleasant feelings to be exaggerated and
+          means you can feel less confident, so it’s important to make sure you
+          get enough sleep.
         </p>
         <p>
           <strong>Diet</strong>
@@ -152,17 +152,17 @@ const SelfEsteemAndAssertivenessModuleData = [
           you see yourself.
         </p>
         <p>
-          <strong>Learn to identify and challenge negative beliefs</strong>
+          <strong>Learn to identify and challenge unpleasant beliefs</strong>
           <br />
           If you are going to improve your self-esteem, it will help to
-          understand more about your negative beliefs about yourself and where
+          understand more about your unpleasant beliefs about yourself and where
           they came from (See section on self-talk).
         </p>
         <p>
-          <strong>Focus on positive things</strong>
+          <strong>Focus on pleasant things</strong>
           <br />
           If you have low self-esteem, it can take practice to get used to
-          thinking more positively about yourself.
+          thinking more pleasantly about yourself.
         </p>
         <p>
           <strong>Exercise 2&nbsp;– How I see myself</strong>
@@ -293,6 +293,7 @@ const SelfEsteemAndAssertivenessModuleData = [
     title: "Reflection",
     description: (
       <div className="tab-main-content">
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
           Look at the list below. Congratulate yourself for&nbsp;all of the
@@ -302,7 +303,7 @@ const SelfEsteemAndAssertivenessModuleData = [
         </p>
         <ul className="content-list">
           <li>Do activities that you enjoy.</li>
-          <li>Spend time with positive, supportive people.</li>
+          <li>Spend time with pleasant, supportive people.</li>
           <li>Set yourself an achieveable challenge.</li>
           <li>Be helpful and considerate to others.</li>
           <li>Try not to compare yourself to other people.</li>
@@ -314,12 +315,12 @@ const SelfEsteemAndAssertivenessModuleData = [
             Use self-help books and websites to develop helpful skills, like
             assertiveness or mindfulness.
           </li>
-          <li>Learn to challenge your negative beliefs.</li>
+          <li>Learn to challenge your unpleasant beliefs.</li>
           <li>
-            Acknowledge your positive qualities and things you are good at.
+            Acknowledge your pleasant qualities and things you are good at.
           </li>
           <li>
-            Get into the habit of thinking and saying positive things about
+            Get into the habit of thinking and saying pleasant things about
             yourself.
           </li>
         </ul>
@@ -361,8 +362,7 @@ const SelfEsteemAndAssertivenessModuleData = [
           it.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have a better understanding of the importance of being healthy
-          and positive.
+          I now have a better understanding of the importance of being healthy.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now know some helpful ways to be more assertive.

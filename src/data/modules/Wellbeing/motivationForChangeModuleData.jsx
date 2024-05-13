@@ -246,12 +246,6 @@ const MotivationForChangeModuleData = [
               <tr>
                 <td>
                   Feeling less anxious<p></p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
                 </td>
                 <td>
                   I will contact my GP today and make an appointment to discuss
@@ -277,39 +271,10 @@ const MotivationForChangeModuleData = [
                   connections with others.
                 </td>
               </tr>
-              <tr>
-                <td>
-                  &nbsp;<p></p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                </td>
-                <td>
-                  &nbsp;<p></p>
-                  <p>&nbsp;</p>
-                </td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>
-                  &nbsp;<p></p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                  <p>&nbsp;</p>
-                </td>
-                <td></td>
-                <td></td>
-              </tr>
+              <tr></tr>
             </tbody>
           </table>
-          <p>
-            <u>Download the table here.</u>
-          </p>
+          <br></br>
           <p>
             If you have people you can talk to about the changes you want to
             make, it’s a good idea to include them in your plan. It’s helpful to
@@ -358,6 +323,7 @@ const MotivationForChangeModuleData = [
     title: "Reflection",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <br></br>
         <p>

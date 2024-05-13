@@ -13,6 +13,7 @@ const SelfCareModuleData = [
     title: "What is self-care?",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">What is self-care?</h4>
         <p>
           Self-care means being mindful of our own needs to improve our own
@@ -21,13 +22,14 @@ const SelfCareModuleData = [
           getting some fresh air for a few minutes. We’ll explain some of the
           different types of self-care and how they can help you.
         </p>
+        <br></br>
         <h4 className="secondary-color">Why is self-care important?</h4>
         <p>
           Self-care is particularly important when working through the
           information on this website. This work can be difficult, especially
           when feeling other strong emotions like anxiety or fear about the
           future. Making sure we find time for self-care can help us deal with
-          the challenges we face in a positive way.
+          the challenges we face in a healthier way.
         </p>
         <p>
           We also suggest doing this work in a way that feels emotionally and
@@ -46,7 +48,7 @@ const SelfCareModuleData = [
           likely to offend or re-offend. People often tell us that when they
           offended, their relationships with themselves and other people are
           strained. Focusing on self-care can help us to see ourselves in a more
-          positive light and this can help to improve our relationships with
+          pleadsant light and this can help to improve our relationships with
           others.
         </p>
       </>
@@ -57,6 +59,7 @@ const SelfCareModuleData = [
     title: "Wellbeing assessment",
     description: (
       <>
+        <br></br>
         <p>
           Please complete the following wellbeing assessment that will ask about
           your physical, social, mental, spiritual and emotional self-care.
@@ -95,9 +98,10 @@ const SelfCareModuleData = [
   },
   {
     id: 3,
-    title: "Exercise 1: setting self-care goals",
+    title: "Exercise 1: Setting self-care goals",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Self-care goals</h4>
         <p>
           Some self-care strategies are straightforward and easy to use on a
@@ -181,6 +185,7 @@ const SelfCareModuleData = [
     title: "Self-care strategies",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Self-care strategies</h4>
         <p>
           There are many strategies that can be helpful when feeling anxious,
@@ -456,9 +461,10 @@ const SelfCareModuleData = [
   },
   {
     id: 5,
-    title: "Exercise 2: using self-care strategies",
+    title: "Exercise 2: Using self-care strategies",
     description: (
       <>
+        <br></br>
         <h4 className="secondary-color">Using self-care strategies</h4>
         <p>
           Having thought about, and hopefully practiced, some of the self-care
@@ -534,7 +540,7 @@ const SelfCareModuleData = [
           <p>
             Following routines and practices can help good quality sleep. This
             is sometimes called{" "}
-            <a href="https://www.nhs.uk/every-mind-matters/mental-wellbeing-tips/how-to-fall-asleep-faster-and-sleep-better/">
+            <a href="https://www.sleepfoundation.org/sleep-habits#:~:text=Our%20Best%20Tips%20for%20Better%20Sleep%201%20Get,same%20pre-bed%20routine%20each%20night.%20...%20More%20items">
               ‘sleep hygiene’
             </a>
             .
@@ -579,10 +585,10 @@ const SelfCareModuleData = [
             </li>
           </ul>
           <p>
-            It might take some time before the positive changes you make to your
-            sleep routines take effect. If you regularly find you are having
-            problems with your sleep-wake cycles or are feeling sleepy during
-            the daytime, you should take advice from your GP.
+            It might take some time before any changes you make to your sleep
+            routines take effect. If you regularly find you are having problems
+            with your sleep-wake cycles or are feeling sleepy during the
+            daytime, you should take advice from your GP.
           </p>
           <br></br>
         </div>

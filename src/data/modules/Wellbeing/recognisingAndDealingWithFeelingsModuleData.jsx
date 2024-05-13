@@ -98,24 +98,24 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <br />
         <h5 className="secondary-color">
-          How does understanding my feelings link to viewing sexual images of
-          children?
+          How does understanding my feelings link to fantasising about or
+          viewing sexual images of children?
         </h5>
         <p>
           Some of the common reasons identified by individuals who have accessed
-          sexual images of children include dealing with negative emotions such
-          as stress, loneliness, frustration, depression and anxiety.
+          sexual images of children include dealing with unpleasant emotions
+          such as stress, loneliness, frustration, depression and anxiety.
         </p>
         <p>
           They often describe using sexual fantasy and masturbation or illegal
-          on-line behaviour as a way of coping with negative feelings and
+          on-line behaviour as a way of coping with unpleasant feelings and
           situations as a form of self-soothing, escapism and stress relief.
         </p>
         <p>
           They may be aware that these are not coping strategies but for a
-          variety of reasons struggle to identify other more positive ways of
+          variety of reasons struggle to identify other healthier ways of
           dealing with these feelings. Improving your ability to regulate and
-          manage your emotions and deal positively with problems in your life is
+          manage your emotions and deal with your problems in a healthier way is
           likely to reduce the probability of engaging in problematic sexual
           behaviour and harming children.
         </p>
@@ -209,7 +209,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <br></br>
         <p>
           Start to see if you notice any difference in your feelings once you
-          think of other reasons. You may notice the feelings are more positive.
+          think of other reasons. You may notice the feelings are more pleasant.
         </p>
         <p>
           Now think about your illegal online behaviour? Can you identify any
@@ -263,9 +263,9 @@ const RecognisingAndDealingWithFeelingsModuleData = [
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">How to Manage Negative Feelings</h4>
+        <h4 className="secondary-color">How to Manage Unpleasant Feelings</h4>
         <p>
-          The following will help you deal with some common negative emotions
+          The following will help you deal with some common unpleasant emotions
           but can also be applied to others.
         </p>
         <br />
@@ -337,7 +337,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <p>
           When you notice you are worrying, say “STOP!” to yourself, and
           concentrate on a different thought and/or do something else to
-          distract yourself. Try to think/do something that is positive,
+          distract yourself. Try to think/do something that is pleasant,
           relaxing and/or enjoyable e.g. reading, watching TV, cooking, calling
           a friend, doing a hobby, or playing a sport.
         </p>
@@ -363,11 +363,11 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <p>
           If you find yourself worrying about the same thing over and over (for
           example, “I’ll start my new job and no one will like me”) then write
-          down the opposite, “positive” thought (for example, “People will like
+          down the opposite, “pleasant” thought (for example, “People will like
           me- I’m a nice person”). Every time you notice yourself worrying about
           this thought challenge your thinking. Use the ‘questioning yourself’
           strategy identified earlier in the module and counter your worry with
-          the positive thought. You could even write the positive thought or
+          the positive thought. You could even write the pleasant thought or
           statement down on a small card and carry it with you to remind
           yourself of it.
         </p>
@@ -440,8 +440,8 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           you to identify things that you can do, and things that other people
           can help you with, that will assist you to get back to feeling calm
           and in control. Recognising the warning signs that you are getting
-          angry early on can help you to avoid expressing your anger in negative
-          and destructive ways.
+          angry early on can help you to avoid expressing your anger in
+          unhealthy and destructive ways.
         </p>
         <br></br>
         <p>
@@ -536,7 +536,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <h4 className="secondary-color">Reflection</h4>
         <p>
           Think about... what shows me something is wrong, and what can I do to
-          manage negative feelings.
+          manage unpleasant feelings.
         </p>
         <br></br>
         <p>

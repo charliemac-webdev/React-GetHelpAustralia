@@ -178,8 +178,8 @@ const ManagingThoughtsModuleData = [
     title: "Reflection",
     description: (
       <>
-        <h4 className="secondary-color">Reflection</h4>
         <br></br>
+        <h4 className="secondary-color">Reflection</h4>
         <p>
           Reflecting on your progress after completing this module, rate your
           thoughts on the following statements.{" "}

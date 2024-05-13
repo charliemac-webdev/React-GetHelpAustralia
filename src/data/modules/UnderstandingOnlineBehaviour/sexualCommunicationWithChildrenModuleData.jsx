@@ -521,6 +521,7 @@ const SexualCommunicationWithChildrenModuleData = [
     description: (
       <>
         <div className="tab-main-content">
+          <br></br>
           <h4 className="secondary-color">Reflections</h4>
           <ul className="content-list">
             <li>
