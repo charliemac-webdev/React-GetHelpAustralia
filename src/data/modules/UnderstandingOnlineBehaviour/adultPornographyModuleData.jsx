@@ -14,8 +14,8 @@ const AdultPornographyModuleData = [
           and we are not here to shame you for using it or to tell you to stop.
         </p>
         <p>
-          But this self-help section will encourage you to think about whether
-          viewing legal adult pornography is helpful or harmful for you.
+          This self-help section will encourage you to think about whether
+          viewing legal adult pornography is harmful for you.
         </p>
         <p>
           Some people we work with connect viewing legal adult pornography to
@@ -58,7 +58,10 @@ const AdultPornographyModuleData = [
         <p>
           Lots of men who we work with talk about pornography being good or bad
           and think that viewing mainstream pornography is OK because it is
-          legal. But they also talk about feelings of shame after viewing it.
+          legal. But they also talk about feelings of shame after viewing it due
+          to the graphic content viewed, the hours spent viewing it or due to
+          watching adult pornography over other important events (e.g., a family
+          gathering).
         </p>
         <p>
           Adult pornography can be harmful to some of the people shown in it.
@@ -81,7 +84,7 @@ const AdultPornographyModuleData = [
   },
   {
     id: 2,
-    title: "When viewing adult pornography becomes a problem",
+    title: "When viewing becomes a problem",
     description: (
       <div className="tab-main-content">
         <br></br>
@@ -168,7 +171,13 @@ const AdultPornographyModuleData = [
             affect your attitudes about what sexual behaviour between adults you
             think is acceptable in the real world
           </li>
-          <li>lead to anxiety and depression</li>
+          <li>
+            impact your wellbeing and mental health. Some people end up
+            prioritising time with pornography at the expense other aspects of
+            their wellbeing (e.g., sleep, exercise, hobbies, socialising), which
+            can affect day-to-day functioning at work or in your family life,
+            and lead to feelings of anxiety and depression.
+          </li>
         </ul>
         <br></br>
         <h4 className="secondary-color">
@@ -224,10 +233,6 @@ const AdultPornographyModuleData = [
             Pornography is made to sexually arouse people. But different people
             might look at it for very different reasons.
           </p>
-          <br></br>
-          <h4 className="secondary-color">
-            Exercise 3: Why do you view adult pornography?
-          </h4>
           <p>Here are a few possible reasons.</p>
           <ul className="content-list">
             <li>For sexual gratification</li>
@@ -238,6 +243,10 @@ const AdultPornographyModuleData = [
             <li>To stop feeling bored</li>
             <li>To feel better</li>
           </ul>
+          <p>
+            Think about your circumstances and why you look at adult
+            pornography.
+          </p>
         </div>
       </>
     ),
@@ -268,7 +277,7 @@ const AdultPornographyModuleData = [
           </ul>
           <br></br>
           <h4 className="secondary-color">
-            What triggers these negative emotions in the first place?
+            What triggers these unpleasant emotions in the first place?
           </h4>
           <p>This will be different for different people.</p>
           <p>
@@ -288,9 +297,9 @@ const AdultPornographyModuleData = [
             pornography at the same time of day.
           </p>
           <p>
-            Negative feelings can trigger some people to go online and view
+            Unpleasant feelings can trigger some people to go online and view
             sexual content to make themselves feel better or help them cope.
-            They try to replace the negative feelings with more positive
+            They try to replace the unpleasant feelings with more pleasant
             feelings of excitement, arousal, and adventure.
           </p>
           <p>
@@ -325,7 +334,7 @@ const AdultPornographyModuleData = [
             .
           </p>
           <br></br>
-          <h4 className="secondary-color">Exercise 4: Keep a trigger diary</h4>
+          <h4 className="secondary-color">Exercise 3: Keep a trigger diary</h4>
           <p>
             Over the next week, we encourage you to keep a diary, completing the
             diary each time you go online. You can have more than one diary
@@ -593,7 +602,7 @@ const AdultPornographyModuleData = [
           </p>
           <br></br>
           <h4 className="secondary-color">
-            Exercise 5: Thinking about your own behaviour
+            Exercise 4: Thinking about your own behaviour
           </h4>
           <p>
             Below are some questions to help you think about your pornography

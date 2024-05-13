@@ -591,7 +591,7 @@ const FantasyModuleData = [
         <h4 className="secondary-color">Fantasy management</h4>
         <p>
           So you have identified which of your sexual fantasies are
-          inappropriate. But how do you stop having them?
+          inappropriate. But how do you manage them?
         </p>
         <p>
           For some people this will be easy, but for others it will take time,
@@ -601,8 +601,8 @@ const FantasyModuleData = [
           attention you choose to give to them.
         </p>
         <p>
-          Many individuals use fantasy management techniques to help stop having
-          these harmful sexual fantasies.
+          Many individuals use fantasy management techniques to help manage
+          having these harmful sexual fantasies.
         </p>
         <br></br>
         <h4 className="secondary-color">
@@ -681,7 +681,9 @@ const FantasyModuleData = [
           <h5 className="secondary-color">8. Self-care</h5>
           Eating well, exercising, sleeping and relaxation; all of these
           contribute to a happier, healthier you. If you ensure all these are in
-          check, you will find managing sexual fantasies much easier.
+          check, you will find managing sexual fantasies much easier. You might
+          find it helpful to visit our self-care module and create a self-care
+          plan.
         </p>
         <p>
           <h5 className="secondary-color">9. Praise your success</h5>

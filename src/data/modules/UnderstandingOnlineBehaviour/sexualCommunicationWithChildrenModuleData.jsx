@@ -32,10 +32,10 @@ const SexualCommunicationWithChildrenModuleData = [
             themselves. Some people communicate sexually with children online
             because they want to meet the child offline in order to sexually
             interact with them. And some people say they communicate with
-            children online to get a sense of connection. These behaviours can
-            overlap, so that it’s not always clear at the outset what someone
-            really wants from their sexual communication, but we do know all of
-            these behaviours are illegal and harmful.
+            children online to get a sense of connection. These motivations can
+            overlap and change over time, so that it’s not always clear at the
+            outset what someone really wants from their sexual communication,
+            but we do know all of these behaviours are illegal and harmful.
           </p>
           <p>
             People’s behaviour varies too. For example, many people engaging in
@@ -56,7 +56,7 @@ const SexualCommunicationWithChildrenModuleData = [
   },
   {
     id: 3,
-    title: "Different stages",
+    title: "Different stages of communication",
     description: (
       <>
         <div className="tab-main-content">
@@ -135,7 +135,7 @@ const SexualCommunicationWithChildrenModuleData = [
           <hr />
           <br></br>
           <h4 className="secondary-color">
-            Exercise 3: Cycle of online grooming
+            Exercise 1: Cycle of online grooming
           </h4>
           <p>
             Look at the cycle below and think about how each stage might have
@@ -397,7 +397,7 @@ const SexualCommunicationWithChildrenModuleData = [
           <hr />
           <br></br>
           <h4 className="secondary-color">
-            Exercise 4: The child’s perspective
+            Exercise 2: The child’s perspective
           </h4>
           <p>
             Consider what you know about the child/ren you were interacting with

@@ -113,9 +113,9 @@ const AddictionModuleData = [
         <p>
           Wrong – it is important to remember that addiction is not an excuse
           for harmful behaviours. Illegal online sexual behaviour is harmful,
-          and the first time you engage in this behaviour you made decision to
-          do so. It may have felt like it was harder to stop over time but each
-          time you engaged in the behaviour you still had a choice. What’s
+          and the first time you engaged in this behaviour you made a decision
+          to do so. It may have felt like it was harder to stop over time but
+          each time you engaged in the behaviour you still had a choice. What’s
           important is that you now see this and are doing something about it.
         </p>{" "}
         <p>
@@ -224,17 +224,22 @@ const AddictionModuleData = [
             as set out below:
           </p>
           <ul className="content-list">
-            <li>Restructuring/challenging – rehearsed self-talk.</li>
+            <li>
+              Challenging your thoughts that make it feel like the behaviour is
+              okay.
+            </li>
             <li>
               Active distraction – pro-actively distracting self from fantasy,
-              e.g. computer game, conversation.
+              e.g., conversation, new recipe.
             </li>
             <li>
               Tell a safe person – someone from your support network, Stop It
               Now! helpline.
               <br />
-              Thought stopping – physical prompt to stop fantasy e.g. elastic
-              band around your wrist.
+              <li>
+                Thought stopping – physical prompt to stop fantasy e.g. elastic
+                band around your wrist.
+              </li>
             </li>
             <li>
               Urge surfing – ride the urge without acting on it, know it will
@@ -259,7 +264,8 @@ const AddictionModuleData = [
             including taking an interest in diet, social life, personal hygiene
             and exercise. Having an interest in this area can then be drawn on
             to use in the above techniques e.g. for ‘active distraction’ going
-            to the gym or cooking a meal.
+            to the gym or cooking a meal. Take a look at the Self-care module
+            for more helpful information.
           </p>
           <p>
             Make a list which of these techniques you will find most useful or
