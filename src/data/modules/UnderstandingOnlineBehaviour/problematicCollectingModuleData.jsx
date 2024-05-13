@@ -8,11 +8,11 @@ import imageOne from "../../../images/problematic-collecting-excercise-3a-scale.
 const ProblematicCollectingModuleData = [
   {
     id: 1,
-    title: "Problematic collecting",
+    title: "Collecting",
     description: (
       <div className="tab-main-content">
         <br></br>
-        <h4 className="secondary-color">Problematic collecting</h4>
+        <h4 className="secondary-color">Collecting</h4>
         <p>
           For some people, collecting – and cataloguing, organising and all the
           other stuff that goes with it – can seem a big part of their
@@ -106,7 +106,7 @@ const ProblematicCollectingModuleData = [
   },
   {
     id: 2,
-    title: "Exercise 2: When collecting is a problem",
+    title: "When collecting is a problem",
     description: (
       <div className="tab-main-content">
         <br></br>
@@ -227,7 +227,7 @@ const ProblematicCollectingModuleData = [
   },
   {
     id: 3,
-    title: "Exercise 3: Why collect sexual images of children",
+    title: "Why collect sexual images of children",
     description: (
       <div className="tab-main-content">
         <br></br>
@@ -432,7 +432,7 @@ const ProblematicCollectingModuleData = [
   },
   {
     id: 4,
-    title: "Exercise 4: Justifications",
+    title: "Justifications",
     description: (
       <div className="tab-main-content">
         <br></br>

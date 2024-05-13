@@ -56,133 +56,53 @@ const SexualCommunicationWithChildrenModuleData = [
   },
   {
     id: 3,
-    title: "The different stages",
+    title: "Different stages",
     description: (
       <>
         <div className="tab-main-content">
           <br></br>
           <h4 className="secondary-color">
-            The different stages of sexual communication with children
+            Different stages of sexual communication with children
           </h4>
           <br></br>
           <p>
             In order to understand more about how to avoid situations which may
             lead to you communicating sexually with a child in the future, it
-            can be helpful to break the process down into different stages, like
-            those suggested below, based upon the work by Rachel O’Connell. We
-            can consider each of these stages using one of the examples earlier,
-            Rob:
-          </p>
-          <ul className="content-list">
-            <li>
-              Friendship forming stage –&nbsp;
-              <em>
-                Rob would provide support to young people who were struggling.
-              </em>
-            </li>
-            <li>
-              Relationship forming stage –&nbsp;
-              <em>
-                Rob continued this contact with Claire and communicated that he
-                had feelings for her.
-              </em>
-            </li>
-            <li>
-              Avoiding detection stage –&nbsp;
-              <em>
-                The messaging between Rob and Claire took place mostly in the
-                evening. There was also a secret meeting planned.
-              </em>
-            </li>
-            <li>
-              Sexual behaviour stage –&nbsp;
-              <em>
-                An arrangement was made to meet, which could have resulted in
-                Rob committing a contact sexual offence against Claire.
-              </em>
-            </li>
-          </ul>
-          <hr />
-          <br></br>
-          <h4 className="secondary-color">Exercise 2: My different stages</h4>
-          <p>
-            To change behaviour, it’s important to recognise and understand the
-            patterns in past behaviour. This can help us know the signs of the
-            behaviour repeating itself and help us think about how we can change
-            for the better.
+            can be helpful to understand that the behaviour happens in stages.
           </p>
           <p>
-            Thinking about your online behaviour, what examples can you identify
-            for each stage?
+            Some people start communicating with children about general topics.
+            This communication may continue for a while and may escalate to
+            include sexual content. Some individuals may attempt to meet with
+            the child. During conversations some individuals may go to great
+            lengths to hide this behaviour from others and avoid detection. It
+            is important to recognise that each of these stages are part of the
+            offending behaviour.
           </p>
           <p>
             Remember that not every stage will be relevant for everyone. For
             example, some people do not try to make friends with the child
             concerned, or to form a relationship with them. But other people do.
-            The difference often says a lot about people’s motivations. You can
-            download this exercise&nbsp;
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/exercise2mydifferentstages.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <u>here</u>
-            </a>
-            .
+            The difference often says a lot about people’s motivations.
           </p>
-          <table className="table table-bordered">
-            <tbody>
-              <tr>
-                <td>
-                  <strong>Stages</strong>
-                </td>
-                <td>
-                  <strong>My own behaviours</strong>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  &nbsp;<p></p>
-                  <p>Friendship forming</p>
-                  <p>&nbsp;</p>
-                </td>
-                <td>
-                  <strong>&nbsp;</strong>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  &nbsp;<p></p>
-                  <p>Relationship forming</p>
-                  <p>&nbsp;</p>
-                </td>
-                <td>
-                  <strong>&nbsp;</strong>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  &nbsp;<p></p>
-                  <p>Avoiding detection</p>
-                  <p>&nbsp;</p>
-                </td>
-                <td>
-                  <strong>&nbsp;</strong>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  &nbsp;<p></p>
-                  <p>Sexual behaviour</p>
-                  <p>&nbsp;</p>
-                </td>
-                <td>
-                  <strong>&nbsp;</strong>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p>&nbsp;</p>
+          <p>
+            To change behaviour, it is important to recognise and understand the
+            patterns in past behaviour. This can help us know the signs of the
+            behaviour repeating itself and help us think about how we can
+            prevent it from happening again.
+          </p>
+          <p>Consider reflecting on the following:</p>
+          <ul className="content-list">
+            <li>What stage did you start with?</li>
+            <li>How did you move through the stages?</li>
+            <li>
+              What patterns can you recognise in your offending behaviour?
+            </li>
+            <li>
+              What can you put in place to ensure that this does not happen
+              again?
+            </li>
+          </ul>
         </div>
       </>
     ),

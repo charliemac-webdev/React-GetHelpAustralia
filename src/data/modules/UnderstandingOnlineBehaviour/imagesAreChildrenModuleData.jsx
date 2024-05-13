@@ -339,12 +339,10 @@ const ImagesAreChildrenModuleData = [
           <br></br>
           <h4 className="secondary-color">Child sexual exploitation</h4>
           <p>
-            Consent is further removed from children if there is a power
-            difference between them and the person who is inciting sexual
-            activity. It is not uncommon for children to be sexually exploited
-            as a part of the process of producing illegal images – for example,
-            by receiving gifts, drugs, affection or accommodation – in exchange
-            for engaging in sexual activity.
+            It is not uncommon for children to be sexually exploited as a part
+            of the process of producing illegal images – for example, by
+            receiving gifts, drugs, affection or accommodation – in exchange for
+            engaging in sexual activity.
           </p>
           <p>
             Sometimes pictures are taken of children without them knowing – for
@@ -357,9 +355,7 @@ const ImagesAreChildrenModuleData = [
             As part of this module in helping you recognise and acknowledge that
             the children in the images are real children, it is helpful –
             although difficult – to get yourself to think about how that child
-            got to be in that situation of being in front of that
-            camera.&nbsp;This is what we will be asking you to consider in the
-            following exercise.
+            got to be in that situation of being in front of that camera.&nbsp;
           </p>
           <br></br>
         </div>
