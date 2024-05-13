@@ -37,8 +37,7 @@ const TakingResponsibilityModule = ({ showMenu }) => {
             Your level of control over your current online sexual behaviours
           </li>
           <li>
-            How you have used denial to allow your problematic behaviour to
-            continue
+            The potential role of justifications in your problematic behaviour
           </li>
           <li>How to make immediate changes to start the change process</li>
         </ul>

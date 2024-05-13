@@ -241,17 +241,17 @@ const FantasyModuleData = [
           As explored earlier, we can get pleasure from our fantasies. If the
           subjects of our fantasies are inappropriate, we then associate
           feelings of pleasure with something that is illegal and abusive. This
-          is particularly true if you masturbate to the point of ejaculation to
-          the fantasy, as the next time you think of the fantasy you will
-          remember the pleasure and arousal.
+          is particularly true if you masturbate to these fantasies, especially
+          to the point of ejaculation, as the next time you think of the fantasy
+          you will remember the pleasure and arousal.
         </p>
         <p>
-          This is&nbsp;not&nbsp;helpful if you want to control an attraction to
-          children or an illegal behaviour such as looking at sexual images of
-          children.
+          This is&nbsp;not&nbsp;helpful if you want to control a sexual
+          attraction to children or an illegal behaviour such as looking at
+          sexual images of children.
         </p>
         <p>
-          So what are appropriate and inappropriate fantasies? We split
+          So what are appropriate and inappropriate fantasies? We have split
           inappropriate fantasies into three sections:
         </p>
         <br></br>
@@ -262,20 +262,24 @@ const FantasyModuleData = [
           child.
         </p>
         <br></br>
-        <h4 className="secondary-color">Abusive fantasies</h4>
+        <h4 className="secondary-color">Problematic fantasies</h4>
         <p>
           So, imagine you are a 48 year old man and you are having a sexual
-          fantasy about a 16 year old. Is this illegal? No. But is this
+          fantasy about a 17 year old. Is this illegal? No. But is this
           appropriate? We think not, because there is likely to be a difference
           in power, whether that be related to age, money, or life experience.
+          When there is power imbalance between individuals, it can influence
+          someone’s behaviour, such as their ability to consent and their
+          decision making.
         </p>
         <br></br>
         <h4 className="secondary-color">Not OK for me</h4>
         <p>
           This could be a legal and healthy fantasy for some people, but not for
           you. For example an adult dressed as a school child. This may be ok
-          for some people but for those who have a sexual interest in children,
-          it may take them a step closer to a fantasy about a child.
+          for some people but for those who have offended online or who have a
+          sexual interest in children, it may take them a step closer to a
+          fantasy about a child.
         </p>
       </>
     ),
@@ -407,10 +411,10 @@ const FantasyModuleData = [
               <h4 className="secondary-color">Answer:</h4>
               <p>
                 This is an inappropriate fantasy. A child needs to be 16 or 17
-                years old (depending on your state/territory) to consent to
-                sexual activity and 18 to consent to images of them to be
-                shared. Regardless of how old you are, sexual activity with a
-                child is illegal.
+                years old (depending on your state/territory in Australia) to
+                consent to sexual activity and any sexualised content featuring
+                someone who is under 18 years old is illegal. Regardless of how
+                old you are, sexual activity with a child is illegal.
               </p>
             </div>
           </AccordionDetails>
@@ -475,13 +479,14 @@ const FantasyModuleData = [
           fantasies.
         </p>
         <p>
-          And if you masturbate to these fantasies to the point of ejaculation,
-          this positively reinforces the attraction. Masturbation to the point
-          of ejaculation is extremely pleasurable.
+          If you masturbate to these fantasies, especially to the point of
+          ejaculation, this positively reinforces the sexual attraction.
         </p>
         <p>
-          Over time, the things that we think about during masturbation are
-          likely to be associated with feelings of arousal.
+          Masturbation to the point of ejaculation is extremely pleasurable, so
+          over time, the things that we think about during masturbation are
+          likely to be associated with feelings of arousal and sexual
+          gratification.
         </p>
         <p>
           This means that masturbating to pictures of children or whilst engaged

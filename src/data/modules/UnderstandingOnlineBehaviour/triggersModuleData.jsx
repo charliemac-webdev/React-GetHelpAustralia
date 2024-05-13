@@ -23,27 +23,43 @@ const triggersModuleData = [
         </p>
         <p>
           These are triggers that come from within you. This includes thoughts,
-          feelings and attitudes linked to lifestyle problems.
+          emotions and physical feelings.
         </p>
         <p>
-          Examples include feeling unhappy, frustrated, bored, resentful,
-          stressed and anxious.
+          Examples include emotions such as unhappy, frustrated, bored,
+          resentful, stressed and anxious; physical feelings such as arousal; or
+          thoughts such as ‘I don’t like this feeling’ and ‘she is going to
+          leave me’.
         </p>
         <p>
           <h5 className="secondary-color">External triggers</h5>
         </p>
         <p>
-          These are triggers that come from outside of you. They are like an
-          alarm sounding and could be something you see or hear.
+          These are triggers that come from outside of you. These might be
+          related to a specific situation or an environment.
         </p>
         <p>
-          They might come from different situations and come from our daily
-          routines. For example walking through the kitchen might trigger us to
-          open the fridge, or going onto adult pornography websites might
-          trigger sexual thoughts about accessing sexual images of children.
+          Situational triggers may include stressful life events or stressors
+          (e.g., argument with partner, work pressure, friend cancelling a
+          plan), and environmental triggers may include general elements of the
+          environment including your daily routine (e.g., working alone late at
+          night, accessing pornography website or using phone/computer in
+          isolated location).
         </p>
+        <p>
+          It is also useful to highlight that external triggers (e.g., annoyed
+          look from a partner) can trigger internal triggers such as emotions
+          (e.g., anxiety, anger) and thoughts (“it’s not fair”, “I need a
+          release”), all of which are relevant when understanding your triggers.
+        </p>
+
         <br></br>
         <h4 className="secondary-color">What are your triggers?</h4>
+        <p>
+          Identifying triggers and ways to manage them can help you to avoid
+          situations that are riskier for you and build your skills to manage
+          triggers as they arise.{" "}
+        </p>
         <p>
           Triggers often appear at the beginning of the cycle of offending and
           can prompt behavioural responses. Being aware of your triggers is
@@ -169,6 +185,15 @@ const triggersModuleData = [
             <strong>Download printable template</strong>
           </a>
           .
+        </p>
+        <br></br>
+        <p>
+          It can be difficult to consider a variety of different management
+          strategies for each of your triggers, so we encourage you to contact
+          the helpline advisors who are here to support you and help you further
+          explore your learnings. You can stay anonymous and don’t have to give
+          your real name or any contact details. If you’re not ready to speak to
+          anyone yet, you can also use the Stop It Now! Australia live chat.
         </p>
       </>
     ),

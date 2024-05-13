@@ -185,7 +185,7 @@ const OnlineWorldModuleData = [
           </li>
           <li>
             What parts of your online behaviour would you like to change so they
-            are more align with your offline behaviour? Why?
+            are more aligned with your offline behaviour? Why?
           </li>
           <li>
             How does considering this help you manage your future online
@@ -265,7 +265,7 @@ const OnlineWorldModuleData = [
   },
   {
     id: 4,
-    title: "Exercise 3",
+    title: "Online and Offline Relationships",
     description: (
       <>
         <div>
@@ -292,7 +292,7 @@ const OnlineWorldModuleData = [
           </p>
           <p>
             This can be especially true of people’s online sexual relationships.
-            Here the focus can easily become just about sexual thing. For some
+            Here the focus can easily become just about sexual things. For some
             people the desire for short-term sexual pleasure means that they
             allow themselves to develop patterns of online sexual behaviour that
             are damaging to both themselves and others. Many of these activities
@@ -389,17 +389,17 @@ const OnlineWorldModuleData = [
   },
   {
     id: 5,
-    title: "Exercises 4 and 5",
+    title: "Valuing offline relationships",
     description: (
       <>
         <div>
           <br></br>
           <h4 className="secondary-color">
-            Exercise 4: What do I look for in real-life relationships?
+            Exercise 4: What do I look for in offline relationships?
           </h4>
           <p>
-            Using the table below, write down the things you value about
-            real-life relationships and then what you could do to achieve these.
+            Using the table below, write down the things you value about offline
+            relationships and then what you could do to achieve these.
           </p>
           <br></br>
           <table className="table table-bordered">
@@ -456,7 +456,7 @@ const OnlineWorldModuleData = [
             detail in the{" "}
             <strong>
               <Link to="/building-a-good-life">
-                planning for a good life module
+                building a good life module
               </Link>
             </strong>
             .

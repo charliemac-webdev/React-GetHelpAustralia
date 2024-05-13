@@ -30,7 +30,7 @@ const UnderstandingWhyModule = ({ showMenu }) => {
         <ul className="content-list">
           <li>Your online sexual behaviour</li>
           <li>How your sexual behaviour moved into offending behaviour</li>
-          <li>Your motivations for this</li>
+          <li>Your motivations to offend</li>
           <li>
             Patterns and trends with your current use of the internet for sexual
             reasons

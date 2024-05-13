@@ -123,7 +123,7 @@ const understandingWhyModuleData = [
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Exercise : Progression Timeline</h4>
+        <h4 className="secondary-color">Exercise 2: Progression Timeline</h4>
         <p>
           The second exercise is in three parts and looks back over your life to
           help you think about how you started behaving illegally online.
@@ -221,9 +221,9 @@ const understandingWhyModuleData = [
         </p>
         <p>
           Happy, Sad, Angry, Hurt, Depressed, Frustrated, Impulsive, Stressed,
-          Relaxed Excited, Bored, Curious, Rejected, Doubtful, Interested,
+          Relaxed, Excited, Bored, Curious, Rejected, Doubtful, Interested,
           Lonely, Irritated, Ashamed, Upset, Annoyed, Miserable, Guilty, In
-          despair, Uneasy, Useless, Vulnerable, Afraid Nervous, Timid,
+          despair, Uneasy, Useless, Vulnerable, Afraid, Nervous, Timid,
           Indifferent, Restless, Alienated, Nonchalant, Dull, Anxious, Confident
         </p>
         <hr />
@@ -255,7 +255,8 @@ const understandingWhyModuleData = [
           <p>
             <p></p>
             <b>
-              Now think about when you started using the internet regularly:
+              Now think about the one event that led you to behave illegally
+              online for the first time:
             </b>
           </p>
           <li>Why did you decide to use the internet?</li>
@@ -292,10 +293,10 @@ const understandingWhyModuleData = [
           <br />
           <ol>
             <li>downloading illegal images of children</li>
-            <li>trading these images with others</li>
+            <li>trading sexual images of children with others</li>
             <li>
-              chatting to adults about sex with children online including
-              sharing fantasies
+              engaging in sexual conversations about children online with
+              adults, including sharing fantasies
             </li>
             <li>
               contacting children online for sexual reasons including through
@@ -381,8 +382,8 @@ const understandingWhyModuleData = [
         <p>Think about these questions:</p>
         <ul className="content-list">
           <li>
-            Have any of your responses changed from 1 to 2, or from 2 to 3 from
-            since the start of this module?
+            Have any of your responses changed from 1 to 2, or from 2 to 3 since
+            the start of this module?
           </li>
           <li>How has your understanding changed?</li>
           <li>

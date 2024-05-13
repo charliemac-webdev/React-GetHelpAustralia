@@ -73,13 +73,13 @@ const ProblematicCollectingModuleData = [
         </p>
         <p>
           <em>
-            Do you collect other things, as well as child sexual abuse material
-            (CSAM), for example stamps, coins or model cars? If you do, then it
-            might be better to complete this exercise using one of those
-            non-offending examples first. Then complete it a second time
-            concentrating on the CSAM. It might be that you can compare the two
-            and identify themes between them. This will help you later on when
-            you are looking at what the purpose collecting is for.&nbsp;
+            Do you collect other things, as well as child sexual abuse material,
+            for example stamps, coins or model cars? If you do, then it might be
+            better to complete this exercise using one of those non-offending
+            examples first. Then complete it a second time concentrating on the
+            child sexual abuse material. It might be that you can compare the
+            two and identify themes between them. This will help you later on
+            when you are looking at what the purpose collecting is for.&nbsp;
           </em>
         </p>
         <p>
@@ -263,11 +263,12 @@ const ProblematicCollectingModuleData = [
             you have been sitting at a desk all day.
           </li>
         </ul>
+        <p>Every choice you make serves a function.</p>{" "}
         <p>
-          Every choice you make serves a function. So what function does
-          collecting sexual images of children serve for you?
+          {" "}
+          So what function does collecting sexual images of children serve for
+          you? Use Exercises 3a and 3b to help you explore this.
         </p>
-        <p>Use Exercises 3a and 3b to help you explore this.</p>
         <hr />
         <br></br>
         <h4 className="secondary-color">Exercise 3 – Part A</h4>
@@ -275,9 +276,9 @@ const ProblematicCollectingModuleData = [
           <strong></strong>
         </p>
         <p>
-          Answer questions 1-4 by rating how positive or negative you feel on a
-          scale of 1-10, with 1 being very negative and 10 being very positive,
-          in each situation.
+          Answer questions 1-4 by rating how pleasant or unpleasant you feel on
+          a scale of 1-10, with 1 being very unpleasant and 10 being very
+          pleasant, in each situation.
         </p>
         <p>
           <img
@@ -295,8 +296,8 @@ const ProblematicCollectingModuleData = [
         <p>
           Describe these emotions.&nbsp;
           <em>
-            Clue: if they are positive, examples include happy, excited or calm;
-            if they are negative, examples include frustrated, angry, sad or
+            Clue: if they are pleasant, examples include happy, excited or calm;
+            if they are unpleasant, examples include frustrated, angry, sad or
             bored
           </em>
         </p>

@@ -30,6 +30,7 @@ const TriggersModule = ({ showMenu }) => {
         <ul className="content-list">
           <li>the different types of triggers</li>
           <li>your own triggers</li>
+          <li>different ways to manage your own triggers</li>
         </ul>
         <Module modules={triggersModuleData} />
       </MainContent>

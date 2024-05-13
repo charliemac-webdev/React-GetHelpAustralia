@@ -9,7 +9,17 @@ const takingResponsibilityModuleData = [
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Starting point</h4>
+        <h4 className="secondary-color">Taking Control</h4>
+        <p>
+          Offending can often feel like it is out of your control or becomes
+          very automatic over time; although it may not always feel like it, you
+          do have agency and control over your own behaviour. When we take a
+          closer look at the situations, feelings and thoughts (i.e., triggers)
+          associated with behaviour, we can usually see that there are steps
+          that can be taken to prevent behaviours.
+        </p>
+        <br></br>
+        <h4 className="secondary-color">Stop and think...</h4>
         {/* There is no table in the UK version and their title is triggers not taking control */}
         {/* <p>
           Using the table below, write down how far in control you have felt of
@@ -34,39 +44,36 @@ const takingResponsibilityModuleData = [
   },
   {
     id: 2,
-    title: "Justification / Denial",
+    title: "Justification",
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Justification / Denial</h4>
+        <h4 className="secondary-color">Justification</h4>
         <p>
-          Justification, which is sometimes called denial, is probably best
-          explained in the book&nbsp;Cybersex Unhooked (2001).
-        </p>
-        <p>
-          Justification/denial is the confused kind of thinking and reasoning
-          used to avoid the reality of behaviour or the consequences of
-          behaviour. People can use justifications/denial to make themselves
-          feel better about harmful behaviour they are engaging in.
+          When we encounter a situation in which our behaviour is inconsistent
+          with our own or others’ beliefs and values, our minds tend to come up
+          with false reasons for why our behaviour is okay. These reasons are
+          called ‘justifications’, and they serve to make us feel more
+          comfortable and give us permission to keep engaging in the behaviour
+          even when it is harmful.
         </p>
         <p>Justifications can be a barrier to making positive changes.</p>
         <p>
           It is a way to deflect attention and responsibility. Here&nbsp;are
-          some examples of statements that represent justification/denial of
+          some examples of statements that represent justification of
           behaviours. Have a think about what justifications you have have used.
         </p>
         <ul className="content-list">
           <li>“It was only once in a while.”</li>
           <li>“I needed to get my needs met somewhere.”</li>
           <li>“At least I’m not as bad as so-and-so.”</li>
-          <li>“I’m just looking and not saving anything to my hard drive.”</li>
           <li>“I’m dealing with a lot of stress and need to unwind.”</li>
         </ul>
         <p>
           If you identify with the statements in the list&nbsp;then
-          justification/denial could be helping you to keep doing a behaviour
-          that you know is harmful. This, combined with feelings of a loss of
-          control, can be risky for you.
+          justification could be helping you to keep doing a behaviour that you
+          know is harmful. This, combined with feelings of a loss of control,
+          can be risky for you.
         </p>
         <p>
           Once you have identified what justifications you are using, it is
@@ -87,13 +94,15 @@ const takingResponsibilityModuleData = [
       <>
         <br></br>
         <p>
-          Here are some suggestions which can help increase your feelings of
-          control:
+          In order to start feeling more in control of your behaviour there are
+          a variety of small changes that you could make to help you along the
+          way. There are some options below, think about trying a few and seeing
+          what you find the most helpful.
         </p>
         <h4 className="secondary-color">Changes to your environment:</h4>
         <ul className="content-list">
           <li>
-            moving your computer to a high traffic more public area of the home
+            moving your devices to a high traffic more public area of the home
             to make it less likely that you will access pornography;
           </li>
           <li>
@@ -101,26 +110,29 @@ const takingResponsibilityModuleData = [
             with children;
           </li>
           <li>
-            having a photo of your partner/children next to your computer so you
+            having a photo of your partner/children next to your device/s so you
             think of them and what you are risking by accessing sexual images of
             children or engaging in sexual chat.
           </li>
         </ul>
         <br />
-        <h4 className="secondary-color">Changes to your computer</h4>
+        <h4 className="secondary-color">Changes to your electronic devices</h4>
         <ul className="content-list">
           <li>
-            having security software installed on your laptop so that you cannot
-            access pornography;
+            having security software installed on your device so that you cannot
+            access problematic material (e.g., accountable2you, covenant eyes,
+            Net nanny);
           </li>
           <li>
-            having a picture of a place you want to visit or prison bars as your
-            screen saver or wallpaper (this can act as an incentive not to
-            offend or a reminder of the consequences if you do);
+            having your screensaver as a picture of a place you want to visit or
+            pictures of a loved one who is important in your motivation to not
+            offend. You could also have a picture of prison bars as your screen
+            saver or wallpaper (this can act as an incentive not to offend or a
+            reminder of the consequences if you do);
           </li>
-          <li>entrusting PC password to another person to limit access;</li>
+          <li>entrusting passwords to another person to limit access;</li>
           <li>
-            set your password to be a reminder of something you would lose if
+            set your passwords to be a reminder of something you would lose if
             you offend on-line;
           </li>
         </ul>
@@ -128,12 +140,12 @@ const takingResponsibilityModuleData = [
         <h4 className="secondary-color">Changes when you go online</h4>
         <ul className="content-list">
           <li>
-            only use computer when others are in the room or in public places
+            only use devices when others are in the room or in public places
             where you would not access the material;
           </li>
           <li>
-            only use the computer for specific purposes such as internet
-            banking, do not allow yourself to ‘browse’;
+            only use your device for specific purposes such as internet banking,
+            do not allow yourself to ‘browse’;
           </li>
           <li>
             unplug your wireless router at night so you have to make more effort
@@ -149,7 +161,7 @@ const takingResponsibilityModuleData = [
           of illegal online sexual behaviour, e.g.:
         </p>
         <ol>
-          <li>Move computer</li>
+          <li>Move device/s</li>
           <li>Install security software</li>
           <li>Switch wifi off after 8pm</li>
         </ol>
