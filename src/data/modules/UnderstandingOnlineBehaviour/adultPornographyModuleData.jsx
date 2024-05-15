@@ -181,7 +181,7 @@ const AdultPornographyModuleData = [
         </ul>
         <br></br>
         <h4 className="secondary-color">
-          Exercise 2: Is adult pornography affecting your real world?
+          Exercise: Is adult pornography affecting your real world?
         </h4>
         <p>
           These questions will help you work out whether your adult pornography
@@ -221,19 +221,17 @@ const AdultPornographyModuleData = [
   },
   {
     id: 3,
-    title: "Why do I look at adult pornography?",
+    title: "Why do I use adult pornography?",
     description: (
       <>
         <div className="tab-main-content">
           <br></br>
-          <h4 className="secondary-color">
-            Why do I look at adult pornography?
-          </h4>
+          <h4 className="secondary-color">Why do I use adult pornography?</h4>
           <p>
-            Pornography is made to sexually arouse people. But different people
-            might look at it for very different reasons.
+            To work out whether use of adult pornography is a problem for you,
+            it can be helpful to consider what motivates and triggers you to use
+            it. Some reasons for using pornography are:
           </p>
-          <p>Here are a few possible reasons.</p>
           <ul className="content-list">
             <li>For sexual gratification</li>
             <li>Exposure to new things</li>
@@ -253,54 +251,51 @@ const AdultPornographyModuleData = [
   },
   {
     id: 4,
-    title: "Triggers",
+    title: "What triggers pornography use?",
     description: (
       <>
         <div className="tab-main-content">
           <br></br>
-          <h4 className="secondary-color">What is a trigger?</h4>
+          <h4 className="secondary-color">What triggers pornography use?</h4>
           <p>
-            A trigger is something that affects how you are feeling, which then
-            affects how you behave.
+            A trigger is also called a cue, prompt or call to action. Triggers
+            are what come before thoughts, feelings and behaviour and can lead
+            to a response or change in emotion and behaviour. Immediate triggers
+            to access pornography can be internal (e.g., feelings or thoughts)
+            or external (e.g., environmental cues or situations).
           </p>
-          <p>
-            Some triggers can be positive, for example seeing an attractive
-            adult and feeling sexually aroused.
-          </p>
-          <p>Some triggers can be negative, including:</p>
+          <p>Some triggers are:</p>
           <ul className="content-list">
-            <li>sadness</li>
-            <li>boredom</li>
-            <li>loneliness</li>
-            <li>frustration</li>
-            <li>anger.</li>
+            <li>
+              Emotions themselves, for example, feeling bored, or living with a
+              constant feeling of stress or anxiety.
+            </li>
+            <li>
+              Caused by something that happens, for example, having a bad day at
+              work or an argument with a partner.
+            </li>
+            <li>
+              Come from situations, for example, sitting in the room where you’d
+              usually look at adult pornography.
+            </li>
+            <li>
+              Come from habits, for example, viewing adult pornography at the
+              same time of day.
+            </li>
           </ul>
-          <br></br>
-          <h4 className="secondary-color">
-            What triggers these unpleasant emotions in the first place?
-          </h4>
-          <p>This will be different for different people.</p>
           <p>
-            Some triggers are emotions themselves, for example, feeling bored,
-            or living with a constant feeling of stress or anxiety.
+            Some triggers are pleasant (e.g., seeing an attractive adult and
+            feeling aroused), others are less pleasant (e.g., stress, sadness,
+            loneliness, frustration, anger, boredom) and others more neutral
+            (e.g., sitting in room where you’d usually use pornography).
           </p>
           <p>
-            Some triggers are caused by something that happens, for example,
-            having a bad day at work or an argument with a partner.
-          </p>
-          <p>
-            Some triggers come from situations, for example, sitting in the room
-            where you’d usually look at adult pornography.
-          </p>
-          <p>
-            Some triggers come from habits, for example, viewing adult
-            pornography at the same time of day.
-          </p>
-          <p>
-            Unpleasant feelings can trigger some people to go online and view
-            sexual content to make themselves feel better or help them cope.
-            They try to replace the unpleasant feelings with more pleasant
-            feelings of excitement, arousal, and adventure.
+            How these triggers impact pornography use will be different for
+            different people. For some people, unpleasant feelings can trigger
+            some people to go online and view sexual content to make themselves
+            feel better or help them cope. They try to replace the unpleasant
+            feelings with more pleasant feelings of excitement, arousal, and
+            adventure.
           </p>
           <p>
             This might feel like it helps in the short term, but using
@@ -321,140 +316,6 @@ const AdultPornographyModuleData = [
               manage your feelings in a different way
             </Link>
             .
-          </p>
-          <br></br>
-          <h4 className="secondary-color">How to manage your triggers</h4>
-          <p>
-            If you want to view pornography then there are a range of techniques
-            that you could use to help stop yourself. Check out our information
-            on{" "}
-            <Link to="/fantasy" className="secondary-color">
-              fantasy management
-            </Link>
-            .
-          </p>
-          <br></br>
-          <h4 className="secondary-color">Exercise 3: Keep a trigger diary</h4>
-          <p>
-            Over the next week, we encourage you to keep a diary, completing the
-            diary each time you go online. You can have more than one diary
-            entry each day.
-          </p>
-          <p>
-            Sometimes it can be difficult to know what triggered your feelings
-            before you went online. It can help to think about what you were
-            doing or whether something specific happened before you went online.
-            You might need to spend some time reflecting on this.
-          </p>
-          <div className="table-responsive">
-            <table className="table table-bordered">
-              <tbody>
-                <tr>
-                  <td>Day</td>
-                  <td>Time</td>
-                  <td>How I was feeling before I went online</td>
-                  <td>
-                    What did I do online? What type of content did I view?
-                  </td>
-                  <td>How long did I spend online?</td>
-                  <td>How did I feel when I was online?</td>
-                  <td>How did I feel after I stopped being online?</td>
-                  <td>Ideas for what I could have done instead</td>
-                </tr>
-                <tr>
-                  <td>Monday</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Tuesday</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Wednesday</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Thursday</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Friday</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Saturday</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Sunday</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <ul className="content-list">
-            <li>
-              Are there any patterns between how you were feeling before,
-              during, and after you were viewing adult pornography online?
-            </li>
-            <li>
-              Are there any patterns between your feelings and the length of
-              time you spent online, or what you did online?
-            </li>
-            <li>What triggers can I identify?</li>
-            <li>
-              What are some things I could do instead of watching pornography?
-            </li>
-            <li>What have you learned from completing this exercise?</li>
-          </ul>
-          <p>
-            If you want to understand more about why you use pornography to
-            solve problems, you may find it helpful to visit our{" "}
-            <Link to="/problem-solving" className="secondary-color">
-              understanding problems module.
-            </Link>
           </p>
           <br></br>
         </div>
@@ -602,7 +463,7 @@ const AdultPornographyModuleData = [
           </p>
           <br></br>
           <h4 className="secondary-color">
-            Exercise 4: Thinking about your own behaviour
+            Exercise: Thinking about your own behaviour
           </h4>
           <p>
             Below are some questions to help you think about your pornography
@@ -624,6 +485,11 @@ const AdultPornographyModuleData = [
               behaviour and triggers?
             </li>
           </ul>
+          <br></br>
+          <p>
+            The next section will consider ways that you can manage your
+            pornography use.
+          </p>
           <br></br>
         </div>
       </>
@@ -660,16 +526,24 @@ const AdultPornographyModuleData = [
             <li>
               Set restrictions or activate parental controls on your internet
               connection. This can stop you from being able to connect to
-              websites with adult pornography.
+              websites with adult pornography (e.g., Net Nanny, or Remojo).
             </li>
             <li>
               If someone knows you are trying to reduce your adult pornography
               use, ask them to help. Some apps allow a trusted friend or family
               member to see your internet history, which can motivate you to
-              avoid adult pornography.
+              avoid adult pornography (e.g., accountable2u, convenant eyes)
             </li>
           </ul>
-          <br></br>
+          <p>
+            There are a range of techniques to help reduce or stop use of
+            pornography, if this is a problem for you. Check out our information
+            on{" "}
+            <Link to="/fantasy" className="secondary-color">
+              fantasy management
+            </Link>
+            .
+          </p>
           <h4 className="secondary-color">Relaxation techniques</h4>
           <p>
             Using mindfulness, meditation and guided visualisation can help
@@ -685,7 +559,132 @@ const AdultPornographyModuleData = [
             </a>
             .
           </p>
-          <br />
+          <br></br>
+          <h4 className="secondary-color">
+            Exercise: Keep an online use diary
+          </h4>
+          <p>
+            Over the next week, we encourage you to keep a diary, completing the
+            diary each time you go online. You can have more than one diary
+            entry each day.
+          </p>
+          <p>
+            Sometimes it can be difficult to know what triggered your feelings
+            before you went online. It can help to think about what you were
+            doing or whether something specific happened before you went online.
+            You might need to spend some time reflecting on this.
+          </p>
+          <div className="table-responsive">
+            <table className="table table-bordered">
+              <tbody>
+                <tr>
+                  <td>Day</td>
+                  <td>Time</td>
+                  <td>How I was feeling before I went online</td>
+                  <td>What was happening before I went online?</td>
+                  <td>
+                    What did I do online? What type of content did I view?
+                  </td>
+                  <td>How long did I spend online?</td>
+                  <td>How did I feel when I was online?</td>
+                  <td>How did I feel after I stopped being online?</td>
+                  <td>Ideas for what I could have done instead</td>
+                </tr>
+                <tr>
+                  <td>Monday</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="content-list">
+            <li>
+              Are there any patterns between how you were feeling before,
+              during, and after you were viewing adult pornography online?
+            </li>
+            <li>
+              Are there any patterns between your feelings and the length of
+              time you spent online, or what you did online?
+            </li>
+            <li>What triggers can I identify?</li>
+            <li>
+              What are some things I could do instead of watching pornography?
+            </li>
+            <li>What have you learned from completing this exercise?</li>
+          </ul>
+          <p>
+            If you want to understand more about why you use pornography to
+            solve problems, you may find it helpful to visit our{" "}
+            <Link to="/problem-solving" className="secondary-color">
+              understanding problems module.
+            </Link>
+          </p>
         </div>
       </>
     ),
@@ -736,7 +735,7 @@ const AdultPornographyModuleData = [
                 to="/recognising-and-dealing-with-feelings"
                 className="secondary-color"
               >
-                manage negative feelings
+                manage unpleasant feelings
               </Link>
               . When you are feeling stressed or low, you are more likely to
               give in to urges.
@@ -755,10 +754,17 @@ const AdultPornographyModuleData = [
               also releases dopamine.
             </li>
             <li>
-              Be kind to yourself<strong>. </strong>You may not get this right
-              the first time. You may slip up. But you can always start again.
-              Reward yourself when you are able to manage your use of adult
-              pornography.
+              Be kind to yourself<strong>. </strong>Most people don’t get it
+              right the first time and lapses are very common. The importance is
+              on not giving up and entering a full relapse, but to learn from
+              those experiences.
+            </li>
+            <li>
+              Think of some statements that will help you tap into your
+              motivation to continue to reduce/stop this behaviour. These could
+              be connected to your personal values or how stopping the behaviour
+              will benefit you and others. For example, “I want to be a loving
+              and present partner to my significant other.
             </li>
           </ul>
           <br></br>

@@ -27,11 +27,11 @@ const ImagesAreChildrenModule = ({ showMenu }) => {
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
           <li>
-            the false justifications some people use to justify offending
-            behaviour and avoid taking responsibilty for their actions
+            the false reasoning some people use to justify offending behaviour
+            and avoid taking responsibilty for their actions
           </li>
           <li>that these images are of real children being abused</li>
-          <li>the effects on the children in the image</li>
+          <li>the impacts on the children in the image</li>
         </ul>
         <br></br>
         <Module modules={ImagesAreChildrenModuleData} />

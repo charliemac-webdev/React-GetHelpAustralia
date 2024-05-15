@@ -140,9 +140,7 @@ const SexualCommunicationWithChildrenModuleData = [
           <p>
             Look at the cycle below and think about how each stage might have
             applied to your online sexual behaviour towards a particular child
-            or children, in general. You might also find it useful to consider
-            one of the examples from earlier and how this person might apply to
-            the cycle.
+            or children, in general.
           </p>
           <p>
             As you do this exercise, think about how your behaviour changed over
@@ -411,9 +409,7 @@ const SexualCommunicationWithChildrenModuleData = [
               the relationship)
             </li>
             <li>
-              What needs could your contact with the child have been meeting for
-              them? (e.g. perhaps they wanted attention as a result of an
-              unhappy home life)
+              What vulnerabilities did the child have? (e.g., unhappy home life)
             </li>
             <li>What responsibilities do all adults have towards children?</li>
             <li>
