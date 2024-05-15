@@ -28,7 +28,7 @@ const selfTalkModuleData = [
           <li>your behaviour</li>
           <li>your view of the world</li>
         </ul>
-        <p>We can talk to ourselves in negative and positive ways.</p>
+        <p>We can talk to ourselves in critical and complementary ways.</p>
         <hr />
         <h5 className="secondary-color">Starting Point</h5>
         <p>
@@ -44,7 +44,7 @@ const selfTalkModuleData = [
         </p>
 
         <hr />
-        <h5 className="secondary-color">Negative self-talk</h5>
+        <h5 className="secondary-color">Critical self-talk</h5>
         <p>
           We all have an inner critic. At times this little voice can actually
           be helpful and keep us motivated toward goals—like when it reminds us
@@ -53,7 +53,7 @@ const selfTalkModuleData = [
           helpful.
         </p>
         <p>
-          This statement show negative thoughts can grow and become
+          This statement show unpleasant thoughts can grow and become
           self-defeating:
         </p>
         <p>
@@ -62,10 +62,11 @@ const selfTalkModuleData = [
           have friends.”
         </p>
         <p>
-          Focusing on negative thoughts may lead to decreased motivation as well
-          as greater feelings of helplessness and sometimes depression. For some
-          people it also contributes to their sexual offending as they use it to
-          justify negative behaviours, so it’s definitely something to fix.
+          Focusing on unpleasant thoughts may lead to decreased motivation as
+          well as greater feelings of helplessness and sometimes depression. For
+          some people it also contributes to their sexual offending as they use
+          it to justify negative behaviours, so it’s definitely something to
+          fix.
         </p>
         <br />
         <img
@@ -77,10 +78,11 @@ const selfTalkModuleData = [
         <br />
         <br></br>
         <hr />
-        <h5 className="secondary-color">Positive self-talk</h5>
+        <h5 className="secondary-color">Complementary self-talk</h5>
         <p>
-          There are two kinds of positive self-talk- the kind that encourages
-          healthy behaviour and the kind that enhances your self-esteem.
+          There are two kinds of complementary self-talk- the kind that
+          encourages healthy behaviour and the kind that enhances your
+          self-esteem.
         </p>
         <br />
         <p>Examples of self-talk that encourage healthy behaviour:</p>
@@ -102,18 +104,18 @@ const selfTalkModuleData = [
         />
         <br />
         <br />
-        <p>Positive self-talk =</p>
+        <p>Pleasant self-talk =</p>
         <ul className="content-list">
-          <li>positive attitude</li>
-          <li>positive feelings</li>
-          <li>positive self-image</li>
-          <li>positive behaviour</li>
-          <li>a positive view of the world</li>
+          <li>pleasant attitude</li>
+          <li>pleasant feelings</li>
+          <li>pleasant self-image</li>
+          <li>pleasant behaviour</li>
+          <li>a pleasant view of the world</li>
         </ul>
         <br />
         <p>
           <b>
-            Positive self-talk will help you to make positive changes in your
+            Pleasant self-talk will help you to make positive changes in your
             life.
           </b>
         </p>
@@ -122,32 +124,32 @@ const selfTalkModuleData = [
   },
   {
     id: 2,
-    title: "Changing negative to positive self-talk",
+    title: "Changing unpleasant to pleasant self-talk",
     description: (
       <>
         <br></br>
         <h4 className="secondary-color">
-          Changing negative to positive self-talk
+          Changing unpleasant to pleasant self-talk
         </h4>
         <p>
           You need to be aware of the nature of your self-talk and be determined
-          to shift any negative thinking to positive. This is not always easy as
-          even though you will have a number of positive qualities you may
+          to shift any unpleasant thinking to pleasant. This is not always easy
+          as even though you will have a number of positive qualities you may
           struggle to recognise them and find it hard to give yourself credit
           for them.
         </p>
         <p>
-          You should now be aware that negative thinking can lead to low mood,
+          You should now be aware that unpleasant thinking can lead to low mood,
           loss of motivation and that it contributes to negative unhealthy
           behaviour – including in some cases offending.
         </p>
         <p>
-          Here are some methods which can help you to tackle your negative
+          Here are some methods which can help you to tackle your critical
           thinking:
         </p>
         <p>
           <span className="secondary-color">1. </span>{" "}
-          <b>Challenge your thinking.</b> For each negative statement ask
+          <b>Challenge your thinking.</b> For each unpleasant statement ask
           yourself these questions:
         </p>
         <ul className="content-list">
@@ -159,52 +161,53 @@ const selfTalkModuleData = [
         <p>
           <span className="secondary-color">2. </span>{" "}
           <b>
-            Do something that will distract you from negative thoughts and
+            Do something that will distract you from unpleasant thoughts and
             feelings.
           </b>{" "}
           This might be an activity or contacting a friend.
         </p>
         <p>
           <span className="secondary-color">3. </span>
-          <b>Positive reframing.</b> Try to find a positive aspect to the
-          situation to focus on, rather than the negative. This is something we
-          often do after a bereavement for example, remembering the positive
+          <b>Positive reframing.</b> Try to find a pleasant aspect to the
+          situation to focus on, rather than the unpleasant. This is something
+          we often do after a bereavement for example, remembering the pleasant
           life someone had rather than the loss.
         </p>
         <p>
           <span className="secondary-color">4. </span>
-          <b>Use positive language.</b> If you constantly say “I can’t” you will
-          convince yourself that it’s true. Replace negative words with positive
-          ones.
+          <b>Use pleasant language.</b> If you constantly say “I can’t” you will
+          convince yourself that it’s true. Replace critical words with
+          complementary ones.
         </p>
         <p>
           <span className="secondary-color">5. </span>
           <b>
-            Reflect on what has contributed to the negative thoughts and
+            Reflect on what has contributed to the unpleasant thoughts and
             feelings.
           </b>{" "}
-          Positive thinking is not about denying that anything is or can go
+          Pleasant thinking is not about denying that anything is or can go
           wrong. If something goes wrong then take the time to consider what
           went wrong in order to avoid future mistakes and look forward more
-          positively.
+          pleasantly.
         </p>
         <p>
           <span className="secondary-color">6. </span>
           <b>Don’t be too hard on yourself.</b> It takes time, practice and
-          determination to change negative thinking and adopt a more optimistic
-          approach.
+          determination to change unpleasant thinking and adopt a more
+          optimistic approach.
         </p>
         <p>
           <span className="secondary-color">7. </span>
           <b>Catch it, Check it, change it </b>– the more you start spotting and
-          changing your negative talk to positive the better you will get!
+          changing your critical self talk to complementary the better you will
+          get!
         </p>
         <hr />
-        <h5 className="secondary-color">Planning to be positive</h5>
+        <h5 className="secondary-color">Planning to be pleasant</h5>
         <p>
           If you know you have to deal with a potentially difficult situation
-          identify and rehearse some positive self-talk statements that you can
-          employ before during and after the situation.
+          identify and rehearse some complementary self-talk statements that you
+          can employ before during and after the situation.
         </p>
         <p>For example going on a first date:</p>
         <img
@@ -217,7 +220,7 @@ const selfTalkModuleData = [
         <p>
           This planning can be used in any situation. Think of something you are
           doing this week that you are worried or nervous about and think of
-          three positive self-talk statements you can say to yourself to help
+          three pleasant self-talk statements you can say to yourself to help
           prepare yourself positively.
         </p>
         <hr />
@@ -258,7 +261,7 @@ const selfTalkModuleData = [
         <br></br>
         <h4 className="secondary-color">Reflection</h4>
         <p>
-          Keep a diary for a week of any negative things you say to yourself.
+          Keep a diary for a week of any unpleasant things you say to yourself.
           After a week look back and see what sort of messages you give
           yourself.
         </p>
@@ -291,10 +294,11 @@ const selfTalkModuleData = [
           thoughts on the following statements.{" "}
         </p>
         <ReflectionQuestion>
-          I now have a better understanding of positive and negative self-talk.
+          I now have a better understanding of complementary and critical
+          self-talk.
         </ReflectionQuestion>
         <ReflectionQuestion>
-          I now have strategies to change my negative self-talk to positive
+          I now have strategies to change my unpleasant self-talk to pleasant
           self-talk.
         </ReflectionQuestion>
         <Link

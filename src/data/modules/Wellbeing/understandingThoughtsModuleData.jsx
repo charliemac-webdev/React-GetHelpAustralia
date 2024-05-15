@@ -82,12 +82,12 @@ const UnderstandingThoughtsModuleData = [
   },
   {
     id: 2,
-    title: "Exercise 1: Unpleasant thoughts",
+    title: "Unpleasant thoughts",
     description: (
       <>
         <div>
           <br></br>
-          <h4 className="secondary-color">Exercise 1: Unpleasant thoughts</h4>
+          <h4 className="secondary-color">Exercise: Unpleasant thoughts</h4>
           <ul className="content-list">
             <li>
               Think of an example of a situation that does not relate to sexual
@@ -127,13 +127,13 @@ const UnderstandingThoughtsModuleData = [
   },
   {
     id: 3,
-    title: "Exercise 2: Unhelpful sexual thoughts",
+    title: "Unhelpful sexual thoughts",
     description: (
       <>
         <div>
           <br></br>
           <h4 className="secondary-color">
-            Exercise 2: Unhelpful sexual thoughts
+            Exercise: Unhelpful sexual thoughts
           </h4>
           <p>
             Think about your unhelpful sexual thoughts by answering these
@@ -330,12 +330,12 @@ const UnderstandingThoughtsModuleData = [
   },
   {
     id: 5,
-    title: "Exercise 3 - Fantasy diary",
+    title: "Fantasy diary",
     description: (
       <>
         <div>
           <br></br>
-          <h4 className="secondary-color">Exercise 3 - Fantasy Diary</h4>
+          <h4 className="secondary-color">Exercise: Fantasy Diary</h4>
           <p>
             Over the next week create a fantasy diary to keep a record of your
             fantasies. Do not write down the content of the fantasy but consider

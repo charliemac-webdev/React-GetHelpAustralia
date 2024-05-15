@@ -61,7 +61,7 @@ const ProblematicCollectingModuleData = [
         <p>Use exercise 1 to help work out why you collect.</p>
         <hr />
         <br></br>
-        <h4 className="secondary-color">Exercise 1: My collecting</h4>
+        <h4 className="secondary-color">Exercise: My collecting</h4>
         <p>
           <a
             href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-1-editable.pdf"
@@ -149,7 +149,7 @@ const ProblematicCollectingModuleData = [
         <hr />
         <br></br>
         <h4 className="secondary-color">
-          Exercise 2: The impact of collecting on my life
+          Exercise: The impact of collecting on my life
         </h4>
         <p></p>
         <p>Answer the following questions.</p>
@@ -267,11 +267,11 @@ const ProblematicCollectingModuleData = [
         <p>
           {" "}
           So what function does collecting sexual images of children serve for
-          you? Use Exercises 3a and 3b to help you explore this.
+          you? Use Exercises below to help you explore this.
         </p>
         <hr />
         <br></br>
-        <h4 className="secondary-color">Exercise 3 – Part A</h4>
+        <h4 className="secondary-color">Exercise: Part A</h4>
         <p>
           <strong></strong>
         </p>
@@ -347,7 +347,7 @@ const ProblematicCollectingModuleData = [
         </p>
         <hr />
         <br></br>
-        <h4 className="secondary-color">Exercise 3 – Part B</h4>
+        <h4 className="secondary-color">Exercise: Part B</h4>
         <p>
           <strong></strong>
         </p>
@@ -453,7 +453,7 @@ const ProblematicCollectingModuleData = [
         </p>
         <hr />
         <br></br>
-        <h4 className="secondary-color">Exercise 4 – Challenge yourself</h4>
+        <h4 className="secondary-color">Exercise: Challenge yourself</h4>
         <p>
           Use the first column in the table below to list your justifications.
         </p>

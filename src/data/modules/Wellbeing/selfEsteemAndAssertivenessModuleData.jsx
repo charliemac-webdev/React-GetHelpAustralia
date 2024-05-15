@@ -27,7 +27,7 @@ const SelfEsteemAndAssertivenessModuleData = [
         </p>
         <br></br>
         <h4 className="secondary-color">
-          Exercise 1: What can I do to build my self-esteem?
+          Exercise: What can I do to build my self-esteem?
         </h4>
         <p>
           To increase your self-esteem, you need to challenge and change the

@@ -31,8 +31,8 @@ const SelfTalkModule = ({ showMenu }) => {
         <p>This module will help you explore and understand:</p>
         <ul className="content-list">
           <li>Self-talk</li>
-          <li>Positive and negative self-talk</li>
-          <li>How to change negative Self-talk in to positive Self-talk’</li>
+          <li>Complementary and critical self-talk</li>
+          <li>How to change unpleasant self-talk in to pleasant self-talk’</li>
         </ul>
         <Module modules={selfTalkModuleData} />
       </MainContent>

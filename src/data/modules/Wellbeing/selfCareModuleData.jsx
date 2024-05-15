@@ -98,7 +98,7 @@ const SelfCareModuleData = [
   },
   {
     id: 3,
-    title: "Exercise 1: Setting self-care goals",
+    title: "Setting self-care goals",
     description: (
       <>
         <br></br>
@@ -461,7 +461,7 @@ const SelfCareModuleData = [
   },
   {
     id: 5,
-    title: "Exercise 2: Using self-care strategies",
+    title: "Using self-care strategies",
     description: (
       <>
         <br></br>

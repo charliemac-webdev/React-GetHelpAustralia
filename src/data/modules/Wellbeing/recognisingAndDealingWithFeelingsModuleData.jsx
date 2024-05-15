@@ -57,7 +57,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <hr />
         <h5 className="secondary-color">
-          Exercise 1 - How in-tune with your feelings are you?
+          Exercise: How in-tune with your feelings are you?
         </h5>
         <p>
           Below is a worksheet which will help you to identify what happens to
@@ -155,7 +155,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           </e>
         </p>
         <p>
-          We are now going to explore how positive and negative thinking can
+          We are now going to explore how pleasant and unpleasant thinking can
           help with managing emotions.
         </p>
         <p>
@@ -170,10 +170,10 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <hr />
         <h5 className="secondary-color">
-          The effect of positive and negative thinking on emotions.
+          The effect of pleasant and unpleasant thinking on emotions.
         </h5>
         <p>
-          If you are unsure of negative and positive thinking (otherwise known
+          If you are unsure of pleasant and unpleasant thinking (otherwise known
           as self-talk) then please work through our{" "}
           <Link to="/self-talk">
             <b>self-talk section</b>
@@ -181,19 +181,19 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           .
         </p>
         <p>
-          Negative thinking comprises thoughts in which you see the worst in
+          Unpleasant thinking comprises thoughts in which you see the worst in
           everything. It reduces your expectations by expecting the worst.
-          Negative thinking tends to manifest itself in patterns of behaviour
+          Unpleasant thinking tends to manifest itself in patterns of behaviour
           which are characterized by stress, worry, anxiety and frustration.
         </p>
-        <p>Positive thinking encourages healthy behaviour.</p>
+        <p>Pleasant thinking encourages healthy behaviour.</p>
         <hr />
-        <h5 className="secondary-color">Exercise 2 - Your negative thoughts</h5>
+        <h5 className="secondary-color">Exercise: Your unpleasant thoughts</h5>
         <br></br>
         <p>
-          Write down a list of your most common negative thoughts. With each of
-          these, identify the associated feeling. Now list your behaviour that
-          resulted from the thoughts.
+          Write down a list of your most common unpleasant thoughts. With each
+          of these, identify the associated feeling. Now list your behaviour
+          that resulted from the thoughts.
         </p>
         <br />
         <p>Here is an example:</p>
@@ -213,7 +213,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <p>
           Now think about your illegal online behaviour? Can you identify any
-          feelings and negative thoughts that might contribute to the decision
+          feelings and unpleasant thoughts that might contribute to the decision
           to view sexual images of children.
         </p>
         <br />
@@ -223,7 +223,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         <p>Behaviour – access sexual images of children</p>
         <br />
         <p>
-          Negative thinking is often triggered by thinking errors which fall
+          Unpleasant thinking is often triggered by thinking errors which fall
           into three main categories:
         </p>
         <ul className="content-list">
@@ -237,10 +237,10 @@ const RecognisingAndDealingWithFeelingsModuleData = [
             because you failed the first time
           </li>
           <li>
-            <b>Negative focus</b> – always focusing on the negative aspects of a
-            situation rather than looking at the positives e.g. instead of being
-            happy about passing an exam, being upset that you did not get a
-            higher grade.
+            <b>Negative focus</b> – always focusing on the unpleasant aspects of
+            a situation rather than looking at the positives e.g. instead of
+            being happy about passing an exam, being upset that you did not get
+            a higher grade.
           </li>
         </ul>
         <br />
@@ -367,7 +367,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           me- I’m a nice person”). Every time you notice yourself worrying about
           this thought challenge your thinking. Use the ‘questioning yourself’
           strategy identified earlier in the module and counter your worry with
-          the positive thought. You could even write the pleasant thought or
+          the pleasant thought. You could even write the pleasant thought or
           statement down on a small card and carry it with you to remind
           yourself of it.
         </p>

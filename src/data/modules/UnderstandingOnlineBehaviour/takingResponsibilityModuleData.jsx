@@ -155,7 +155,7 @@ const takingResponsibilityModuleData = [
           <li>get a mobile phone without internet access;</li>
         </ul>
         <br />
-        <h4 className="secondary-color">Exercise 1: What can I do.</h4>
+        <h4 className="secondary-color">Exercise: What can I do.</h4>
         <p>
           Make a list of three things you can do to immediately reduce your risk
           of illegal online sexual behaviour, e.g.:

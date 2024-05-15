@@ -66,7 +66,7 @@ const OnlineWorldModuleData = [
           </li>
           <hr />
           <br></br>
-          <h4 className="secondary-color">Exercise 1: Sex and the internet</h4>
+          <h4 className="secondary-color">Exercise: Sex and the internet</h4>
           <p>
             What other aspects of the internet might make it feel like an
             attractive place to engage in sexual activity? Use the template to
@@ -164,7 +164,7 @@ const OnlineWorldModuleData = [
         <hr></hr>
         <br></br>
         <h4 className="secondary-color">
-          Exercise 2: My online and offline behaviour
+          Exercise: My online and offline behaviour
         </h4>
         <img
           src={pictureFive}
@@ -306,7 +306,7 @@ const OnlineWorldModuleData = [
             questions:
           </p>
           <h4 className="secondary-color">
-            Exercise 3: Online and offline relationships
+            Exercise: Online and offline relationships
           </h4>
           <table className="table table-bordered">
             <tbody>
@@ -395,7 +395,7 @@ const OnlineWorldModuleData = [
         <div>
           <br></br>
           <h4 className="secondary-color">
-            Exercise 4: What do I look for in offline relationships?
+            Exercise: What do I look for in offline relationships?
           </h4>
           <p>
             Using the table below, write down the things you value about offline

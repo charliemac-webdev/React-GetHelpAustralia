@@ -135,7 +135,7 @@ const SexualCommunicationWithChildrenModuleData = [
           <hr />
           <br></br>
           <h4 className="secondary-color">
-            Exercise 1: Cycle of online grooming
+            Exercise: Cycle of online grooming
           </h4>
           <p>
             Look at the cycle below and think about how each stage might have
@@ -394,9 +394,7 @@ const SexualCommunicationWithChildrenModuleData = [
           </p>
           <hr />
           <br></br>
-          <h4 className="secondary-color">
-            Exercise 2: The child’s perspective
-          </h4>
+          <h4 className="secondary-color">Exercise: The child’s perspective</h4>
           <p>
             Consider what you know about the child/ren you were interacting with
             and what you know about children generally. Think about the

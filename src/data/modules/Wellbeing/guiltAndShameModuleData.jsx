@@ -76,11 +76,11 @@ const GuiltAndShameModuleData = [
   },
   {
     id: 2,
-    title: "Exercise 1: Recognising shame",
+    title: "Recognising shame",
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Exercise 1: Recognising shame</h4>
+        <h4 className="secondary-color">Exercise: Recognising shame</h4>
         <p>
           We can experience and recognise shame in different ways, including
           physical, emotional and behavioural signs. Being able to recognise

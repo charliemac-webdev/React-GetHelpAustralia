@@ -199,9 +199,7 @@ const ProblemSolvingModuleData = [
         </p>
         <br></br>
         <p>
-          <h4 className="secondary-color">
-            Exercise 1: What approach do I use?
-          </h4>
+          <h4 className="secondary-color">Exercise: What approach do I use?</h4>
         </p>
         <p>
           <strong className="secondary-color">Problem Diary</strong>
