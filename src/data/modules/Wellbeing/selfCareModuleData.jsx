@@ -67,31 +67,6 @@ const SelfCareModuleData = [
         <br />
         <WellbeingAssessment />
         <br />
-        <h4 className="secondary-color">Understanding your self-care score</h4>
-        <ul className="content-list">
-          <li>
-            <b>0-10:</b> your score suggests self-care hasn’t been important to
-            you. A good starting point would be focusing on healthy eating,
-            daily exercise (a 10-minute walk counts), and a healthy sleep
-            routine.
-          </li>
-          <li>
-            <b>11-30:</b> you’re engaging in some self-care behaviours but
-            there’s room for improvement. Begin working on recognising the
-            importance of self-care and try to factor it into your daily life.
-          </li>
-          <li>
-            <b>31-40:</b> it sounds like you’re consciously incorporating
-            self-care into your daily life. Perhaps there is one particular area
-            that is low scoring where you could focus your attention.
-          </li>
-          <li>
-            <b>41-50:</b> self-care must be important to you and an area that
-            you consciously give attention to. Keep prioritising it. Read the
-            strategies below to see if there’s anything you could add to what
-            you are already doing.
-          </li>
-        </ul>
         <br />
       </>
     ),
