@@ -682,8 +682,11 @@ const FantasyModuleData = [
           Eating well, exercising, sleeping and relaxation; all of these
           contribute to a happier, healthier you. If you ensure all these are in
           check, you will find managing sexual fantasies much easier. You might
-          find it helpful to visit our self-care module and create a self-care
-          plan.
+          find it helpful to visit our&nbsp;{" "}
+          <Link className="secondary-color" to="/selfcare">
+            self-care{" "}
+          </Link>{" "}
+          &nbsp;module and create a self-care plan.
         </p>
         <p>
           <h5 className="secondary-color">9. Praise your success</h5>

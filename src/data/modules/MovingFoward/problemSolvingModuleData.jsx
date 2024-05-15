@@ -140,10 +140,10 @@ const ProblemSolvingModuleData = [
             className="secondary-color"
             to="/problem-of-immediate-gratification"
           >
-            Problem of Immediate Gratification section
+            Problem of Immediate Gratification
           </Link>
-          &nbsp;we introduced you to a table of costs and gains. This can be
-          used when evaluating any decision. If the costs outweigh the gains
+          &nbsp;module we introduced you to a table of costs and gains. This can
+          be used when evaluating any decision. If the costs outweigh the gains
           then it can be really obvious that it is not a good decision. You also
           need to ask yourself if you are choosing a short term ‘fix’ (for
           example alcohol, drugs, sex), again re-visit the&nbsp;
@@ -151,9 +151,9 @@ const ProblemSolvingModuleData = [
             className="secondary-color"
             to="/problem-of-immediate-gratification"
           >
-            Problem of Immediate Gratification section
+            Problem of Immediate Gratification
           </Link>
-          &nbsp;section if you need to understand why you might do this.
+          &nbsp;module if you need to understand why you might do this.
         </p>
         <p>
           <strong className="secondary-color">

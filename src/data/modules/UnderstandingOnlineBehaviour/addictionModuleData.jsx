@@ -264,8 +264,11 @@ const AddictionModuleData = [
             including taking an interest in diet, social life, personal hygiene
             and exercise. Having an interest in this area can then be drawn on
             to use in the above techniques e.g. for ‘active distraction’ going
-            to the gym or cooking a meal. Take a look at the Self-care module
-            for more helpful information.
+            to the gym or cooking a meal. Take a look at the&nbsp;{" "}
+            <Link className="secondary-color" to="/selfcare">
+              self-care{" "}
+            </Link>{" "}
+            &nbsp;module for more helpful information.
           </p>
           <p>
             Make a list which of these techniques you will find most useful or
