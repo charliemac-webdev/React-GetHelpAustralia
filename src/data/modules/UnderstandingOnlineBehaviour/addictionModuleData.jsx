@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import document from "../../../documents/Addiction_Exercise_Addiction diary.pdf";
 
 const AddictionModuleData = [
   {
@@ -265,7 +266,7 @@ const AddictionModuleData = [
             and exercise. Having an interest in this area can then be drawn on
             to use in the above techniques e.g. for ‘active distraction’ going
             to the gym or cooking a meal. Take a look at the&nbsp;{" "}
-            <Link className="secondary-color" to="/selfcare">
+            <Link className="secondary-color" to="/self-care">
               self-care{" "}
             </Link>{" "}
             &nbsp;module for more helpful information.
@@ -332,7 +333,7 @@ const AddictionModuleData = [
           </table>
           <p>
             <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/managing-addiction-editable.pdf"
+              href={document}
               target="_blank"
               rel="noopener noreferrer"
               className="secondary-color"

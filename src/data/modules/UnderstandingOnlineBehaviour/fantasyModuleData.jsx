@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import document from "../../../documents/Fantasy_Exercise_Fantasy diary.pdf";
 import pictureOne from "../../../images/diagrams-surely.gif";
 
 // Accordion
@@ -195,11 +196,7 @@ const FantasyModuleData = [
           </tbody>
         </table>
         <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/fantasy-exercise-1beditable.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={document} target="_blank" rel="noopener noreferrer">
             <strong>Download and print a full page diary</strong>
           </a>
           .
@@ -683,7 +680,7 @@ const FantasyModuleData = [
           contribute to a happier, healthier you. If you ensure all these are in
           check, you will find managing sexual fantasies much easier. You might
           find it helpful to visit our&nbsp;{" "}
-          <Link className="secondary-color" to="/selfcare">
+          <Link className="secondary-color" to="/self-care">
             self-care{" "}
           </Link>{" "}
           &nbsp;module and create a self-care plan.
