@@ -2,6 +2,9 @@ import pictureTwo from "../../../images/diagrams-MAN.gif";
 import pictureThree from "../../../images/diagrams-feelings.gif";
 import pictureOne from "../../../images/diagrams-response.gif";
 
+import documentTwo from "../../../documents/Recognising and Dealing with Feelings_Exercise_How to get back to feeling ok and in control.pdf";
+import documentOne from "../../../documents/Recognising and Dealing with Feelings_How in-turn with your feelings are you.pdf";
+
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import EmotionsQuiz from "../../../components/EmotionsQuiz";
@@ -88,11 +91,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           </tbody>
         </table>
         <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/dealing-with-feelings-exercise-1.pdf"
-            target="_blank"
-            rel="nonreferrer noreferrer"
-          >
+          <a href={documentOne} target="_blank" rel="nonreferrer noreferrer">
             Download printable template &gt;
           </a>
         </p>
@@ -462,11 +461,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           </tbody>
         </table>
         <p>
-          <a
-            href="https://get-help.stopitnow.org.uk/downloads/self-help/dealing-with-feelings/dealing-with-feelings-exercise-3.pdf"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href={documentTwo} target="_blank" rel="noopener">
             Download printable template &gt;
           </a>
         </p>

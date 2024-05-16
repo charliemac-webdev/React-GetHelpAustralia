@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
+import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
 import imageOne from "../images/indigenous.png";
 import imageTwo from "../images/torres-strait.png";
-import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
 
 const Footer = () => {
   return (
@@ -39,15 +40,21 @@ const Footer = () => {
           <div className="col pt-4">
             <div className="d-md-flex flex-md-column text-md-center">
               <div className="p-md-2">
+                <Link to="/" className="default-link">
+                  <p className="m-0 footer-link text-white">
+                    Disclaimer and Privacy Policy
+                  </p>
+                </Link>
+              </div>
+              <div className="p-md-2">
                 <p className="copyright m-0">
                   copyright &copy; Get Help! Australia
                 </p>
-                <p>
+                <p className="m-0">
                   <span id="date"></span> all rights reserved
                 </p>
               </div>
-
-              <div className="p-md-2">
+              <div className="p-0 m-0">
                 <p className="m-0">Website by</p>
                 <p>Charlie Mac Web Development</p>
               </div>
