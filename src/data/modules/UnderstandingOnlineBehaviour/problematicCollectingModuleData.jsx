@@ -5,6 +5,9 @@ import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import imageTwo from "../../../images/problematic-collecting-excercise-3a-graph.png";
 import imageOne from "../../../images/problematic-collecting-excercise-3a-scale.png";
 
+import documentOne from "../../../documents/Problematic collecting_Challenge yourself.pdf";
+import documentTwo from "../../../documents/Problematic collecting_My collecting.pdf";
+
 const ProblematicCollectingModuleData = [
   {
     id: 1,
@@ -63,11 +66,7 @@ const ProblematicCollectingModuleData = [
         <br></br>
         <h4 className="secondary-color">Exercise: My collecting</h4>
         <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-1-editable.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={documentTwo} target="_blank" rel="noopener noreferrer">
             Download printable version of this exercise &gt;
           </a>
         </p>
@@ -503,11 +502,7 @@ const ProblematicCollectingModuleData = [
         </table>
         <p>
           <strong>
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problematic-collecting-excercise-4.pdf"
-              target="_blank"
-              rel="noopener"
-            >
+            <a href={documentOne} target="_blank" rel="noopener">
               Download printable template
             </a>
           </strong>

@@ -10,6 +10,11 @@ import pictureFour from "../../../images/download-2.png";
 import pictureTwo from "../../../images/download.png";
 import pictureOne from "../../../images/triple-a-engine.png";
 
+import documentOne from "../../../documents/Online World_Exercise_How to cope with isolation.pdf";
+import documentTwo from "../../../documents/Online World_Exercise_Offline relationship.pdf";
+import documentThree from "../../../documents/Online World_Exercise_Online and offline relationships.pdf";
+import documentFour from "../../../documents/Online World_Exercise_Sex and the internet.pdf";
+
 const OnlineWorldModuleData = [
   {
     id: 1,
@@ -101,11 +106,7 @@ const OnlineWorldModuleData = [
           className="d-block mx-auto"
         />
         <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/exercise1sexandtheinternet.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={documentFour} target="_blank" rel="noopener noreferrer">
             <b>
               <u>Download and edit pdf template</u>
             </b>
@@ -346,11 +347,7 @@ const OnlineWorldModuleData = [
             </tbody>
           </table>
           <p>
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/online-relationships-exercise-1.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={documentThree} target="_blank" rel="noopener noreferrer">
               <strong>Download and edit pdf template</strong>
             </a>
             .
@@ -439,11 +436,7 @@ const OnlineWorldModuleData = [
             </tbody>
           </table>
           <p>
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/online-relationships-exercise-2.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={documentTwo} target="_blank" rel="noopener noreferrer">
               <strong>Download and edit pdf template</strong>
             </a>
             .
@@ -522,11 +515,7 @@ const OnlineWorldModuleData = [
           </table>
           <p>
             <strong>
-              <a
-                href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/online-relationships-exercise-3.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={documentOne} target="_blank" rel="noopener noreferrer">
                 Download and edit pdf template
               </a>
             </strong>

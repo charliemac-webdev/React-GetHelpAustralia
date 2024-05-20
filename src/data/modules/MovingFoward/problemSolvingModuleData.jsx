@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import document from "../../../documents/Problem Solving - Exercise 1_Problem Diary.pdf";
 
 const ProblemSolvingModuleData = [
   {
@@ -287,7 +288,7 @@ const ProblemSolvingModuleData = [
         <p>
           <a
             className="secondary-color"
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/problem-solving-exercise-1.pdf"
+            href={document}
             target="_blank"
             rel="noopener noreferrer"
           >

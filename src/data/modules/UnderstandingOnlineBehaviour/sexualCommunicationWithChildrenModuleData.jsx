@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
+import documentOne from "../../../documents/Sexual communication_Cycle of online grooming.pdf";
+import documentTwo from "../../../documents/Sexual communication_responding to justifications.pdf";
+
 const SexualCommunicationWithChildrenModuleData = [
   {
     id: 1,
@@ -155,11 +158,7 @@ const SexualCommunicationWithChildrenModuleData = [
           <p>
             You can download the exercise sheet&nbsp;
             <u>
-              <a
-                href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/cycleofonlinegroomingexercise.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={documentOne} target="_blank" rel="noopener noreferrer">
                 here
               </a>
             </u>
@@ -348,11 +347,7 @@ const SexualCommunicationWithChildrenModuleData = [
             </tbody>
           </table>
           <p>
-            <a
-              href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/respondingtojustificationsexercise.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={documentTwo} target="_blank" rel="noopener noreferrer">
               <u>Download printable version</u>
             </a>
           </p>

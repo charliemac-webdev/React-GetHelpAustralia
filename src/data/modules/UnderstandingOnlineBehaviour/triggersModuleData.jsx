@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
+import documentOne from "../../../documents/Triggers_Exercise_Identifying triggers.pdf";
+import documentTwo from "../../../documents/Triggers_Exercise_Managing triggers.pdf";
+
 const triggersModuleData = [
   {
     id: 1,
@@ -109,11 +112,7 @@ const triggersModuleData = [
           </tbody>
         </table>
         <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/triggers-exercise-1editable.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={documentOne} target="_blank" rel="noopener noreferrer">
             <strong>Download printable template</strong>
           </a>
           .
@@ -177,11 +176,7 @@ const triggersModuleData = [
           </tbody>
         </table>
         <p>
-          <a
-            href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/triggers-exercise-2editable.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={documentTwo} target="_blank" rel="noopener noreferrer">
             <strong>Download printable template</strong>
           </a>
           .

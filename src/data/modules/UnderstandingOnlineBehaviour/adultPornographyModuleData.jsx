@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import document from "../../../documents/Adult Pornography_Online Use Diary.pdf";
 
 const AdultPornographyModuleData = [
   {
@@ -662,6 +663,16 @@ const AdultPornographyModuleData = [
                 </tr>
               </tbody>
             </table>
+            <p>
+              <a
+                href={document}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="secondary-color"
+              >
+                Download printable template &gt;
+              </a>
+            </p>
           </div>
           <ul className="content-list">
             <li>

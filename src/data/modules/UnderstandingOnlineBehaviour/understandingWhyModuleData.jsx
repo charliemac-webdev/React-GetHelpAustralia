@@ -7,6 +7,10 @@ import pictureOne from "../../../images/understanding-why-excercise-1-example.pn
 import pictureTwo from "../../../images/understanding-why-excercise-2a-example-v2.png";
 import pictureThree from "../../../images/understanding-why-excercise-2b-example.png";
 
+import documentOne from "../../../documents/Understanding Why - Exercise - Daily Interent use record.pdf";
+import documentTwo from "../../../documents/Understanding Why_Progression timeline - Digging Deeper.pdf";
+import documentThree from "../../../documents/Understanding Why_Progression timeline - Making timeline.pdf";
+
 const understandingWhyModuleData = [
   {
     id: 1,
@@ -107,11 +111,7 @@ const understandingWhyModuleData = [
           style={{ height: "auto", maxWidth: "100%" }}
         />
         <br />
-        <a
-          href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/understanding-why-exercise-1-editable.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={documentOne} target="_blank" rel="noopener noreferrer">
           Download and edit PDF template
         </a>
       </>
@@ -174,11 +174,7 @@ const understandingWhyModuleData = [
         />
         <br />
         <br></br>
-        <a
-          href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/understanding-why-exercise-2a-editable.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={documentThree} target="_blank" rel="noopener noreferrer">
           Download PDF template
         </a>
         <br />
@@ -207,11 +203,7 @@ const understandingWhyModuleData = [
         <br />
         <p></p>
         <br></br>
-        <a
-          href="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/part-b-editable.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={documentTwo} target="_blank" rel="noopener noreferrer">
           Download PDF template
         </a>
         <br />
