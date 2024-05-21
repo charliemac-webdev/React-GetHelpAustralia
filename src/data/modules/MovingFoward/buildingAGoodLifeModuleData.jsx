@@ -438,10 +438,7 @@ const BuildingAGoodLifeModuleData = [
           I now know some helpful strategies to meet my needs in a new and
           healthy way.
         </ReflectionQuestion>
-        <Link
-          className="text-decoration-none"
-          to="/consequences-media-impact-and-disclosure"
-        >
+        <Link className="text-decoration-none" to="/">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

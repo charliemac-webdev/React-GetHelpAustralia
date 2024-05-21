@@ -475,7 +475,10 @@ const ProblemSolvingModuleData = [
         <ReflectionQuestion>
           I can now identify ways to avoid acting on impulse.
         </ReflectionQuestion>
-        <Link className="text-decoration-none" to="/building-a-good-life">
+        <Link
+          className="text-decoration-none"
+          to="/consequences-media-impact-and-disclosure"
+        >
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module

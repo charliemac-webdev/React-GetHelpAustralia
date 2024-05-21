@@ -461,7 +461,7 @@ const DisclosureModuleData = [
           my situation.
         </ReflectionQuestion>
 
-        <Link className="text-decoration-none" to="/problem-solving">
+        <Link className="text-decoration-none" to="/relapse-prevention">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module
