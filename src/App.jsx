@@ -31,6 +31,7 @@ import AddictionModule from "./pages/UnderstandingOnlineBehaviour/addiction";
 import AdultPornographyModule from "./pages/UnderstandingOnlineBehaviour/adult-pornography";
 import FantasyModule from "./pages/UnderstandingOnlineBehaviour/fantasy";
 import ImagesAreChildrenModule from "./pages/UnderstandingOnlineBehaviour/images-are-children";
+import JustificationsModule from "./pages/UnderstandingOnlineBehaviour/justifications-page";
 import OnlineWorldModule from "./pages/UnderstandingOnlineBehaviour/online-world";
 import ProblemOfImmediateModule from "./pages/UnderstandingOnlineBehaviour/problem-with-immediate-gratification";
 import ProblematicCollectingModule from "./pages/UnderstandingOnlineBehaviour/problematic-collecting";
@@ -231,6 +232,10 @@ function App() {
             <Route
               path="/self-awareness-psychological-distress"
               element={<SelfAwarenessDistress showMenu={handleShowMenu} />}
+            />
+            <Route
+              path="/justifications"
+              element={<JustificationsModule showMenu={handleShowMenu} />}
             />
             <Route path="/modal-page" element={<Modal />} />
             <Route path="*" element={<Error />} />

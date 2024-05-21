@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
-
 import documentOne from "../../../documents/Sexual communication_Cycle of online grooming.pdf";
 import documentTwo from "../../../documents/Sexual communication_responding to justifications.pdf";
+import image from "../../../images/theOnlineEnv.png";
 
 const SexualCommunicationWithChildrenModuleData = [
   {
@@ -166,15 +166,11 @@ const SexualCommunicationWithChildrenModuleData = [
           </p>
           <p>
             <img
-              fetchpriority="high"
-              decoding="async"
-              class="alignnone size-full wp-image-601"
-              src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/download-3.png"
-              alt=""
-              width="512"
-              height="453"
-              srcset="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/download-3.png 512w, https://www.stopitnow.org.uk/wp-content/uploads/2020/01/download-3-300x265.png 300w"
-              sizes="(max-width: 512px) 100vw, 512px"
+              className="mx-auto d-block"
+              src={image}
+              alt="The online environment"
+              height="auto"
+              width="50%"
             />
           </p>
           <br></br>
@@ -248,10 +244,6 @@ const SexualCommunicationWithChildrenModuleData = [
               ‘s/he was sexually active anyway’
             </li>
             <li>
-              <em>desirability</em>&nbsp;– believing themselves to be attractive
-              and desirable
-            </li>
-            <li>
               <em>equating</em>&nbsp;children to adults, for example, in terms
               of consent and understanding.
             </li>
@@ -268,13 +260,15 @@ const SexualCommunicationWithChildrenModuleData = [
             yourself from engaging in the behaviour in the future.
           </p>
           <p>
-            Use the table below to consider your justifications at the time and
-            responses now. You should repeat all the phrases you write in the
-            “Responses” column in your head, so that this sort of thinking
-            becomes automatic if you start to experience the justifications
-            again.
+            If you haven’t looked at the justifications module (link), take some
+            time to complete this now before moving on so that you can recognise
+            your justifications at the time you were engaging in harmful
+            behaviour and how you can challenge them.
           </p>
-          <p>Some examples are provided.</p>
+          <p>
+            If you have sexually communicated with children, consider some of
+            the examples below that you could add to your justification table.{" "}
+          </p>
           <p>&nbsp;</p>
           <table className="table table-bordered">
             <tbody>
@@ -292,8 +286,8 @@ const SexualCommunicationWithChildrenModuleData = [
                 </td>
                 <td>
                   <em>
-                    “They are a child. They are not able to consent to the
-                    sexual communication.”
+                    &nbsp; “They are a child. They are not able to consent to
+                    the sexual communication.”
                   </em>
                 </td>
               </tr>
@@ -303,7 +297,11 @@ const SexualCommunicationWithChildrenModuleData = [
                 </td>
                 <td>
                   &nbsp;
-                  <em>“These conversation are still harmful to children”</em>
+                  <em>
+                    &nbsp; “These conversation are harmful to children. We know
+                    that the impact of these conversations can be profound and
+                    have lifelong impacts.”
+                  </em>
                 </td>
               </tr>
               <tr>
@@ -312,7 +310,10 @@ const SexualCommunicationWithChildrenModuleData = [
                 </td>
                 <td>
                   <em>
-                    &nbsp;“I’m the adult, it’s my responsibility to stop.”
+                    &nbsp; “I’m the adult, it’s my responsibility to stop. We
+                    know that children do not have the ability to have a
+                    complete understanding of consequences, and so it is my
+                    responsibility as an adult to stop harmful behaviours.”
                   </em>
                 </td>
               </tr>
@@ -350,6 +351,11 @@ const SexualCommunicationWithChildrenModuleData = [
             <a href={documentTwo} target="_blank" rel="noopener noreferrer">
               <u>Download printable version</u>
             </a>
+          </p>
+          <p>
+            Remember, you should repeat all the phrases you write in the
+            challenge column in your head, so that this sort of thinking becomes
+            automatic if you start to use the justifications.
           </p>
           <br></br>
         </div>

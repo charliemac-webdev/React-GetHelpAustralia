@@ -1,12 +1,16 @@
 import { Slider } from "@mui/material";
+import { useState } from "react";
 
 function valuetext(value) {
   return value;
 }
 
-import React from "react";
+const DistressQuestion = ({ value, children }) => {
+  const [sliderValue, setSliderValue] = useState(0);
 
-const DistressQuestion = ({ children }) => {
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
   return (
     <>
       <div className="bg-primary-subtle border border-primary p-3">
@@ -22,8 +26,10 @@ const DistressQuestion = ({ children }) => {
           step={1}
           min={1}
           max={5}
+          value={sliderValue}
           getAriaValueText={valuetext}
           valueLabelDisplay="on"
+          onChange={handleChange}
         />
       </div>
       <div className="d-flex justify-content-between fs-6">

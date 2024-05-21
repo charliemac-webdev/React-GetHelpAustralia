@@ -16,12 +16,6 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
         <h2 className="secondary-color">
           Recognising and dealing with feelings
         </h2>
-        {/* <span className="print-button me-1" role="button">
-          <FcPrint className="print-icon" /> Print
-        </span>
-        <span className="pdf-button" role="button">
-          <FaFilePdf className="print-icon" /> PDF
-        </span> */}
       </Heading>
       <MainContent>
         <br></br>

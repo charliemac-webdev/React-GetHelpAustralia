@@ -1,6 +1,4 @@
 import { useEffect } from "react";
-import { FaFilePdf } from "react-icons/fa";
-import { FcPrint } from "react-icons/fc";
 import Heading from "../../components/Heading";
 import MainContent from "../../components/MainContent";
 import Module from "../../components/Module";
@@ -16,12 +14,6 @@ const GuiltAndShameModule = ({ showMenu }) => {
         <br></br>
         <br></br>
         <h2 className="secondary-color">Guilt and shame</h2>
-        <span className="print-button me-1" role="button">
-          <FcPrint className="print-icon" /> Print
-        </span>
-        <span className="pdf-button" role="button">
-          <FaFilePdf className="print-icon" /> PDF
-        </span>
       </Heading>
       <MainContent>
         <br></br>
