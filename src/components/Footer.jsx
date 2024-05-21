@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
+// import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
+import logo from "../images/UniSC_Abr-Logo_Horiz_White_RGB.png";
 import imageOne from "../images/indigenous.png";
 import imageTwo from "../images/torres-strait.png";
 
@@ -25,10 +26,6 @@ const Footer = () => {
                     the land
                   </span>
                   <br />
-                  {/* <span>
-                    Traditional Owners of the land where we work and live.
-                  </span>
-                  <br /> */}
                   <span>
                     where we work and live. We pay our respects to Elders past,
                     present and emerging.

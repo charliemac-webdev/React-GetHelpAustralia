@@ -8,6 +8,7 @@ import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 
 import imageOne from "../../../images/good-lives.png";
+import document from "../../../documents/Good Life Plan.pdf";
 
 const BuildingAGoodLifeModuleData = [
   {
@@ -326,7 +327,7 @@ const BuildingAGoodLifeModuleData = [
           We have developed the following{" "}
           <a
             className="secondary-color"
-            href="https://shorespace.org.uk/wp-content/uploads/2023/05/Good-Lives-Plan.pdf"
+            href={document}
             target="_blank"
             rel="noopener noreferrer"
           >
