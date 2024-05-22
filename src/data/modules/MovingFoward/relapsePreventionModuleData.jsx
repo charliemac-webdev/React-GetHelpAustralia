@@ -272,7 +272,7 @@ const RelapsePreventionModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
-        <h4 className="secondary-color">Exercise: Warning signs</h4>
+        <h4 className="secondary-color">Exercise 1: Warning signs</h4>
         <p>
           Write a list of your physical, behavioural and emotional warning signs
           and answer the following questions.

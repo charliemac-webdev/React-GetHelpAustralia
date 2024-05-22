@@ -129,7 +129,7 @@ const FantasyModuleData = [
         </p>
         <br></br>
         <h4 className="secondary-color">
-          Exercise Part A: Thinking about past fantasies
+          Exercise 1 - Part A: Thinking about past fantasies
         </h4>
         <p>
           Think of a fantasy that you have had, either regularly or a one-off
@@ -165,7 +165,7 @@ const FantasyModuleData = [
         </p>
         <p>Make a note of these differences.</p>
         <br></br>
-        <h4 className="secondary-color">Exercise Part B: Fantasy diary</h4>
+        <h4 className="secondary-color">Exercise 1 - Part B: Fantasy diary</h4>
         <p>
           Over the next week use the fantasy diary below to keep a record of
           your fantasies, both sexual and non-sexual.
@@ -295,7 +295,7 @@ const FantasyModuleData = [
         </p>
         <p>Now let’s see how much you understand fantasy.</p>
         <br></br>
-        <h4 className="secondary-color">Exercise: Fantasy knowledge</h4>
+        <h4 className="secondary-color">Exercise 2: Fantasy knowledge</h4>
         <p>
           Read each example of a fantasy below and consider whether you think
           each one is an appropriate or inappropriate fantasy. Then click to see
@@ -523,7 +523,7 @@ const FantasyModuleData = [
           fantasies.
         </p>
         <br></br>
-        <h4 className="secondary-color">Exercise: Inappropriate fantasy</h4>
+        <h4 className="secondary-color">Exercise 3: Inappropriate fantasy</h4>
         <p>
           Have you recently had a fantasy about a child? If you have, then
           without thinking about it in too much detail, work through these
@@ -603,7 +603,7 @@ const FantasyModuleData = [
         </p>
         <br></br>
         <h4 className="secondary-color">
-          Exercise: Use a fantasy management technique
+          Exercise 4: Use a fantasy management technique
         </h4>
         <p>
           Have a read through the techniques below. Next time you have a harmful

@@ -67,7 +67,7 @@ const understandingWhyModuleData = [
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Exercise: Internet Use</h4>
+        <h4 className="secondary-color">Exercise 1: Internet Use</h4>
         <p>
           You might already have some understanding of why you have been or are
           tempted to behave illegally online. You might also have recognised
@@ -123,7 +123,7 @@ const understandingWhyModuleData = [
     description: (
       <>
         <br></br>
-        <h4 className="secondary-color">Exercise: Progression Timeline</h4>
+        <h4 className="secondary-color">Exercise 2: Progression Timeline</h4>
         <p>
           The second exercise is in three parts and looks back over your life to
           help you think about how you started behaving illegally online.

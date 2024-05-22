@@ -322,7 +322,7 @@ const SelfCareModuleData = [
                 don’t seem to help immediately. It is important to use the
                 techniques as early as you can when you begin to experience
                 distress – although they are a useful technique to practice
-                generally, whether feeling distressed or not. ETC ETC
+                generally, whether feeling distressed or not.
               </p>
               <h5 className="secondary-color">
                 Grounding exercise 1: 5-4-3-2-1 method

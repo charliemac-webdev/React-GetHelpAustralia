@@ -182,7 +182,7 @@ const AdultPornographyModuleData = [
         </ul>
         <br></br>
         <h4 className="secondary-color">
-          Exercise: Is adult pornography affecting your real world?
+          Exercise 1: Is adult pornography affecting your real world?
         </h4>
         <p>
           These questions will help you work out whether your adult pornography
@@ -464,7 +464,7 @@ const AdultPornographyModuleData = [
           </p>
           <br></br>
           <h4 className="secondary-color">
-            Exercise: Thinking about your own behaviour
+            Exercise 2: Thinking about your own behaviour
           </h4>
           <p>
             Below are some questions to help you think about your pornography
@@ -562,7 +562,7 @@ const AdultPornographyModuleData = [
           </p>
           <br></br>
           <h4 className="secondary-color">
-            Exercise: Keep an online use diary
+            Exercise 3: Keep an online use diary
           </h4>
           <p>
             Over the next week, we encourage you to keep a diary, completing the

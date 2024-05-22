@@ -27,7 +27,7 @@ const SelfEsteemAndAssertivenessModuleData = [
         </p>
         <br></br>
         <h4 className="secondary-color">
-          Exercise: What can I do to build my self-esteem?
+          Exercise 1: What can I do to build my self-esteem?
         </h4>
         <p>
           To increase your self-esteem, you need to challenge and change the
@@ -164,15 +164,18 @@ const SelfEsteemAndAssertivenessModuleData = [
           </Link>{" "}
           here.
         </p>
+
         <p>
           <strong>Focus on positive things</strong>
           <br />
           If you have low self-esteem, it can take practice to get used to
           thinking more positively about yourself.
         </p>
+        <br></br>
+        <h4 className="secondary-color">Exercise 2: How I see myself</h4>
+
         <p>
-          <strong>Exercise 2&nbsp;– How I see myself</strong>
-          <br />
+          {" "}
           One way you can do this is by making a list of things that you like
           about yourself.
         </p>

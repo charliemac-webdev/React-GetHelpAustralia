@@ -60,7 +60,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <hr />
         <h5 className="secondary-color">
-          Exercise: How in-tune with your feelings are you?
+          Exercise 1: How in-tune with your feelings are you?
         </h5>
         <p>
           Below is a worksheet which will help you to identify what happens to
@@ -187,7 +187,9 @@ const RecognisingAndDealingWithFeelingsModuleData = [
         </p>
         <p>Pleasant thinking encourages healthy behaviour.</p>
         <hr />
-        <h5 className="secondary-color">Exercise: Your unpleasant thoughts</h5>
+        <h5 className="secondary-color">
+          Exercise 2: Your unpleasant thoughts
+        </h5>
         <br></br>
         <p>
           Write down a list of your most common unpleasant thoughts. With each
