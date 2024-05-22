@@ -14,13 +14,12 @@ const AddictionModuleData = [
           <h4 className="secondary-color">Addiction</h4>
           <p>What do we mean by a compulsive or addictive behaviour?</p>
           <p>
-            <b>Compulsive:</b> defined as performing an act persistently and
-            repetitively without it necessarily leading to an actual reward or
-            pleasure.
+            <b>Compulsive:</b> feeling a need to do something to avoid bad
+            consequences.
           </p>
           <p>
-            <b>Addiction:</b> is a state characterized by compulsive engagement
-            in&nbsp;rewarding&nbsp;stimuli, despite adverse consequences.
+            <b>Addiction:</b> continue seeking a positive reward, despite
+            substantial negative consequences.
           </p>
           <p>
             Typically an individual becomes dependent on something to reduce the
@@ -29,6 +28,44 @@ const AddictionModuleData = [
             feeling of pleasure. Continual usage leads to a reliance on the
             behaviour to feel normal which ultimately leads to psychological
             dependence.
+          </p>
+          <p>
+            Consider a behaviour you think is problematic and reflect on the
+            following questions:-
+          </p>
+          <ul className="content-list">
+            <li>
+              Challenging your thoughts that make it feel like the behaviour is
+              okay.
+            </li>
+            <li>
+              Do you find yourself doing it more often and for longer periods of
+              time than you originally intended?
+            </li>
+            <li>
+              Does doing it make you feel better and more in control when you
+              are doing it? Do you feel worse when you don't do it?
+              <br />
+              <li>
+                Do you go to great efforts to do the behaviour including great
+                efforts to hide the behaviour?
+              </li>
+            </li>
+            <li>
+              Do you feel anxious or uncomfortable when you can't do it or even
+              when you think about not doing it?
+            </li>
+            <li>
+              Has doing it negatively impacted your life and your relationships?
+            </li>
+            <li>
+              Do you often tell yourself you'll stop, only to end up continuing
+              the same behavior?
+            </li>
+          </ul>
+          <p>
+            If several of these questions relate to you, then this module may be
+            helpful for you.
           </p>
           <hr />
           <br></br>
@@ -103,7 +140,7 @@ const AddictionModuleData = [
   },
   {
     id: 2,
-    title: "It's not my fault",
+    title: "It's not my fault - right?",
     description: (
       <div className="tab-main-content">
         <br></br>

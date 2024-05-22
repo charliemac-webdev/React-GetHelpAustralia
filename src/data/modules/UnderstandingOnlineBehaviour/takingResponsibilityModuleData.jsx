@@ -44,51 +44,6 @@ const takingResponsibilityModuleData = [
   },
   {
     id: 2,
-    title: "Justification",
-    description: (
-      <>
-        <br></br>
-        <h4 className="secondary-color">Justification</h4>
-        <p>
-          When we encounter a situation in which our behaviour is inconsistent
-          with our own or others’ beliefs and values, our minds tend to come up
-          with false reasons for why our behaviour is okay. These reasons are
-          called ‘justifications’, and they serve to make us feel more
-          comfortable and give us permission to keep engaging in the behaviour
-          even when it is harmful.
-        </p>
-        <p>Justifications can be a barrier to making positive changes.</p>
-        <p>
-          It is a way to deflect attention and responsibility. Here&nbsp;are
-          some examples of statements that represent justification of
-          behaviours. Have a think about what justifications you have have used.
-        </p>
-        <ul className="content-list">
-          <li>“It was only once in a while.”</li>
-          <li>“I needed to get my needs met somewhere.”</li>
-          <li>“At least I’m not as bad as so-and-so.”</li>
-          <li>“I’m dealing with a lot of stress and need to unwind.”</li>
-        </ul>
-        <p>
-          If you identify with the statements in the list&nbsp;then
-          justification could be helping you to keep doing a behaviour that you
-          know is harmful. This, combined with feelings of a loss of control,
-          can be risky for you.
-        </p>
-        <p>
-          Once you have identified what justifications you are using, it is
-          important to think about how you can challenge these. For example, if
-          you are justifying the behaviour by saying "it was only once in a
-          while", a potential challenge could be "even if its once in a while,
-          it is still illegal and harmful". Once you begin to challenge these
-          justifications that have less power.
-        </p>
-        <br></br>
-      </>
-    ),
-  },
-  {
-    id: 3,
     title: "Changes",
     description: (
       <>
@@ -155,7 +110,7 @@ const takingResponsibilityModuleData = [
           <li>get a mobile phone without internet access;</li>
         </ul>
         <br />
-        <h4 className="secondary-color">Exercise: What can I do.</h4>
+        <h4 className="secondary-color">Exercise 1: What can I do.</h4>
         <p>
           Make a list of three things you can do to immediately reduce your risk
           of illegal online sexual behaviour, e.g.:
@@ -169,7 +124,7 @@ const takingResponsibilityModuleData = [
     ),
   },
   {
-    id: 4,
+    id: 3,
     title: "Reflection",
     description: (
       <>
@@ -188,10 +143,6 @@ const takingResponsibilityModuleData = [
         <ReflectionQuestion>
           I now have a better understanding of one’s level of control over their
           current online sexual behaviours.
-        </ReflectionQuestion>
-        <ReflectionQuestion>
-          I can now recognise how denial is used to allow problematic behaviour
-          to continue.
         </ReflectionQuestion>
         <ReflectionQuestion>
           I now have a better understanding of how to make immediate changes to

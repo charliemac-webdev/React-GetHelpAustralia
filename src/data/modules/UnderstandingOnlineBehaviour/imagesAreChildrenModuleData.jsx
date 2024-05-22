@@ -304,40 +304,14 @@ const ImagesAreChildrenModuleData = [
         <div className="tab-main-content">
           <br></br>
           <h4 className="secondary-color">
-            Exercise: Understanding and challenging justifications
+            Exercise 1: Understanding and challenging justifications
           </h4>
           <p>
             For people to allow themselves to view sexual images of children,
             they will generally be using a number of justifications to persuade
             themselves that it is ok to do what they are doing.
           </p>
-          <p>
-            This process is called ‘self-talk’. Self-talk can be either helpful
-            or unhelpful. Justification is unhelpful self-talk because it is the
-            internal argument someone uses to give themselves permission to do
-            something they know they shouldn’t be doing.
-          </p>
-          <p>Here’s an example:</p>
-          <p className="text-center">
-            <img
-              src={pictureOne}
-              alt="diagram yes or no"
-              width="80%"
-              height="auto"
-            />
-          </p>
-          <br></br>
-          <p>
-            People will be persuaded by the self-talk process if their ‘yes’
-            justifications in favour of doing the behaviour are stronger than
-            their ‘no’ arguments against the behaviour.
-          </p>
-          <p>
-            By being aware of the self-talk process you go through, and the
-            negative effects of offending for yourself and others, you will
-            increase your ability and motivation to avoid further offending.
-          </p>
-          <br></br>
+
           <p>
             This film includes some of the justifications that people use to
             allow themselves to continue offending online.
@@ -352,23 +326,19 @@ const ImagesAreChildrenModuleData = [
               src="https://www.youtube.com/embed/Bq-rTc7x_a4?feature=oembed"
             ></iframe>
           </p>
-          <br></br>
-          <br></br>
           <p>
-            In the box below, the left hand side column contains some
-            justifications you might have used to justify your use of sexual
-            images of children. In the right hand side column list statements
-            which you could use to challenge the matching justification to
-            dissuade yourself from engaging in the behaviour.
+            If you haven’t looked at the justifications module, take some time
+            to complete this now before moving on so that you can recognise your
+            justifications at the time you were engaging in harmful behaviour
+            and how you can challenge them.
           </p>
           <p>
-            Please add at the bottom of the table any additional justifications
-            that you use, along with a matching challenging response. You should
-            repeat all the phrases you write in the challenge column in your
-            head, so that this sort of thinking becomes automatic if you start
-            to use the justifications.
+            If you have viewed or are worried about viewing sexual images of
+            children, consider some of the examples below that you could add to
+            your justification table.
           </p>
-          <p>There is an example provided.</p>
+
+          <p>There are examples provided.</p>
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -395,21 +365,13 @@ const ImagesAreChildrenModuleData = [
                     By looking at child sexual abuse images I am aiding to the
                     demand of this material being made, which means I am
                     allowing the sexual abuse of children to continue.
+                    Victim-survivors identify the re-victimisation they
+                    experience when individuals access these images.
                   </em>
                 </td>
                 <td></td>
               </tr>
-              <tr>
-                <td>
-                  <em>“I did not directly abuse the child in the image.”</em>
-                </td>
-                <td>
-                  <em>
-                    The children in the images are real children who are being
-                    sexually abused.
-                  </em>
-                </td>
-              </tr>
+
               <tr>
                 <td>
                   <em>“The child took this photograph of themselves.”</em>
@@ -419,6 +381,7 @@ const ImagesAreChildrenModuleData = [
               <tr>
                 <td></td>
                 <td></td>
+                <br></br>
               </tr>
               <tr>
                 <td></td>
@@ -437,6 +400,11 @@ const ImagesAreChildrenModuleData = [
           </table>
 
           <br></br>
+          <p>
+            Remember, you should repeat all the phrases you write in the
+            challenge column in your head, so that this sort of thinking becomes
+            automatic if you start to use the justifications.{" "}
+          </p>
           <p>
             It can be difficult to explore this exercise independently and so we
             encourage you to contact the{" "}

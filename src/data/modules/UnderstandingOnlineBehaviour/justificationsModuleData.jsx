@@ -21,19 +21,23 @@ const JustificationsModuleData = [
             even when it is harmful. It is a way to deflect responsibility.
           </p>
           <p>
-            If we think back to the thoughts, feelings and behaviour section
-            (insert link), we know our behaviour is the consequence of what we
-            think and feel. So, if we are telling ourselves that something is
-            okay, we are more likely to engage in that behaviour, even when it
-            is harmful. These ‘making it okay’ statements we tell ourselves are
+            If we think back to the{" "}
+            <Link to="/understanding-thoughts-feelings-and-behaviours">
+              thoughts, feelings and behaviour section
+            </Link>
+            , we know our behaviour is the consequence of what we think and
+            feel. So, if we are telling ourselves that something is okay, we are
+            more likely to engage in that behaviour, even when it is harmful.
+            These ‘making it okay’ statements we tell ourselves are
             justifications.
           </p>
           <p>
             It can sometimes be like having an internal monologue where you are
-            battling between unhelpful and helpful thinking, like self-talk
-            (insert module). Justifications are unhelpful thinking as they give
-            permission to do something we shouldn’t be doing. We can use helpful
-            thinking to challenge these justifications.
+            battling between unhelpful and helpful thinking, like{" "}
+            <Link to="/self-talk">self-talk</Link>. Justifications are unhelpful
+            thinking as they give permission to do something we shouldn’t be
+            doing. We can use helpful thinking to challenge these
+            justifications.
           </p>
           <p>Here's an example</p>
           <img
@@ -41,7 +45,7 @@ const JustificationsModuleData = [
             src={image}
             alt="Justifications"
             height="auto"
-            width="50%"
+            width="60%"
           />
           <br />
           <p>
@@ -51,8 +55,8 @@ const JustificationsModuleData = [
           </p>
           <p>
             Justifications include things like excuses, minimisations,
-            exaggerations, <b>denial</b> and bits of information we choose to
-            miss out or ignore.
+            exaggerations, denial and bits of information we choose to miss out
+            or ignore.
           </p>
           <p>
             We all use justifications every day. If it’s raining outside, we
@@ -85,6 +89,10 @@ const JustificationsModuleData = [
     title: "Identifying and challenging your justifications",
     description: (
       <div>
+        <br></br>
+        <h4 className="secondary-color">
+          Exercise 1: Identifying and challenging your justifications
+        </h4>
         <p>
           Use the table below to consider your justifications at the time you
           were engaging in harmful behaviour. Once you have identified what
@@ -136,6 +144,13 @@ const JustificationsModuleData = [
     title: "Reflection",
     description: (
       <div>
+        <br></br>
+        <h4 className="secondary-color">Reflections</h4>
+
+        <p>
+          Reflecting on your progress after completing this module, rate your
+          thoughts on the following statements.
+        </p>
         <ReflectionQuestion>
           I can now recognise how justifications are used to allow problematic
           behaviour to continue.

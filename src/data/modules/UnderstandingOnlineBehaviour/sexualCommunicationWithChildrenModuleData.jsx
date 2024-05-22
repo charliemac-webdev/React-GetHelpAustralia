@@ -120,25 +120,22 @@ const SexualCommunicationWithChildrenModuleData = [
           <h4 className="secondary-color">The cycle of online grooming</h4>
           <br></br>
           <p>
-            Some people find it more helpful to think of their behaviour as
-            following a repeated pattern rather than, for example, the stages
-            set out previously. As with the stages mentioned previously,
-            considering your behaviour patterns can help you to understand the
-            form your behaviour took, and the factors involved in your decision
-            making. This will put you in a position where you can recognise this
-            and change your behaviour so it is not repeated in the future.
+            People often say offending “just happens”, but we know this isn’t
+            true. To sexually communicate with a child is a process where
+            several decisions are made.
           </p>
           <p>
-            The cycle below is based on the work of de Santisteban et al (2018).
-            Just like with the stages above, how a person moves through the
-            cycle will be unique to them, and is likely to have changed over
-            time as their behaviour developed. Not every stage will apply to
-            everyone.
+            Some people find it helpful to think of their behaviour as following
+            a repeated pattern. Considering your behaviour patterns can help you
+            to understand the form your behaviour took, and the factors involved
+            in your decision making. This will put you in a position where you
+            can recognise this and change your behaviour so it is not repeated
+            in the future.
           </p>
           <hr />
           <br></br>
           <h4 className="secondary-color">
-            Exercise: Cycle of online grooming
+            Exercise 1: Cycle of online grooming
           </h4>
           <p>
             Look at the cycle below and think about how each stage might have
@@ -146,14 +143,18 @@ const SexualCommunicationWithChildrenModuleData = [
             or children, in general.
           </p>
           <p>
-            As you do this exercise, think about how your behaviour changed over
-            time. Which stages of the cycle were most relevant for you? How has
-            your thinking changed? How did the sexual communication arise? What
-            do you think of your old justifications now?
+            How a person moves through the cycle will be unique to them, and is
+            likely to have changed over time as their behaviour developed.
+            However, this gives a good overview of how your offending cycle may
+            work and how you can break this cycle at different stages.
           </p>
           <p>
-            A full description of each of the stages of the cycle are outlined
-            below.
+            A full description of each of the stages of the cycle and
+            intervention strategies for each stage are outlined below.
+          </p>
+          <p>
+            As you read through the stages, make note of the strategies you can
+            use at each stage to ensure you do not continue through the cycle.{" "}
           </p>
           <p>
             You can download the exercise sheet&nbsp;
@@ -178,12 +179,30 @@ const SexualCommunicationWithChildrenModuleData = [
             <h5 className="secondary-color">The online environment</h5>
           </p>
           <p>
-            As well as ideas like the Triple A model, this is about how people
-            perceive the internet as a place where they can express themselves
-            sexually more openly. For example, some people might feel more
-            confident talking to adults and/or children about sex online than
-            offline. Or they might feel that they can portray themselves with
-            more confidence or as being more attractive etc.
+            As well as ideas like the Triple A model (which you can find more
+            about on the Online World module), people can also perceive the
+            internet as a place where they can express themselves sexually more
+            openly. For example, some people might feel more confident talking
+            to adults and/or children about sex online than offline. Or they
+            might feel that they can portray themselves with more confidence or
+            as being more attractive etc.
+          </p>
+          <p>To avoid offending, think about:</p>
+          <ul className="content-list">
+            <li>How do you behave online? </li>
+            <li>Are there other online behaviours that concern you?</li>
+            <li>Are you a different person online than you are offline?</li>
+            <li>How much time are you spending online?</li>
+          </ul>
+          <p>
+            Now recognising the online world can be a risky environment for
+            people, what barriers can you put in place to keep yourself safe
+            online?
+          </p>
+          <p>
+            e.g., Reducing your online time; creating some more opportunities to
+            socialise offline; setting alarms to limit online time, accessing
+            the internet only in communal areas etc.
           </p>
           <p>
             <h5 className="secondary-color">Contact with child or children</h5>
@@ -192,41 +211,108 @@ const SexualCommunicationWithChildrenModuleData = [
             This is about how people make their initial contact with children
             online.
           </p>
+          <p>To avoid offending, think about:</p>
+          <ul className="content-list">
+            <li>
+              What was the situation when you began speaking to a child e.g.
+              what platform were you on, how did the communication start etc.?
+            </li>
+            <li>
+              What was motivating you to contact a child? What need are you
+              seeking to meet? What other ways can you meet this motivation/need
+              which are healthier and legal e.g. connecting with known adults
+              offline?{" "}
+            </li>
+          </ul>
           <p>
-            <h5 className="secondary-color">Initial engagement</h5>
+            What barriers can you put in place to ensure you do not contact a
+            child online?
           </p>
           <p>
-            Although persuasion may occur throughout someone’s contact with
-            children, we know that people can engage a child or children in
-            conversation, for example, by the use of a false profile, by using
-            the language of children or adolescents.
+            e.g., deleting certain apps; confirming someone's age before talking
+            to them, meeting your needs in other legal and healthy ways etc.{" "}
           </p>
           <p>
-            <h5 className="secondary-color">
-              Finding out more about the child
-            </h5>
+            <h5 className="secondary-color">Grooming</h5>
           </p>
           <p>
-            Having started the initial conversation, some adults may take an
-            interest in other aspects of the child’s life. This is about
-            strengthening their relationship with the child.
+            Grooming is an on-going process that happens before and throughout
+            online sexual communication with children. This stage involves a
+            range of different behaviours including building the child's trust
+            and persuading a child to engage in conversations/behaviours.
+          </p>
+          <p>To avoid offending, think about:</p>
+          <ul className="content-list">
+            <li>
+              The decisions you made and the behaviours you implemented to
+              persuade a child to reply to your first message and following
+              messages. It is important to recognise that sexual communication
+              does not happen by accident, and involves a range of grooming
+              behaviours.
+            </li>
+            <li>
+              How your behaviours as an adult can influence children (it may
+              help to think about the influence adults had over you when you
+              were a child). Remind yourself that it is always an adult's
+              responsibility to prevent communication between adults and
+              children.{" "}
+            </li>
+          </ul>
+          <p>
+            Hopefully, the barriers you identified for the previous stages have
+            been put in place to prevent offending. However, it is always
+            helpful to have strategies at every point of the offending cycle, so
+            that you know you can break this pattern of behaviour. Remember, you
+            have control over your behaviour.
           </p>
           <p>
-            <h5 className="secondary-color">Strategies of persuasion</h5>
+            What barriers could you put in place to ensure you do not engage in
+            grooming behaviours?
           </p>
           <p>
-            This stage is about how someone might persuade a child to do what
-            they want them to, such as to send sexual images or videos of
-            themselves.
+            e.g., ending communication with the child; blocking any contact you
+            have with children; reminding yourself that this behaviour is
+            grooming and grooming is illegal; and reminding yourself that it is
+            always an adult's responsibility to stop communication between
+            adults and children.{" "}
           </p>
           <p>
             <h5 className="secondary-color">Sexual outcomes</h5>
           </p>
           <p>
             This is the sexual behaviour itself, for example, the exchange of
-            sexual videos and images; offline sexual contact; one-off sexual
-            encounters; sustained sexual contact with the same child over time
-            etc.
+            sexual videos and images; offline sexual contact. This includes
+            one-off sexual encounters and sustained sexual contact with the same
+            child over time etc.
+          </p>
+          <p>To avoid offending, think about:</p>
+          <ul className="content-list">
+            <li>
+              The negative impacts of child sexual abuse on the victims and
+              their families.
+            </li>
+            <li>
+              The negative long-term consequences for you and your family.
+            </li>
+            <li>
+              What need are you seeking to meet? What other ways can you meet
+              this motivation/need which are healthier and legal e.g. connecting
+              with known adults offline?
+            </li>
+            <li>
+              The role and responsibilities adults have to keep children safe
+              and free from sexualisation.
+            </li>
+          </ul>
+          <p>
+            What barriers could you put in place to ensure you do not engage in
+            sexual communication with children?
+          </p>
+          <p>
+            e.g., ending and blocking any contact you have with children;
+            seeking external support for problematic sexual behaviours;
+            reminding yourself children cannot consent; and sexual conversations
+            with children have damaging lifelong impacts for children.{" "}
           </p>
           <p>
             <h5 className="secondary-color">Justifications</h5>
@@ -260,10 +346,11 @@ const SexualCommunicationWithChildrenModuleData = [
             yourself from engaging in the behaviour in the future.
           </p>
           <p>
-            If you haven’t looked at the justifications module (link), take some
-            time to complete this now before moving on so that you can recognise
-            your justifications at the time you were engaging in harmful
-            behaviour and how you can challenge them.
+            If you haven’t looked at the{" "}
+            <Link to="/justifications">justifications module</Link>
+            &nbsp; take some time to complete this now before moving on so that
+            you can recognise your justifications at the time you were engaging
+            in harmful behaviour and how you can challenge them.
           </p>
           <p>
             If you have sexually communicated with children, consider some of
@@ -395,7 +482,9 @@ const SexualCommunicationWithChildrenModuleData = [
           </p>
           <hr />
           <br></br>
-          <h4 className="secondary-color">Exercise: The child’s perspective</h4>
+          <h4 className="secondary-color">
+            Exercise 2: The child’s perspective
+          </h4>
           <p>
             Consider what you know about the child/ren you were interacting with
             and what you know about children generally. Think about the

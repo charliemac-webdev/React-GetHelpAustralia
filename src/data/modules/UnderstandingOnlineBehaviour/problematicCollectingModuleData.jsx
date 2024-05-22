@@ -64,7 +64,7 @@ const ProblematicCollectingModuleData = [
         <p>Use exercise 1 to help work out why you collect.</p>
         <hr />
         <br></br>
-        <h4 className="secondary-color">Exercise: My collecting</h4>
+        <h4 className="secondary-color">Exercise 1: My collecting</h4>
         <p>
           <a href={documentTwo} target="_blank" rel="noopener noreferrer">
             Download printable version of this exercise &gt;
@@ -148,7 +148,7 @@ const ProblematicCollectingModuleData = [
         <hr />
         <br></br>
         <h4 className="secondary-color">
-          Exercise: The impact of collecting on my life
+          Exercise 2: The impact of collecting on my life
         </h4>
         <p></p>
         <p>Answer the following questions.</p>
@@ -270,7 +270,7 @@ const ProblematicCollectingModuleData = [
         </p>
         <hr />
         <br></br>
-        <h4 className="secondary-color">Exercise: Part A</h4>
+        <h4 className="secondary-color">Exercise 3: Part A</h4>
         <p>
           <strong></strong>
         </p>
@@ -346,7 +346,7 @@ const ProblematicCollectingModuleData = [
         </p>
         <hr />
         <br></br>
-        <h4 className="secondary-color">Exercise: Part B</h4>
+        <h4 className="secondary-color">Exercise 3: Part B</h4>
         <p>
           <strong></strong>
         </p>
@@ -420,10 +420,8 @@ const ProblematicCollectingModuleData = [
           Now you need to decide what you can do in order to meet these needs in
           a healthier, safer and legal way. We will help you to do just that in
           the&nbsp;
-          <strong>
-            <Link to="/building-a-good-life">building a good life section</Link>
-          </strong>
-          , so ensure you make a note of these needs so you can refer to them
+          <Link to="/building-a-good-life">building a good life section</Link>,
+          so ensure you make a note of these needs so you can refer to them
           later.
         </p>
         <br></br>
@@ -439,9 +437,15 @@ const ProblematicCollectingModuleData = [
         <h4 className="secondary-color">Justifications</h4>
         <p>
           A lot of people will have known that their collecting was wrong, but
-          still continued to do it anyway. What are your justifications? Take
-          some time to think about these or write them down, before you begin
-          Exercise 4.
+          still continued to do it anyway. Sometimes, we tell ourselves
+          something is okay when we know it isn’t, so that we continue to engage
+          in that behaviour, even when it is harmful. These ‘making it okay’
+          statements we tell ourselves are called justifications.
+        </p>
+        <br></br>
+        <h4 className="secondary-color">Exercise 4: Challenge yourself</h4>
+        <p>
+          Use the first column in the table below to list your justifications.
         </p>
         <p>
           <em>
@@ -449,12 +453,6 @@ const ProblematicCollectingModuleData = [
             fully be able to understand your collecting if you aren’t
             acknowledging your true justifications.
           </em>
-        </p>
-        <hr />
-        <br></br>
-        <h4 className="secondary-color">Exercise: Challenge yourself</h4>
-        <p>
-          Use the first column in the table below to list your justifications.
         </p>
         <p>
           Then attempt to assume the role of someone who does not collect such
@@ -491,8 +489,20 @@ const ProblematicCollectingModuleData = [
               </td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
+              <td>
+                <em>
+                  They are only pictures and I am not even looking at them.
+                </em>
+              </td>
+              <td>
+                <em>
+                  The children in the images are real children who are being
+                  sexually abused. By collecting child sexual abuse images I am
+                  aiding to the demand of this material being made, which means
+                  I am allowing the sexual abuse of children to continue. There
+                  are lots of other things I could collect that are not harmful.
+                </em>{" "}
+              </td>
             </tr>
             <tr>
               <td></td>
@@ -512,6 +522,13 @@ const ProblematicCollectingModuleData = [
           look back over this table and use the responses to challenge your
           behaviour.&nbsp;This can be a useful and effective short term
           deterrent.
+        </p>
+        <p>
+          If you haven’t looked at the{" "}
+          <Link to="/justifications">justifications module</Link>
+          &nbsp; you might find it helpful to read through this now before
+          moving on to help you understand more about justifications and how you
+          can challenge them.
         </p>
       </div>
     ),
