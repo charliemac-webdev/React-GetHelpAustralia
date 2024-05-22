@@ -331,7 +331,7 @@ const BuildingAGoodLifeModuleData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            <u>Good Lives Plan</u>
+            <u>Good Life Plan</u>
           </a>{" "}
           to help you work out what needs are important to you, how you meet
           them and set goals for living a healthy life.
@@ -394,11 +394,15 @@ const BuildingAGoodLifeModuleData = [
             obstacles.
           </p>
           <p>
-            See our{" "}
+            The skill of brainstorming can help us overcome obstacles as it
+            helps us to think outside the box (or from a new perspective!). You
+            can then pick the best option for you, you may have to try a few
+            before you find one that works but that’s why it’s great to have
+            thought of so many ideas. See our{" "}
             <Link className="secondary-color" to="/problem-solving">
               <u>problem-solving section</u>
             </Link>{" "}
-            for advice on how to overcome obstacles.
+            on how to brainstorm.
           </p>
           <p>
             If you have any concerns, questions, or would just like to talk

@@ -24,11 +24,11 @@ const ManagingThoughtsModuleData = [
             much attention you choose to give to them.
           </p>
           <p>
-            Next time you have an unhealthy thoughts, urge, or behaviour, you
-            can try to use one of these to help you stop. The more you use
-            these, the more you will learn what works more effectively for you.
-            It may be that you need to practice them or use a combination of
-            these to find the best way for you.
+            Next time you have an unhealthy thought, urge, or behaviour, you can
+            try to use one of these to help you stop. The more you use these,
+            the more you will learn what works more effectively for you. It may
+            be that you need to practice them or use a combination of these to
+            find the best way for you.
           </p>
           <h5 className="secondary-color">Escape route</h5>
           <p>
@@ -51,6 +51,13 @@ const ManagingThoughtsModuleData = [
             Engage in a relaxation technique that works for you. This should be
             planned and rehearsed in advance. Techniques include, for example,
             guided visualisation, breathing exercises, mindfulness or yoga.
+          </p>
+          <p>
+            You can find more guidance on some of these techniques in the{" "}
+            <Link to="/self-care">
+              <b>self-care strategies </b>
+            </Link>
+            section.
           </p>
           <h5 className="secondary-color">Challenging your thoughts</h5>
           <p>
@@ -96,11 +103,17 @@ const ManagingThoughtsModuleData = [
           </p>
           <h5 className="secondary-color">Self-care</h5>
           <p>
-            As a long term strategy then eating well, exercising, sleeping and
-            relaxation; all of these contribute to a happier, healthier you. If
-            you ensure all these are in check, you will find managing sexual
-            fantasies much easier. You can look back to the self-care module for
-            more information.
+            Eating well, exercising, sleeping and relaxation; all of these
+            contribute to a happier, healthier you. If you ensure all these are
+            in check, you will find managing sexual fantasies much easier. You
+            can look back to the self-care module for more information.
+          </p>
+          <p>
+            You can look to the{" "}
+            <Link to="/self-care">
+              <b>self-care module </b>
+            </Link>
+            for more information.
           </p>
           <h5 className="secondary-color">Praise your success</h5>
           <p>

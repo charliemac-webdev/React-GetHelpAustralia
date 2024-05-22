@@ -44,7 +44,7 @@ const selfTalkModuleData = [
         </p>
 
         <hr />
-        <h5 className="secondary-color">Critical self-talk</h5>
+        <h5 className="secondary-color">Negative self-talk</h5>
         <p>
           We all have an inner critic. At times this little voice can actually
           be helpful and keep us motivated toward goals—like when it reminds us
@@ -53,7 +53,7 @@ const selfTalkModuleData = [
           helpful.
         </p>
         <p>
-          This statement show unpleasant thoughts can grow and become
+          This statement show negative thoughts can grow and become
           self-defeating:
         </p>
         <p>
@@ -62,11 +62,10 @@ const selfTalkModuleData = [
           have friends.”
         </p>
         <p>
-          Focusing on unpleasant thoughts may lead to decreased motivation as
+          Focusing on unhelpful thoughts may lead to decreased motivation as
           well as greater feelings of helplessness and sometimes depression. For
           some people it also contributes to their sexual offending as they use
-          it to justify negative behaviours, so it’s definitely something to
-          fix.
+          it to justify harmful behaviours, so it’s definitely something to fix.
         </p>
         <br />
         <img
@@ -124,22 +123,22 @@ const selfTalkModuleData = [
   },
   {
     id: 2,
-    title: "Changing unpleasant to pleasant self-talk",
+    title: "Changing negative to positive self-talk",
     description: (
       <>
         <br></br>
         <h4 className="secondary-color">
-          Changing unpleasant to pleasant self-talk
+          Changing negative to positive self-talk
         </h4>
         <p>
           You need to be aware of the nature of your self-talk and be determined
-          to shift any unpleasant thinking to pleasant. This is not always easy
-          as even though you will have a number of positive qualities you may
+          to shift any negative thinking to positive. This is not always easy as
+          even though you will have a number of positive qualities you may
           struggle to recognise them and find it hard to give yourself credit
           for them.
         </p>
         <p>
-          You should now be aware that unpleasant thinking can lead to low mood,
+          You should now be aware that negative thinking can lead to low mood,
           loss of motivation and that it contributes to negative unhealthy
           behaviour – including in some cases offending.
         </p>
@@ -161,16 +160,16 @@ const selfTalkModuleData = [
         <p>
           <span className="secondary-color">2. </span>{" "}
           <b>
-            Do something that will distract you from unpleasant thoughts and
-            feelings.
+            Do something that will distract you from negative thoughts and
+            unpleasant feelings.
           </b>{" "}
           This might be an activity or contacting a friend.
         </p>
         <p>
           <span className="secondary-color">3. </span>
-          <b>Positive reframing.</b> Try to find a pleasant aspect to the
-          situation to focus on, rather than the unpleasant. This is something
-          we often do after a bereavement for example, remembering the pleasant
+          <b>Positive reframing.</b> Try to find a positive aspect to the
+          situation to focus on, rather than the negative. This is something we
+          often do after a bereavement for example, remembering the positive
           life someone had rather than the loss.
         </p>
         <p>
@@ -182,31 +181,31 @@ const selfTalkModuleData = [
         <p>
           <span className="secondary-color">5. </span>
           <b>
-            Reflect on what has contributed to the unpleasant thoughts and
-            feelings.
+            Reflect on what has contributed to the negative thoughts and
+            unpleasant feelings.
           </b>{" "}
-          Pleasant thinking is not about denying that anything is or can go
+          Positive thinking is not about denying that anything is or can go
           wrong. If something goes wrong then take the time to consider what
           went wrong in order to avoid future mistakes and look forward more
-          pleasantly.
+          positively.
         </p>
         <p>
           <span className="secondary-color">6. </span>
           <b>Don’t be too hard on yourself.</b> It takes time, practice and
-          determination to change unpleasant thinking and adopt a more
-          optimistic approach.
+          determination to change negative thinking and adopt a more optimistic
+          approach.
         </p>
         <p>
           <span className="secondary-color">7. </span>
           <b>Catch it, Check it, change it </b>– the more you start spotting and
-          changing your critical self talk to complementary the better you will
+          changing your negative self talk to complimentary the better you will
           get!
         </p>
         <hr />
-        <h5 className="secondary-color">Planning to be pleasant</h5>
+        <h5 className="secondary-color">Planning to be positive</h5>
         <p>
           If you know you have to deal with a potentially difficult situation
-          identify and rehearse some complementary self-talk statements that you
+          identify and rehearse some complimentary self-talk statements that you
           can employ before during and after the situation.
         </p>
         <p>For example going on a first date:</p>
@@ -220,7 +219,7 @@ const selfTalkModuleData = [
         <p>
           This planning can be used in any situation. Think of something you are
           doing this week that you are worried or nervous about and think of
-          three pleasant self-talk statements you can say to yourself to help
+          three positive self-talk statements you can say to yourself to help
           prepare yourself positively.
         </p>
         <hr />
@@ -229,7 +228,7 @@ const selfTalkModuleData = [
           How does this apply to looking at sexual images of children?
         </h5>
         <p>
-          This model is used to explain the internal argument or self-talk
+          This model is used to explain the internal monologue or self-talk
           someone uses to give themself permission to engage in illegal online
           sexual behaviour. By increasing your awareness of this process and the
           negative effects of offending for yourself and others, you increase

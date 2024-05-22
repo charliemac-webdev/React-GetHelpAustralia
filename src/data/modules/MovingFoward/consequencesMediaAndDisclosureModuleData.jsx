@@ -57,7 +57,8 @@ const DisclosureModuleData = [
         <p>
           If you plead or are found guilty, there are several penalties the
           court can issue. Where an offence is of a sexual nature, committed in
-          relation to a child, are more likely to order a term of imprisonment.
+          relation to a child, the courts are more likely to order a term of
+          imprisonment.
         </p>
         <h5 className="secondary-color">Community sentence</h5>
         <p>
@@ -170,10 +171,11 @@ const DisclosureModuleData = [
         </p>
         <p>
           Court reporters attend criminal courts and may choose to cover any
-          case. These reporters are overseen by the Independent Press Standards
-          Organisation, adhering to clear reporting guidelines. They are
-          permitted to report information presented in court about the criminal
-          case, as long as the details are publicly available.
+          case. These reporters are overseen by the Australian Institute of
+          Judicial Administration (AIJA), adhering to clear reporting
+          guidelines. They are permitted to report information presented in
+          court about the criminal case, as long as the details are publicly
+          available.
         </p>
         <p>
           There are steps you can take to mitigate the impact of media coverage.
@@ -181,18 +183,18 @@ const DisclosureModuleData = [
         <h5 className="secondary-color">What to do</h5>
         <ul>
           <li>
-            You might want to think about whether to tell close family or
-            friends if you’re worried they discover the situation through the
+            - You might want to think about whether to tell close family or
+            friends if you’re worried they'll discover the situation through the
             media.
           </li>
           <li>
-            For people under investigation and their families, we recommend
+            - For people under investigation and their families, we recommend
             temporarily deactivating social media accounts or adjusting privacy
             settings during sentencing hearings to minimise exposure to media
             coverage.
           </li>
           <li>
-            If you are worried about potential targeting by people in the
+            - If you are worried about potential targeting by people in the
             community, it’s advisable to get in touch with the police, who can
             assess the possibility of implementing added security measures.
           </li>
@@ -200,7 +202,7 @@ const DisclosureModuleData = [
         <h5 className="secondary-color">What not to do</h5>
         <ul>
           <li>
-            Don’t look for similar cases covered by the media. It can be
+            - Don’t look for similar cases covered by the media. It can be
             distressing and sentencing outcomes vary from case to case.
           </li>
         </ul>
@@ -228,7 +230,7 @@ const DisclosureModuleData = [
       <div className="tab-main-content">
         <br></br>
         <h4 className="secondary-color">
-          How to tell pople about your sexual offences
+          How to tell people about your sexual offences
         </h4>
         <p>
           It can be very difficult to talk about sex, particularly sexual
@@ -246,7 +248,7 @@ const DisclosureModuleData = [
           how it impacts them, the well-being of any children you have, and the
           implications for the future. Think about your own emotions of fear and
           distress. Other people are likely to share these emotions and will
-          also be shocked by finding out about behaviour through you or the
+          also be shocked by finding out about your behaviour through you or the
           police.
         </p>
         <p>

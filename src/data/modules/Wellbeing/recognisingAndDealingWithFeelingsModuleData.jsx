@@ -377,8 +377,11 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           This is something you can try by yourself, or with another person. A
           problem shared is a problem halved! If you can tell someone you trust
           what your problem is, they can often help you with solving or coping
-          with it. See the <b>module on problem solving</b> to learn how to
-          improve this skill.
+          with it. You can find more about{" "}
+          <Link to="/problem-solving">
+            <b>problem solving</b>
+          </Link>{" "}
+          here.
         </p>
         <br></br>
         <hr />

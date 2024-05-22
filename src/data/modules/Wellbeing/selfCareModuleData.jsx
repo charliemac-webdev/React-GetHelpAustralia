@@ -164,7 +164,7 @@ const SelfCareModuleData = [
         <h4 className="secondary-color">Self-care strategies</h4>
         <p>
           There are many strategies that can be helpful when feeling anxious,
-          stressed discomfort, or emotional distress. Below are some examples
+          stressed, discomfort, or emotional distress. Below are some examples
           and how to do them. Some strategies will be more effective than others
           for each person, and it is about finding out which works for you.
         </p>
@@ -192,7 +192,7 @@ const SelfCareModuleData = [
                   that we are overwhelmed. It can help to bring our heart rate
                   back to a normal rate and reduce physiological signs and
                   symptoms of anxiety. Breathing exercises can bring the most
-                  benefit when they are repeated often, such as daily. ETC ETC
+                  benefit when they are repeated often, such as daily.
                 </p>
                 <h5 className="secondary-color">
                   Breathing technique 1: Slowing your breathing
@@ -412,7 +412,11 @@ const SelfCareModuleData = [
               <ul className="content-list">
                 <li>
                   Use a mindfulness app or video – search online for
-                  “mindfulness” or “guided meditation”.
+                  “mindfulness” or “guided meditation”. E.g.,{" "}
+                  <a href="https://www.headspace.com/headspace-meditation-app">
+                    ‘Headspace app’
+                  </a>
+                  .
                 </li>
                 <li>
                   Breathing exercises focus your attention on your breathing,

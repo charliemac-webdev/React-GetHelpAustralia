@@ -10,7 +10,7 @@ const ProblemSolvingModuleData = [
     description: (
       <div className="tab-main-content">
         <br></br>
-        <h4 className="secondary-color">Problem Solving</h4>
+        <h4 className="secondary-color">Problem solving</h4>
         <p>
           Problem solving – the process of working through the details of a
           problem to reach a solution, is a skill which promotes good decision
@@ -95,112 +95,14 @@ const ProblemSolvingModuleData = [
         <p>
           This involves a more systematic approach to problems, which includes
           defining the problem, selecting a possible solution, implementing it
-          and evaluating whether the solution is the right one.&nbsp; Below is a
-          list of things to consider when using this approach to problems.
+          and evaluating whether the solution is the right one.
         </p>
-        <p>
-          <strong className="secondary-color">
-            Step 1 – Define the problem (what exactly is it)
-          </strong>
-        </p>
-        <p>
-          Be specific, for example if you are not happy at work, think about
-          what exactly is causing the problem, is it the hours, the commute, the
-          type of work.
-        </p>
-        <p>
-          <strong className="secondary-color">
-            Step 2 – Stop and think- don’t act without thinking things through
-          </strong>
-        </p>
-        <p>Take time to go through all the steps before you make a decision.</p>
-        <p>
-          <strong className="secondary-color">
-            Step 3 – Seek information from reliable sources
-          </strong>
-        </p>
-        <p>Don’t guess at the outcome or rely on the opinion of others.</p>
-        <p>
-          <strong className="secondary-color">
-            Step 4 – Generate a number of solutions
-          </strong>
-        </p>
-        <p>
-          The more solutions you come up with the more options you have! Even if
-          they seem unrealistic it’s wrth considering all the options.
-        </p>
-        <p>
-          <strong className="secondary-color">
-            Step 5 – Think of the pros and cons of each solution (costs and
-            gains)
-          </strong>
-        </p>
-        <p>
-          In the&nbsp;
-          <Link
-            className="secondary-color"
-            to="/problem-of-immediate-gratification"
-          >
-            Problem of Immediate Gratification
-          </Link>
-          &nbsp;module we introduced you to a table of costs and gains. This can
-          be used when evaluating any decision. If the costs outweigh the gains
-          then it can be really obvious that it is not a good decision. You also
-          need to ask yourself if you are choosing a short term ‘fix’ (for
-          example alcohol, drugs, sex), again re-visit the&nbsp;
-          <Link
-            className="secondary-color"
-            to="/problem-of-immediate-gratification"
-          >
-            Problem of Immediate Gratification
-          </Link>
-          &nbsp;module if you need to understand why you might do this.
-        </p>
-        <p>
-          <strong className="secondary-color">
-            Step 6 – Choose the best solution
-          </strong>
-        </p>
-        <p>
-          Hopefully this is clear having completed the costs and gains above, if
-          not then speak to a trusted friend/family member to get a different
-          view. If you can make a good case to them about the course of action
-          you want to take then you are probably making a well-considered
-          decision. It is unlikely they will support you using a short term
-          ‘fix’ to feel better when it doesn’t address the problem!
-        </p>
-        <p>
-          <strong className="secondary-color">
-            Step 7 – Plan how you will apply the solution
-          </strong>
-        </p>
-        <p>
-          Benjamin Franklin said that “By failing to prepare, you are preparing
-          to fail.”
-        </p>
-        <p>
-          <strong className="secondary-color">
-            Step 8 – Carry out the solution
-          </strong>
-        </p>
-        <p>Put your plan into action!</p>
-        <p>
-          <strong className="secondary-color">
-            Step 9 – Evaluate how well it worked
-          </strong>
-        </p>
-        <p>
-          If we don’t evaluate what we did and how well it worked we can end up
-          repeating the same mistakes or thinking we have solved a problem when
-          we haven’t. It might be that you haven’t identified the right problem
-          in the first place; for example if you didn’t like your work
-          colleagues you might change where you work but the type of work is
-          still the same. So while you have different colleagues you actually
-          realise it is the type of work you do that needs to change.
-        </p>
+        <hr />
         <br></br>
         <p>
-          <h4 className="secondary-color">Exercise: What approach do I use?</h4>
+          <h4 className="secondary-color">
+            Exercise 1: What approach do I use?
+          </h4>
         </p>
         <p>
           <strong className="secondary-color">Problem Diary</strong>
@@ -303,66 +205,174 @@ const ProblemSolvingModuleData = [
           </li>
           <li>Which was most effective?</li>
         </ul>
-        <hr />
-        <br></br>
-        <p>
-          Sometimes things can get in the way of solving problems. We can think
-          of these as obstacles that we need to overcome.
-        </p>
         <br></br>
       </div>
     ),
   },
   {
     id: 2,
-    title: "Overcoming obstacles",
+    title: "Steps to solve a problem",
     description: (
       <div className="tab-main-content">
         <br></br>
-        <h4 className="secondary-color">Overcoming obstacles</h4>
+        <h4 className="secondary-color">Steps to solve a problem</h4>
         <p>
-          Sometimes overcoming obstacles involves thinking outside the
-          box&nbsp;(or from a new perspective!). An easy way of practising this
-          skill is to do a simple brainstorm, this is where you put down all
-          your ideas relating to something without criticising or finding
-          obstacles for them. For example:
+          Below are some steps to help you solve a problem. It is helpful to
+          take the approach of problem-solving when going through these steps.
+          If you are struggling to get yourself into a problem-solving frame of
+          mind, consider looking at our&nbsp;
+          <Link className="secondary-color" to="/self-talk">
+            self talk section
+          </Link>
+          &nbsp; to help you explore your positive and negative thinking.
+        </p>
+        <p>Take time to go through all the steps before you make a decision.</p>
+        <p>
+          <strong className="secondary-color">
+            Step 1 – Recognising a problem
+          </strong>
         </p>
         <p>
-          <img
-            className="d-block mx-auto"
-            src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/diagrams-toothpaste.gif"
-            alt=""
-            width="90%"
-            height="auto"
-          />
-        </p>
-        <br></br>
-        <p>
-          Then you can look back and review those that might work and those that
-          aren’t very good – some of the ideas above may not be very practical
-          but you may have also found a new and useful way of using toothpaste!
-          The same exercise can be used when you are looking at bigger problems:
+          Sometimes we are not always aware of when we have a problem. Our
+          thoughts and emotions can be a helpful way of letting us know when we
+          have a problem. Have a think about some different areas of your life
+          (e.g., your career, relationships, finances, health etc.,) and for
+          each area reflect on what thoughts you have, how you’re feeling and
+          your behaviour (i.e., have you noticed a difference in your sleeping
+          or eating patterns). Answering these questions helps to find clues
+          that we might have a problem and can identify areas in our life that
+          we might want to be different.
         </p>
         <p>
-          <img
-            decoding="async"
-            className="d-block mx-auto"
-            src="https://www.stopitnow.org.uk/wp-content/uploads/2020/01/diagrams-improvingmyself.gif"
-            alt=""
-            width="90%"
-            height="auto"
-          />
-        </p>
-        <br></br>
-        <p>
-          Again review and pick the best option for you, you may have to try a
-          few before you find one that works but that’s why it’s great to have
-          thought of so many ideas.
+          You might find looking at our page&nbsp;
+          <Link
+            className="secondary-color"
+            to="/recognising-and-dealing-with-feelings"
+          >
+            Recognising and dealing with feelings
+          </Link>
+          &nbsp;helpful for this step.{" "}
         </p>
         <p>
           <strong className="secondary-color">
-            Now, try a brainstorm with one of your own obstacles and see how you
-            get on – see if the approach helps you come up with new and
+            Step 2 – Define the problem (what exactly is it)
+          </strong>
+        </p>
+        <p>
+          Be specific, for example if you are not happy at work, think about
+          what exactly is causing the problem, is it the hours, the commute, the
+          type of work. It can help to think about where you want to be in
+          relation to your problem, i.e., how things will be different when you
+          have changed something or solved your problem.
+        </p>
+        <p>
+          <strong className="secondary-color">
+            Step 3 – Seek information from reliable sources
+          </strong>
+        </p>
+        <p>
+          It’s important to seek information to help solve a problem, but we
+          need this information to come from facts and not assumptions. Don’t
+          guess at the outcome or rely on the opinion of others. Focus on what
+          you know is factual and what you need to find out to solve your
+          problem.
+        </p>
+        <p>
+          <strong className="secondary-color">
+            Step 4 – Generate a number of solutions
+          </strong>
+        </p>
+        <p>
+          Think of this like brainstorming. The more solutions you come up with
+          the more options you have! Even if they seem unrealistic it’s worth
+          considering all the options. When we write down anything and
+          everything, we find that our ideas bounce off one another, so it helps
+          us to think of more ideas.
+        </p>
+        <p>
+          <strong className="secondary-color">
+            Step 5 – Think of the pros and cons of each solution (costs and
+            gains)
+          </strong>
+        </p>
+        <p>
+          In the&nbsp;
+          <Link
+            className="secondary-color"
+            to="/problem-of-immediate-gratification"
+          >
+            Problem of Immediate Gratification
+          </Link>
+          &nbsp;This can be used when evaluating any decision. If the costs
+          outweigh the gains then it can be an obvious sign that it is not a
+          good decision. This is not just about the number of costs as some
+          consequences will be more significant and impactful if they happen
+          than others. You also need to ask yourself if you are choosing a short
+          term ‘fix’ (for example alcohol, drugs, sex), again re-visit the
+          &nbsp;
+          <Link
+            className="secondary-color"
+            to="/problem-of-immediate-gratification"
+          >
+            Problem of Immediate Gratification
+          </Link>
+          &nbsp;module if you need to understand why you might do this.
+        </p>
+        <p>
+          <strong className="secondary-color">
+            Step 6 – Choose the best solution
+          </strong>
+        </p>
+        <p>
+          Hopefully this is clear having completed the costs and gains above, if
+          not then speak to a trusted friend/family member to get a different
+          view. If you can make a good case to them about the course of action
+          you want to take, then you are probably making a well-considered
+          decision. It is unlikely they will support you using a short term
+          ‘fix’ to feel better when it doesn’t address the problem!
+        </p>
+        <p>
+          <strong className="secondary-color">
+            Step 7 – Plan how you will apply the solution
+          </strong>
+        </p>
+        <p>
+          Benjamin Franklin said that “By failing to prepare, you are preparing
+          to fail.”
+        </p>
+        <p>
+          A carefully thought-out plan is going to maximise your chances of
+          success. It is helpful to have a clear picture of what you want to
+          come out of solving this problem and how you want your life to be.
+          When creating your plan, consider why you have chosen the solution you
+          have, what you need to do, how you will do it, who might help or
+          hinder you, when each thing on the plan needs to be done.
+        </p>
+        <p>
+          <strong className="secondary-color">
+            Step 8 – Carry out the solution
+          </strong>
+        </p>
+        <p>Put your plan into action!</p>
+        <p>
+          <strong className="secondary-color">
+            Step 9 – Evaluate how well it worked
+          </strong>
+        </p>
+        <p>
+          If we don’t evaluate what we did and how well it worked we can end up
+          repeating the same mistakes or thinking we have solved a problem when
+          we haven’t. It might be that you haven’t identified the right problem
+          in the first place; for example, if you didn’t like your work
+          colleagues you might change where you work but the type of work is
+          still the same. So, while you have different colleagues you actually
+          realise it is the type of work you do that needs to change.
+        </p>
+
+        <p>
+          <strong className="secondary-color">
+            Now, try this approach with one of your current problems and see how
+            you get on – see if the approach helps you come up with new and
             different ways of dealing with your problem.
           </strong>
         </p>

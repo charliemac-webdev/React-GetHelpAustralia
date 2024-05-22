@@ -41,7 +41,11 @@ const MotivationForChangeModuleData = [
             yourself if it doesn’t happen overnight. People who struggle with
             sexual thoughts or behaviour towards children often have feelings of
             fear, guilt, and shame. This can reduce their self-esteem and hopes
-            for the future.
+            for the future. You can find more about{" "}
+            <Link to="/guilt-and-shame">
+              <b>guilt and shame</b>
+            </Link>{" "}
+            here.
           </p>
           <p>
             A framework for discussing the motivation to change is the{" "}

@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col pt-4">
+          <div className="col pt-3">
             <div className="d-md-flex flex-md-column text-md-center">
               <div className="p-md-2">
                 <Link to="/" className="default-link">

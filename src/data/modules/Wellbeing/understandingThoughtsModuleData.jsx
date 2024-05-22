@@ -17,7 +17,7 @@ const UnderstandingThoughtsModuleData = [
           <p>
             Although sexual behaviour can be influenced by numerous factors, it
             is not outside of your control. Sexual offending is not something
-            that just happens on the spur of moment and often appears as a cycle
+            that just happens in the spur of moment and often appears as a cycle
             or pattern that can become automatic and can occur repeatedly,
             becoming somewhat part of a routine.
           </p>
@@ -82,12 +82,12 @@ const UnderstandingThoughtsModuleData = [
   },
   {
     id: 2,
-    title: "Unpleasant thoughts",
+    title: "Unhelpful thoughts",
     description: (
       <>
         <div>
           <br></br>
-          <h4 className="secondary-color">Exercise: Unpleasant thoughts</h4>
+          <h4 className="secondary-color">Exercise: Unhelpful thoughts</h4>
           <ul className="content-list">
             <li>
               Think of an example of a situation that does not relate to sexual
@@ -95,7 +95,7 @@ const UnderstandingThoughtsModuleData = [
               job interview.
             </li>
             <li>
-              Identify some&nbsp;<strong>unpleasant thoughts </strong>about the
+              Identify some&nbsp;<strong>unhelpful thoughts </strong>about the
               situation, e.g. ‘ I won’t know anyone there’ and ‘What’s the
               point? I am not going to get the job anyway’.
             </li>
@@ -108,7 +108,7 @@ const UnderstandingThoughtsModuleData = [
             </li>
             <li>
               Using the same example, apply&nbsp;
-              <strong>pleasant thoughts </strong>and observe the differences in
+              <strong>helpful thoughts </strong>and observe the differences in
               your feelings and behaviour. For example thinking ‘I love parties
               and meeting new people’, feeling excited and approaching people to
               talk to them or thinking ‘I would be great at this job’, feeling
@@ -117,7 +117,7 @@ const UnderstandingThoughtsModuleData = [
             </li>
           </ul>
           <p>
-            You need to change the problematic thoughts and feelings which
+            You need to change the unhelpful thoughts and feelings which
             influence your behaviour.
           </p>
           <br></br>
@@ -154,11 +154,11 @@ const UnderstandingThoughtsModuleData = [
             <li>What feelings do you experience?</li>
             <li>
               What do you say to yourself when you have the urge to view sexual
-              images involving children, or sexual thoughts about children?
+              images involving children, or have sexual thoughts about children?
             </li>
             <li>
               What do you feel like doing when you have the urge to view sexual
-              images involving children, or sexual thoughts about children?
+              images involving children, or havesexual thoughts about children?
             </li>
             <li>
               How often do you masturbate to sexual fantasies about children?
@@ -319,9 +319,9 @@ const UnderstandingThoughtsModuleData = [
           <h4 className="secondary-color">My fantasies</h4>
           <p>
             A good starting point in considering if your fantasies are
-            problematic is to look at your fantasies in more detail. The
-            exercises below will help you to start to doing this by exploring
-            your triggers to your fantasies.
+            problematic is to look at your fantasies in more detail. The next
+            exercise will help you to start to do this by exploring your
+            triggers to your fantasies.
           </p>
           <br></br>
         </div>

@@ -234,21 +234,21 @@ const GuiltAndShameModuleData = [
         <p>
           When we feel shame, it can be difficult to see the good things about
           ourselves and our lives. The shame spiral can make us only focus on
-          the unpleasantries. We might, for example, expect others to only think
+          the negatives. We might, for example, expect others to only think
           badly about us. It is important to get yourself out of the spiral.
         </p>
         <p>
-          One way of doing this is to recognise your unpleasant thoughts and
-          balance them with a more realistic view. To do this, remind yourself
-          of the pleasant things about yourself and your life. Make a list of
-          things you like about yourself, things you are good at, things you
-          have achieved, and things other people like about you. It can be
-          useful to carry the list around with you and look at it when you feel
-          shame. Keep adding to the list and keep reminding yourself of the
-          pleasantries.
+          One way of doing this is to recognise your unhelpful or negative
+          thoughts and balance them with a more realistic view. To do this,
+          remind yourself of the good things about yourself and your life. Make
+          a list of things you like about yourself, things you are good at,
+          things you have achieved, and things other people like about you. It
+          can be useful to carry the list around with you and look at it when
+          you feel shame. Keep adding to the list and keep reminding yourself of
+          the positives.
         </p>
         <p>
-          If you are unsure of pleasant and unpleasant thinking (otherwise known
+          If you are unsure of positive and negative thinking (otherwise known
           as self-talk) then please work through our{" "}
           <Link to="/self-talk">
             <b>self-talk section</b>

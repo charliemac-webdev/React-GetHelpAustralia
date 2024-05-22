@@ -18,9 +18,9 @@ const RelapsePreventionModuleData = [
         <p>
           For example, looking at adult pornography might be legal but you know
           for yourself it’s wrong – it just feels wrong or it brings you too
-          close to the illegal stuff you used to do. Or allowing yourself to
-          have a sexual fantasy about a child; it may not involve direct harm to
-          the child but it could lead you to other behaviours.
+          close to the illegal behaviour you used to carry out. Or allowing
+          yourself to have a sexual fantasy about a child; it may not involve
+          direct harm to the child but it could lead you to other behaviours.
         </p>
         <p>
           Relapse prevention is about recognising that difficult times can
@@ -39,13 +39,14 @@ const RelapsePreventionModuleData = [
         <h4 className="secondary-color">When is relapse more likely?</h4>
         <p>
           Relapses often happen when you’re experiencing negative thoughts and
-          feelings, for example, bored, anxious, depressed or lonely. And that
-          can be risky – it’s probably been risky in the past – because:
+          unpleasant feelings, for example, bored, anxious, depressed or lonely.
+          And that can be risky – it’s probably been risky in the past –
+          because:
         </p>
         <ul className="content-list">
           <li>
             you might want to do something exciting which will distract you from
-            those negative feelings or cover them up
+            those unpleasant feelings or cover them up
           </li>
           <li>
             sometimes when you feel bad about yourself, you might even want to
@@ -79,16 +80,16 @@ const RelapsePreventionModuleData = [
           Or it could be people you know who use sexual language about a child.
         </p>
         <p>
-          These are people with their own problems and they are a problem to you
-          if they’re encouraging you to do something wrong or illegal. It is
-          important that you separate yourself from them; this is easier to do
-          if they are online as you can block them. However, if they are work
-          colleagues or family members this can be harder. In those situations,
-          you can use some of the{" "}
+          These are people with problematic behaviour, which then can be
+          problematic for you if they’re encouraging you to do something wrong
+          or illegal. It is important that you separate yourself from them; this
+          is easier to do if they are online as you can block them. However, if
+          they are work colleagues or family members this can be harder. In
+          those situations, you can use some of the{" "}
           <Link className="secondary-color" to="/self-talk">
             <u>self-talk section</u>
           </Link>{" "}
-          to help you manage this wonky thinking also known as cognitive
+          to help you manage unhelpful thinking also known as cognitive
           distortions.
         </p>
         <br></br>
@@ -224,7 +225,7 @@ const RelapsePreventionModuleData = [
           <li>Engaging in increased masturbation.</li>
           <li>Feeling anxious about their thoughts and feelings.</li>
           <li>
-            Experiencing negative feelings for example, stress, loneliness,
+            Experiencing unpleasant feelings for example, stress, loneliness,
             anxiety, depression, anger, hopelessness, among others.
           </li>
           <li>
@@ -255,7 +256,7 @@ const RelapsePreventionModuleData = [
           which are relevant for you.
         </p>
         <p>
-          Positive feelings also influence behaviour. It is not always obvious
+          Pleasant feelings also influence behaviour. It is not always obvious
           what people are feeling but there can be ‘clues’ based on body
           language and on what people say and do. It is important that you
           consider those ‘clues’ so that they can help you manage your thoughts
@@ -313,23 +314,18 @@ const RelapsePreventionModuleData = [
         </p>
         <p>
           Make sure you have made all the practical changes to reduce the risk
-          of temptation. You can revisit these from previous sections: make
-          changes to{" "}
-          <Link className="secondary-color" to="/understanding-why">
-            <u>your thoughts or behaviour towards children</u>
-          </Link>{" "}
-          or{" "}
+          of temptation. You can revisit these from previous section:{" "}
           <Link
             className="secondary-color"
             to="/understanding-your-online-behaviour"
           >
-            <u>your online behaviour</u>
-          </Link>
+            <u>Understanding your online behaviour</u>
+          </Link>{" "}
           .
         </p>
         <p>
-          Complete the relapse prevention plan on the last page to make sure you
-          have identified ways you are going to cope with risky thoughts,
+          Complete the warning signs exercise on the previous page to make sure
+          you have identified ways you are going to cope with risky thoughts,
           feelings, behaviours, people and places.
         </p>
         <p>

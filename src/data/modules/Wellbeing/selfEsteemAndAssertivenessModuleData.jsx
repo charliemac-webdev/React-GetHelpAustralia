@@ -5,7 +5,7 @@ import ReflectionQuestion from "../../../components/ReflectionQuestion";
 const SelfEsteemAndAssertivenessModuleData = [
   {
     id: 1,
-    title: "Self Esteem and Assertiveness",
+    title: "Self Esteem",
     description: (
       <div className="tab-main-content">
         <br></br>
@@ -31,7 +31,7 @@ const SelfEsteemAndAssertivenessModuleData = [
         </h4>
         <p>
           To increase your self-esteem, you need to challenge and change the
-          negative beliefs you have about yourself. This might feel like a
+          unhelpful beliefs you have about yourself. This might feel like a
           difficult task, but there are a lot of different techniques you can
           try to help you.&nbsp;Below are some of the things that might help and
           some questions to get you started:
@@ -41,7 +41,7 @@ const SelfEsteemAndAssertivenessModuleData = [
           <br />
           Doing something that you enjoy and are good at, can help build your
           confidence and increase your self-esteem. This could be anything from
-          paid work, volunteering, caring for someone or something or a hobby.
+          paid work, volunteering, or a hobby.
         </p>
         <p>
           <em>Identify three things you currently do that you enjoy.</em>
@@ -54,21 +54,23 @@ const SelfEsteemAndAssertivenessModuleData = [
           <br />
           Try to associate with people who will not put you down and whom you
           feel able to talk to about your feelings. If you spend time around
-          pleasant and supportive people, you are more likely to have a better
+          positive and supportive people, you are more likely to have a better
           self-image and feel more confident.
         </p>
         <p>
-          <em>Name three pleasant people in your life.&nbsp;</em>
+          <em>Name three positive people in your life.&nbsp;</em>
         </p>
         <p>
           If you have low self-esteem, there might be people close to you who
-          encourage the unpleasant beliefs and opinions that you have about
+          encourage the unhelpful beliefs and opinions that you have about
           yourself. It is important to identify these people and take action to
-          stop them from doing this, perhaps by becoming more assertive (see
-          above) or by limiting how much time you spend with them.
+          stop them from doing this, perhaps by becoming more assertive or by
+          limiting how much time you spend with them.
         </p>
         <p>
-          <em>Identify anyone who may be unpleasant in your life.</em>
+          <em>
+            Identify anyone who may have an unhelpful influence in your life.
+          </em>
         </p>
         <p>
           <em>
@@ -108,20 +110,20 @@ const SelfEsteemAndAssertivenessModuleData = [
   },
   {
     id: 2,
-    title: "Feeling positive and healthy",
+    title: "Feeling happy and healthy",
     description: (
       <div className="tab-main-content">
         <br></br>
-        <h4 className="secondary-color">Feeling pleasant and healthy</h4>
+        <h4 className="secondary-color">Feeling happy and healthy</h4>
         <p>
-          It is also important to feel pleasant and healthy. The following will
+          It is also important to feel happy and healthy. The following will
           help you achieve this:
         </p>
         <p>
           <strong>Look after your physical health</strong>
           <br />
-          This can help you feel happier and healthier, and improve your
-          self-image.
+          This can help you feel better and healthier about yourself, and
+          improve your self-image.
         </p>
         <p>
           <strong>Physical activity</strong>
@@ -152,17 +154,21 @@ const SelfEsteemAndAssertivenessModuleData = [
           you see yourself.
         </p>
         <p>
-          <strong>Learn to identify and challenge unpleasant beliefs</strong>
+          <strong>Learn to identify and challenge unhelpful beliefs</strong>
           <br />
           If you are going to improve your self-esteem, it will help to
-          understand more about your unpleasant beliefs about yourself and where
-          they came from (See section on self-talk).
+          understand more about your unhelpful beliefs about yourself and where
+          they came from. You can find more about{" "}
+          <Link to="/self-talk">
+            <b>self-talk</b>
+          </Link>{" "}
+          here.
         </p>
         <p>
-          <strong>Focus on pleasant things</strong>
+          <strong>Focus on positive things</strong>
           <br />
           If you have low self-esteem, it can take practice to get used to
-          thinking more pleasantly about yourself.
+          thinking more positively about yourself.
         </p>
         <p>
           <strong>Exercise 2&nbsp;– How I see myself</strong>
@@ -218,56 +224,73 @@ const SelfEsteemAndAssertivenessModuleData = [
           People with low self-esteem often struggle to be assertive; this can
           be because they don’t feel they deserve to be listened to. However,
           learning to be assertive and being able to share your views with
-          others can help improve your self-esteem. Once you can see other
-          people value your views then you can see it yourself.
+          others in a healthy way can help improve your self-esteem. Once you
+          can see other people value your views then you can see it yourself.
         </p>
         <br></br>
         <h4 className="secondary-color">Learn to be assertive</h4>
         <p>
-          Being assertive means being able to stand up for your own or other
-          people’s rights in a calm and positive way, without being either
-          aggressive or passive.
+          Being assertive means being able to communicate with others in a
+          direct and honest manner without hurting anyone’s feelings or becoming
+          upset yourself.
         </p>
         <p>
-          Assertive individuals are able to get their point of view across
-          without upsetting others, or becoming upset themselves. Someone who is
-          assertive states their needs and opinions clearly, so that people take
-          notice. Being assertive is a skill which can be developed.&nbsp; It
-          requires patience and practice and can result in positive
-          communication, better decision making and less of the negative
-          feelings which contribute to anger, worry and anxiety.
+          Assertive individuals are able to get their point of view across in a
+          calm and positive way, without being either aggressive or passive.
+          Someone who is assertive states their needs and opinions clearly, so
+          that people take notice. Being assertive is a skill which can be
+          developed. It requires patience and practice and can result in
+          positive communication, better decision making, self-confidence and
+          less of the unpleasant feelings which contribute to anger, worry and
+          anxiety.
         </p>
         <p>
           To be assertive you need to speak up for yourself in a way that does
-          not disrespect the other person. It can involve saying no, which can
-          be difficult, especially if it is a family member or friend who is
-          asking us to do something.
+          not upset the other person. It can involve saying no, which can be
+          difficult, especially if it is a family member or friend who is asking
+          us to do something.
         </p>
         <p>Here is a list of things that might help:</p>
         <ul className="content-list">
           <li>
-            Ask the person if you can talk to them on their own- don’t include
-            other people
+            Use the skill of self-talk to help you with being assertive, i.e.,
+            identify your thoughts that are stopping you from speaking up for
+            yourself and challenge them with more assertive thoughts (you can
+            practice this skill more in our{" "}
+            <Link to="/self-talk">
+              <b>self-talk</b>
+            </Link>{" "}
+            section).
+          </li>
+          <li>
+            It is important to wait until you feel calm, so you can explain
+            clearly how you feel.
+          </li>
+          <li>
+            It might help to think about what you want to say before you enter
+            the conversation – have some key points ready and remember to
+            express your feelings.
+          </li>
+          <li>
+            It is important to state how you feel using ‘I’ statements, as no
+            one can disagree with how you feel and it doesn’t sound like you are
+            blaming the other person. For example if you said to someone ‘you
+            make me feel lonely’ versus ‘I feel lonely’.
+            <br />
+            Ask the person if you can talk to them on their own. To create a
+            more personal space, it’s helpful not to include other people.
           </li>
           <li>
             Remember that you want to maintain the relationship and that most
-            people do not intend to deliberately hurt your feelings
-          </li>
-          <li>
-            Remember if something upsets you, you have the right to speak up
-            about it
+            people do not intend to deliberately hurt your feelings.
           </li>
           <li>
             Pay attention to your body language as well as to the words you say
             – try to be open and confident.
-            <br />
-            Keep your voice calm and low, look the other person in the eye,
-            stand up straight so that you look confident (even if you don’t feel
-            it)
           </li>
           <li>
-            Try to express your feelings if you have been upset – wait until you
-            feel calm and explain clearly how you feel.
+            Keep your voice calm and low, look the other person in the eye,
+            stand up straight, and respect their personal space.
           </li>
           <li>Stick to the point</li>
           <li>
@@ -276,7 +299,7 @@ const SelfEsteemAndAssertivenessModuleData = [
             say may come as a surprise
           </li>
           <li>
-            Allow people a chance to respond-sometimes people need a chance to
+            Allow people a chance to respond - sometimes people need a chance to
             reflect on things before they can understand your point.
           </li>
           <li>
@@ -285,6 +308,29 @@ const SelfEsteemAndAssertivenessModuleData = [
           </li>
           <li>Say ‘no’ to unreasonable requests.</li>
         </ul>
+        <p>An example:</p>
+        <p>
+          <b>DESCRIBE THE SITUATION</b> - “when we don’t spend time together”.
+          This first step involves describing the situation or the behaviour
+          that is troubling you. It is helpful to stick to the facts here - who
+          did or said what, when and where it happened.
+        </p>
+        <p>
+          <b>EXPRESS YOUR FEELINGS</b> – “I feel lonely”. This means expressing
+          our feelings and thoughts about the situation or behaviour using ‘I’
+          statements.
+        </p>
+        <p>
+          <b>SAY WHAT YOU WANT</b> – “I would like us to have at least one
+          evening a week together”. Here you should describe how you would like
+          the situation to be or what you would like from the other person.
+        </p>
+        <p>
+          <b>STATE THE OUTCOME</b> – “that way we can have quality time
+          together”. Say what the outcome would be. In this step, it is helpful
+          to state the positives for you and them if they were to do your
+          request and the negatives for you and them if things stay as they are.
+        </p>
       </div>
     ),
   },
@@ -303,24 +349,25 @@ const SelfEsteemAndAssertivenessModuleData = [
         </p>
         <ul className="content-list">
           <li>Do activities that you enjoy.</li>
-          <li>Spend time with pleasant, supportive people.</li>
+          <li>Spend time with positive, supportive people.</li>
           <li>Set yourself an achieveable challenge.</li>
           <li>Be helpful and considerate to others.</li>
           <li>Try not to compare yourself to other people.</li>
           <li>
             Try to do regular exercise, eat healthily and get enough sleep.
           </li>
-          <li>Be assertive – you have the right to be treated with respect.</li>
+          <li>
+            Be assertive in a healthy way – it's important to be heard and
+            treated with respect.
+          </li>
           <li>
             Use self-help books and websites to develop helpful skills, like
             assertiveness or mindfulness.
           </li>
-          <li>Learn to challenge your unpleasant beliefs.</li>
+          <li>Learn to challenge your unhelpful beliefs.</li>
+          <li>Acknowledge your good qualities and things you are good at.</li>
           <li>
-            Acknowledge your pleasant qualities and things you are good at.
-          </li>
-          <li>
-            Get into the habit of thinking and saying pleasant things about
+            Get into the habit of thinking and saying positive things about
             yourself.
           </li>
         </ul>
