@@ -180,12 +180,12 @@ const SexualCommunicationWithChildrenModuleData = [
           </p>
           <p>
             As well as ideas like the Triple A model (which you can find more
-            about on the Online World module), people can also perceive the
-            internet as a place where they can express themselves sexually more
-            openly. For example, some people might feel more confident talking
-            to adults and/or children about sex online than offline. Or they
-            might feel that they can portray themselves with more confidence or
-            as being more attractive etc.
+            about on the <Link to="/online-world">Online World module</Link>),
+            people can also perceive the internet as a place where they can
+            express themselves sexually more openly. For example, some people
+            might feel more confident talking to adults and/or children about
+            sex online than offline. Or they might feel that they can portray
+            themselves with more confidence or as being more attractive etc.
           </p>
           <p>To avoid offending, think about:</p>
           <ul className="content-list">

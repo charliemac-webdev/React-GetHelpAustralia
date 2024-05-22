@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import image from "../../../images/justifications.gif";
+import documentOne from "../../../documents/Justification_Challenging your justifications.pdf";
 
 const JustificationsModuleData = [
   {
@@ -128,7 +129,11 @@ const JustificationsModuleData = [
             </tr>
           </tbody>
         </table>
-        <p>Download a printable version</p>
+        <p>
+          <a href={documentOne} target="_blank" rel="noopener noreferrer">
+            <u>Download printable version</u>
+          </a>
+        </p>
         <p>
           As you work through the modules, have this list with you. The more you
           understand about your offending behaviours, the more unhelpful
