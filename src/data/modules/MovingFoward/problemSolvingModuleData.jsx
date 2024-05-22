@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import ReflectionQuestion from "../../../components/ReflectionQuestion";
 import document from "../../../documents/Problem Solving - Exercise 1_Problem Diary.pdf";
+import imageOne from "../../../images/Improving my self esteem.png";
 
 const ProblemSolvingModuleData = [
   {
@@ -288,6 +289,16 @@ const ProblemSolvingModuleData = [
           considering all the options. When we write down anything and
           everything, we find that our ideas bounce off one another, so it helps
           us to think of more ideas.
+        </p>
+        <p>Here is an example of brainstorming.</p>
+        <p>
+          <img
+            className="d-block mx-auto"
+            src={imageOne}
+            alt="good lives"
+            width="80%"
+            height="auto"
+          />
         </p>
         <p>
           <strong className="secondary-color">
