@@ -5,7 +5,11 @@ const Navbar = () => {
   return (
     <nav className="navbar col-lg-10 mx-auto">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a
+          className="navbar-brand"
+          target="_blank"
+          href="https://www.stopitnow.org.au"
+        >
           <img src={logo} alt="Stop It Now!" height="137" />
         </a>
         <div className="fw-semibold">
