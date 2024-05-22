@@ -35,10 +35,6 @@ const AddictionModuleData = [
           </p>
           <ul className="content-list">
             <li>
-              Challenging your thoughts that make it feel like the behaviour is
-              okay.
-            </li>
-            <li>
               Do you find yourself doing it more often and for longer periods of
               time than you originally intended?
             </li>

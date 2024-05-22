@@ -168,7 +168,7 @@ const JustificationsModuleData = [
           I can recognise challenges to my justifications to help me stop
           engaging in harmful behaviour.
         </ReflectionQuestion>
-        <Link className="default-link" to="/problematic-collecting">
+        <Link className="default-link" to="/online-world">
           <div className="d-flex justify-content-end">
             <Button ident="next-button" classes="btn">
               Next Module
