@@ -34,12 +34,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col pt-3">
+          <div className="col pt-2">
             <div className="d-md-flex flex-md-column text-md-center">
               <div className="p-md-2">
                 <Link to="/" className="default-link">
                   <p className="m-0 footer-link text-white">
-                    Disclaimer and Privacy Policy
+                    <u>
+                      <b>Disclaimer and Privacy Policy</b>
+                    </u>
                   </p>
                 </Link>
               </div>
