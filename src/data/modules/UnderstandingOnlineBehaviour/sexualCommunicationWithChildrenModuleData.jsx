@@ -140,30 +140,15 @@ const SexualCommunicationWithChildrenModuleData = [
           <p>
             Look at the cycle below and think about how each stage might have
             applied to your online sexual behaviour towards a particular child
-            or children, in general.
+            or children, in general. How a person moves through the cycle will
+            be unique to them, and is likely to have changed over time as their
+            behaviour developed. However, this gives a good overview of how your
+            offending cycle may work and how you can break this cycle at
+            different stages.
           </p>
           <p>
-            How a person moves through the cycle will be unique to them, and is
-            likely to have changed over time as their behaviour developed.
-            However, this gives a good overview of how your offending cycle may
-            work and how you can break this cycle at different stages.
-          </p>
-          <p>
-            A full description of each of the stages of the cycle and
-            intervention strategies for each stage are outlined below.
-          </p>
-          <p>
-            As you read through the stages, make note of the strategies you can
-            use at each stage to ensure you do not continue through the cycle.{" "}
-          </p>
-          <p>
-            You can download the exercise sheet&nbsp;
-            <u>
-              <a href={documentOne} target="_blank" rel="noopener noreferrer">
-                here
-              </a>
-            </u>
-            .
+            A full description of each of the stages of the cycle and examples
+            of intervention strategies for each stage are outlined below.
           </p>
           <p>
             <img
@@ -174,18 +159,50 @@ const SexualCommunicationWithChildrenModuleData = [
               width="50%"
             />
           </p>
-          <br></br>
+          <br />
+          <p>
+            As you read through the stages, make note of the strategies and
+            barriers you can use at each stage to ensure you do not continue
+            through the cycle.  It is important to recognise that there are a
+            variety of helpful strategies and barriers referenced throughout the
+            self-help modules. You may also find it helpful to reach out to the{" "}
+            <a
+              className="nav-link secondary-color d-inline"
+              target="_blank"
+              href="https://www.stopitnow.org.au/helpline"
+            >
+              Stop It Now! Australia helpline
+            </a>{" "}
+            to explore potential barriers further.
+          </p>
+          <p>
+            You can download the exercise sheet&nbsp;
+            <u>
+              <a
+                className="nav-link secondary-color d-inline"
+                href={documentOne}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+            </u>
+            .
+          </p>
+
           <p>
             <h5 className="secondary-color">The online environment</h5>
           </p>
           <p>
             As well as ideas like the Triple A model (which you can find more
-            about on the <Link to="/online-world">Online World module</Link>),
-            people can also perceive the internet as a place where they can
-            express themselves sexually more openly. For example, some people
-            might feel more confident talking to adults and/or children about
-            sex online than offline. Or they might feel that they can portray
-            themselves with more confidence or as being more attractive etc.
+            about in the Online World module), people can also perceive the
+            internet as a place where they can express themselves sexually more
+            openly. For example, some people might feel more confident talking
+            to others about sex online compared to offline. Or they might feel
+            that they can portray themselves with more confidence or as being
+            more attractive etc. Refer to the{" "}
+            <Link to="/online-world">Online World module</Link> for more
+            learning about the online environment.
           </p>
           <p>To avoid offending, think about:</p>
           <ul className="content-list">
@@ -200,9 +217,11 @@ const SexualCommunicationWithChildrenModuleData = [
             online?
           </p>
           <p>
-            e.g., Reducing your online time; creating some more opportunities to
-            socialise offline; setting alarms to limit online time, accessing
-            the internet only in communal areas etc.
+            e.g., Creating some more opportunities to socialise offline; setting
+            alarms to limit online time, accessing the internet only in communal
+            areas’ downloading website blocking and screen monitoring software
+            to hold yourself accountable (such as covenant eyes and net nanny),
+            etc.
           </p>
           <p>
             <h5 className="secondary-color">Contact with child or children</h5>
@@ -219,9 +238,9 @@ const SexualCommunicationWithChildrenModuleData = [
             </li>
             <li>
               What was motivating you to contact a child? What need are you
-              seeking to meet? What other ways can you meet this motivation/need
+              seeking to meet? What other ways can you meet this motivation/need
               which are healthier and legal e.g. connecting with known adults
-              offline?{" "}
+              offline?
             </li>
           </ul>
           <p>
@@ -229,33 +248,29 @@ const SexualCommunicationWithChildrenModuleData = [
             child online?
           </p>
           <p>
-            e.g., deleting certain apps; confirming someone's age before talking
-            to them, meeting your needs in other legal and healthy ways etc.{" "}
+            e.g., deleting certain apps; confirming someone&#39;s age before
+            talking to them; identifying what needs this behaviour is seeking to
+            meet and identifying other legal and healthy ways etc.
           </p>
           <p>
             <h5 className="secondary-color">Grooming</h5>
           </p>
           <p>
             Grooming is an on-going process that happens before and throughout
-            online sexual communication with children. This stage involves a
-            range of different behaviours including building the child's trust
-            and persuading a child to engage in conversations/behaviours.
+            online sexual communication with children. Building a child’s trust
+            for sexual purposes is a form of exploitation and is harmful to
+            children.
           </p>
           <p>To avoid offending, think about:</p>
           <ul className="content-list">
             <li>
-              The decisions you made and the behaviours you implemented to
-              persuade a child to reply to your first message and following
-              messages. It is important to recognise that sexual communication
-              does not happen by accident, and involves a range of grooming
-              behaviours.
+              How we know that sexual communication does not happen by accident,
+              and involves a range of grooming behaviours.
             </li>
             <li>
-              How your behaviours as an adult can influence children (it may
-              help to think about the influence adults had over you when you
-              were a child). Remind yourself that it is always an adult's
-              responsibility to prevent communication between adults and
-              children.{" "}
+              How your behaviours as an adult can influence children? Remind
+              yourself that it is always an adult&#39;s responsibility to
+              prevent communication between adults and children.
             </li>
           </ul>
           <p>
@@ -270,11 +285,14 @@ const SexualCommunicationWithChildrenModuleData = [
             grooming behaviours?
           </p>
           <p>
-            e.g., ending communication with the child; blocking any contact you
-            have with children; reminding yourself that this behaviour is
-            grooming and grooming is illegal; and reminding yourself that it is
-            always an adult's responsibility to stop communication between
-            adults and children.{" "}
+            e.g., writing down the costs of the behaviour for children, yourself
+            and your loved ones; thinking about the consequences of your actions
+            such as how your family would react if they could see the
+            conversation or you being arrested; blocking any apps or profiles
+            which you know are risky for you; reminding yourself that it is
+            always an adult&#39;s responsibility to stop communication between
+            adults and children; and having a message or photo on your devices
+            of what motivates you to not offend.
           </p>
           <p>
             <h5 className="secondary-color">Sexual outcomes</h5>
@@ -283,25 +301,19 @@ const SexualCommunicationWithChildrenModuleData = [
             This is the sexual behaviour itself, for example, the exchange of
             sexual videos and images; offline sexual contact. This includes
             one-off sexual encounters and sustained sexual contact with the same
-            child over time etc.
+            child or children over time etc.
           </p>
           <p>To avoid offending, think about:</p>
           <ul className="content-list">
             <li>
               The negative impacts of child sexual abuse on the victims and
-              their families.
+              their families
             </li>
+            <li>The negative long-term consequences for you and your family</li>
             <li>
-              The negative long-term consequences for you and your family.
-            </li>
-            <li>
-              What need are you seeking to meet? What other ways can you meet
+              What need are you seeking to meet? What other ways can you meet
               this motivation/need which are healthier and legal e.g. connecting
               with known adults offline?
-            </li>
-            <li>
-              The role and responsibilities adults have to keep children safe
-              and free from sexualisation.
             </li>
           </ul>
           <p>
@@ -309,10 +321,13 @@ const SexualCommunicationWithChildrenModuleData = [
             sexual communication with children?
           </p>
           <p>
-            e.g., ending and blocking any contact you have with children;
-            seeking external support for problematic sexual behaviours;
-            reminding yourself children cannot consent; and sexual conversations
-            with children have damaging lifelong impacts for children.{" "}
+            e.g., ending and blocking any contact you have with children;{" "}
+            <Link to="/fantasy"> exploring fantasy management </Link> techniques
+            to help manage urges to offend; identifying ways to get sexual
+            pleasure in healthy and legal ways; seeking external support for
+            problematic sexual behaviours; reminding yourself children can never
+            consent and sexual conversations with children have damaging
+            lifelong impacts for children.
           </p>
           <p>
             <h5 className="secondary-color">Justifications</h5>
@@ -347,14 +362,13 @@ const SexualCommunicationWithChildrenModuleData = [
           </p>
           <p>
             If you haven’t looked at the{" "}
-            <Link to="/justifications">justifications module</Link>
-            &nbsp; take some time to complete this now before moving on so that
-            you can recognise your justifications at the time you were engaging
-            in harmful behaviour and how you can challenge them.
-          </p>
-          <p>
-            If you have sexually communicated with children, consider some of
-            the examples below that you could add to your justification table.{" "}
+            <Link to="/justifications"> justifications module </Link>, take some
+            time to complete this now before moving on so that you can recognise
+            your justifications at the time you were engaging in harmful
+            behaviour and how you can challenge them.  If you have sexually
+            communicated with children, consider if the examples below are
+            relevant for you, as well as any others that you have identified,
+            and add these to your justification table.
           </p>
           <p>&nbsp;</p>
           <table className="table table-bordered">
