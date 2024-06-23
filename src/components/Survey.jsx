@@ -50,7 +50,7 @@ const Survey = () => {
                 value="other"
               />
               <label className="form-check-label" htmlFor="gender-other">
-                Other
+                I prefer to be described in a different way
               </label>
             </div>
           </div>
