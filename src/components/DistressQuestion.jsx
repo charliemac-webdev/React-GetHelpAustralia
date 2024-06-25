@@ -6,11 +6,6 @@ function valuetext(value) {
 }
 
 const DistressQuestion = ({ value, children }) => {
-  const [sliderValue, setSliderValue] = useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
   return (
     <>
       <div className="bg-primary-subtle border border-primary p-3">
@@ -26,10 +21,8 @@ const DistressQuestion = ({ value, children }) => {
           step={1}
           min={1}
           max={5}
-          value={sliderValue}
           getAriaValueText={valuetext}
           valueLabelDisplay="on"
-          onChange={handleChange}
         />
       </div>
       <div className="d-flex justify-content-between fs-6">
