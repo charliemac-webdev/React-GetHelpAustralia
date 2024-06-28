@@ -17,7 +17,7 @@ const UnderstandingYourThoughtsAndBehaviour = () => {
       </Heading>
       <MainContent>
         <UnderstandingYourThoughtsAndBehaviourData />
-        <div className="row single-modules p-4 bg-primary-subtle">
+        <div className="row single-modules p-4 bg-primary-subtle rounded">
           {understandingThoughtsFolderTitles.map((folder) => (
             <div key={folder.id} className="col-6 col-lg-4 col-xl-3 mt-3 mb-4">
               <Link to={folder.link}>
