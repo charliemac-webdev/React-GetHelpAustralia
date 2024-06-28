@@ -25,28 +25,30 @@ const GpiusQuizThree = () => {
         <h4 className="secondary-color">How do I start?</h4>
         <p>Use the "Continue" button below to proceed with the questions.</p>
         <br />
-        <div className="d-flex mb-3">
-          <div className="number active">1</div>
-          <div className="number active">2</div>
-          <div className="number active">3</div>
+        <div className="border border-primary p-3 rounded">
+          <div className="d-flex mb-3">
+            <div className="number active">1</div>
+            <div className="number active">2</div>
+            <div className="number active">3</div>
+          </div>
+          <GPIUSQuestion id="gpius-q1p3">
+            I prefer communicating with people online rather than face-to-face.
+          </GPIUSQuestion>
+          <GPIUSQuestion id="gpius-q2p3">
+            I have used the Internet to make myself feel better when I've felt
+            upset.
+          </GPIUSQuestion>
+          <GPIUSQuestion id="gpius-q3p3">
+            I think obsessively about going online when I am offline.
+          </GPIUSQuestion>
+          <GPIUSQuestion id="gpius-q4p3">
+            When offline, I have a hard time trying to resist the urge to go
+            online.
+          </GPIUSQuestion>
+          <GPIUSQuestion id="gpius-q5p3">
+            My Internet use has created problems for me in my life.
+          </GPIUSQuestion>
         </div>
-        <GPIUSQuestion id="gpius-q1p3">
-          I prefer communicating with people online rather than face-to-face.
-        </GPIUSQuestion>
-        <GPIUSQuestion id="gpius-q2p3">
-          I have used the Internet to make myself feel better when I've felt
-          upset.
-        </GPIUSQuestion>
-        <GPIUSQuestion id="gpius-q3p3">
-          I think obsessively about going online when I am offline.
-        </GPIUSQuestion>
-        <GPIUSQuestion id="gpius-q4p3">
-          When offline, I have a hard time trying to resist the urge to go
-          online.
-        </GPIUSQuestion>
-        <GPIUSQuestion id="gpius-q5p3">
-          My Internet use has created problems for me in my life.
-        </GPIUSQuestion>
         <br />
         <Link className="text-decoration-none" to="/gpius-quiz-results">
           <div className="d-flex justify-content-end">

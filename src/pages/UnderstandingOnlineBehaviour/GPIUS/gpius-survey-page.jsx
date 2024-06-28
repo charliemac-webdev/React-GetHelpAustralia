@@ -25,7 +25,10 @@ const GpiusSurveyPage = () => {
         <h4 className="secondary-color">How do I start?</h4>
         <p>Use the "Continue" button below to proceed with the questions.</p>
         <br />
-        <Survey />
+        <div className="border border-primary p-3 rounded">
+          <Survey />
+        </div>
+        <br />
         <Link className="text-decoration-none" to="/gpius-quiz-1">
           <div className="d-flex justify-content-end">
             <Button ident="continue-button" classes="btn">

@@ -32,31 +32,33 @@ const GpiusQuizResults = () => {
         <h4 className="secondary-color">How do I start?</h4>
         <p>Use the "Continue" button below to proceed with the questions.</p>
         <br />
-        <h4 className="secondary-color">Overall Score</h4>
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>Your K-10 score is: {totalScore}</p>
-        </div>
-        <br />
-        <p>
-          <span className="secondary-color fw-bold">1 - 50:</span> Your score
-          indicates you are less likely to be engaging in internet use that is
-          problematic to your thoughts and/or behaviour.
-        </p>
-        <p>
-          <span className="secondary-color fw-bold">51 - 120:</span> This score
-          indicates you are likely engaging in internet use that is having a
-          negative impact on your thoughts and/or behaviour.
+        <div className="border border-primary p-3 rounded">
+          <h4 className="secondary-color">Overall Score</h4>
+          <div className="bg-primary-subtle border border-primary p-3">
+            <p>Your K-10 score is: {totalScore}</p>
+          </div>
           <br />
-        </p>
-        Examples of this include:-
-        <ul className="content-list">
-          <li>Losing track of time online</li>
-          <li>Having trouble completing other tasks</li>
-          <li>Isolating from family or friends</li>
-          <li>Only feeling good/happy when online</li>
-          <li>Replacing real people with online friends</li>
-          <li>Withdrawing from daily activities</li>
-        </ul>
+          <p>
+            <span className="secondary-color fw-bold">1 - 50:</span> Your score
+            indicates you are less likely to be engaging in internet use that is
+            problematic to your thoughts and/or behaviour.
+          </p>
+          <p>
+            <span className="secondary-color fw-bold">51 - 120:</span> This
+            score indicates you are likely engaging in internet use that is
+            having a negative impact on your thoughts and/or behaviour.
+            <br />
+          </p>
+          Examples of this include:-
+          <ul className="content-list">
+            <li>Losing track of time online</li>
+            <li>Having trouble completing other tasks</li>
+            <li>Isolating from family or friends</li>
+            <li>Only feeling good/happy when online</li>
+            <li>Replacing real people with online friends</li>
+            <li>Withdrawing from daily activities</li>
+          </ul>
+        </div>
         <br />
         <Link className="text-decoration-none" to="/understanding-why">
           <div className="d-flex justify-content-end">

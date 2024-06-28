@@ -25,28 +25,30 @@ const DistressQuizOne = () => {
         <h4 className="secondary-color">How do I start?</h4>
         <p>Use the "Continue" button below to proceed with the questions.</p>
         <br />
-        <div className="d-flex mb-3">
-          <div className="number active">1</div>
-          <div className="number">2</div>
+        <div className="border border-primary p-3 rounded">
+          <div className="d-flex mb-3">
+            <div className="number active">1</div>
+            <div className="number">2</div>
+          </div>
+          <DistressQuestion id="q1p1">
+            1. In the past 4 weeks, about how often did you feel tired out for
+            no good reason?
+          </DistressQuestion>
+          <DistressQuestion id="q2p1">
+            2. In the past 4 weeks, about how often did you feel nervous?
+          </DistressQuestion>
+          <DistressQuestion id="q3p1">
+            3. In the past 4 weeks, about how often did you feel so nervous that
+            nothing could calm you down?
+          </DistressQuestion>
+          <DistressQuestion id="q4p1">
+            4. In the past 4 weeks, about how often did you feel hopeless?
+          </DistressQuestion>
+          <DistressQuestion id="q5p1">
+            5. In the past 4 weeks, about how often did you feel restless or
+            fidgety?
+          </DistressQuestion>
         </div>
-        <DistressQuestion id="q1p1">
-          1. In the past 4 weeks, about how often did you feel tired out for no
-          good reason?
-        </DistressQuestion>
-        <DistressQuestion id="q2p1">
-          2. In the past 4 weeks, about how often did you feel nervous?
-        </DistressQuestion>
-        <DistressQuestion id="q3p1">
-          3. In the past 4 weeks, about how often did you feel so nervous that
-          nothing could calm you down?
-        </DistressQuestion>
-        <DistressQuestion id="q4p1">
-          4. In the past 4 weeks, about how often did you feel hopeless?
-        </DistressQuestion>
-        <DistressQuestion id="q5p1">
-          5. In the past 4 weeks, about how often did you feel restless or
-          fidgety?
-        </DistressQuestion>
         <br />
         <Link className="text-decoration-none" to="/distress-quiz-2">
           <div className="d-flex justify-content-end">

@@ -32,34 +32,38 @@ const DistressQuizResults = () => {
         <h4 className="secondary-color">How do I start?</h4>
         <p>Use the "Continue" button below to proceed with the questions.</p>
         <br />
-        <h4 className="secondary-color">Overall Score</h4>
-        <div className="bg-primary-subtle border border-primary p-3">
-          <p>Your K-10 score is: {totalScore}</p>
+        <div className="border border-primary p-3 rounded">
+          <h4 className="secondary-color">Overall Score</h4>
+          <div className="bg-primary-subtle border border-primary p-3">
+            <p>Your K-10 score is: {totalScore}</p>
+          </div>
+          <br />
+          <p>
+            <span className="secondary-color fw-bold">10-19:</span> This score
+            indicates you are well and likely experiencing low or no
+            psychological distress.
+          </p>
+          <p>
+            <span className="secondary-color fw-bold">20-24:</span> This score
+            indicates you are experiencing a mild level of psychological
+            distress.
+          </p>
+          <p>
+            <span className="secondary-color fw-bold">25-29:</span> This score
+            indicates you are experiencing a high level of psychological
+            distress.
+          </p>
+          <p>
+            <span className="secondary-color fw-bold">30-50:</span> This score
+            indicates you are experiencing a very high level of psychological
+            distress.
+          </p>
+          <p>
+            Now you have completed the psychological distress scale, understand
+            more about recognising and dealing with feelings, by going through
+            our self-help module.
+          </p>
         </div>
-        <br />
-        <p>
-          <span className="secondary-color fw-bold">10-19:</span> This score
-          indicates you are well and likely experiencing low or no psychological
-          distress.
-        </p>
-        <p>
-          <span className="secondary-color fw-bold">20-24:</span> This score
-          indicates you are experiencing a mild level of psychological distress.
-        </p>
-        <p>
-          <span className="secondary-color fw-bold">25-29:</span> This score
-          indicates you are experiencing a high level of psychological distress.
-        </p>
-        <p>
-          <span className="secondary-color fw-bold">30-50:</span> This score
-          indicates you are experiencing a very high level of psychological
-          distress.
-        </p>
-        <p>
-          Now you have completed the psychological distress scale, understand
-          more about recognising and dealing with feelings, by going through our
-          self-help module.
-        </p>
         <br />
         <Link
           className="text-decoration-none"
