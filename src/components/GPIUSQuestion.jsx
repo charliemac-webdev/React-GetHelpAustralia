@@ -1,32 +1,42 @@
+import React, { useState, useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { updateGpiusScore } from "../context/gpiusScoreSlice";
+
 import { Slider } from "@mui/material";
-import React from "react";
 
-function valuetext(value) {
-  return value;
-}
+const GPIUSQuestion = ({ id, children }) => {
+  const [value, setValue] = useState(5);
+  const dispatch = useDispatch();
 
-const GPIUSQuestion = (props) => {
+  useEffect(() => {
+    dispatch(updateGpiusScore({ id, score: value }));
+  }, [dispatch, id, value]);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+    dispatch(updateGpiusScore({ id, score: newValue }));
+  };
   return (
     <>
       <div className="bg-primary-subtle border border-primary p-3">
-        <p>{props.children}</p>
+        <p>{children}</p>
       </div>
       <br />
       <br />
 
       <div className="w-100">
         <Slider
+          value={value}
+          onChange={handleChange}
           aria-label="Always visible"
-          defaultValue={5}
           step={1}
-          marks
           min={1}
           max={8}
-          getAriaValueText={valuetext}
+          aria-labelledby={`slider-${id}`}
           valueLabelDisplay="on"
         />
       </div>
-      <div className="d-flex justify-content-between fs-7">
+      <div id={`slider-${id}`} className="d-flex justify-content-between fs-7">
         <span className="text-start w-4">Definitely disagree</span>
         <span className=" text-wrap w-4">Mostly Disagree</span>
         <span className=" text-wrap w-4">Somewhat Disagree</span>

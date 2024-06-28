@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 import Button from "../../../components/Button";
 import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 
 const DistressQuizResults = () => {
+  const scores = useSelector((state) => state.distressScore.scores);
+  console.log("Scores from Redux store:", scores);
+  const totalScore = scores.reduce((sum, item) => {
+    console.log(`Adding score for ${item.id}: ${item.score}`);
+    return sum + item.score;
+  }, 0);
+  console.log("Calculated total score:", totalScore);
   return (
     <>
       <Heading>
@@ -26,7 +34,7 @@ const DistressQuizResults = () => {
         <br />
         <h4 className="secondary-color">Overall Score</h4>
         <div className="bg-primary-subtle border border-primary p-3">
-          <p>Your K-10 score is: </p>
+          <p>Your K-10 score is: {totalScore}</p>
         </div>
         <br />
         <p>
@@ -58,7 +66,7 @@ const DistressQuizResults = () => {
           to="/recognising-and-dealing-with-feelings"
         >
           <div className="d-flex justify-content-end">
-            <Button ident="next-button" classes="btn" onClick={handleClick}>
+            <Button ident="next-button" classes="btn">
               Next
             </Button>
           </div>
