@@ -7,8 +7,8 @@ import "./scss/styles.scss";
 // PostHog Analytics
 import posthog from "posthog-js";
 import { PostHogProvider } from "posthog-js/react";
-posthog.init(process.env.REACT_APP_POSTHOG_API_KEY, {
-  api_host: process.env.REACT_APP_POSTHOG_API_URL,
+posthog.init(import.meta.env.VITE_POSTHOG_API_KEY, {
+  api_host: import.meta.env.VITE_POSTHOG_API_URL,
   person_profiles: "identified_only",
   capture_pageview: false,
   autocapture: {},
