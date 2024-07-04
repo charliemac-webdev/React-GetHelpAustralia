@@ -4,7 +4,19 @@ import Heading from "../../../components/Heading";
 import MainContent from "../../../components/MainContent";
 import Survey from "../../../components/Survey";
 
+import { usePostHog } from "posthog-js/react";
+
 const DistressQuizSurvey = () => {
+  const posthog = usePostHog();
+
+  const handleButtonClick = () => {
+    posthog.capture("button_clicked", {
+      buttonName: "distress_quiz_button",
+      // Add any other properties relevant to this event
+    });
+    // Your button click logic here
+  };
+
   return (
     <>
       <Heading>
@@ -31,7 +43,11 @@ const DistressQuizSurvey = () => {
         <br />
         <Link className="text-decoration-none" to="/distress-quiz-1">
           <div className="d-flex justify-content-end">
-            <Button ident="continue-button" classes="btn">
+            <Button
+              ident="continue-button"
+              classes="btn"
+              onClick={handleButtonClick}
+            >
               Continue
             </Button>
           </div>
