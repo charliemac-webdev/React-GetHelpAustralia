@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import document from "../../../documents/Problem Solving - Exercise 1_Problem Diary.pdf";
-import imageOne from "../../../images/Improving my self esteem.png";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import document from "@/documents/Problem Solving - Exercise 1_Problem Diary.pdf";
+import imageOne from "@/images/Improving my self esteem.png";
 
 const ProblemSolvingModuleData = [
   {

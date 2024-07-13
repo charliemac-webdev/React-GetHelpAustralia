@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import documentOne from "../../../documents/Sexual communication_Cycle of online grooming.pdf";
-import documentTwo from "../../../documents/Sexual communication_responding to justifications.pdf";
-import image from "../../../images/theOnlineEnv.png";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import documentOne from "@/documents/Sexual communication_Cycle of online grooming.pdf";
+import documentTwo from "@/documents/Sexual communication_responding to justifications.pdf";
+import image from "@/images/theOnlineEnv.png";
 
 const SexualCommunicationWithChildrenModuleData = [
   {

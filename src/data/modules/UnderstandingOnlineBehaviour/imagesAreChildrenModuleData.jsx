@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
+import Button from "@/components/Button";
 
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import pictureOne from "../../../images/diagrams-yes-or-no.gif";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import pictureOne from "@/images/diagrams-yes-or-no.gif";
 
 const ImagesAreChildrenModuleData = [
   {

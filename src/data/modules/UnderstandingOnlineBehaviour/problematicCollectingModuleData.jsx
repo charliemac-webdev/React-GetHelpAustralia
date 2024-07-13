@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
 
-import imageTwo from "../../../images/problematic-collecting-excercise-3a-graph.png";
-import imageOne from "../../../images/problematic-collecting-excercise-3a-scale.png";
+import imageTwo from "@/images/problematic-collecting-excercise-3a-graph.png";
+import imageOne from "@/images/problematic-collecting-excercise-3a-scale.png";
 
-import documentOne from "../../../documents/Problematic collecting_Challenge yourself.pdf";
-import documentTwo from "../../../documents/Problematic collecting_My collecting.pdf";
+import documentOne from "@/documents/Problematic collecting_Challenge yourself.pdf";
+import documentTwo from "@/documents/Problematic collecting_My collecting.pdf";
 
 const ProblematicCollectingModuleData = [
   {

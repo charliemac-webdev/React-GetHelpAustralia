@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import AdultPornographyModuleData from "../../data/modules/UnderstandingOnlineBehaviour/adultPornographyModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import AdultPornographyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/adultPornographyModuleData";
 
 const AdultPornographyModule = ({ showMenu }) => {
   useEffect(() => {

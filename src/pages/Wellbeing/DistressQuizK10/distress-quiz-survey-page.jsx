@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
-import Survey from "../../../components/Survey";
+import Button from "@/components/Button";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Survey from "@/components/Survey";
 
 import { usePostHog } from "posthog-js/react";
 

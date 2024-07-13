@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import picture from "../../../images/shame-spiral.png";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import picture from "@/images/shame-spiral.png";
 
 const GuiltAndShameModuleData = [
   {

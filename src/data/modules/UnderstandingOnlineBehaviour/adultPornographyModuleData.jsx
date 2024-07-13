@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import document from "../../../documents/Adult Pornography_Online Use Diary.pdf";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import document from "@/documents/Adult Pornography_Online Use Diary.pdf";
 
 const AdultPornographyModuleData = [
   {

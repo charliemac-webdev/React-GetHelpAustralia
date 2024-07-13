@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import selfTalkModuleData from "../../data/modules/Wellbeing/selfTalkModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import selfTalkModuleData from "@/data/modules/Wellbeing/selfTalkModuleData";
 
 const SelfTalkModule = ({ showMenu }) => {
   useEffect(() => {

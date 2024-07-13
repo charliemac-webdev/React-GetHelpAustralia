@@ -1,6 +1,6 @@
 import { BarChart } from "@mui/x-charts/BarChart";
 import { useState } from "react";
-import wellbeingAssessmentData from "../data/modules/assessments/wellbeingAssessmentData";
+import wellbeingAssessmentData from "@/data/modules/assessments/wellbeingAssessmentData";
 import Button from "./Button";
 
 const WellbeingAssessment = () => {

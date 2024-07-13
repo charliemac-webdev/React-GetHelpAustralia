@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import SexualCommunicationWithChildrenModuleData from "../../data/modules/UnderstandingOnlineBehaviour/sexualCommunicationWithChildrenModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import SexualCommunicationWithChildrenModuleData from "@/data/modules/UnderstandingOnlineBehaviour/sexualCommunicationWithChildrenModuleData";
 
 const SexualCommunicationWithChildrenModule = ({ showMenu }) => {
   useEffect(() => {

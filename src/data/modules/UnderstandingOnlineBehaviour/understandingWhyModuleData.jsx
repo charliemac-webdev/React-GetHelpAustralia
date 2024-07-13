@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
 
-import StartingPointQuiz from "../../../components/StartingPointQuiz";
-import pictureOne from "../../../images/understanding-why-excercise-1-example.png";
-import pictureTwo from "../../../images/understanding-why-excercise-2a-example-v2.png";
-import pictureThree from "../../../images/understanding-why-excercise-2b-example.png";
+import StartingPointQuiz from "@/components/StartingPointQuiz";
+import pictureOne from "@/images/understanding-why-excercise-1-example.png";
+import pictureTwo from "@/images/understanding-why-excercise-2a-example-v2.png";
+import pictureThree from "@/images/understanding-why-excercise-2b-example.png";
 
-import documentOne from "../../../documents/Understanding Why - Exercise - Daily Interent use record.pdf";
-import documentTwo from "../../../documents/Understanding Why_Progression timeline - Digging Deeper.pdf";
-import documentThree from "../../../documents/Understanding Why_Progression timeline - Making timeline.pdf";
+import documentOne from "@/documents/Understanding Why - Exercise - Daily Interent use record.pdf";
+import documentTwo from "@/documents/Understanding Why_Progression timeline - Digging Deeper.pdf";
+import documentThree from "@/documents/Understanding Why_Progression timeline - Making timeline.pdf";
 
 const understandingWhyModuleData = [
   {

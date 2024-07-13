@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import understandingWhyModuleData from "../../data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import understandingWhyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/understandingWhyModuleData";
 
 const UnderstandingWhyModule = ({ showMenu }) => {
   useEffect(() => {

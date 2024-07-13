@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import RelapsePreventionModuleData from "../../data/modules/MovingFoward/relapsePreventionModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import RelapsePreventionModuleData from "@/data/modules/MovingFoward/relapsePreventionModuleData";
 
 const RelapsePreventionModule = ({ showMenu }) => {
   useEffect(() => {

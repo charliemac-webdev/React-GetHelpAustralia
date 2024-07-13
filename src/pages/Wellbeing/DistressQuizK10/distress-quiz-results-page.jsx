@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Button from "../../../components/Button";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
+import Button from "@/components/Button";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
 
 const DistressQuizResults = () => {
   const scores = useSelector((state) => state.distressScore.scores);

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import AddictionModuleData from "../../data/modules/UnderstandingOnlineBehaviour/addictionModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import AddictionModuleData from "@/data/modules/UnderstandingOnlineBehaviour/addictionModuleData";
 
 const AddictionModule = ({ showMenu }) => {
   useEffect(() => {

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import ProblemOfImmediateModuleData from "../../data/modules/UnderstandingOnlineBehaviour/problemOfImmediateModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import ProblemOfImmediateModuleData from "@/data/modules/UnderstandingOnlineBehaviour/problemOfImmediateModuleData";
 
 const ProblemOfImmediateModule = ({ showMenu }) => {
   useEffect(() => {

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import DistressQuestion from "../../../components/DistressQuestion";
-import Heading from "../../../components/Heading";
-import MainContent from "../../../components/MainContent";
+import Button from "@/components/Button";
+import DistressQuestion from "@/components/DistressQuestion";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
 
 const DistressQuizTwo = () => {
   return (

@@ -1,4 +1,4 @@
-import logo from "../images/stopitnow.png";
+import logo from "@/images/stopitnow.png";
 import Button from "./Button";
 
 const Navbar = () => {

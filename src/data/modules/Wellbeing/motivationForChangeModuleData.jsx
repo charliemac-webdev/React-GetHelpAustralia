@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
+import Button from "@/components/Button";
 
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import picture from "../../../images/The-stages-of-change-scaled.jpg";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import picture from "@/images/The-stages-of-change-scaled.jpg";
 
 const MotivationForChangeModuleData = [
   {

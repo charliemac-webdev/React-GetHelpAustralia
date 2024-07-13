@@ -4,11 +4,11 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import { MdExpandMore } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
 
-import imageOne from "../../../images/good-lives.png";
-import document from "../../../documents/Good Life Plan.pdf";
+import imageOne from "@/images/good-lives.png";
+import document from "@/documents/Good Life Plan.pdf";
 
 const BuildingAGoodLifeModuleData = [
   {

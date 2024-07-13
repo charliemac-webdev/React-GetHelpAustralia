@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import document from "../../../documents/Addiction_Exercise_Addiction diary.pdf";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import document from "@/documents/Addiction_Exercise_Addiction diary.pdf";
 
 const AddictionModuleData = [
   {

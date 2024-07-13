@@ -1,6 +1,6 @@
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import ResourcesData from "../data/page-data/ResourcesData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import ResourcesData from "@/data/page-data/ResourcesData";
 
 const Resources = () => {
   return (

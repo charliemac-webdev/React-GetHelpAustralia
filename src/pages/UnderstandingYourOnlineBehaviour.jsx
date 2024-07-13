@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import MiniCard from "../components/MiniCard";
-import understandingOnlineBehaviourFolderTitles from "../data/module-folder-titles/understandingOnlineBehaviourFolderTitles";
-import UnderstandingYourOnlineBehaviourData from "../data/page-data/UnderstandingYourOnlineBehaviourData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import MiniCard from "@/components/MiniCard";
+import understandingOnlineBehaviourFolderTitles from "@/data/module-folder-titles/understandingOnlineBehaviourFolderTitles";
+import UnderstandingYourOnlineBehaviourData from "@/data/page-data/UnderstandingYourOnlineBehaviourData";
 
 const UnderstandingYourOnlineBehaviour = () => {
   return (

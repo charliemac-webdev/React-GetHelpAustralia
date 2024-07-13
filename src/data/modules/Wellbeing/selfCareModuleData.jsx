@@ -3,9 +3,9 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import { MdExpandMore } from "react-icons/md";
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import WellbeingAssessment from "../../../components/WellbeingAssessment";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import WellbeingAssessment from "@/components/WellbeingAssessment";
 
 const SelfCareModuleData = [
   {

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import MenuTitles from "../data/component-data/menuTitles";
+import MenuTitles from "@/data/component-data/menuTitles";
 
 const ModuleNav = () => {
   return (

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import MiniCard from "../components/MiniCard";
-import movingForwardFolderTitles from "../data/module-folder-titles/movingForwardFolderTitles";
-import MovingFowardData from "../data/page-data/MovingFowardData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import MiniCard from "@/components/MiniCard";
+import movingForwardFolderTitles from "@/data/module-folder-titles/movingForwardFolderTitles";
+import MovingFowardData from "@/data/page-data/MovingFowardData";
 
 const MovingForward = () => {
   return (

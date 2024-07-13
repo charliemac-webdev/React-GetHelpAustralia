@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import selfEsteemAndAssertivenessModuleData from "../../data/modules/Wellbeing/selfEsteemAndAssertivenessModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import selfEsteemAndAssertivenessModuleData from "@/data/modules/Wellbeing/selfEsteemAndAssertivenessModuleData";
 
 const SelfEsteemAndAssertivenessModule = ({ showMenu }) => {
   useEffect(() => {

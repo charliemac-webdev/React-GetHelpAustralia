@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { updateGpiusScore } from "../context/gpiusScoreSlice";
+import { updateGpiusScore } from "@/context/gpiusScoreSlice";
 
 import { Slider } from "@mui/material";
 
