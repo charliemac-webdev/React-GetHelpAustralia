@@ -123,8 +123,9 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Understanding Why"
+                name="Completed Modules"
                 id="why"
+                value="Understanding Why"
               />
               <label className="form-check-label" htmlFor="why">
                 Understanding Why
@@ -134,8 +135,9 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Triggers"
+                name="Completed Modules"
                 id="triggers"
+                value="Triggers"
               />
               <label className="form-check-label" htmlFor="triggers">
                 Triggers
@@ -145,7 +147,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Images are Children"
+                name="Completed Modules"
                 id="Images are Children"
                 value="Images are Children"
               />
@@ -157,7 +159,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Addiction"
+                name="Completed Modules"
                 id="Addiction"
                 value="Addiction"
               />
@@ -169,7 +171,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Online Relationships"
+                name="Completed Modules"
                 id="Online Relationships"
                 value="Online Relationships"
               />
@@ -184,7 +186,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Dealing with Feelings"
+                name="Completed Modules"
                 id="Dealing with Feelings"
                 value="Dealing with Feelings"
               />
@@ -199,7 +201,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Problem Solving"
+                name="Completed Modules"
                 id="Problem Solving"
                 value="Problem Solving"
               />
@@ -211,7 +213,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Relapse Prevention"
+                name="Completed Modules"
                 id="Relapse Prevention"
                 value="Relapse Prevention"
               />
@@ -223,7 +225,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Problem of Immediate Gratification"
+                name="Completed Modules"
                 id="Problem of Immediate Gratification"
                 value="Problem of Immediate Gratification"
               />
@@ -238,7 +240,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Taking Responsibility"
+                name="Completed Modules"
                 id="Taking Responsibility"
                 value="Taking Responsibility"
               />
@@ -253,7 +255,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Fantasy"
+                name="Completed Modules"
                 id="Fantasy"
                 value="Fantasy"
               />
@@ -265,7 +267,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Problematic Collecting"
+                name="Completed Modules"
                 id="Problematic Collecting"
                 value="Problematic Collecting"
               />
@@ -280,7 +282,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Talking to Others"
+                name="Completed Modules"
                 id="Talking to Others"
                 value="Talking to Others"
               />
@@ -292,7 +294,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Self Esteem and Assertiveness"
+                name="Completed Modules"
                 id="Self Esteem and Assertiveness"
                 value="Self Esteem and Assertiveness"
               />
@@ -307,7 +309,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Self-Talk"
+                name="Completed Modules"
                 id="Self-Talk"
                 value="Self-Talk"
               />
@@ -319,7 +321,7 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Building a Good Life"
+                name="Completed Modules"
                 id="Building a Good Life"
                 value="Building a Good Life"
               />
