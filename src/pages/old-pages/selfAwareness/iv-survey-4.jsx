@@ -79,7 +79,7 @@ const InternetValuesFour = () => {
         </div>
         <hr />
         <Link to="/internet-and-values-5">
-          <Button ident="continue-button" classes="btn">
+          <Button id="continue-button" classes="btn">
             Continue
           </Button>
         </Link>

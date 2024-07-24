@@ -69,11 +69,11 @@ const EmotionsQuiz = () => {
 
       <div className="d-flex justify-content-between">
         {active <= 3 ? (
-          <Button ident="next-button" classes="btn" onClick={handleClick}>
+          <Button id="next-button" classes="btn" onClick={handleClick}>
             Next
           </Button>
         ) : active === 4 ? (
-          <Button ident="submit-button" classes="btn" onClick={handleClick}>
+          <Button id="submit-button" classes="btn" onClick={handleClick}>
             Submit
           </Button>
         ) : null}

@@ -52,7 +52,7 @@ const GpiusQuizTwo = () => {
         <br />
         <Link className="text-decoration-none" to="/gpius-quiz-3">
           <div className="d-flex justify-content-end">
-            <Button ident="continue-button" classes="btn">
+            <Button id="continue-button" classes="btn">
               Continue
             </Button>
           </div>

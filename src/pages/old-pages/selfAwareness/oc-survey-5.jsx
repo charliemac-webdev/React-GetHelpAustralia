@@ -32,7 +32,7 @@ const OnlineCognitionSurveyFive = () => {
           </>
         ))}
         <Link to="/online-cognition-scale-6">
-          <Button ident="continue-button" classes="btn">
+          <Button id="continue-button" classes="btn">
             Continue
           </Button>
         </Link>

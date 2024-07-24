@@ -15,7 +15,7 @@ const InternetValuesSurvey = () => {
       <MainContent>
         <Survey />
         <Link to="/internet-and-values-1">
-          <Button ident="submit-button" classes="btn">
+          <Button id="submit-button" classes="btn">
             Submit
           </Button>
         </Link>

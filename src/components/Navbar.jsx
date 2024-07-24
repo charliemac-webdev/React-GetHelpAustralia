@@ -43,7 +43,7 @@ const Navbar = () => {
                 target="_blank"
                 href="https://www.stopitnow.org.au/helpline"
               >
-                <Button ident="help-button" classes="nav-link">
+                <Button id="help-button" classes="nav-link">
                   HELPLINE
                 </Button>
               </a>

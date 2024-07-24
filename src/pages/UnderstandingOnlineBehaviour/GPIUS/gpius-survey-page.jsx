@@ -26,16 +26,12 @@ const GpiusSurveyPage = () => {
         <p>Use the "Continue" button below to proceed with the questions.</p>
         <br />
         <div className="border border-primary p-3 rounded">
-          <Survey />
+          <Survey
+            formName="GPIUS-self-awareness-quiz-survey"
+            nextRoute="/gpius-quiz-1"
+          />
         </div>
         <br />
-        <Link className="text-decoration-none" to="/gpius-quiz-1">
-          <div className="d-flex justify-content-end">
-            <Button ident="continue-button" classes="btn">
-              Continue
-            </Button>
-          </div>
-        </Link>
       </MainContent>
     </>
   );

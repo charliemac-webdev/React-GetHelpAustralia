@@ -62,11 +62,7 @@ const Module = ({ modules }) => {
   // Define a new value based on the current value
   const newValue =
     value < modules.length - 1 ? (
-      <Button
-        onClick={handleClickAndScroll}
-        ident="continue-button"
-        classes="btn"
-      >
+      <Button onClick={handleClickAndScroll} id="continue-button" classes="btn">
         Continue
       </Button>
     ) : null;

@@ -13,7 +13,7 @@ const OnlineCognitionSurvey = () => {
       <MainContent>
         <Survey />
         <Link to="/online-cognition-scale-1">
-          <Button ident="submit-button" classes="btn">
+          <Button id="submit-button" classes="btn">
             Submit
           </Button>
         </Link>
