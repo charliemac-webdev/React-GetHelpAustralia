@@ -12,8 +12,11 @@ const Survey = ({ nextRoute, formName }) => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(new FormData(form)).toString(),
     })
-      .then(() => navigate(nextRoute))
-      .catch((error) => alert(error));
+      .then(() => {
+        console.log("Form successfully submitted");
+        navigate(nextRoute);
+      })
+      .catch((error) => console.error("Form submission error:", error));
   };
   return (
     <>
