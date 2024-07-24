@@ -31,21 +31,22 @@
     gtag("config", "G-MHC4E8G6JE");
   </script>
   <body>
+    <form name="Distress-K10-quiz" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+    </form>
+    <form name="k10-quiz-results" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="totalScore" />
+    </form>
     <form
-      name="Distress-K10-quiz-survey"
+      name="GPIUS-self-awareness-quiz"
       netlify
       netlify-honeypot="bot-field"
       hidden
     >
       <input type="text" name="name" />
     </form>
-    <form
-      name="GPIUS-self-awareness-quiz-survey"
-      netlify
-      netlify-honeypot="bot-field"
-      hidden
-    >
-      <input type="text" name="name" />
+    <form name="gpius-quiz-results" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="totalScore" />
     </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

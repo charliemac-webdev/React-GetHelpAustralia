@@ -17,7 +17,7 @@ const GpiusQuizResults = () => {
   useEffect(() => {
     const submitScore = async () => {
       const formData = new URLSearchParams();
-      formData.append("form-name", "k10-quiz-results");
+      formData.append("form-name", "gpius-quiz-results");
       formData.append("totalScore", totalScore);
 
       try {

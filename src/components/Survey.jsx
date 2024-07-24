@@ -20,7 +20,12 @@ const Survey = ({ nextRoute, formName }) => {
   };
   return (
     <>
-      <form name={formName} method="post" onSubmit={handleSubmit}>
+      <form
+        name={formName}
+        method="post"
+        data-netlify="true"
+        onSubmit={handleSubmit}
+      >
         <input type="hidden" name="form-name" value={formName} />
         <div className="row align-items-start pb-5">
           <div className="col">
