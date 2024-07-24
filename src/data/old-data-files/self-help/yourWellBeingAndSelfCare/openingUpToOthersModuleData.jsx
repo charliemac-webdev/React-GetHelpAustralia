@@ -247,7 +247,7 @@ const openingUpToOthersModuleData = [
         <br />
         <Link to="/self-help-self-talk">
           <div className="d-flex justify-content-end">
-            <Button ident="next-button" classes="btn">
+            <Button id="next-button" classes="btn">
               Next Module
             </Button>
           </div>

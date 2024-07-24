@@ -465,7 +465,7 @@ const DisclosureModuleData = [
 
         <Link className="text-decoration-none" to="/relapse-prevention">
           <div className="d-flex justify-content-end">
-            <Button ident="next-button" classes="btn">
+            <Button id="next-button" classes="btn">
               Next Module
             </Button>
           </div>

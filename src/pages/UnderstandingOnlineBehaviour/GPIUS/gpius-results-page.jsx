@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Button from "../../../components/Button";
@@ -12,6 +13,27 @@ const GpiusQuizResults = () => {
     return sum + item.score;
   }, 0);
   console.log("Calculated total score:", totalScore);
+
+  useEffect(() => {
+    const submitScore = async () => {
+      const formData = new URLSearchParams();
+      formData.append("form-name", "k10-quiz-results");
+      formData.append("totalScore", totalScore);
+
+      try {
+        await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: formData.toString(),
+        });
+        console.log("Score submitted successfully");
+      } catch (error) {
+        alert("Error submitting score: " + error);
+      }
+    };
+
+    submitScore();
+  }, [totalScore]); // Dependency: totalScore
   return (
     <>
       <Heading>
@@ -62,7 +84,7 @@ const GpiusQuizResults = () => {
         <br />
         <Link className="text-decoration-none" to="/understanding-why">
           <div className="d-flex justify-content-end">
-            <Button ident="next-button" classes="btn">
+            <Button id="next-button" classes="btn">
               Next
             </Button>
           </div>

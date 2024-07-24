@@ -14,7 +14,6 @@
       content="Get Help, Help, Australia, Get Help Australia, Get Help!, Get Help! Australia"
     />
     <meta name="”robots”" content="index, follow" />
-    <link href="./src/font/stylesheet.css" rel="stylesheet" />
     <title>Get Help! Australia</title>
   </head>
   <!-- Google tag (gtag.js) -->
@@ -32,80 +31,10 @@
     gtag("config", "G-MHC4E8G6JE");
   </script>
   <body>
-    <div id="root"></div>
-    <form name="k10-survey" netlify netlify-honeypot="bot-field" hidden>
-      <input
-        className="form-check-input"
-        type="radio"
-        name="gender"
-        id="gender-male"
-        value="male"
-      />
-      <input
-        className="form-check-input"
-        type="radio"
-        name="gender"
-        id="gender-female"
-        value="female"
-      />
-      <input
-        className="form-check-input"
-        type="radio"
-        name="gender"
-        id="gender-non-binary"
-        value="non-binary"
-      />
-      <select name="age" defaultValue="">
-        <option value="" disabled>Please select your age range</option>
-        <option value="Under 15">Under 15</option>
-        <option value="15-19">15-19</option>
-        <option value="20-24">20-24</option>
-        <option value="25-29">25-29</option>
-        <option value="30-34">30-34</option>
-        <option value="35-39">35-39</option>
-        <option value="40-44">40-44</option>
-        <option value="45-49">45-49</option>
-        <option value="50-54">50-54</option>
-        <option value="55-59">55-59</option>
-        <option value="60-64">60-64</option>
-        <option value="65-69">65-69</option>
-        <option value="70-74">70-74</option>
-        <option value="75-79">75-79</option>
-        <option value="80+">80+</option>
-      </select>
-      <input
-        className="form-check-input"
-        type="checkbox"
-        name="shModules"
-        id="radiowhy"
-        value=""
-      />
-      <input
-        className="form-check-input"
-        type="checkbox"
-        name="shModules"
-        id="radiotriggers"
-        value=""
-      />
-      <input
-        className="form-check-input"
-        type="checkbox"
-        name="shModules"
-        id="radio-images"
-      />
-      <input
-        className="form-check-input"
-        type="checkbox"
-        name="shModules"
-        id="radio-addiction"
-      />
-      <input
-        className="form-check-input"
-        type="checkbox"
-        name="shModules"
-        id="radio-online"
-      />
+    <form name="netlify-form" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="totalScore" />
     </form>
+    <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

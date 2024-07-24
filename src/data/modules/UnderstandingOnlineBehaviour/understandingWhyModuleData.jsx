@@ -411,7 +411,7 @@ const understandingWhyModuleData = [
 
         <Link to="/triggers" className="default-link">
           <div className="d-flex justify-content-end">
-            <Button ident="next-button" classes="btn">
+            <Button id="next-button" classes="btn">
               Next Module
             </Button>
           </div>

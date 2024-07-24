@@ -44,7 +44,7 @@ const Exploration = () => {
       <p>Use the "Begin" button below to begin the exploration.</p>
       <br />
       <Link to="/online-cognition-scale-2">
-        <Button ident="explore-button" classes="btn">
+        <Button id="explore-button" classes="btn">
           Begin the Exploration
         </Button>
       </Link>

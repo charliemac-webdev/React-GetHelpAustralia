@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import "./font/stylesheet.css";
+import "./font/stylesheet.scss";
 import "./scss/styles.scss";
 
 // PostHog Analytics

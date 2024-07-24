@@ -13,7 +13,7 @@ const InternetValuesOne = () => {
       <MainContent>
         <InternetValuesExploration />
         <Link to="/internet-and-values-2">
-          <Button ident="explore-button" classes="btn">
+          <Button id="explore-button" classes="btn">
             Begin the Exploration
           </Button>
         </Link>

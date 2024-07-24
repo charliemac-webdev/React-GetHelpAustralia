@@ -77,7 +77,7 @@ const InternetValuesThirteen = () => {
         </div>
         <hr />
         <Link to="/internet-and-values-results">
-          <Button ident="submit-button" classes="btn">
+          <Button id="submit-button" classes="btn">
             Submit
           </Button>
         </Link>

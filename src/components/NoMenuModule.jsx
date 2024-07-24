@@ -12,7 +12,7 @@ const NoMenuModule = ({ modules }) => {
   };
   const newValue =
     value < modules.length - 1 ? (
-      <Button onClick={handleClick} ident="continue-button" classes="btn">
+      <Button onClick={handleClick} id="continue-button" classes="btn">
         Continue
       </Button>
     ) : null;

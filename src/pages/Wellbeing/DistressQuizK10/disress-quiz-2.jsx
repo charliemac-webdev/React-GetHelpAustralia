@@ -52,7 +52,7 @@ const DistressQuizTwo = () => {
         <br />
         <Link className="text-decoration-none" to="/distress-quiz-results">
           <div className="d-flex justify-content-end">
-            <Button ident="submit-button" classes="btn">
+            <Button id="submit-button" classes="btn">
               Submit
             </Button>
           </div>
