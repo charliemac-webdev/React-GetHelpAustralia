@@ -26,10 +26,7 @@ const DistressQuizSurvey = () => {
         <p>Use the "Continue" button below to proceed with the questions.</p>
         <br />
         <div className="border border-primary p-3 rounded">
-          <Survey
-            formName="Distress-K10-quiz-survey"
-            nextRoute="/distress-quiz-1"
-          />
+          <Survey formName="Distress-K10-quiz" nextRoute="/distress-quiz-1" />
         </div>
         <br />
       </MainContent>
