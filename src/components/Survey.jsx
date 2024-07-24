@@ -1,13 +1,13 @@
 import Button from "./Button";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Form } from "react-router-dom";
 
 const Survey = ({ nextRoute, formName }) => {
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
-    fetch("/", {
+    await fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(new FormData(form)).toString(),
@@ -20,10 +20,11 @@ const Survey = ({ nextRoute, formName }) => {
   };
   return (
     <>
-      <form
+      <Form
         name={formName}
         method="post"
         data-netlify="true"
+        action="/"
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value={formName} />
@@ -306,7 +307,7 @@ const Survey = ({ nextRoute, formName }) => {
         <Button type="submit" id="continue-button" classes="btn">
           Continue
         </Button>
-      </form>
+      </Form>
     </>
   );
 };
