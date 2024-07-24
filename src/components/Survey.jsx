@@ -137,7 +137,6 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="Completed Modules"
                 id="triggers"
-                value="Triggers"
               />
               <label className="form-check-label" htmlFor="triggers">
                 Triggers
