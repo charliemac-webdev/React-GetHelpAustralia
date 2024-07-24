@@ -1,14 +1,14 @@
-import pictureTwo from "../../../images/diagrams-MAN.gif";
-import pictureThree from "../../../images/diagrams-feelings.gif";
-import pictureOne from "../../../images/diagrams-response.gif";
+import pictureTwo from "@/images/diagrams-MAN.gif";
+import pictureThree from "@/images/diagrams-feelings.gif";
+import pictureOne from "@/images/diagrams-response.gif";
 
-import documentTwo from "../../../documents/Recognising and Dealing with Feelings_Exercise_How to get back to feeling ok and in control.pdf";
-import documentOne from "../../../documents/Recognising and Dealing with Feelings_How in-turn with your feelings are you.pdf";
+import documentTwo from "@/documents/Recognising and Dealing with Feelings_Exercise_How to get back to feeling ok and in control.pdf";
+import documentOne from "@/documents/Recognising and Dealing with Feelings_How in-turn with your feelings are you.pdf";
 
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import EmotionsQuiz from "../../../components/EmotionsQuiz";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import Button from "@/components/Button";
+import EmotionsQuiz from "@/components/EmotionsQuiz";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
 
 const RecognisingAndDealingWithFeelingsModuleData = [
   {

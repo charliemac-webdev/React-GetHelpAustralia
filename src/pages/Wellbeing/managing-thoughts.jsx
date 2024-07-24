@@ -2,10 +2,10 @@
 /* eslint-disable react/prop-types */
 
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import ManagingThoughtsModuleData from "../../data/modules/Wellbeing/managingThoughtsModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import ManagingThoughtsModuleData from "@/data/modules/Wellbeing/managingThoughtsModuleData";
 
 const ManagingThoughtsModule = ({ showMenu }) => {
   useEffect(() => {

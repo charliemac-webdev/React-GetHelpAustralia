@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import MiniCard from "../components/MiniCard";
-import wellbeingFolderTitles from "../data/module-folder-titles/wellbeingFolderTitles";
-import WellbeingAndSelfCareData from "../data/page-data/WellbeingAndSelfCareData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import MiniCard from "@/components/MiniCard";
+import wellbeingFolderTitles from "@/data/module-folder-titles/wellbeingFolderTitles";
+import WellbeingAndSelfCareData from "@/data/page-data/WellbeingAndSelfCareData";
 
 const WellbeingAndSelfCare = () => {
   return (

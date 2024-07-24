@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import distressQuestionData from "../../data/modules/assessments/distressQuestionData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import distressQuestionData from "@/data/modules/assessments/distressQuestionData";
 
 const SelfAwarenessDistress = ({ showMenu }) => {
   useEffect(() => {

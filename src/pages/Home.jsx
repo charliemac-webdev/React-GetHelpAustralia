@@ -1,6 +1,6 @@
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import IntroductionData from "../data/page-data/IntroductionData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import IntroductionData from "@/data/page-data/IntroductionData";
 
 const Home = () => {
   return (

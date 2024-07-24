@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import FantasyModuleData from "../../data/modules/UnderstandingOnlineBehaviour/fantasyModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import FantasyModuleData from "@/data/modules/UnderstandingOnlineBehaviour/fantasyModuleData";
 
 const FantasyModule = ({ showMenu }) => {
   useEffect(() => {

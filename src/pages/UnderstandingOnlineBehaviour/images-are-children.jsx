@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import ImagesAreChildrenModuleData from "../../data/modules/UnderstandingOnlineBehaviour/imagesAreChildrenModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import ImagesAreChildrenModuleData from "@/data/modules/UnderstandingOnlineBehaviour/imagesAreChildrenModuleData";
 
 const ImagesAreChildrenModule = ({ showMenu }) => {
   useEffect(() => {

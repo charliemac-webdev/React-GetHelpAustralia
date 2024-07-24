@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
 
 const ManagingThoughtsModuleData = [
   {

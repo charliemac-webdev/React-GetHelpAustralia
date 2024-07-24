@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import document from "../../../documents/Immediate gratification_Costs and gains.pdf";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import document from "@/documents/Immediate gratification_Costs and gains.pdf";
 
 const ProblemOfImmediateModuleData = [
   {

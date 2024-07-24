@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import pictureOne from "../../../images/thoughts-feelings-and-behaviour.jpg";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import pictureOne from "@/images/thoughts-feelings-and-behaviour.jpg";
 
 const UnderstandingThoughtsModuleData = [
   {

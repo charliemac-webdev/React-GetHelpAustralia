@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
 
-import documentOne from "../../../documents/Triggers_Exercise_Identifying triggers.pdf";
-import documentTwo from "../../../documents/Triggers_Exercise_Managing triggers.pdf";
+import documentOne from "@/documents/Triggers_Exercise_Identifying triggers.pdf";
+import documentTwo from "@/documents/Triggers_Exercise_Managing triggers.pdf";
 
 const triggersModuleData = [
   {

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import onlineWorldModuleData from "../../data/modules/UnderstandingOnlineBehaviour/onlineWorldModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import onlineWorldModuleData from "@/data/modules/UnderstandingOnlineBehaviour/onlineWorldModuleData";
 
 const OnlineWorldModule = ({ showMenu }) => {
   useEffect(() => {

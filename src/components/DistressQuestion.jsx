@@ -1,6 +1,6 @@
 import { Slider } from "@mui/material";
 import { useDispatch } from "react-redux";
-import { updateDistressScore } from "../context/distressScoreSlice";
+import { updateDistressScore } from "@/context/distressScoreSlice";
 import { useState, useEffect } from "react";
 
 const DistressQuestion = ({ id, children }) => {

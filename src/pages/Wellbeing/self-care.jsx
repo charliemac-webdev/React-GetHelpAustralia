@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import SelfCareModuleData from "../../data/modules/Wellbeing/selfCareModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import SelfCareModuleData from "@/data/modules/Wellbeing/selfCareModuleData";
 
 const SelfCareModule = ({ showMenu }) => {
   useEffect(() => {

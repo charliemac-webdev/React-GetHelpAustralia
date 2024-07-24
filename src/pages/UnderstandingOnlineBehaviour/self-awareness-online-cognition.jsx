@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import onlineCognitionData from "../../data/modules/assessments/onlineCognitionData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import onlineCognitionData from "@/data/modules/assessments/onlineCognitionData";
 
 const SelfAwarenessOnlineCognition = ({ showMenu }) => {
   useEffect(() => {

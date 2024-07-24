@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import GuiltAndShameModuleData from "../../data/modules/Wellbeing/guiltAndShameModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import GuiltAndShameModuleData from "@/data/modules/Wellbeing/guiltAndShameModuleData";
 
 const GuiltAndShameModule = ({ showMenu }) => {
   useEffect(() => {

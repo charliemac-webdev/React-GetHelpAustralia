@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import DisclosureModuleData from "../../data/modules/MovingFoward/consequencesMediaAndDisclosureModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import DisclosureModuleData from "@/data/modules/MovingFoward/consequencesMediaAndDisclosureModuleData";
 
 const ConsequencesMediaDisclosureModule = ({ showMenu }) => {
   useEffect(() => {

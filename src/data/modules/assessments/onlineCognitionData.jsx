@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import GPIUSQuestion from "../../../components/GPIUSQuestion";
-import Survey from "../../../components/Survey";
+import Button from "@/components/Button";
+import GPIUSQuestion from "@/components/GPIUSQuestion";
+import Survey from "@/components/Survey";
 
 const onlineCognitionData = [
   {

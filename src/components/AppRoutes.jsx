@@ -6,55 +6,55 @@ import ModuleNav from "./ModuleNav";
 
 // Pages
 
-import Error from "../pages/Error";
-import Home from "../pages/Home";
-import Modal from "../pages/modal-page";
-import MovingForward from "../pages/MovingForward";
-import PrivacyPolicy from "../pages/PrivacyPolicy";
-import Resources from "../pages/Resources";
-import UnderstandingYourOnlineBehaviour from "../pages/UnderstandingYourOnlineBehaviour";
-import WellbeingAndSelfCare from "../pages/WellbeingAndSelfCare";
+import Error from "@/pages/Error";
+import Home from "@/pages/Home";
+import Modal from "@/pages/modal-page";
+import MovingForward from "@/pages/MovingForward";
+import PrivacyPolicy from "@/pages/PrivacyPolicy";
+import Resources from "@/pages/Resources";
+import UnderstandingYourOnlineBehaviour from "@/pages/UnderstandingYourOnlineBehaviour";
+import WellbeingAndSelfCare from "@/pages/WellbeingAndSelfCare";
 
 // Modules
 
-import BuildingAGoodLifeModule from "../pages/MovingForward/BuildingAGoodLife";
-import ConsequencesMediaDisclosureModule from "../pages/MovingForward/ConsequencesMediaDisclosure";
-import ProblemSolvingModule from "../pages/MovingForward/ProblemSolving";
-import RelapsePreventionModule from "../pages/MovingForward/RelapsePrevention";
-import AddictionModule from "../pages/UnderstandingOnlineBehaviour/addiction";
-import AdultPornographyModule from "../pages/UnderstandingOnlineBehaviour/adult-pornography";
-import FantasyModule from "../pages/UnderstandingOnlineBehaviour/fantasy";
-import ImagesAreChildrenModule from "../pages/UnderstandingOnlineBehaviour/images-are-children";
-import JustificationsModule from "../pages/UnderstandingOnlineBehaviour/justifications-page";
-import OnlineWorldModule from "../pages/UnderstandingOnlineBehaviour/online-world";
-import ProblemOfImmediateModule from "../pages/UnderstandingOnlineBehaviour/problem-with-immediate-gratification";
-import ProblematicCollectingModule from "../pages/UnderstandingOnlineBehaviour/problematic-collecting";
+import BuildingAGoodLifeModule from "@/pages/MovingForward/BuildingAGoodLife";
+import ConsequencesMediaDisclosureModule from "@/pages/MovingForward/ConsequencesMediaDisclosure";
+import ProblemSolvingModule from "@/pages/MovingForward/ProblemSolving";
+import RelapsePreventionModule from "@/pages/MovingForward/RelapsePrevention";
+import AddictionModule from "@/pages/UnderstandingOnlineBehaviour/addiction";
+import AdultPornographyModule from "@/pages/UnderstandingOnlineBehaviour/adult-pornography";
+import FantasyModule from "@/pages/UnderstandingOnlineBehaviour/fantasy";
+import ImagesAreChildrenModule from "@/pages/UnderstandingOnlineBehaviour/images-are-children";
+import JustificationsModule from "@/pages/UnderstandingOnlineBehaviour/justifications-page";
+import OnlineWorldModule from "@/pages/UnderstandingOnlineBehaviour/online-world";
+import ProblemOfImmediateModule from "@/pages/UnderstandingOnlineBehaviour/problem-with-immediate-gratification";
+import ProblematicCollectingModule from "@/pages/UnderstandingOnlineBehaviour/problematic-collecting";
 // import SelfAwarenessOnlineCognition from "./pages/UnderstandingOnlineBehaviour/self-awareness-online-cognition";
-import SexualCommunicationWithChildrenModule from "../pages/UnderstandingOnlineBehaviour/sexual-communication-with-children-online";
-import TakingResponsibilityModule from "../pages/UnderstandingOnlineBehaviour/taking-responsibility";
-import TriggersModule from "../pages/UnderstandingOnlineBehaviour/triggers";
-import UnderstandingWhyModule from "../pages/UnderstandingOnlineBehaviour/understanding-why";
-import GuiltAndShameModule from "../pages/Wellbeing/guilt-and-shame";
-import ManagingThoughtsModule from "../pages/Wellbeing/managing-thoughts";
-import MotivationForChangeModule from "../pages/Wellbeing/motivation-for-change";
-import RecognisingAndDealingWithFeelingsModule from "../pages/Wellbeing/recognising-and-dealing-with-feelings";
+import SexualCommunicationWithChildrenModule from "@/pages/UnderstandingOnlineBehaviour/sexual-communication-with-children-online";
+import TakingResponsibilityModule from "@/pages/UnderstandingOnlineBehaviour/taking-responsibility";
+import TriggersModule from "@/pages/UnderstandingOnlineBehaviour/triggers";
+import UnderstandingWhyModule from "@/pages/UnderstandingOnlineBehaviour/understanding-why";
+import GuiltAndShameModule from "@/pages/Wellbeing/guilt-and-shame";
+import ManagingThoughtsModule from "@/pages/Wellbeing/managing-thoughts";
+import MotivationForChangeModule from "@/pages/Wellbeing/motivation-for-change";
+import RecognisingAndDealingWithFeelingsModule from "@/pages/Wellbeing/recognising-and-dealing-with-feelings";
 // import SelfAwarenessDistress from "./pages/Wellbeing/self-awareness-distress";
-import SelfCareModule from "../pages/Wellbeing/self-care";
-import SelfEsteemAndAssertivenessModule from "../pages/Wellbeing/self-esteem-and-assertiveness";
-import SelfTalkModule from "../pages/Wellbeing/self-talk";
-import UnderstandingThoughtsModule from "../pages/Wellbeing/understanding-thoughts";
+import SelfCareModule from "@/pages/Wellbeing/self-care";
+import SelfEsteemAndAssertivenessModule from "@/pages/Wellbeing/self-esteem-and-assertiveness";
+import SelfTalkModule from "@/pages/Wellbeing/self-talk";
+import UnderstandingThoughtsModule from "@/pages/Wellbeing/understanding-thoughts";
 
 //Quiz
-import DistressQuizSurvey from "../pages/Wellbeing/DistressQuizK10/distress-quiz-survey-page";
-import DistressQuizOne from "../pages/Wellbeing/DistressQuizK10/distress-quiz-1";
-import DistressQuizTwo from "../pages/Wellbeing/DistressQuizK10/disress-quiz-2";
-import DistressQuizResults from "../pages/Wellbeing/DistressQuizK10/distress-quiz-results-page";
+import DistressQuizSurvey from "@/pages/Wellbeing/DistressQuizK10/distress-quiz-survey-page";
+import DistressQuizOne from "@/pages/Wellbeing/DistressQuizK10/distress-quiz-1";
+import DistressQuizTwo from "@/pages/Wellbeing/DistressQuizK10/disress-quiz-2";
+import DistressQuizResults from "@/pages/Wellbeing/DistressQuizK10/distress-quiz-results-page";
 
-import GpiusSurveyPage from "../pages/UnderstandingOnlineBehaviour/GPIUS/gpius-survey-page";
-import GpiusQuizOne from "../pages/UnderstandingOnlineBehaviour/GPIUS/gpius-questions-one-page";
-import GpiusQuizTwo from "../pages/UnderstandingOnlineBehaviour/GPIUS/gpius-questions-two-page";
-import GpiusQuizThree from "../pages/UnderstandingOnlineBehaviour/GPIUS/gpius-questions-three-page";
-import GpiusQuizResults from "../pages/UnderstandingOnlineBehaviour/GPIUS/gpius-results-page";
+import GpiusSurveyPage from "@/pages/UnderstandingOnlineBehaviour/GPIUS/gpius-survey-page";
+import GpiusQuizOne from "@/pages/UnderstandingOnlineBehaviour/GPIUS/gpius-questions-one-page";
+import GpiusQuizTwo from "@/pages/UnderstandingOnlineBehaviour/GPIUS/gpius-questions-two-page";
+import GpiusQuizThree from "@/pages/UnderstandingOnlineBehaviour/GPIUS/gpius-questions-three-page";
+import GpiusQuizResults from "@/pages/UnderstandingOnlineBehaviour/GPIUS/gpius-results-page";
 // Import other components as needed
 
 function AppRoutes() {

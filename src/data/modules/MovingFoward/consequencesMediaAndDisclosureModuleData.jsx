@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import imageOne from "../../../images/legal-consequences.png";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import imageOne from "@/images/legal-consequences.png";
 
 const DisclosureModuleData = [
   {

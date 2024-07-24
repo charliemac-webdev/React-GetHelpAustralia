@@ -1,6 +1,6 @@
 import { BarChart } from "@mui/x-charts/BarChart";
 import { useState } from "react";
-import emotionsQuizData from "../data/modules/assessments/emotionsQuizData";
+import emotionsQuizData from "@/data/modules/assessments/emotionsQuizData";
 import Button from "./Button";
 
 const EmotionsQuiz = () => {

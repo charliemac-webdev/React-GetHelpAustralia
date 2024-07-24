@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import takingResponsibilityModuleData from "../../data/modules/UnderstandingOnlineBehaviour/takingResponsibilityModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import takingResponsibilityModuleData from "@/data/modules/UnderstandingOnlineBehaviour/takingResponsibilityModuleData";
 
 const TakingResponsibilityModule = ({ showMenu }) => {
   useEffect(() => {

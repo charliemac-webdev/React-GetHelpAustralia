@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
-import image from "../../../images/justifications.gif";
-import documentOne from "../../../documents/Justification_Challenging your justifications.pdf";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
+import image from "@/images/justifications.gif";
+import documentOne from "@/documents/Justification_Challenging your justifications.pdf";
 
 const JustificationsModuleData = [
   {

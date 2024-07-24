@@ -1,6 +1,6 @@
 import { BarChart } from "@mui/x-charts/BarChart";
 import { useState } from "react";
-import startingPointQuizData from "../data/modules/assessments/startingPointQuizData";
+import startingPointQuizData from "@/data/modules/assessments/startingPointQuizData";
 import Button from "./Button";
 
 const StartingPointQuiz = () => {

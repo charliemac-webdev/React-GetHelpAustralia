@@ -1,6 +1,6 @@
-import Heading from "../components/Heading";
-import MainContent from "../components/MainContent";
-import PrivacyPolicyData from "../data/page-data/PrivacyPolicyData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import PrivacyPolicyData from "@/data/page-data/PrivacyPolicyData";
 
 const PrivacyPolicy = () => {
   return (

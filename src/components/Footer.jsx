@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-// import logo from "../images/UniSC_Abr-Logo_Horiz_RGB.png";
-import logo from "../images/UniSC_Abr-Logo_Horiz_White_RGB.png";
-import imageOne from "../images/indigenous.png";
-import imageTwo from "../images/torres-strait.png";
+import logo from "@/images/UniSC_Abr-Logo_Horiz_White_RGB.png";
+import imageOne from "@/images/indigenous.png";
+import imageTwo from "@/images/torres-strait.png";
 
 const Footer = () => {
   return (

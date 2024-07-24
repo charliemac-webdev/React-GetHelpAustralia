@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 import { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import ProblemSolvingModuleData from "../../data/modules/MovingFoward/problemSolvingModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import ProblemSolvingModuleData from "@/data/modules/MovingFoward/problemSolvingModuleData";
 
 const ProblemSolvingModule = ({ showMenu }) => {
   useEffect(() => {

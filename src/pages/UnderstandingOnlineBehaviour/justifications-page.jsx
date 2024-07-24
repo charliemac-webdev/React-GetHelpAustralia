@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Heading from "../../components/Heading";
-import MainContent from "../../components/MainContent";
-import Module from "../../components/Module";
-import JustificationsModuleData from "../../data/modules/UnderstandingOnlineBehaviour/justificationsModuleData";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
+import JustificationsModuleData from "@/data/modules/UnderstandingOnlineBehaviour/justificationsModuleData";
 
 const JustificationsModule = ({ showMenu }) => {
   useEffect(() => {

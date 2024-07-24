@@ -1,12 +1,12 @@
-import pictureTwo from "../../../images/diagrams-selftalk-2.gif";
-import pictureThree from "../../../images/diagrams-selftalk-3.gif";
-import pictureFour from "../../../images/diagrams-selftalk-4.gif";
-import pictureFive from "../../../images/diagrams-selftalk.gif";
-import pictureSix from "../../../images/diagrams-yes-or-no.gif";
+import pictureTwo from "@/images/diagrams-selftalk-2.gif";
+import pictureThree from "@/images/diagrams-selftalk-3.gif";
+import pictureFour from "@/images/diagrams-selftalk-4.gif";
+import pictureFive from "@/images/diagrams-selftalk.gif";
+import pictureSix from "@/images/diagrams-yes-or-no.gif";
 
 import { Link } from "react-router-dom";
-import Button from "../../../components/Button";
-import ReflectionQuestion from "../../../components/ReflectionQuestion";
+import Button from "@/components/Button";
+import ReflectionQuestion from "@/components/ReflectionQuestion";
 
 const selfTalkModuleData = [
   {
