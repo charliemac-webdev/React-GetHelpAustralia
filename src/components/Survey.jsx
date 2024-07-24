@@ -18,7 +18,7 @@ const Survey = ({ nextRoute, formName }) => {
   return (
     <>
       <form name={formName} method="post" onSubmit={handleSubmit}>
-        <input type="hidden" name="survey" value={formName} />
+        <input type="hidden" name="form-name" value={formName} />
         <div className="row align-items-start pb-5">
           <div className="col">
             <h5 className="secondary-color fw-semibold pb-2">Gender *</h5>
