@@ -13,7 +13,6 @@ const GpiusQuizResults = () => {
     return sum + item.score;
   }, 0);
   console.log("Calculated total score:", totalScore);
-
   useEffect(() => {
     const submitScore = async () => {
       const formData = new URLSearchParams();
