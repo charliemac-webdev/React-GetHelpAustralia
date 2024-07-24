@@ -122,11 +122,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radiowhy"
+                name="Understanding Why"
+                id="why"
                 value="Understanding Why"
               />
-              <label className="form-check-label" htmlFor="radiowhy">
+              <label className="form-check-label" htmlFor="why">
                 Understanding Why
               </label>
             </div>
