@@ -4,56 +4,58 @@ const Survey = () => {
       <div className="row align-items-start pb-5">
         <div className="col">
           <h5 className="secondary-color fw-semibold pb-2">Gender *</h5>
-          <div className="form-check form-check-inline">
+          <form name="k10-survey" method="post">
             <div className="form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="radio"
-                name="gender"
-                id="gender-male"
-                value="male"
-              />
-              <label className="form-check-label" htmlFor="gender-male">
-                Male
-              </label>
+              <div className="form-check form-check-inline">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  name="gender"
+                  id="gender-male"
+                  value="male"
+                />
+                <label className="form-check-label" htmlFor="gender-male">
+                  Male
+                </label>
+              </div>
+              <div className="form-check form-check-inline">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  name="gender"
+                  id="gender-female"
+                  value="female"
+                />
+                <label className="form-check-label" htmlFor="gender-female">
+                  Female
+                </label>
+              </div>
+              <div className="form-check form-check-inline">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  name="gender"
+                  id="gender-non-binary"
+                  value="non-binary"
+                />
+                <label className="form-check-label" htmlFor="gender-non-binary">
+                  Non-Binary
+                </label>
+              </div>
+              <div className="form-check form-check-inline">
+                <input
+                  className="form-check-input"
+                  type="radio"
+                  name="gender"
+                  id="gender-other"
+                  value="other"
+                />
+                <label className="form-check-label" htmlFor="gender-other">
+                  I prefer to be described in a different way
+                </label>
+              </div>
             </div>
-            <div className="form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="radio"
-                name="gender"
-                id="gender-female"
-                value="female"
-              />
-              <label className="form-check-label" htmlFor="gender-female">
-                Female
-              </label>
-            </div>
-            <div className="form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="radio"
-                name="gender"
-                id="gender-non-binary"
-                value="non-binary"
-              />
-              <label className="form-check-label" htmlFor="gender-non-binary">
-                Non-Binary
-              </label>
-            </div>
-            <div className="form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="radio"
-                name="gender"
-                id="gender-other"
-                value="other"
-              />
-              <label className="form-check-label" htmlFor="gender-other">
-                I prefer to be described in a different way
-              </label>
-            </div>
-          </div>
+          </form>
         </div>
         <div className="col">
           <h5 className="secondary-color fw-semibold">Age *</h5>
