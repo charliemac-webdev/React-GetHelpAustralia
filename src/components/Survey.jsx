@@ -1,8 +1,10 @@
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 const Survey = ({ nextRoute, formName }) => {
+  const [shModules, setShModules] = useState(false);
+  const [anotherModule, setAnotherModule] = useState(false);
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -10,7 +12,11 @@ const Survey = ({ nextRoute, formName }) => {
     await fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(new FormData(form)).toString(),
+      body: new URLSearchParams({
+        "form-name": formName,
+        shModules: shModules ? "Sh Modules" : "",
+        anotherModule: anotherModule ? "Another Module" : "",
+      }).toString(),
     })
       .then(() => {
         console.log("Form successfully submitted");
@@ -24,6 +30,7 @@ const Survey = ({ nextRoute, formName }) => {
         name={formName}
         method="post"
         data-netlify="true"
+        action="/"
         ref={form}
         onSubmit={handleSubmit}
       >
@@ -121,6 +128,14 @@ const Survey = ({ nextRoute, formName }) => {
           <div className="col">
             <div className="form-check">
               <input
+                type="checkbox"
+                name="shModules"
+                id="shModules"
+                checked={shModules}
+                onChange={(e) => setShModules(e.target.checked)}
+              />
+              <label htmlFor="shModules">Sh Modules</label>
+              {/* <input
                 className="form-check-input"
                 type="checkbox"
                 name="Completed Modules[]"
@@ -129,10 +144,18 @@ const Survey = ({ nextRoute, formName }) => {
               />
               <label className="form-check-label" htmlFor="why">
                 Understanding Why
-              </label>
+              </label> */}
             </div>
             <div className="form-check">
               <input
+                type="checkbox"
+                name="anotherModule"
+                id="anotherModule"
+                checked={anotherModule}
+                onChange={(e) => setAnotherModule(e.target.checked)}
+              />
+              <label htmlFor="anotherModule">Another Module</label>
+              {/* <input
                 className="form-check-input"
                 type="checkbox"
                 name="Completed Modules[]"
@@ -141,7 +164,7 @@ const Survey = ({ nextRoute, formName }) => {
               />
               <label className="form-check-label" htmlFor="triggers">
                 Triggers
-              </label>
+              </label> */}
             </div>
             <div className="form-check">
               <input
