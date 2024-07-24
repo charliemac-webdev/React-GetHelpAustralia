@@ -17,6 +17,7 @@ const GpiusQuizResults = () => {
     const submitScore = async () => {
       const formData = new URLSearchParams();
       formData.append("form-name", "gpius-quiz-results");
+      formData.append("test", "gpius-quiz-results");
       formData.append("totalScore", totalScore);
 
       try {
