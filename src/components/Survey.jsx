@@ -134,11 +134,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radiotriggers"
+                name="Triggers"
+                id="triggers"
                 value="Triggers"
               />
-              <label className="form-check-label" htmlFor="radiotriggers">
+              <label className="form-check-label" htmlFor="triggers">
                 Triggers
               </label>
             </div>
@@ -146,11 +146,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-images"
+                name="Images are Children"
+                id="Images are Children"
                 value="Images are Children"
               />
-              <label className="form-check-label" htmlFor="radio-images">
+              <label className="form-check-label" htmlFor="Images are Children">
                 Images are Children
               </label>
             </div>
@@ -158,11 +158,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-addiction"
+                name="Addiction"
+                id="Addiction"
                 value="Addiction"
               />
-              <label className="form-check-label" htmlFor="radio-addiction">
+              <label className="form-check-label" htmlFor="Addiction">
                 Addiction
               </label>
             </div>
@@ -170,11 +170,14 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-online"
+                name="Online Relationships"
+                id="Online Relationships"
                 value="Online Relationships"
               />
-              <label className="form-check-label" htmlFor="radio-online">
+              <label
+                className="form-check-label"
+                htmlFor="Online Relationships"
+              >
                 Online Relationships
               </label>
             </div>
@@ -182,11 +185,14 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-dealing"
+                name="Dealing with Feelings"
+                id="Dealing with Feelings"
                 value="Dealing with Feelings"
               />
-              <label className="form-check-label" htmlFor="radio-dealing">
+              <label
+                className="form-check-label"
+                htmlFor="Dealing with Feelings"
+              >
                 Dealing with Feelings
               </label>
             </div>
@@ -194,11 +200,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-problem"
+                name="Problem Solving"
+                id="Problem Solving"
                 value="Problem Solving"
               />
-              <label className="form-check-label" htmlFor="radio-problem">
+              <label className="form-check-label" htmlFor="Problem Solving">
                 Problem Solving
               </label>
             </div>
@@ -206,25 +212,26 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-relapse"
+                name="Relapse Prevention"
+                id="Relapse Prevention"
                 value="Relapse Prevention"
               />
-              <label className="form-check-label" htmlFor="radio-relapse">
+              <label className="form-check-label" htmlFor="Relapse Prevention">
                 Relapse Prevention
               </label>
             </div>
-          </div>
-          <div className="col">
             <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-gratification"
+                name="Problem of Immediate Gratification"
+                id="Problem of Immediate Gratification"
                 value="Problem of Immediate Gratification"
               />
-              <label className="form-check-label" htmlFor="radio-gratification">
+              <label
+                className="form-check-label"
+                htmlFor="Problem of Immediate Gratification"
+              >
                 Problem of Immediate Gratification
               </label>
             </div>
@@ -232,13 +239,13 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-responsibility"
+                name="Taking Responsibility"
+                id="Taking Responsibility"
                 value="Taking Responsibility"
               />
               <label
                 className="form-check-label"
-                htmlFor="radio-responsibility"
+                htmlFor="Taking Responsibility"
               >
                 Taking Responsibility
               </label>
@@ -247,11 +254,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-fantasy"
+                name="Fantasy"
+                id="Fantasy"
                 value="Fantasy"
               />
-              <label className="form-check-label" htmlFor="radio-fantasy">
+              <label className="form-check-label" htmlFor="Fantasy">
                 Fantasy
               </label>
             </div>
@@ -259,11 +266,14 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-collecting"
+                name="Problematic Collecting"
+                id="Problematic Collecting"
                 value="Problematic Collecting"
               />
-              <label className="form-check-label" htmlFor="radio-collecting">
+              <label
+                className="form-check-label"
+                htmlFor="Problematic Collecting"
+              >
                 Problematic Collecting
               </label>
             </div>
@@ -271,11 +281,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-talking"
+                name="Talking to Others"
+                id="Talking to Others"
                 value="Talking to Others"
               />
-              <label className="form-check-label" htmlFor="radio-talking">
+              <label className="form-check-label" htmlFor="Talking to Others">
                 Talking to Others
               </label>
             </div>
@@ -283,11 +293,14 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-assertiveness"
+                name="Self Esteem and Assertiveness"
+                id="Self Esteem and Assertiveness"
                 value="Self Esteem and Assertiveness"
               />
-              <label className="form-check-label" htmlFor="radio-assertiveness">
+              <label
+                className="form-check-label"
+                htmlFor="Self Esteem and Assertiveness"
+              >
                 Self Esteem and Assertiveness
               </label>
             </div>
@@ -295,11 +308,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-self-talk"
+                name="Self-Talk"
+                id="Self-Talk"
                 value="Self-Talk"
               />
-              <label className="form-check-label" htmlFor="radio-self-talk">
+              <label className="form-check-label" htmlFor="Self-Talk">
                 Self-Talk
               </label>
             </div>
@@ -307,11 +320,14 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="shModules"
-                id="radio-building"
+                name="Building a Good Life"
+                id="Building a Good Life"
                 value="Building a Good Life"
               />
-              <label className="form-check-label" htmlFor="radio-building">
+              <label
+                className="form-check-label"
+                htmlFor="Building a Good Life"
+              >
                 Building a Good Life
               </label>
             </div>
