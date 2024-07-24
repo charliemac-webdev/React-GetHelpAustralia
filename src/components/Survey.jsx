@@ -1,11 +1,12 @@
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
+import { useRef } from "react";
 
 const Survey = ({ nextRoute, formName }) => {
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const form = e.target;
+    const form = useRef();
     await fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -23,7 +24,7 @@ const Survey = ({ nextRoute, formName }) => {
         name={formName}
         method="post"
         data-netlify="true"
-        action="/"
+        ref={form}
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value={formName} />
