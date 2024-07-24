@@ -124,7 +124,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radiowhy"
-                value=""
+                value="Understanding Why"
               />
               <label className="form-check-label" htmlFor="radiowhy">
                 Understanding Why
@@ -136,7 +136,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radiotriggers"
-                value=""
+                value="Triggers"
               />
               <label className="form-check-label" htmlFor="radiotriggers">
                 Triggers
@@ -148,6 +148,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-images"
+                value="Images are Children"
               />
               <label className="form-check-label" htmlFor="radio-images">
                 Images are Children
@@ -159,6 +160,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-addiction"
+                value="Addiction"
               />
               <label className="form-check-label" htmlFor="radio-addiction">
                 Addiction
@@ -170,6 +172,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-online"
+                value="Online Relationships"
               />
               <label className="form-check-label" htmlFor="radio-online">
                 Online Relationships
@@ -181,6 +184,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-dealing"
+                value="Dealing with Feelings"
               />
               <label className="form-check-label" htmlFor="radio-dealing">
                 Dealing with Feelings
@@ -192,6 +196,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-problem"
+                value="Problem Solving"
               />
               <label className="form-check-label" htmlFor="radio-problem">
                 Problem Solving
@@ -203,6 +208,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-relapse"
+                value="Relapse Prevention"
               />
               <label className="form-check-label" htmlFor="radio-relapse">
                 Relapse Prevention
@@ -216,6 +222,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-gratification"
+                value="Problem of Immediate Gratification"
               />
               <label className="form-check-label" htmlFor="radio-gratification">
                 Problem of Immediate Gratification
@@ -227,6 +234,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-responsibility"
+                value="Taking Responsibility"
               />
               <label
                 className="form-check-label"
@@ -241,6 +249,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-fantasy"
+                value="Fantasy"
               />
               <label className="form-check-label" htmlFor="radio-fantasy">
                 Fantasy
@@ -252,6 +261,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-collecting"
+                value="Problematic Collecting"
               />
               <label className="form-check-label" htmlFor="radio-collecting">
                 Problematic Collecting
@@ -263,6 +273,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-talking"
+                value="Talking to Others"
               />
               <label className="form-check-label" htmlFor="radio-talking">
                 Talking to Others
@@ -274,6 +285,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-assertiveness"
+                value="Self Esteem and Assertiveness"
               />
               <label className="form-check-label" htmlFor="radio-assertiveness">
                 Self Esteem and Assertiveness
@@ -285,6 +297,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-self-talk"
+                value="Self-Talk"
               />
               <label className="form-check-label" htmlFor="radio-self-talk">
                 Self-Talk
@@ -296,6 +309,7 @@ const Survey = ({ nextRoute, formName }) => {
                 type="checkbox"
                 name="shModules"
                 id="radio-building"
+                value="Building a Good Life"
               />
               <label className="form-check-label" htmlFor="radio-building">
                 Building a Good Life
