@@ -27,7 +27,7 @@ const GpiusSurveyPage = () => {
         <br />
         <div className="border border-primary p-3 rounded">
           <Survey
-            formName="GPIUS-self-awareness-quiz-survey"
+            formName="GPIUS-self-awareness-quiz"
             nextRoute="/gpius-quiz-1"
           />
         </div>
