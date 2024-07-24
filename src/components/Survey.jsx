@@ -1,9 +1,8 @@
 import Button from "./Button";
-import { useNavigate, Form } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Survey = ({ nextRoute, formName }) => {
   const navigate = useNavigate();
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
@@ -20,7 +19,7 @@ const Survey = ({ nextRoute, formName }) => {
   };
   return (
     <>
-      <Form
+      <form
         name={formName}
         method="post"
         data-netlify="true"
@@ -307,7 +306,7 @@ const Survey = ({ nextRoute, formName }) => {
         <Button type="submit" id="continue-button" classes="btn">
           Continue
         </Button>
-      </Form>
+      </form>
     </>
   );
 };
