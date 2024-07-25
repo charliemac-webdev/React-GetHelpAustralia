@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Survey from "@/components/Survey";
@@ -27,7 +25,7 @@ const GpiusSurveyPage = () => {
         <br />
         <div className="border border-primary p-3 rounded">
           <Survey
-            formName="GPIUS-self-awareness-quiz"
+            formName="GPIUS-self-awareness-survey"
             nextRoute="/gpius-quiz-1"
           />
         </div>

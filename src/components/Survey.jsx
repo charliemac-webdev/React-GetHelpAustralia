@@ -43,7 +43,7 @@ const Survey = ({ nextRoute, formName }) => {
         "Content-Type": "application/x-www-form-urlencoded",
         Accept: "application/json",
       },
-      body: encode({ formName: "survey", ...formData }),
+      body: encode({ "form-name": formName, ...formData }),
     })
       .then(() => {
         console.log("Form successfully submitted");
