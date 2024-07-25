@@ -37,10 +37,8 @@ const Survey = ({ nextRoute, formName }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const timestamp = new Date().toISOString();
     const dataToSubmit = {
       "form-name": formName,
-      "submission-title": `${formName} - ${timestamp}`,
       ...formData,
     };
     console.log("Submitting form data:", dataToSubmit);
@@ -68,11 +66,6 @@ const Survey = ({ nextRoute, formName }) => {
     <>
       <form name={formName} onSubmit={handleSubmit}>
         <input type="hidden" name="form-name" value={formName} />
-        <input
-          type="hidden"
-          name="submission-title"
-          value={`${formName} - ${new Date().toISOString()}`}
-        />
         <div className="row align-items-start pb-5">
           <div className="col">
             <h5 className="secondary-color fw-semibold pb-2">Gender *</h5>
