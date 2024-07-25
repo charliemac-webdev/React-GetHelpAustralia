@@ -35,12 +35,15 @@ const Survey = ({ nextRoute, formName }) => {
       .join("&");
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    fetch("/", {
+    await fetch("/", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "survey", ...formData }),
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        Accept: "application/json",
+      },
+      body: encode({ formName: "survey", ...formData }),
     })
       .then(() => {
         console.log("Form successfully submitted");
