@@ -1,191 +1,191 @@
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-SemiBold.eot");
+  src: url("@font/ProximaSoft-SemiBold.eot");
   src: local("Proxima Soft SemiBold"), local("ProximaSoft-SemiBold"),
-    url("ProximaSoft-SemiBold.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-SemiBold.woff2") format("woff2"),
-    url("ProximaSoft-SemiBold.woff") format("woff"),
-    url("ProximaSoft-SemiBold.ttf") format("truetype");
+    url("@font/ProximaSoft-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-SemiBold.woff2") format("woff2"),
+    url("@font/ProximaSoft-SemiBold.woff") format("woff"),
+    url("@font/ProximaSoft-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-BoldIt.eot");
+  src: url("@font/ProximaSoft-BoldIt.eot");
   src: local("Proxima Soft Bold Italic"), local("ProximaSoft-BoldIt"),
-    url("ProximaSoft-BoldIt.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-BoldIt.woff2") format("woff2"),
-    url("ProximaSoft-BoldIt.woff") format("woff"),
-    url("ProximaSoft-BoldIt.ttf") format("truetype");
+    url("@font/ProximaSoft-BoldIt.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-BoldIt.woff2") format("woff2"),
+    url("@font/ProximaSoft-BoldIt.woff") format("woff"),
+    url("@font/ProximaSoft-BoldIt.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-Light.eot");
+  src: url("@font/ProximaSoft-Light.eot");
   src: local("Proxima Soft Light"), local("ProximaSoft-Light"),
-    url("ProximaSoft-Light.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-Light.woff2") format("woff2"),
-    url("ProximaSoft-Light.woff") format("woff"),
-    url("ProximaSoft-Light.ttf") format("truetype");
+    url("@font/ProximaSoft-Light.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-Light.woff2") format("woff2"),
+    url("@font/ProximaSoft-Light.woff") format("woff"),
+    url("@font/ProximaSoft-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-Thin.eot");
+  src: url("@font/ProximaSoft-Thin.eot");
   src: local("Proxima Soft Thin"), local("ProximaSoft-Thin"),
-    url("ProximaSoft-Thin.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-Thin.woff2") format("woff2"),
-    url("ProximaSoft-Thin.woff") format("woff"),
-    url("ProximaSoft-Thin.ttf") format("truetype");
+    url("@font/ProximaSoft-Thin.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-Thin.woff2") format("woff2"),
+    url("@font/ProximaSoft-Thin.woff") format("woff"),
+    url("@font/ProximaSoft-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-LightIt.eot");
+  src: url("@font/ProximaSoft-LightIt.eot");
   src: local("Proxima Soft Light Italic"), local("ProximaSoft-LightIt"),
-    url("ProximaSoft-LightIt.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-LightIt.woff2") format("woff2"),
-    url("ProximaSoft-LightIt.woff") format("woff"),
-    url("ProximaSoft-LightIt.ttf") format("truetype");
+    url("@font/ProximaSoft-LightIt.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-LightIt.woff2") format("woff2"),
+    url("@font/ProximaSoft-LightIt.woff") format("woff"),
+    url("@font/ProximaSoft-LightIt.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-Medium.eot");
+  src: url("@font/ProximaSoft-Medium.eot");
   src: local("Proxima Soft Medium"), local("ProximaSoft-Medium"),
-    url("ProximaSoft-Medium.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-Medium.woff2") format("woff2"),
-    url("ProximaSoft-Medium.woff") format("woff"),
-    url("ProximaSoft-Medium.ttf") format("truetype");
+    url("@font/ProximaSoft-Medium.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-Medium.woff2") format("woff2"),
+    url("@font/ProximaSoft-Medium.woff") format("woff"),
+    url("@font/ProximaSoft-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-SemiBoldIt.eot");
+  src: url("@font/ProximaSoft-SemiBoldIt.eot");
   src: local("Proxima Soft SemiBold Italic"), local("ProximaSoft-SemiBoldIt"),
-    url("ProximaSoft-SemiBoldIt.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-SemiBoldIt.woff2") format("woff2"),
-    url("ProximaSoft-SemiBoldIt.woff") format("woff"),
-    url("ProximaSoft-SemiBoldIt.ttf") format("truetype");
+    url("@font/ProximaSoft-SemiBoldIt.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-SemiBoldIt.woff2") format("woff2"),
+    url("@font/ProximaSoft-SemiBoldIt.woff") format("woff"),
+    url("@font/ProximaSoft-SemiBoldIt.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-Bold.eot");
+  src: url("@font/ProximaSoft-Bold.eot");
   src: local("Proxima Soft Bold"), local("ProximaSoft-Bold"),
-    url("ProximaSoft-Bold.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-Bold.woff2") format("woff2"),
-    url("ProximaSoft-Bold.woff") format("woff"),
-    url("ProximaSoft-Bold.ttf") format("truetype");
+    url("@font/ProximaSoft-Bold.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-Bold.woff2") format("woff2"),
+    url("@font/ProximaSoft-Bold.woff") format("woff"),
+    url("@font/ProximaSoft-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-Black.eot");
+  src: url("@font/ProximaSoft-Black.eot");
   src: local("Proxima Soft Black"), local("ProximaSoft-Black"),
-    url("ProximaSoft-Black.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-Black.woff2") format("woff2"),
-    url("ProximaSoft-Black.woff") format("woff"),
-    url("ProximaSoft-Black.ttf") format("truetype");
+    url("@font/ProximaSoft-Black.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-Black.woff2") format("woff2"),
+    url("@font/ProximaSoft-Black.woff") format("woff"),
+    url("@font/ProximaSoft-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-RegularIt.eot");
+  src: url("@font/ProximaSoft-RegularIt.eot");
   src: local("Proxima Soft Regular Italic"), local("ProximaSoft-RegularIt"),
-    url("ProximaSoft-RegularIt.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-RegularIt.woff2") format("woff2"),
-    url("ProximaSoft-RegularIt.woff") format("woff"),
-    url("ProximaSoft-RegularIt.ttf") format("truetype");
+    url("@font/ProximaSoft-RegularIt.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-RegularIt.woff2") format("woff2"),
+    url("@font/ProximaSoft-RegularIt.woff") format("woff"),
+    url("@font/ProximaSoft-RegularIt.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-Regular.eot");
+  src: url("@font/ProximaSoft-Regular.eot");
   src: local("Proxima Soft Regular"), local("ProximaSoft-Regular"),
-    url("ProximaSoft-Regular.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-Regular.woff2") format("woff2"),
-    url("ProximaSoft-Regular.woff") format("woff"),
-    url("ProximaSoft-Regular.ttf") format("truetype");
+    url("@font/ProximaSoft-Regular.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-Regular.woff2") format("woff2"),
+    url("@font/ProximaSoft-Regular.woff") format("woff"),
+    url("@font/ProximaSoft-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-MediumIt.eot");
+  src: url("@font/ProximaSoft-MediumIt.eot");
   src: local("Proxima Soft Medium Italic"), local("ProximaSoft-MediumIt"),
-    url("ProximaSoft-MediumIt.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-MediumIt.woff2") format("woff2"),
-    url("ProximaSoft-MediumIt.woff") format("woff"),
-    url("ProximaSoft-MediumIt.ttf") format("truetype");
+    url("@font/ProximaSoft-MediumIt.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-MediumIt.woff2") format("woff2"),
+    url("@font/ProximaSoft-MediumIt.woff") format("woff"),
+    url("@font/ProximaSoft-MediumIt.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-BlackIt.eot");
+  src: url("@font/ProximaSoft-BlackIt.eot");
   src: local("Proxima Soft Black Italic"), local("ProximaSoft-BlackIt"),
-    url("ProximaSoft-BlackIt.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-BlackIt.woff2") format("woff2"),
-    url("ProximaSoft-BlackIt.woff") format("woff"),
-    url("ProximaSoft-BlackIt.ttf") format("truetype");
+    url("@font/ProximaSoft-BlackIt.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-BlackIt.woff2") format("woff2"),
+    url("@font/ProximaSoft-BlackIt.woff") format("woff"),
+    url("@font/ProximaSoft-BlackIt.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-ExtraBoldIt.eot");
+  src: url("@font/ProximaSoft-ExtraBoldIt.eot");
   src: local("Proxima Soft ExtraBold Italic"), local("ProximaSoft-ExtraBoldIt"),
-    url("ProximaSoft-ExtraBoldIt.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-ExtraBoldIt.woff2") format("woff2"),
-    url("ProximaSoft-ExtraBoldIt.woff") format("woff"),
-    url("ProximaSoft-ExtraBoldIt.ttf") format("truetype");
+    url("@font/ProximaSoft-ExtraBoldIt.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-ExtraBoldIt.woff2") format("woff2"),
+    url("@font/ProximaSoft-ExtraBoldIt.woff") format("woff"),
+    url("@font/ProximaSoft-ExtraBoldIt.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-ThinIt.eot");
+  src: url("@font/ProximaSoft-ThinIt.eot");
   src: local("Proxima Soft Thin Italic"), local("ProximaSoft-ThinIt"),
-    url("ProximaSoft-ThinIt.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-ThinIt.woff2") format("woff2"),
-    url("ProximaSoft-ThinIt.woff") format("woff"),
-    url("ProximaSoft-ThinIt.ttf") format("truetype");
+    url("@font/ProximaSoft-ThinIt.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-ThinIt.woff2") format("woff2"),
+    url("@font/ProximaSoft-ThinIt.woff") format("woff"),
+    url("@font/ProximaSoft-ThinIt.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Proxima Soft";
-  src: url("ProximaSoft-ExtraBold.eot");
+  src: url("@font/ProximaSoft-ExtraBold.eot");
   src: local("Proxima Soft ExtraBold"), local("ProximaSoft-ExtraBold"),
-    url("ProximaSoft-ExtraBold.eot?#iefix") format("embedded-opentype"),
-    url("ProximaSoft-ExtraBold.woff2") format("woff2"),
-    url("ProximaSoft-ExtraBold.woff") format("woff"),
-    url("ProximaSoft-ExtraBold.ttf") format("truetype");
+    url("@font/ProximaSoft-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("@font/ProximaSoft-ExtraBold.woff2") format("woff2"),
+    url("@font/ProximaSoft-ExtraBold.woff") format("woff"),
+    url("@font/ProximaSoft-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }

@@ -1,8 +1,8 @@
+import "@font/stylesheet.scss";
+import "@scss/styles.scss";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import "./font/stylesheet.scss";
-import "./scss/styles.scss";
 
 // PostHog Analytics
 import posthog from "posthog-js";
