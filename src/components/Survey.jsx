@@ -37,6 +37,7 @@ const Survey = ({ nextRoute, formName }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const timestamp = new Date().toISOString();
     const dataToSubmit = {
       "form-name": formName,
       title: `${formName} - ${timestamp}`,
