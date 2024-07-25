@@ -9,7 +9,6 @@ const Survey = ({ nextRoute, formName }) => {
     age: "",
   });
   const navigate = useNavigate();
-
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     if (type === "checkbox") {
@@ -25,39 +24,38 @@ const Survey = ({ nextRoute, formName }) => {
         [name]: value,
       }));
     }
+  };
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
 
-    const encode = (data) => {
-      return Object.keys(data)
-        .map(
-          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = { "form-name": formName, ...formData };
+    console.log("Submitting form data:", formData);
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: encode(formData),
+      });
 
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-      const formData = { "form-name": formName, ...formData };
-      console.log("Submitting form data:", formData);
-      try {
-        const response = await fetch("/", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-          },
-          body: encode(formData),
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const result = await response.text();
-        console.log("Form submission result:", result);
-        navigate(nextRoute);
-      } catch (error) {
-        console.error("Form submission error:", error);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
-    };
+
+      const result = await response.text();
+      console.log("Form submission result:", result);
+      navigate(nextRoute);
+    } catch (error) {
+      console.error("Form submission error:", error);
+    }
   };
   return (
     <>
