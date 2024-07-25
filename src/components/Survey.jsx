@@ -39,7 +39,7 @@ const Survey = ({ nextRoute, formName }) => {
     e.preventDefault();
     const dataToSubmit = {
       "form-name": formName,
-      subject: `${formName} - ${timestamp}`,
+      name: `${formName} - ${timestamp}`,
       ...formData,
     };
     console.log("Submitting form data:", dataToSubmit);
@@ -69,7 +69,7 @@ const Survey = ({ nextRoute, formName }) => {
         <input type="hidden" name="form-name" value={formName} />
         <input
           type="hidden"
-          name="subject"
+          name="name"
           value={`${formName} - ${new Date().toISOString()}`}
         />
         <div className="row align-items-start pb-5">
