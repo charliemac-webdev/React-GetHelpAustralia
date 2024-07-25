@@ -9,6 +9,7 @@ const Survey = ({ nextRoute, formName }) => {
     age: "",
   });
   const navigate = useNavigate();
+
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     if (type === "checkbox") {
@@ -25,6 +26,7 @@ const Survey = ({ nextRoute, formName }) => {
       }));
     }
   };
+
   const encode = (data) => {
     return Object.keys(data)
       .map(
@@ -35,15 +37,15 @@ const Survey = ({ nextRoute, formName }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const formData = { "form-name": formName, ...formData };
-    console.log("Submitting form data:", formData);
+    const dataToSubmit = { "form-name": formName, ...formData };
+    console.log("Submitting form data:", dataToSubmit);
     try {
       const response = await fetch("/", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: encode(formData),
+        body: encode(dataToSubmit),
       });
 
       if (!response.ok) {
