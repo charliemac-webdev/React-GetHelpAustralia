@@ -25,31 +25,39 @@ const Survey = ({ nextRoute, formName }) => {
         [name]: value,
       }));
     }
-  };
 
-  const encode = (data) => {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  };
+    const encode = (data) => {
+      return Object.keys(data)
+        .map(
+          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
+    };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    await fetch("/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        Accept: "application/json",
-      },
-      body: encode({ "form-name": formName, ...formData }),
-    })
-      .then(() => {
-        console.log("Form successfully submitted");
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      const formData = { "form-name": formName, ...formData };
+      console.log("Submitting form data:", formData);
+      try {
+        const response = await fetch("/", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: encode(formData),
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const result = await response.text();
+        console.log("Form submission result:", result);
         navigate(nextRoute);
-      })
-      .catch((error) => console.error("Form submission error:", error));
+      } catch (error) {
+        console.error("Form submission error:", error);
+      }
+    };
   };
   return (
     <>
