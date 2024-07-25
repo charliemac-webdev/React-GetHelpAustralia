@@ -1,9 +1,9 @@
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
 import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const GpiusQuizResults = () => {
   const scores = useSelector((state) => state.gpiusScore.scores);
@@ -16,8 +16,8 @@ const GpiusQuizResults = () => {
   useEffect(() => {
     const submitScore = async () => {
       const formData = new URLSearchParams();
-      formData.append("form-name", "gpius-quiz-results");
-      formData.append("totalScore", totalScore);
+      formData.append("form-name", "GPIUS-quiz-results");
+      formData.append("totalScore", `Quiz: total score ${totalScore}`);
 
       try {
         await fetch("/", {

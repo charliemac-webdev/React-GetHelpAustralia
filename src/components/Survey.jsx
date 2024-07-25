@@ -1,21 +1,46 @@
-import Button from "./Button";
-import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Button from "./Button";
 
 const Survey = ({ nextRoute, formName }) => {
-  const [shModules, setShModules] = useState(false);
-  const [anotherModule, setAnotherModule] = useState(false);
+  const [formData, setFormData] = useState({
+    gender: "",
+    modules: [],
+    age: "",
+  });
   const navigate = useNavigate();
-  const handleSubmit = async (e) => {
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    if (type === "checkbox") {
+      setFormData((prevState) => ({
+        ...prevState,
+        modules: checked
+          ? [...prevState.modules, value]
+          : prevState.modules.filter((module) => module !== value),
+      }));
+    } else {
+      setFormData((prevState) => ({
+        ...prevState,
+        [name]: value,
+      }));
+    }
+  };
+
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    await fetch("/", {
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams({
-        "form-name": formName,
-        shModules: shModules ? "Sh Modules" : "",
-        anotherModule: anotherModule ? "Another Module" : "",
-      }).toString(),
+      body: encode({ "form-name": "survey", ...formData }),
     })
       .then(() => {
         console.log("Form successfully submitted");
@@ -25,13 +50,7 @@ const Survey = ({ nextRoute, formName }) => {
   };
   return (
     <>
-      <form
-        name={formName}
-        method="post"
-        data-netlify="true"
-        action="/"
-        onSubmit={handleSubmit}
-      >
+      <form name={formName} onSubmit={handleSubmit}>
         <input type="hidden" name="form-name" value={formName} />
         <div className="row align-items-start pb-5">
           <div className="col">
@@ -45,6 +64,8 @@ const Survey = ({ nextRoute, formName }) => {
                   name="gender"
                   id="gender-male"
                   value="male"
+                  checked={formData.gender === "male"}
+                  onChange={handleChange}
                 />
                 <label className="form-check-label" htmlFor="gender-male">
                   Male
@@ -57,6 +78,8 @@ const Survey = ({ nextRoute, formName }) => {
                   name="gender"
                   id="gender-female"
                   value="female"
+                  checked={formData.gender === "female"}
+                  onChange={handleChange}
                 />
                 <label className="form-check-label" htmlFor="gender-female">
                   Female
@@ -69,6 +92,8 @@ const Survey = ({ nextRoute, formName }) => {
                   name="gender"
                   id="gender-non-binary"
                   value="non-binary"
+                  checked={formData.gender === "non-binary"}
+                  onChange={handleChange}
                 />
                 <label className="form-check-label" htmlFor="gender-non-binary">
                   Non-Binary
@@ -81,6 +106,8 @@ const Survey = ({ nextRoute, formName }) => {
                   name="gender"
                   id="gender-other"
                   value="other"
+                  checked={formData.gender === "other"}
+                  onChange={handleChange}
                 />
                 <label className="form-check-label" htmlFor="gender-other">
                   I prefer to be described in a different way
@@ -94,11 +121,10 @@ const Survey = ({ nextRoute, formName }) => {
               name="age"
               id="select-age"
               className="form-select"
-              defaultValue=""
+              value={formData.age}
+              onChange={handleChange}
             >
-              <option value="" disabled>
-                Please select your age range
-              </option>
+              <option value="">Please select your age range</option>
               <option value="Under 15">Under 15</option>
               <option value="15-19">15-19</option>
               <option value="20-24">20-24</option>
@@ -126,50 +152,41 @@ const Survey = ({ nextRoute, formName }) => {
           <div className="col">
             <div className="form-check">
               <input
-                type="checkbox"
-                name="shModules"
-                id="shModules"
-                checked={shModules}
-                onChange={(e) => setShModules(e.target.checked)}
-              />
-              <label htmlFor="shModules">Sh Modules</label>
-              {/* <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules[]"
+                name="modules"
                 id="why"
                 value="Understanding Why"
+                checked={formData.modules.includes("Understanding Why")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="why">
                 Understanding Why
-              </label> */}
+              </label>
             </div>
             <div className="form-check">
               <input
-                type="checkbox"
-                name="anotherModule"
-                id="anotherModule"
-                checked={anotherModule}
-                onChange={(e) => setAnotherModule(e.target.checked)}
-              />
-              <label htmlFor="anotherModule">Another Module</label>
-              {/* <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules[]"
+                name="modules"
                 id="triggers"
                 value="Triggers"
+                checked={formData.modules.includes("Triggers")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="triggers">
                 Triggers
-              </label> */}
+              </label>
             </div>
             <div className="form-check">
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Images are Children"
+                value="Images are Children"
+                checked={formData.modules.includes("Images are Children")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="Images are Children">
                 Images are Children
@@ -179,9 +196,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Addiction[]"
+                name="modules"
                 id="Addiction"
                 value="Addiction"
+                checked={formData.modules.includes("Addiction")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="Addiction">
                 Addiction
@@ -191,8 +210,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Online Relationships[]"
+                name="modules"
                 id="Online Relationships"
+                value="Online Relationships"
+                checked={formData.modules.includes("Online Relationships")}
+                onChange={handleChange}
               />
               <label
                 className="form-check-label"
@@ -205,9 +227,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Dealing with Feelings[]"
+                name="modules"
                 id="Dealing with Feelings"
                 value="Dealing with Feelings"
+                checked={formData.modules.includes("Dealing with Feelings")}
+                onChange={handleChange}
               />
               <label
                 className="form-check-label"
@@ -220,9 +244,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Problem Solving"
                 value="Problem Solving"
+                checked={formData.modules.includes("Problem Solving")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="Problem Solving">
                 Problem Solving
@@ -232,9 +258,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Relapse Prevention"
                 value="Relapse Prevention"
+                checked={formData.modules.includes("Relapse Prevention")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="Relapse Prevention">
                 Relapse Prevention
@@ -244,9 +272,13 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Problem of Immediate Gratification"
                 value="Problem of Immediate Gratification"
+                checked={formData.modules.includes(
+                  "Problem of Immediate Gratification"
+                )}
+                onChange={handleChange}
               />
               <label
                 className="form-check-label"
@@ -259,9 +291,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Taking Responsibility"
                 value="Taking Responsibility"
+                checked={formData.modules.includes("Taking Responsibility")}
+                onChange={handleChange}
               />
               <label
                 className="form-check-label"
@@ -274,9 +308,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Fantasy"
                 value="Fantasy"
+                checked={formData.modules.includes("Fantasy")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="Fantasy">
                 Fantasy
@@ -286,9 +322,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Problematic Collecting"
                 value="Problematic Collecting"
+                checked={formData.modules.includes("Problematic Collecting")}
+                onChange={handleChange}
               />
               <label
                 className="form-check-label"
@@ -301,9 +339,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Talking to Others"
                 value="Talking to Others"
+                checked={formData.modules.includes("Talking to Others")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="Talking to Others">
                 Talking to Others
@@ -313,9 +353,13 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Self Esteem and Assertiveness"
                 value="Self Esteem and Assertiveness"
+                checked={formData.modules.includes(
+                  "Self Esteem and Assertiveness"
+                )}
+                onChange={handleChange}
               />
               <label
                 className="form-check-label"
@@ -328,9 +372,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Self-Talk"
                 value="Self-Talk"
+                checked={formData.modules.includes("Self-Talk")}
+                onChange={handleChange}
               />
               <label className="form-check-label" htmlFor="Self-Talk">
                 Self-Talk
@@ -340,9 +386,11 @@ const Survey = ({ nextRoute, formName }) => {
               <input
                 className="form-check-input"
                 type="checkbox"
-                name="Completed Modules"
+                name="modules"
                 id="Building a Good Life"
                 value="Building a Good Life"
+                checked={formData.modules.includes("Building a Good Life")}
+                onChange={handleChange}
               />
               <label
                 className="form-check-label"

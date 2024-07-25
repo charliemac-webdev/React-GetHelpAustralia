@@ -1,9 +1,9 @@
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
 import Button from "@/components/Button";
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const DistressQuizResults = () => {
   const scores = useSelector((state) => state.distressScore.scores);
@@ -14,25 +14,46 @@ const DistressQuizResults = () => {
   }, 0);
   console.log("Calculated total score:", totalScore);
   useEffect(() => {
-    const submitScore = async () => {
-      const formData = new URLSearchParams();
-      formData.append("form-name", "k10-quiz-results");
-      formData.append("totalScore", totalScore);
-
-      try {
-        await fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: formData.toString(),
-        });
-        console.log("Score submitted successfully");
-      } catch (error) {
-        alert("Error submitting score: " + error);
-      }
+    const encode = (data) => {
+      return Object.keys(data)
+        .map(
+          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
     };
 
-    submitScore();
-  }, [totalScore]); // Dependency: totalScore
+    // Submit the form to Netlify
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": "Distress-k10-quiz-results",
+        totalScore: `Quiz: total score ${totalScore}`,
+      }),
+    })
+      .then(() => console.log("Quiz results submitted successfully"))
+      .catch((error) => console.error("Error submitting quiz results:", error));
+  }, [totalScore]);
+
+  //   const submitScore = async () => {
+  //     const formData = new URLSearchParams();
+  //     formData.append("form-name", "k10-quiz-results");
+  //     formData.append("totalScore", totalScore);
+
+  //     try {
+  //       await fetch("/", {
+  //         method: "POST",
+  //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //         body: formData.toString(),
+  //       });
+  //       console.log("Score submitted successfully");
+  //     } catch (error) {
+  //       alert("Error submitting score: " + error);
+  //     }
+  //   };
+
+  //   submitScore();
+  // }, [totalScore]); // Dependency: totalScore
   return (
     <>
       <Heading>

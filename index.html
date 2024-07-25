@@ -33,34 +33,16 @@
   <body>
     <form name="Distress-K10-quiz" netlify netlify-honeypot="bot-field" hidden>
       <input type="radio" name="gender" />
-      <select name="age">
-        <option value="Under 15">Under 15</option>
-        <option value="15-19">15-19</option>
-        <option value="20-24">20-24</option>
-        <option value="25-29">25-29</option>
-        <option value="30-34">30-34</option>
-        <option value="35-39">35-39</option>
-        <option value="40-44">40-44</option>
-        <option value="45-49">45-49</option>
-        <option value="50-54">50-54</option>
-        <option value="55-59">55-59</option>
-        <option value="60-64">60-64</option>
-        <option value="65-69">65-69</option>
-        <option value="70-74">70-74</option>
-        <option value="75-79">75-79</option>
-        <option value="80+">80+</option>
-      </select>
-      <input type="checkbox" name="shModules" id="shModules" value="Sh Modules" />
-      <label for="shModules">Sh Modules</label>
-  </div>
-  <div>
-      <input type="checkbox" name="anotherModule" id="anotherModule" value="Another Module" />
-      <label for="anotherModule">Another Module</label>
-  </div>
+      <select name="age"></select>
+      <input type="checkbox" name="modules" />
     </form>
-    <form name="k10-quiz-results" netlify netlify-honeypot="bot-field" hidden>
+    <form
+      name="Distress-k10-quiz-results"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+    >
       <input type="text" name="totalScore" />
-      <input type="text" name="k10-quiz-results" />
     </form>
     <form
       name="GPIUS-self-awareness-quiz"
@@ -69,41 +51,11 @@
       hidden
     >
       <input type="radio" name="gender" />
-      <select name="age">
-        <option value="Under 15">Under 15</option>
-        <option value="15-19">15-19</option>
-        <option value="20-24">20-24</option>
-        <option value="25-29">25-29</option>
-        <option value="30-34">30-34</option>
-        <option value="35-39">35-39</option>
-        <option value="40-44">40-44</option>
-        <option value="45-49">45-49</option>
-        <option value="50-54">50-54</option>
-        <option value="55-59">55-59</option>
-        <option value="60-64">60-64</option>
-        <option value="65-69">65-69</option>
-        <option value="70-74">70-74</option>
-        <option value="75-79">75-79</option>
-        <option value="80+">80+</option>
-      </select>
-      <input type="checkbox" name="Completed Modules[]" />
-      <input type="checkbox" name="Completed Modules[]" />
-      <input type="checkbox" name="Completed Modules[]" />
-      <input type="checkbox" name="Addiction[]" />
-      <input
-        type="checkbox"
-        name="Online Relationships[]"
-        value="Online Relationships"
-      />
-      <input
-        type="checkbox"
-        name="Dealing with Feelings[]"
-        value="Dealing with Feelings"
-      />
+      <select name="age"></select>
+      <input type="checkbox" name="modules" />
     </form>
-    <form name="gpius-quiz-results" netlify netlify-honeypot="bot-field" hidden>
+    <form name="GPIUS-quiz-results" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="totalScore" />
-      <input type="text" name="gpius-quiz-results" />
     </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
