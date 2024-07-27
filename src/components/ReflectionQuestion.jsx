@@ -1,24 +1,27 @@
 import { Slider } from "@mui/material";
-
-function valuetext(value) {
-  return value;
-}
-
 import React from "react";
 
-const ReflectionQuestion = (props) => {
+const ReflectionQuestion = ({ children, id, value, onChange }) => {
+  const handleChange = (event, newValue) => {
+    onChange(id, newValue);
+  };
+
+  const valuetext = (value) => {
+    return value.toString();
+  };
+
   return (
     <>
       <div className="bg-primary-subtle border border-primary p-3">
-        <p>{props.children}</p>
+        <p>{children}</p>
       </div>
       <br />
       <br />
-
       <div className="w-100">
         <Slider
-          aria-label="Always visible"
-          defaultValue={3}
+          aria-label="Reflection"
+          value={value}
+          onChange={handleChange}
           step={1}
           marks
           min={1}
@@ -34,7 +37,6 @@ const ReflectionQuestion = (props) => {
         <span className="text-wrap w-6 text-end">Agree</span>
         <span className="text-wrap w-6 text-end">Strongly agree</span>
       </div>
-
       <br />
     </>
   );

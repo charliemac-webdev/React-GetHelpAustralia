@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 
-import imageOne from "@/images/good-lives.png";
 import document from "@/documents/Good Life Plan.pdf";
+import imageOne from "@/images/good-lives.png";
 
 const BuildingAGoodLifeModuleData = [
   {
@@ -426,32 +426,43 @@ const BuildingAGoodLifeModuleData = [
   {
     id: 3,
     title: "Reflection",
-    description: (
-      <>
-        <br></br>
-        <h4 className="secondary-color">Reflection</h4>
-        <p>
-          Reflecting on your progress after completing this module, rate your
-          thoughts on the following statements.
-        </p>
-        <br />
-        <ReflectionQuestion>
-          I now have a better understanding of how someone could meet their
-          needs in a harmful way.
-        </ReflectionQuestion>
-        <ReflectionQuestion>
-          I now know some helpful strategies to meet my needs in a new and
-          healthy way.
-        </ReflectionQuestion>
-        <Link className="text-decoration-none" to="/">
-          <div className="d-flex justify-content-end">
-            <Button id="next-button" classes="btn">
-              Next Module
-            </Button>
-          </div>
-        </Link>
-      </>
-    ),
+    description: {
+      type: "reflection",
+      render: ({ responses, onQuestionChange }) => (
+        <>
+          <br></br>
+          <h4 className="secondary-color">Reflection</h4>
+          <p>
+            Reflecting on your progress after completing this module, rate your
+            thoughts on the following statements.
+          </p>
+          <br />
+          <ReflectionQuestion
+            id="understanding_harmful_needs"
+            value={responses.understanding_harmful_needs}
+            onChange={onQuestionChange}
+          >
+            I now have a better understanding of how someone could meet their
+            needs in a harmful way.
+          </ReflectionQuestion>
+          <ReflectionQuestion
+            id="strategies_for_healthy_needs"
+            value={responses.strategies_for_healthy_needs}
+            onChange={onQuestionChange}
+          >
+            I now know some helpful strategies to meet my needs in a new and
+            healthy way.
+          </ReflectionQuestion>
+          <Link className="text-decoration-none" to="/">
+            <div className="d-flex justify-content-end">
+              <Button id="next-button" classes="btn" type="submit">
+                Next Module
+              </Button>
+            </div>
+          </Link>
+        </>
+      ),
+    },
   },
 ];
 
