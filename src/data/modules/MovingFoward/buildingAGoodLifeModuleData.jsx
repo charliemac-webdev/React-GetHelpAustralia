@@ -463,13 +463,12 @@ const BuildingAGoodLifeModuleData = [
             I now know some helpful strategies to meet my needs in a new and
             healthy way.
           </ReflectionQuestion>
-          <Link className="text-decoration-none" to="/">
-            <div className="d-flex justify-content-end">
-              <Button id="next-button" classes="btn" type="submit">
-                Next Module
-              </Button>
-            </div>
-          </Link>
+
+          <div className="d-flex justify-content-end">
+            <Button id="next-button" classes="btn" type="submit">
+              Next Module
+            </Button>
+          </div>
         </>
       ),
     },

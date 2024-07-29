@@ -425,13 +425,12 @@ const RelapsePreventionModuleData = [
             I now know some helpful ways to cope with risky thoughts, feelings,
             behaviours, people, and places.
           </ReflectionQuestion>
-          <Link className="text-decoration-none" to="/building-a-good-life">
-            <div className="d-flex justify-content-end">
-              <Button id="next-button" classes="btn">
-                Next Module
-              </Button>
-            </div>
-          </Link>
+
+          <div className="d-flex justify-content-end">
+            <Button id="next-button" classes="btn" type="submit">
+              Next Module
+            </Button>
+          </div>
         </div>
       ),
     },
