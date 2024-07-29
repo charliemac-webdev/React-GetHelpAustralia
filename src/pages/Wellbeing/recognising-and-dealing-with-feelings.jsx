@@ -34,7 +34,8 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams({
-            "form-name": "recognising-and-dealing-with-feelings-form",
+            "form-name":
+              "recognising-and-dealing-with-feelings-reflection-form",
             ...Object.fromEntries(formData),
             ...responses,
           }).toString(),
@@ -112,7 +113,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
           onSubmit={handleSubmit}
           onPostSubmit={handlePostSubmit}
           moduleProps={moduleProps}
-          formName="recognising-and-dealing-with-feelings-form"
+          formName="recognising-and-dealing-with-feelings-reflection-form"
           additionalFormFields={Object.keys(responses)}
         />
       </MainContent>

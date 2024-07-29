@@ -51,7 +51,7 @@ const SelfCareModule = ({ showMenu }) => {
 
   const submitReflectionForm = async () => {
     const reflectionFormData = new FormData();
-    reflectionFormData.append("form-name", "self-care-reflection");
+    reflectionFormData.append("form-name", "self-care-reflection-form");
     Object.entries(responses).forEach(([key, value]) => {
       reflectionFormData.append(key, value);
     });
