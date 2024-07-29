@@ -1,10 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 import Button from "./Button";
 
-const Module = ({ modules, onContinue }) => {
+const Module = ({
+  modules,
+  onContinue,
+  onSubmit,
+  moduleProps,
+  formName,
+  additionalFormFields = [],
+}) => {
   const [value, setValue] = useState(0);
   const [values, setValues] = useState([]);
   const modRef = useRef(null);
+  const formRef = useRef(null);
 
   useEffect(() => {
     console.log(values);
@@ -15,7 +23,7 @@ const Module = ({ modules, onContinue }) => {
   }, []);
 
   const handleClick = (e) => {
-    e.preventDefault(); // Prevent form submission
+    e.preventDefault();
     const elements = document.querySelectorAll(".MuiSlider-valueLabelLabel");
     const numbers = Array.from(elements).map((element) =>
       Number(element.textContent)
@@ -28,8 +36,27 @@ const Module = ({ modules, onContinue }) => {
 
     setValues((prevValues) => [...prevValues, sum]);
     if (onContinue) {
-      onContinue(value + 1);
+      onContinue(value + 1, sum);
     }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(formRef.current);
+
+    // Add any additional fields that might be specific to this module
+    if (moduleProps.additionalFields) {
+      Object.entries(moduleProps.additionalFields).forEach(([key, value]) => {
+        formData.append(key, value);
+      });
+    }
+
+    // Add values to formData
+    values.forEach((value, index) => {
+      formData.append(`value_${index + 1}`, value);
+    });
+
+    onSubmit(formData, value === modules.length - 1);
   };
 
   useEffect(() => {
@@ -42,8 +69,11 @@ const Module = ({ modules, onContinue }) => {
     if (typeof description === "object" && description !== null) {
       switch (description.type) {
         case "reflection":
-          return description.render ? description.render() : null;
+          return description.render ? description.render(moduleProps) : null;
         case "content":
+          return description.render
+            ? description.render(moduleProps)
+            : description.content;
         default:
           return description.content;
       }
@@ -56,10 +86,19 @@ const Module = ({ modules, onContinue }) => {
     ? renderDescription(currentModule.description)
     : null;
 
-  const sum = values.reduce((acc, curr) => acc + curr, 0);
-
   return (
-    <>
+    <form
+      ref={formRef}
+      onSubmit={handleSubmit}
+      name={formName}
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value={formName} />
+      {additionalFormFields.map((field) => (
+        <input key={field} type="hidden" name={field} />
+      ))}
       <div className="container-fluid" ref={modRef}>
         <div
           className="row align-items-start"
@@ -85,24 +124,20 @@ const Module = ({ modules, onContinue }) => {
               </div>
             </div>
             <div className="col-md-8 p-2">
-              {sum > 0 && value === modules.length - 1 ? (
-                <>
-                  <h4 className="secondary-color">Overall Score</h4>
-                  <div className="bg-primary-subtle border border-primary p-3">
-                    <p>Your score is: {sum}</p>
-                  </div>
-                  <br />
-                </>
-              ) : null}
               <article>{description}</article>
               <div className="d-flex justify-content-end">
-                {value < modules.length - 1 && (
+                {value < modules.length - 1 ? (
                   <Button
                     onClick={handleClick}
                     id="continue-button"
                     classes="btn"
+                    type="button"
                   >
                     Continue
+                  </Button>
+                ) : (
+                  <Button id="submit-button" classes="btn" type="submit">
+                    Submit
                   </Button>
                 )}
               </div>
@@ -111,7 +146,7 @@ const Module = ({ modules, onContinue }) => {
           </div>
         </div>
       </div>
-    </>
+    </form>
   );
 };
 

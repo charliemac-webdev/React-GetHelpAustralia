@@ -45,6 +45,7 @@
     gtag("config", "G-MHC4E8G6JE");
   </script>
   <body>
+    <!-- Quiz scores -->
     <form
       name="Distress-K10-survey"
       netlify
@@ -76,6 +77,50 @@
     <form name="GPIUS-quiz-results" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="totalScore" />
     </form>
+    <form
+      name="wellbeing-assessment"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="wellbeing-assessment" />
+      <input type="hidden" name="wellbeingTotalScore" />
+      <input type="hidden" name="wellbeingScore_1" />
+      <input type="hidden" name="wellbeingScore_2" />
+      <input type="hidden" name="wellbeingScore_3" />
+      <input type="hidden" name="wellbeingScore_4" />
+      <input type="hidden" name="wellbeingScore_5" />
+      <input type="hidden" name="moduleScores" />
+      <!-- Add any other fields you want to collect -->
+    </form>
+    <!-- Wellbeing Netlify Forms -->
+    <form
+      name="recognising-and-dealing-with-feelings-form"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input
+        type="hidden"
+        name="form-name"
+        value="recognising-and-dealing-with-feelings-form"
+      />
+      <input type="hidden" name="understanding_emotions" />
+      <input type="hidden" name="strategies_difficult_emotions" />
+      <!-- Add any other fields specific to this form -->
+    </form>
+
+    <form
+      name="self-care-reflection"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="self-care-reflection" />
+      <input type="hidden" name="understanding_self_care" />
+      <input type="hidden" name="self_care_plan" />
+    </form>
+
     <!-- Moving Forward Netlify Forms -->
     <form
       name="problem-solving-reflection-form"

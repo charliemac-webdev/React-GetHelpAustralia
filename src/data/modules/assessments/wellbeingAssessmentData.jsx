@@ -6,7 +6,7 @@ function valuetext(value) {
 
 const wellbeingAssessmentData = [
   {
-    id: 1,
+    id: 0,
     description: (
       <>
         <h4 className="secondary-color">Physical self-care</h4>
@@ -55,7 +55,7 @@ const wellbeingAssessmentData = [
     ),
   },
   {
-    id: 2,
+    id: 1,
     description: (
       <>
         <h4 className="secondary-color">Social self-care</h4>
@@ -95,7 +95,7 @@ const wellbeingAssessmentData = [
     ),
   },
   {
-    id: 3,
+    id: 2,
     description: (
       <>
         <h4 className="secondary-color">Mental self-care</h4>
@@ -139,7 +139,7 @@ const wellbeingAssessmentData = [
     ),
   },
   {
-    id: 4,
+    id: 3,
     description: (
       <>
         <h4 className="secondary-color">Spiritual self-care</h4>
@@ -189,7 +189,7 @@ const wellbeingAssessmentData = [
     ),
   },
   {
-    id: 5,
+    id: 4,
     description: (
       <>
         <h4 className="secondary-color">Emotional self-care</h4>
@@ -240,7 +240,7 @@ const wellbeingAssessmentData = [
     ),
   },
   {
-    id: 6,
+    id: 5,
     description: (
       <>
         <div className="results-quiz-main-wrapper form-17-results">

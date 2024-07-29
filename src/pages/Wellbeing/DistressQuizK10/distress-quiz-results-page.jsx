@@ -35,25 +35,6 @@ const DistressQuizResults = () => {
       .catch((error) => console.error("Error submitting quiz results:", error));
   }, [totalScore]);
 
-  //   const submitScore = async () => {
-  //     const formData = new URLSearchParams();
-  //     formData.append("form-name", "k10-quiz-results");
-  //     formData.append("totalScore", totalScore);
-
-  //     try {
-  //       await fetch("/", {
-  //         method: "POST",
-  //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //         body: formData.toString(),
-  //       });
-  //       console.log("Score submitted successfully");
-  //     } catch (error) {
-  //       alert("Error submitting score: " + error);
-  //     }
-  //   };
-
-  //   submitScore();
-  // }, [totalScore]); // Dependency: totalScore
   return (
     <>
       <Heading>

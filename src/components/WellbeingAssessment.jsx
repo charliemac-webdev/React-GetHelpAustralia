@@ -1,28 +1,31 @@
 import { BarChart } from "@mui/x-charts/BarChart";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import wellbeingAssessmentData from "@/data/modules/assessments/wellbeingAssessmentData";
 import Button from "./Button";
 
-const WellbeingAssessment = () => {
+const WellbeingAssessment = ({ dispatch, updateWellbeingScores }) => {
   const [active, setActive] = useState(0);
   const [values, setValues] = useState([]);
-  const [sum, setSum] = useState(0);
   const { description } = wellbeingAssessmentData[active];
+
+  const sum = useMemo(
+    () => values.reduce((acc, curr) => acc + curr, 0),
+    [values]
+  );
 
   const handleClick = () => {
     const selectedValue = Number(
       document.querySelector(".MuiSlider-valueLabelLabel").textContent
     );
 
-    setValues([...values, selectedValue]); // Update the values state using setValues
+    const newValues = [...values, selectedValue];
+    setValues(newValues);
 
-    const newSum = values.reduce(
-      (accumulator, currentValue) => accumulator + currentValue,
-      0
-    );
-    setSum(newSum);
+    if (dispatch && updateWellbeingScores) {
+      dispatch(updateWellbeingScores(newValues));
+    }
 
-    if (active <= wellbeingAssessmentData.length - 1) {
+    if (active < wellbeingAssessmentData.length - 1) {
       setActive(active + 1);
     }
   };
