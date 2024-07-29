@@ -1,5 +1,4 @@
 import { Slider } from "@mui/material";
-import React from "react";
 
 const ReflectionQuestion = ({ children, id, value, onChange }) => {
   const handleChange = (event, newValue) => {

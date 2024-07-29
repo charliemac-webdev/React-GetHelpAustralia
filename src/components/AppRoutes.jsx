@@ -207,7 +207,7 @@ function AppRoutes() {
             element={<MotivationForChangeModule showMenu={handleShowMenu} />}
           />
           <Route
-            path="relapse-prevention"
+            path="/relapse-prevention"
             element={<RelapsePreventionModule showMenu={handleShowMenu} />}
           />
           <Route

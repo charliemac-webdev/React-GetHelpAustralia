@@ -1,9 +1,9 @@
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import BuildingAGoodLifeModuleData from "@/data/modules/MovingFoward/buildingAGoodLifeModuleData";
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 const BuildingAGoodLifeModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -31,21 +31,34 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
       }).toString(),
     })
       .then(() => {
-        alert("Thank you for your feedback!");
+        console.log("Thank you for your feedback!");
         navigate("/"); // Navigate to the next module after successful submission
       })
-      .catch((error) => alert(error));
+      .catch((error) => console.log(error));
   };
 
-  const renderModule = (module) => {
-    if (module.description && module.description.type === "reflection") {
-      return module.description.render({
-        responses,
-        onQuestionChange: handleQuestionChange,
-      });
-    }
-    return module.description;
+  const handleContinue = (newModuleIndex) => {
+    console.log(`Moving to module ${newModuleIndex}`);
+    // You can add any additional logic here that needs to run when the user moves to the next module
+    // For example, you might want to save the current state, trigger an analytics event, etc.
   };
+
+  const processedModules = BuildingAGoodLifeModuleData.map((module) => {
+    if (module.description.type === "reflection") {
+      return {
+        ...module,
+        description: {
+          ...module.description,
+          render: () =>
+            module.description.render({
+              responses,
+              onQuestionChange: handleQuestionChange,
+            }),
+        },
+      };
+    }
+    return module;
+  });
 
   return (
     <>
@@ -59,7 +72,7 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
         <p>
           People from all over the world tend to want similar things in life in
           order to feel happy and satisfied. When people are happy with their
-          lives, they’re less likely to get into trouble.
+          lives, they're less likely to get into trouble.
         </p>
         <form
           onSubmit={handleSubmit}
@@ -71,15 +84,11 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
             name="form-name"
             value="good-life-reflection-form"
           />
-          <Module
-            modules={BuildingAGoodLifeModuleData.map((module) => ({
-              ...module,
-              description: renderModule(module),
-            }))}
-          />
+          <Module modules={processedModules} onContinue={handleContinue} />
         </form>
       </MainContent>
     </>
   );
 };
+
 export default BuildingAGoodLifeModule;
