@@ -27,13 +27,11 @@ const ProblemSolvingModuleData = [
           <hr />
           <br></br>
           <h4 className="secondary-color">Starting Point</h4>
+          <p>Identify your current level of confidence</p>
           <p>
-            Identify your current level of confidence
-            <p>
-              ( 1 = no&nbsp;confidence; 2 = some confidence; 3 = very confident
-              )
-            </p>
+            ( 1 = no&nbsp;confidence; 2 = some confidence; 3 = very confident )
           </p>
+
           <table className="table table-bordered">
             <tbody>
               <tr>
@@ -73,9 +71,9 @@ const ProblemSolvingModuleData = [
           <p>
             Here are three ways in which individuals tend to deal with problems:
           </p>
-          <p>
-            <h5 className="secondary-color">The Avoidant Approach</h5>
-          </p>
+
+          <h5 className="secondary-color">The Avoidant Approach</h5>
+
           <p>
             This is similar to the ‘Head in the Sand ‘way of experiencing anger
             and involves a failure to acknowledge the problem. It is
@@ -86,18 +84,18 @@ const ProblemSolvingModuleData = [
             situations for the problem and the problem tends to remain
             unresolved.
           </p>
-          <p>
-            <h5 className="secondary-color">The Emotional Approach</h5>
-          </p>
+
+          <h5 className="secondary-color">The Emotional Approach</h5>
+
           <p>
             Individuals who adopt this approach tend to act impulsively or
             carelessly and may become angry or upset. They are unlikely to
             consider different solutions and the consequences and make hasty
             decisions which may compound the problem.
           </p>
-          <p>
-            <h5 className="secondary-color">The Problem Solving Approach</h5>
-          </p>
+
+          <h5 className="secondary-color">The Problem Solving Approach</h5>
+
           <p>
             This involves a more systematic approach to problems, which includes
             defining the problem, selecting a possible solution, implementing it
@@ -105,11 +103,11 @@ const ProblemSolvingModuleData = [
           </p>
           <hr />
           <br></br>
-          <p>
-            <h4 className="secondary-color">
-              Exercise 1: What approach do I use?
-            </h4>
-          </p>
+
+          <h4 className="secondary-color">
+            Exercise 1: What approach do I use?
+          </h4>
+
           <p>
             <strong className="secondary-color">Problem Diary</strong>
           </p>
@@ -524,7 +522,7 @@ const ProblemSolvingModuleData = [
             to="/consequences-media-impact-and-disclosure"
           >
             <div className="d-flex justify-content-end">
-              <Button id="next-button" classes="btn">
+              <Button id="next-button" classes="btn" type="submit">
                 Next Module
               </Button>
             </div>

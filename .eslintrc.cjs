@@ -12,5 +12,6 @@ module.exports = {
   rules: {
     "react-refresh/only-export-components": "warn",
     "react/no-unescaped-entities": 0,
+    "react/no-invalid-html-element-children": "error",
   },
 };
