@@ -8,6 +8,7 @@ const Module = ({
   moduleProps,
   formName,
   additionalFormFields = [],
+  onPostSubmit,
 }) => {
   const [value, setValue] = useState(0);
   const [values, setValues] = useState([]);
@@ -40,7 +41,7 @@ const Module = ({
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(formRef.current);
 
@@ -56,7 +57,10 @@ const Module = ({
       formData.append(`value_${index + 1}`, value);
     });
 
-    onSubmit(formData, value === modules.length - 1);
+    await onSubmit(formData, true); // Always true for final submission
+    if (onPostSubmit) {
+      onPostSubmit(); // Call the post-submit callback
+    }
   };
 
   useEffect(() => {

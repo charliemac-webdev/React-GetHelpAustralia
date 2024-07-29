@@ -577,11 +577,6 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           >
             I now have strategies to cope with difficult emotions.
           </ReflectionQuestion>
-          <div className="d-flex justify-content-end">
-            <Button id="next-button" classes="btn" type="submit">
-              Next Module
-            </Button>
-          </div>
         </>
       ),
     },

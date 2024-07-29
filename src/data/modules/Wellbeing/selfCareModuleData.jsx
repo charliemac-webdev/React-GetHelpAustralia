@@ -640,12 +640,6 @@ const SelfCareModuleData = [
             I am committed to completing my own self-care plan and setting
             goals.
           </ReflectionQuestion>
-
-          <div className="d-flex justify-content-end">
-            <Button id="next-button" classes="btn" type="submit">
-              Next Module
-            </Button>
-          </div>
         </>
       ),
     },

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
   submitWellbeingScoreToNetlify,
@@ -14,6 +15,7 @@ const SelfCareModule = ({ showMenu }) => {
     understanding_self_care: 3,
     self_care_plan: 3,
   });
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const submissionStatus = useSelector(
     (state) => state.wellbeingScore.submissionStatus
@@ -83,6 +85,11 @@ const SelfCareModule = ({ showMenu }) => {
     }
   };
 
+  const handlePostSubmit = () => {
+    // Navigate to the next module
+    navigate("/guilt-and-shame"); // Replace with the correct path to the next module
+  };
+
   const moduleProps = {
     dispatch,
     updateWellbeingScores,
@@ -111,6 +118,7 @@ const SelfCareModule = ({ showMenu }) => {
           modules={SelfCareModuleData}
           onContinue={handleContinue}
           onSubmit={handleSubmit}
+          onPostSubmit={handlePostSubmit}
           moduleProps={moduleProps}
           formName="wellbeing-assessment"
           additionalFormFields={[

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
@@ -9,6 +10,8 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
     understanding_emotions: 3,
     strategies_difficult_emotions: 3,
   });
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     showMenu(false);
@@ -51,6 +54,11 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
       // Handle intermediate submissions if needed
       console.log("Intermediate submission:", Object.fromEntries(formData));
     }
+  };
+
+  const handlePostSubmit = () => {
+    // Navigate to the next module
+    navigate("/self-care"); // Replace with the correct path to the next module
   };
 
   const processedModules = RecognisingAndDealingWithFeelingsModuleData.map(
@@ -102,6 +110,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
           modules={processedModules}
           onContinue={handleContinue}
           onSubmit={handleSubmit}
+          onPostSubmit={handlePostSubmit}
           moduleProps={moduleProps}
           formName="recognising-and-dealing-with-feelings-form"
           additionalFormFields={Object.keys(responses)}
