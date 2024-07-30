@@ -12,11 +12,14 @@ import ReflectionQuestion from "@/components/ReflectionQuestion";
 
 const RecognisingAndDealingWithFeelingsModuleData = [
   {
-    id: 1,
+    id: "emotion-assessment",
     title: "Recognising and dealing with feelings",
+    type: "assessment",
+    dataSelector: ".MuiSlider-valueLabelLabel",
+    dataExtractor: (element) => Number(element.textContent),
     description: {
-      type: "content",
-      content: (
+      type: "assessment",
+      render: ({ onDataChange }) => (
         <>
           <br></br>
           <h4 className="secondary-color">What are emotions?</h4>
@@ -41,7 +44,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           <hr />
           <h5 className="secondary-color">Starting Point</h5>
           <p>Use this quiz to identify your current level of confidence.</p>
-          <EmotionsQuiz />
+          <EmotionsQuiz onDataChange={onDataChange} />
           <br />
           <hr />
           <h5 className="secondary-color">What happens in my body</h5>
@@ -147,7 +150,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
           />
           <br />
           <p>
-            <e>
+            <em>
               For example, if you are starting a new job, you are likely to get
               butterflies in your tummy, feel shaky and start sweating. If you
               struggle with your self-esteem you might think this means that you
@@ -157,7 +160,7 @@ const RecognisingAndDealingWithFeelingsModuleData = [
               nerves. However, if you see these nerves as something positive you
               might think this is due to your excitement at who you might meet
               and getting to do something new.
-            </e>
+            </em>
           </p>
           <p>
             We are now going to explore how pleasant and unpleasant thinking can

@@ -9,7 +9,7 @@ const AdultPornographyModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
     understanding_pornography_use: 3,
     why_pornography: 3,
-    understanding_pornography_use: 3,
+    understanding_pornography_use_problematic: 3,
     reducing_pornography: 3,
   });
 

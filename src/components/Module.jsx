@@ -10,56 +10,81 @@ const Module = ({
   additionalFormFields = [],
   onPostSubmit,
 }) => {
-  const [value, setValue] = useState(0);
-  const [values, setValues] = useState([]);
+  const [currentStep, setCurrentStep] = useState(0);
+  const [assessmentData, setAssessmentData] = useState({});
   const modRef = useRef(null);
   const formRef = useRef(null);
-
-  useEffect(() => {
-    console.log(values);
-  }, [values]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleAssessmentData = (data) => {
+    setAssessmentData((prevData) => ({
+      ...prevData,
+      [modules[currentStep].id]: data,
+    }));
+  };
+
   const handleClick = (e) => {
     e.preventDefault();
-    const elements = document.querySelectorAll(".MuiSlider-valueLabelLabel");
-    const numbers = Array.from(elements).map((element) =>
-      Number(element.textContent)
-    );
-    const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+    const currentModule = modules[currentStep];
 
-    if (value < modules.length - 1) {
-      setValue(value + 1);
+    if (currentModule.type === "assessment") {
+      const assessmentElements = document.querySelectorAll(
+        currentModule.dataSelector
+      );
+      const assessmentData = Array.from(assessmentElements).map((element) =>
+        currentModule.dataExtractor
+          ? currentModule.dataExtractor(element)
+          : element.value
+      );
+      handleAssessmentData(assessmentData);
     }
 
-    setValues((prevValues) => [...prevValues, sum]);
-    if (onContinue) {
-      onContinue(value + 1, sum);
+    if (currentStep < modules.length - 1) {
+      setCurrentStep(currentStep + 1);
+      if (onContinue) {
+        onContinue(currentStep + 1, assessmentData);
+      }
     }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Check if all steps are completed
+    if (currentStep < modules.length - 1) {
+      console.log("Please complete all steps before submitting.");
+      return;
+    }
+
     const formData = new FormData(formRef.current);
 
-    // Add any additional fields that might be specific to this module
     if (moduleProps.additionalFields) {
       Object.entries(moduleProps.additionalFields).forEach(([key, value]) => {
         formData.append(key, value);
       });
     }
 
-    // Add values to formData
-    values.forEach((value, index) => {
-      formData.append(`value_${index + 1}`, value);
+    // Append all assessment data to formData
+    Object.entries(assessmentData).forEach(([moduleId, data]) => {
+      if (Array.isArray(data)) {
+        data.forEach((value, index) => {
+          formData.append(`${moduleId}_${index + 1}`, value);
+        });
+      } else {
+        formData.append(moduleId, JSON.stringify(data));
+      }
     });
 
-    await onSubmit(formData, true); // Always true for final submission
-    if (onPostSubmit) {
-      onPostSubmit(); // Call the post-submit callback
+    try {
+      await onSubmit(formData, true);
+      if (onPostSubmit) {
+        onPostSubmit();
+      }
+    } catch (error) {
+      console.error("Form submission failed:", error);
     }
   };
 
@@ -67,13 +92,20 @@ const Module = ({
     if (modRef.current) {
       modRef.current.scrollIntoView({ behavior: "smooth" });
     }
-  }, [value]);
+  }, [currentStep]);
 
   const renderDescription = (description) => {
     if (typeof description === "object" && description !== null) {
       switch (description.type) {
         case "reflection":
-          return description.render ? description.render(moduleProps) : null;
+        case "assessment":
+        case "quiz":
+          return description.render
+            ? description.render({
+                ...moduleProps,
+                onDataChange: handleAssessmentData,
+              })
+            : null;
         case "content":
           return description.render
             ? description.render(moduleProps)
@@ -85,7 +117,7 @@ const Module = ({
     return description;
   };
 
-  const currentModule = modules[value];
+  const currentModule = modules[currentStep];
   const description = currentModule
     ? renderDescription(currentModule.description)
     : null;
@@ -114,9 +146,9 @@ const Module = ({
                 {modules.map((module, index) => (
                   <div
                     key={module.id}
-                    onClick={() => setValue(index)}
+                    onClick={() => setCurrentStep(index)}
                     className={`${
-                      index === value
+                      index === currentStep
                         ? "semi-blue-background fs-5 text-light p-4 border border-light"
                         : "blue-background fs-5 text-dark p-4 border border-light"
                     }`}
@@ -130,7 +162,7 @@ const Module = ({
             <div className="col-md-8 p-2">
               <article>{description}</article>
               <div className="d-flex justify-content-end">
-                {value < modules.length - 1 ? (
+                {currentStep < modules.length - 1 ? (
                   <Button
                     onClick={handleClick}
                     id="continue-button"

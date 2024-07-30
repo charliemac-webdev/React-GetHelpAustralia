@@ -13,11 +13,14 @@ import documentThree from "@/documents/Understanding Why_Progression timeline - 
 
 const understandingWhyModuleData = [
   {
-    id: 1,
+    id: "startingPoint-assessment",
     title: "Understanding why",
+    type: "assessment",
+    dataSelector: ".MuiSlider-valueLabelLabel",
+    dataExtractor: (element) => Number(element.textContent),
     description: {
-      type: "content",
-      content: (
+      type: "assessment",
+      render: ({ onDataChange }) => (
         <>
           <br></br>
           <h4 className="secondary-color">
@@ -53,7 +56,7 @@ const understandingWhyModuleData = [
             <li>sex addiction</li>
           </ul>
           <hr />
-          <StartingPointQuiz />
+          <StartingPointQuiz onDataChange={onDataChange} />
           <br />
           <p>
             If you have very little knowledge or some understanding, this

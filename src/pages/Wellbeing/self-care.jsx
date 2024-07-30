@@ -15,6 +15,7 @@ const SelfCareModule = ({ showMenu }) => {
     understanding_self_care: 3,
     self_care_plan: 3,
   });
+  const [wellbeingData, setWellbeingData] = useState({});
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const submissionStatus = useSelector(
@@ -26,8 +27,11 @@ const SelfCareModule = ({ showMenu }) => {
     showMenu(false);
   }, []);
 
-  const handleContinue = (step, score) => {
-    dispatch(updateWellbeingScores([...wellbeingScores, score]));
+  const handleContinue = (step, data) => {
+    if (data && data["wellbeing-assessment"]) {
+      setWellbeingData(data["wellbeing-assessment"]);
+      dispatch(updateWellbeingScores(data["wellbeing-assessment"]));
+    }
   };
 
   const handleQuestionChange = (id, value) => {
@@ -44,8 +48,10 @@ const SelfCareModule = ({ showMenu }) => {
       });
       if (!response.ok) throw new Error("Wellbeing form submission failed");
       console.log("Wellbeing form submitted successfully");
+      return true;
     } catch (error) {
       console.error("Wellbeing form submission error:", error);
+      return false;
     }
   };
 
@@ -64,30 +70,49 @@ const SelfCareModule = ({ showMenu }) => {
       });
       if (!response.ok) throw new Error("Reflection form submission failed");
       console.log("Reflection form submitted successfully");
+      return true;
     } catch (error) {
       console.error("Reflection form submission error:", error);
+      return false;
     }
   };
 
   const handleSubmit = async (formData, isFinalSubmission) => {
     if (isFinalSubmission) {
+      const wellbeingFormData = new FormData();
+      Object.entries(wellbeingData).forEach(([key, value]) => {
+        wellbeingFormData.append(key, value);
+      });
+      wellbeingFormData.append(
+        "wellbeingTotalScore",
+        Object.values(wellbeingData).reduce((a, b) => a + b, 0)
+      );
+
       try {
-        await submitWellbeingForm(formData);
-        await submitReflectionForm();
-        console.log("Both forms submitted successfully");
-        dispatch(submitWellbeingScoreToNetlify(formData));
+        const wellbeingSubmitted = await submitWellbeingForm(wellbeingFormData);
+        const reflectionSubmitted = await submitReflectionForm();
+
+        if (wellbeingSubmitted && reflectionSubmitted) {
+          console.log("Both forms submitted successfully");
+          dispatch(submitWellbeingScoreToNetlify(wellbeingFormData));
+          return true;
+        } else {
+          throw new Error("One or both form submissions failed");
+        }
       } catch (error) {
         console.error("Form submission error:", error);
+        return false;
       }
     } else {
       // Handle intermediate submissions if needed
       console.log("Intermediate submission:", Object.fromEntries(formData));
+      return true;
     }
   };
 
   const handlePostSubmit = () => {
-    // Navigate to the next module
-    navigate("/guilt-and-shame"); // Replace with the correct path to the next module
+    // Navigate to the next module only after successful submission
+    navigate("/guilt-and-shame");
   };
 
   const moduleProps = {
@@ -120,7 +145,7 @@ const SelfCareModule = ({ showMenu }) => {
           onSubmit={handleSubmit}
           onPostSubmit={handlePostSubmit}
           moduleProps={moduleProps}
-          formName="wellbeing-assessment"
+          formName="self-care-module"
           additionalFormFields={[
             "wellbeingScore_1",
             "wellbeingScore_2",
@@ -130,12 +155,6 @@ const SelfCareModule = ({ showMenu }) => {
             "wellbeingTotalScore",
           ]}
         />
-        {submissionStatus === "succeeded" && (
-          <p>Forms submitted successfully!</p>
-        )}
-        {submissionStatus === "failed" && (
-          <p>Form submission failed. Please try again.</p>
-        )}
       </MainContent>
     </>
   );

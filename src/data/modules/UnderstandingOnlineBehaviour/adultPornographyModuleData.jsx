@@ -847,7 +847,7 @@ const AdultPornographyModuleData = [
             I can now identify why I look at adult pornography.
           </ReflectionQuestion>
           <ReflectionQuestion
-            id="understanding_pornography_use"
+            id="understanding_pornography_use_problematic"
             value={responses.understanding_pornography_use}
             onChange={onQuestionChange}
           >

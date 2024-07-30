@@ -60,6 +60,7 @@ const Survey = ({ nextRoute, formName }) => {
       navigate(nextRoute);
     } catch (error) {
       console.error("Form submission error:", error);
+      navigate(nextRoute);
     }
   };
   return (

@@ -26,6 +26,7 @@ const emotionsQuizData = [
         />
         <div className="d-flex justify-content-between">
           <span className="w-50">No confidence</span>
+          <span className="w-20">Some confidence</span>
           <span className="w-50 text-end">Very confident</span>
         </div>
       </>
@@ -55,6 +56,7 @@ const emotionsQuizData = [
         />
         <div className="d-flex justify-content-between">
           <span className="w-50">No confidence</span>
+          <span className="w-20">Some confidence</span>
           <span className="w-50 text-end">Very confident</span>
         </div>
       </>
@@ -81,6 +83,7 @@ const emotionsQuizData = [
         />
         <div className="d-flex justify-content-between">
           <span className="w-50">No confidence</span>
+          <span className="w-20">Some confidence</span>
           <span className="w-50 text-end">Very confident</span>
         </div>
       </>
@@ -110,6 +113,7 @@ const emotionsQuizData = [
         />
         <div className="d-flex justify-content-between">
           <span className="w-50">No confidence</span>
+          <span className="w-20">Some confidence</span>
           <span className="w-50 text-end">Very confident</span>
         </div>
       </>
@@ -136,6 +140,7 @@ const emotionsQuizData = [
         />
         <div className="d-flex justify-content-between">
           <span className="w-50">No confidence</span>
+          <span className="w-20">Some confidence</span>
           <span className="w-50 text-end">Very confident</span>
         </div>
       </>

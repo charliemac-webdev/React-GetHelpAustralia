@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  submitEmotionScoreToNetlify,
+  updateEmotionScores,
+} from "@/context/emotionScoreSlice";
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
@@ -10,78 +15,113 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
     understanding_emotions: 3,
     strategies_difficult_emotions: 3,
   });
-
+  const [emotionData, setEmotionData] = useState({});
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const submissionStatus = useSelector(
+    (state) => state.emotionScore.submissionStatus
+  );
+  const emotionScores = useSelector((state) => state.emotionScore.scores);
 
   useEffect(() => {
     showMenu(false);
   }, []);
 
+  const handleContinue = (step, data) => {
+    if (data && data["emotion-assessment"]) {
+      setEmotionData(data["emotion-assessment"]);
+      dispatch(updateEmotionScores(data["emotion-assessment"]));
+    }
+  };
+
   const handleQuestionChange = (id, value) => {
     setResponses((prev) => ({ ...prev, [id]: value }));
   };
 
-  const handleContinue = (newModuleIndex) => {
-    console.log(`Moving to module ${newModuleIndex}`);
-    // You can add any additional logic here that needs to run when the user moves to the next module
+  const submitEmotionForm = async (formData) => {
+    formData.append("form-name", "emotion-assessment");
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      });
+      if (!response.ok) throw new Error("Emotion form submission failed");
+      console.log("Emotion form submitted successfully");
+      return true;
+    } catch (error) {
+      console.error("Emotion form submission error:", error);
+      return false;
+    }
+  };
+
+  const submitReflectionForm = async () => {
+    const reflectionFormData = new FormData();
+    reflectionFormData.append(
+      "form-name",
+      "recognising-and-dealing-with-feelings-reflection-form"
+    );
+    Object.entries(responses).forEach(([key, value]) => {
+      reflectionFormData.append(key, value);
+    });
+
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(reflectionFormData).toString(),
+      });
+      if (!response.ok) throw new Error("Reflection form submission failed");
+      console.log("Reflection form submitted successfully");
+      return true;
+    } catch (error) {
+      console.error("Reflection form submission error:", error);
+      return false;
+    }
   };
 
   const handleSubmit = async (formData, isFinalSubmission) => {
     if (isFinalSubmission) {
-      console.log("Submitting form...");
+      const emotionFormData = new FormData();
+      Object.entries(emotionData).forEach(([key, value]) => {
+        emotionFormData.append(key, value);
+      });
+      emotionFormData.append(
+        "emotionTotalScore",
+        Object.values(emotionData).reduce((a, b) => a + b, 0)
+      );
+
       try {
-        const response = await fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams({
-            "form-name":
-              "recognising-and-dealing-with-feelings-reflection-form",
-            ...Object.fromEntries(formData),
-            ...responses,
-          }).toString(),
-        });
+        const emotionSubmitted = await submitEmotionForm(emotionFormData);
+        const reflectionSubmitted = await submitReflectionForm();
 
-        if (!response.ok) {
-          throw new Error("Submission failed");
+        if (emotionSubmitted && reflectionSubmitted) {
+          console.log("Both forms submitted successfully");
+          dispatch(submitEmotionScoreToNetlify(emotionFormData));
+          return true;
+        } else {
+          throw new Error("One or both form submissions failed");
         }
-
-        console.log(
-          "Form submitted successfully. Thank you for your feedback!"
-        );
       } catch (error) {
         console.error("Form submission error:", error);
+        return false;
       }
     } else {
       // Handle intermediate submissions if needed
       console.log("Intermediate submission:", Object.fromEntries(formData));
+      return true;
     }
   };
 
   const handlePostSubmit = () => {
-    // Navigate to the next module
-    navigate("/self-care"); // Replace with the correct path to the next module
+    // Navigate to the next module only after successful submission
+    navigate("/self-care");
   };
 
-  const processedModules = RecognisingAndDealingWithFeelingsModuleData.map(
-    (module) => {
-      if (module.description.type === "reflection") {
-        return {
-          ...module,
-          description: {
-            ...module.description,
-            render: () =>
-              module.description.render({
-                responses,
-                onQuestionChange: handleQuestionChange,
-              }),
-          },
-        };
-      }
-      return module;
-    }
-  );
-
   const moduleProps = {
+    dispatch,
+    updateEmotionScores,
+    emotionScores,
     responses,
     onQuestionChange: handleQuestionChange,
   };
@@ -108,13 +148,20 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
           <li>How to become more assertive</li>
         </ul>
         <Module
-          modules={processedModules}
+          modules={RecognisingAndDealingWithFeelingsModuleData}
           onContinue={handleContinue}
           onSubmit={handleSubmit}
           onPostSubmit={handlePostSubmit}
           moduleProps={moduleProps}
-          formName="recognising-and-dealing-with-feelings-reflection-form"
-          additionalFormFields={Object.keys(responses)}
+          formName="emotion-quiz"
+          additionalFormFields={[
+            "emotionScore_1",
+            "emotionScore_2",
+            "emotionScore_3",
+            "emotionScore_4",
+            "emotionScore_5",
+            "emotionTotalScore",
+          ]}
         />
       </MainContent>
     </>

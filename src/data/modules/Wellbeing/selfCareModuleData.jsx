@@ -57,11 +57,14 @@ const SelfCareModuleData = [
     },
   },
   {
-    id: 2,
-    title: "Wellbeing assessment",
+    id: "wellbeing-assessment",
+    title: "Wellbeing Assessment",
+    type: "assessment",
+    dataSelector: ".MuiSlider-valueLabelLabel",
+    dataExtractor: (element) => Number(element.textContent),
     description: {
-      type: "content",
-      render: ({ dispatch, updateWellbeingScores }) => (
+      type: "assessment",
+      render: ({ onDataChange }) => (
         <>
           <br></br>
           <p>
@@ -70,10 +73,7 @@ const SelfCareModuleData = [
             self-care.
           </p>
           <br />
-          <WellbeingAssessment
-            dispatch={dispatch}
-            updateWellbeingScores={updateWellbeingScores}
-          />
+          <WellbeingAssessment onDataChange={onDataChange} />
           <br />
           <br />
         </>
@@ -107,60 +107,62 @@ const SelfCareModuleData = [
             section is already high-scoring.
           </p>
           <table className="table table-bordered">
-            <tr>
-              <td>Area of your life</td>
-              <td>Goal</td>
-            </tr>
-            <tr>
-              <td>Physical</td>
-              <td>
-                <ul className="content-list">
-                  <li>No internet an hour before bed</li>
-                  <li>Regular bedtime</li>
-                  <li>Walk ten minutes every day</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Social</td>
-              <td>
-                <ul className="content-list">
-                  <li>Call a friend once a week</li>
-                  <li>Join a club or do an activity to meet new people</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Mental</td>
-              <td>
-                <ul className="content-list">
-                  <li>Make a list of five things you like about yourself</li>
-                  <li>Take a relaxing bath</li>
-                  <li>
-                    Say no to things you don’t want to do – boundaries are
-                    important
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Spiritual</td>
-              <td>
-                <ul className="content-list">
-                  <li>Spend ten minutes meditating each day</li>
-                  <li>Listen to a guided relaxation before bed</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>Emotional</td>
-              <td>
-                <ul className="content-list">
-                  <li>Talk about how you feel with a trusted person</li>
-                  <li>Keep a diary</li>
-                </ul>
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Area of your life</td>
+                <td>Goal</td>
+              </tr>
+              <tr>
+                <td>Physical</td>
+                <td>
+                  <ul className="content-list">
+                    <li>No internet an hour before bed</li>
+                    <li>Regular bedtime</li>
+                    <li>Walk ten minutes every day</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Social</td>
+                <td>
+                  <ul className="content-list">
+                    <li>Call a friend once a week</li>
+                    <li>Join a club or do an activity to meet new people</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Mental</td>
+                <td>
+                  <ul className="content-list">
+                    <li>Make a list of five things you like about yourself</li>
+                    <li>Take a relaxing bath</li>
+                    <li>
+                      Say no to things you don’t want to do – boundaries are
+                      important
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Spiritual</td>
+                <td>
+                  <ul className="content-list">
+                    <li>Spend ten minutes meditating each day</li>
+                    <li>Listen to a guided relaxation before bed</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Emotional</td>
+                <td>
+                  <ul className="content-list">
+                    <li>Talk about how you feel with a trusted person</li>
+                    <li>Keep a diary</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
           </table>
           <br />
         </>
