@@ -21,27 +21,44 @@ const RelapsePreventionModule = ({ showMenu }) => {
     setResponses((prev) => ({ ...prev, [id]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams({
-        "form-name": "relapse-reflection-form",
-        ...responses,
-      }).toString(),
-    })
-      .then(() => {
-        console.log("Thank you for your feedback!");
-        navigate("/building-a-good-life"); // Navigate to the next module after successful submission
-      })
-      .catch((error) => console.log(error));
-  };
-
   const handleContinue = (newModuleIndex) => {
     console.log(`Moving to module ${newModuleIndex}`);
     // You can add any additional logic here that needs to run when the user moves to the next module
-    // For example, you might want to save the current state, trigger an analytics event, etc.
+  };
+
+  const handleSubmit = async (formData, isFinalSubmission) => {
+    if (isFinalSubmission) {
+      console.log("Submitting form...");
+      try {
+        const response = await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({
+            "form-name": "relapse-reflection-form",
+            ...Object.fromEntries(formData),
+            ...responses,
+          }).toString(),
+        });
+
+        if (!response.ok) {
+          throw new Error("Submission failed");
+        }
+
+        console.log(
+          "Form submitted successfully. Thank you for your feedback!"
+        );
+      } catch (error) {
+        console.error("Form submission error:", error);
+      }
+    } else {
+      // Handle intermediate submissions if needed
+      console.log("Intermediate submission:", Object.fromEntries(formData));
+    }
+  };
+
+  const handlePostSubmit = () => {
+    // Navigate to the next module
+    navigate("/building-a-good-life"); // Replace with the correct path to the next module
   };
 
   const processedModules = RelapsePreventionModuleData.map((module) => {
@@ -60,6 +77,11 @@ const RelapsePreventionModule = ({ showMenu }) => {
     }
     return module;
   });
+
+  const moduleProps = {
+    responses,
+    onQuestionChange: handleQuestionChange,
+  };
   return (
     <>
       <Heading>
@@ -75,18 +97,15 @@ const RelapsePreventionModule = ({ showMenu }) => {
           a relapse, and if you do slip, how to pick yourself up and get
           building again.
         </p>
-        <form
+        <Module
+          modules={processedModules}
+          onContinue={handleContinue}
           onSubmit={handleSubmit}
-          name="relapse-reflection-form"
-          data-netlify="true"
-        >
-          <input
-            type="hidden"
-            name="form-name"
-            value="relapse-reflection-form"
-          />
-          <Module modules={processedModules} onContinue={handleContinue} />
-        </form>
+          onPostSubmit={handlePostSubmit}
+          moduleProps={moduleProps}
+          formName="relapse-reflection-form"
+          additionalFormFields={Object.keys(responses)}
+        />
       </MainContent>
     </>
   );

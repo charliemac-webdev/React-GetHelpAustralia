@@ -20,6 +20,11 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
     setResponses((prev) => ({ ...prev, [id]: value }));
   };
 
+  const handleContinue = (newModuleIndex) => {
+    console.log(`Moving to module ${newModuleIndex}`);
+    // You can add any additional logic here that needs to run when the user moves to the next module
+  };
+
   const handleSubmit = async (formData, isFinalSubmission) => {
     if (isFinalSubmission) {
       console.log("Submitting form...");
@@ -50,10 +55,9 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
     }
   };
 
-  const handleContinue = (newModuleIndex) => {
-    console.log(`Moving to module ${newModuleIndex}`);
-    // You can add any additional logic here that needs to run when the user moves to the next module
-    // For example, you might want to save the current state, trigger an analytics event, etc.
+  const handlePostSubmit = () => {
+    // Navigate to the next module
+    navigate("/"); // Replace with the correct path to the next module
   };
 
   const processedModules = BuildingAGoodLifeModuleData.map((module) => {
@@ -72,11 +76,6 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
     }
     return module;
   });
-
-  const handlePostSubmit = () => {
-    // Navigate to the next module
-    navigate("/"); // Replace with the correct path to the next module
-  };
 
   const moduleProps = {
     responses,
