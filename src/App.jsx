@@ -18,8 +18,8 @@ function App() {
     <Provider store={store}>
       <div className="wrapper">
         <BrowserRouter>
-          {/* <PostHogPageViewTracker />
-          <GoogleAnalytics /> */}
+          <PostHogPageViewTracker />
+          <GoogleAnalytics />
           <ScrollToTop />
           <Header />
           <Help />
