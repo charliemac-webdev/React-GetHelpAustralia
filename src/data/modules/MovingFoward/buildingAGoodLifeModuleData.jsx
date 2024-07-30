@@ -4,7 +4,6 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import { MdExpandMore } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 
 import document from "@/documents/Good Life Plan.pdf";
@@ -463,12 +462,6 @@ const BuildingAGoodLifeModuleData = [
             I now know some helpful strategies to meet my needs in a new and
             healthy way.
           </ReflectionQuestion>
-
-          <div className="d-flex justify-content-end">
-            <Button id="next-button" classes="btn" type="submit">
-              Next Module
-            </Button>
-          </div>
         </>
       ),
     },

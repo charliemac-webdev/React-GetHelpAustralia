@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import BuildingAGoodLifeModuleData from "@/data/modules/MovingFoward/buildingAGoodLifeModuleData";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const BuildingAGoodLifeModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -20,21 +20,34 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
     setResponses((prev) => ({ ...prev, [id]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams({
-        "form-name": "good-life-reflection-form",
-        ...responses,
-      }).toString(),
-    })
-      .then(() => {
-        console.log("Thank you for your feedback!");
-        navigate("/"); // Navigate to the next module after successful submission
-      })
-      .catch((error) => console.log(error));
+  const handleSubmit = async (formData, isFinalSubmission) => {
+    if (isFinalSubmission) {
+      console.log("Submitting form...");
+      try {
+        const response = await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({
+            "form-name": "good-life-reflection-form",
+            ...Object.fromEntries(formData),
+            ...responses,
+          }).toString(),
+        });
+
+        if (!response.ok) {
+          throw new Error("Submission failed");
+        }
+
+        console.log(
+          "Form submitted successfully. Thank you for your feedback!"
+        );
+      } catch (error) {
+        console.error("Form submission error:", error);
+      }
+    } else {
+      // Handle intermediate submissions if needed
+      console.log("Intermediate submission:", Object.fromEntries(formData));
+    }
   };
 
   const handleContinue = (newModuleIndex) => {
@@ -60,6 +73,16 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
     return module;
   });
 
+  const handlePostSubmit = () => {
+    // Navigate to the next module
+    navigate("/"); // Replace with the correct path to the next module
+  };
+
+  const moduleProps = {
+    responses,
+    onQuestionChange: handleQuestionChange,
+  };
+
   return (
     <>
       <Heading>
@@ -74,18 +97,15 @@ const BuildingAGoodLifeModule = ({ showMenu }) => {
           order to feel happy and satisfied. When people are happy with their
           lives, they're less likely to get into trouble.
         </p>
-        <form
+        <Module
+          modules={processedModules}
+          onContinue={handleContinue}
           onSubmit={handleSubmit}
-          name="good-life-reflection-form"
-          data-netlify="true"
-        >
-          <input
-            type="hidden"
-            name="form-name"
-            value="good-life-reflection-form"
-          />
-          <Module modules={processedModules} onContinue={handleContinue} />
-        </form>
+          onPostSubmit={handlePostSubmit}
+          moduleProps={moduleProps}
+          formName="good-life-reflection-form"
+          additionalFormFields={Object.keys(responses)}
+        />
       </MainContent>
     </>
   );

@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 import imageOne from "@/images/legal-consequences.png";
 
@@ -496,12 +494,6 @@ const DisclosureModuleData = [
             I now know some helpful ways to speak with my friends and family
             about my situation.
           </ReflectionQuestion>
-
-          <div className="d-flex justify-content-end">
-            <Button id="next-button" classes="btn" type="submit">
-              Next Module
-            </Button>
-          </div>
         </>
       ),
     },

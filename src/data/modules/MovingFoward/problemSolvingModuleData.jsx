@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
 import document from "@/documents/Problem Solving - Exercise 1_Problem Diary.pdf";
 import imageOne from "@/images/Improving my self esteem.png";
+import { Link } from "react-router-dom";
 
 const ProblemSolvingModuleData = [
   {
@@ -517,12 +516,6 @@ const ProblemSolvingModuleData = [
           >
             I can now identify ways to avoid acting on impulse.
           </ReflectionQuestion>
-
-          <div className="d-flex justify-content-end">
-            <Button id="next-button" classes="btn" type="submit">
-              Next Module
-            </Button>
-          </div>
         </div>
       ),
     },

@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
-import Button from "@/components/Button";
 import ReflectionQuestion from "@/components/ReflectionQuestion";
+import { Link } from "react-router-dom";
 
 const RelapsePreventionModuleData = [
   {
@@ -425,12 +424,6 @@ const RelapsePreventionModuleData = [
             I now know some helpful ways to cope with risky thoughts, feelings,
             behaviours, people, and places.
           </ReflectionQuestion>
-
-          <div className="d-flex justify-content-end">
-            <Button id="next-button" classes="btn" type="submit">
-              Next Module
-            </Button>
-          </div>
         </div>
       ),
     },
