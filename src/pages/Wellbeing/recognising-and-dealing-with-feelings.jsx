@@ -155,6 +155,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
           moduleProps={moduleProps}
           formName="emotion-quiz"
           additionalFormFields={[
+            ...Object.keys(responses),
             "emotionScore_1",
             "emotionScore_2",
             "emotionScore_3",
