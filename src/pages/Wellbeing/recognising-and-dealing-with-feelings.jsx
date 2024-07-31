@@ -158,7 +158,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
           formName={formName}
           additionalFormFields={[
             ...Object.keys(responses),
-            ...Object.keys(emotionData).map((key) => `emotionScore_${key}`),
+            ...Object.keys(emotionScores).map((key) => `emotionScore_${key}`),
             "quizTotalScore",
           ]}
         />
