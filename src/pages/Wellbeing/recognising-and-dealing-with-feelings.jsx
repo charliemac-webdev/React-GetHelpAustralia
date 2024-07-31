@@ -1,10 +1,7 @@
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
-import {
-  submitEmotionScoreToNetlify,
-  updateEmotionScores,
-} from "@/context/emotionScoreSlice";
+import { updateEmotionScores } from "@/context/emotionScoreSlice";
 import RecognisingAndDealingWithFeelingsModuleData from "@/data/modules/Wellbeing/recognisingAndDealingWithFeelingsModuleData";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -84,41 +81,91 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
 
   const handleSubmit = async (formData, isFinalSubmission) => {
     if (isFinalSubmission) {
-      const emotionFormData = new FormData();
-      Object.entries(emotionData).forEach(([key, value]) => {
-        emotionFormData.append(key, value);
-      });
-      emotionFormData.append(
-        "emotionTotalScore",
-        Object.values(emotionData).reduce((a, b) => a + b, 0)
-      );
-
+      console.log("Submitting form...");
       try {
-        const emotionSubmitted = await submitEmotionForm(emotionFormData);
-        const reflectionSubmitted = await submitReflectionForm();
+        const response = await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({
+            "form-name":
+              "recognising-and-dealing-with-feelings-reflection-form",
+            ...Object.fromEntries(formData),
+            ...responses,
+          }).toString(),
+        });
 
-        if (emotionSubmitted && reflectionSubmitted) {
-          console.log("Both forms submitted successfully");
-          dispatch(submitEmotionScoreToNetlify(emotionFormData));
-          return true;
-        } else {
-          throw new Error("One or both form submissions failed");
+        if (!response.ok) {
+          throw new Error("Submission failed");
         }
+
+        console.log(
+          "Form submitted successfully. Thank you for your feedback!"
+        );
       } catch (error) {
         console.error("Form submission error:", error);
-        return false;
       }
     } else {
       // Handle intermediate submissions if needed
       console.log("Intermediate submission:", Object.fromEntries(formData));
-      return true;
     }
   };
+
+  // const handleSubmit = async (formData, isFinalSubmission) => {
+  //   if (isFinalSubmission) {
+  //     const emotionFormData = new FormData();
+  //     Object.entries(emotionData).forEach(([key, value]) => {
+  //       emotionFormData.append(key, value);
+  //     });
+  //     emotionFormData.append(
+  //       "emotionTotalScore",
+  //       Object.values(emotionData).reduce((a, b) => a + b, 0)
+  //     );
+
+  //     try {
+  //       const emotionSubmitted = await submitEmotionForm(emotionFormData);
+  //       const reflectionSubmitted = await submitReflectionForm();
+
+  //       if (emotionSubmitted && reflectionSubmitted) {
+  //         console.log("Both forms submitted successfully");
+  //         dispatch(submitEmotionScoreToNetlify(emotionFormData));
+  //         return true;
+  //       } else {
+  //         throw new Error("One or both form submissions failed");
+  //       }
+  //     } catch (error) {
+  //       console.error("Form submission error:", error);
+  //       return false;
+  //     }
+  //   } else {
+  //     // Handle intermediate submissions if needed
+  //     console.log("Intermediate submission:", Object.fromEntries(formData));
+  //     return true;
+  //   }
+  // };
 
   const handlePostSubmit = () => {
     // Navigate to the next module only after successful submission
     navigate("/self-care");
   };
+
+  const processedModules = RecognisingAndDealingWithFeelingsModuleData.map(
+    (module) => {
+      if (module.description.type === "reflection") {
+        return {
+          ...module,
+          description: {
+            ...module.description,
+            render: () =>
+              module.description.render({
+                responses,
+                onQuestionChange: handleQuestionChange,
+              }),
+          },
+        };
+      }
+      return module;
+    }
+  );
 
   const moduleProps = {
     dispatch,
@@ -150,7 +197,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
           <li>How to become more assertive</li>
         </ul>
         <Module
-          modules={RecognisingAndDealingWithFeelingsModuleData}
+          modules={processedModules}
           onContinue={handleContinue}
           onSubmit={handleSubmit}
           onPostSubmit={handlePostSubmit}
