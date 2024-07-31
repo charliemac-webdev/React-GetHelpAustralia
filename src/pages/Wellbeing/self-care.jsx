@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
 import {
   submitWellbeingScoreToNetlify,
   updateWellbeingScores,
 } from "@/context/wellbeingScoreSlice";
-import Heading from "@/components/Heading";
-import MainContent from "@/components/MainContent";
-import Module from "@/components/Module";
 import SelfCareModuleData from "@/data/modules/Wellbeing/selfCareModuleData";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const SelfCareModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -145,7 +145,7 @@ const SelfCareModule = ({ showMenu }) => {
           onSubmit={handleSubmit}
           onPostSubmit={handlePostSubmit}
           moduleProps={moduleProps}
-          formName="self-care-module"
+          formName="wellbeing-assessment"
           additionalFormFields={[
             "wellbeingScore_1",
             "wellbeingScore_2",

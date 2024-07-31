@@ -39,7 +39,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
   };
 
   const submitEmotionForm = async (formData) => {
-    formData.append("form-name", "emotion-assessment");
+    formData.append("form-name", "emotion-quiz");
     try {
       const response = await fetch("/", {
         method: "POST",

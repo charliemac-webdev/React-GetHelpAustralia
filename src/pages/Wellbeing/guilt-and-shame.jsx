@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Heading from "@/components/Heading";
 import MainContent from "@/components/MainContent";
 import Module from "@/components/Module";
 import GuiltAndShameModuleData from "@/data/modules/Wellbeing/guiltAndShameModuleData";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const GuiltAndShameModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({

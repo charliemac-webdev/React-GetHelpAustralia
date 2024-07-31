@@ -133,7 +133,7 @@ const Module = ({
     >
       <input type="hidden" name="form-name" value={formName} />
       {additionalFormFields.map((field) => (
-        <input key={field} type="hidden" name={field} />
+        <input key={field} type="hidden" name={`${formName}-${field}`} />
       ))}
       <div className="container-fluid" ref={modRef}>
         <div
