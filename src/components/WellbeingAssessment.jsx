@@ -1,6 +1,6 @@
-import { BarChart } from "@mui/x-charts/BarChart";
-import { useState, useMemo } from "react";
 import wellbeingAssessmentData from "@/data/modules/assessments/wellbeingAssessmentData";
+import { BarChart } from "@mui/x-charts/BarChart";
+import { useMemo, useState } from "react";
 import Button from "./Button";
 
 const WellbeingAssessment = ({ dispatch, updateWellbeingScores }) => {
@@ -13,20 +13,21 @@ const WellbeingAssessment = ({ dispatch, updateWellbeingScores }) => {
     [values]
   );
 
-  const handleClick = () => {
+  const handleClickNext = () => {
     const selectedValue = Number(
       document.querySelector(".MuiSlider-valueLabelLabel").textContent
     );
-
     const newValues = [...values, selectedValue];
     setValues(newValues);
 
-    if (dispatch && updateWellbeingScores) {
-      dispatch(updateWellbeingScores(newValues));
-    }
-
     if (active < wellbeingAssessmentData.length - 1) {
       setActive(active + 1);
+    }
+  };
+
+  const handleSubmit = () => {
+    if (dispatch && submitWellbeingScoreToNetlify) {
+      dispatch(submitWellbeingScoreToNetlify(new FormData(document.form)));
     }
   };
 
@@ -109,15 +110,11 @@ const WellbeingAssessment = ({ dispatch, updateWellbeingScores }) => {
       )}
 
       <div className="d-flex justify-content-between">
-        {active <= 3 ? (
-          <Button id="next-button" classes="btn" onClick={handleClick}>
+        {active === wellbeingAssessmentData.length - 1 ? null : (
+          <Button id="next-button" classes="btn" onClick={handleClickNext}>
             Next
           </Button>
-        ) : active === 4 ? (
-          <Button id="submit-button" classes="btn" onClick={handleClick}>
-            Submit
-          </Button>
-        ) : null}
+        )}
       </div>
     </>
   );
