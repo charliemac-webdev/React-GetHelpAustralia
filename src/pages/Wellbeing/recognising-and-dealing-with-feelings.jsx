@@ -27,6 +27,8 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
     showMenu(false);
   }, []);
 
+  const formName = "recognising-and-dealing-with-feelings-form";
+
   const handleContinue = (step, data) => {
     if (data && data["emotion-quiz"]) {
       setEmotionData(data["emotion-quiz"]);
@@ -153,15 +155,11 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
           onSubmit={handleSubmit}
           onPostSubmit={handlePostSubmit}
           moduleProps={moduleProps}
-          formName="emotion-quiz"
+          formName={formName}
           additionalFormFields={[
             ...Object.keys(responses),
-            "emotionScore_1",
-            "emotionScore_2",
-            "emotionScore_3",
-            "emotionScore_4",
-            "emotionScore_5",
-            "emotionTotalScore",
+            ...Object.keys(emotionData).map((key) => `emotionScore_${key}`),
+            "quizTotalScore",
           ]}
         />
       </MainContent>
