@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 const DistressQuizResults = () => {
   const scores = useSelector((state) => state.distressScore.scores);
-  console.log("Scores from Redux store:", scores);
+  // console.log("Scores from Redux store:", scores);
   const totalScore = scores.reduce((sum, item) => {
-    console.log(`Adding score for ${item.id}: ${item.score}`);
+    // console.log(`Adding score for ${item.id}: ${item.score}`);
     return sum + item.score;
   }, 0);
-  console.log("Calculated total score:", totalScore);
+  // console.log("Calculated total score:", totalScore);
   useEffect(() => {
     const encode = (data) => {
       return Object.keys(data)

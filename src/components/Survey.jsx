@@ -41,7 +41,7 @@ const Survey = ({ nextRoute, formName }) => {
       "form-name": formName,
       ...formData,
     };
-    console.log("Submitting form data:", dataToSubmit);
+    // console.log("Submitting form data:", dataToSubmit);
     try {
       const response = await fetch("/", {
         method: "POST",
@@ -56,10 +56,10 @@ const Survey = ({ nextRoute, formName }) => {
       }
 
       const result = await response.text();
-      console.log("Form submission result:", result);
+      // console.log("Form submission result:", result);
       navigate(nextRoute);
     } catch (error) {
-      console.error("Form submission error:", error);
+      // console.error("Form submission error:", error);
       navigate(nextRoute);
     }
   };

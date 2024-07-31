@@ -1,14 +1,14 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import Heading from "@/components/Heading";
+import MainContent from "@/components/MainContent";
+import Module from "@/components/Module";
 import {
   submitEmotionScoreToNetlify,
   updateEmotionScores,
 } from "@/context/emotionScoreSlice";
-import Heading from "@/components/Heading";
-import MainContent from "@/components/MainContent";
-import Module from "@/components/Module";
 import RecognisingAndDealingWithFeelingsModuleData from "@/data/modules/Wellbeing/recognisingAndDealingWithFeelingsModuleData";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
   const [responses, setResponses] = useState({
@@ -28,9 +28,9 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
   }, []);
 
   const handleContinue = (step, data) => {
-    if (data && data["emotion-assessment"]) {
-      setEmotionData(data["emotion-assessment"]);
-      dispatch(updateEmotionScores(data["emotion-assessment"]));
+    if (data && data["emotion-quiz"]) {
+      setEmotionData(data["emotion-quiz"]);
+      dispatch(updateEmotionScores(data["emotion-quiz"]));
     }
   };
 
