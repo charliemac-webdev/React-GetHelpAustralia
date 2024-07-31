@@ -24,7 +24,7 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
     showMenu(false);
   }, []);
 
-  const formName = "recognising-and-dealing-with-feelings-form";
+  const formName = "recognising-and-dealing-with-feelings-reflection-form";
 
   const handleContinue = (step, data) => {
     if (data && data["emotion-quiz"]) {
@@ -168,9 +168,9 @@ const RecognisingAndDealingWithFeelingsModule = ({ showMenu }) => {
   );
 
   const moduleProps = {
-    dispatch,
-    updateEmotionScores,
-    emotionScores,
+    // dispatch,
+    // updateEmotionScores,
+    // emotionScores,
     responses,
     onQuestionChange: handleQuestionChange,
   };
